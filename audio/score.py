@@ -36,7 +36,8 @@ CH = {"Dm": [50, 57, 62, 65, 69], "F": [53, 57, 60, 65, 69], "Gm": [55, 58, 62, 
 BASS = {"Dm": 38, "F": 41, "Gm": 43, "A": 45, "Bb": 46, "C": 36}
 LEVEL = {"hook": 0.9, "setting": 0.75, "action": 0.85, "escalation": 1.0, "snap": 1.15, "deadpan": 0.6, "explanation": 0.7,
          "consequence": 0.75, "callback": 0.85}
-HITS = [772, 791, 835, 866]
+HITS = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "storyboard.json")))["events"]["hits"]  # single source: the storyboard
+assert HITS == [772, 791, 835, 866], HITS
 
 
 def music():

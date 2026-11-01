@@ -1,0 +1,694 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 2078,
+ "events": {
+  "flashAt": 164,
+  "flashes": [
+   [
+    70,
+    0.85
+   ],
+   [
+    671,
+    1
+   ],
+   [
+    1262,
+    0.7
+   ],
+   [
+    312,
+    0.35
+   ]
+  ],
+  "hits": [
+   772,
+   791,
+   835,
+   866
+  ],
+  "kicks": [
+   [
+    364,
+    0.8
+   ],
+   [
+    671,
+    1.4
+   ],
+   [
+    772,
+    1
+   ],
+   [
+    791,
+    1
+   ],
+   [
+    835,
+    1
+   ],
+   [
+    866,
+    1
+   ],
+   [
+    921,
+    1.2
+   ],
+   [
+    1031,
+    0.7
+   ],
+   [
+    1262,
+    0.8
+   ]
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 166,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    300,
+    2600
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 70
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    },
+    {
+     "f": 92,
+     "fn": "S1b",
+     "dur": 40
+    }
+   ],
+   "dof": [
+    {
+     "f": 0,
+     "cInf": 0
+    }
+   ],
+   "note": "HOOK: the sky explodes"
+  },
+  {
+   "id": 2,
+   "a": 166,
+   "b": 240,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    120,
+    900
+   ],
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 166,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "SETTING: taiga, river"
+  },
+  {
+   "id": 3,
+   "a": 240,
+   "b": 303,
+   "light": "day",
+   "scene": "taiga",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 240,
+     "fn": "S3a"
+    },
+    {
+     "f": 268,
+     "fn": "S3b",
+     "dur": 24
+    }
+   ],
+   "dof": [
+    {
+     "f": 240,
+     "cInf": 12,
+     "focus": [
+      40.7,
+      1.6,
+      314.4
+     ]
+    }
+   ],
+   "note": "herders + reindeer"
+  },
+  {
+   "id": 4,
+   "a": 303,
+   "b": 420,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    200,
+    2600
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 470
+   },
+   "camera": [
+    {
+     "f": 303,
+     "fn": "S4a"
+    },
+    {
+     "f": 362,
+     "fn": "S4b",
+     "cut": true
+    }
+   ],
+   "dof": [
+    {
+     "f": 303,
+     "cInf": 0
+    },
+    {
+     "f": 362,
+     "cInf": 12,
+     "focus": [
+      40.5,
+      1.65,
+      314.3
+     ]
+    }
+   ],
+   "note": "ACTION: the light, the bang"
+  },
+  {
+   "id": 5,
+   "a": 420,
+   "b": 540,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    400,
+    5000
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 671
+   },
+   "camera": [
+    {
+     "f": 420,
+     "fn": "S5a"
+    },
+    {
+     "f": 478,
+     "fn": "S5b",
+     "dur": 30
+    }
+   ],
+   "dof": [
+    {
+     "f": 420,
+     "cInf": 0
+    }
+   ],
+   "note": "the rock, 15 km/s"
+  },
+  {
+   "id": 6,
+   "a": 540,
+   "b": 668,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    400,
+    5000
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 671
+   },
+   "camera": [
+    {
+     "f": 540,
+     "fn": "S6a"
+    },
+    {
+     "f": 618,
+     "fn": "S6b",
+     "dur": 26
+    }
+   ],
+   "dof": [],
+   "note": "ESCALATION: air squeezes"
+  },
+  {
+   "id": 7,
+   "a": 668,
+   "b": 750,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    250,
+    2200
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 671
+   },
+   "camera": [
+    {
+     "f": 668,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "the burst"
+  },
+  {
+   "id": 8,
+   "a": 750,
+   "b": 835,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    300,
+    1800
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 745
+   },
+   "camera": [
+    {
+     "f": 750,
+     "fn": "S8a"
+    },
+    {
+     "f": 789,
+     "fn": "S8b",
+     "dur": 22
+    }
+   ],
+   "dof": [],
+   "note": "SNAP: wave slams down"
+  },
+  {
+   "id": 9,
+   "a": 835,
+   "b": 915,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    120,
+    900
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 866,
+    "arrive": 232
+   },
+   "camera": [
+    {
+     "f": 835,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "knocked over like grass"
+  },
+  {
+   "id": 10,
+   "a": 915,
+   "b": 968,
+   "light": "day",
+   "scene": "taiga",
+   "clock": {
+    "kind": "rel",
+    "at": 921,
+    "arrive": 318
+   },
+   "camera": [
+    {
+     "f": 915,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [
+    {
+     "f": 915,
+     "cInf": 6
+    }
+   ],
+   "note": "tents into the air"
+  },
+  {
+   "id": 11,
+   "a": 968,
+   "b": 1062,
+   "light": "space",
+   "scene": "globe",
+   "clock": {
+    "kind": "rel",
+    "at": 968
+   },
+   "camera": [
+    {
+     "f": 968,
+     "fn": "S11a"
+    },
+    {
+     "f": 1018,
+     "fn": "S11b",
+     "dur": 26
+    }
+   ],
+   "dof": [
+    {
+     "f": 968,
+     "cInf": 0
+    }
+   ],
+   "note": "circled the planet. Twice."
+  },
+  {
+   "id": 12,
+   "a": 1062,
+   "b": 1228,
+   "light": "golden",
+   "scene": "taiga",
+   "fog": [
+    140,
+    1200
+   ],
+   "xfade": 8,
+   "clock": {
+    "kind": "after"
+   },
+   "camera": [
+    {
+     "f": 1062,
+     "fn": "S12a"
+    },
+    {
+     "f": 1113,
+     "fn": "S12b",
+     "cut": true
+    },
+    {
+     "f": 1163,
+     "fn": "S12c",
+     "cut": true
+    }
+   ],
+   "dof": [
+    {
+     "f": 1163,
+     "cInf": 11,
+     "focus": [
+      -9.5,
+      1.5,
+      9.5
+     ]
+    }
+   ],
+   "note": "DEADPAN: still standing"
+  },
+  {
+   "id": 13,
+   "a": 1228,
+   "b": 1298,
+   "light": "golden",
+   "scene": "taiga",
+   "fog": [
+    140,
+    1600
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 1262
+   },
+   "camera": [
+    {
+     "f": 1228,
+     "fn": "S13a"
+    }
+   ],
+   "dof": [
+    {
+     "f": 1228,
+     "cInf": 0
+    }
+   ],
+   "note": "EXPLANATION: from above"
+  },
+  {
+   "id": 14,
+   "a": 1298,
+   "b": 1408,
+   "light": "day",
+   "scene": "straw",
+   "xfade": 8,
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1298,
+     "fn": "S14a"
+    },
+    {
+     "f": 1349,
+     "fn": "S14b",
+     "dur": 22
+    }
+   ],
+   "dof": [
+    {
+     "f": 1298,
+     "cInf": 14
+    }
+   ],
+   "note": "the straw"
+  },
+  {
+   "id": 15,
+   "a": 1408,
+   "b": 1452,
+   "light": "day",
+   "scene": "tree",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1408,
+     "fn": "S15a"
+    }
+   ],
+   "dof": [
+    {
+     "f": 1408,
+     "cInf": 8
+    }
+   ],
+   "note": "so does a tree"
+  },
+  {
+   "id": 16,
+   "a": 1452,
+   "b": 1590,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    400,
+    2400
+   ],
+   "clock": {
+    "kind": "rel",
+    "at": 1466,
+    "scale": 0.8
+   },
+   "camera": [
+    {
+     "f": 1452,
+     "fn": "S16a"
+    },
+    {
+     "f": 1531,
+     "fn": "S16b",
+     "cut": true
+    }
+   ],
+   "dof": [
+    {
+     "f": 1452,
+     "cInf": 0
+    }
+   ],
+   "note": "outer sideways, middle pressed"
+  },
+  {
+   "id": 17,
+   "a": 1590,
+   "b": 1665,
+   "light": "golden",
+   "scene": "taiga",
+   "fog": [
+    140,
+    1200
+   ],
+   "xfade": 8,
+   "clock": {
+    "kind": "after"
+   },
+   "camera": [
+    {
+     "f": 1590,
+     "fn": "S17a"
+    },
+    {
+     "f": 1629,
+     "fn": "S17b",
+     "cut": true
+    }
+   ],
+   "dof": [
+    {
+     "f": 1590,
+     "cInf": 11,
+     "focus": [
+      2,
+      1.55,
+      4.2
+     ]
+    }
+   ],
+   "note": "CONSEQUENCE: no crater, no rock"
+  },
+  {
+   "id": 18,
+   "a": 1665,
+   "b": 1760,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    140,
+    1200
+   ],
+   "year": "1927",
+   "xfade": 8,
+   "clock": {
+    "kind": "after"
+   },
+   "camera": [
+    {
+     "f": 1665,
+     "fn": "S18a"
+    }
+   ],
+   "dof": [
+    {
+     "f": 1665,
+     "cInf": 7
+    }
+   ],
+   "note": "scientists, 20 years"
+  },
+  {
+   "id": 19,
+   "a": 1760,
+   "b": 1910,
+   "light": "dusk",
+   "scene": "office",
+   "year": "now",
+   "xfade": 8,
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1760,
+     "fn": "S19a"
+    },
+    {
+     "f": 1856,
+     "fn": "S19b",
+     "dur": 26
+    }
+   ],
+   "dof": [
+    {
+     "f": 1760,
+     "cInf": 0
+    },
+    {
+     "f": 1856,
+     "cInf": 12,
+     "dur": 26
+    }
+   ],
+   "note": "Asteroid Day, NASA watching"
+  },
+  {
+   "id": 20,
+   "a": 1910,
+   "b": 2078,
+   "light": "day",
+   "scene": "taiga",
+   "fog": [
+    200,
+    1500
+   ],
+   "xfade": 8,
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1910,
+     "fn": "S20a"
+    },
+    {
+     "f": 1996,
+     "fn": "S20b",
+     "cut": true
+    }
+   ],
+   "dof": [
+    {
+     "f": 1910,
+     "cInf": 12,
+     "focus": [
+      40.6,
+      1.6,
+      314.4
+     ]
+    },
+    {
+     "f": 1996,
+     "cInf": 0,
+     "dur": 30
+    }
+   ],
+   "note": "CALLBACK"
+  }
+ ]
+}

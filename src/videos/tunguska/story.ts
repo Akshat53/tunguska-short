@@ -3,8 +3,12 @@
 // short: slow symmetric push-ins, smootherstep glides, cuts for big reframes, 7-frame flip kicks on impacts.
 // World units are metres. Ground zero GZ is the origin; the burst hangs HB over it (cartoon scale: 5-10 km -> 140 m);
 // the herders' camp sits by the river ~315 m out, inside the falling ring.
+import storyboard from "./storyboard.json";
+import { assertValid, type Storyboard, type ClockSpec } from "../../engine/storyboard/schema";
+
 export const FPS = 30;
-export const TOTAL = 2078;
+const SB = storyboard as unknown as Storyboard;
+export const TOTAL = SB.totalFrames;
 export type V3 = [number, number, number];
 
 export const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
@@ -54,33 +58,18 @@ export const AFTER = 10000; // event time for the aftermath shots (everything se
 export type Light = "day" | "golden" | "dusk" | "space";
 export type Scene = "taiga" | "straw" | "tree" | "office" | "globe";
 export type ShotDef = { id: number; a: number; b: number; light: Light; scene: Scene; e: (f: number) => number; fog?: [number, number]; year?: "1908" | "1927" | "now" };
-export const SHOTS: ShotDef[] = [
-  { id: 1, a: 0, b: 166, light: "day", scene: "taiga", e: (f) => (f - 70) / FPS, fog: [300, 2600] },       // HOOK: the sky explodes
-  { id: 2, a: 166, b: 240, light: "day", scene: "taiga", e: () => -1000, fog: [120, 900] },                 // SETTING: taiga, river
-  { id: 3, a: 240, b: 303, light: "day", scene: "taiga", e: () => -1000 },                                  // herders + reindeer
-  { id: 4, a: 303, b: 420, light: "day", scene: "taiga", e: (f) => (f - 470) / FPS, fog: [200, 2600] },    // ACTION: the light, the bang
-  { id: 5, a: 420, b: 540, light: "day", scene: "taiga", e: (f) => (f - 671) / FPS, fog: [400, 5000] },    // the rock, 15 km/s
-  { id: 6, a: 540, b: 668, light: "day", scene: "taiga", e: (f) => (f - 671) / FPS, fog: [400, 5000] },    // ESCALATION: air squeezes
-  { id: 7, a: 668, b: 750, light: "day", scene: "taiga", e: (f) => (f - 671) / FPS, fog: [250, 2200] },    // the burst
-  { id: 8, a: 750, b: 835, light: "day", scene: "taiga", e: (f) => (f - 745) / FPS, fog: [300, 1800] },    // SNAP: wave slams down
-  { id: 9, a: 835, b: 915, light: "day", scene: "taiga", e: (f) => (f - 866) / FPS + arrive(232), fog: [120, 900] }, // knocked over like grass
-  { id: 10, a: 915, b: 968, light: "day", scene: "taiga", e: (f) => (f - 921) / FPS + arrive(318) },      // tents into the air
-  { id: 11, a: 968, b: 1062, light: "space", scene: "globe", e: (f) => (f - 968) / FPS },                  // circled the planet. Twice.
-  { id: 12, a: 1062, b: 1228, light: "golden", scene: "taiga", e: () => AFTER, fog: [140, 1200] },        // DEADPAN: still standing
-  { id: 13, a: 1228, b: 1298, light: "golden", scene: "taiga", e: (f) => (f - 1262) / FPS, fog: [140, 1600] }, // EXPLANATION: from above
-  { id: 14, a: 1298, b: 1408, light: "day", scene: "straw", e: () => -1000 },                              // the straw
-  { id: 15, a: 1408, b: 1452, light: "day", scene: "tree", e: () => -1000 },                               // so does a tree
-  { id: 16, a: 1452, b: 1590, light: "day", scene: "taiga", e: (f) => (f - 1466) / FPS * 0.8, fog: [400, 2400] }, // outer sideways, middle pressed
-  { id: 17, a: 1590, b: 1665, light: "golden", scene: "taiga", e: () => AFTER, fog: [140, 1200] },        // CONSEQUENCE: no crater, no rock
-  { id: 18, a: 1665, b: 1760, light: "day", scene: "taiga", e: () => AFTER, year: "1927", fog: [140, 1200] }, // scientists, 20 years
-  { id: 19, a: 1760, b: 1910, light: "dusk", scene: "office", e: () => -1000, year: "now" },              // Asteroid Day, NASA watching
-  { id: 20, a: 1910, b: TOTAL, light: "day", scene: "taiga", e: () => -1000, fog: [200, 1500] },           // CALLBACK
-];
+/** event clock of a shot from its declarative spec (see engine/storyboard/schema.ts) */
+const clockOf = (c: ClockSpec): ((f: number) => number) =>
+  c.kind === "none" ? () => -1000 : c.kind === "after" ? () => AFTER
+  : c.scale !== undefined ? ((k) => (f: number) => (f - c.at) / FPS * k)(c.scale) : c.arrive !== undefined ? ((r) => (f: number) => (f - c.at) / FPS + arrive(r))(c.arrive) : (f) => (f - c.at) / FPS;
+/** the shots: data lives in storyboard.json (validated), only the event clocks are built here */
+export const SHOTS: ShotDef[] = SB.shots.map((x) => ({ id: x.id, a: x.a, b: x.b, light: x.light, scene: x.scene, e: clockOf(x.clock),
+  ...(x.fog ? { fog: x.fog } : {}), ...(x.year ? { year: x.year } : {}) }));
 /** crossfades (frames) at place / time changes; a white 4-frame flash after the hook */
-export const XFADE: Record<number, number> = { 12: 8, 14: 8, 17: 8, 18: 8, 19: 8, 20: 8 };
-export const FLASH_AT = 164;
+export const XFADE: Record<number, number> = Object.fromEntries(SB.shots.filter((x) => x.xfade).map((x) => [x.id, x.xfade!]));
+export const FLASH_AT = SB.events.flashAt;
 /** extra white flashes (frame, peak) on the airbursts: hook, the burst, the replay from below */
-export const FLASHES: [number, number][] = [[70, 0.85], [671, 1.0], [1262, 0.7], [312, 0.35]];
+export const FLASHES: [number, number][] = SB.events.flashes;
 
 export const shotAt = (f: number) => SHOTS.find((s) => f >= s.a && f < s.b) ?? SHOTS[SHOTS.length - 1];
 export const layersAt = (f: number): { id: number; alpha: number }[] => {
@@ -199,32 +188,14 @@ const S20b = (f: number): Shot => {
     look: lerp3(a.look, [-40, 60, 120], s), fov: 40 + 6 * s, roll: 0 };
 };
 
-const CAMS: Record<number, Key[]> = {
-  1: [{ f: 0, s: S1a }, { f: 92, dur: 40, s: S1b }],
-  2: [{ f: 166, s: S2a }],
-  3: [{ f: 240, s: S3a }, { f: 268, dur: 24, s: S3b }],
-  4: [{ f: 303, s: S4a }, { f: 362, cut: true, s: S4b }],
-  5: [{ f: 420, s: S5a }, { f: 478, dur: 30, s: S5b }],
-  6: [{ f: 540, s: S6a }, { f: 618, dur: 26, s: S6b }],
-  7: [{ f: 668, s: S7a }],
-  8: [{ f: 750, s: S8a }, { f: 789, dur: 22, s: S8b }],
-  9: [{ f: 835, s: S9a }],
-  10: [{ f: 915, s: S10a }],
-  11: [{ f: 968, s: S11a }, { f: 1018, dur: 26, s: S11b }],
-  12: [{ f: 1062, s: S12a }, { f: 1113, cut: true, s: S12b }, { f: 1163, cut: true, s: S12c }],
-  13: [{ f: 1228, s: S13a }],
-  14: [{ f: 1298, s: S14a }, { f: 1349, dur: 22, s: S14b }],
-  15: [{ f: 1408, s: S15a }],
-  16: [{ f: 1452, s: S16a }, { f: 1531, cut: true, s: S16b }],
-  17: [{ f: 1590, s: S17a }, { f: 1629, cut: true, s: S17b }],
-  18: [{ f: 1665, s: S18a }],
-  19: [{ f: 1760, s: S19a }, { f: 1856, dur: 26, s: S19b }],
-  20: [{ f: 1910, s: S20a }, { f: 1996, cut: true, s: S20b }],
-};
+/** camera functions by name: storyboard.json refers to these (validated: unknown names are reported) */
+const CAM_FN: Record<string, (f: number) => Shot> = { S1a, S1b, S2a, S3a, S3b, S4a, S4b, S5a, S5b, S6a, S6b, S7a, S8a, S8b, S9a, S10a, S11a, S11b, S12a, S12b, S12c, S13a, S14a, S14b, S15a, S16a, S16b, S17a, S17b, S18a, S19a, S19b, S20a, S20b };
+assertValid(SB, { camFns: Object.keys(CAM_FN) });
+const CAMS: Record<number, Key[]> = Object.fromEntries(SB.shots.map((x) => [x.id, x.camera.map((k) => ({ f: k.f, ...(k.dur ? { dur: k.dur } : {}), ...(k.cut ? { cut: true } : {}), s: CAM_FN[k.fn] }))]));
 
 // impact kicks (s): bang, burst, the four falling-ring hits, the tents, "Twice"
-export const HITS = [772, 791, 835, 866]; // the 4 percussion hits under the falling ring (frames)
-const KICKS: [number, number][] = [[364 / FPS, 0.8], [671 / FPS, 1.4], ...HITS.map((h) => [h / FPS, 1.0] as [number, number]), [921 / FPS, 1.2], [1031 / FPS, 0.7], [1262 / FPS, 0.8]];
+export const HITS = SB.events.hits; // the 4 percussion hits under the falling ring (frames)
+const KICKS: [number, number][] = SB.events.kicks.map(([f, g]) => [f / FPS, g] as [number, number]);
 export const kickAt = (t: number) => {
   let a = 0;
   for (const [t0, g] of KICKS) {
@@ -244,26 +215,7 @@ export const camAt = (id: number, f: number): Cam => {
 
 // ---------------- lens ----------------
 export type Dof = { f: number; dur?: number; cInf: number; focus?: (f: number) => V3 };
-export const DOF: Dof[] = [
-  { f: 0, cInf: 0 },                                         // hook aerial: sharp
-  { f: 240, cInf: 12, focus: () => [40.7, 1.6, 314.4] },     // herders MS: eyes
-  { f: 303, cInf: 0 },                                       // looking up at the sky
-  { f: 362, cInf: 12, focus: () => [40.5, 1.65, 314.3] },    // faces flinch
-  { f: 420, cInf: 0 },                                       // chase, burst, aerials, drive
-  { f: 915, cInf: 6 },                                       // camp blown over
-  { f: 968, cInf: 0 },                                       // globe
-  { f: 1163, cInf: 11, focus: () => [-9.5, 1.5, 9.5] },      // the hidden one
-  { f: 1228, cInf: 0 },
-  { f: 1298, cInf: 14 },                                     // straw insert: focus = look
-  { f: 1408, cInf: 8 },                                      // hero tree
-  { f: 1452, cInf: 0 },                                      // diagram
-  { f: 1590, cInf: 11, focus: () => [2.0, 1.55, 4.2] },      // herder at ground zero
-  { f: 1665, cInf: 7 },                                      // expedition: focus = look (the group)
-  { f: 1760, cInf: 0 },                                      // office drive
-  { f: 1856, dur: 26, cInf: 12 },                            // the hidden screen
-  { f: 1910, cInf: 12, focus: () => [40.6, 1.6, 314.4] },    // callback MS
-  { f: 1996, dur: 30, cInf: 0 },                             // crane out
-];
+export const DOF: Dof[] = SB.shots.flatMap((x) => x.dof.map((d) => ({ f: d.f, cInf: d.cInf, ...(d.dur ? { dur: d.dur } : {}), ...(d.focus ? { focus: () => d.focus! as V3 } : {}) })));
 export const dofAt = (f: number) => {
   let i = 0; while (i + 1 < DOF.length && f >= DOF[i + 1].f) i++;
   const d = DOF[i], p = DOF[Math.max(0, i - 1)];
