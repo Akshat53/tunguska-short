@@ -12,7 +12,7 @@ from synth import boom, crack, rumble, crackles, st2
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 CUES_PATH = os.path.join(HERE, "cues.json")
-STORYBOARD = os.path.join(ROOT, "src", "videos", "tunguska", "storyboard.json")
+STORYBOARD = os.path.join(ROOT, "src", "videos", os.environ.get("STORY", "tunguska"), "storyboard.json")
 
 
 def load(path=None):

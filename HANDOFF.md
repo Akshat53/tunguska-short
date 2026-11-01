@@ -1,5 +1,11 @@
 # HANDOFF — read this first (for the next Claude / next machine)
 
+> **Status 2026-11-02:** Video #2 **Roopkund (Hindi) is DONE**: `src/videos/roopkund/`, voice ElevenLabs "Jessica", final 74.5 s, visual QA 0 errors, owner approved. The final file is in `out/` (gitignored, so re-render with `docs/MAKE_A_VIDEO.md` §7).
+> Tunguska fixes are done and verified on frames, visual QA 0 errors: rock now in frame in shot 6, emptier sky in shot 13 fixed, herder at the frame edge in shot 20 fixed, frozen ending fixed, and a one-frame river dropout fixed with polygonOffset. The fixed Tunguska file `out/tunguska-final4.mp4` is not uploaded; the owner already posted an earlier cut.
+> Scripts ready for the next videos: `agents/bharat-storyteller/examples/{saraighat,iron-pillar}/`.
+> Brand: both channels now have a logo, banner, end card and watermark in `brand/` (sources in `brand/src/`, export with `scripts/export_brand.sh`).
+> **The how-to for every new video is `docs/MAKE_A_VIDEO.md`.** Sections below are older history and measurements.
+
 Owner goal: two YouTube channels from this pipeline — **Inkfall** (global, English) and an Indian channel (Hindi).
 This repo = the 2D-ink-in-3D cartoon short engine (Remotion + three.js). Video #1 = Tunguska (English, done once).
 Video #2 (next) = an **Indian topic with a Hindi voice** (owner will name the topic; suggest 3 if not).

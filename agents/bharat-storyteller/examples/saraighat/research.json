@@ -1,0 +1,565 @@
+[
+ {
+  "id": "C01",
+  "claim": "The Battle of Saraighat was a mainly naval battle fought in 1671 (mid-March per Wikipedia; exact day unknown) on the Brahmaputra at Guwahati, and the Ahoms won.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "in the middle of March 1671"
+   },
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The final battle was fought in early 1671."
+   },
+   {
+    "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+    "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the Mughals had large boats compared to the small boats of the Ahoms."
+   }
+  ],
+  "qualification": "say only the year (1671); no exact day",
+  "usableInScript": true,
+  "notes": "Jorhat district page dates it 1672 (snippet only); majority and official commemorations use 1671 (see C20)."
+ },
+ {
+  "id": "C02",
+  "claim": "Aurangzeb sent Raja Ram Singh of Amber (Amer) to invade Assam; he was appointed on 19 December 1667 and commanded the Mughal army at Saraighat.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+    "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Aurangzeb then appointed Ram Singh of Amber on 13 Rajab/ 19th December 1667 to invade Assam."
+   },
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Mughal commander Ram Singh of Amer (Jaipur)"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Final narration says only 'मुग़ल फ़ौज'; Ram Singh is named in description/publishing."
+ },
+ {
+  "id": "C03",
+  "claim": "Lachit Borphukan (Barphukan) was the Ahom commander at Saraighat; born 24 November 1622.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Lachit Borphukan",
+    "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Birth: 24 November 1622, Sivasagar (infobox)"
+   },
+   {
+    "title": "EastMojo: facts about Lachit Borphukan on his 400th birth anniversary",
+    "url": "https://eastmojo.com/assam/2022/11/23/some-facts-you-must-know-about-lachit-borphukan-on-his-400th-birth-anniversary/",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Born on November 24, 1622."
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C04",
+  "claim": "At the Battle of Alaboi (about 5 August 1669) the Ahoms suffered a major defeat; about 10,000 Ahom soldiers were killed.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+    "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "10,000 Assamese soldiers sacrificed their lives at the altar of the nation."
+   },
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "in the carnage that followed, 10,000 Ahom soldiers were massacred"
+   }
+  ],
+  "qualification": "say 'करीब दस हज़ार' (a round chronicle figure)",
+  "usableInScript": true,
+  "notes": "Sentinel dates Alaboi 4 August 1669; Kamrup page 'about 5th August, 1669'. Narration says only 'दो साल पहले'."
+ },
+ {
+  "id": "C05",
+  "claim": "At Saraighat the Mughals had large boats, some carrying cannons (Wikipedia: up to sixteen), while the Ahoms used smaller boats.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+    "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the Mughals had large boats compared to the small boats of the Ahoms."
+   },
+   {
+    "title": "The Sentinel (Assam) editorial: Lachit Barphukan, the 'man fort' against the Mughals",
+    "url": "https://sentinelassam.com/editorial/lachit-barphukan-the-man-fort-against-the-mughals-624865",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the Ahoms also used smaller boats to attack the Mughals in contrast to the larger boats"
+   },
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "large boats, some carrying as many as sixteen cannons"
+   }
+  ],
+  "qualification": "do not give a cannon count",
+  "usableInScript": true,
+  "notes": "Large-vs-small is two-source; the cannon count is Wikipedia-only, so the narration says only 'तोपों से लदी'."
+ },
+ {
+  "id": "C06",
+  "claim": "Facing the large Mughal boats, Ahom soldiers wavered and began to fall back; Lachit (and the Ahom admiral) were seriously ill, which demoralised the troops.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "The Sentinel (Assam) editorial: Lachit Barphukan, the 'man fort' against the Mughals",
+    "url": "https://sentinelassam.com/editorial/lachit-barphukan-the-man-fort-against-the-mughals-624865",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "when they saw large boats looming around, they thought of flying away"
+   },
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Lachit Borphukan and their admiral were both seriously ill, which demoralized the soldiers"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C07",
+  "claim": "Though ill, Lachit is said to have risen from his sickbed and taken to the river in a boat himself, and the wavering Ahom boats rallied.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Lachit who was ill at that time is said to have heroically gotten out of his sickbed"
+   },
+   {
+    "title": "The Sentinel (Assam) editorial: Lachit Barphukan, the 'man fort' against the Mughals",
+    "url": "https://sentinelassam.com/editorial/lachit-barphukan-the-man-fort-against-the-mughals-624865",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Even though Lachit was sick, he got up from his bed and immediately ordered the construction of seven boats."
+   },
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "watched from his sickbed in the gatehouse of Itakhuli fort (paraphrase of fetch summary)"
+   }
+  ],
+  "qualification": "spoken as 'कहते हैं' — sources tell it as a said-to account and differ on details (seven boats; watched from the sickbed first)",
+  "usableInScript": true,
+  "notes": "Wikipedia summary: he first watched from his sickbed at Itakhuli. LHI says he rowed his own boat at the enemy. Details differ; qualified in narration."
+ },
+ {
+  "id": "C08",
+  "claim": "The Brahmaputra at Saraighat is at its narrowest about 1 km wide, a stretch suited to naval defence.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The Brahmaputra at Saraighat, at its narrowest 1 km wide, was ideal for a naval defense."
+   },
+   {
+    "title": "eSamskriti: Lachit Borphukan Memorial",
+    "url": "https://esamskriti.com/a/Assam/LACHIT-BORPHUKAN-Memorial.aspx",
+    "type": "other",
+    "read": "snippet",
+    "accessed": "2026-11-01",
+    "quote": "the Brahmaputra between Kamakhya and Saraighat is the narrowest at Guwahati (search-result summary)"
+   }
+  ],
+  "qualification": "say 'करीब एक किलोमीटर'",
+  "usableInScript": true,
+  "notes": "Only one page read; the eSamskriti support is a search snippet. Present tense ('रह जाती है') describes the river today; width varies with season, hence 'करीब'."
+ },
+ {
+  "id": "C09",
+  "claim": "The Ahoms used small boats and an improvised bridge of boats to attack the Mughal fleet from the front and the rear at once.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "resorted to a combined front and rear attack"
+   },
+   {
+    "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+    "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "spanned the river Brahmaputra over an improvised bridge of boats"
+   }
+  ],
+  "qualification": "'big boats got stuck' is a narrative compression of: small Ahom boats outmanoeuvred the large Mughal boats in the narrow stretch",
+  "usableInScript": true
+ },
+ {
+  "id": "C10",
+  "claim": "The Mughal admiral Munnawar Khan was killed at Saraighat and the Mughal fleet was thrown into disarray (accounts differ on whether by a gunshot or an arrow).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the Mughal admiral Munawwar Khan shot dead"
+   },
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "killed by a gunshot from behind (paraphrase); Mughals lost three top-ranking amirs and about 4,000 dead"
+   },
+   {
+    "title": "Wikipedia: Munnawar Khan",
+    "url": "https://en.wikipedia.org/wiki/Munnawar_Khan",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Munnawar Khan was killed by an arrow which struck his backbone, throwing the Mughals out of gear."
+   }
+  ],
+  "qualification": "do not state the weapon (sources disagree)",
+  "usableInScript": true
+ },
+ {
+  "id": "C11",
+  "claim": "After Saraighat the Mughals withdrew; they were pursued to the Manas river, the Ahom western boundary, and Ram Singh returned in disgrace.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "pursued to the Manas River (paraphrase)"
+   },
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Ram Singh returned to Delhi in disgrace."
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Manas detail is Wikipedia-only; withdrawal itself is multi-source."
+ },
+ {
+  "id": "C12",
+  "claim": "Lachit Borphukan died about a year after Saraighat, in April 1672, at Kaliabor.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Lachit Borphukan",
+    "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Death: 25 April 1672, Kaliabar (infobox); Sarkar (1992): 'soon died at Kaliabar, April 1672'"
+   },
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "died a year later in April 1672"
+   }
+  ],
+  "qualification": "say 'करीब एक साल बाद'; do not state the cause",
+  "usableInScript": true
+ },
+ {
+  "id": "C13",
+  "claim": "There is no historical document for the popular story that Lachit executed his maternal uncle; it survives as tradition (with the saying 'my uncle is not greater than my country').",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "footnote 23: tradition says he executed his uncle at Amingaon; no historical document mentions this incident (paraphrase)"
+   },
+   {
+    "title": "VIF India: The Buranjis of Assam",
+    "url": "https://vifindia.org/category-articles/21262",
+    "type": "other",
+    "read": "snippet",
+    "accessed": "2026-11-01",
+    "quote": "Oral tradition preserves a saying ... based on a real historical incident (search-result summary; partisan, treats it as real)"
+   }
+  ],
+  "qualification": "spoken as 'मशहूर कहानी', with 'कोई पुराना लिखित सबूत नहीं मिलता' — not 'it is false'",
+  "usableInScript": true,
+  "notes": "We say evidence is lacking, not that it is false. One-source negative claim (Wikipedia footnote) -> medium."
+ },
+ {
+  "id": "C14",
+  "claim": "Lachit beheaded his maternal uncle for failing to finish a rampart overnight at Amingaon.",
+  "category": "legend",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (footnote 23)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "tradition; no historical document mentions this incident (paraphrase)"
+   }
+  ],
+  "qualification": "never state as fact; only as a famous story without documentary evidence (see C13)",
+  "usableInScript": false,
+  "debunked": false
+ },
+ {
+  "id": "C15",
+  "claim": "Since 1999 the National Defence Academy has awarded a 'Lachit Borphukan Gold Medal' to its best passing-out cadet each course (instituted under Army chief Gen. V.P. Malik).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "EastMojo: facts about Lachit Borphukan on his 400th birth anniversary",
+    "url": "https://eastmojo.com/assam/2022/11/23/some-facts-you-must-know-about-lachit-borphukan-on-his-400th-birth-anniversary/",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Ever since 1999, the National Defence Academy (NDA) has been conferring the best passing cadet with the 'Lachit Borphukan gold medal."
+   },
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "in 1999 General VP Malik instituted the annual Lachit Borphukan Gold Medal Award for the best cadet"
+   },
+   {
+    "title": "Assam Tribune: Avinash, Ligang lauded for making NE proud",
+    "url": "https://assamtribune.com/avinash-ligang-lauded-for-making-ne-proud",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-01",
+    "quote": "President's Gold Medal went to the top overall cadet; Lachit award went to a cadet for best officer-like quality (search summary)"
+   }
+  ],
+  "qualification": "say 'बेस्ट कैडेट' (not 'topper'); the criterion may be best cadet in officer-like qualities",
+  "usableInScript": true,
+  "notes": "Assam Tribune snippet suggests 'best cadet' may not equal overall topper; narration keeps 'बेस्ट कैडेट', which fits both."
+ },
+ {
+  "id": "C16",
+  "claim": "Lachit Divas is observed in Assam on 24 November, his birth anniversary.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Lachit Borphukan",
+    "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "'Lachit Dibox' commemorated on 24 November since the early 20th century (paraphrase)"
+   },
+   {
+    "title": "EastMojo: facts about Lachit Borphukan on his 400th birth anniversary",
+    "url": "https://eastmojo.com/assam/2022/11/23/some-facts-you-must-know-about-lachit-borphukan-on-his-400th-birth-anniversary/",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Born on November 24, 1622."
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Used in the pinned comment only."
+ },
+ {
+  "id": "C17",
+  "claim": "Exact Mughal troop and boat numbers at Saraighat (e.g. infobox: 30,000-35,000+ infantry, 18,000 cavalry, 40 ships; viral 'lakhs').",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "infobox lists 35,000+ infantry, 18,000 cavalry, 15,000 archers and shieldmen ... 40 ships; text and footnotes conflict (10,000 vs 2,000 archers)"
+   }
+  ],
+  "qualification": "not used: sources conflict internally",
+  "usableInScript": false,
+  "debunked": false
+ },
+ {
+  "id": "C18",
+  "claim": "Ram Singh sent Lachit a bag of poppy seeds to show his army was as countless as the seeds.",
+  "category": "legend",
+  "confidence": "unverified",
+  "sources": [],
+  "qualification": "not used: anecdote with no traced source",
+  "usableInScript": false,
+  "debunked": false
+ },
+ {
+  "id": "C19",
+  "claim": "The Mughal commander at Saraighat was Mir Jumla.",
+  "category": "fact",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+    "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Aurangzeb then appointed Ram Singh of Amber on 13 Rajab/ 19th December 1667 to invade Assam."
+   }
+  ],
+  "qualification": "not used: wrong — the Assam govt (Kamrup) page and LHI name Ram Singh of Amber as the commander of this invasion",
+  "usableInScript": false,
+  "debunked": true
+ },
+ {
+  "id": "C20",
+  "claim": "Saraighat was fought in 1672 (Jorhat district administration page).",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [],
+  "qualification": "not used: majority and official commemorations give 1671; only a search snippet seen",
+  "usableInScript": false,
+  "debunked": false
+ },
+ {
+  "id": "C21",
+  "claim": "Ahom positions around the narrows included Itakhuli fort (where Lachit lay ill), Kamakhya hills and Aswakranta.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Andharubali, Kamakhya, Itakhuli, and Aswakranta as landmarks (paraphrase)"
+   },
+   {
+    "title": "Live History India: Lachit Borphukan, Assam's Great General",
+    "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the river stretch flowing through Guwahati between Kamakhya, Itakhuli and Aswakranta"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Visual detail for the sets (hill + fort gatehouse over the river)."
+ },
+ {
+  "id": "C22",
+  "claim": "Lachit lamented: 'It is a tragedy that my country is facing this dire catastrophe during my Phukanship.'",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "It is a tragedy that my country is facing this dire catastrophe during my Phukanship."
+   }
+  ],
+  "qualification": "not used: quote from a later biography chain, not verified to a chronicle",
+  "usableInScript": false,
+  "debunked": false
+ }
+]

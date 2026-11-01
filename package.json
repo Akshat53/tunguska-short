@@ -2,8 +2,17 @@
   "name": "tunguska-short",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "studio": "remotion studio", "tsc": "tsc --noEmit", "test": "bash scripts/test.sh", "produce": "node --no-warnings scripts/produce.mjs", "audio": "bash audio/build.sh", "test:audio": "bash audio/test_report.sh", "camera:compare": "node --no-warnings scripts/camera-compare.mjs" },
+  "scripts": {
+    "studio": "remotion studio",
+    "tsc": "tsc --noEmit",
+    "test": "bash scripts/test.sh",
+    "produce": "node --no-warnings scripts/produce.mjs",
+    "audio": "bash audio/build.sh",
+    "test:audio": "bash audio/test_report.sh",
+    "camera:compare": "node --no-warnings scripts/camera-compare.mjs"
+  },
   "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.75.0",
     "@react-three/fiber": "8.17.10",
     "@react-three/postprocessing": "2.16.3",
     "@remotion/bundler": "4.0.537",
@@ -16,5 +25,9 @@
     "remotion": "4.0.537",
     "three": "0.169.0"
   },
-  "devDependencies": { "@types/react": "18.3.12", "@types/three": "0.169.0", "typescript": "5.6.3" }
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/three": "0.169.0",
+    "typescript": "5.6.3"
+  }
 }

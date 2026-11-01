@@ -17,7 +17,10 @@ ROOT = os.path.dirname(HERE)
 OUT = os.environ.get("AUDIO_OUT", os.path.join(HERE, "out"))
 os.makedirs(OUT, exist_ok=True)
 FPS, TOTAL = 30, 2078            # TOTAL = length of the picture timeline the cues below were authored on
-WARP = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "warp.json")))
+STORY = os.environ.get("STORY", "tunguska")   # which src/videos/<story>/ the storyboard + warp come from (default: Tunguska, unchanged)
+VOICE_WAV = os.path.join(ROOT, os.environ.get("VOICE_WAV", os.path.join("voice", "voice.wav")))
+WORDS_JSON = os.path.join(ROOT, os.environ.get("WORDS_JSON", os.path.join("voice", "words.json")))
+WARP = json.load(open(os.path.join(ROOT, "src", "videos", STORY, "warp.json")))
 _A = WARP["anchors"]             # [[newFrame, oldFrame], ...]: the picture/voice time warp (scripts/warp.py)
 DUR = WARP["outFrames"] / FPS    # output length = current voice length
 N = ns(DUR)
@@ -30,13 +33,15 @@ def F(f):
 
 # music + SFX design lives in audio/cues.json (cues.py plays it); beats get their frame ranges from storyboard SHOT ids
 import cues as C
-SB = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "storyboard.json")))
+SB = json.load(open(os.path.join(ROOT, "src", "videos", STORY, "storyboard.json")))
 CFG = C.load()
 BEATS = C.beats(CFG, SB)
 CH, BASS = CFG["music"]["chords"], CFG["music"]["bass"]
 LEVEL = {b["name"]: b["level"] for b in CFG["music"]["beats"]}
-HITS = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "storyboard.json")))["events"]["hits"]  # single source: the storyboard
-assert HITS == [772, 791, 835, 866], HITS
+HITS = SB["events"]["hits"]  # single source: the storyboard
+if STORY == "tunguska": assert HITS == [772, 791, 835, 866], HITS
+ARP_STEP = CFG["music"].get("arp_step", 0.3)      # plucked arpeggio step (s); Tunguska 0.3 (100 bpm eighths)
+ARP_LEVEL = CFG["music"].get("arp_level", 1.0)
 
 
 def music():
@@ -50,12 +55,12 @@ def music():
         place(out, I.pad([I.m2f(m) for m in notes[:4]], d, 0.32 * lv, r, att=0.5, rel=0.8, warm=1100), t0)
         place(out, I.pad([I.m2f(BASS[ch])], d, 0.30 * lv, r, att=0.4, rel=0.8, warm=400), t0)
         # plucked arpeggio, 100 bpm eighths (0.3 s), over the same chord: the pulse of the beat
-        step = 0.3
+        step = ARP_STEP
         k = 0
         tm = t0 + 0.05
         while tm < t0 + d - 0.2:
             m = notes[[0, 2, 1, 3, 2, 4, 3, 2][k % 8]] + 12
-            place(out, pan(I.pluck(I.m2f(m), 0.22 * lv, r, dur=0.9, bright=0.35), 0.3 * np.sin(k)), tm)
+            place(out, pan(I.pluck(I.m2f(m), 0.22 * lv * ARP_LEVEL, r, dur=0.9, bright=0.35), 0.3 * np.sin(k)), tm)
             tm += step
             k += 1
         # a soft glockenspiel bell on the downbeat of each beat
@@ -79,7 +84,7 @@ def sfx():
 
 
 def voice48():
-    v, sr = read_wav(os.path.join(ROOT, "voice", "voice.wav"))
+    v, sr = read_wav(VOICE_WAV)
     v = v.mean(0)
     v = signal.resample_poly(v, 160, 147) if sr == 44100 else v
     y = np.zeros(N)
@@ -97,7 +102,7 @@ def speech_mask(words, pre=0.08, post=0.15):
 
 
 def main():
-    words = json.load(open(os.path.join(ROOT, "voice", "words.json")))
+    words = json.load(open(WORDS_JSON))
     v = voice48()
     m = music()
     s = sfx()

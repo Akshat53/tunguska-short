@@ -8,7 +8,7 @@ import score as S, cues as C
 OUT = S.OUT; ROOT = S.ROOT
 tol = float(sys.argv[sys.argv.index("--tol") + 1]) if "--tol" in sys.argv else 0.12
 cfg, sb, F = S.CFG, S.SB, S.F
-new = json.load(open(os.path.join(ROOT, "voice", "words.json"))); old = json.load(open(os.path.join(ROOT, "voice", "v1", "words.json")))
+new = json.load(open(S.WORDS_JSON)); old = json.load(open(os.path.join(ROOT, os.environ.get("OLD_WORDS", os.path.join("voice", "v1", "words.json")))))
 rows, checks = C.sheet(cfg, F), []
 def check(name, ok, detail="", warn=False): checks.append({"name": name, "ok": bool(ok), "detail": detail, "warn": warn})
 

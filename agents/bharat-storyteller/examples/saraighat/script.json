@@ -1,0 +1,2771 @@
+{
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "saraighat",
+  "title": "बिस्तर से नदी तक: सराईघाट 1671",
+  "topic": "Battle of Saraighat (1671): Lachit Borphukan and the Ahom boats vs the Mughal fleet on the Brahmaputra at Guwahati",
+  "category": "battles-rulers",
+  "structure": "one-decision",
+  "angle": "a sick commander won a river war by choosing where to fight: the one stretch where the Brahmaputra is only about a kilometre wide",
+  "centralQuestion": "how did small Ahom boats beat a bigger, cannon-armed Mughal fleet?",
+  "audience": "Indian Shorts viewers 16-35; most outside Assam know only the name",
+  "language": "hinglish",
+  "durationSec": 66.3,
+  "totalFrames": 1989,
+  "coreEmotion": "defiance turning into quiet pride",
+  "takeaway": "choosing the battlefield can matter more than the size of the army",
+  "tone": "stirring but factual",
+  "sensitivity": "Regional hero revered in Assam; frame as Ahom kingdom vs Mughal empire (politics of conquest), not religion. No gore. Uncle legend only as an unproven story.",
+  "researchMode": "web-verified",
+  "created": "2026-11-01"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "The Battle of Saraighat was a mainly naval battle fought in 1671 (mid-March per Wikipedia; exact day unknown) on the Brahmaputra at Guwahati, and the Ahoms won.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "in the middle of March 1671"
+    },
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The final battle was fought in early 1671."
+    },
+    {
+     "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+     "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the Mughals had large boats compared to the small boats of the Ahoms."
+    }
+   ],
+   "qualification": "say only the year (1671); no exact day",
+   "usableInScript": true,
+   "notes": "Jorhat district page dates it 1672 (snippet only); majority and official commemorations use 1671 (see C20)."
+  },
+  {
+   "id": "C02",
+   "claim": "Aurangzeb sent Raja Ram Singh of Amber (Amer) to invade Assam; he was appointed on 19 December 1667 and commanded the Mughal army at Saraighat.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+     "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Aurangzeb then appointed Ram Singh of Amber on 13 Rajab/ 19th December 1667 to invade Assam."
+    },
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Mughal commander Ram Singh of Amer (Jaipur)"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Final narration says only 'मुग़ल फ़ौज'; Ram Singh is named in description/publishing."
+  },
+  {
+   "id": "C03",
+   "claim": "Lachit Borphukan (Barphukan) was the Ahom commander at Saraighat; born 24 November 1622.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Lachit Borphukan",
+     "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Birth: 24 November 1622, Sivasagar (infobox)"
+    },
+    {
+     "title": "EastMojo: facts about Lachit Borphukan on his 400th birth anniversary",
+     "url": "https://eastmojo.com/assam/2022/11/23/some-facts-you-must-know-about-lachit-borphukan-on-his-400th-birth-anniversary/",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Born on November 24, 1622."
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C04",
+   "claim": "At the Battle of Alaboi (about 5 August 1669) the Ahoms suffered a major defeat; about 10,000 Ahom soldiers were killed.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+     "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "10,000 Assamese soldiers sacrificed their lives at the altar of the nation."
+    },
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "in the carnage that followed, 10,000 Ahom soldiers were massacred"
+    }
+   ],
+   "qualification": "say 'करीब दस हज़ार' (a round chronicle figure)",
+   "usableInScript": true,
+   "notes": "Sentinel dates Alaboi 4 August 1669; Kamrup page 'about 5th August, 1669'. Narration says only 'दो साल पहले'."
+  },
+  {
+   "id": "C05",
+   "claim": "At Saraighat the Mughals had large boats, some carrying cannons (Wikipedia: up to sixteen), while the Ahoms used smaller boats.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+     "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the Mughals had large boats compared to the small boats of the Ahoms."
+    },
+    {
+     "title": "The Sentinel (Assam) editorial: Lachit Barphukan, the 'man fort' against the Mughals",
+     "url": "https://sentinelassam.com/editorial/lachit-barphukan-the-man-fort-against-the-mughals-624865",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the Ahoms also used smaller boats to attack the Mughals in contrast to the larger boats"
+    },
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "large boats, some carrying as many as sixteen cannons"
+    }
+   ],
+   "qualification": "do not give a cannon count",
+   "usableInScript": true,
+   "notes": "Large-vs-small is two-source; the cannon count is Wikipedia-only, so the narration says only 'तोपों से लदी'."
+  },
+  {
+   "id": "C06",
+   "claim": "Facing the large Mughal boats, Ahom soldiers wavered and began to fall back; Lachit (and the Ahom admiral) were seriously ill, which demoralised the troops.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "The Sentinel (Assam) editorial: Lachit Barphukan, the 'man fort' against the Mughals",
+     "url": "https://sentinelassam.com/editorial/lachit-barphukan-the-man-fort-against-the-mughals-624865",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "when they saw large boats looming around, they thought of flying away"
+    },
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Lachit Borphukan and their admiral were both seriously ill, which demoralized the soldiers"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C07",
+   "claim": "Though ill, Lachit is said to have risen from his sickbed and taken to the river in a boat himself, and the wavering Ahom boats rallied.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Lachit who was ill at that time is said to have heroically gotten out of his sickbed"
+    },
+    {
+     "title": "The Sentinel (Assam) editorial: Lachit Barphukan, the 'man fort' against the Mughals",
+     "url": "https://sentinelassam.com/editorial/lachit-barphukan-the-man-fort-against-the-mughals-624865",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Even though Lachit was sick, he got up from his bed and immediately ordered the construction of seven boats."
+    },
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "watched from his sickbed in the gatehouse of Itakhuli fort (paraphrase of fetch summary)"
+    }
+   ],
+   "qualification": "spoken as 'कहते हैं' — sources tell it as a said-to account and differ on details (seven boats; watched from the sickbed first)",
+   "usableInScript": true,
+   "notes": "Wikipedia summary: he first watched from his sickbed at Itakhuli. LHI says he rowed his own boat at the enemy. Details differ; qualified in narration."
+  },
+  {
+   "id": "C08",
+   "claim": "The Brahmaputra at Saraighat is at its narrowest about 1 km wide, a stretch suited to naval defence.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The Brahmaputra at Saraighat, at its narrowest 1 km wide, was ideal for a naval defense."
+    },
+    {
+     "title": "eSamskriti: Lachit Borphukan Memorial",
+     "url": "https://esamskriti.com/a/Assam/LACHIT-BORPHUKAN-Memorial.aspx",
+     "type": "other",
+     "read": "snippet",
+     "accessed": "2026-11-01",
+     "quote": "the Brahmaputra between Kamakhya and Saraighat is the narrowest at Guwahati (search-result summary)"
+    }
+   ],
+   "qualification": "say 'करीब एक किलोमीटर'",
+   "usableInScript": true,
+   "notes": "Only one page read; the eSamskriti support is a search snippet. Present tense ('रह जाती है') describes the river today; width varies with season, hence 'करीब'."
+  },
+  {
+   "id": "C09",
+   "claim": "The Ahoms used small boats and an improvised bridge of boats to attack the Mughal fleet from the front and the rear at once.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "resorted to a combined front and rear attack"
+    },
+    {
+     "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+     "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "spanned the river Brahmaputra over an improvised bridge of boats"
+    }
+   ],
+   "qualification": "'big boats got stuck' is a narrative compression of: small Ahom boats outmanoeuvred the large Mughal boats in the narrow stretch",
+   "usableInScript": true
+  },
+  {
+   "id": "C10",
+   "claim": "The Mughal admiral Munnawar Khan was killed at Saraighat and the Mughal fleet was thrown into disarray (accounts differ on whether by a gunshot or an arrow).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the Mughal admiral Munawwar Khan shot dead"
+    },
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "killed by a gunshot from behind (paraphrase); Mughals lost three top-ranking amirs and about 4,000 dead"
+    },
+    {
+     "title": "Wikipedia: Munnawar Khan",
+     "url": "https://en.wikipedia.org/wiki/Munnawar_Khan",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Munnawar Khan was killed by an arrow which struck his backbone, throwing the Mughals out of gear."
+    }
+   ],
+   "qualification": "do not state the weapon (sources disagree)",
+   "usableInScript": true
+  },
+  {
+   "id": "C11",
+   "claim": "After Saraighat the Mughals withdrew; they were pursued to the Manas river, the Ahom western boundary, and Ram Singh returned in disgrace.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "pursued to the Manas River (paraphrase)"
+    },
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Ram Singh returned to Delhi in disgrace."
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Manas detail is Wikipedia-only; withdrawal itself is multi-source."
+  },
+  {
+   "id": "C12",
+   "claim": "Lachit Borphukan died about a year after Saraighat, in April 1672, at Kaliabor.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Lachit Borphukan",
+     "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Death: 25 April 1672, Kaliabar (infobox); Sarkar (1992): 'soon died at Kaliabar, April 1672'"
+    },
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "died a year later in April 1672"
+    }
+   ],
+   "qualification": "say 'करीब एक साल बाद'; do not state the cause",
+   "usableInScript": true
+  },
+  {
+   "id": "C13",
+   "claim": "There is no historical document for the popular story that Lachit executed his maternal uncle; it survives as tradition (with the saying 'my uncle is not greater than my country').",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "footnote 23: tradition says he executed his uncle at Amingaon; no historical document mentions this incident (paraphrase)"
+    },
+    {
+     "title": "VIF India: The Buranjis of Assam",
+     "url": "https://vifindia.org/category-articles/21262",
+     "type": "other",
+     "read": "snippet",
+     "accessed": "2026-11-01",
+     "quote": "Oral tradition preserves a saying ... based on a real historical incident (search-result summary; partisan, treats it as real)"
+    }
+   ],
+   "qualification": "spoken as 'मशहूर कहानी', with 'कोई पुराना लिखित सबूत नहीं मिलता' — not 'it is false'",
+   "usableInScript": true,
+   "notes": "We say evidence is lacking, not that it is false. One-source negative claim (Wikipedia footnote) -> medium."
+  },
+  {
+   "id": "C14",
+   "claim": "Lachit beheaded his maternal uncle for failing to finish a rampart overnight at Amingaon.",
+   "category": "legend",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (footnote 23)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "tradition; no historical document mentions this incident (paraphrase)"
+    }
+   ],
+   "qualification": "never state as fact; only as a famous story without documentary evidence (see C13)",
+   "usableInScript": false,
+   "debunked": false
+  },
+  {
+   "id": "C15",
+   "claim": "Since 1999 the National Defence Academy has awarded a 'Lachit Borphukan Gold Medal' to its best passing-out cadet each course (instituted under Army chief Gen. V.P. Malik).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "EastMojo: facts about Lachit Borphukan on his 400th birth anniversary",
+     "url": "https://eastmojo.com/assam/2022/11/23/some-facts-you-must-know-about-lachit-borphukan-on-his-400th-birth-anniversary/",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Ever since 1999, the National Defence Academy (NDA) has been conferring the best passing cadet with the 'Lachit Borphukan gold medal."
+    },
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "in 1999 General VP Malik instituted the annual Lachit Borphukan Gold Medal Award for the best cadet"
+    },
+    {
+     "title": "Assam Tribune: Avinash, Ligang lauded for making NE proud",
+     "url": "https://assamtribune.com/avinash-ligang-lauded-for-making-ne-proud",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-01",
+     "quote": "President's Gold Medal went to the top overall cadet; Lachit award went to a cadet for best officer-like quality (search summary)"
+    }
+   ],
+   "qualification": "say 'बेस्ट कैडेट' (not 'topper'); the criterion may be best cadet in officer-like qualities",
+   "usableInScript": true,
+   "notes": "Assam Tribune snippet suggests 'best cadet' may not equal overall topper; narration keeps 'बेस्ट कैडेट', which fits both."
+  },
+  {
+   "id": "C16",
+   "claim": "Lachit Divas is observed in Assam on 24 November, his birth anniversary.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Lachit Borphukan",
+     "url": "https://en.wikipedia.org/wiki/Lachit_Borphukan",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "'Lachit Dibox' commemorated on 24 November since the early 20th century (paraphrase)"
+    },
+    {
+     "title": "EastMojo: facts about Lachit Borphukan on his 400th birth anniversary",
+     "url": "https://eastmojo.com/assam/2022/11/23/some-facts-you-must-know-about-lachit-borphukan-on-his-400th-birth-anniversary/",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Born on November 24, 1622."
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Used in the pinned comment only."
+  },
+  {
+   "id": "C17",
+   "claim": "Exact Mughal troop and boat numbers at Saraighat (e.g. infobox: 30,000-35,000+ infantry, 18,000 cavalry, 40 ships; viral 'lakhs').",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "infobox lists 35,000+ infantry, 18,000 cavalry, 15,000 archers and shieldmen ... 40 ships; text and footnotes conflict (10,000 vs 2,000 archers)"
+    }
+   ],
+   "qualification": "not used: sources conflict internally",
+   "usableInScript": false,
+   "debunked": false
+  },
+  {
+   "id": "C18",
+   "claim": "Ram Singh sent Lachit a bag of poppy seeds to show his army was as countless as the seeds.",
+   "category": "legend",
+   "confidence": "unverified",
+   "sources": [],
+   "qualification": "not used: anecdote with no traced source",
+   "usableInScript": false,
+   "debunked": false
+  },
+  {
+   "id": "C19",
+   "claim": "The Mughal commander at Saraighat was Mir Jumla.",
+   "category": "fact",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Kamrup district administration (Govt of Assam): The Battle of Alaboi and the Battle of Saraighat",
+     "url": "https://kamrup.assam.gov.in/about-us/battle-alaboi-and-saraighat",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Aurangzeb then appointed Ram Singh of Amber on 13 Rajab/ 19th December 1667 to invade Assam."
+    }
+   ],
+   "qualification": "not used: wrong — the Assam govt (Kamrup) page and LHI name Ram Singh of Amber as the commander of this invasion",
+   "usableInScript": false,
+   "debunked": true
+  },
+  {
+   "id": "C20",
+   "claim": "Saraighat was fought in 1672 (Jorhat district administration page).",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [],
+   "qualification": "not used: majority and official commemorations give 1671; only a search snippet seen",
+   "usableInScript": false,
+   "debunked": false
+  },
+  {
+   "id": "C21",
+   "claim": "Ahom positions around the narrows included Itakhuli fort (where Lachit lay ill), Kamakhya hills and Aswakranta.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Andharubali, Kamakhya, Itakhuli, and Aswakranta as landmarks (paraphrase)"
+    },
+    {
+     "title": "Live History India: Lachit Borphukan, Assam's Great General",
+     "url": "https://livehistoryindia.com/story/people/lachit-borphukan",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the river stretch flowing through Guwahati between Kamakhya, Itakhuli and Aswakranta"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Visual detail for the sets (hill + fort gatehouse over the river)."
+  },
+  {
+   "id": "C22",
+   "claim": "Lachit lamented: 'It is a tragedy that my country is facing this dire catastrophe during my Phukanship.'",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia: Battle of Saraighat (map to Bhuyan 1947, J.N. Sarkar 1992, S.L. Baruah 1986)",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Saraighat",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "It is a tragedy that my country is facing this dire catastrophe during my Phukanship."
+    }
+   ],
+   "qualification": "not used: quote from a later biography chain, not verified to a chronicle",
+   "usableInScript": false,
+   "debunked": false
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "contradiction",
+    "text": "फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर पर।",
+    "score": 8,
+    "claimIds": [
+     "C01",
+     "C06"
+    ],
+    "critique": "Concrete, true, a visible contradiction (war vs sickbed); pays off in the last line. Slightly abstract on 'which battle'."
+   },
+   {
+    "id": "H2",
+    "technique": "question",
+    "text": "एक किलोमीटर चौड़ी नदी ने मुग़ल बेड़े को कैसे हराया?",
+    "score": 7,
+    "claimIds": [
+     "C08",
+     "C01"
+    ],
+    "critique": "Clear loop, but gives away the revelation (the river) in second one."
+   },
+   {
+    "id": "H3",
+    "technique": "surprising-fact",
+    "text": "एनडीए का बेस्ट कैडेट मेडल, एक बीमार सेनापति के नाम पर है।",
+    "score": 6,
+    "claimIds": [
+     "C15",
+     "C06"
+    ],
+    "critique": "True and surprising, but spends the ending; weak first image."
+   },
+   {
+    "id": "H4",
+    "technique": "dramatic-situation",
+    "text": "बड़ी मुग़ल नावें सामने थीं, और अहोम सैनिक पीछे हट रहे थे।",
+    "score": 7,
+    "claimIds": [
+     "C05",
+     "C06"
+    ],
+    "critique": "Strong action image; 11 words; no hero in it yet."
+   },
+   {
+    "id": "H5",
+    "technique": "mystery",
+    "text": "लचित ने अपने मामा का सिर काटा था? सबूत कुछ और कहते हैं।",
+    "score": 5,
+    "claimIds": [
+     "C13"
+    ],
+    "critique": "Clicky but leads with an unproven gory legend and promises a debunk the sources cannot fully deliver; risky."
+   }
+  ],
+  "recommended": "H1",
+  "reason": "H1 is the only option that is fully true, visual in the first frame (a commander on a cot), does not spend the revelation, and sets up the closing callback ('जो बिस्तर से उठकर नदी में उतरा था')."
+ },
+ "narration": {
+  "language": "hinglish",
+  "voice": {
+   "engine": "edge-tts",
+   "id": "hi-IN-MadhurNeural",
+   "rate": "+10%"
+  },
+  "wps": 2.86,
+  "totalWords": 180,
+  "estimatedSpeechSec": 62.9,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.2,
+    "endSec": 3.7,
+    "startFrame": 6,
+    "endFrame": 111,
+    "text": "फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर पर।",
+    "marked": "फ़ैसले की लड़ाई सिर पर थी, और सेनापति *बिस्तर* पर। [pause 0.4]",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "बिस्तर"
+    ],
+    "pauseAfterSec": 0.4,
+    "intensity": 6,
+    "musicMood": "single low drone, Dm",
+    "ambient": "river wind through the gatehouse",
+    "sfx": [
+     "fever-hum"
+    ],
+    "claimIds": [
+     "C01",
+     "C06"
+    ],
+    "deliveryNote": "quiet, close to the mic; land on बिस्तर"
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 4.1,
+    "endSec": 15.29,
+    "startFrame": 123,
+    "endFrame": 459,
+    "text": "सोलह सौ इकहत्तर, और गुवाहाटी के पास मुग़ल फ़ौज डटी थी। सामने थे अहोम सेनापति, लचित बोरफुकन। दो साल पहले, अलाबोई की हार में, अहोम करीब दस हज़ार सैनिक गँवा चुके थे।",
+    "marked": "सोलह सौ इकहत्तर, और गुवाहाटी के पास मुग़ल फ़ौज डटी थी। सामने थे अहोम सेनापति, लचित बोरफुकन। दो साल पहले, अलाबोई की हार में, अहोम करीब *दस हज़ार* सैनिक गँवा चुके थे। [pause 0.3]",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "दस हज़ार"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 4,
+    "musicMood": "low strings, Gm",
+    "ambient": "broad river, breeze",
+    "sfx": [
+     "river-bed",
+     "river-breeze"
+    ],
+    "claimIds": [
+     "C01",
+     "C02",
+     "C03",
+     "C04"
+    ],
+    "deliveryNote": "plain, factual; slight weight on the loss"
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 15.59,
+    "endSec": 27.24,
+    "startFrame": 468,
+    "endFrame": 817,
+    "text": "अब तोपों से लदी बड़ी मुग़ल नावें ब्रह्मपुत्र में बढ़ रही थीं। उन्हें देखकर अहोम सैनिक पीछे हटने लगे। कहते हैं, तब बीमार लचित खुद नाव लेकर आगे निकला, और लौटती नावें फिर मुड़ आईं।",
+    "marked": "अब तोपों से लदी बड़ी मुग़ल नावें ब्रह्मपुत्र में बढ़ रही थीं। उन्हें देखकर अहोम सैनिक पीछे हटने लगे। कहते हैं, तब बीमार लचित खुद नाव लेकर आगे निकला, और लौटती नावें फिर मुड़ आईं। [pause 0.3]",
+    "voiceEmotion": "urgent",
+    "speed": 1.05,
+    "emphasis": [
+     "खुद"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "pulse rises, drum hits, Dm",
+    "ambient": "water slap, oars",
+    "sfx": [
+     "fleet-rumble",
+     "boat-surge"
+    ],
+    "claimIds": [
+     "C05",
+     "C06",
+     "C07"
+    ],
+    "deliveryNote": "pick up pace; 'कहते हैं' said naturally, not hedged"
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 27.54,
+    "endSec": 33.8,
+    "startFrame": 826,
+    "endFrame": 1014,
+    "text": "पर लचित का असली हथियार नदी थी। सराईघाट पर ब्रह्मपुत्र सिकुड़कर करीब एक किलोमीटर रह जाती है।",
+    "marked": "पर लचित का असली हथियार *नदी* थी। सराईघाट पर ब्रह्मपुत्र सिकुड़कर करीब *एक किलोमीटर* रह जाती है। [pause 0.3]",
+    "voiceEmotion": "awed",
+    "speed": 0.95,
+    "emphasis": [
+     "नदी",
+     "एक किलोमीटर"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "music drops to a single high note, then F major opens",
+    "ambient": "wide river air",
+    "sfx": [
+     "narrows-glock"
+    ],
+    "claimIds": [
+     "C08",
+     "C21"
+    ],
+    "deliveryNote": "slow down; let नदी sit"
+   },
+   {
+    "id": "N05",
+    "beat": "explanation",
+    "startSec": 34.1,
+    "endSec": 42.76,
+    "startFrame": 1023,
+    "endFrame": 1283,
+    "text": "इतनी तंग नदी में बड़ी नावें फँस गईं। छोटी अहोम नावों ने उन्हें आगे-पीछे से घेर लिया। मुग़ल एडमिरल मुनव्वर ख़ान मारा गया। बेड़ा बिखर गया।",
+    "marked": "इतनी तंग नदी में बड़ी नावें फँस गईं। छोटी अहोम नावों ने उन्हें आगे-पीछे से घेर लिया। मुग़ल एडमिरल मुनव्वर ख़ान मारा गया। बेड़ा *बिखर* गया। [pause 0.4]",
+    "voiceEmotion": "tense",
+    "speed": 1.05,
+    "emphasis": [
+     "बिखर"
+    ],
+    "pauseAfterSec": 0.4,
+    "intensity": 9,
+    "musicMood": "full drums, peak, F to C",
+    "ambient": "water, timber strain",
+    "sfx": [
+     "hull-crack",
+     "encircle-whoosh",
+     "admiral-boom"
+    ],
+    "claimIds": [
+     "C05",
+     "C09",
+     "C10"
+    ],
+    "deliveryNote": "clipped; peak energy on बिखर"
+   },
+   {
+    "id": "N06",
+    "beat": "payoff",
+    "startSec": 43.16,
+    "endSec": 53.99,
+    "startFrame": 1295,
+    "endFrame": 1620,
+    "text": "मुग़ल फ़ौज पीछे हटी, मानस नदी तक। जीत के करीब एक साल बाद, लचित नहीं रहे। और मामा का सिर काटने वाली मशहूर कहानी? उसका कोई पुराना लिखित सबूत नहीं मिलता।",
+    "marked": "मुग़ल फ़ौज पीछे हटी, मानस नदी तक। जीत के करीब एक साल बाद, लचित नहीं रहे। और मामा का सिर काटने वाली मशहूर कहानी? उसका कोई पुराना लिखित सबूत नहीं मिलता। [pause 0.3]",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "सबूत"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 5,
+    "musicMood": "drums stop; warm Bb pad",
+    "ambient": "evening breeze",
+    "sfx": [
+     "evening-breeze"
+    ],
+    "claimIds": [
+     "C11",
+     "C12",
+     "C13"
+    ],
+    "deliveryNote": "quiet for the death line; a small wry lift on the question"
+   },
+   {
+    "id": "N07",
+    "beat": "ending",
+    "startSec": 54.29,
+    "endSec": 64.97,
+    "startFrame": 1629,
+    "endFrame": 1949,
+    "text": "पर आज भी, एनडीए के बेस्ट कैडेट को उसी के नाम का गोल्ड मेडल मिलता है। उस सेनापति के नाम का, जो बिस्तर से उठकर नदी में उतरा था।",
+    "marked": "पर आज भी, एनडीए के बेस्ट कैडेट को उसी के नाम का गोल्ड मेडल मिलता है। उस सेनापति के नाम का, जो *बिस्तर* से उठकर नदी में उतरा था।",
+    "voiceEmotion": "warm",
+    "speed": 0.95,
+    "emphasis": [
+     "बिस्तर"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 6,
+    "musicMood": "F major, gentle swell then fade",
+    "ambient": "breeze",
+    "sfx": [
+     "medal-notes"
+    ],
+    "claimIds": [
+     "C15",
+     "C07"
+    ],
+    "deliveryNote": "warm, unhurried; last line slower"
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "river",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Brahmaputra narrows at Saraighat: wide water ribbon pinched by two low hills (Kamakhya side / Itakhuli fort side), sandbanks, simple boat geometry",
+    "components": [
+     "gradient sky + painted clouds",
+     "ground plane grass/grassHD on banks",
+     "waterNear/waterFar river ribbon",
+     "boxGeo/cone hills",
+     "Batch-instanced boats (new geometry)",
+     "smoke wisps"
+    ]
+   },
+   {
+    "id": "fort",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Itakhuli hill gatehouse: earthen rampart, timber-roofed gate opening onto the river, a low cot",
+    "components": [
+     "boxGeo rampart with stoneHD/brick",
+     "planksHD timber roof + posts",
+     "cot from boxes + bed texture",
+     "river ribbon visible through the opening"
+    ]
+   },
+   {
+    "id": "parade",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "modern parade ground: flat cobble/stone ground, a plain flagpole without a flag, distant building block",
+    "components": [
+     "ground plane cobbleHD",
+     "cylinder pole",
+     "facadeHD box building",
+     "gradient sky"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "lachit",
+    "kind": "human",
+    "description": "Lachit Borphukan, Ahom commander, around 49 in 1671; stylised, no attempt at a portrait",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#F2E8CF",
+     "pants": "#F2E8CF",
+     "sash": "#2A9D8F",
+     "skin": "#C68A5A",
+     "hair": "#10222B",
+     "moustache": "#10222B"
+    },
+    "respectNote": "A revered regional hero: dignified poses only, no gags; sickness shown by sitting + pained face, not comic sweat."
+   },
+   {
+    "id": "soldier1",
+    "kind": "human",
+    "description": "Ahom soldier-rower",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#2E8B57",
+     "pants": "#F2E8CF",
+     "skin": "#B9784E",
+     "hair": "#10222B"
+    }
+   },
+   {
+    "id": "soldier2",
+    "kind": "human",
+    "description": "second Ahom soldier-rower",
+    "build": "stout",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#E9C46A",
+     "pants": "#F2E8CF",
+     "skin": "#A86B43",
+     "hair": "#10222B"
+    }
+   },
+   {
+    "id": "admiral",
+    "kind": "human",
+    "description": "Munnawar Khan, Mughal admiral; stylised, not a portrait",
+    "build": "stout",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#264653",
+     "pants": "#F2E8CF",
+     "sash": "#E9C46A",
+     "skin": "#C68A5A",
+     "hair": "#10222B",
+     "moustache": "#10222B"
+    },
+    "respectNote": "Enemy commander shown with dignity; no mockery, death off-frame."
+   },
+   {
+    "id": "cadet",
+    "kind": "human",
+    "description": "NDA cadet today (generic, not a real person)",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#F2E8CF",
+     "pants": "#264653",
+     "cap": "#264653",
+     "skin": "#B9784E",
+     "belt": "#10222B",
+     "buttons": "#E9C46A"
+    }
+   }
+  ],
+  "subjects": [
+   {
+    "name": "lachit",
+    "castId": "lachit",
+    "heightM": 1.65
+   },
+   {
+    "name": "soldier1",
+    "castId": "soldier1",
+    "heightM": 1.6
+   },
+   {
+    "name": "admiral",
+    "castId": "admiral",
+    "heightM": 1.6
+   },
+   {
+    "name": "cadet",
+    "castId": "cadet",
+    "heightM": 1.7
+   },
+   {
+    "name": "mughalFleet",
+    "place": "centre of the Mughal boat line",
+    "heightM": 6
+   },
+   {
+    "name": "narrows",
+    "place": "mid-river between the two hills",
+    "heightM": 30
+   },
+   {
+    "name": "cot",
+    "place": "cot in the gatehouse",
+    "heightM": 0.6
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 4.03,
+   "startFrame": 0,
+   "endFrame": 121,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर पर।"
+   },
+   "environment": {
+    "scene": "fort",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "Itakhuli gatehouse interior-edge: a low cot under a timber roof, the river glinting beyond the opening"
+   },
+   "characters": [
+    {
+     "id": "lachit",
+     "view": "front",
+     "mode": "sit",
+     "expression": "pained",
+     "facing": 1,
+     "look": 0.6,
+     "placement": "on the cot, screen left"
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "lachit",
+     "atFrame": 60,
+     "expression": "stern",
+     "word": "बिस्तर"
+    }
+   ],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "highAngle",
+      "params": {
+       "subject": "lachit",
+       "fill": 0.45,
+       "push": 0.04,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lachit",
+   "lighting": "dusk",
+   "foreground": "timber post of the gatehouse",
+   "background": "river and far bank through the opening, violet-blue sky",
+   "effects": [],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "fever-hum"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "single drone",
+    "duck": true
+   },
+   "emotionalIntention": "a sick man at the moment he is needed most: pity + question",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F03",
+    "F04"
+   ]
+  },
+  {
+   "id": 2,
+   "startSec": 4.03,
+   "endSec": 7.87,
+   "startFrame": 121,
+   "endFrame": 236,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "सोलह सौ इकहत्तर, और गुवाहाटी के पास मुग़ल फ़ौज डटी थी।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "the Brahmaputra near Guwahati; Mughal camp tents and big boats lined on the far bank"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 121,
+      "preset": "aerial",
+      "params": {
+       "subject": "mughalFleet",
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "mughalFleet",
+   "lighting": "day",
+   "foreground": "river surface",
+   "background": "low green hills, tents as simple cones, many big boats",
+   "effects": [
+    {
+     "fx": "smoke",
+     "atFrame": 131,
+     "untilFrame": 235,
+     "note": "camp smoke wisps"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "river-bed",
+    "river-breeze"
+   ],
+   "musicDirection": {
+    "beat": "context",
+    "mood": "low strings",
+    "duck": true
+   },
+   "emotionalIntention": "scale: the threat is large and already here",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02",
+    "F03"
+   ]
+  },
+  {
+   "id": 3,
+   "startSec": 7.87,
+   "endSec": 9.97,
+   "startFrame": 236,
+   "endFrame": 299,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "सामने थे अहोम सेनापति, लचित बोरफुकन।"
+   },
+   "environment": {
+    "scene": "fort",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "rampart above the river; Lachit standing at the gate, soldiers flanking"
+   },
+   "characters": [
+    {
+     "id": "lachit",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern",
+     "facing": 0
+    },
+    {
+     "id": "soldier1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": -1,
+     "placement": "left"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 236,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "lachit",
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lachit",
+   "lighting": "golden",
+   "foreground": "rampart edge",
+   "background": "warm sky over the river",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "context",
+    "mood": "low strings",
+    "duck": true
+   },
+   "emotionalIntention": "introduce the man with weight: low angle, steady",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F03"
+   ]
+  },
+  {
+   "id": 4,
+   "startSec": 9.97,
+   "endSec": 15.53,
+   "startFrame": 299,
+   "endFrame": 466,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "दो साल पहले, अलाबोई की हार में, अहोम करीब दस हज़ार सैनिक गँवा चुके थे।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "an empty riverbank at evening, smoke drifting over the plain: the memory of Alaboi"
+   },
+   "characters": [
+    {
+     "id": "soldier1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "pained",
+     "facing": 0,
+     "prop": "hatHeld",
+     "placement": "alone on the bank, small in frame"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "soldier1",
+     "atFrame": 319,
+     "action": "hatOff",
+     "description": "head bowed for the dead"
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 299,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "soldier1",
+       "fillFrom": 0.4,
+       "fillTo": 0.15,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "soldier1",
+   "lighting": "golden",
+   "foreground": "reeds (simple cones)",
+   "background": "long bank, smoke wisps",
+   "effects": [
+    {
+     "fx": "smoke",
+     "atFrame": 299,
+     "untilFrame": 465
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 12,
+    "reason": "time jump back to 1669"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "context",
+    "mood": "low strings, quieter",
+    "duck": true
+   },
+   "emotionalIntention": "grief, stakes: they have already lost once",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F01"
+   ],
+   "note": "No bodies, no gore: loss shown as one man alone with his head bowed."
+  },
+  {
+   "id": 5,
+   "startSec": 15.53,
+   "endSec": 19.5,
+   "startFrame": 466,
+   "endFrame": 585,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "अब तोपों से लदी बड़ी मुग़ल नावें ब्रह्मपुत्र में बढ़ रही थीं।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "big Mughal boats with cannon barrels advancing upriver in a line"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 466,
+      "preset": "tracking",
+      "params": {
+       "subject": "mughalFleet",
+       "path": [
+        [
+         -40,
+         3,
+         30
+        ],
+        [
+         -10,
+         3,
+         24
+        ]
+       ],
+       "ease": "cruise"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "mughalFleet",
+   "lighting": "day",
+   "foreground": "water",
+   "background": "far bank hills",
+   "effects": [
+    {
+     "fx": "splash",
+     "atFrame": 486,
+     "untilFrame": 516,
+     "note": "bow wave"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "fleet-rumble"
+   ],
+   "musicDirection": {
+    "beat": "escalation",
+    "mood": "pulse, drum hits",
+    "duck": true
+   },
+   "emotionalIntention": "dread: the big boats keep coming",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 6,
+   "startSec": 19.5,
+   "endSec": 21.83,
+   "startFrame": 585,
+   "endFrame": 655,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "उन्हें देखकर अहोम सैनिक पीछे हटने लगे।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "a small Ahom boat turning back; soldier looks over his shoulder at the big boats"
+   },
+   "characters": [
+    {
+     "id": "soldier1",
+     "view": "side",
+     "mode": "march",
+     "expression": "nervous",
+     "placement": "in a small boat, moving left"
+    },
+    {
+     "id": "soldier2",
+     "view": "side",
+     "mode": "march",
+     "expression": "shock",
+     "placement": "behind"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "soldier1",
+     "atFrame": 590,
+     "untilFrame": 654,
+     "action": "move",
+     "description": "boat slides left (retreat), pure f(frame)"
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "over-shoulder",
+   "cameraMovement": {
+    "kind": "handheld",
+    "keys": [
+     {
+      "f": 585,
+      "preset": "overShoulder",
+      "params": {
+       "subject": "mughalFleet",
+       "shoulder": "soldier1",
+       "handheld": 0.6,
+       "seed": 7
+      }
+     }
+    ]
+   },
+   "cameraTarget": "mughalFleet",
+   "lighting": "day",
+   "foreground": "soldier's shoulder",
+   "background": "the Mughal fleet looming",
+   "effects": [
+    {
+     "fx": "creak",
+     "atFrame": 595,
+     "untilFrame": 625,
+     "note": "fear lines"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "escalation",
+    "mood": "pulse",
+    "duck": true
+   },
+   "emotionalIntention": "the moment it almost falls apart",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ]
+  },
+  {
+   "id": 7,
+   "startSec": 21.83,
+   "endSec": 27.47,
+   "startFrame": 655,
+   "endFrame": 824,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "कहते हैं, तब बीमार लचित खुद नाव लेकर आगे निकला, और लौटती नावें फिर मुड़ आईं।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "Lachit standing in a small boat, pushing forward against the current; other small boats turning back toward him"
+   },
+   "characters": [
+    {
+     "id": "lachit",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern",
+     "facing": 1,
+     "placement": "bow of a small boat"
+    },
+    {
+     "id": "soldier1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "relief_open",
+     "facing": -1,
+     "placement": "second boat, behind"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "lachit",
+     "atFrame": 700,
+     "action": "point",
+     "params": {
+      "wave": 0.6
+     },
+     "description": "points forward at the fleet"
+    },
+    {
+     "characterId": "lachit",
+     "atFrame": 660,
+     "untilFrame": 823,
+     "action": "move",
+     "description": "boat advances, pure f(frame)"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "soldier1",
+     "atFrame": 774,
+     "expression": "relief_open",
+     "word": "मुड़"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 655,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "lachit",
+       "fill": 0.55,
+       "handheld": 0.4,
+       "seed": 3
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lachit",
+   "lighting": "day",
+   "foreground": "bow of the boat and spray",
+   "background": "big boats far behind him",
+   "effects": [
+    {
+     "fx": "kick",
+     "atFrame": 700,
+     "gain": 0.6
+    },
+    {
+     "fx": "gust",
+     "atFrame": 700,
+     "untilFrame": 730
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "boat-surge"
+   ],
+   "musicDirection": {
+    "beat": "escalation",
+    "mood": "drums",
+    "duck": true
+   },
+   "emotionalIntention": "defiance: the sick man moves first",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ]
+  },
+  {
+   "id": 8,
+   "startSec": 27.47,
+   "endSec": 30.07,
+   "startFrame": 824,
+   "endFrame": 902,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "पर लचित का असली हथियार नदी थी।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "close on Lachit, eyes turning from the fleet to the water"
+   },
+   "characters": [
+    {
+     "id": "lachit",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1,
+     "look": -0.6
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "lachit",
+     "atFrame": 854,
+     "expression": "smile_closed",
+     "word": "नदी"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 824,
+      "preset": "closeUp",
+      "params": {
+       "subject": "lachit",
+       "push": 0.05,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lachit",
+   "lighting": "day",
+   "foreground": "",
+   "background": "river surface behind him",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "music drops out to one note",
+    "duck": true
+   },
+   "emotionalIntention": "the turn: he knows something the enemy doesn't",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 9,
+   "startSec": 30.07,
+   "endSec": 34.03,
+   "startFrame": 902,
+   "endFrame": 1021,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "सराईघाट पर ब्रह्मपुत्र सिकुड़कर करीब एक किलोमीटर रह जाती है।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "the river from high above, pinched between Kamakhya-like hills on one side and Itakhuli fort hill on the other"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 902,
+      "preset": "crane",
+      "params": {
+       "subject": "narrows",
+       "fillFrom": 0.5,
+       "fillTo": 0.12,
+       "elFrom": 10,
+       "elTo": 55,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "narrows",
+   "lighting": "day",
+   "foreground": "",
+   "background": "two hills squeezing the water; tiny boats",
+   "effects": [
+    {
+     "fx": "flash",
+     "atFrame": 902,
+     "peak": 0.8
+    },
+    {
+     "fx": "sparkle",
+     "atFrame": 942,
+     "untilFrame": 992
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "flashPeak": 0.8,
+    "reason": "reveal of the battlefield's secret"
+   },
+   "soundEffects": [
+    "narrows-glock"
+   ],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "F major opens",
+    "duck": true
+   },
+   "emotionalIntention": "revelation: the geography is the weapon",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F03"
+   ]
+  },
+  {
+   "id": 10,
+   "startSec": 34.03,
+   "endSec": 36.7,
+   "startFrame": 1021,
+   "endFrame": 1101,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "इतनी तंग नदी में बड़ी नावें फँस गईं।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "big Mughal boats bunched in the narrow channel, bows almost touching"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1021,
+      "preset": "highAngle",
+      "params": {
+       "subject": "mughalFleet",
+       "fill": 0.55
+      }
+     }
+    ]
+   },
+   "cameraTarget": "mughalFleet",
+   "lighting": "day",
+   "foreground": "",
+   "background": "hills close on both sides",
+   "effects": [
+    {
+     "fx": "creak",
+     "atFrame": 1036,
+     "untilFrame": 1081,
+     "note": "timber strain lines"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hull-crack"
+   ],
+   "musicDirection": {
+    "beat": "battle",
+    "mood": "full drums",
+    "duck": true
+   },
+   "emotionalIntention": "claustrophobia: power that cannot turn",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 11,
+   "startSec": 36.7,
+   "endSec": 39.7,
+   "startFrame": 1101,
+   "endFrame": 1191,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "छोटी अहोम नावों ने उन्हें आगे-पीछे से घेर लिया।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "small Ahom boats sweep in from both ends and close the ring around the big boats"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 1101,
+      "preset": "orbit",
+      "params": {
+       "subject": "mughalFleet",
+       "fill": 0.35,
+       "az0": -30,
+       "sweep": 90,
+       "el": 35
+      }
+     }
+    ]
+   },
+   "cameraTarget": "mughalFleet",
+   "lighting": "day",
+   "foreground": "",
+   "background": "small boats moving on two arcs (pure f(frame))",
+   "effects": [
+    {
+     "fx": "gust",
+     "atFrame": 1111,
+     "untilFrame": 1161,
+     "note": "speed lines behind small boats"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "encircle-whoosh"
+   ],
+   "musicDirection": {
+    "beat": "battle",
+    "mood": "full drums",
+    "duck": true
+   },
+   "emotionalIntention": "the trap closes: small beats big",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 12,
+   "startSec": 39.7,
+   "endSec": 43.1,
+   "startFrame": 1191,
+   "endFrame": 1293,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "मुग़ल एडमिरल मुनव्वर ख़ान मारा गया। बेड़ा बिखर गया।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "the Mughal admiral's boat; he falls back out of frame; then the fleet drifting apart"
+   },
+   "characters": [
+    {
+     "id": "admiral",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock",
+     "facing": 0,
+     "placement": "on the big boat's deck"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "admiral",
+     "atFrame": 1216,
+     "untilFrame": 1236,
+     "action": "fall",
+     "description": "falls backward out of frame; no blood"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "admiral",
+     "atFrame": 1211,
+     "expression": "shock",
+     "word": "मारा"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 1191,
+      "preset": "closeUp",
+      "params": {
+       "subject": "admiral",
+       "fill": 0.5
+      }
+     },
+     {
+      "f": 1253,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "mughalFleet"
+      },
+      "cut": true
+     }
+    ]
+   },
+   "cameraTarget": "mughalFleet",
+   "lighting": "day",
+   "foreground": "deck rail",
+   "background": "boats turning away from each other",
+   "effects": [
+    {
+     "fx": "puff",
+     "atFrame": 1216,
+     "untilFrame": 1236
+    },
+    {
+     "fx": "kick",
+     "atFrame": 1216,
+     "gain": 1.0
+    },
+    {
+     "fx": "dust",
+     "atFrame": 1253,
+     "untilFrame": 1292,
+     "note": "spray as boats scatter"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "admiral-boom"
+   ],
+   "musicDirection": {
+    "beat": "battle",
+    "mood": "peak, then the drums break",
+    "duck": true
+   },
+   "emotionalIntention": "the peak: the head of the fleet is gone, the body breaks up",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ],
+   "note": "Respect: death shown as a fall out of frame + puff, nothing graphic."
+  },
+  {
+   "id": 13,
+   "startSec": 43.1,
+   "endSec": 45.53,
+   "startFrame": 1293,
+   "endFrame": 1366,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "मुग़ल फ़ौज पीछे हटी, मानस नदी तक।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "big boats shrinking downstream into a golden haze; the narrows empty"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 1293,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "narrows",
+       "fillFrom": 0.3,
+       "fillTo": 0.1,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "narrows",
+   "lighting": "golden",
+   "foreground": "water",
+   "background": "fleet going small toward the horizon",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 12,
+    "reason": "battle to aftermath"
+   },
+   "soundEffects": [
+    "evening-breeze"
+   ],
+   "musicDirection": {
+    "beat": "after",
+    "mood": "warm pad",
+    "duck": true
+   },
+   "emotionalIntention": "relief, space",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F02",
+    "F03"
+   ]
+  },
+  {
+   "id": 14,
+   "startSec": 45.53,
+   "endSec": 54.23,
+   "startFrame": 1366,
+   "endFrame": 1627,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "जीत के करीब एक साल बाद, लचित नहीं रहे। और मामा का सिर काटने वाली मशहूर कहानी? उसका कोई पुराना लिखित सबूत नहीं मिलता।"
+   },
+   "environment": {
+    "scene": "fort",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "the gatehouse again: the cot is empty, a lamp-warm key light"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1366,
+      "preset": "highAngle",
+      "params": {
+       "subject": "cot",
+       "fill": 0.4,
+       "push": 0.05,
+       "ease": "smooth"
+      }
+     },
+     {
+      "f": 1460,
+      "preset": "orbit",
+      "params": {
+       "subject": "cot",
+       "fill": 0.35,
+       "az0": -20,
+       "sweep": 30
+      },
+      "cut": true
+     }
+    ]
+   },
+   "cameraTarget": "cot",
+   "lighting": "dusk",
+   "foreground": "timber post (same as shot 1)",
+   "background": "river beyond the opening",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 15,
+    "reason": "a year passes"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "after",
+    "mood": "warm pad",
+    "duck": true
+   },
+   "emotionalIntention": "absence; then an honest aside about the legend",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F03",
+    "F04"
+   ],
+   "note": "Same framing as shot 1 with the man gone: the first half of the callback."
+  },
+  {
+   "id": 15,
+   "startSec": 54.23,
+   "endSec": 60.1,
+   "startFrame": 1627,
+   "endFrame": 1803,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "पर आज भी, एनडीए के बेस्ट कैडेट को उसी के नाम का गोल्ड मेडल मिलता है।"
+   },
+   "environment": {
+    "scene": "parade",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "today",
+    "description": "a modern parade ground; one cadet standing at attention, a small gold glint at his chest"
+   },
+   "characters": [
+    {
+     "id": "cadet",
+     "view": "front",
+     "mode": "stand",
+     "expression": "smile_closed",
+     "facing": 0
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1627,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "cadet",
+       "fill": 0.5
+      }
+     }
+    ]
+   },
+   "cameraTarget": "cadet",
+   "lighting": "day",
+   "foreground": "parade ground edge",
+   "background": "clear blue sky, a plain flagpole without a flag",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 1667,
+     "untilFrame": 1717,
+     "note": "medal glint"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 12,
+    "reason": "jump to today"
+   },
+   "soundEffects": [
+    "medal-notes"
+   ],
+   "musicDirection": {
+    "beat": "today",
+    "mood": "F major swell",
+    "duck": true
+   },
+   "emotionalIntention": "pride, continuity: the name is alive",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F05"
+   ]
+  },
+  {
+   "id": 16,
+   "startSec": 60.1,
+   "endSec": 66.3,
+   "startFrame": 1803,
+   "endFrame": 1989,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "उस सेनापति के नाम का, जो बिस्तर से उठकर नदी में उतरा था।"
+   },
+   "environment": {
+    "scene": "river",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1669-1672 Assam",
+    "description": "Lachit standing in a small boat on the golden river, framed like shot 1 but now upright"
+   },
+   "characters": [
+    {
+     "id": "lachit",
+     "view": "front",
+     "mode": "stand",
+     "expression": "smile_closed",
+     "facing": 0
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 1803,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "lachit",
+       "fill": 0.5
+      }
+     },
+     {
+      "f": 1893,
+      "preset": "crane",
+      "params": {
+       "subject": "narrows",
+       "fillFrom": 0.4,
+       "fillTo": 0.12,
+       "elFrom": 10,
+       "elTo": 40
+      },
+      "dur": 60
+     }
+    ]
+   },
+   "cameraTarget": "lachit",
+   "lighting": "golden",
+   "foreground": "bow of the boat",
+   "background": "golden sky over the narrows",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "today",
+    "mood": "fade",
+    "duck": false
+   },
+   "emotionalIntention": "callback: from the bed to the river; quiet image to end on",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ]
+  }
+ ],
+ "events": {
+  "flashAt": 902,
+  "flashes": [
+   [
+    902,
+    0.8
+   ]
+  ],
+  "hits": [
+   700,
+   1216
+  ],
+  "kicks": [
+   [
+    700,
+    0.6
+   ],
+   [
+    1216,
+    1.0
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "fever-hum",
+    "at": 0,
+    "gen": "hum",
+    "args": {
+     "hz": 55,
+     "tone": 0.3,
+     "noise": 0.2
+    },
+    "span": [
+     0,
+     121
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "low sick-room drone under the hook",
+    "post": [
+     [
+      "gain",
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "river-bed",
+    "at": 121,
+    "gen": "water",
+    "args": {
+     "close": 0.3
+    },
+    "span": [
+     121,
+     1293
+    ],
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "the river is a character: water bed under all river shots"
+   },
+   {
+    "id": "river-breeze",
+    "at": 121,
+    "gen": "breeze",
+    "args": {
+     "level": 0.4,
+     "bright": 0.4
+    },
+    "span": [
+     121,
+     466
+    ],
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "open-air width for context"
+   },
+   {
+    "id": "fleet-rumble",
+    "at": 471,
+    "gen": "rumble",
+    "args": {
+     "dur": 3.5,
+     "gain": 0.5,
+     "lo": 40,
+     "hi": 180,
+     "decay": 1.2
+    },
+    "segmentId": "N03",
+    "shotId": 5,
+    "intent": "weight of the big boats",
+    "post": [
+     [
+      "widen"
+     ]
+    ]
+   },
+   {
+    "id": "boat-surge",
+    "at": 700,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.8,
+     "peak": 0.5
+    },
+    "segmentId": "N03",
+    "shotId": 7,
+    "intent": "Lachit's boat lunges forward (with kick)"
+   },
+   {
+    "id": "narrows-glock",
+    "at": 904,
+    "gen": "glock",
+    "args": {
+     "midi": 79,
+     "level": 0.5
+    },
+    "segmentId": "N04",
+    "shotId": 9,
+    "intent": "the reveal of the narrows"
+   },
+   {
+    "id": "hull-crack",
+    "at": 1041,
+    "gen": "wood_crack",
+    "args": {},
+    "segmentId": "N05",
+    "shotId": 10,
+    "intent": "big hulls grinding in the narrow channel"
+   },
+   {
+    "id": "encircle-whoosh",
+    "at": 1111,
+    "gen": "whoosh",
+    "args": {
+     "dur": 1.2,
+     "peak": 0.6,
+     "width": 0.8
+    },
+    "segmentId": "N05",
+    "shotId": 11,
+    "intent": "small boats sweep in from both ends",
+    "post": [
+     [
+      "widen"
+     ]
+    ]
+   },
+   {
+    "id": "admiral-boom",
+    "at": 1216,
+    "gen": "boom",
+    "args": {
+     "dur": 1.6,
+     "f0": 60,
+     "big": 0.7
+    },
+    "segmentId": "N05",
+    "shotId": 12,
+    "intent": "the admiral falls; paired with kick + hit"
+   },
+   {
+    "id": "evening-breeze",
+    "at": 1293,
+    "gen": "breeze",
+    "args": {
+     "level": 0.3,
+     "bright": 0.2
+    },
+    "span": [
+     1293,
+     1627
+    ],
+    "segmentId": "N06",
+    "shotId": 13,
+    "intent": "quiet after the battle"
+   },
+   {
+    "id": "medal-notes",
+    "at": 1667,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      72,
+      76,
+      79
+     ],
+     "level": 0.4,
+     "spacing": 0.12
+    },
+    "segmentId": "N07",
+    "shotId": 15,
+    "intent": "medal glint"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      1
+     ],
+     "chord": "Dm",
+     "level": 0.6,
+     "mood": "single drone, sparse"
+    },
+    {
+     "name": "context",
+     "shots": [
+      2,
+      4
+     ],
+     "chord": "Gm",
+     "level": 0.75,
+     "mood": "low strings, grave"
+    },
+    {
+     "name": "escalation",
+     "shots": [
+      5,
+      7
+     ],
+     "chord": "Dm",
+     "level": 1.0,
+     "mood": "pulse + drum hits rising"
+    },
+    {
+     "name": "reveal",
+     "shots": [
+      8,
+      9
+     ],
+     "chord": "F",
+     "level": 0.9,
+     "mood": "drop to one note, then open major"
+    },
+    {
+     "name": "battle",
+     "shots": [
+      10,
+      12
+     ],
+     "chord": "C",
+     "level": 1.2,
+     "mood": "full drums, peak"
+    },
+    {
+     "name": "after",
+     "shots": [
+      13,
+      14
+     ],
+     "chord": "Bb",
+     "level": 0.7,
+     "mood": "warm pad, no drums"
+    },
+    {
+     "name": "today",
+     "shots": [
+      15,
+      16
+     ],
+     "chord": "F",
+     "level": 0.85,
+     "mood": "gentle swell, fade"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.0,
+   "fade_out": 0.8
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 8,
+   "originality": 7,
+   "researchReliability": 7,
+   "rhythm": 7,
+   "hinglishNaturalness": 7,
+   "emotion": 7,
+   "retention": 7,
+   "visualStorytelling": 7,
+   "pacing": 7,
+   "productionFeasibility": 5,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "production",
+    "issue": "Three new sets, a boat kit (small/large boats moving as f(frame)), Indian costume/headgear and a cot prop are all unbuilt; nothing here renders today without F01-F05.",
+    "severity": "high",
+    "resolved": false
+   },
+   {
+    "area": "research",
+    "issue": "Several battle details rest on Wikipedia + one secondary page (1 km width, Manas pursuit, front-and-rear attack); no Buranji or Bhuyan/Sarkar page was read directly.",
+    "severity": "medium",
+    "resolved": false
+   },
+   {
+    "area": "narration",
+    "issue": "The myth-check aside (S16-S17) slightly breaks the emotional line just before the ending; kept because the request asked to treat the uncle legend explicitly.",
+    "severity": "medium",
+    "resolved": false
+   },
+   {
+    "area": "rhythm",
+    "issue": "Estimated 64.9 s is at the top of the 45-65 s window; three MEDIUM DENSE flags (names/numbers in S2-S4) kept because each name is needed once.",
+    "severity": "low",
+    "resolved": false
+   },
+   {
+    "area": "hook",
+    "issue": "Hook does not say which battle or where until 4 s in.",
+    "severity": "low",
+    "resolved": false
+   }
+  ],
+  "verdict": "revise",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Cut 212 -> 179 words: dropped Ram Singh/Aurangzeb names from S3, merged the boat-rally lines, shortened the NDA ending into two sentences.",
+    "reason": "rhythm hard failures: 76.4 s estimate and 3.8 wps needed (rhythm.before.txt)"
+   },
+   {
+    "round": 1,
+    "change": "Added 'कहते हैं' to the sickbed-to-boat line; removed cannon count and all troop numbers; kept uncle story only as 'no old written evidence'.",
+    "reason": "fact check: C07 disputed, C05 count single-source, C17 numbers conflict"
+   },
+   {
+    "round": 2,
+    "change": "'पर असली चाल जगह की थी' -> 'पर लचित का असली हथियार नदी थी'; split the encirclement sentence; merged the year into the Guwahati line.",
+    "reason": "editor: stronger revelation line, peak moved to 66% (S13), FRONT_LOADED cleared"
+   },
+   {
+    "round": 3,
+    "change": "'करीब एक साल बाद, लचित की मौत हो गई' -> 'जीत के करीब एक साल बाद, लचित नहीं रहे'.",
+    "reason": "editor: flat clinical death line; respectful spoken form"
+   }
+  ],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 64.94,
+   "wps": 2.86,
+   "lengthCv": 0.37,
+   "findings": 4
+  },
+  "editorNotes": "Verdict revise only because productionFeasibility is 5 (nothing in the Indian set/boat/costume kit exists yet); the script itself meets the bar on every other item."
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "Indian costume kit: Ahom headgear (cheleng/turban-style), Mughal turban, dhoti/chadar",
+   "need": "hats available are western (hood, cap, shako...); 'hair' is used as a stand-in",
+   "shotIds": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    12,
+    16
+   ],
+   "suggestion": "ENGINE_CAPABILITIES §11.1: add pagdi/turban hats + dhoti in toon.ts",
+   "workaround": "hat 'hair' + cream/teal outfits + sash"
+  },
+  {
+   "id": "F02",
+   "feature": "Boat kit: small Ahom war-boats and large Mughal cannon boats, moving along the river as pure f(frame)",
+   "need": "no boat geometry exists; characters must stand in boats",
+   "shotIds": [
+    2,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    16
+   ],
+   "suggestion": "world.ts helper: boxGeo hull + cone bow, instanced; cannon as short cylinders; positions keyed on frames",
+   "workaround": "none — needed before render"
+  },
+  {
+   "id": "F03",
+   "feature": "River narrows + hill fort sets (Saraighat / Itakhuli)",
+   "need": "all existing sets are Siberian",
+   "shotIds": [
+    1,
+    2,
+    3,
+    9,
+    13,
+    14
+   ],
+   "suggestion": "ENGINE_CAPABILITIES §11.5 Indian set kit: ghat/river + fort wall + hills",
+   "workaround": "none"
+  },
+  {
+   "id": "F04",
+   "feature": "Cot / sickbed prop",
+   "need": "hook and callback hinge on a cot",
+   "shotIds": [
+    1,
+    14
+   ],
+   "suggestion": "boxes + 'bed' paint texture",
+   "workaround": "character in 'sit' mode on a box"
+  },
+  {
+   "id": "F05",
+   "feature": "Medal prop on a cadet's chest",
+   "need": "a small gold disc on the jacket",
+   "shotIds": [
+    15
+   ],
+   "suggestion": "toon.ts outfit flag 'medal' (circle + ribbon)",
+   "workaround": "sparkle card at chest height + 'buttons' in gold"
+  },
+  {
+   "id": "F06",
+   "feature": "Indian percussion timbre (dhol-like) for battle hits",
+   "need": "score drums are generic",
+   "shotIds": [
+    5,
+    6,
+    7,
+    10,
+    11,
+    12
+   ],
+   "suggestion": "ENGINE_CAPABILITIES §11.9 membrane timbre",
+   "workaround": "default percussion via events.hits"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "बिस्तर से उठा सेनापति, और मुग़ल बेड़ा बिखर गया",
+   "1 किलोमीटर की नदी ने कैसे जिताई सराईघाट की लड़ाई",
+   "Lachit Borphukan: बीमार सेनापति की सबसे बड़ी जीत",
+   "सराईघाट 1671: छोटी नावें, बड़ा बेड़ा",
+   "NDA का Lachit Borphukan मेडल किसके नाम पर है?"
+  ],
+  "thumbnails": [
+   {
+    "concept": "Lachit on a cot in the gatehouse, the river and big boats visible through the opening, dusk",
+    "text": "बीमार सेनापति?"
+   },
+   {
+    "concept": "Aerial of the narrows: two hills squeezing the river, tiny boats ringing big ones",
+    "text": "1 KM की नदी"
+   },
+   {
+    "concept": "Low angle of Lachit standing in a small boat, golden sky",
+    "text": "सराईघाट 1671"
+   }
+  ],
+  "description": "1671, गुवाहाटी: सराईघाट की लड़ाई, जहाँ अहोम सेनापति लचित बोरफुकन ने बीमारी के बावजूद मुग़ल बेड़े (कमान: आमेर के राम सिंह) को ब्रह्मपुत्र के सबसे तंग हिस्से में हराया। मामा वाली कहानी और सेना की संख्याएँ हमने जानबूझकर नहीं बताईं — उनके पक्के सबूत नहीं मिले।\nSources: Govt of Assam (Kamrup district) page on Alaboi & Saraighat; Live History India; The Sentinel (Assam); EastMojo; Wikipedia (Battle of Saraighat, Lachit Borphukan) and the histories it cites (S.K. Bhuyan 1947; J.N. Sarkar 1992).",
+  "hashtags": [
+   "#Saraighat",
+   "#LachitBorphukan",
+   "#Assam",
+   "#AhomKingdom",
+   "#IndianHistory",
+   "#Brahmaputra",
+   "#Shorts"
+  ],
+  "pinnedComment": "24 नवंबर को असम में लचित दिवस मनाया जाता है। आपने लचित बोरफुकन का नाम पहली बार कहाँ सुना था — स्कूल में, या कहीं और?"
+ }
+}

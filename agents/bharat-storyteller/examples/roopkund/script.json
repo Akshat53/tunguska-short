@@ -1,0 +1,2317 @@
+{
+ "$schema": "../../schemas/script-package.schema.json",
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "roopkund",
+  "title": "रूपकुंड: एक झील, हज़ार साल का राज़",
+  "topic": "Roopkund \"skeleton lake\", Uttarakhand: the hailstorm theory and the 2019 ancient-DNA study",
+  "category": "geographical-mystery",
+  "structure": "mystery-reveal",
+  "angle": "The bones everyone blamed on one hailstorm turned out to be people who died about a thousand years apart, some with eastern-Mediterranean ancestry",
+  "centralQuestion": "Who were the hundreds of people whose skeletons lie at Roopkund, and did they die together?",
+  "audience": "Indian Shorts viewers 16-35, trekking/travel curious, not specialists",
+  "language": "hinglish",
+  "durationSec": 65.0,
+  "totalFrames": 1950,
+  "coreEmotion": "eerie wonder turning to respectful not-knowing",
+  "takeaway": "One place can hold several unrelated tragedies; new evidence can overturn a neat story and still leave honest questions",
+  "tone": "mysterious, restrained, respectful of the dead",
+  "sensitivity": "Human remains: no gore, no skull close-ups, remains drawn only as distant pale shapes. Nanda Devi legend is framed as a folk song; the goddess is not depicted. No jokes.",
+  "researchMode": "web-verified",
+  "created": "2026-11-01"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "Roopkund Lake holds the scattered skeletal remains of several hundred people (exact count unknown; popular estimates 200-800).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "skeletal remains from several hundred ancient humans"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "say \"सैकड़ों\" (hundreds); never a precise count",
+   "usableInScript": true,
+   "notes": "NatGeo: \"as many as 800\"; DTE: up to 600 may be under snow; Wikipedia: \"more than 300\". Counts conflict, so none is spoken."
+  },
+  {
+   "id": "C02",
+   "claim": "The lake lies at about 5,000 m in the Himalaya (Harney et al.: 5029 m; MPI: over 5000 m).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "5029 m above sea level"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Situated at over 5000 meters above sea-level"
+    }
+   ],
+   "qualification": "say \"करीब पाँच हज़ार मीटर\"",
+   "usableInScript": true,
+   "notes": "Wikipedia lead says 5,020 m and its infobox 4,536 m: conflicting, so the round figure is used."
+  },
+  {
+   "id": "C03",
+   "claim": "Roopkund is in Chamoli district, Uttarakhand.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Roopkund (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Roopkund",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "in the Chamoli District of Uttarakhand state of India"
+    },
+    {
+     "title": "Outlook Traveller: The Chilling Story Of Roopkund",
+     "url": "https://www.outlooktraveller.com/destinations/india/the-chilling-story-of-roopkund-indias-lake-of-skeletons-in-uttarakhand",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Only \"Uttarakhand\" is spoken."
+  },
+  {
+   "id": "C04",
+   "claim": "The skeletons were found (rediscovered) in 1942 by a forest guard / ranger (Wikipedia names Hari Kishan Madhwal of Nanda Devi National Park).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Down To Earth: Skeleton Lake (31 Aug 2005)",
+     "url": "https://www.downtoearth.org.in/environment/skeleton--lake-10032",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "a forest guard chanced upon hundreds of skeletons"
+    },
+    {
+     "title": "Wikipedia: Roopkund (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Roopkund",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "rediscovered in 1942 by a forest ranger"
+    }
+   ],
+   "qualification": "not used in the final narration (cut for length)",
+   "usableInScript": true,
+   "notes": "Cut in rewrite round 1; kept usable for the description."
+  },
+  {
+   "id": "C05",
+   "claim": "A local folk song says a royal procession (during the Raj Jat for the goddess Nanda Devi) angered the goddess, who struck it down with \"iron balls\" (hail) from the sky.",
+   "category": "legend",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "iron balls"
+    },
+    {
+     "title": "Wikipedia: Roopkund (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Roopkund",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the group faced a storm with large hailstones"
+    }
+   ],
+   "qualification": "framed as \"एक लोकगीत कहता है\" (a folk song says); the goddess is not depicted",
+   "usableInScript": true
+  },
+  {
+   "id": "C06",
+   "claim": "Investigators (reported 2004-2005) found short deep cracks on top of some skulls, attributed to blunt round objects about the size of cricket balls, and concluded that large hailstones killed the people.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Down To Earth: Skeleton Lake (31 Aug 2005)",
+     "url": "https://www.downtoearth.org.in/environment/skeleton--lake-10032",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "blunt, round objects about the size of cricket balls"
+    },
+    {
+     "title": "Outlook India: Bones Of A Riddle",
+     "url": "https://www.outlookindia.com/society/bones-of-a-riddle-news-225620",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "framed as what scientists then found/thought; \"कुछ खोपड़ियों\"; the hail cause is not stated as settled",
+   "usableInScript": true,
+   "notes": "Harney et al. note an osteological report hypothesising hail but say other scenarios are plausible."
+  },
+  {
+   "id": "C07",
+   "claim": "Earlier radiocarbon dating put the deaths around 850 CE (Oxford), which suggested a single event.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Down To Earth: Skeleton Lake (31 Aug 2005)",
+     "url": "https://www.downtoearth.org.in/environment/skeleton--lake-10032",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "about 850 ad"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "clustered around 800 A.D."
+    }
+   ],
+   "qualification": "\"करीब आठ सौ पचास ईस्वी\" as the earlier dating",
+   "usableInScript": true
+  },
+  {
+   "id": "C08",
+   "claim": "In 2019 Harney et al. (Nature Communications) reported genome-wide ancient DNA from 38 Roopkund skeletons.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The genome sequencing of 38 individuals"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C09",
+   "claim": "23 of the 38 have South Asian-related ancestry and died between about the 7th and 10th centuries CE, possibly in several events.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "\"ज़्यादातर\" refers to the 38 sampled, not all remains",
+   "usableInScript": true
+  },
+  {
+   "id": "C10",
+   "claim": "14 of the 38 have West Eurasian ancestry most closely related to present-day people of the eastern Mediterranean, especially Greece and Crete.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "most closely related to people who live in the eastern Mediterranean, especially present-day Crete and Greece"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "\"सबसे करीब मिलता है\" (closest match), not \"they were Greek\"",
+   "usableInScript": true
+  },
+  {
+   "id": "C11",
+   "claim": "The eastern-Mediterranean group (and the one Southeast Asian individual) died much later, around 1800 CE (paper: 17th-20th centuries).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the more recent around 1800 AD"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "\"करीब अठारह सौ ईस्वी\"",
+   "usableInScript": true
+  },
+  {
+   "id": "C12",
+   "claim": "The remains derive from at least two separate events about 1,000 years apart.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "perished in at least two separate events"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the two major genetic groups were actually deposited approximately 1000 years apart."
+    }
+   ],
+   "qualification": "\"कम से कम दो\", \"करीब हज़ार साल\"",
+   "usableInScript": true
+  },
+  {
+   "id": "C13",
+   "claim": "One individual has Southeast Asian-related ancestry.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Cut from narration to keep one line; mentioned in pinned comment."
+  },
+  {
+   "id": "C14",
+   "claim": "Isotopes show different diets between the South Asian group and the Mediterranean group.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Cut for length."
+  },
+  {
+   "id": "C15",
+   "claim": "No bacterial pathogen DNA was found, so there is no support for an epidemic (with caveats).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Popular Archaeology: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://popular-archaeology.com/article/biomolecular-analyses-of-roopkund-skeletons-show-mediterranean-migrants-in-indian-himalaya/",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Cut for length."
+  },
+  {
+   "id": "C16",
+   "claim": "For at least some of the South Asian group, the authors view mass death during a pilgrimage (the Nanda Devi Raj Jat, today every 12 years) as plausible.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "today occurs every 12 years"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "only as a possibility (शायद); not used in final narration",
+   "usableInScript": true,
+   "notes": "Line cut in round 2 for length."
+  },
+  {
+   "id": "C17",
+   "claim": "Why the eastern-Mediterranean group travelled to Roopkund, and how the people died, is still unexplained.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "It is still not clear what brought these individuals to Roopkund Lake or how they died"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "failed to answer why Mediterranean people were traveling to this lake"
+    }
+   ],
+   "qualification": "spoken as unresolved: \"कोई नहीं जानता\", \"पक्का नहीं\"",
+   "usableInScript": true
+  },
+  {
+   "id": "C18",
+   "claim": "Popular claim: \"everyone at Roopkund died together in a single hailstorm\" (as settled fact).",
+   "category": "disputed",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+     "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+     "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "only as the OLD theory that the 2019 study overturned for the single-event part",
+   "usableInScript": false,
+   "debunked": true,
+   "notes": "The single-event version is contradicted by the 2019 dates; a hailstorm for some deaths is not ruled out."
+  },
+  {
+   "id": "C19",
+   "claim": "1942 theory: the skeletons were Japanese soldiers of a hidden invasion force.",
+   "category": "legend",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Roopkund (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Roopkund",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "casualties of a hidden Japanese invasion force"
+    }
+   ],
+   "qualification": "NOT USED",
+   "usableInScript": false,
+   "debunked": true,
+   "notes": "Remains were far too old."
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "visual-curiosity",
+    "text": "हिमालय की एक छोटी-सी बर्फ़ीली झील। और उसके आसपास, सैकड़ों लोगों के कंकाल।",
+    "score": 8,
+    "claimIds": [
+     "C01"
+    ],
+    "critique": "concrete image, true, opens \"who were they?\" without giving the DNA twist; first sentence 6 words"
+   },
+   {
+    "id": "H2",
+    "technique": "contradiction",
+    "text": "एक झील, एक ही जगह, पर यहाँ मरे लोगों के बीच हज़ार साल का फ़ासला है।",
+    "score": 7,
+    "claimIds": [
+     "C12"
+    ],
+    "critique": "strong but spends the revelation in the hook"
+   },
+   {
+    "id": "H3",
+    "technique": "question",
+    "text": "पाँच हज़ार मीटर ऊपर, ग्रीस के पास के लोग क्या कर रहे थे?",
+    "score": 6,
+    "claimIds": [
+     "C02",
+     "C10"
+    ],
+    "critique": "gives away the Mediterranean twist; unanswerable question as opener"
+   },
+   {
+    "id": "H4",
+    "technique": "mystery",
+    "text": "एक लोकगीत कहता है कि यहाँ आसमान से लोहे के गोले बरसे थे।",
+    "score": 7,
+    "claimIds": [
+     "C05"
+    ],
+    "critique": "intriguing, legend correctly framed, but abstract without seeing the lake"
+   },
+   {
+    "id": "H5",
+    "technique": "surprising-fact",
+    "text": "अड़तीस कंकालों का डीएनए पढ़ा गया, और कहानी उलट गई।",
+    "score": 5,
+    "claimIds": [
+     "C08"
+    ],
+    "critique": "announces a twist instead of showing one; clinical opener"
+   }
+  ],
+  "recommended": "H1",
+  "reason": "truest and most visual (aerial lake + distant pale shapes), keeps the revelation (two events, Mediterranean group) hidden until ~36 s, and lets the ending return to the same lake image as a callback"
+ },
+ "narration": {
+  "language": "hinglish",
+  "voice": {
+   "engine": "edge-tts",
+   "id": "hi-IN-MadhurNeural",
+   "rate": "+10%"
+  },
+  "wps": 2.86,
+  "totalWords": 173,
+  "estimatedSpeechSec": 60.5,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.2,
+    "endSec": 5.05,
+    "startFrame": 6,
+    "endFrame": 152,
+    "text": "हिमालय की एक छोटी-सी बर्फ़ीली झील। और उसके आसपास, सैकड़ों लोगों के कंकाल।",
+    "marked": "हिमालय की एक छोटी-सी बर्फ़ीली झील। [pause 0.3] और उसके आसपास, *सैकड़ों* लोगों के कंकाल।",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "सैकड़ों"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 5,
+    "musicMood": "low drone, sparse",
+    "ambient": "thin high-altitude wind",
+    "sfx": [
+     "wind-lake",
+     "hook-hum"
+    ],
+    "claimIds": [
+     "C01"
+    ]
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 5.3,
+    "endSec": 11.09,
+    "startFrame": 159,
+    "endFrame": 333,
+    "text": "उत्तराखंड का रूपकुंड, करीब पाँच हज़ार मीटर ऊपर। सवाल एक ही है, ये लोग कौन थे?",
+    "marked": "उत्तराखंड का रूपकुंड, करीब पाँच हज़ार मीटर ऊपर। [pause 0.2] सवाल एक ही है, ये लोग कौन थे?",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [],
+    "pauseAfterSec": 0.25,
+    "intensity": 4,
+    "musicMood": "low drone",
+    "ambient": "wind",
+    "sfx": [],
+    "claimIds": [
+     "C02",
+     "C01"
+    ]
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 11.34,
+    "endSec": 28.27,
+    "startFrame": 340,
+    "endFrame": 848,
+    "text": "एक लोकगीत कहता है, एक शाही यात्रा से देवी नंदा नाराज़ हुईं, और आसमान से लोहे जैसे गोले बरसे। फिर वैज्ञानिकों को कुछ खोपड़ियों के ऊपर चोटें मिलीं, जैसे क्रिकेट बॉल जितने ओले गिरे हों। कार्बन डेटिंग बोली, करीब आठ सौ पचास ईस्वी। एक तूफ़ान, एक हादसा।",
+    "marked": "एक लोकगीत कहता है, एक शाही यात्रा से देवी नंदा नाराज़ हुईं, और आसमान से लोहे जैसे गोले बरसे। [pause 0.3] फिर वैज्ञानिकों को कुछ खोपड़ियों के ऊपर चोटें मिलीं, जैसे क्रिकेट बॉल जितने *ओले* गिरे हों। कार्बन डेटिंग बोली, करीब आठ सौ पचास ईस्वी। [pause 0.2] एक तूफ़ान, एक हादसा।",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "ओले"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 6,
+    "musicMood": "rising, minor",
+    "ambient": "wind, distant thunder",
+    "sfx": [
+     "legend-rumble",
+     "hail-crackles",
+     "hail-boom"
+    ],
+    "claimIds": [
+     "C05",
+     "C06",
+     "C07"
+    ]
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 28.52,
+    "endSec": 42.31,
+    "startFrame": 856,
+    "endFrame": 1269,
+    "text": "दो हज़ार उन्नीस में, अड़तीस कंकालों का डीएनए पढ़ा गया। ज़्यादातर लोग दक्षिण एशिया के थे, सातवीं से दसवीं सदी के। लेकिन चौदह लोग अलग निकले। उनका डीएनए सबसे करीब मिलता है आज के ग्रीस और क्रीट से।",
+    "marked": "[pause 0.3] दो हज़ार उन्नीस में, अड़तीस कंकालों का *डीएनए* पढ़ा गया। ज़्यादातर लोग दक्षिण एशिया के थे, सातवीं से दसवीं सदी के। लेकिन चौदह लोग *अलग* निकले। [pause 0.2] उनका डीएनए सबसे करीब मिलता है आज के ग्रीस और क्रीट से।",
+    "voiceEmotion": "awed",
+    "speed": 1.0,
+    "emphasis": [
+     "डीएनए",
+     "अलग"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 8,
+    "musicMood": "lift, brighter chord at the turn",
+    "ambient": "lab hum",
+    "sfx": [
+     "lab-clicks",
+     "reveal-whoosh",
+     "reveal-glock"
+    ],
+    "claimIds": [
+     "C08",
+     "C09",
+     "C10"
+    ]
+   },
+   {
+    "id": "N05",
+    "beat": "explanation",
+    "startSec": 42.56,
+    "endSec": 50.9,
+    "startFrame": 1277,
+    "endFrame": 1527,
+    "text": "और वो मरे थे करीब अठारह सौ ईस्वी में। यानी एक झील, कम से कम दो हादसे, और बीच में करीब हज़ार साल।",
+    "marked": "और वो मरे थे करीब अठारह सौ ईस्वी में। [pause 0.3] यानी एक झील, कम से कम दो हादसे, और बीच में करीब *हज़ार* साल।",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "हज़ार"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 6,
+    "musicMood": "sustained",
+    "ambient": "soft wind",
+    "sfx": [
+     "thousand-notes"
+    ],
+    "claimIds": [
+     "C11",
+     "C12"
+    ]
+   },
+   {
+    "id": "N06",
+    "beat": "ending",
+    "startSec": 51.15,
+    "endSec": 64.34,
+    "startFrame": 1535,
+    "endFrame": 1930,
+    "text": "वो इतनी दूर, इस बर्फ़ तक क्यों आए, ये आज भी कोई नहीं जानता। और मौत कैसे हुई, ये भी पक्का नहीं। झील आज भी चुप है। पर उसकी हड्डियों ने बोलना शुरू कर दिया है।",
+    "marked": "वो इतनी दूर, इस बर्फ़ तक क्यों आए, ये आज भी कोई नहीं जानता। [pause 0.3] और मौत कैसे हुई, ये भी पक्का नहीं। [pause 0.3] झील आज भी चुप है। पर उसकी हड्डियों ने बोलना शुरू कर दिया है।",
+    "voiceEmotion": "somber",
+    "speed": 0.95,
+    "emphasis": [],
+    "pauseAfterSec": 0.0,
+    "intensity": 4,
+    "musicMood": "thin, fading",
+    "ambient": "wind",
+    "sfx": [
+     "wind-end",
+     "end-glock"
+    ],
+    "claimIds": [
+     "C17",
+     "C01"
+    ]
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "lake",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "high-altitude glacial tarn in a snow bowl: flat ice/water disc, snow ground, boulders, ridge cones; pale ground blobs for remains seen only at distance",
+    "components": [
+     "gradient sky",
+     "ground plane with water/waterFar + stone/stoneHD textures",
+     "cones/boxes for ridge and boulders (build.ts)",
+     "smoke wisps for mist",
+     "blob ground cards"
+    ]
+   },
+   {
+    "id": "trail",
+    "kind": "adapt",
+    "basedOn": "taiga",
+    "description": "taiga ground and river path re-dressed as a bare snowy ridge trail (trees removed) for the legend shot",
+    "components": [
+     "taiga ground re-painted snow/stone",
+     "trail spline",
+     "cloud cards",
+     "gust cards"
+    ]
+   },
+   {
+    "id": "lab",
+    "kind": "adapt",
+    "basedOn": "office",
+    "description": "office set re-dressed as a genetics lab: desk, nine screens showing abstract skull outlines and DNA strands (no text)",
+    "components": [
+     "office wall/window",
+     "screens with new canvas paintings",
+     "desk"
+    ]
+   },
+   {
+    "id": "globe",
+    "kind": "reuse",
+    "basedOn": "globe",
+    "description": "existing textured globe turned to show the eastern Mediterranean and the Himalaya, with glow dots and an arrow card (no labels)",
+    "components": [
+     "globe",
+     "sparkle",
+     "arrow"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "trekker",
+    "kind": "human",
+    "description": "present-day trekker, stand-in for the viewer",
+    "build": "adult",
+    "hat": "hood",
+    "outfit": {
+     "jacket": "#2a9d8f",
+     "pants": "#3b3f52",
+     "boots": "#5a3b2a",
+     "skin": "#c68e62"
+    }
+   },
+   {
+    "id": "pilgrim1",
+    "kind": "human",
+    "description": "legend procession walker (generic, not a specific community costume)",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#f2e6c9",
+     "pants": "#f2e6c9",
+     "sash": "#f4c430",
+     "skin": "#b97a50",
+     "hair": "#10222b"
+    },
+    "respectNote": "legend figure; no mockery, no injury depicted"
+   },
+   {
+    "id": "pilgrim2",
+    "kind": "human",
+    "description": "legend procession walker",
+    "build": "stout",
+    "hat": "hood",
+    "outfit": {
+     "jacket": "#2e8b57",
+     "pants": "#f2e6c9",
+     "skin": "#a86c45"
+    },
+    "respectNote": "legend figure"
+   },
+   {
+    "id": "pilgrim3",
+    "kind": "human",
+    "description": "legend procession walker",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "dress": "#f4c430",
+     "skin": "#c68e62",
+     "hair": "#10222b"
+    },
+    "respectNote": "legend figure"
+   },
+   {
+    "id": "scientist",
+    "kind": "human",
+    "description": "geneticist in the lab",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#f2e6c9",
+     "pants": "#3b3f52",
+     "skin": "#c68e62",
+     "hair": "#10222b"
+    }
+   }
+  ],
+  "subjects": [
+   {
+    "name": "lake",
+    "place": "lake centre",
+    "heightM": 1
+   },
+   {
+    "name": "ridge",
+    "place": "ridge behind the lake",
+    "heightM": 40
+   },
+   {
+    "name": "trekker",
+    "castId": "trekker",
+    "heightM": 1.7
+   },
+   {
+    "name": "procession",
+    "place": "middle walker of the procession",
+    "heightM": 1.7
+   },
+   {
+    "name": "scientist",
+    "castId": "scientist",
+    "heightM": 1.7
+   },
+   {
+    "name": "screens",
+    "place": "lab screen wall",
+    "heightM": 1.5
+   },
+   {
+    "name": "globe",
+    "place": "globe centre",
+    "heightM": 2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0,
+   "endSec": 5.23,
+   "startFrame": 0,
+   "endFrame": 157,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "हिमालय की एक छोटी-सी बर्फ़ीली झील। और उसके आसपास, सैकड़ों लोगों के कंकाल।"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "frozen tarn in a snow bowl at ~5000 m; pale scattered shapes on the shore seen only from far away",
+    "fog": [
+     30,
+     260
+    ]
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "aerial",
+      "params": {
+       "subject": "lake",
+       "fill": 0.08,
+       "fillTo": 0.14,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lake",
+   "lighting": "dusk",
+   "foreground": "snow-crusted rocks at the frame edge",
+   "background": "violet-blue evening gradient sky, ridge silhouettes",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 0,
+     "note": "pale ground blobs = remains, abstract, seen only at distance (no skull detail)"
+    },
+    {
+     "fx": "smoke",
+     "atFrame": 0,
+     "note": "thin mist wisps over the ice"
+    }
+   ],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "wind-lake",
+    "hook-hum"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "sparse eerie drone",
+    "duck": true
+   },
+   "emotionalIntention": "unease: a beautiful place with something wrong in it",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 2,
+   "startSec": 5.23,
+   "endSec": 8.22,
+   "startFrame": 157,
+   "endFrame": 247,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "उत्तराखंड का रूपकुंड, करीब पाँच हज़ार मीटर ऊपर।"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the lake bowl with the surrounding ridge and a thin trail"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 157,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "ridge",
+       "push": 0.06,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "ridge",
+   "lighting": "day",
+   "foreground": "boulders",
+   "background": "blue sky, painted clouds, snow peaks",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low drone",
+    "duck": false
+   },
+   "emotionalIntention": "scale and remoteness: how high and far this is",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 3,
+   "startSec": 8.22,
+   "endSec": 11.27,
+   "startFrame": 247,
+   "endFrame": 338,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "सवाल एक ही है, ये लोग कौन थे?"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "trekker alone at the shore, small against the snow; remains as far pale blobs"
+   },
+   "characters": [
+    {
+     "id": "trekker",
+     "view": "front",
+     "mode": "stand",
+     "expression": "nervous",
+     "look": -0.4,
+     "placement": "shore, lake behind"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "trekker",
+     "atFrame": 267,
+     "action": "lookUp",
+     "params": {
+      "headTilt": -8,
+      "look": -0.5
+     },
+     "description": "looks down at the shore then up"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "trekker",
+     "atFrame": 247,
+     "expression": "nervous",
+     "word": "सवाल"
+    }
+   ],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 247,
+      "preset": "highAngle",
+      "params": {
+       "subject": "trekker",
+       "fill": 0.45,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "trekker",
+   "lighting": "day",
+   "foreground": "snow edge",
+   "background": "lake surface",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 247
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low drone, a held note",
+    "duck": false
+   },
+   "emotionalIntention": "the viewer's question voiced by a small human figure",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 4,
+   "startSec": 11.27,
+   "endSec": 18.2,
+   "startFrame": 338,
+   "endFrame": 546,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "एक लोकगीत कहता है, एक शाही यात्रा से देवी नंदा नाराज़ हुईं, और आसमान से लोहे जैसे गोले बरसे।"
+   },
+   "environment": {
+    "scene": "trail",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "legend: a small procession walks a snowy ridge trail; sky darkens with cloud cards; hail shown as gust lines + a white flash, the goddess is NOT shown"
+   },
+   "characters": [
+    {
+     "id": "pilgrim1",
+     "view": "side",
+     "mode": "march",
+     "expression": "neutral"
+    },
+    {
+     "id": "pilgrim2",
+     "view": "side",
+     "mode": "march",
+     "expression": "neutral"
+    },
+    {
+     "id": "pilgrim3",
+     "view": "side",
+     "mode": "march",
+     "expression": "nervous"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "pilgrim1",
+     "atFrame": 338,
+     "action": "move",
+     "description": "walks along the trail spline"
+    },
+    {
+     "characterId": "pilgrim3",
+     "atFrame": 519,
+     "action": "flinch",
+     "params": {
+      "tilt": -10
+     },
+     "description": "flinches at the hail"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "pilgrim3",
+     "atFrame": 428,
+     "expression": "nervous",
+     "word": "नाराज़"
+    }
+   ],
+   "cameraAngle": "profile",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 338,
+      "preset": "tracking",
+      "params": {
+       "subject": "procession",
+       "path": [
+        [
+         -12,
+         1.6,
+         6
+        ],
+        [
+         0,
+         1.8,
+         7
+        ],
+        [
+         10,
+         1.6,
+         6
+        ]
+       ],
+       "ease": "cruise"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "procession",
+   "lighting": "golden",
+   "foreground": "snow-dusted rocks passing",
+   "background": "orange sky turning grey under cloud cards",
+   "effects": [
+    {
+     "fx": "cloud",
+     "atFrame": 368
+    },
+    {
+     "fx": "gust",
+     "atFrame": 480
+    },
+    {
+     "fx": "flash",
+     "atFrame": 519,
+     "peak": 0.45
+    },
+    {
+     "fx": "kick",
+     "atFrame": 519,
+     "gain": 0.6
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 10,
+    "reason": "place/time change into the legend"
+   },
+   "soundEffects": [
+    "legend-rumble",
+    "hail-crackles",
+    "hail-boom"
+   ],
+   "musicDirection": {
+    "beat": "legend",
+    "mood": "minor, rising",
+    "duck": false
+   },
+   "emotionalIntention": "folk memory: told, not proven",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02",
+    "F03"
+   ]
+  },
+  {
+   "id": 5,
+   "startSec": 18.2,
+   "endSec": 26.8,
+   "startFrame": 546,
+   "endFrame": 804,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "फिर वैज्ञानिकों को कुछ खोपड़ियों के ऊपर चोटें मिलीं, जैसे क्रिकेट बॉल जितने ओले गिरे हों। कार्बन डेटिंग बोली, करीब आठ सौ पचास ईस्वी।"
+   },
+   "environment": {
+    "scene": "lab",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "office set adapted as a lab: desk, screens glowing with abstract skull outlines (no gore, no text)"
+   },
+   "characters": [
+    {
+     "id": "scientist",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "scientist",
+     "atFrame": 586,
+     "action": "point",
+     "params": {
+      "wave": 0.7
+     },
+     "description": "points at the top of a screen outline"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "scientist",
+     "atFrame": 546,
+     "expression": "stern",
+     "word": "वैज्ञानिकों"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 546,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "scientist",
+       "fillFrom": 0.3,
+       "fillTo": 0.5,
+       "ease": "smooth"
+      }
+     },
+     {
+      "f": 716,
+      "preset": "closeUp",
+      "params": {
+       "subject": "screens",
+       "fill": 0.5
+      },
+      "dur": 30
+     }
+    ]
+   },
+   "cameraTarget": "screens",
+   "lighting": "dusk",
+   "foreground": "desk edge, sample trays",
+   "background": "nine glowing screens, star chart replaced by a blank board",
+   "effects": [
+    {
+     "fx": "arrow",
+     "atFrame": 606,
+     "note": "downward arrow card: blows came from above"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "legend",
+    "mood": "minor, steady",
+    "duck": false
+   },
+   "emotionalIntention": "evidence seems to confirm the legend",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F04"
+   ]
+  },
+  {
+   "id": 6,
+   "startSec": 26.8,
+   "endSec": 28.75,
+   "startFrame": 804,
+   "endFrame": 863,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "एक तूफ़ान, एक हादसा।"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the lake from low, heavy cloud above"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 804,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "lake",
+       "fill": 0.4,
+       "el": -12
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lake",
+   "lighting": "dusk",
+   "foreground": "ice rim",
+   "background": "cloud cards overhead",
+   "effects": [
+    {
+     "fx": "cloud",
+     "atFrame": 804
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "legend",
+    "mood": "resolves, then holds",
+    "duck": false
+   },
+   "emotionalIntention": "false closure: case closed",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 7,
+   "startSec": 28.75,
+   "endSec": 32.25,
+   "startFrame": 863,
+   "endFrame": 968,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "दो हज़ार उन्नीस में, अड़तीस कंकालों का डीएनए पढ़ा गया।"
+   },
+   "environment": {
+    "scene": "lab",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "lab again: screens now show DNA-strand drawings and 38 small dots (no numbers written)"
+   },
+   "characters": [
+    {
+     "id": "scientist",
+     "view": "front",
+     "mode": "sit",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "scientist",
+     "atFrame": 873,
+     "expression": "neutral",
+     "word": "डीएनए"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 863,
+      "preset": "orbit",
+      "params": {
+       "subject": "scientist",
+       "fill": 0.5,
+       "sweep": 40
+      }
+     }
+    ]
+   },
+   "cameraTarget": "scientist",
+   "lighting": "dusk",
+   "foreground": "sample trays",
+   "background": "screens",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 903
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 8,
+    "reason": "time jump to 2019"
+   },
+   "soundEffects": [
+    "lab-clicks"
+   ],
+   "musicDirection": {
+    "beat": "dna",
+    "mood": "brighter, curious",
+    "duck": false
+   },
+   "emotionalIntention": "a new tool reopens the case",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F04"
+   ]
+  },
+  {
+   "id": 8,
+   "startSec": 32.25,
+   "endSec": 36.1,
+   "startFrame": 968,
+   "endFrame": 1083,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "ज़्यादातर लोग दक्षिण एशिया के थे, सातवीं से दसवीं सदी के।"
+   },
+   "environment": {
+    "scene": "globe",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "globe turned to South Asia; a warm glowing dot near the Himalaya"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 968,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "globe",
+       "fill": 0.5,
+       "push": 0.05
+      }
+     }
+    ]
+   },
+   "cameraTarget": "globe",
+   "lighting": "space",
+   "foreground": "globe rim",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 978,
+     "note": "dot glow on the Himalaya"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "dna",
+    "mood": "curious",
+    "duck": false
+   },
+   "emotionalIntention": "expected answer: local people",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F05"
+   ]
+  },
+  {
+   "id": 9,
+   "startSec": 36.1,
+   "endSec": 42.5,
+   "startFrame": 1083,
+   "endFrame": 1275,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "लेकिन चौदह लोग अलग निकले। उनका डीएनए सबसे करीब मिलता है आज के ग्रीस और क्रीट से।"
+   },
+   "environment": {
+    "scene": "globe",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "flash; globe pulls back to show a second glowing dot in the eastern Mediterranean and an arrow card toward the Himalaya"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 1083,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "globe",
+       "fillFrom": 0.6,
+       "fillTo": 0.35,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "globe",
+   "lighting": "space",
+   "foreground": "globe rim",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "flash",
+     "atFrame": 1083,
+     "peak": 1.0
+    },
+    {
+     "fx": "kick",
+     "atFrame": 1083,
+     "gain": 0.4
+    },
+    {
+     "fx": "arrow",
+     "atFrame": 1140,
+     "note": "route arrow Mediterranean -> Himalaya, no labels"
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "flashPeak": 1.0,
+    "reason": "the revelation"
+   },
+   "soundEffects": [
+    "reveal-whoosh",
+    "reveal-glock"
+   ],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "peak, bright major chord",
+    "duck": true
+   },
+   "emotionalIntention": "the turn: they came from very far away",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F05"
+   ]
+  },
+  {
+   "id": 10,
+   "startSec": 42.5,
+   "endSec": 51.1,
+   "startFrame": 1275,
+   "endFrame": 1533,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "और वो मरे थे करीब अठारह सौ ईस्वी में। यानी एक झील, कम से कम दो हादसे, और बीच में करीब हज़ार साल।"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the lake in golden light; two separate clusters of pale blobs on different shores"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 1275,
+      "preset": "crane",
+      "params": {
+       "subject": "lake",
+       "fillFrom": 0.4,
+       "fillTo": 0.12,
+       "elFrom": 10,
+       "elTo": 45
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lake",
+   "lighting": "golden",
+   "foreground": "rocks",
+   "background": "golden sky, long shadows",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 1275,
+     "note": "two clusters, far apart"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 12,
+    "reason": "back to the lake, time is the subject"
+   },
+   "soundEffects": [
+    "thousand-notes"
+   ],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "sustained, slowly settling",
+    "duck": false
+   },
+   "emotionalIntention": "a thousand years between two tragedies in one place",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 11,
+   "startSec": 51.1,
+   "endSec": 59.37,
+   "startFrame": 1533,
+   "endFrame": 1781,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "वो इतनी दूर, इस बर्फ़ तक क्यों आए, ये आज भी कोई नहीं जानता। और मौत कैसे हुई, ये भी पक्का नहीं।"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "over the trekker's shoulder: the frozen lake at dusk"
+   },
+   "characters": [
+    {
+     "id": "trekker",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": -1
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "trekker",
+     "atFrame": 1533,
+     "expression": "neutral",
+     "word": "वो"
+    }
+   ],
+   "cameraAngle": "over-shoulder",
+   "cameraMovement": {
+    "kind": "static",
+    "keys": [
+     {
+      "f": 1533,
+      "preset": "overShoulder",
+      "params": {
+       "subject": "lake",
+       "shoulder": "trekker"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lake",
+   "lighting": "dusk",
+   "foreground": "trekker's shoulder and hood",
+   "background": "lake, ridge, evening sky",
+   "effects": [
+    {
+     "fx": "smoke",
+     "atFrame": 1533
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "wind-end"
+   ],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "thin, unresolved",
+    "duck": false
+   },
+   "emotionalIntention": "respectful not-knowing",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 12,
+   "startSec": 59.37,
+   "endSec": 65.0,
+   "startFrame": 1781,
+   "endFrame": 1950,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "झील आज भी चुप है। पर उसकी हड्डियों ने बोलना शुरू कर दिया है।"
+   },
+   "environment": {
+    "scene": "lake",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "callback to shot 1: the lake from above, camera slowly rises away"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 1781,
+      "preset": "aerial",
+      "params": {
+       "subject": "lake",
+       "fill": 0.14,
+       "fillTo": 0.08,
+       "elFrom": 42,
+       "elTo": 58,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lake",
+   "lighting": "dusk",
+   "foreground": "snow rocks",
+   "background": "evening gradient sky with first stars",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 1841,
+     "note": "one soft glint on the ice at \"बोलना\""
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 10
+   },
+   "soundEffects": [
+    "end-glock"
+   ],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "fading",
+    "duck": true
+   },
+   "emotionalIntention": "quiet reframe: the bones are now speaking",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  }
+ ],
+ "events": {
+  "flashAt": 1083,
+  "flashes": [
+   [
+    519,
+    0.45
+   ]
+  ],
+  "hits": [
+   519,
+   1083
+  ],
+  "kicks": [
+   [
+    519,
+    0.6
+   ],
+   [
+    1083,
+    0.4
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "wind-lake",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.5,
+     "bright": 0.3
+    },
+    "span": [
+     0,
+     345
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "thin high-altitude air, silence of the place"
+   },
+   {
+    "id": "hook-hum",
+    "at": 0,
+    "gen": "hum",
+    "args": {
+     "hz": 55,
+     "tone": 0.4,
+     "noise": 0.2
+    },
+    "span": [
+     0,
+     240
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "eerie low bed under the hook"
+   },
+   {
+    "id": "legend-rumble",
+    "at": 430,
+    "gen": "rumble",
+    "args": {
+     "dur": 3.0,
+     "gain": 0.5,
+     "lo": 30,
+     "hi": 120,
+     "decay": 1.5
+    },
+    "segmentId": "N03",
+    "shotId": 4,
+    "intent": "distant thunder as the legend darkens"
+   },
+   {
+    "id": "hail-crackles",
+    "at": 490,
+    "gen": "crackles",
+    "args": {
+     "dur": 1.5,
+     "density": 0.6,
+     "gain": 0.5
+    },
+    "segmentId": "N03",
+    "shotId": 4,
+    "intent": "hail rattle"
+   },
+   {
+    "id": "hail-boom",
+    "at": 519,
+    "gen": "boom",
+    "args": {
+     "dur": 1.0,
+     "f0": 60,
+     "big": false
+    },
+    "post": [
+     [
+      "gain",
+      0.7
+     ]
+    ],
+    "segmentId": "N03",
+    "shotId": 4,
+    "intent": "impact under the flash/kick on \"बरसे\""
+   },
+   {
+    "id": "lab-clicks",
+    "at": 870,
+    "gen": "clicks",
+    "args": {
+     "count": 6,
+     "freq": 1800,
+     "decay": 0.04,
+     "level": 0.4,
+     "gain": 0.6,
+     "pan": 0.2,
+     "window": 1.2
+    },
+    "start": 870,
+    "segmentId": "N04",
+    "shotId": 7,
+    "intent": "the DNA is being read"
+   },
+   {
+    "id": "reveal-whoosh",
+    "at": 1068,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.5,
+     "peak": 0.8
+    },
+    "segmentId": "N04",
+    "shotId": 9,
+    "intent": "lead-in to the revelation flash"
+   },
+   {
+    "id": "reveal-glock",
+    "at": 1083,
+    "gen": "glock",
+    "args": {
+     "midi": 76,
+     "level": 0.5
+    },
+    "segmentId": "N04",
+    "shotId": 9,
+    "intent": "the revelation lands"
+   },
+   {
+    "id": "thousand-notes",
+    "at": 1440,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      62,
+      65,
+      69
+     ],
+     "level": 0.35,
+     "spacing": 0.35,
+     "pan0": -0.3,
+     "pan_step": 0.3
+    },
+    "start": 1440,
+    "segmentId": "N05",
+    "shotId": 10,
+    "intent": "marks \"हज़ार साल\", time stretching"
+   },
+   {
+    "id": "wind-end",
+    "at": 1533,
+    "gen": "breeze",
+    "args": {
+     "level": 0.4,
+     "bright": 0.2
+    },
+    "span": [
+     1533,
+     1950
+    ],
+    "segmentId": "N06",
+    "shotId": 11,
+    "intent": "return to the silent place"
+   },
+   {
+    "id": "end-glock",
+    "at": 1860,
+    "gen": "glock",
+    "args": {
+     "midi": 69,
+     "level": 0.3
+    },
+    "segmentId": "N06",
+    "shotId": 12,
+    "intent": "soft glint on \"बोलना\": the reframe"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      3
+     ],
+     "chord": "Dm",
+     "level": 0.8,
+     "mood": "eerie, sparse"
+    },
+    {
+     "name": "legend",
+     "shots": [
+      4,
+      6
+     ],
+     "chord": "Gm",
+     "level": 0.9,
+     "mood": "minor, rising"
+    },
+    {
+     "name": "dna",
+     "shots": [
+      7,
+      8
+     ],
+     "chord": "F",
+     "level": 0.85,
+     "mood": "curious lift"
+    },
+    {
+     "name": "reveal",
+     "shots": [
+      9,
+      10
+     ],
+     "chord": "A",
+     "level": 1.1,
+     "mood": "peak then sustained"
+    },
+    {
+     "name": "ending",
+     "shots": [
+      11,
+      12
+     ],
+     "chord": "Dm",
+     "level": 0.6,
+     "mood": "quiet, unresolved"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.0,
+   "fade_out": 0.6
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 8,
+   "originality": 7,
+   "researchReliability": 8,
+   "rhythm": 7,
+   "hinglishNaturalness": 7,
+   "emotion": 7,
+   "retention": 8,
+   "visualStorytelling": 7,
+   "pacing": 7,
+   "productionFeasibility": 7,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "rhythm",
+    "issue": "rhythm.py FLAT_INTENSITY (medium): lexical intensity curve is flat (2.5-4.8); the restrained tone is deliberate, the peak (S11, 36.6 s = 57%) is on the revelation, but the escalation still relies on visuals and music more than wording",
+    "severity": "medium"
+   },
+   {
+    "area": "density",
+    "issue": "S3 packs रूपकुंड + उत्तराखंड + पाँच हज़ार मीटर (DENSE medium); kept because the aerial/establishing shots carry the place visually",
+    "severity": "low"
+   },
+   {
+    "area": "duration",
+    "issue": "estimated 63.9-64.3 s against a 60 s target (+7%); real edge-tts timings may run longer — re-measure with words.json and cut 'छोटी-सी' or 'आज भी' if needed",
+    "severity": "low"
+   },
+   {
+    "area": "production",
+    "issue": "one new set (lake) + 2 adapted + globe reuse, and 5 future-development items (costume kit, hail card, screen paintings, globe dots) before render",
+    "severity": "medium"
+   },
+   {
+    "area": "facts",
+    "issue": "remains count and lake altitude vary between sources; narration uses 'सैकड़ों' and 'करीब पाँच हज़ार मीटर' only. The 2004-05 hailstone forensic claim rests on Down To Earth (read) + one snippet; no primary osteology paper was opened",
+    "severity": "low"
+   },
+   {
+    "area": "language",
+    "issue": "'कार्बन डेटिंग बोली' is colloquial personification; acceptable but a voice artist might prefer 'कार्बन डेटिंग से तारीख़ निकली'",
+    "severity": "low"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Cut draft from 223 to 160 words: removed the 1942 forest-guard sentence, the pilgrim-hypothesis line and repeated framing; split the 25-word legend sentence",
+    "reason": "rhythm hard FAIL: 80.8 s estimate, needed 4.27 wps for 55 s; TOO_LONG and NO_BEAT findings"
+   },
+   {
+    "round": 2,
+    "change": "Merged place+altitude into one line, turned the 'why did they come?' question into a statement of the unknown, added 'लेकिन चौदह लोग अलग निकले' as a short reveal line, 'झील चुप है' -> 'झील आज भी चुप है'",
+    "reason": "HIGH MONOTONE_RUN (S1-S4) and HIGH UNANSWERED_QUESTION; move the intensity peak from the ending (94%) to the revelation (57%)"
+   },
+   {
+    "round": 3,
+    "change": "Fact-check rewordings: 'खोपड़ियों' -> 'कुछ खोपड़ियों'; 'मिलता है' -> 'सबसे करीब मिलता है' (Greece/Crete); target set to 60 s within the 45-65 s default",
+    "reason": "spoken wording must not be stronger than claims C06 and C10; duration within ±10% of target"
+   }
+  ],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 63.9,
+   "wps": 2.86,
+   "lengthCv": 0.41,
+   "findings": 2
+  },
+  "editorNotes": "Pass with medium weaknesses: flat lexical intensity (carried by flash/music at 36 s) and pre-render build work. No unsupported or debunked statements."
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "Lake set (glacial tarn, snow bowl, boulders, ridge)",
+   "need": "no Himalayan lake scene exists",
+   "shotIds": [
+    1,
+    2,
+    3,
+    6,
+    10,
+    11,
+    12
+   ],
+   "suggestion": "new world.ts set: water disc + snow ground + cone ridge + stoneHD boulders; remains as pale blob cards at distance only",
+   "workaround": "reuse taiga river/ground re-painted white"
+  },
+  {
+   "id": "F02",
+   "feature": "Garhwali/Kumaoni costume kit",
+   "need": "legend procession should not wear Siberian/European hats",
+   "shotIds": [
+    4
+   ],
+   "suggestion": "toon.ts: pagdi/turban hat, shawl drape (ENGINE_CAPABILITIES §11.1)",
+   "workaround": "hair/hood only, cream-and-yellow plain outfits"
+  },
+  {
+   "id": "F03",
+   "feature": "Hail/storm overlay card",
+   "need": "hail in the legend shot",
+   "shotIds": [
+    4
+   ],
+   "suggestion": "new art card: falling pale dots (seeded, frame-pure) + storm sky (§11.10)",
+   "workaround": "cloud + gust cards and a 0.45 white flash"
+  },
+  {
+   "id": "F04",
+   "feature": "Lab screen paintings",
+   "need": "screens need abstract skull outline and DNA-strand canvases (no text)",
+   "shotIds": [
+    5,
+    7
+   ],
+   "suggestion": "two new canvas paintings for the office screens",
+   "workaround": "existing star-chart/screens with a sparkle"
+  },
+  {
+   "id": "F05",
+   "feature": "Map dots + route arrow on the globe",
+   "need": "show Mediterranean -> Himalaya without labels",
+   "shotIds": [
+    8,
+    9
+   ],
+   "suggestion": "glow-dot + arc line on the globe texture (§11.8)",
+   "workaround": "sparkle + arrow card in front of the globe"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "रूपकुंड: एक झील, हज़ार साल का राज़",
+   "हिमालय की कंकाल झील का DNA क्या कहता है?",
+   "Roopkund: ओलों की कहानी, और DNA का जवाब",
+   "Skeleton Lake Roopkund: दो हादसे, करीब हज़ार साल का फ़ासला",
+   "रूपकुंड के कंकालों में ग्रीस-क्रीट से मिलता DNA क्यों?"
+  ],
+  "thumbnails": [
+   {
+    "concept": "aerial of the frozen lake at dusk, tiny pale shapes on the shore far away, one trekker silhouette at the rim",
+    "text": "सैकड़ों कंकाल, एक झील"
+   },
+   {
+    "concept": "globe with two glowing dots (eastern Mediterranean and Himalaya) joined by an arrow, teal backdrop",
+    "text": "DNA ने कहानी बदल दी"
+   },
+   {
+    "concept": "split by colour: legend procession under storm clouds (left, golden) vs lab screens (right, dusk)",
+    "text": "ओले? या कुछ और?"
+   }
+  ],
+  "description": "उत्तराखंड के रूपकुंड में, करीब 5,000 मीटर पर, सैकड़ों लोगों के कंकाल हैं। पहले माना गया कि सब करीब 850 ईस्वी में एक ओलों के तूफ़ान में मरे। 2019 की एक DNA स्टडी (Harney et al., Nature Communications) ने 38 कंकाल पढ़े: ज़्यादातर दक्षिण एशिया के लोग, 7वीं-10वीं सदी; और 14 लोग जिनका DNA आज के ग्रीस-क्रीट के लोगों से सबसे करीब मिलता है, करीब 1800 ईस्वी। वो यहाँ क्यों आए और कैसे मरे, ये अब भी खुला सवाल है।\nSources: Harney et al. 2019, Nature Communications (https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/); Max Planck Institute release (https://www.shh.mpg.de/1438702/roopkund-lake-nayak); National Geographic 2019; Down To Earth 2005.",
+  "hashtags": [
+   "#Roopkund",
+   "#SkeletonLake",
+   "#Uttarakhand",
+   "#Himalaya",
+   "#AncientDNA",
+   "#IndianHistory",
+   "#Mystery",
+   "#Shorts"
+  ],
+  "pinnedComment": "एक बात जो वीडियो में नहीं आ पाई: 38 में से एक व्यक्ति का DNA दक्षिण-पूर्व एशिया से मिलता है, और उसकी मौत भी करीब उसी दौर में हुई जब भूमध्य सागर वाले समूह की। ओलों वाली बात पूरी तरह ख़ारिज नहीं हुई, पर 'सब एक साथ मरे' वाली बात अब नहीं टिकती। आपके हिसाब से ये लोग वहाँ क्यों गए होंगे?"
+ }
+}

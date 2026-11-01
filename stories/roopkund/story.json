@@ -1,0 +1,10 @@
+{
+  "slug": "roopkund",
+  "composition": "RoopkundShort",
+  "title": "रूपकुंड: एक झील, हज़ार साल का राज़",
+  "channel": "india",
+  "languages": {
+    "hi": { "voice": "ElevenLabs Jessica (final, owner-approved; do not regenerate)", "rate": "", "dir": "hi", "audio": "out/roopkund/audio/mix.wav" }
+  },
+  "note": "Audio: bash audio/build_roopkund.sh -> out/roopkund/audio/. Draft: COMP=RoopkundShort CONC=6 node scripts/render.mjs out/roopkund/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1}}'; then SIZE=540x960 INTRO_STATIC=1 AUDIO_OUT=out/roopkund/audio INTRO_CARD=brand/roopkund-thumb.png OUTRO_CARD=brand/endcard-india.png bash scripts/finish.sh out/roopkund/picture-half.mp4 out/roopkund/roopkund-hi-draft-half.mp4 1.0 3"
+}

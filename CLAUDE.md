@@ -1,5 +1,6 @@
 # CLAUDE.md
-Read `HANDOFF.md` first (state, measured render settings, decisions, next-video plan), then `NEW_STORY.md`.
+**Making a video? Follow `docs/MAKE_A_VIDEO.md`** (setup on a new machine, full pipeline with exact commands, Roopkund as the worked example).
+Then read `HANDOFF.md` (state, measured render settings, decisions), then `NEW_STORY.md`.
 Rules: never call a video "done" without viewing frames (`scripts/qa.sh`); render with `GL=angle CONC=6`; lens blur stays off;
 confirm with the owner before any outward-facing action (upload, push to a channel).
 

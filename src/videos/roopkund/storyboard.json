@@ -1,0 +1,278 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 2115,
+ "scenes": [
+  "lake",
+  "trail",
+  "lab",
+  "globe"
+ ],
+ "words": "stories/roopkund/hi/words.json",
+ "events": {
+  "flashAt": 1258,
+  "flashes": [
+   [
+    643,
+    0.45
+   ]
+  ],
+  "hits": [
+   643,
+   1258
+  ],
+  "kicks": [
+   [
+    643,
+    0.6
+   ],
+   [
+    1258,
+    0.4
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "lake",
+  "ridge",
+  "trekker",
+  "remainsA",
+  "procession",
+  "scientist",
+  "scientistSit",
+  "screens",
+  "globe"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 216,
+   "light": "dusk",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    },
+    {
+     "f": 149,
+     "fn": "S1b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: aerial over the frozen tarn; cut on 'सैकड़ों' to the remains on the shore"
+  },
+  {
+   "id": 2,
+   "a": 216,
+   "b": 338,
+   "light": "day",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 216,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "'उत्तराखंड का रूपकुंड, करीब पाँच हज़ार मीटर ऊपर': across the lake to the ridge"
+  },
+  {
+   "id": 3,
+   "a": 338,
+   "b": 432,
+   "light": "day",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 338,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "note": "'सवाल एक ही है, ये लोग कौन थे?': the trekker alone at the shore"
+  },
+  {
+   "id": 4,
+   "a": 432,
+   "b": 670,
+   "light": "golden",
+   "scene": "trail",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 432,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "xfade": 10,
+   "note": "LEGEND: procession on a snowy ridge trail; storm; hail flash on 'बरसे'"
+  },
+  {
+   "id": 5,
+   "a": 670,
+   "b": 943,
+   "light": "dusk",
+   "scene": "lab",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 670,
+     "fn": "S5a"
+    },
+    {
+     "f": 834,
+     "fn": "S5b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "lab: skull screens, arrow from above, hailstones; carbon date ~850 CE"
+  },
+  {
+   "id": 6,
+   "a": 943,
+   "b": 1015,
+   "light": "dusk",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 943,
+     "fn": "S6a"
+    }
+   ],
+   "dof": [],
+   "note": "'एक तूफ़ान, एक हादसा': false closure, heavy sky"
+  },
+  {
+   "id": 7,
+   "a": 1015,
+   "b": 1132,
+   "light": "dusk",
+   "scene": "lab",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1015,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "xfade": 8,
+   "note": "2019: 38 skeletons' DNA read; orbit around the scientist"
+  },
+  {
+   "id": 8,
+   "a": 1132,
+   "b": 1258,
+   "light": "space",
+   "scene": "globe",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1132,
+     "fn": "S8a"
+    }
+   ],
+   "dof": [],
+   "note": "most were South Asian: yellow dots over South Asia"
+  },
+  {
+   "id": 9,
+   "a": 1258,
+   "b": 1453,
+   "light": "space",
+   "scene": "globe",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1258,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "the turn: 14 different; coral dots, Mediterranean glow, route arrow"
+  },
+  {
+   "id": 10,
+   "a": 1453,
+   "b": 1716,
+   "light": "golden",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1453,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "xfade": 12,
+   "note": "died ~1800 CE; at least two events ~1000 years apart: two marked groups"
+  },
+  {
+   "id": 11,
+   "a": 1716,
+   "b": 1956,
+   "light": "dusk",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1716,
+     "fn": "S11a"
+    }
+   ],
+   "dof": [],
+   "note": "why they came / how they died: unknown; trekker looks over the lake"
+  },
+  {
+   "id": 12,
+   "a": 1956,
+   "b": 2115,
+   "light": "dusk",
+   "scene": "lake",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1956,
+     "fn": "S12a"
+    }
+   ],
+   "dof": [],
+   "xfade": 10,
+   "note": "CALLBACK: the lake from above; a glint on 'बोलना'"
+  }
+ ]
+}

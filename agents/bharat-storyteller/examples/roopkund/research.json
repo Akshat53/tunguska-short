@@ -1,0 +1,519 @@
+[
+ {
+  "id": "C01",
+  "claim": "Roopkund Lake holds the scattered skeletal remains of several hundred people (exact count unknown; popular estimates 200-800).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "skeletal remains from several hundred ancient humans"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "say \"सैकड़ों\" (hundreds); never a precise count",
+  "usableInScript": true,
+  "notes": "NatGeo: \"as many as 800\"; DTE: up to 600 may be under snow; Wikipedia: \"more than 300\". Counts conflict, so none is spoken."
+ },
+ {
+  "id": "C02",
+  "claim": "The lake lies at about 5,000 m in the Himalaya (Harney et al.: 5029 m; MPI: over 5000 m).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "5029 m above sea level"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Situated at over 5000 meters above sea-level"
+   }
+  ],
+  "qualification": "say \"करीब पाँच हज़ार मीटर\"",
+  "usableInScript": true,
+  "notes": "Wikipedia lead says 5,020 m and its infobox 4,536 m: conflicting, so the round figure is used."
+ },
+ {
+  "id": "C03",
+  "claim": "Roopkund is in Chamoli district, Uttarakhand.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Roopkund (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Roopkund",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "in the Chamoli District of Uttarakhand state of India"
+   },
+   {
+    "title": "Outlook Traveller: The Chilling Story Of Roopkund",
+    "url": "https://www.outlooktraveller.com/destinations/india/the-chilling-story-of-roopkund-indias-lake-of-skeletons-in-uttarakhand",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Only \"Uttarakhand\" is spoken."
+ },
+ {
+  "id": "C04",
+  "claim": "The skeletons were found (rediscovered) in 1942 by a forest guard / ranger (Wikipedia names Hari Kishan Madhwal of Nanda Devi National Park).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Down To Earth: Skeleton Lake (31 Aug 2005)",
+    "url": "https://www.downtoearth.org.in/environment/skeleton--lake-10032",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "a forest guard chanced upon hundreds of skeletons"
+   },
+   {
+    "title": "Wikipedia: Roopkund (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Roopkund",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "rediscovered in 1942 by a forest ranger"
+   }
+  ],
+  "qualification": "not used in the final narration (cut for length)",
+  "usableInScript": true,
+  "notes": "Cut in rewrite round 1; kept usable for the description."
+ },
+ {
+  "id": "C05",
+  "claim": "A local folk song says a royal procession (during the Raj Jat for the goddess Nanda Devi) angered the goddess, who struck it down with \"iron balls\" (hail) from the sky.",
+  "category": "legend",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "iron balls"
+   },
+   {
+    "title": "Wikipedia: Roopkund (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Roopkund",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the group faced a storm with large hailstones"
+   }
+  ],
+  "qualification": "framed as \"एक लोकगीत कहता है\" (a folk song says); the goddess is not depicted",
+  "usableInScript": true
+ },
+ {
+  "id": "C06",
+  "claim": "Investigators (reported 2004-2005) found short deep cracks on top of some skulls, attributed to blunt round objects about the size of cricket balls, and concluded that large hailstones killed the people.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Down To Earth: Skeleton Lake (31 Aug 2005)",
+    "url": "https://www.downtoearth.org.in/environment/skeleton--lake-10032",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "blunt, round objects about the size of cricket balls"
+   },
+   {
+    "title": "Outlook India: Bones Of A Riddle",
+    "url": "https://www.outlookindia.com/society/bones-of-a-riddle-news-225620",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "framed as what scientists then found/thought; \"कुछ खोपड़ियों\"; the hail cause is not stated as settled",
+  "usableInScript": true,
+  "notes": "Harney et al. note an osteological report hypothesising hail but say other scenarios are plausible."
+ },
+ {
+  "id": "C07",
+  "claim": "Earlier radiocarbon dating put the deaths around 850 CE (Oxford), which suggested a single event.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Down To Earth: Skeleton Lake (31 Aug 2005)",
+    "url": "https://www.downtoearth.org.in/environment/skeleton--lake-10032",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "about 850 ad"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "clustered around 800 A.D."
+   }
+  ],
+  "qualification": "\"करीब आठ सौ पचास ईस्वी\" as the earlier dating",
+  "usableInScript": true
+ },
+ {
+  "id": "C08",
+  "claim": "In 2019 Harney et al. (Nature Communications) reported genome-wide ancient DNA from 38 Roopkund skeletons.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The genome sequencing of 38 individuals"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C09",
+  "claim": "23 of the 38 have South Asian-related ancestry and died between about the 7th and 10th centuries CE, possibly in several events.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "\"ज़्यादातर\" refers to the 38 sampled, not all remains",
+  "usableInScript": true
+ },
+ {
+  "id": "C10",
+  "claim": "14 of the 38 have West Eurasian ancestry most closely related to present-day people of the eastern Mediterranean, especially Greece and Crete.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "most closely related to people who live in the eastern Mediterranean, especially present-day Crete and Greece"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "\"सबसे करीब मिलता है\" (closest match), not \"they were Greek\"",
+  "usableInScript": true
+ },
+ {
+  "id": "C11",
+  "claim": "The eastern-Mediterranean group (and the one Southeast Asian individual) died much later, around 1800 CE (paper: 17th-20th centuries).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the more recent around 1800 AD"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "\"करीब अठारह सौ ईस्वी\"",
+  "usableInScript": true
+ },
+ {
+  "id": "C12",
+  "claim": "The remains derive from at least two separate events about 1,000 years apart.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "perished in at least two separate events"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the two major genetic groups were actually deposited approximately 1000 years apart."
+   }
+  ],
+  "qualification": "\"कम से कम दो\", \"करीब हज़ार साल\"",
+  "usableInScript": true
+ },
+ {
+  "id": "C13",
+  "claim": "One individual has Southeast Asian-related ancestry.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Cut from narration to keep one line; mentioned in pinned comment."
+ },
+ {
+  "id": "C14",
+  "claim": "Isotopes show different diets between the South Asian group and the Mediterranean group.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Cut for length."
+ },
+ {
+  "id": "C15",
+  "claim": "No bacterial pathogen DNA was found, so there is no support for an epidemic (with caveats).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Popular Archaeology: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://popular-archaeology.com/article/biomolecular-analyses-of-roopkund-skeletons-show-mediterranean-migrants-in-indian-himalaya/",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Cut for length."
+ },
+ {
+  "id": "C16",
+  "claim": "For at least some of the South Asian group, the authors view mass death during a pilgrimage (the Nanda Devi Raj Jat, today every 12 years) as plausible.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "today occurs every 12 years"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "only as a possibility (शायद); not used in final narration",
+  "usableInScript": true,
+  "notes": "Line cut in round 2 for length."
+ },
+ {
+  "id": "C17",
+  "claim": "Why the eastern-Mediterranean group travelled to Roopkund, and how the people died, is still unexplained.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "It is still not clear what brought these individuals to Roopkund Lake or how they died"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "failed to answer why Mediterranean people were traveling to this lake"
+   }
+  ],
+  "qualification": "spoken as unresolved: \"कोई नहीं जानता\", \"पक्का नहीं\"",
+  "usableInScript": true
+ },
+ {
+  "id": "C18",
+  "claim": "Popular claim: \"everyone at Roopkund died together in a single hailstorm\" (as settled fact).",
+  "category": "disputed",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Harney et al. 2019, Ancient DNA from the skeletons of Roopkund Lake reveals Mediterranean migrants in India (Nature Communications, PMC full text)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "Max Planck Institute for the Science of Human History press release: Biomolecular analyses of Roopkund skeletons show Mediterranean migrants in Indian Himalaya",
+    "url": "https://www.shh.mpg.de/1438702/roopkund-lake-nayak",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "National Geographic: DNA study deepens mystery of lake full of skeletons (2019)",
+    "url": "https://www.nationalgeographic.com/culture/article/dna-study-deepens-mystery-lake-skeletons-roopkund",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "only as the OLD theory that the 2019 study overturned for the single-event part",
+  "usableInScript": false,
+  "debunked": true,
+  "notes": "The single-event version is contradicted by the 2019 dates; a hailstorm for some deaths is not ruled out."
+ },
+ {
+  "id": "C19",
+  "claim": "1942 theory: the skeletons were Japanese soldiers of a hidden invasion force.",
+  "category": "legend",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Roopkund (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Roopkund",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "casualties of a hidden Japanese invasion force"
+   }
+  ],
+  "qualification": "NOT USED",
+  "usableInScript": false,
+  "debunked": true,
+  "notes": "Remains were far too old."
+ }
+]

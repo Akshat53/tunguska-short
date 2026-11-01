@@ -1,3 +1,5 @@
+> **Start here: [`docs/MAKE_A_VIDEO.md`](docs/MAKE_A_VIDEO.md)** — setup on any Mac and the full step-by-step pipeline (script → voice → picture → sound → thumbnail → draft → QA → final → upload). Videos so far: Tunguska (English) and Roopkund (Hindi). The text below is the original Tunguska README.
+
 # Tunguska — 60 s vertical cartoon short
 
 A 60-second (69.3 s) vertical cartoon story short about the **1908 Tunguska event**, built with the

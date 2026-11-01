@@ -14,8 +14,8 @@ const { validateStoryboard } = await import(out), { checkPreset } = await import
 const dir = path.dirname(file), storySrc = fs.existsSync(path.join(dir, "story.ts")) ? fs.readFileSync(path.join(dir, "story.ts"), "utf8") : "";
 const camFns = [...storySrc.matchAll(/^const (S\d+[a-z]*) = /gm)].map((m) => m[1]);
 const ctxFor = (sb) => {
-  const ctx = { camFns: camFns.length ? camFns : undefined, presetCheck: checkPreset, subjects: sb.cameraSubjects };
-  const w = path.join(root, "voice/v1/words.json");   // the narration the picture timeline was authored on
+  const ctx = { camFns: camFns.length ? camFns : undefined, presetCheck: checkPreset, subjects: sb.cameraSubjects, ...(sb.scenes ? { scenes: sb.scenes } : {}) };
+  const w = path.join(root, sb.words ?? "voice/v1/words.json");   // optional per-story narration (storyboard "words"); default: the Tunguska timeline's   // the narration the picture timeline was authored on
   if (fs.existsSync(w)) { const words = JSON.parse(fs.readFileSync(w, "utf8")); ctx.voiceFrames = Math.round((words.at(-1).end + 0.5) * sb.fps); ctx.wordFrames = words.map((x) => Math.round(x.start * sb.fps)); }
   return ctx;
 };

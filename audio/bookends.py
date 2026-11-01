@@ -5,7 +5,7 @@ import numpy as np
 from dsp import SR, ns, rng, place, write_wav, widen, pan, integrated, dbg, make_ir, convolve_st
 import instruments as I
 import sfx_gen as X
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
+OUT = os.environ.get("AUDIO_OUT", os.path.join(os.path.dirname(os.path.abspath(__file__)), "out"))
 ID, OD = float(sys.argv[1]) if len(sys.argv) > 1 else 1.6, float(sys.argv[2]) if len(sys.argv) > 2 else 3.0
 r = rng(2026)
 def fit(x, level_lufs=-19):

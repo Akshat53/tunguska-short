@@ -1,0 +1,45 @@
+RHYTHM REPORT — verdict FAIL
+duration 80.8 s (estimate) | 223 words | 2.86 words/s (speech-only 2.86) | 22 sentences
+to hit the target duration the voice needs 4.27 words/s
+sentence length: mean 10.14 std 5.26 CV 0.52 (healthy 0.35-0.9) min 3 max 25
+histogram: 1-3:#1  4-6:######6  7-10:#####5  11-15:########8  16-20:#1  21+:#1
+pauses: 10 totalling 2.8 s, mean 0.28 s; longest run without a pause 18.5 s
+ellipses 0 | questions 1 (unanswered: none) | density mean 0.77 max 4
+hook (first 3 s): "हिमालय की एक छोटी-सी बर्फ़ीली झील। और उसके आसपास," -> 7/10 (first sentence 6 words (good); concrete name/number)
+intensity per 5 s: ▃▃▄▃▂▄▂▃▃▄▃▂▄▄▃▃▃  [4.2, 4.0, 4.5, 4.2, 2.5, 4.5, 3.0, 4.2, 3.5, 4.8, 4.0, 3.0, 4.5, 4.5, 3.5, 4.2, 4.2]  peak S21 at 76.1 s
+script mix: Devanagari 223 | Roman 0 | numeric 0 | Roman share 0%
+
+sentences:
+  S1     0.0s   6w  int  5.5  हिमालय की एक छोटी-सी बर्फ़ीली झील।
+  S2     2.4s   7w  int  3.0  और उसके आसपास, सैकड़ों लोगों के कंकाल।
+  S3     5.1s  12w  int  4.0  ये रूपकुंड है, उत्तराखंड के चमोली में, करीब पाँच हज़ार मीटर ऊपर।
+  S4     9.3s  14w  int  4.5  उन्नीस सौ बयालीस में वन विभाग के एक कर्मचारी की नज़र इन पर पड़ी।
+  S5    14.4s   7w  int  3.0  और तब से एक ही सवाल है।
+  S6    16.8s   4w  int  5.5  ये लोग कौन थे?
+  S7    18.5s  25w  int  2.5  यहाँ का एक लोकगीत कहता है कि एक राजा की यात्रा ने देवी नंदा को नाराज़ कर दिया, …
+  S8    27.2s   6w  int  4.5  बाद में वैज्ञानिकों ने खोपड़ियाँ देखीं।
+  S9    29.3s  12w  int  3.0  चोटें सिर के ऊपर थीं, जैसे क्रिकेट बॉल जितने ओले गिरे हों।
+  S10   33.5s  10w  int  3.5  कार्बन डेटिंग ने भी कहा, करीब आठ सौ पचास ईस्वी।
+  S11   37.3s   4w  int  4.5  एक तूफ़ान, एक हादसा।
+  S12   38.7s   4w  int  4.5  कहानी पूरी लगती थी।
+  S13   40.4s  11w  int  3.5  फिर दो हज़ार उन्नीस में, अड़तीस कंकालों का डीएनए पढ़ा गया।
+  S14   44.3s  13w  int  4.0  तेईस लोग दक्षिण एशिया के थे, सातवीं से दसवीं सदी के बीच के।
+  S15   48.8s   6w  int  5.5  लेकिन चौदह लोग बिल्कुल अलग निकले।
+  S16   50.9s  14w  int  4.0  उनका डीएनए सबसे ज़्यादा मिलता है आज के ग्रीस और क्रीट के लोगों से।
+  S17   56.0s   9w  int  3.0  और वो मरे थे करीब अठारह सौ ईस्वी में।
+  S18   59.5s  15w  int  4.5  यानी एक झील, पर हादसे कम से कम दो, और उनके बीच करीब हज़ार साल।
+  S19   65.0s  10w  int  4.5  भारत वाले शायद नंदा देवी की यात्रा पर आए थे।
+  S20   68.5s  19w  int  3.5  पर भूमध्य सागर के ये लोग इतनी दूर, इस बर्फ़ में क्यों आए, ये आज भी कोई नहीं जान…
+  S21   75.5s   3w  int  5.5  झील चुप है।
+  S22   76.6s  12w  int  3.0  और सैकड़ों लोग, अब भी अपने नाम का इंतज़ार कर रहे हैं।
+
+HARD FAILURES:
+  ✗ duration 80.8 s outside 30-75 s (use --allow-length to override)
+  ✗ to fit 55 s the voice would need 4.27 words/s (> 3.4): cut words
+FINDINGS + REWRITE SUGGESTIONS:
+  [HIGH  ] DENSE                S3: S3 packs 4 new names/numbers (रूपकुंड, उत्तराखंड, चमोली, पाँच)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [MEDIUM] TOO_LONG             S7: S7 has 25 words (~8.7 s in one breath)
+           -> split it: "यहाँ का एक लोकगीत कहता है कि एक राजा की यात्रा ने देवी नंदा को नाराज़ कर दिया। / और आसमान से लोहे जैसे गोले ब…"
+  [MEDIUM] NO_BEAT              S7,S8,S9,S10: 19 s of continuous speech without a pause (18.5-37.0 s)
+           -> add [pause 0.3] after S8 (the strongest line in the stretch) or a blank-line beat break.

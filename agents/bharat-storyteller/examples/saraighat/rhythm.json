@@ -1,0 +1,365 @@
+{
+  "verdict": "PASS",
+  "hardFailures": [],
+  "timingSource": "estimate",
+  "durationSec": 64.94,
+  "words": 180,
+  "wps": 2.86,
+  "measuredWps": 2.86,
+  "requiredWpsForTarget": 3.0,
+  "sentences": 19,
+  "lengths": {
+    "values": [
+      10,
+      11,
+      6,
+      15,
+      12,
+      7,
+      16,
+      7,
+      10,
+      8,
+      9,
+      6,
+      3,
+      7,
+      9,
+      8,
+      7,
+      16,
+      13
+    ],
+    "mean": 9.47,
+    "std": 3.5,
+    "cv": 0.37,
+    "min": 3,
+    "max": 16,
+    "histogram": {
+      "1-3": 1,
+      "4-6": 2,
+      "7-10": 10,
+      "11-15": 4,
+      "16-20": 2,
+      "21+": 0
+    }
+  },
+  "pauses": {
+    "count": 6,
+    "totalSec": 2.0,
+    "meanSec": 0.33,
+    "longestRunWithoutPauseSec": 12.2,
+    "at": [
+      3.5,
+      15.09,
+      27.62,
+      33.87,
+      43.26,
+      54.5
+    ]
+  },
+  "ellipses": 0,
+  "questions": {
+    "count": 1,
+    "unanswered": []
+  },
+  "density": {
+    "perSentence": [
+      0,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "mean": 0.79,
+    "max": 3
+  },
+  "hook": {
+    "text": "फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर",
+    "firstSentenceWords": 10,
+    "score": 7,
+    "notes": [
+      "first sentence 10 words (good)",
+      "contrast/contradiction"
+    ],
+    "banned": []
+  },
+  "intensity": {
+    "perSentence": [
+      4.0,
+      4.0,
+      5.5,
+      4.0,
+      3.5,
+      3.0,
+      3.0,
+      4.0,
+      5.0,
+      3.0,
+      3.0,
+      5.0,
+      5.5,
+      3.5,
+      4.0,
+      4.0,
+      4.0,
+      4.5,
+      3.0
+    ],
+    "per5s": [
+      4.0,
+      4.8,
+      4.0,
+      3.5,
+      3.0,
+      4.0,
+      5.0,
+      3.0,
+      4.7,
+      4.0,
+      4.0,
+      4.5,
+      3.0
+    ],
+    "curve": "▃▄▃▃▂▃▄▂▄▃▃▄▂",
+    "peakSentence": 13,
+    "peakSec": 42.7
+  },
+  "hinglish": {
+    "devanagari": 180,
+    "roman": 0,
+    "numeric": 0,
+    "romanShare": 0.0
+  },
+  "findings": [
+    {
+      "type": "DENSE",
+      "severity": "medium",
+      "sentences": [
+        2
+      ],
+      "problem": "S2 packs 3 new names/numbers (गुवाहाटी, मुग़ल, सौ)",
+      "suggestion": "give each number its own beat, round or drop the least important one, or move a name to the visual."
+    },
+    {
+      "type": "DENSE",
+      "severity": "medium",
+      "sentences": [
+        3
+      ],
+      "problem": "S3 packs 3 new names/numbers (लचित, बोरफुकन, अहोम)",
+      "suggestion": "give each number its own beat, round or drop the least important one, or move a name to the visual."
+    },
+    {
+      "type": "DENSE",
+      "severity": "medium",
+      "sentences": [
+        4
+      ],
+      "problem": "S4 packs 3 new names/numbers (अलाबोई, दो, दस)",
+      "suggestion": "give each number its own beat, round or drop the least important one, or move a name to the visual."
+    },
+    {
+      "type": "REPEATED_STRUCTURE",
+      "severity": "low",
+      "sentences": [
+        9,
+        10,
+        11
+      ],
+      "problem": "S9-S11 have the same length band and ending",
+      "suggestion": "change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line."
+    }
+  ],
+  "sentenceTable": [
+    {
+      "i": 1,
+      "start": 0.0,
+      "words": 10,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर पर।"
+    },
+    {
+      "i": 2,
+      "start": 3.9,
+      "words": 11,
+      "intensity": 4.0,
+      "entities": [
+        "गुवाहाटी",
+        "मुग़ल",
+        "सौ"
+      ],
+      "text": "सोलह सौ इकहत्तर, और गुवाहाटी के पास मुग़ल फ़ौज डटी थी।"
+    },
+    {
+      "i": 3,
+      "start": 7.74,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [
+        "लचित",
+        "बोरफुकन",
+        "अहोम"
+      ],
+      "text": "सामने थे अहोम सेनापति, लचित बोरफुकन।"
+    },
+    {
+      "i": 4,
+      "start": 9.84,
+      "words": 15,
+      "intensity": 4.0,
+      "entities": [
+        "अलाबोई",
+        "दो",
+        "दस"
+      ],
+      "text": "दो साल पहले, अलाबोई की हार में, अहोम करीब दस हज़ार सैनिक गँवा चुके थे।"
+    },
+    {
+      "i": 5,
+      "start": 15.39,
+      "words": 12,
+      "intensity": 3.5,
+      "entities": [
+        "ब्रह्मपुत्र"
+      ],
+      "text": "अब तोपों से लदी बड़ी मुग़ल नावें ब्रह्मपुत्र में बढ़ रही थीं।"
+    },
+    {
+      "i": 6,
+      "start": 19.58,
+      "words": 7,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "उन्हें देखकर अहोम सैनिक पीछे हटने लगे।"
+    },
+    {
+      "i": 7,
+      "start": 22.03,
+      "words": 16,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "कहते हैं, तब बीमार लचित खुद नाव लेकर आगे निकला, और लौटती नावें फिर मुड़ आईं।"
+    },
+    {
+      "i": 8,
+      "start": 27.92,
+      "words": 7,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "पर लचित का असली हथियार नदी थी।"
+    },
+    {
+      "i": 9,
+      "start": 30.37,
+      "words": 10,
+      "intensity": 5.0,
+      "entities": [
+        "सराईघाट",
+        "एक"
+      ],
+      "text": "सराईघाट पर ब्रह्मपुत्र सिकुड़कर करीब एक किलोमीटर रह जाती है।"
+    },
+    {
+      "i": 10,
+      "start": 34.17,
+      "words": 8,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "इतनी तंग नदी में बड़ी नावें फँस गईं।"
+    },
+    {
+      "i": 11,
+      "start": 36.96,
+      "words": 9,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "छोटी अहोम नावों ने उन्हें आगे-पीछे से घेर लिया।"
+    },
+    {
+      "i": 12,
+      "start": 40.11,
+      "words": 6,
+      "intensity": 5.0,
+      "entities": [
+        "मुनव्वर ख़ान"
+      ],
+      "text": "मुग़ल एडमिरल मुनव्वर ख़ान मारा गया।"
+    },
+    {
+      "i": 13,
+      "start": 42.21,
+      "words": 3,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "बेड़ा बिखर गया।"
+    },
+    {
+      "i": 14,
+      "start": 43.66,
+      "words": 7,
+      "intensity": 3.5,
+      "entities": [
+        "मानस"
+      ],
+      "text": "मुग़ल फ़ौज पीछे हटी, मानस नदी तक।"
+    },
+    {
+      "i": 15,
+      "start": 46.11,
+      "words": 9,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "जीत के करीब एक साल बाद, लचित नहीं रहे।"
+    },
+    {
+      "i": 16,
+      "start": 49.25,
+      "words": 8,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "और मामा का सिर काटने वाली मशहूर कहानी?"
+    },
+    {
+      "i": 17,
+      "start": 52.05,
+      "words": 7,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "उसका कोई पुराना लिखित सबूत नहीं मिलता।"
+    },
+    {
+      "i": 18,
+      "start": 54.8,
+      "words": 16,
+      "intensity": 4.5,
+      "entities": [
+        "एनडीए"
+      ],
+      "text": "पर आज भी, एनडीए के बेस्ट कैडेट को उसी के नाम का गोल्ड मेडल मिलता है।"
+    },
+    {
+      "i": 19,
+      "start": 60.39,
+      "words": 13,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "उस सेनापति के नाम का, जो बिस्तर से उठकर नदी में उतरा था।"
+    }
+  ]
+}

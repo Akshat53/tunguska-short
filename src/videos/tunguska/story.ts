@@ -147,7 +147,7 @@ const S4b = (f: number) => dolly([36.2, 1.65, 314.3], [40.5, 1.55, 314.3], pushK
 const S5a = (f: number) => chase(5, f, 150, 30, -18, 10, 40);
 const S5b = (f: number) => chase(5, f, 105, 10, -10, 18, 38);
 // 6 ESCALATION: closer chase, then near-frontal 3/4 for the squeeze
-const S6a = (f: number) => chase(6, f, 80, -30, -6, 20, 38);
+const S6a = (f: number) => chase(6, f, 80, -30, -6, 6, 38); // lead 6 (was 20): keeps the rock ~4 deg inside frame (QA: off-screen right)
 const S6b = (f: number) => chase(6, f, 62, -48, -8, 6, 36);
 // 7 the burst, from far out (outside the forest) at tree-top height: the flash over the taiga
 const S7a = (f: number) => dolly([280, 16, 620], [0, 110, 0], pushK(f, 668, 0.0015), { fov: 42 });
@@ -168,7 +168,7 @@ const S12a = (f: number) => dolly([60, 230, 120], [0, 0, 0], pushK(f, 1062, 0.00
 const S12b = (f: number) => dolly([18, 1.6, 34], [0, 7, 0], pushK(f, 1113, 0.0018), { fov: 46, roll: 0.03 });
 const S12c = (f: number) => dolly([-3.5, 1.55, 22.5], [-9.5, 1.5, 9.5], pushK(f, 1163, 0.0025), { fov: 40, roll: -0.02 }); // the hidden one
 // 13 force straight down: lens on the floor of ground zero looking up through the poles
-const S13a = (f: number) => dolly([16, 1.4, 24], [0, 34, 0], pushK(f, 1228, 0.0025), { fov: 58 });
+const S13a = (f: number) => dolly([16, 1.4, 24], [0, 20, 0], pushK(f, 1228, 0.0025), { fov: 58 }); // look y 20 (was 34): poles fill the frame, not empty sky
 // 14 the straw (insert set): end-on press, then sideways
 const SS = (x: number, y: number, z: number): V3 => [SET_STRAW[0] + x, SET_STRAW[1] + y, SET_STRAW[2] + z];
 const S14a = (f: number) => dolly(SS(0.3, 1.45, 3.0), SS(0, 1.3, 0), pushK(f, 1298, 0.0018), { fov: 36 });
@@ -190,10 +190,10 @@ const SO = (x: number, y: number, z: number): V3 => [SET_OFFICE[0] + x, SET_OFFI
 const S19a = (f: number) => { const u = glide((f - 1760) / 96); return { pos: SO(-9 + 13.5 * u, 2.0, 5.2), look: SO(-7.5 + 13.5 * u, 1.3, 0), fov: 44, roll: -0.02 }; };
 const S19b = (f: number) => dolly(SO(4.3, 2.25, 3.5), SO(5.9, 1.35, -0.6), pushK(f, 1856, 0.0025, 0.006, 30), { fov: 40 });
 // 20 CALLBACK: herders at the rebuilt camp, the hat comes off, crane out over the empty taiga, the last spark
-const S20a = (f: number) => dolly([41.4, 1.7, 321.2], [40.7, 1.3, 313.0], pushK(f, 1910, 0.002), { fov: 40 });
+const S20a = (f: number) => dolly([41.4, 1.7, 321.2], [40.6, 1.3, 313.0], pushK(f, 1910, 0.0012), { fov: 40 }); // gentler push + look toward herder1 (QA: left edge cut)
 const CR: V3[] = [[70, 40, 380], [150, 150, 520]];
 const S20b = (f: number): Shot => {
-  const a = S20a(1996), s = glide((f - 1996) / 70), r = 1 - s, [C, B] = CR;
+  const a = S20a(1996), s = glide((f - 1996) / 92), r = 1 - s, [C, B] = CR;
   return { pos: [0, 1, 2].map((i) => r * r * a.pos[i] + 2 * s * r * C[i] + s * s * B[i]) as V3,
     look: lerp3(a.look, [-40, 60, 120], s), fov: 40 + 6 * s, roll: 0 };
 };

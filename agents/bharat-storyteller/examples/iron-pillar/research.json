@@ -1,0 +1,759 @@
+[
+ {
+  "id": "C01",
+  "claim": "The iron pillar stands in the Qutb complex at Mehrauli, Delhi, in the courtyard of the Quwwat-ul-Islam mosque near the Qutb Minar.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "located in the courtyard of the Quwwat-ul-Islam mosque near the Qutub Minar in New Delhi"
+   },
+   {
+    "title": "The Indian Analyst, 'The Gupta Inscriptions' No. 12: Meharauli Iron Pillar Inscription of Chandra (after Fleet, CII III, 1888)",
+    "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions55.html",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "near the well-known Kutb Minār"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C02",
+  "claim": "The pillar is about 1,600 years old (Gupta period, c. 4th-5th century CE).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "it has withstood corrosion for the last 1600 years"
+   },
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "almost 1600 years ago during the reign of Chandragupta II Vikramaditya"
+   },
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "After 1,600 years, the film has grown..."
+   }
+  ],
+  "qualification": "say 'करीब सोलह सौ साल' (about); the inscription itself is undated",
+  "usableInScript": true
+ },
+ {
+  "id": "C03",
+  "claim": "The oldest inscription on the pillar is a Sanskrit eulogy of a king named Chandra that praises his conquests.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "The Indian Analyst, 'The Gupta Inscriptions' introduction (after Fleet, CII III, 1888)",
+    "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions56.html",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "a powerful king named Chandra"
+   },
+   {
+    "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+    "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "celebrates his victories in battle"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C04",
+  "claim": "King Chandra of the inscription is generally identified with the Gupta emperor Chandragupta II (c. 375-413/415 CE); the inscription does not name his dynasty.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "generally identified as the Gupta emperor Chandragupta II"
+   },
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "during the reign of Chandragupta II Vikramaditya (375-413 AD)"
+   },
+   {
+    "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+    "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the one who is most definitely the one mentioned on this pillar is Chandragupta II"
+   }
+  ],
+  "qualification": "identification is a scholarly inference: say 'माना जाता है'",
+  "usableInScript": true,
+  "notes": "Inscription names only 'Chandra'; identification rests on script, style, Vaishnava devotion and coin legends (Wikipedia summary)."
+ },
+ {
+  "id": "C05",
+  "claim": "The inscription calls the pillar a dhvaja (standard) of Vishnu, raised on a hill called Vishnupada.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "The Indian Analyst, 'The Gupta Inscriptions' introduction (after Fleet, CII III, 1888)",
+    "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions56.html",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the erection of the pillar, which is called a dhvaja, or 'standard,'"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Cut from the narration for length; kept for description."
+ },
+ {
+  "id": "C06",
+  "claim": "The pillar weighs roughly six tonnes.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "iron pillar's weight is estimated to be approximately 6 tons"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "estimated to weigh more than six tonnes"
+   },
+   {
+    "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+    "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "weighs 6.5 tonnes"
+   }
+  ],
+  "qualification": "estimates vary (6 to 6.5 t): say 'करीब छह टन'",
+  "usableInScript": true
+ },
+ {
+  "id": "C07",
+  "claim": "The pillar was made by forge-welding individual iron lumps (hot lumps hammered together), not cast.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "it was forged out of individual iron lumps"
+   },
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "individual iron lumps that were forge welded"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Both sources are from the same research group (Balasubramaniam); hence medium."
+ },
+ {
+  "id": "C08",
+  "claim": "A cannonball once struck the pillar about 4 m up; it left an indentation with cracks but did not break the pillar.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "A cannon ball that struck the Delhi Iron Pillar surprisingly did not break the Pillar"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the result of a cannonball fired at close range"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C09",
+  "claim": "There is no contemporary record (inscription or document) of when the cannonball struck or who fired it.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "there is no record, in the form of inscriptions or documents when the cannon ball had struck the surface, or who fired the cannon"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "no contemporaneous records are known"
+   }
+  ],
+  "qualification": "say 'किसी ने' - never name a shooter",
+  "usableInScript": true
+ },
+ {
+  "id": "C10",
+  "claim": "Nadir Shah fired the cannonball at the pillar in 1739.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "attribution should wait till further corroboratory evidences surface"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "inference only, no record",
+  "usableInScript": false,
+  "notes": "NOT USED (owner caution). Authors of the 2009 paper suggest it but defer attribution."
+ },
+ {
+  "id": "C11",
+  "claim": "Ghulam Qadir fired the cannonball in 1787.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "a cannon ball fired at the DIP in the 18th century (either by Nadir Shah in AD1739 or"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "NOT USED (owner instruction)."
+ },
+ {
+  "id": "C12",
+  "claim": "A popular belief says the pillar does not rust / 'refuses to rust'.",
+  "category": "legend",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+    "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "it refuses to rust"
+   },
+   {
+    "title": "KRDO / The Conversation syndication, 'This mysterious iron pillar in India has been exposed to the elements for over 1600 years...' (2024)",
+    "url": "https://krdo.com/news/2024/05/06/this-mysterious-iron-pillar-in-india-has-been-exposed-to-the-elements-for-over-1600-years-so-why-hasnt-it-ever-rusted/",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-01",
+    "quote": "why hasn't it ever rusted?"
+   }
+  ],
+  "qualification": "frame as popular belief: 'कहते हैं'",
+  "usableInScript": true,
+  "notes": "Claim is that the belief exists; the belief itself is C13 (debunked)."
+ },
+ {
+  "id": "C13",
+  "claim": "The pillar never rusts at all (is 'rustless').",
+  "category": "legend",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Initially, the corrosion rate of iron is high"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "High corrosion rates are initially observed"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "debunked": true,
+  "notes": "Debunked: the pillar does corrode; it is protected by a thin rust/phosphate film."
+ },
+ {
+  "id": "C14",
+  "claim": "The pillar does corrode: the initial corrosion rate is high, and only later does a protective layer slow it.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Initially, the corrosion rate of iron is high due to the presence of slag particles"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "High corrosion rates are initially observed"
+   },
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The protective film started forming after three years of the pillar's erection"
+   }
+  ],
+  "qualification": "stay qualitative: no number of years on screen",
+  "usableInScript": true
+ },
+ {
+  "id": "C15",
+  "claim": "A thin, compact protective film forms next to the metal: amorphous delta-FeOOH (misawite) and, critically, crystalline iron hydrogen phosphate hydrate; phosphorus catalyses it. This protective film is itself a rust product.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The critical factor contributing to the superior corrosion resistance of the DIP, however, is the formation of iron hydrogen phosphate hydrate, as a thin layer next to the metal-metaloxide interface"
+   },
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "a thin layer of misawite, a compound of iron, oxygen and hydrogen, has protected the pillar"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "an even layer of crystalline iron(III) hydrogen phosphate hydrate"
+   },
+   {
+    "title": "R. Balasubramaniam, 'On the growth kinetics of the protective passive film of the Delhi iron pillar', Current Science 82(11) 2002 (NML eprints record)",
+    "url": "https://eprints.nmlindia.org/5806",
+    "type": "peer-reviewed",
+    "read": "snippet",
+    "accessed": "2026-11-01",
+    "quote": "phosphorus ... favors catalytic formation of delta-FeOOH and phosphates"
+   }
+  ],
+  "qualification": "say 'पतली परत'; no thickness figure",
+  "usableInScript": true
+ },
+ {
+  "id": "C16",
+  "claim": "The pillar's iron has a high phosphorus content compared with modern iron.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+    "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "due to the presence of significant amount of phosphorus in solid solution"
+   },
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "as much as one per cent against less than 0.05 per cent in today's iron"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "higher phosphorus content (> 0.1%, average 0.25%)"
+   }
+  ],
+  "qualification": "qualitative only ('फ़ॉस्फ़रस ज़्यादा'): percentages differ between sources",
+  "usableInScript": true
+ },
+ {
+  "id": "C17",
+  "claim": "Alternate wetting and drying cycles help the protective phosphate form in its crystalline, more protective state.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The formation of the crystalline modification of this phosphate from the amorphous form is aided by alternate wetting and drying cycles"
+   },
+   {
+    "title": "R. Balasubramaniam, 'On the growth kinetics of the protective passive film of the Delhi iron pillar', Current Science 82(11) 2002 (NML eprints record)",
+    "url": "https://eprints.nmlindia.org/5806",
+    "type": "peer-reviewed",
+    "read": "snippet",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C18",
+  "claim": "The phosphorus stayed in the iron because ancient smelting used charcoal without lime/limestone; modern blast furnaces use limestone and send most phosphorus into the slag.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+    "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Since ancient Indian ironsmiths did not use lime in the smelting process, the phosphorus in the ore was never removed."
+   },
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "use limestone in place of charcoal"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C19",
+  "claim": "Visitors used to stand with their back to the pillar and try to clasp their hands around it, believing it brought good luck.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+    "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "There was a popular belief that good fortune awaited a person"
+   },
+   {
+    "title": "Wikipedia 2006 mirror, 'Iron pillar'",
+    "url": "https://wikipedia2006.classicistranieri.com/en/i/r/o/Iron_pillar.html",
+    "type": "encyclopedia",
+    "read": "snippet",
+    "accessed": "2026-11-01",
+    "quote": "considered good luck if you could stand with your back to the pillar and make your hands meet behind it"
+   }
+  ],
+  "qualification": "it is a belief: 'किस्मत के लिए'",
+  "usableInScript": true
+ },
+ {
+  "id": "C20",
+  "claim": "In 1997 the ASI built an iron grill cage around the pillar to stop visitors damaging it.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "The ASI has constructed an iron grill cage surrounding the DIP in 1997 to prevent visitors from damaging the pillar"
+   },
+   {
+    "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+    "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Until two decades ago when the authorities built an iron fence around the pillar"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C21",
+  "claim": "Before the cage, the band of the pillar at about 5 ft that people touched was polished bright; about a year after the cage was built, that area was covered with a thin dark-brown adherent layer.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "After about a year of the cage construction, the previously bright area was covered with a thin dark-brown layer which was adherent on the surface"
+   }
+  ],
+  "qualification": "say 'करीब साल भर'; single (strong, first-hand) source",
+  "usableInScript": true
+ },
+ {
+  "id": "C22",
+  "claim": "The protective film is about one-twentieth of a millimetre thick after 1,600 years.",
+  "category": "fact",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the film has grown one-twentieth of a millimetre thick"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "NOT USED: owner caution, figures vary; stay qualitative."
+ },
+ {
+  "id": "C23",
+  "claim": "Exact phosphorus percentage of the pillar iron (1% vs ~0.25% vs ~0.18% in solid solution).",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+    "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "0.25% P"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "NOT USED: sources disagree."
+ },
+ {
+  "id": "C24",
+  "claim": "The pillar was originally erected elsewhere (Udayagiri / Vishnupadagiri) and moved to Delhi by Anangpal Tomar or Iltutmish.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "Its original location, whether on the site itself or from elsewhere, is debated."
+   },
+   {
+    "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+    "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-01"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "NOT USED: contested; would need its own video."
+ },
+ {
+  "id": "C25",
+  "claim": "The pillar goes as deep underground as it stands above ground.",
+  "category": "legend",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+    "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "the pillar was just twenty inches long underground"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "roughly 1.12 m below ground"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "debunked": true,
+  "notes": "Debunked; and the two below-ground figures themselves differ."
+ },
+ {
+  "id": "C26",
+  "claim": "Delhi's dry climate alone explains the pillar's resistance (environmental theory).",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Britannica (print article 2245531)",
+    "url": "https://www.britannica.com/print/article/2245531",
+    "type": "encyclopedia",
+    "read": "snippet",
+    "accessed": "2026-11-01"
+   },
+   {
+    "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+    "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+    "type": "peer-reviewed",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "theories ... can be broadly classified into two categories: the environmental [1-3], and material"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "NOT USED as sole cause; the script credits the material (phosphorus) plus wet/dry cycles, per CS2000."
+ },
+ {
+  "id": "C27",
+  "claim": "The pillar is about 7.2 m tall in total (23 ft 8 in), including roughly 1 m below ground, about 41 cm in diameter at the base.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "The Indian Analyst, 'The Gupta Inscriptions' No. 12: Meharauli Iron Pillar Inscription of Chandra (after Fleet, CII III, 1888)",
+    "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions55.html",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "twenty-three feet eight inches high"
+   },
+   {
+    "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+    "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-01",
+    "quote": "7.21 metres (23 feet 8 inches) high with a 41-centimetre (16 in) diameter"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Used only for set proportions, not spoken."
+ }
+]

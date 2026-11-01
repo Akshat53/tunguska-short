@@ -9,7 +9,7 @@ const chromiumOptions = process.env.GL ? { gl: process.env.GL } : { gl: "angle" 
 const inputProps = JSON.parse(props);
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts"), publicDir: path.resolve("public") });
 try {
-  const composition = await selectComposition({ serveUrl, id: "TunguskaShort", chromiumOptions, inputProps });
+  const composition = await selectComposition({ serveUrl, id: process.env.COMP || "TunguskaShort", chromiumOptions, inputProps });
   const onBrowserLog = (l) => { if (l.type === "error" || l.type === "warning") console.log(`[${l.type}]`, l.text.slice(0, 300)); };
   fs.mkdirSync(path.dirname(prefix), { recursive: true });
   for (const f of frames.split(",").map(Number)) {

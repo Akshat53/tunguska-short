@@ -1,0 +1,668 @@
+{
+ "version": 1,
+ "seed": 1985,
+ "cues": [
+  {
+   "id": "lake-wind",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.16,
+    "bright": 700
+   },
+   "post": [],
+   "span": [
+    0,
+    432
+   ],
+   "extra": 0.4,
+   "note": "thin high-altitude wind over the tarn"
+  },
+  {
+   "id": "hook-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.05,
+    "noise": 0.04
+   },
+   "post": [],
+   "span": [
+    0,
+    338
+   ],
+   "note": "eerie low bed under the hook"
+  },
+  {
+   "id": "hook-shimmer",
+   "at": 149,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.2,
+    "peak": 0.4,
+    "f_lo": 1500,
+    "f_hi": 5000,
+    "width": 0.6
+   },
+   "post": [
+    [
+     "gain",
+     0.2
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "offset": -0.4,
+   "note": "cut to the remains on 'सैकड़ों'"
+  },
+  {
+   "id": "trail-wind",
+   "at": 432,
+   "gen": "breeze",
+   "args": {
+    "level": 0.2,
+    "bright": 900
+   },
+   "post": [],
+   "span": [
+    432,
+    670
+   ],
+   "note": "ridge trail wind, rising with the storm"
+  },
+  {
+   "id": "trail-steps",
+   "at": 432,
+   "gen": "steps",
+   "args": {
+    "period": 0.55,
+    "pitch": 0.7,
+    "gain": 0.3,
+    "pan0": -0.2,
+    "pan_step": 0.4
+   },
+   "post": [],
+   "span": [
+    432,
+    600
+   ],
+   "start": 436,
+   "note": "the procession's footsteps in snow"
+  },
+  {
+   "id": "legend-rumble",
+   "at": 530,
+   "gen": "rumble",
+   "args": {
+    "dur": 3.0,
+    "gain": 0.5,
+    "lo": 30,
+    "hi": 120,
+    "decay": 1.5
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "distant thunder as the goddess is angered"
+  },
+  {
+   "id": "legend-gust",
+   "at": 580,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.1,
+    "peak": 0.6,
+    "f_lo": 250,
+    "f_hi": 2200,
+    "width": 0.9
+   },
+   "post": [
+    [
+     "gain",
+     0.45
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "gust on 'आसमान'"
+  },
+  {
+   "id": "hail-crackles",
+   "at": 604,
+   "gen": "crackles",
+   "args": {
+    "density": 30,
+    "gain": 0.45
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    604,
+    690
+   ],
+   "note": "hail rattle"
+  },
+  {
+   "id": "hail-boom",
+   "at": 643,
+   "gen": "boom",
+   "args": {
+    "dur": 1.4,
+    "f0": 60,
+    "big": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.8
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "sync": true,
+   "word": "बरसे",
+   "word_index": 47,
+   "word_u": 0.0,
+   "note": "impact under the flash/kick on 'बरसे'"
+  },
+  {
+   "id": "lab-hum",
+   "at": 670,
+   "gen": "hum",
+   "args": {
+    "hz": 120.0,
+    "tone": 0.02,
+    "noise": 0.05
+   },
+   "post": [],
+   "span": [
+    670,
+    943
+   ],
+   "note": "lab room tone"
+  },
+  {
+   "id": "arrow-whoosh",
+   "at": 726,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.45,
+    "peak": 0.5,
+    "f_lo": 600,
+    "f_hi": 3200
+   },
+   "post": [
+    [
+     "gain",
+     0.3
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "the arrow comes down onto the crown"
+  },
+  {
+   "id": "hailball-clicks",
+   "at": 776,
+   "gen": "clicks",
+   "args": {
+    "count": 3,
+    "freq": [
+     700,
+     1100
+    ],
+    "decay": 0.06,
+    "level": 0.5,
+    "gain": 0.35,
+    "pan": [
+     -0.2,
+     0.2
+    ],
+    "window": 0.7
+   },
+   "post": [],
+   "note": "cricket-ball hailstones tap the drawing"
+  },
+  {
+   "id": "date-glock",
+   "at": 905,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.35
+   },
+   "post": [
+    [
+     "pan",
+     0.1
+    ]
+   ],
+   "note": "the dating marker lands (~'पचास')"
+  },
+  {
+   "id": "storm-wind",
+   "at": 943,
+   "gen": "breeze",
+   "args": {
+    "level": 0.3,
+    "bright": 600
+   },
+   "post": [],
+   "span": [
+    943,
+    1015
+   ],
+   "extra": 0.3,
+   "note": "'एक तूफ़ान': heavy wind"
+  },
+  {
+   "id": "storm-rumble",
+   "at": 949,
+   "gen": "rumble",
+   "args": {
+    "dur": 2.6,
+    "gain": 0.6,
+    "lo": 30,
+    "hi": 110,
+    "decay": 1.2
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "thunder under 'तूफ़ान'"
+  },
+  {
+   "id": "lab2-hum",
+   "at": 1015,
+   "gen": "hum",
+   "args": {
+    "hz": 120.0,
+    "tone": 0.02,
+    "noise": 0.05
+   },
+   "post": [],
+   "span": [
+    1015,
+    1132
+   ]
+  },
+  {
+   "id": "lab-clicks",
+   "at": 1030,
+   "gen": "clicks",
+   "args": {
+    "count": 10,
+    "freq": [
+     2500,
+     4000
+    ],
+    "decay": 0.04,
+    "level": 0.4,
+    "gain": 0.14,
+    "pan": [
+     -0.6,
+     0.6
+    ],
+    "window": 2.4
+   },
+   "post": [],
+   "note": "the DNA is being read"
+  },
+  {
+   "id": "dna-glock",
+   "at": 1092,
+   "gen": "glock",
+   "args": {
+    "midi": 86,
+    "level": 0.35
+   },
+   "post": [
+    [
+     "pan",
+     0.2
+    ]
+   ],
+   "note": "sparkle on 'डीएनए'"
+  },
+  {
+   "id": "globe-air",
+   "at": 1132,
+   "gen": "breeze",
+   "args": {
+    "level": 0.06,
+    "bright": 2500
+   },
+   "post": [],
+   "span": [
+    1132,
+    1453
+   ],
+   "note": "soft air bed over the globe"
+  },
+  {
+   "id": "sa-notes",
+   "at": 1150,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     72,
+     76,
+     81
+    ],
+    "level": 0.25,
+    "spacing": 0.22,
+    "pan0": -0.3,
+    "pan_step": 0.2
+   },
+   "post": [],
+   "note": "yellow dots appear over South Asia"
+  },
+  {
+   "id": "reveal-whoosh",
+   "at": 1258,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.5,
+    "peak": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.6
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "offset": -0.5,
+   "note": "lead-in to the revelation flash"
+  },
+  {
+   "id": "reveal-glock",
+   "at": 1258,
+   "gen": "glock",
+   "args": {
+    "midi": 76,
+    "level": 0.5
+   },
+   "post": [],
+   "sync": true,
+   "word": "लेकिन",
+   "word_index": 97,
+   "word_u": 0.0,
+   "note": "the revelation lands"
+  },
+  {
+   "id": "coral-notes",
+   "at": 1272,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     76,
+     79,
+     83,
+     88
+    ],
+    "level": 0.25,
+    "spacing": 0.1,
+    "pan0": 0.2,
+    "pan_step": -0.1
+   },
+   "post": [],
+   "note": "the 14 coral dots"
+  },
+  {
+   "id": "route-whoosh",
+   "at": 1406,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.4,
+    "peak": 1.0,
+    "f_lo": 300,
+    "f_hi": 2600,
+    "width": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.4
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "the route arc draws, Mediterranean -> Himalaya"
+  },
+  {
+   "id": "med-glock",
+   "at": 1402,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.35
+   },
+   "post": [
+    [
+     "pan",
+     -0.3
+    ]
+   ],
+   "note": "the Mediterranean glows on 'ग्रीस'"
+  },
+  {
+   "id": "golden-wind",
+   "at": 1453,
+   "gen": "breeze",
+   "args": {
+    "level": 0.13,
+    "bright": 700
+   },
+   "post": [],
+   "span": [
+    1453,
+    1716
+   ]
+  },
+  {
+   "id": "ring-a",
+   "at": 1595,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.35
+   },
+   "post": [
+    [
+     "pan",
+     -0.25
+    ]
+   ],
+   "note": "ring around the older group"
+  },
+  {
+   "id": "ring-b",
+   "at": 1608,
+   "gen": "glock",
+   "args": {
+    "midi": 78,
+    "level": 0.35
+   },
+   "post": [
+    [
+     "pan",
+     0.25
+    ]
+   ],
+   "note": "ring around the later group"
+  },
+  {
+   "id": "thousand-notes",
+   "at": 1673,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     62,
+     65,
+     69
+    ],
+    "level": 0.3,
+    "spacing": 0.35,
+    "pan0": -0.3,
+    "pan_step": 0.3
+   },
+   "post": [],
+   "note": "marks 'हज़ार साल': time stretching"
+  },
+  {
+   "id": "end-wind",
+   "at": 1716,
+   "gen": "breeze",
+   "args": {
+    "level": 0.14,
+    "bright": 600
+   },
+   "post": [],
+   "span": [
+    1716,
+    2115
+   ],
+   "note": "return to the silent place"
+  },
+  {
+   "id": "end-glock",
+   "at": 2060,
+   "gen": "glock",
+   "args": {
+    "midi": 69,
+    "level": 0.3
+   },
+   "post": [],
+   "sync": true,
+   "word": "बोलना",
+   "word_index": 168,
+   "word_u": 0.0,
+   "note": "soft glint on 'बोलना'"
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.6,
+  "arp_level": 0.7,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     3
+    ],
+    "chord": "Dm",
+    "level": 0.8
+   },
+   {
+    "name": "legend",
+    "shots": [
+     4,
+     6
+    ],
+    "chord": "Gm",
+    "level": 0.9
+   },
+   {
+    "name": "dna",
+    "shots": [
+     7,
+     8
+    ],
+    "chord": "F",
+    "level": 0.85
+   },
+   {
+    "name": "reveal",
+    "shots": [
+     9,
+     10
+    ],
+    "chord": "A",
+    "level": 1.0
+   },
+   {
+    "name": "ending",
+    "shots": [
+     11,
+     12
+    ],
+    "chord": "Dm",
+    "level": 0.65
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.03,
+  "fade_out": 0.3
+ },
+ "_doc": "Roopkund (Hindi) sound design: frames are picture frames authored on stories/roopkund/hi/words.json (frame = round(start*30)). Run with STORY=roopkund CUES_FILE=audio/cues.roopkund.json (see audio/build_roopkund.sh)."
+}

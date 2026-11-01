@@ -1,0 +1,344 @@
+{
+  "verdict": "PASS",
+  "hardFailures": [],
+  "timingSource": "estimate",
+  "durationSec": 64.14,
+  "words": 172,
+  "wps": 2.86,
+  "measuredWps": 2.86,
+  "requiredWpsForTarget": 2.97,
+  "sentences": 21,
+  "lengths": {
+    "values": [
+      12,
+      11,
+      8,
+      7,
+      12,
+      9,
+      6,
+      6,
+      1,
+      5,
+      6,
+      17,
+      8,
+      5,
+      4,
+      15,
+      14,
+      4,
+      11,
+      6,
+      5
+    ],
+    "mean": 8.19,
+    "std": 4.03,
+    "cv": 0.49,
+    "min": 1,
+    "max": 17,
+    "histogram": {
+      "1-3": 1,
+      "4-6": 9,
+      "7-10": 4,
+      "11-15": 6,
+      "16-20": 1,
+      "21+": 0
+    }
+  },
+  "pauses": {
+    "count": 14,
+    "totalSec": 4.0,
+    "meanSec": 0.29,
+    "longestRunWithoutPauseSec": 11.0,
+    "at": [
+      4.2,
+      8.34,
+      11.39,
+      14.04,
+      18.48,
+      24.03,
+      26.38,
+      28.97,
+      31.32,
+      40.26,
+      42.31,
+      49.2,
+      54.35,
+      59.89
+    ]
+  },
+  "ellipses": 0,
+  "questions": {
+    "count": 2,
+    "unanswered": []
+  },
+  "density": {
+    "perSentence": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0.24,
+    "max": 1
+  },
+  "hook": {
+    "text": "कहते हैं, सोलह सौ साल में इस खंभे को",
+    "firstSentenceWords": 12,
+    "score": 8,
+    "notes": [
+      "first sentence 12 words (good)",
+      "concrete name/number",
+      "contrast/contradiction"
+    ],
+    "banned": []
+  },
+  "intensity": {
+    "perSentence": [
+      4.5,
+      3.5,
+      4.5,
+      3.5,
+      3.5,
+      4.0,
+      5.5,
+      5.5,
+      6.5,
+      4.5,
+      4.5,
+      4.0,
+      3.0,
+      4.5,
+      5.5,
+      4.0,
+      3.0,
+      4.5,
+      3.0,
+      5.5,
+      4.5
+    ],
+    "per5s": [
+      4.5,
+      4.0,
+      3.5,
+      3.5,
+      4.8,
+      5.5,
+      4.2,
+      3.0,
+      5.0,
+      4.0,
+      3.0,
+      3.8,
+      5.0
+    ],
+    "curve": "▄▃▃▃▄▄▃▂▄▃▂▃▄",
+    "peakSentence": 9,
+    "peakSec": 27.0
+  },
+  "hinglish": {
+    "devanagari": 172,
+    "roman": 0,
+    "numeric": 0,
+    "romanShare": 0.0
+  },
+  "findings": [],
+  "sentenceTable": [
+    {
+      "i": 1,
+      "start": 0.0,
+      "words": 12,
+      "intensity": 4.5,
+      "entities": [
+        "सौ"
+      ],
+      "text": "कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी।"
+    },
+    {
+      "i": 2,
+      "start": 4.5,
+      "words": 11,
+      "intensity": 3.5,
+      "entities": [
+        "क़ुतुब मीनार"
+      ],
+      "text": "ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।"
+    },
+    {
+      "i": 3,
+      "start": 8.59,
+      "words": 8,
+      "intensity": 4.5,
+      "entities": [
+        "चंद्र"
+      ],
+      "text": "इस पर राजा चंद्र की तारीफ़ खुदी है।"
+    },
+    {
+      "i": 4,
+      "start": 11.59,
+      "words": 7,
+      "intensity": 3.5,
+      "entities": [
+        "चंद्रगुप्त द्वितीय"
+      ],
+      "text": "माना जाता है, ये चंद्रगुप्त द्वितीय थे।"
+    },
+    {
+      "i": 5,
+      "start": 14.29,
+      "words": 12,
+      "intensity": 3.5,
+      "entities": [
+        "छह"
+      ],
+      "text": "करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर जोड़कर बनाया।"
+    },
+    {
+      "i": 6,
+      "start": 18.78,
+      "words": 9,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "फिर किसी ने इस पर तोप का गोला दागा।"
+    },
+    {
+      "i": 7,
+      "start": 21.93,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "गड्ढा पड़ा, पर खंभा नहीं टूटा।"
+    },
+    {
+      "i": 8,
+      "start": 24.28,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "तो क्या ये जादुई लोहा है?"
+    },
+    {
+      "i": 9,
+      "start": 26.88,
+      "words": 1,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "नहीं।"
+    },
+    {
+      "i": 10,
+      "start": 27.22,
+      "words": 5,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "जंग इसे भी लगती है।"
+    },
+    {
+      "i": 11,
+      "start": 29.22,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "शुरू में तो तेज़ी से लगी।"
+    },
+    {
+      "i": 12,
+      "start": 31.52,
+      "words": 17,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई परत बनी।"
+    },
+    {
+      "i": 13,
+      "start": 37.47,
+      "words": 8,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "बारिश और धूप ने उसे और पक्का किया।"
+    },
+    {
+      "i": 14,
+      "start": 40.56,
+      "words": 5,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "वही परत इसकी ढाल है।"
+    },
+    {
+      "i": 15,
+      "start": 42.56,
+      "words": 4,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "फ़ॉस्फ़रस आया कहाँ से?"
+    },
+    {
+      "i": 16,
+      "start": 43.96,
+      "words": 15,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही रह गया।"
+    },
+    {
+      "i": 17,
+      "start": 49.45,
+      "words": 14,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था।"
+    },
+    {
+      "i": 18,
+      "start": 54.65,
+      "words": 4,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "फिर जाली लग गई।"
+    },
+    {
+      "i": 19,
+      "start": 56.05,
+      "words": 11,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "और करीब साल भर में, वो चमक भी भूरी पड़ गई।"
+    },
+    {
+      "i": 20,
+      "start": 60.29,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "ये खंभा जंग से बचा नहीं।"
+    },
+    {
+      "i": 21,
+      "start": 62.39,
+      "words": 5,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "जंग ने इसे बचाया है।"
+    }
+  ]
+}

@@ -1,0 +1,3028 @@
+{
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "iron-pillar",
+  "title": "जंग ने बचाया: दिल्ली का लौह स्तंभ",
+  "topic": "The Iron Pillar of Delhi (Mehrauli, c. 4th-5th c. CE, Chandra inscription)",
+  "category": "engineering-architecture",
+  "structure": "unexpected-science",
+  "angle": "the 'rustless' pillar does rust - and a thin phosphorus-made rust layer is exactly what protects it",
+  "centralQuestion": "how has open-air iron survived about 1,600 years if it is not magic?",
+  "audience": "Indian Shorts viewers 16-35, curious, not specialists",
+  "language": "hinglish",
+  "durationSec": 64.9,
+  "totalFrames": 1947,
+  "coreEmotion": "awe, then the pleasure of a clean explanation",
+  "takeaway": "sometimes what looks like damage is the protection",
+  "tone": "awed, curious",
+  "sensitivity": "The pillar stands in the Quwwat-ul-Islam mosque courtyard and carries a Vaishnava dedication: no religious framing, no blame narrative; the cannon shooter is left unnamed because no record exists.",
+  "researchMode": "web-verified",
+  "created": "2026-11-01"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "The iron pillar stands in the Qutb complex at Mehrauli, Delhi, in the courtyard of the Quwwat-ul-Islam mosque near the Qutb Minar.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "located in the courtyard of the Quwwat-ul-Islam mosque near the Qutub Minar in New Delhi"
+    },
+    {
+     "title": "The Indian Analyst, 'The Gupta Inscriptions' No. 12: Meharauli Iron Pillar Inscription of Chandra (after Fleet, CII III, 1888)",
+     "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions55.html",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "near the well-known Kutb Minār"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C02",
+   "claim": "The pillar is about 1,600 years old (Gupta period, c. 4th-5th century CE).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "it has withstood corrosion for the last 1600 years"
+    },
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "almost 1600 years ago during the reign of Chandragupta II Vikramaditya"
+    },
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "After 1,600 years, the film has grown..."
+    }
+   ],
+   "qualification": "say 'करीब सोलह सौ साल' (about); the inscription itself is undated",
+   "usableInScript": true
+  },
+  {
+   "id": "C03",
+   "claim": "The oldest inscription on the pillar is a Sanskrit eulogy of a king named Chandra that praises his conquests.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "The Indian Analyst, 'The Gupta Inscriptions' introduction (after Fleet, CII III, 1888)",
+     "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions56.html",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "a powerful king named Chandra"
+    },
+    {
+     "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+     "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "celebrates his victories in battle"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C04",
+   "claim": "King Chandra of the inscription is generally identified with the Gupta emperor Chandragupta II (c. 375-413/415 CE); the inscription does not name his dynasty.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "generally identified as the Gupta emperor Chandragupta II"
+    },
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "during the reign of Chandragupta II Vikramaditya (375-413 AD)"
+    },
+    {
+     "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+     "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the one who is most definitely the one mentioned on this pillar is Chandragupta II"
+    }
+   ],
+   "qualification": "identification is a scholarly inference: say 'माना जाता है'",
+   "usableInScript": true,
+   "notes": "Inscription names only 'Chandra'; identification rests on script, style, Vaishnava devotion and coin legends (Wikipedia summary)."
+  },
+  {
+   "id": "C05",
+   "claim": "The inscription calls the pillar a dhvaja (standard) of Vishnu, raised on a hill called Vishnupada.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "The Indian Analyst, 'The Gupta Inscriptions' introduction (after Fleet, CII III, 1888)",
+     "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions56.html",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the erection of the pillar, which is called a dhvaja, or 'standard,'"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Cut from the narration for length; kept for description."
+  },
+  {
+   "id": "C06",
+   "claim": "The pillar weighs roughly six tonnes.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "iron pillar's weight is estimated to be approximately 6 tons"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "estimated to weigh more than six tonnes"
+    },
+    {
+     "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+     "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "weighs 6.5 tonnes"
+    }
+   ],
+   "qualification": "estimates vary (6 to 6.5 t): say 'करीब छह टन'",
+   "usableInScript": true
+  },
+  {
+   "id": "C07",
+   "claim": "The pillar was made by forge-welding individual iron lumps (hot lumps hammered together), not cast.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "it was forged out of individual iron lumps"
+    },
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "individual iron lumps that were forge welded"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Both sources are from the same research group (Balasubramaniam); hence medium."
+  },
+  {
+   "id": "C08",
+   "claim": "A cannonball once struck the pillar about 4 m up; it left an indentation with cracks but did not break the pillar.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "A cannon ball that struck the Delhi Iron Pillar surprisingly did not break the Pillar"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the result of a cannonball fired at close range"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C09",
+   "claim": "There is no contemporary record (inscription or document) of when the cannonball struck or who fired it.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "there is no record, in the form of inscriptions or documents when the cannon ball had struck the surface, or who fired the cannon"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "no contemporaneous records are known"
+    }
+   ],
+   "qualification": "say 'किसी ने' - never name a shooter",
+   "usableInScript": true
+  },
+  {
+   "id": "C10",
+   "claim": "Nadir Shah fired the cannonball at the pillar in 1739.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "attribution should wait till further corroboratory evidences surface"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "inference only, no record",
+   "usableInScript": false,
+   "notes": "NOT USED (owner caution). Authors of the 2009 paper suggest it but defer attribution."
+  },
+  {
+   "id": "C11",
+   "claim": "Ghulam Qadir fired the cannonball in 1787.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "a cannon ball fired at the DIP in the 18th century (either by Nadir Shah in AD1739 or"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "NOT USED (owner instruction)."
+  },
+  {
+   "id": "C12",
+   "claim": "A popular belief says the pillar does not rust / 'refuses to rust'.",
+   "category": "legend",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+     "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "it refuses to rust"
+    },
+    {
+     "title": "KRDO / The Conversation syndication, 'This mysterious iron pillar in India has been exposed to the elements for over 1600 years...' (2024)",
+     "url": "https://krdo.com/news/2024/05/06/this-mysterious-iron-pillar-in-india-has-been-exposed-to-the-elements-for-over-1600-years-so-why-hasnt-it-ever-rusted/",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-01",
+     "quote": "why hasn't it ever rusted?"
+    }
+   ],
+   "qualification": "frame as popular belief: 'कहते हैं'",
+   "usableInScript": true,
+   "notes": "Claim is that the belief exists; the belief itself is C13 (debunked)."
+  },
+  {
+   "id": "C13",
+   "claim": "The pillar never rusts at all (is 'rustless').",
+   "category": "legend",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Initially, the corrosion rate of iron is high"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "High corrosion rates are initially observed"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "debunked": true,
+   "notes": "Debunked: the pillar does corrode; it is protected by a thin rust/phosphate film."
+  },
+  {
+   "id": "C14",
+   "claim": "The pillar does corrode: the initial corrosion rate is high, and only later does a protective layer slow it.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Initially, the corrosion rate of iron is high due to the presence of slag particles"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "High corrosion rates are initially observed"
+    },
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The protective film started forming after three years of the pillar's erection"
+    }
+   ],
+   "qualification": "stay qualitative: no number of years on screen",
+   "usableInScript": true
+  },
+  {
+   "id": "C15",
+   "claim": "A thin, compact protective film forms next to the metal: amorphous delta-FeOOH (misawite) and, critically, crystalline iron hydrogen phosphate hydrate; phosphorus catalyses it. This protective film is itself a rust product.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The critical factor contributing to the superior corrosion resistance of the DIP, however, is the formation of iron hydrogen phosphate hydrate, as a thin layer next to the metal-metaloxide interface"
+    },
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "a thin layer of misawite, a compound of iron, oxygen and hydrogen, has protected the pillar"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "an even layer of crystalline iron(III) hydrogen phosphate hydrate"
+    },
+    {
+     "title": "R. Balasubramaniam, 'On the growth kinetics of the protective passive film of the Delhi iron pillar', Current Science 82(11) 2002 (NML eprints record)",
+     "url": "https://eprints.nmlindia.org/5806",
+     "type": "peer-reviewed",
+     "read": "snippet",
+     "accessed": "2026-11-01",
+     "quote": "phosphorus ... favors catalytic formation of delta-FeOOH and phosphates"
+    }
+   ],
+   "qualification": "say 'पतली परत'; no thickness figure",
+   "usableInScript": true
+  },
+  {
+   "id": "C16",
+   "claim": "The pillar's iron has a high phosphorus content compared with modern iron.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, V.N. Prabhakar, M. Shankar, 'On technical analysis of cannon shot crater on Delhi Iron Pillar', Indian Journal of History of Science 44.1 (2009) 29-46",
+     "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "due to the presence of significant amount of phosphorus in solid solution"
+    },
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "as much as one per cent against less than 0.05 per cent in today's iron"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "higher phosphorus content (> 0.1%, average 0.25%)"
+    }
+   ],
+   "qualification": "qualitative only ('फ़ॉस्फ़रस ज़्यादा'): percentages differ between sources",
+   "usableInScript": true
+  },
+  {
+   "id": "C17",
+   "claim": "Alternate wetting and drying cycles help the protective phosphate form in its crystalline, more protective state.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The formation of the crystalline modification of this phosphate from the amorphous form is aided by alternate wetting and drying cycles"
+    },
+    {
+     "title": "R. Balasubramaniam, 'On the growth kinetics of the protective passive film of the Delhi iron pillar', Current Science 82(11) 2002 (NML eprints record)",
+     "url": "https://eprints.nmlindia.org/5806",
+     "type": "peer-reviewed",
+     "read": "snippet",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C18",
+   "claim": "The phosphorus stayed in the iron because ancient smelting used charcoal without lime/limestone; modern blast furnaces use limestone and send most phosphorus into the slag.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+     "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Since ancient Indian ironsmiths did not use lime in the smelting process, the phosphorus in the ore was never removed."
+    },
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "use limestone in place of charcoal"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C19",
+   "claim": "Visitors used to stand with their back to the pillar and try to clasp their hands around it, believing it brought good luck.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+     "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "There was a popular belief that good fortune awaited a person"
+    },
+    {
+     "title": "Wikipedia 2006 mirror, 'Iron pillar'",
+     "url": "https://wikipedia2006.classicistranieri.com/en/i/r/o/Iron_pillar.html",
+     "type": "encyclopedia",
+     "read": "snippet",
+     "accessed": "2026-11-01",
+     "quote": "considered good luck if you could stand with your back to the pillar and make your hands meet behind it"
+    }
+   ],
+   "qualification": "it is a belief: 'किस्मत के लिए'",
+   "usableInScript": true
+  },
+  {
+   "id": "C20",
+   "claim": "In 1997 the ASI built an iron grill cage around the pillar to stop visitors damaging it.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "The ASI has constructed an iron grill cage surrounding the DIP in 1997 to prevent visitors from damaging the pillar"
+    },
+    {
+     "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+     "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Until two decades ago when the authorities built an iron fence around the pillar"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C21",
+   "claim": "Before the cage, the band of the pillar at about 5 ft that people touched was polished bright; about a year after the cage was built, that area was covered with a thin dark-brown adherent layer.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "After about a year of the cage construction, the previously bright area was covered with a thin dark-brown layer which was adherent on the surface"
+    }
+   ],
+   "qualification": "say 'करीब साल भर'; single (strong, first-hand) source",
+   "usableInScript": true
+  },
+  {
+   "id": "C22",
+   "claim": "The protective film is about one-twentieth of a millimetre thick after 1,600 years.",
+   "category": "fact",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the film has grown one-twentieth of a millimetre thick"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "NOT USED: owner caution, figures vary; stay qualitative."
+  },
+  {
+   "id": "C23",
+   "claim": "Exact phosphorus percentage of the pillar iron (1% vs ~0.25% vs ~0.18% in solid solution).",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Down To Earth, 'Iron mask' (31 Aug 2002)",
+     "url": "https://www.downtoearth.org.in/environment/iron-mask-15049",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "0.25% P"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "NOT USED: sources disagree."
+  },
+  {
+   "id": "C24",
+   "claim": "The pillar was originally erected elsewhere (Udayagiri / Vishnupadagiri) and moved to Delhi by Anangpal Tomar or Iltutmish.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "Its original location, whether on the site itself or from elsewhere, is debated."
+    },
+    {
+     "title": "Live History India, Kurush Dalal, 'Mystery of Delhi's Iron Pillar' (29 May 2020)",
+     "url": "https://livehistoryindia.com/story/monuments/iron-pillar",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-01"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "NOT USED: contested; would need its own video."
+  },
+  {
+   "id": "C25",
+   "claim": "The pillar goes as deep underground as it stands above ground.",
+   "category": "legend",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Onmanorama, 'The story of the iron pillar in Delhi that refuses to rust' (15 Mar 2024)",
+     "url": "https://onmanorama.com/travel/outside-kerala/2024/03/15/iron-pillar-qutub-minar-no-rust-delhi.html",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "the pillar was just twenty inches long underground"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "roughly 1.12 m below ground"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "debunked": true,
+   "notes": "Debunked; and the two below-ground figures themselves differ."
+  },
+  {
+   "id": "C26",
+   "claim": "Delhi's dry climate alone explains the pillar's resistance (environmental theory).",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Britannica (print article 2245531)",
+     "url": "https://www.britannica.com/print/article/2245531",
+     "type": "encyclopedia",
+     "read": "snippet",
+     "accessed": "2026-11-01"
+    },
+    {
+     "title": "R. Balasubramaniam, 'On the corrosion resistance of the Delhi iron pillar', Corrosion Science 42 (2000) 2103-2129 (author's PDF, IIT Kanpur)",
+     "url": "http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf",
+     "type": "peer-reviewed",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "theories ... can be broadly classified into two categories: the environmental [1-3], and material"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "NOT USED as sole cause; the script credits the material (phosphorus) plus wet/dry cycles, per CS2000."
+  },
+  {
+   "id": "C27",
+   "claim": "The pillar is about 7.2 m tall in total (23 ft 8 in), including roughly 1 m below ground, about 41 cm in diameter at the base.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "The Indian Analyst, 'The Gupta Inscriptions' No. 12: Meharauli Iron Pillar Inscription of Chandra (after Fleet, CII III, 1888)",
+     "url": "https://whatisindia.com/inscriptions/earlyguptakings/theguptainscriptions55.html",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "twenty-three feet eight inches high"
+    },
+    {
+     "title": "Wikipedia, 'Iron pillar of Delhi' (used as a map to sources)",
+     "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-01",
+     "quote": "7.21 metres (23 feet 8 inches) high with a 41-centimetre (16 in) diameter"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Used only for set proportions, not spoken."
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "mystery",
+    "text": "कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी।",
+    "score": 8,
+    "claimIds": [
+     "C02",
+     "C12"
+    ],
+    "critique": "States the famous belief as a belief; specific number; opens 'how?' without giving away the twist. Matches the first image (a lone iron pillar)."
+   },
+   {
+    "id": "H2",
+    "technique": "contradiction",
+    "text": "इस खंभे को जंग लगती है, और इसीलिए ये बचा हुआ है।",
+    "score": 6,
+    "claimIds": [
+     "C14",
+     "C15"
+    ],
+    "critique": "Strong idea but spends the revelation in second one; nothing left for 27 s."
+   },
+   {
+    "id": "H3",
+    "technique": "dramatic-situation",
+    "text": "किसी ने इस लोहे के खंभे पर तोप का गोला दागा।",
+    "score": 7,
+    "claimIds": [
+     "C08",
+     "C09"
+    ],
+    "critique": "Great stop-power and image, but the story is about rust, not the cannon: hook-story mismatch."
+   },
+   {
+    "id": "H4",
+    "technique": "question",
+    "text": "सोलह सौ साल बारिश में खड़ा लोहा, अब तक गला क्यों नहीं?",
+    "score": 7,
+    "claimIds": [
+     "C02"
+    ],
+    "critique": "Clear question, but assumes 'never corroded', which the script then has to walk back; slightly leading."
+   },
+   {
+    "id": "H5",
+    "technique": "visual-curiosity",
+    "text": "इस खंभे पर एक चमकती पट्टी थी, जो एक साल में भूरी पड़ गई।",
+    "score": 5,
+    "claimIds": [
+     "C21"
+    ],
+    "critique": "Accurate and unusual, but needs context to make sense; weak for a cold open."
+   }
+  ],
+  "recommended": "H1",
+  "reason": "Highest stop-power with full truth (framed as 'कहते हैं'), sets up the myth the story overturns at 27 s, and enables the reframe ending 'जंग ने इसे बचाया है'."
+ },
+ "narration": {
+  "language": "hinglish",
+  "voice": {
+   "engine": "edge-tts",
+   "id": "hi-IN-MadhurNeural",
+   "rate": "+10%"
+  },
+  "wps": 2.86,
+  "totalWords": 172,
+  "estimatedSpeechSec": 60.1,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.2,
+    "endSec": 8.54,
+    "startFrame": 6,
+    "endFrame": 256,
+    "text": "कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी। ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।",
+    "marked": "कहते हैं, सोलह सौ साल में इस खंभे को *जंग* नहीं लगी। [pause 0.3] ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "जंग"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 5,
+    "musicMood": "sparse low drone, single high note",
+    "ambient": "open courtyard breeze, distant birds",
+    "sfx": [],
+    "claimIds": [
+     "C01",
+     "C02",
+     "C12"
+    ],
+    "deliveryNote": "Easy, intimate; small lift on 'कहते हैं' (it is a belief, not a fact)."
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 8.79,
+    "endSec": 14.24,
+    "startFrame": 264,
+    "endFrame": 427,
+    "text": "इस पर राजा चंद्र की तारीफ़ खुदी है। माना जाता है, ये चंद्रगुप्त द्वितीय थे।",
+    "marked": "इस पर राजा चंद्र की तारीफ़ खुदी है। [pause 0.2] माना जाता है, ये *चंद्रगुप्त द्वितीय* थे।",
+    "voiceEmotion": "warm",
+    "speed": 1.0,
+    "emphasis": [
+     "चंद्रगुप्त द्वितीय"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 4,
+    "musicMood": "warm pad",
+    "ambient": "courtyard breeze",
+    "sfx": [],
+    "claimIds": [
+     "C03",
+     "C04"
+    ],
+    "deliveryNote": "Warm, informative; 'माना जाता है' clearly audible."
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 14.49,
+    "endSec": 24.23,
+    "startFrame": 435,
+    "endFrame": 727,
+    "text": "करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर जोड़कर बनाया। फिर किसी ने इस पर तोप का गोला दागा। गड्ढा पड़ा, पर खंभा नहीं टूटा।",
+    "marked": "करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर *जोड़कर* बनाया। [pause 0.3] फिर किसी ने इस पर तोप का गोला दागा। गड्ढा पड़ा, पर खंभा नहीं टूटा।",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "जोड़कर"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 7,
+    "musicMood": "pulse enters, rising",
+    "ambient": "forge crackle, then courtyard",
+    "sfx": [
+     "forge-crackle",
+     "hammer-1",
+     "hammer-2",
+     "cannon-whoosh",
+     "cannon-boom",
+     "crater-rumble"
+    ],
+    "claimIds": [
+     "C06",
+     "C07",
+     "C08",
+     "C09"
+    ],
+    "deliveryNote": "Builds; short beat after 'दागा', then a firm 'पर खंभा नहीं टूटा'."
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 24.48,
+    "endSec": 29.17,
+    "startFrame": 734,
+    "endFrame": 875,
+    "text": "तो क्या ये जादुई लोहा है? नहीं। जंग इसे भी लगती है।",
+    "marked": "तो क्या ये जादुई लोहा है? [pause 0.5] नहीं। जंग इसे भी *लगती* है।",
+    "voiceEmotion": "awed",
+    "speed": 1.0,
+    "emphasis": [
+     "लगती"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 9,
+    "musicMood": "stop on 'नहीं', reveal chord",
+    "ambient": "near silence",
+    "sfx": [
+     "reveal-glock"
+    ],
+    "claimIds": [
+     "C14"
+    ],
+    "deliveryNote": "Ask the question straight, hold the pause, 'नहीं' quiet and certain."
+   },
+   {
+    "id": "N05",
+    "beat": "explanation",
+    "startSec": 29.42,
+    "endSec": 42.51,
+    "startFrame": 883,
+    "endFrame": 1275,
+    "text": "शुरू में तो तेज़ी से लगी। लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई परत बनी। बारिश और धूप ने उसे और पक्का किया। वही परत इसकी ढाल है।",
+    "marked": "शुरू में तो तेज़ी से लगी। [pause 0.2] लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई *परत* बनी। बारिश और धूप ने उसे और पक्का किया। [pause 0.3] वही परत इसकी ढाल है।",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "परत"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 7,
+    "musicMood": "bright arpeggio, steady",
+    "ambient": "soft rain then dry wind",
+    "sfx": [
+     "rust-crackle",
+     "layer-notes",
+     "rain-water"
+    ],
+    "claimIds": [
+     "C14",
+     "C15",
+     "C16",
+     "C17"
+    ],
+    "deliveryNote": "Explain like to a friend; slow slightly on 'पतली, कसी हुई परत'."
+   },
+   {
+    "id": "N06",
+    "beat": "payoff",
+    "startSec": 42.76,
+    "endSec": 49.4,
+    "startFrame": 1283,
+    "endFrame": 1482,
+    "text": "फ़ॉस्फ़रस आया कहाँ से? पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही रह गया।",
+    "marked": "फ़ॉस्फ़रस आया कहाँ से? पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही *रह* गया।",
+    "voiceEmotion": "warm",
+    "speed": 1.0,
+    "emphasis": [
+     "रह"
+    ],
+    "pauseAfterSec": 0.25,
+    "intensity": 6,
+    "musicMood": "warm, lower",
+    "ambient": "forge crackle",
+    "sfx": [
+     "forge-crackle-2"
+    ],
+    "claimIds": [
+     "C16",
+     "C18"
+    ],
+    "deliveryNote": "Light, almost amused question, then plain answer."
+   },
+   {
+    "id": "N07",
+    "beat": "ending",
+    "startSec": 49.65,
+    "endSec": 64.34,
+    "startFrame": 1490,
+    "endFrame": 1930,
+    "text": "लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था। फिर जाली लग गई। और करीब साल भर में, वो चमक भी भूरी पड़ गई। ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया है।",
+    "marked": "लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था। [pause 0.3] फिर जाली लग गई। और करीब साल भर में, वो *चमक* भी भूरी पड़ गई। [pause 0.4] ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया है।",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "चमक"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 6,
+    "musicMood": "quiet, resolve on the last line",
+    "ambient": "courtyard breeze",
+    "sfx": [
+     "fence-clink",
+     "end-glock"
+    ],
+    "claimIds": [
+     "C19",
+     "C20",
+     "C21",
+     "C15"
+    ],
+    "deliveryNote": "Softer; the last two lines slower, with a pause between them."
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "qutbCourtyard",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Qutb complex courtyard: dark iron pillar (tapered cylinder + stacked-cylinder bell capital), stone flagstones, simplified ruined colonnade arches, Qutb Minar silhouette far back; era toggles: polished band (pre-1997), iron grill fence (1997+), cannon dent decal.",
+    "components": [
+     "gradient sky (day/golden)",
+     "stoneHD ground",
+     "cylinders/cones for pillar, capital and Qutb Minar",
+     "boxGeo arches with facadeHD stone texture",
+     "instanced thin boxes for the grill fence",
+     "canvas-painted iron texture with polished band and dent"
+    ]
+   },
+   {
+    "id": "forge",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Ancient open-air smithy: clay furnace with warm glow, anvil, iron lumps, charcoal heap, half-made shaft on log rollers.",
+    "components": [
+     "gradient sky (dusk/golden)",
+     "grass + planks ground",
+     "cylinder/cone furnace with brick texture",
+     "boxGeo anvil and lumps",
+     "smoke wisps"
+    ]
+   },
+   {
+    "id": "ironMacro",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Abstract explainer: one giant slice of the pillar surface seen side-on; grey metal body, orange rust bloom, a thin bright film shell whose opacity is keyed to frame.",
+    "components": [
+     "space light teal backdrop",
+     "box/cylinder slice with layered lam materials",
+     "frame-keyed material colour/opacity (pure function of frame)"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "visitor",
+    "kind": "human",
+    "description": "present-day Indian visitor, stands for the viewer",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#2a9d8f",
+     "pants": "#efe6d2",
+     "boots": "#5a3b2a",
+     "skin": "#c68a5e",
+     "hair": "#10222B"
+    }
+   },
+   {
+    "id": "smith",
+    "kind": "human",
+    "description": "anonymous ancient ironsmith (no named historical person)",
+    "build": "stout",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#e9c46a",
+     "pants": "#efe6d2",
+     "boots": "#7a4a2a",
+     "skin": "#a86b45",
+     "moustache": "#10222B",
+     "hair": "#10222B"
+    },
+    "respectNote": "generic craftsman shown with dignity; costume stylised until the Indian costume kit (dhoti) exists"
+   }
+  ],
+  "subjects": [
+   {
+    "name": "pillar",
+    "place": "courtyard centre (about 6 m visible above ground)",
+    "heightM": 6
+   },
+   {
+    "name": "inscription",
+    "place": "inscription band on the shaft",
+    "heightM": 2
+   },
+   {
+    "name": "crater",
+    "place": "cannon dent on the shaft, about 4 m up",
+    "heightM": 4
+   },
+   {
+    "name": "band",
+    "place": "polished band at about 1.5 m",
+    "heightM": 1.5
+   },
+   {
+    "name": "visitor",
+    "castId": "visitor",
+    "heightM": 1.7
+   },
+   {
+    "name": "smith",
+    "castId": "smith",
+    "heightM": 1.6
+   },
+   {
+    "name": "furnace",
+    "place": "forge furnace mouth",
+    "heightM": 1.2
+   },
+   {
+    "name": "surface",
+    "place": "ironMacro slice centre",
+    "heightM": 2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 4.6,
+   "startFrame": 0,
+   "endFrame": 138,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "stone courtyard at morning; the dark iron pillar centred; ruined colonnade arches behind; Qutb Minar tall in the background"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "pillar",
+       "fill": 0.3,
+       "push": 0.08,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "pillar",
+   "lighting": "day",
+   "foreground": "edge of a carved stone column",
+   "background": "Qutb Minar against a blue gradient sky",
+   "effects": [],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "amb-breeze",
+    "amb-birds"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "sparse",
+    "duck": true
+   },
+   "emotionalIntention": "curiosity: an ordinary-looking iron post in a famous place",
+   "visualImportance": "hero"
+  },
+  {
+   "id": 2,
+   "startSec": 4.6,
+   "endSec": 8.7,
+   "startFrame": 138,
+   "endFrame": 261,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "same courtyard; a visitor at the pillar's base looks up"
+   },
+   "characters": [
+    {
+     "id": "visitor",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "visitor",
+     "atFrame": 150,
+     "action": "lookUp",
+     "params": {
+      "headTilt": -12,
+      "look": 0.4
+     }
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "visitor",
+     "atFrame": 216,
+     "expression": "smile",
+     "word": "जंग"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 138,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "pillar",
+       "fill": 0.75,
+       "push": 0.03
+      }
+     }
+    ]
+   },
+   "cameraTarget": "pillar",
+   "lighting": "day",
+   "foreground": "visitor's shoulder, lower left",
+   "background": "bell capital of the pillar against the sky",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 210,
+     "untilFrame": 246,
+     "note": "glint on the dark iron as 'जंग नहीं लगती' lands"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "sparse",
+    "duck": true
+   },
+   "emotionalIntention": "scale and the myth stated: this iron looks untouched",
+   "visualImportance": "key"
+  },
+  {
+   "id": 3,
+   "startSec": 8.7,
+   "endSec": 14.4,
+   "startFrame": 261,
+   "endFrame": 432,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "इस पर राजा चंद्र की तारीफ़ खुदी है। माना जाता है, ये चंद्रगुप्त द्वितीय थे।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "close on the inscription band of the shaft: carved rows rendered as abstract, illegible ink strokes (no readable text)"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 261,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "inscription",
+       "fillFrom": 0.35,
+       "fillTo": 0.6,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "inscription",
+   "lighting": "golden",
+   "foreground": "none",
+   "background": "soft courtyard arches",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "context",
+    "mood": "warm",
+    "duck": true
+   },
+   "emotionalIntention": "respect: a king's praise carved into iron",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 4,
+   "startSec": 14.4,
+   "endSec": 18.8667,
+   "startFrame": 432,
+   "endFrame": 566,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर जोड़कर बनाया।"
+   },
+   "environment": {
+    "scene": "forge",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "c. 4th-5th century CE",
+    "description": "ancient smithy at dusk: low clay furnace glowing, anvil, a row of iron lumps, smoke wisps; the half-made shaft lies on log rollers"
+   },
+   "characters": [
+    {
+     "id": "smith",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern",
+     "prop": "hammer",
+     "facing": -1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "smith",
+     "atFrame": 450,
+     "action": "hammerStrike",
+     "params": {
+      "strike": 1
+     }
+    },
+    {
+     "characterId": "smith",
+     "atFrame": 498,
+     "action": "hammerStrike",
+     "params": {
+      "strike": 1
+     }
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "smith",
+     "atFrame": 522,
+     "expression": "smile_closed"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "static",
+    "keys": [
+     {
+      "f": 432,
+      "preset": "closeUp",
+      "params": {
+       "subject": "smith",
+       "fill": 0.5,
+       "push": 0.03
+      }
+     }
+    ]
+   },
+   "cameraTarget": "smith",
+   "lighting": "dusk",
+   "foreground": "glowing iron lump on the anvil",
+   "background": "furnace glow and smoke",
+   "effects": [
+    {
+     "fx": "burst",
+     "atFrame": 450,
+     "untilFrame": 458,
+     "note": "spark rays on the strike"
+    },
+    {
+     "fx": "kick",
+     "atFrame": 450,
+     "gain": 0.25
+    },
+    {
+     "fx": "burst",
+     "atFrame": 498,
+     "untilFrame": 506
+    },
+    {
+     "fx": "kick",
+     "atFrame": 498,
+     "gain": 0.25
+    },
+    {
+     "fx": "smoke",
+     "atFrame": 432,
+     "untilFrame": 566
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 12
+   },
+   "soundEffects": [
+    "forge-crackle",
+    "hammer-1",
+    "hammer-2"
+   ],
+   "musicDirection": {
+    "beat": "build",
+    "mood": "pulse",
+    "duck": true
+   },
+   "emotionalIntention": "human effort: six tonnes made by hand",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F03"
+   ]
+  },
+  {
+   "id": 5,
+   "startSec": 18.8667,
+   "endSec": 22.0333,
+   "startFrame": 566,
+   "endFrame": 661,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "फिर किसी ने इस पर तोप का गोला दागा।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "18th century (unnamed shooter)",
+    "description": "courtyard, later era; camera looks along an unseen line of fire toward the pillar; a dark ball flies in"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 566,
+      "preset": "highAngle",
+      "params": {
+       "subject": "pillar",
+       "fill": 0.5,
+       "el": 30,
+       "push": 0.03
+      }
+     },
+     {
+      "f": 659,
+      "preset": "closeUp",
+      "params": {
+       "subject": "crater",
+       "fill": 0.4
+      },
+      "cut": true
+     }
+    ]
+   },
+   "cameraTarget": "pillar",
+   "lighting": "day",
+   "foreground": "none",
+   "background": "colonnade",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 581,
+     "untilFrame": 659,
+     "note": "cannonball as a dark ink blob on a short arc"
+    },
+    {
+     "fx": "flash",
+     "atFrame": 659,
+     "peak": 0.8
+    },
+    {
+     "fx": "kick",
+     "atFrame": 659,
+     "gain": 1.0
+    },
+    {
+     "fx": "puff",
+     "atFrame": 659,
+     "untilFrame": 661
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "cannon-whoosh",
+    "cannon-boom"
+   ],
+   "musicDirection": {
+    "beat": "impact",
+    "mood": "hit",
+    "duck": true
+   },
+   "emotionalIntention": "shock: something tried to break it",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F04"
+   ]
+  },
+  {
+   "id": 6,
+   "startSec": 22.0333,
+   "endSec": 24.3667,
+   "startFrame": 661,
+   "endFrame": 731,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "गड्ढा पड़ा, पर खंभा नहीं टूटा।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "the dent on the shaft about 4 m up, dust settling; then the whole pillar still standing"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 661,
+      "preset": "crane",
+      "params": {
+       "subject": "crater",
+       "fillFrom": 0.6,
+       "fillTo": 0.15,
+       "elFrom": 0,
+       "elTo": 20
+      }
+     }
+    ]
+   },
+   "cameraTarget": "crater",
+   "lighting": "day",
+   "foreground": "settling dust",
+   "background": "sky",
+   "effects": [
+    {
+     "fx": "dust",
+     "atFrame": 661,
+     "untilFrame": 709
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "crater-rumble"
+   ],
+   "musicDirection": {
+    "beat": "impact",
+    "mood": "hit",
+    "duck": true
+   },
+   "emotionalIntention": "defiance: dented, not broken",
+   "visualImportance": "key"
+  },
+  {
+   "id": 7,
+   "startSec": 24.3667,
+   "endSec": 26.9667,
+   "startFrame": 731,
+   "endFrame": 809,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "तो क्या ये जादुई लोहा है?"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "visitor close, pillar soft behind"
+   },
+   "characters": [
+    {
+     "id": "visitor",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "visitor",
+     "atFrame": 740,
+     "action": "lookUp",
+     "params": {
+      "headTilt": -8,
+      "look": 0.6
+     }
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "visitor",
+     "atFrame": 758,
+     "expression": "whistle",
+     "word": "जादुई"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 731,
+      "preset": "closeUp",
+      "params": {
+       "subject": "visitor",
+       "fill": 0.55,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "visitor",
+   "lighting": "day",
+   "foreground": "none",
+   "background": "the pillar out of frame-centre",
+   "effects": [
+    {
+     "fx": "stars",
+     "atFrame": 767,
+     "untilFrame": 809,
+     "note": "tiny wonder stars by the head"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "impact",
+    "mood": "suspend",
+    "duck": true
+   },
+   "emotionalIntention": "the viewer's own question, asked by a face",
+   "visualImportance": "support"
+  },
+  {
+   "id": 8,
+   "startSec": 26.9667,
+   "endSec": 29.3333,
+   "startFrame": 809,
+   "endFrame": 880,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "नहीं। जंग इसे भी लगती है।"
+   },
+   "environment": {
+    "scene": "ironMacro",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "abstract macro world: a huge slice of the pillar's surface seen side-on; grey metal below, orange-brown rust bloom on top"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 809,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "surface",
+       "fillFrom": 0.3,
+       "fillTo": 0.55,
+       "ease": "cubic"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "surface",
+   "lighting": "space",
+   "foreground": "none",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "kick",
+     "atFrame": 809,
+     "gain": 0.4
+    },
+    {
+     "fx": "blob",
+     "atFrame": 827,
+     "untilFrame": 880,
+     "note": "rust-coloured blobs bloom on the metal"
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "flashPeak": 1
+   },
+   "soundEffects": [
+    "reveal-glock"
+   ],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "reveal",
+    "duck": true
+   },
+   "emotionalIntention": "the twist: it rusts",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F05"
+   ]
+  },
+  {
+   "id": 9,
+   "startSec": 29.3333,
+   "endSec": 31.6333,
+   "startFrame": 880,
+   "endFrame": 949,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "शुरू में तो तेज़ी से लगी।"
+   },
+   "environment": {
+    "scene": "ironMacro",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "rust blooming fast across the fresh surface"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 880,
+      "preset": "highAngle",
+      "params": {
+       "subject": "surface",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "surface",
+   "lighting": "space",
+   "foreground": "none",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "dust",
+     "atFrame": 880,
+     "untilFrame": 949,
+     "note": "rust-orange dust"
+    },
+    {
+     "fx": "creak",
+     "atFrame": 895,
+     "untilFrame": 949
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "rust-crackle"
+   ],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "reveal",
+    "duck": true
+   },
+   "emotionalIntention": "honesty: early corrosion was fast",
+   "visualImportance": "support"
+  },
+  {
+   "id": 10,
+   "startSec": 31.6333,
+   "endSec": 37.5667,
+   "startFrame": 949,
+   "endFrame": 1127,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई परत बनी।"
+   },
+   "environment": {
+    "scene": "ironMacro",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "a thin bright film spreads as a skin over the metal; tiny glowing specks (phosphorus) at the boundary"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 949,
+      "preset": "orbit",
+      "params": {
+       "subject": "surface",
+       "fill": 0.5,
+       "az0": -30,
+       "sweep": 60
+      }
+     }
+    ]
+   },
+   "cameraTarget": "surface",
+   "lighting": "space",
+   "foreground": "none",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 973,
+     "untilFrame": 1039,
+     "note": "phosphorus specks"
+    },
+    {
+     "fx": "ring",
+     "atFrame": 1045,
+     "untilFrame": 1127,
+     "note": "the thin layer drawn as a glowing outline hugging the metal"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "layer-notes"
+   ],
+   "musicDirection": {
+    "beat": "layer",
+    "mood": "bright",
+    "duck": true
+   },
+   "emotionalIntention": "wonder: chemistry building a skin",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F05"
+   ]
+  },
+  {
+   "id": 11,
+   "startSec": 37.5667,
+   "endSec": 40.6667,
+   "startFrame": 1127,
+   "endFrame": 1220,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "बारिश और धूप ने उसे और पक्का किया।"
+   },
+   "environment": {
+    "scene": "ironMacro",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "a painted cloud passes over the slice, drops splash, then sun rays dry it"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 1127,
+      "preset": "aerial",
+      "params": {
+       "subject": "surface"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "surface",
+   "lighting": "space",
+   "foreground": "cloud card",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "cloud",
+     "atFrame": 1127,
+     "untilFrame": 1175
+    },
+    {
+     "fx": "splash",
+     "atFrame": 1142,
+     "untilFrame": 1172
+    },
+    {
+     "fx": "burst",
+     "atFrame": 1178,
+     "untilFrame": 1220,
+     "note": "sun rays (drying)"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "rain-water"
+   ],
+   "musicDirection": {
+    "beat": "layer",
+    "mood": "bright",
+    "duck": true
+   },
+   "emotionalIntention": "the weather helps: wet, dry, stronger",
+   "visualImportance": "support"
+  },
+  {
+   "id": 12,
+   "startSec": 40.6667,
+   "endSec": 42.6667,
+   "startFrame": 1220,
+   "endFrame": 1280,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "वही परत इसकी ढाल है।"
+   },
+   "environment": {
+    "scene": "ironMacro",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "pull back: the thin layer now wraps the whole slice like armour"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 1220,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "surface",
+       "fillFrom": 0.6,
+       "fillTo": 0.25
+      }
+     }
+    ]
+   },
+   "cameraTarget": "surface",
+   "lighting": "space",
+   "foreground": "none",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "ring",
+     "atFrame": 1220,
+     "untilFrame": 1280
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "layer",
+    "mood": "bright",
+    "duck": true
+   },
+   "emotionalIntention": "payoff of the reveal: the shield",
+   "visualImportance": "key"
+  },
+  {
+   "id": 13,
+   "startSec": 42.6667,
+   "endSec": 49.5667,
+   "startFrame": 1280,
+   "endFrame": 1487,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "फ़ॉस्फ़रस आया कहाँ से? पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही रह गया।"
+   },
+   "environment": {
+    "scene": "forge",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "c. 4th-5th century CE",
+    "description": "the smithy again in warm light: furnace fed with charcoal only; no lime basket"
+   },
+   "characters": [
+    {
+     "id": "smith",
+     "view": "side",
+     "mode": "push",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "smith",
+     "atFrame": 1289,
+     "action": "push",
+     "untilFrame": 1355,
+     "params": {
+      "pose": 0.6
+     },
+     "description": "pushes charcoal into the furnace mouth"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "smith",
+     "atFrame": 1370,
+     "expression": "smile_closed"
+    }
+   ],
+   "cameraAngle": "profile",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 1280,
+      "preset": "tracking",
+      "params": {
+       "subject": "furnace",
+       "path": [
+        [
+         -3,
+         1.2,
+         4
+        ],
+        [
+         1,
+         1.2,
+         4
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   "cameraTarget": "furnace",
+   "lighting": "golden",
+   "foreground": "charcoal heap",
+   "background": "furnace glow, smoke",
+   "effects": [
+    {
+     "fx": "smoke",
+     "atFrame": 1280,
+     "untilFrame": 1487
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 12
+   },
+   "soundEffects": [
+    "forge-crackle-2"
+   ],
+   "musicDirection": {
+    "beat": "origin",
+    "mood": "warm",
+    "duck": true
+   },
+   "emotionalIntention": "the answer lies with the old smiths",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F03"
+   ]
+  },
+  {
+   "id": 14,
+   "startSec": 49.5667,
+   "endSec": 54.7333,
+   "startFrame": 1487,
+   "endFrame": 1642,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "before 1997",
+    "description": "golden afternoon, before 1997: visitor with back to the pillar, arms reaching around it; a bright polished band at hip height"
+   },
+   "characters": [
+    {
+     "id": "visitor",
+     "view": "side",
+     "mode": "push",
+     "expression": "grin",
+     "facing": -1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "visitor",
+     "atFrame": 1496,
+     "action": "push",
+     "params": {
+      "pose": 0.35
+     },
+     "description": "hands on the pillar (stand-in for the back-to-pillar embrace)"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "visitor",
+     "atFrame": 1547,
+     "expression": "laugh"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 1487,
+      "preset": "orbit",
+      "params": {
+       "subject": [
+        "visitor",
+        "pillar"
+       ],
+       "fill": 0.45,
+       "az0": 20,
+       "sweep": 40
+      }
+     }
+    ]
+   },
+   "cameraTarget": "visitor",
+   "lighting": "golden",
+   "foreground": "none",
+   "background": "arches in warm light",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 1559,
+     "untilFrame": 1642,
+     "note": "shine on the polished band"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 10
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "quiet",
+    "duck": true
+   },
+   "emotionalIntention": "warmth: people loved touching it",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F06"
+   ]
+  },
+  {
+   "id": 15,
+   "startSec": 54.7333,
+   "endSec": 56.1333,
+   "startFrame": 1642,
+   "endFrame": 1684,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "फिर जाली लग गई।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "1997",
+    "description": "the iron grill fence now rings the pillar; visitor stands outside it"
+   },
+   "characters": [
+    {
+     "id": "visitor",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 0
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "static",
+    "keys": [
+     {
+      "f": 1642,
+      "preset": "highAngle",
+      "params": {
+       "subject": "pillar",
+       "fill": 0.45,
+       "el": 35
+      }
+     }
+    ]
+   },
+   "cameraTarget": "pillar",
+   "lighting": "day",
+   "foreground": "fence bars",
+   "background": "courtyard flagstones",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "fence-clink"
+   ],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "quiet",
+    "duck": true
+   },
+   "emotionalIntention": "a small loss",
+   "visualImportance": "bridge"
+  },
+  {
+   "id": 16,
+   "startSec": 56.1333,
+   "endSec": 60.4,
+   "startFrame": 1684,
+   "endFrame": 1812,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "और करीब साल भर में, वो चमक भी भूरी पड़ गई।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "about a year later",
+    "description": "close on the polished band: its shine dims frame by frame to a dark brown film (material colour keyed to frame)"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1684,
+      "preset": "extremeCloseUp",
+      "params": {
+       "subject": "band",
+       "push": 0.03
+      }
+     }
+    ]
+   },
+   "cameraTarget": "band",
+   "lighting": "day",
+   "foreground": "one fence bar, out of the way",
+   "background": "none",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 1684,
+     "untilFrame": 1720,
+     "note": "last glint, then gone"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "quiet",
+    "duck": true
+   },
+   "emotionalIntention": "proof you can see: the shine becomes the shield",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F05"
+   ]
+  },
+  {
+   "id": 17,
+   "startSec": 60.4,
+   "endSec": 64.9,
+   "startFrame": 1812,
+   "endFrame": 1947,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया है।"
+   },
+   "environment": {
+    "scene": "qutbCourtyard",
+    "clock": {
+     "kind": "none"
+    },
+    "era": "present",
+    "description": "echo of shot 1: same framing, now golden; the pillar, fenced, standing"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 1812,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "pillar",
+       "fill": 0.3,
+       "push": 0.04
+      }
+     },
+     {
+      "f": 1878,
+      "preset": "crane",
+      "params": {
+       "subject": "pillar",
+       "fillFrom": 0.3,
+       "fillTo": 0.12,
+       "elFrom": 12,
+       "elTo": 40
+      }
+     }
+    ]
+   },
+   "cameraTarget": "pillar",
+   "lighting": "golden",
+   "foreground": "none",
+   "background": "Qutb Minar, warm sky",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "end-glock"
+   ],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "resolve",
+    "duck": true
+   },
+   "emotionalIntention": "reframe: rust saved it",
+   "visualImportance": "hero"
+  }
+ ],
+ "events": {
+  "flashAt": 809,
+  "flashes": [
+   [
+    659,
+    0.8
+   ]
+  ],
+  "hits": [
+   659,
+   809
+  ],
+  "kicks": [
+   [
+    450,
+    0.25
+   ],
+   [
+    498,
+    0.25
+   ],
+   [
+    659,
+    1.0
+   ],
+   [
+    809,
+    0.4
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "amb-breeze",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.25,
+     "bright": 0.4
+    },
+    "span": [
+     0,
+     432
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "open-air courtyard"
+   },
+   {
+    "id": "amb-birds",
+    "at": 0,
+    "gen": "birds",
+    "args": {
+     "density": 0.25
+    },
+    "span": [
+     0,
+     261
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "morning, a real place"
+   },
+   {
+    "id": "forge-crackle",
+    "at": 432,
+    "gen": "crackles",
+    "args": {
+     "dur": 4.5,
+     "density": 0.5,
+     "gain": 0.45
+    },
+    "segmentId": "N03",
+    "shotId": 4,
+    "intent": "furnace fire"
+   },
+   {
+    "id": "hammer-1",
+    "at": 450,
+    "gen": "crack",
+    "args": {},
+    "post": [
+     [
+      "gain",
+      0.5
+     ]
+    ],
+    "segmentId": "N03",
+    "shotId": 4,
+    "intent": "hammer on hot iron (kick)"
+   },
+   {
+    "id": "hammer-2",
+    "at": 498,
+    "gen": "crack",
+    "args": {},
+    "post": [
+     [
+      "gain",
+      0.5
+     ]
+    ],
+    "segmentId": "N03",
+    "shotId": 4,
+    "intent": "second strike (kick)"
+   },
+   {
+    "id": "cannon-whoosh",
+    "at": 581,
+    "gen": "whoosh",
+    "args": {
+     "dur": 2.6,
+     "peak": 0.8,
+     "f_lo": 180,
+     "f_hi": 1800
+    },
+    "segmentId": "N03",
+    "shotId": 5,
+    "intent": "ball in flight"
+   },
+   {
+    "id": "cannon-boom",
+    "at": 659,
+    "gen": "boom",
+    "args": {
+     "dur": 2.0,
+     "f0": 48,
+     "big": 1
+    },
+    "post": [
+     [
+      "widen"
+     ]
+    ],
+    "segmentId": "N03",
+    "shotId": 5,
+    "intent": "impact (flash + kick)"
+   },
+   {
+    "id": "crater-rumble",
+    "at": 661,
+    "gen": "rumble",
+    "args": {
+     "dur": 1.8,
+     "gain": 0.35,
+     "lo": 30,
+     "hi": 140,
+     "decay": 1.0
+    },
+    "segmentId": "N03",
+    "shotId": 6,
+    "intent": "the iron rings and settles"
+   },
+   {
+    "id": "reveal-glock",
+    "at": 809,
+    "gen": "glock",
+    "args": {
+     "midi": 76,
+     "level": 0.6
+    },
+    "segmentId": "N04",
+    "shotId": 8,
+    "intent": "the twist lands on 'नहीं'"
+   },
+   {
+    "id": "rust-crackle",
+    "at": 880,
+    "gen": "crackles",
+    "args": {
+     "dur": 2.3,
+     "density": 0.3,
+     "gain": 0.3
+    },
+    "segmentId": "N05",
+    "shotId": 9,
+    "intent": "fast early rusting"
+   },
+   {
+    "id": "layer-notes",
+    "at": 1045,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      72,
+      76,
+      79
+     ],
+     "level": 0.4,
+     "spacing": 0.15
+    },
+    "segmentId": "N05",
+    "shotId": 10,
+    "intent": "the layer forms"
+   },
+   {
+    "id": "rain-water",
+    "at": 1127,
+    "gen": "water",
+    "args": {
+     "close": 0.4
+    },
+    "span": [
+     1127,
+     1175
+    ],
+    "segmentId": "N05",
+    "shotId": 11,
+    "intent": "wetting"
+   },
+   {
+    "id": "forge-crackle-2",
+    "at": 1280,
+    "gen": "crackles",
+    "args": {
+     "dur": 6.9,
+     "density": 0.4,
+     "gain": 0.35
+    },
+    "segmentId": "N06",
+    "shotId": 13,
+    "intent": "back at the furnace"
+   },
+   {
+    "id": "fence-clink",
+    "at": 1642,
+    "gen": "clicks",
+    "args": {
+     "count": 3,
+     "freq": 2200,
+     "decay": 0.06,
+     "level": 0.35
+    },
+    "segmentId": "N07",
+    "shotId": 15,
+    "intent": "metal fence closing"
+   },
+   {
+    "id": "end-glock",
+    "at": 1883,
+    "gen": "glock",
+    "args": {
+     "midi": 72,
+     "level": 0.45
+    },
+    "segmentId": "N07",
+    "shotId": 17,
+    "intent": "resolve on the last line"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      2
+     ],
+     "chord": "Dm",
+     "level": 0.5,
+     "mood": "sparse, curious"
+    },
+    {
+     "name": "context",
+     "shots": [
+      3,
+      3
+     ],
+     "chord": "F",
+     "level": 0.55,
+     "mood": "warm"
+    },
+    {
+     "name": "build",
+     "shots": [
+      4,
+      4
+     ],
+     "chord": "Gm",
+     "level": 0.65,
+     "mood": "pulse"
+    },
+    {
+     "name": "impact",
+     "shots": [
+      5,
+      7
+     ],
+     "chord": "A",
+     "level": 0.75,
+     "mood": "hit, then suspend"
+    },
+    {
+     "name": "reveal",
+     "shots": [
+      8,
+      9
+     ],
+     "chord": "Dm",
+     "level": 0.85,
+     "mood": "reveal peak"
+    },
+    {
+     "name": "layer",
+     "shots": [
+      10,
+      12
+     ],
+     "chord": "C",
+     "level": 0.75,
+     "mood": "bright arpeggio"
+    },
+    {
+     "name": "origin",
+     "shots": [
+      13,
+      13
+     ],
+     "chord": "F",
+     "level": 0.6,
+     "mood": "warm"
+    },
+    {
+     "name": "ending",
+     "shots": [
+      14,
+      17
+     ],
+     "chord": "Bb",
+     "level": 0.5,
+     "mood": "quiet, resolving"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.0,
+   "fade_out": 0.6
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 8,
+   "originality": 7,
+   "researchReliability": 8,
+   "rhythm": 8,
+   "hinglishNaturalness": 7,
+   "emotion": 7,
+   "retention": 7,
+   "visualStorytelling": 7,
+   "pacing": 7,
+   "productionFeasibility": 7,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "duration",
+    "issue": "Estimated 64.1 s speech (~65.6 s with lead/tail) sits at the top of the 45-65 s window; real TTS may run longer - measure with words.json and trim the cannonball pair first if needed.",
+    "severity": "medium"
+   },
+   {
+    "area": "language",
+    "issue": "Roman/English share is 0%: it is simple spoken Hindi rather than Hinglish; fine for TTS but less 'Hinglish' than the default.",
+    "severity": "low"
+   },
+   {
+    "area": "production",
+    "issue": "Three new sets (courtyard, forge, macro) and frame-keyed materials must be built; the embrace pose is a stand-in.",
+    "severity": "medium"
+   },
+   {
+    "area": "research",
+    "issue": "The polished-band-to-brown observation (C21) rests on one first-hand source (Balasubramaniam 2000).",
+    "severity": "low"
+   },
+   {
+    "area": "retention",
+    "issue": "Context beat 8-14 s (inscription, Chandragupta II) is the most skippable stretch; it carries no tension of its own.",
+    "severity": "medium"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 2,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Cut draft from 242 to 171 words (88 s -> 64 s): dropped Vishnu-dhvaja line, cannon 'no record' clause, charcoal detail, long embrace sentence.",
+    "reason": "hard failure: duration outside 30-75 s"
+   },
+   {
+    "round": 1,
+    "change": "Split the fence line into 'फिर जाली लग गई।' + 'और करीब साल भर में, वो चमक भी भूरी पड़ गई।'",
+    "reason": "REPEATED_STRUCTURE S16-S18 and a 16 s no-pause stretch"
+   },
+   {
+    "round": 1,
+    "change": "'छह टन' -> 'करीब छह टन'; 'एक राजा, चंद्र,' -> 'राजा चंद्र'",
+    "reason": "fact check: weight estimates vary; density"
+   },
+   {
+    "round": 2,
+    "change": "Hook reordered to lead with the belief: 'कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी।' (12 words)",
+    "reason": "editor: old first sentence ('a pillar stands near Qutb Minar') had low stop-power; rhythm hook 7/10 -> 8/10"
+   }
+  ],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 64.14,
+   "wps": 2.86,
+   "lengthCv": 0.49,
+   "findings": 0
+  }
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "Ancient Indian smith costume (dhoti, bare-chest/angavastram) and forge set",
+   "need": "no dhoti/period clothing; no smithy set",
+   "shotIds": [
+    4,
+    13
+   ],
+   "suggestion": "toon.ts costume kit item 1 (dhoti over pants, no jacket); forge set from boxGeo/cylinders + brick texture",
+   "workaround": "plain sunflower tunic + cream pants, hat 'hair'; no anachronistic hats"
+  },
+  {
+   "id": "F02",
+   "feature": "Inscription band texture",
+   "need": "carved rows on the shaft without legible text",
+   "shotIds": [
+    3
+   ],
+   "suggestion": "canvas-paint 6-8 rows of abstract ink strokes on the pillar texture (no readable script)",
+   "workaround": "plain darker band on the shaft"
+  },
+  {
+   "id": "F03",
+   "feature": "hammer_hit synth",
+   "need": "metal-on-metal strike",
+   "shotIds": [
+    4
+   ],
+   "suggestion": "wire sfx_gen.py hammer_hit as a GEN entry in audio/cues.py (one line)",
+   "workaround": "'crack' generator at gain 0.5"
+  },
+  {
+   "id": "F04",
+   "feature": "Cannon / cannonball card",
+   "need": "show the projectile",
+   "shotIds": [
+    5
+   ],
+   "suggestion": "small ink 'ball' card with a motion trail (newArt)",
+   "workaround": "existing 'blob' card on an eased arc; no cannon or gunners drawn"
+  },
+  {
+   "id": "F05",
+   "feature": "Frame-keyed surface materials",
+   "need": "rust bloom, thin film shell, polished band dimming to brown",
+   "shotIds": [
+    8,
+    10,
+    12,
+    16
+   ],
+   "suggestion": "lerp lam material colour/opacity as a pure function of frame in the new world code",
+   "workaround": "static slice with 'blob', 'ring' and 'sparkle' cards over it"
+  },
+  {
+   "id": "F06",
+   "feature": "Back-to-pillar embrace pose",
+   "need": "arms reaching behind around a column",
+   "shotIds": [
+    14
+   ],
+   "suggestion": "gesture library item 3: 'embrace-back' front pose with pose 0-1",
+   "workaround": "side view 'push' with pose 0.35 (hands on the pillar)"
+  },
+  {
+   "id": "F07",
+   "feature": "Qutb courtyard set incl. Qutb Minar, arches and 1997 fence",
+   "need": "core location of the story",
+   "shotIds": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    14,
+    15,
+    16,
+    17
+   ],
+   "suggestion": "Indian set kit item 5: arches + tapered fluted tower + instanced fence; fence visible by era",
+   "workaround": "none: must be built before rendering"
+  },
+  {
+   "id": "F08",
+   "feature": "Indian timbre (tanpura-like drone)",
+   "need": "warmer Indian colour under hook and ending",
+   "suggestion": "audio item 9: drone pad via existing instruments",
+   "workaround": "current procedural score chords"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "Iron Pillar को जंग लगती है, और वही उसे बचाती है",
+   "1600 साल का लोहा: जादू नहीं, केमिस्ट्री",
+   "क़ुतुब मीनार के पास का खंभा गला क्यों नहीं?",
+   "'जंग-रहित' खंभे का असली राज़",
+   "जंग ने बचाया: दिल्ली का लौह स्तंभ"
+  ],
+  "thumbnails": [
+   {
+    "concept": "pillar low-angle against a blue sky, a thin glowing outline hugging the shaft",
+    "text": "जंग = ढाल?"
+   },
+   {
+    "concept": "split: rust bloom on the left, clean thin layer on the right (macro set)",
+    "text": "जादू नहीं"
+   },
+   {
+    "concept": "golden ending wide with Qutb Minar behind, fenced pillar",
+    "text": "1600 साल, फिर भी खड़ा"
+   }
+  ],
+  "description": "कहते हैं दिल्ली के लौह स्तंभ (महरौली, क़ुतुब परिसर) को जंग नहीं लगती। असल में लगती है: शुरू में तेज़ी से, फिर फ़ॉस्फ़रस की मदद से बनी एक पतली, कसी परत आगे की जंग को बहुत धीमा कर देती है। स्तंभ पर राजा चंद्र का लेख है, जिन्हें ज़्यादातर इतिहासकार चंद्रगुप्त द्वितीय मानते हैं। तोप का गोला किसने दागा, इसका कोई रिकॉर्ड नहीं है।\nSources: R. Balasubramaniam, Corrosion Science 42 (2000) 2103-2129 (http://home.iitk.ac.in/~bala/journalpaper/journal/journalpaper_17.pdf); Balasubramaniam, Prabhakar & Shankar, Indian Journal of History of Science 44.1 (2009) (https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol44_1_3_RBalasubramaniam.pdf); Down To Earth, 'Iron mask' (2002) (https://www.downtoearth.org.in/environment/iron-mask-15049); Live History India (https://livehistoryindia.com/story/monuments/iron-pillar).",
+  "hashtags": [
+   "#IronPillar",
+   "#Delhi",
+   "#QutubMinar",
+   "#Science",
+   "#History",
+   "#Shorts"
+  ],
+  "pinnedComment": "1997 से पहले लोग इस खंभे को पीठ टिकाकर बाँहों में भरते थे। क्या आपने या आपके घर में किसी ने कभी ऐसा किया था?"
+ }
+}

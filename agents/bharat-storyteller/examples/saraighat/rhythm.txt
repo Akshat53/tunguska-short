@@ -1,0 +1,41 @@
+RHYTHM REPORT — verdict PASS
+duration 64.9 s (estimate) | 180 words | 2.86 words/s (speech-only 2.86) | 19 sentences
+to hit the target duration the voice needs 3.0 words/s
+sentence length: mean 9.47 std 3.5 CV 0.37 (healthy 0.35-0.9) min 3 max 16
+histogram: 1-3:#1  4-6:##2  7-10:##########10  11-15:####4  16-20:##2  21+:0
+pauses: 6 totalling 2.0 s, mean 0.33 s; longest run without a pause 12.2 s
+ellipses 0 | questions 1 (unanswered: none) | density mean 0.79 max 3
+hook (first 3 s): "फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर" -> 7/10 (first sentence 10 words (good); contrast/contradiction)
+intensity per 5 s: ▃▄▃▃▂▃▄▂▄▃▃▄▂  [4.0, 4.8, 4.0, 3.5, 3.0, 4.0, 5.0, 3.0, 4.7, 4.0, 4.0, 4.5, 3.0]  peak S13 at 42.7 s
+script mix: Devanagari 180 | Roman 0 | numeric 0 | Roman share 0%
+
+sentences:
+  S1     0.0s  10w  int  4.0  फ़ैसले की लड़ाई सिर पर थी, और सेनापति बिस्तर पर।
+  S2     3.9s  11w  int  4.0  सोलह सौ इकहत्तर, और गुवाहाटी के पास मुग़ल फ़ौज डटी थी।
+  S3     7.7s   6w  int  5.5  सामने थे अहोम सेनापति, लचित बोरफुकन।
+  S4     9.8s  15w  int  4.0  दो साल पहले, अलाबोई की हार में, अहोम करीब दस हज़ार सैनिक गँवा चुके थे।
+  S5    15.4s  12w  int  3.5  अब तोपों से लदी बड़ी मुग़ल नावें ब्रह्मपुत्र में बढ़ रही थीं।
+  S6    19.6s   7w  int  3.0  उन्हें देखकर अहोम सैनिक पीछे हटने लगे।
+  S7    22.0s  16w  int  3.0  कहते हैं, तब बीमार लचित खुद नाव लेकर आगे निकला, और लौटती नावें फिर मुड़ आईं।
+  S8    27.9s   7w  int  4.0  पर लचित का असली हथियार नदी थी।
+  S9    30.4s  10w  int  5.0  सराईघाट पर ब्रह्मपुत्र सिकुड़कर करीब एक किलोमीटर रह जाती है।
+  S10   34.2s   8w  int  3.0  इतनी तंग नदी में बड़ी नावें फँस गईं।
+  S11   37.0s   9w  int  3.0  छोटी अहोम नावों ने उन्हें आगे-पीछे से घेर लिया।
+  S12   40.1s   6w  int  5.0  मुग़ल एडमिरल मुनव्वर ख़ान मारा गया।
+  S13   42.2s   3w  int  5.5  बेड़ा बिखर गया।
+  S14   43.7s   7w  int  3.5  मुग़ल फ़ौज पीछे हटी, मानस नदी तक।
+  S15   46.1s   9w  int  4.0  जीत के करीब एक साल बाद, लचित नहीं रहे।
+  S16   49.2s   8w  int  4.0  और मामा का सिर काटने वाली मशहूर कहानी?
+  S17   52.0s   7w  int  4.0  उसका कोई पुराना लिखित सबूत नहीं मिलता।
+  S18   54.8s  16w  int  4.5  पर आज भी, एनडीए के बेस्ट कैडेट को उसी के नाम का गोल्ड मेडल मिलता है।
+  S19   60.4s  13w  int  3.0  उस सेनापति के नाम का, जो बिस्तर से उठकर नदी में उतरा था।
+
+FINDINGS + REWRITE SUGGESTIONS:
+  [MEDIUM] DENSE                S2: S2 packs 3 new names/numbers (गुवाहाटी, मुग़ल, सौ)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [MEDIUM] DENSE                S3: S3 packs 3 new names/numbers (लचित, बोरफुकन, अहोम)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [MEDIUM] DENSE                S4: S4 packs 3 new names/numbers (अलाबोई, दो, दस)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [LOW   ] REPEATED_STRUCTURE   S9,S10,S11: S9-S11 have the same length band and ending
+           -> change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line.

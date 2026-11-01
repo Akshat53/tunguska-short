@@ -411,6 +411,47 @@ const hatOn = (p: Pen, o: Outfit, hp: P2[], H: Blob, cx: number, hc: number, lig
         p.ell(px, py, 32 * u, 0.06 * HH, shade(col, 0.8), ow, 0, 180, deg);
       }
     }
+  } else if (o.hat === "beanie" || o.hat === "dupatta") {
+    // (Roopkund) beanie = knit trekking cap (rib band + pompom); dupatta = cloth head cover with a bright border (legend walkers)
+    const beanie = o.hat === "beanie", cut = crown + (beanie ? 0.34 : 0.44) * HH;
+    const keep = (x: number, y: number) => y < cut || (side && !beanie && x < cx - 4 * u && y < hc + 0.6 * H.b);
+    const n = hp.length, startIdx = Math.max(0, hp.findIndex(([x, y], i) => keep(x, y) && !keep(hp[(i + n - 1) % n][0], hp[(i + n - 1) % n][1])));
+    const arc = [...hp.slice(startIdx), ...hp.slice(0, startIdx)].filter(([x, y]) => keep(x, y))
+      .map(([x, y]) => [cx + (x - cx) * (beanie ? 1.05 : 1.08), hc + (y - hc) * (beanie ? 1.05 : 1.08)] as P2);
+    if (arc.length < 3) return;
+    const col = o.cap ?? "#2f8f83";
+    if (beanie) arc.push([cx, crown - 0.06 * HH]);
+    p.shadedFill(arc, col, mul(col, SH_FELT), light, H.a, 0.35);
+    p.poly(arc, null, ow);
+    const a0 = arc[0], a1 = beanie ? arc[arc.length - 2] : arc[arc.length - 1];
+    const trim = o.sash ?? (beanie ? shade(col, 0.82) : "#f2c14e");
+    p.band([[a1[0] - 2 * u, a1[1] - 3 * u], [cx, cut - 1 * u], [a0[0] + 2 * u, a0[1] - 3 * u]], trim, (beanie ? 11 : 7) * u, 2 * u, "round");
+    if (beanie) {
+      for (let i = -3; i <= 3; i++) p.stroke(R([[cx + i * 11 * u, cut - 7 * u], [cx + i * 11 * u, cut + 3 * u]]), 1.4 * u);
+      const [tx, ty] = R([[cx, crown - 0.07 * HH]])[0];
+      p.ell(tx, ty - 6 * u, 11 * u, 10 * u, o.buttons ?? "#f6efe0", 2.4 * u);
+    }
+  } else if (o.hat === "topi") {
+    // (Roopkund) Pahadi / Garhwali cap: a low boat-shaped wool cap with a coloured band
+    const yb = crown + 0.2 * HH, ht = 0.2 * HH, wb = 44 * u, wt = 40 * u, col = o.cap ?? "#3a4a52";
+    const body = R([...sag(yb, wb).reverse(), [cx - wt, yb - ht], [cx - 0.3 * wt, yb - ht - 3 * u], [cx + 0.3 * wt, yb - ht - 3 * u], [cx + wt, yb - ht]]);
+    p.shadedFill(body, col, mul(col, SH_FELT), light, wt, 0.4);
+    p.clip(body, () => p.band(R([[cx - wb - 4 * u, yb - 0.05 * HH], [cx + wb + 4 * u, yb - 0.05 * HH]]), o.sash ?? "#f2c14e", 0.05 * HH, 1.2 * u));
+    p.poly(body, null, ow);
+  } else if (o.hat === "pagri") {
+    // (Roopkund) turban: a wide rounded wrap over the crown with wrap lines and a short tail
+    const col = o.cap ?? "#f2b632", yc = crown + 0.13 * HH;
+    const pts: P2[] = [];
+    for (let i = 0; i <= 24; i++) { const t = Math.PI + (i / 24) * Math.PI; pts.push([cx + 0.6 * W * Math.cos(t), yc + 0.24 * HH * Math.sin(t)]); }
+    for (let i = 0; i <= 12; i++) { const t = (i / 12) * Math.PI; pts.push([cx + 0.6 * W * Math.cos(t), yc + 0.07 * HH * Math.sin(t)]); }
+    const body = R(pts);
+    p.shadedFill(body, col, mul(col, SH_CLOTH), light, 0.6 * W, 0.4);
+    p.clip(body, () => {
+      for (let k = 0; k < 3; k++) p.arc(...R([[cx - 4 * u + k * 6 * u, yc - 0.02 * HH - k * 0.05 * HH]])[0], 0.55 * W - k * 6 * u, 0.12 * HH, 200, 340, 1.6 * u);
+    });
+    p.poly(body, null, ow);
+    const s = side ? -1 : facing || 1;
+    p.poly(R([[cx - s * 0.5 * W, yc], [cx - s * 0.66 * W, yc + 0.22 * HH], [cx - s * 0.52 * W, yc + 0.24 * HH], [cx - s * 0.42 * W, yc + 0.04 * HH]]), o.sash ?? shade(col, 0.85), ow * 0.8);
   } else if (o.hat === "tophat") {
     const yb = crown + 0.22 * HH, ht = 0.8 * HH, wb = 0.31 * W, wt = 0.33 * W, col = "#2e2a36";
     const body = R([...sag(yb, wb).reverse(), [cx - wt, yb - ht], [cx + wt, yb - ht]]);

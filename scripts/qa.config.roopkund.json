@@ -1,0 +1,158 @@
+{
+ "_doc": "Visual QA config for Roopkund (Hindi). Frames are STORY frames (= picture frames; identity warp). See docs/VISUAL_QA.md.",
+ "story": "src/videos/roopkund/story.ts",
+ "storyboard": "src/videos/roopkund/storyboard.json",
+ "warp": "src/videos/roopkund/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 30,
+  "outro": 90
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "lake": {
+   "below": 0.5,
+   "above": 0.5,
+   "halfWidth": 30
+  },
+  "ridge": {
+   "below": 60,
+   "above": 60,
+   "halfWidth": 120
+  },
+  "trekker": {
+   "below": 1.5,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "remainsA": {
+   "below": 0.2,
+   "above": 0.4,
+   "halfWidth": 3
+  },
+  "procession": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 2.5
+  },
+  "scientist": {
+   "below": 1.45,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "scientistSit": {
+   "below": 1.0,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "screens": {
+   "below": 0.66,
+   "above": 0.66,
+   "halfWidth": 1.1
+  },
+  "globe": {
+   "below": 60,
+   "above": 60,
+   "halfWidth": 60
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    {
+     "name": "lake",
+     "to": 149
+    },
+    {
+     "name": "remainsA",
+     "from": 149,
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    {
+     "name": "ridge",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "trekker"
+   ],
+   "fill": 0.45
+  },
+  "4": {
+   "subjects": [
+    "procession"
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    {
+     "name": "scientist",
+     "to": 834
+    },
+    {
+     "name": "screens",
+     "from": 834
+    }
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "scientistSit"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    "globe"
+   ],
+   "fill": null,
+   "motion": "moving"
+  },
+  "9": {
+   "subjects": [
+    "globe"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "lake"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    "trekker"
+   ],
+   "fill": null,
+   "motion": "static"
+  },
+  "12": {
+   "subjects": [
+    "lake"
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

@@ -205,11 +205,14 @@ export class World {
     const rg = new THREE.BufferGeometry(); rg.setAttribute("position", new THREE.Float32BufferAttribute(rp, 3)); rg.setIndex(ri); rg.computeVertexNormals();
     // winding: make normals point up
     const rn = rg.attributes.normal as THREE.BufferAttribute; for (let i = 0; i < rn.count; i++) rn.setXYZ(i, 0, 1, 0);
+    // polygon offset: water (y 0.05) and banks (0.12) sit a few cm over a 14 km ground plane; from the high crane-out the depth
+    // buffer can't separate them and the river vanished for a frame (QA pose_jump, output f 2234). Offset makes them always win.
+    for (const m of [waterM]) { m.polygonOffset = true; m.polygonOffsetFactor = -2; m.polygonOffsetUnits = -4; }
     const water = new THREE.Mesh(rg, waterM); water.receiveShadow = true; this.taiga.add(water);
     const bg = new THREE.BufferGeometry(); bg.setAttribute("position", new THREE.Float32BufferAttribute(bp, 3)); bg.setIndex(bi);
     const bn = new Float32Array(bp.length); for (let i = 1; i < bn.length; i += 3) bn[i] = 1; bg.setAttribute("normal", new THREE.BufferAttribute(bn, 3));
     bg.setAttribute("uv", new THREE.Float32BufferAttribute(bp.flatMap((_, k) => (k % 3 === 0 ? [bp[k] / 4, bp[k + 2] / 4] : [])), 2));
-    const bank = new THREE.Mesh(bg, lam("bankSand", () => ({ color: "#c9b083", side: THREE.DoubleSide }))); bank.receiveShadow = true; this.taiga.add(bank);
+    const bank = new THREE.Mesh(bg, lam("bankSand", () => ({ color: "#c9b083", side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: -3, polygonOffsetUnits: -6 }))); bank.receiveShadow = true; this.taiga.add(bank);
 
     const n = this.trees.length;
     this.trunkMat = lam("bark", () => ({ map: poleTex() }));

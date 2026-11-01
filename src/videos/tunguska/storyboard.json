@@ -1,7 +1,7 @@
 {
  "version": 1,
  "fps": 30,
- "totalFrames": 2078,
+ "totalFrames": 2090,
  "events": {
   "flashAt": 164,
   "flashes": [
@@ -650,7 +650,7 @@
   {
    "id": 20,
    "a": 1910,
-   "b": 2078,
+   "b": 2090,
    "light": "day",
    "scene": "taiga",
    "fog": [
