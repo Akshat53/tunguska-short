@@ -1,0 +1,613 @@
+{
+ "version": 1,
+ "seed": 1944,
+ "cues": [
+  {
+   "id": "city-air",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.14,
+    "bright": 800
+   },
+   "span": [
+    0,
+    242
+   ],
+   "note": "open city air under the hook",
+   "post": []
+  },
+  {
+   "id": "hook-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.05,
+    "noise": 0.04
+   },
+   "span": [
+    0,
+    242
+   ],
+   "note": "low bed that makes the image strange",
+   "post": []
+  },
+  {
+   "id": "hook-glints",
+   "at": 8,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     88,
+     91,
+     95,
+     93
+    ],
+    "level": 0.3,
+    "spacing": 0.55,
+    "pan0": -0.3,
+    "pan_step": 0.2
+   },
+   "note": "falling bars glint",
+   "post": []
+  },
+  {
+   "id": "hook-glints2",
+   "at": 70,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     91,
+     95,
+     98
+    ],
+    "level": 0.25,
+    "spacing": 0.4,
+    "pan0": 0.2,
+    "pan_step": -0.2
+   },
+   "note": "more glints",
+   "post": []
+  },
+  {
+   "id": "bar-glint",
+   "at": 118,
+   "gen": "glock",
+   "args": {
+    "midi": 91,
+    "level": 0.3
+   },
+   "post": [
+    [
+     "pan",
+     0.1
+    ]
+   ],
+   "note": "the bar on the cobbles"
+  },
+  {
+   "id": "dock-water",
+   "at": 242,
+   "gen": "water",
+   "args": {
+    "close": 0.4
+   },
+   "span": [
+    242,
+    756
+   ],
+   "note": "harbour lap, calm",
+   "post": []
+  },
+  {
+   "id": "dock-steps",
+   "at": 250,
+   "gen": "steps",
+   "args": {
+    "period": 0.6,
+    "pitch": 0.85,
+    "gain": 0.18,
+    "pan0": -0.3,
+    "pan_step": 0.5
+   },
+   "span": [
+    250,
+    412
+   ],
+   "note": "dock workers on the quay",
+   "post": []
+  },
+  {
+   "id": "gold-crates",
+   "at": 515,
+   "gen": "glock",
+   "args": {
+    "midi": 86,
+    "level": 0.3
+   },
+   "post": [
+    [
+     "pan",
+     -0.1
+    ]
+   ],
+   "note": "glint on 'सोने के बक्से'"
+  },
+  {
+   "id": "hold-crackles",
+   "at": 560,
+   "gen": "crackles",
+   "args": {
+    "density": 20,
+    "gain": 0.4
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    560,
+    704
+   ],
+   "note": "fire starting in the hold"
+  },
+  {
+   "id": "fire-roar",
+   "at": 616,
+   "gen": "roar",
+   "args": {
+    "lo": 60,
+    "hi": 400,
+    "gain": 0.45,
+    "ramp": 2.0,
+    "floor": 0.2
+   },
+   "span": [
+    616,
+    756
+   ],
+   "note": "fire growing while the men fight it",
+   "post": []
+  },
+  {
+   "id": "hose-water",
+   "at": 616,
+   "gen": "water",
+   "args": {
+    "close": 0.8
+   },
+   "span": [
+    616,
+    704
+   ],
+   "note": "hose spray",
+   "post": []
+  },
+  {
+   "id": "pre-blast-whoosh",
+   "at": 748,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.9,
+    "peak": 0.8,
+    "f_lo": 200,
+    "f_hi": 3000,
+    "width": 0.6,
+    "tail": 0.2
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "suck-in before the blast"
+  },
+  {
+   "id": "blast-one",
+   "at": 766,
+   "gen": "boom",
+   "args": {
+    "dur": 3.5,
+    "f0": 38,
+    "big": 1.0
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "first explosion"
+  },
+  {
+   "id": "blast-rumble",
+   "at": 769,
+   "gen": "rumble",
+   "args": {
+    "dur": 4.0,
+    "gain": 0.6,
+    "lo": 25,
+    "hi": 120,
+    "decay": 2.0
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "long tail over the harbour"
+  },
+  {
+   "id": "blast-two",
+   "at": 848,
+   "gen": "boom",
+   "args": {
+    "dur": 2.5,
+    "f0": 45,
+    "big": 0.6
+   },
+   "post": [
+    [
+     "gain",
+     0.8
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "second explosion"
+  },
+  {
+   "id": "city-fire",
+   "at": 870,
+   "gen": "crackles",
+   "args": {
+    "density": 14,
+    "gain": 0.35
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    870,
+    946
+   ],
+   "note": "fires in the bastis"
+  },
+  {
+   "id": "loss-hum",
+   "at": 946,
+   "gen": "hum",
+   "args": {
+    "hz": 41.0,
+    "tone": 0.04,
+    "noise": 0.03
+   },
+   "span": [
+    946,
+    1102
+   ],
+   "note": "quiet weight after the deaths line",
+   "post": []
+  },
+  {
+   "id": "gold-glint",
+   "at": 1003,
+   "gen": "glock",
+   "args": {
+    "midi": 91,
+    "level": 0.3
+   },
+   "note": "callback to the hook glints",
+   "post": []
+  },
+  {
+   "id": "dredge-water",
+   "at": 1102,
+   "gen": "water",
+   "args": {
+    "close": 0.5
+   },
+   "span": [
+    1102,
+    1290
+   ],
+   "note": "2011 harbour",
+   "post": []
+  },
+  {
+   "id": "dredge-hum",
+   "at": 1102,
+   "gen": "hum",
+   "args": {
+    "hz": 48.0,
+    "tone": 0.03,
+    "noise": 0.06
+   },
+   "span": [
+    1102,
+    1290
+   ],
+   "note": "dredger engine",
+   "post": []
+  },
+  {
+   "id": "gold-found",
+   "at": 1207,
+   "gen": "glock",
+   "args": {
+    "midi": 95,
+    "level": 0.3
+   },
+   "note": "the glint in the hopper mud",
+   "post": []
+  },
+  {
+   "id": "gold-back",
+   "at": 1252,
+   "gen": "glock",
+   "args": {
+    "midi": 91,
+    "level": 0.28
+   },
+   "note": "'सोना लौट आया'",
+   "post": []
+  },
+  {
+   "id": "reveal-hum",
+   "at": 1290,
+   "gen": "hum",
+   "args": {
+    "hz": 41.0,
+    "tone": 0.05,
+    "noise": 0.03
+   },
+   "span": [
+    1290,
+    1415
+   ],
+   "note": "weight under the revelation",
+   "post": []
+  },
+  {
+   "id": "running-steps",
+   "at": 1415,
+   "gen": "steps",
+   "args": {
+    "period": 0.32,
+    "pitch": 0.9,
+    "gain": 0.3,
+    "pan0": -0.4,
+    "pan_step": 0.1
+   },
+   "span": [
+    1415,
+    1527
+   ],
+   "note": "the men running toward the fire",
+   "post": []
+  },
+  {
+   "id": "run-crackles",
+   "at": 1415,
+   "gen": "crackles",
+   "args": {
+    "density": 10,
+    "gain": 0.25
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    1415,
+    1527
+   ],
+   "note": "fire ahead"
+  },
+  {
+   "id": "memorial-breeze",
+   "at": 1527,
+   "gen": "breeze",
+   "args": {
+    "level": 0.14,
+    "bright": 900
+   },
+   "span": [
+    1527,
+    1960
+   ],
+   "note": "open courtyard air",
+   "post": []
+  },
+  {
+   "id": "memorial-birds",
+   "at": 1527,
+   "gen": "birds",
+   "args": {
+    "density": 0.2
+   },
+   "post": [
+    [
+     "gain",
+     0.5
+    ]
+   ],
+   "span": [
+    1527,
+    1792
+   ],
+   "note": "an ordinary morning today"
+  },
+  {
+   "id": "end-glints",
+   "at": 1800,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     93,
+     91,
+     88
+    ],
+    "level": 0.25,
+    "spacing": 0.7,
+    "pan0": 0.2,
+    "pan_step": -0.2
+   },
+   "note": "hook glints return for the loop",
+   "post": []
+  },
+  {
+   "id": "loop-glints",
+   "at": 1900,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     88,
+     91,
+     95
+    ],
+    "level": 0.25,
+    "spacing": 0.5,
+    "pan0": -0.3,
+    "pan_step": 0.2
+   },
+   "note": "the rain starts again into the loop",
+   "post": []
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.6,
+  "arp_level": 0.7,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     2
+    ],
+    "chord": "Dm",
+    "level": 0.8
+   },
+   {
+    "name": "ship",
+    "shots": [
+     3,
+     7
+    ],
+    "chord": "F",
+    "level": 0.9
+   },
+   {
+    "name": "blast",
+    "shots": [
+     8,
+     9
+    ],
+    "chord": "A",
+    "level": 1.1
+   },
+   {
+    "name": "loss",
+    "shots": [
+     10,
+     11
+    ],
+    "chord": "Dm",
+    "level": 0.55
+   },
+   {
+    "name": "gold-fate",
+    "shots": [
+     12,
+     13
+    ],
+    "chord": "F",
+    "level": 0.75
+   },
+   {
+    "name": "reveal",
+    "shots": [
+     14,
+     15
+    ],
+    "chord": "Gm",
+    "level": 1.0
+   },
+   {
+    "name": "remember",
+    "shots": [
+     16,
+     18
+    ],
+    "chord": "Bb",
+    "level": 0.75
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.03,
+  "fade_out": 0.6
+ },
+ "_doc": "Bombay 1944 (Hindi) sound design: frames are picture frames authored on stories/bombay-1944/hi/words.json (frame = round(start*30)). Run with STORY=bombay-1944 CUES_FILE=audio/cues.bombay-1944.json (see audio/build_bombay-1944.sh)."
+}

@@ -1,0 +1,572 @@
+[
+ {
+  "id": "C01",
+  "claim": "At the end of January 1857 Mark Thornhill, magistrate at Mathura (Muttra), found four small cakes of coarse flour on his office table; a man had given one cake to a village watchman (chowkidar) with orders to bake four like it and give them to the watchmen of the adjacent villages, who were to do the same.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "It was at the end of January 1857 ... I found four little cakes laid on the table, dirty little cakes of the coarsest flour ... A man had come to a village, and given a cake to the watchman, with injunctions to bake four like it, to distribute them to the watchmen of the adjacent villages, and to desire them to do the same."
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "four 'dirty little cakes of the coarsest flour, about the size and thickness of a biscuit'"
+   },
+   {
+    "title": "Wikipedia, 'Mark Thornhill'",
+    "url": "https://en.wikipedia.org/wiki/Mark_Thornhill",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "say मथुरा के मजिस्ट्रेट; 'four' is Thornhill's number (other accounts give other numbers)",
+  "usableInScript": true,
+  "notes": "Dash dates it 'early February'; Thornhill's own text says end of January 1857. Narration gives no month for this scene.",
+  "debunked": false
+ },
+ {
+  "id": "C02",
+  "claim": "The cakes were being distributed the same way over all 'Upper India' (north India) in early 1857; popular accounts say from the Narmada to the Nepal border.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "we next learnt from the newspapers that these cakes were being distributed in the same manner over all Upper India."
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "from the Narmada river in the south to the Nepal border"
+   },
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "In the North-West Provinces it was discovered that chupatties were being circulated throughout the country (Cave-Browne)"
+   }
+  ],
+  "qualification": "'उत्तर भारत' is safe; Narmada-Nepal extent only in the description, attributed",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C03",
+  "claim": "Government inquiries could not establish who contrived the distribution, where it started, or what it meant.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "it could not be ascertained either by whom the distribution had been contrived, where it commenced, or what it signified."
+   },
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "inquiries were ordered to be set on foot, but nothing further could be traced as to their origin or object (Cave-Browne)"
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Hadow: 'It is not known where it originated, by whom or for what purpose'"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C04",
+  "claim": "Dr Gilbert Hadow, an army surgeon, wrote to his sister in Britain in March 1857: 'There is a most mysterious affair going on throughout the whole of India at present.'",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "There is a most mysterious affair going on throughout the whole of India at present."
+   },
+   {
+    "title": "Amusing Planet, 'The Chapati Movement of 1857' (2021), quoting Kim Wagner and Gilbert Hadow",
+    "url": "https://www.amusingplanet.com/2021/04/the-chapati-movement-of-1857.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "secondary quotation (Dash citing Hibbert, The Great Mutiny); primary letter not seen",
+  "usableInScript": true,
+  "notes": "Used only in description / pinned comment, not narration.",
+  "debunked": false
+ },
+ {
+  "id": "C05",
+  "claim": "An Agra official, George Harvey, estimated the chapatis were advancing at somewhere between 100 and 200 miles a night.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "at the rate of somewhere between 100 and 200 miles a night (Wagner p.63)"
+   },
+   {
+    "title": "The Better India, 'Chapati movement' (popular article)",
+    "url": "https://thebetterindia.com/59404/chapati-movement-india-revolt",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "Amusing Planet, 'The Chapati Movement of 1857' (2021), quoting Kim Wagner and Gilbert Hadow",
+    "url": "https://www.amusingplanet.com/2021/04/the-chapati-movement-of-1857.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "at a rate of 200 miles a night"
+   }
+  ],
+  "qualification": "spoken as one official's estimate: 'एक अफ़सर का अंदाज़ा था'; never as a measured speed",
+  "usableInScript": true,
+  "notes": "Better India attributes 'up to 300 km every night' to Thornhill (snippet) - attribution conflicts, so only the Harvey range via Dash/Wagner is used.",
+  "debunked": false
+ },
+ {
+  "id": "C06",
+  "claim": "Officials suspected seditious letters were hidden in the bread; the chapatis examined contained no messages.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "examination found no messages (Kaye p.572)"
+   },
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "OCR fragment of the main-text footnote on letters 'with flour, to be broken' (partly illegible)"
+   }
+  ],
+  "qualification": "say 'कुछ नहीं मिला' (nothing found), not 'every chapati was checked'",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C07",
+  "claim": "Hakim Ahsanullah, confidential physician to the King of Delhi (Bahadur Shah Zafar), stated: 'Nobody can tell what was the object of the distribution of the chupatties. It is not known who first projected the plan. All the people in the palace wondered what it could mean.'",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Nobody can tell what was the object of the distribution of the chupatties. It is not known who first projected the plan. All the people in the palace wondered what it could mean."
+   }
+  ],
+  "qualification": "a statement given after the revolt (trial evidence printed by Kaye); spoken as 'हकीम भी बोला'",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C08",
+  "claim": "Many contemporaries read the chapatis as a signal or warning of a coming outbreak ('a kind of fiery cross, to call them to action'; 'a forerunner of some universal popular outbreak'); Collector Ford of Gurgaon reported 'a signal' whose purport had not transpired.",
+  "category": "disputed",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The greater number looked upon it as a signal of warning ... ; sent among them the chupatties, as a kind of fiery cross, to call them to action; forerunner of some universal popular outbreak (Hutchinson)"
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "a signal has passed through numbers of the villages in this district, the purport of which has not yet transpired (Ford, Kaye p.632)"
+   }
+  ],
+  "qualification": "a theory held by some officials, framed 'कुछ अफ़सरों को लगा'",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C09",
+  "claim": "Another contemporary reading was a charm against disease: cholera had ravaged several districts the previous autumn, and a custom of passing on objects to carry off sickness was reported.",
+  "category": "disputed",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "it might be some superstitious spell against disease, for cholera had ravaged several districts during the previous autumn (Cave-Browne)"
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Keatinge: the cakes came from Indore after incantations 'that would ensure the pestilence'; some officials saw the breads as a prophylactic against cholera (Wagner p.61)"
+   }
+  ],
+  "qualification": "a theory, framed 'दूसरे बोले'",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C10",
+  "claim": "Historian Kim A. Wagner (The Great Fear of 1857, 2010) concludes the circulation most likely began in Indore as an attempt to ward off cholera, and that its original meaning was lost as it spread.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Wagner pp.65, 67: began in Indore ... as an attempt to ward off cholera"
+   },
+   {
+    "title": "Amusing Planet, 'The Chapati Movement of 1857' (2021), quoting Kim Wagner and Gilbert Hadow",
+    "url": "https://www.amusingplanet.com/2021/04/the-chapati-movement-of-1857.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Although the original specific meaning of the chapattis had been lost early in the distribution (Wagner)"
+   },
+   {
+    "title": "Kim A. Wagner, The Great Fear of 1857: Rumours, Conspiracies and the Making of the Indian Uprising (Peter Lang, 2010), publisher page",
+    "url": "https://www.peterlang.com/view/title/11117",
+    "type": "academic",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "University of Birmingham research portal: The Great Fear of 1857 (Wagner)",
+    "url": "https://research.birmingham.ac.uk/en/publications/the-great-fear-of-1857-rumours-conspiracies-and-the-making-of-the/",
+    "type": "academic",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "'इतिहासकार ... मानते हैं ... शायद'; one historian's best reading, not proof",
+  "usableInScript": true,
+  "notes": "Wagner's book itself was not opened; his conclusion is known through Dash (who cites page numbers) and Amusing Planet.",
+  "debunked": false
+ },
+ {
+  "id": "C11",
+  "claim": "No link between the chapati circulation and the planning of the 1857 uprising has been proven; Wagner argues the chapatis were not 'harbingers of a coming storm', and their role, if any, remains uncertain.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "were not 'harbingers of a coming storm' (Wagner p.69)"
+   },
+   {
+    "title": "Foodways project, University of Illinois Chicago: 'Chapati and the Indian Mutiny 1857-8'",
+    "url": "https://foodwaysphd.digital.uic.edu/chapati-and-the-indian-mutiny-1857-8",
+    "type": "academic",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the role, if any, that it played in the uprisings of 1857-8 is still uncertain"
+   },
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "could not be ascertained ... what it signified"
+   }
+  ],
+  "qualification": "say 'साबित नहीं हुआ' (not proven), not 'it had nothing to do with it'",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C12",
+  "claim": "On 10 May 1857 sepoys at Meerut rose against their officers and marched on Delhi; the revolt spread across north India.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia, 'Meerut mutiny' (map to sources: Ball 1858)",
+    "url": "https://en.wikipedia.org/wiki/Meerut_mutiny",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "10 and 11 May 1857"
+   },
+   {
+    "title": "Encyclopaedia Britannica, 'Meerut' (May 1857: initial uprising of the Indian Mutiny)",
+    "url": "https://www.britannica.com/place/Meerut",
+    "type": "encyclopedia",
+    "read": "snippet",
+    "accessed": "2026-11-02",
+    "quote": "It was there, in May 1857, that the initial uprising of the Indian Mutiny (1857-58) occurred"
+   },
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Early on the morning of the 12th of May a telegram was received ... from her niece at Meerut, informing her that one of the native regiments had mutinied ... and were gone off to Delhi."
+   }
+  ],
+  "qualification": "narration says only 'मई में'",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C13",
+  "claim": "An Oudh account: a chowkidar ran to another village with two chapatis and ordered his fellow official to make ten more and give two to each of the five nearest chowkidars; 'In a few hours the whole country was in a stir'.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "A Chowkeydar ran up to another village with two chupatties. He ordered his fellow-official to make ten more, and give two to each of the five nearest village Chowkeydars ... In a few hours the whole country was in a stir (Siege of Delhi, by an Officer who served there)"
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "a different number scheme from Thornhill's; numbers varied by area",
+  "usableInScript": true,
+  "notes": "Pinned comment only.",
+  "debunked": false
+ },
+ {
+  "id": "C14",
+  "claim": "Capt. G. Hutchinson's Oudh narrative reckoned that ten days were more than enough for every village chowkidar in Oudh to have received and passed on the cakes.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "it was calculated ten days more than sufficed for every village Chowkeydar in Oude to have received the little bread-cake"
+   }
+  ],
+  "qualification": "contemporary estimate",
+  "usableInScript": true,
+  "notes": "Cut from narration (density); kept for the pinned comment option.",
+  "debunked": false
+ },
+ {
+  "id": "C15",
+  "claim": "Other rumours: that the government meant to defile people's religion (a Delhi witness; Ahsanullah reports people believed the cakes were meant to 'preserve unpolluted the religion of the country'); that Lucknow court intriguers started it; that it was a charm against hail or about dyes.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "in order to preserve unpolluted the religion of the country (Ahsanullah); originated by some intriguers of the old Court of Lucknow (Siege of Delhi)"
+   },
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "dyers ... or spellwork against hail (Davenport p.441)"
+   }
+  ],
+  "qualification": "theories only",
+  "usableInScript": true,
+  "notes": "Cut from narration for length; mentioned in description.",
+  "debunked": false
+ },
+ {
+  "id": "C16",
+  "claim": "Derived illustration: if every watchman baked four and passed them on (C01), the count multiplies by four at each step: 4, 16, 64.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "bake four like it, to distribute them to the watchmen of the adjacent villages, and to desire them to do the same."
+   }
+  ],
+  "qualification": "arithmetic illustration of the instruction, not a recorded count; spoken as a chain, no total claimed",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C17",
+  "claim": "Hook framing: the chain moved fast enough that officials measured it per night ('रातों-रात', overnight).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "100 and 200 miles a night"
+   },
+   {
+    "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+    "url": "https://archive.org/details/cu31924021098441",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "In a few hours the whole country was in a stir; spread with such amazing rapidity"
+   }
+  ],
+  "qualification": "'रातों-रात' = overnight/very fast; no claim that runners moved only at night",
+  "usableInScript": true,
+  "debunked": false
+ },
+ {
+  "id": "C18",
+  "claim": "MYTH: the chapatis carried secret messages or were the proven secret signal that planned and launched the 1857 revolt.",
+  "category": "legend",
+  "confidence": "low",
+  "debunked": true,
+  "sources": [
+   {
+    "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+    "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+    "type": "expert",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "examination found no messages; not 'harbingers of a coming storm'"
+   },
+   {
+    "title": "Foodways project, University of Illinois Chicago: 'Chapati and the Indian Mutiny 1857-8'",
+    "url": "https://foodwaysphd.digital.uic.edu/chapati-and-the-indian-mutiny-1857-8",
+    "type": "academic",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "NOT USED as fact; the narration presents 'signal' only as one theory and states the link is unproven",
+  "usableInScript": false
+ },
+ {
+  "id": "C19",
+  "claim": "Thornhill recalled that a similar distribution of cakes in Madras had preceded the Vellore mutiny (1806).",
+  "category": "legend",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+    "url": "https://archive.org/details/personaladventur00thor",
+    "type": "primary-document",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "a similar distribution of cakes had been made in Madras towards the end of the last century, and had been followed by the mutiny of Vellore."
+   },
+   {
+    "title": "Wikipedia, 'Mark Thornhill'",
+    "url": "https://en.wikipedia.org/wiki/Mark_Thornhill",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "a recollection 'by those few who remembered'; Dash notes the Vellore rumours concerned defiled salt, not cakes. NOT USED.",
+  "usableInScript": false,
+  "debunked": false
+ },
+ {
+  "id": "C20",
+  "claim": "Popular articles say Thornhill found chapatis travelling up to 300 km every night.",
+  "category": "legend",
+  "confidence": "low",
+  "debunked": true,
+  "sources": [
+   {
+    "title": "The Better India, 'Chapati movement' (popular article)",
+    "url": "https://thebetterindia.com/59404/chapati-movement-india-revolt",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "misattribution: the per-night estimate is Harvey's (100-200 miles) per Dash/Wagner. NOT USED.",
+  "usableInScript": false
+ }
+]

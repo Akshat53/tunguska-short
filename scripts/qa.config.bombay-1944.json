@@ -1,0 +1,208 @@
+{
+ "_doc": "Visual QA config for Bombay 1944 (Hindi). Frames are STORY frames (= picture frames; identity warp). See docs/VISUAL_QA.md.",
+ "story": "src/videos/bombay-1944/story.ts",
+ "storyboard": "src/videos/bombay-1944/storyboard.json",
+ "warp": "src/videos/bombay-1944/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 30,
+  "outro": 90
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "rooftops": {
+   "below": 4,
+   "above": 6,
+   "halfWidth": 10
+  },
+  "goldBar": {
+   "below": 0.1,
+   "above": 0.1,
+   "halfWidth": 0.25
+  },
+  "resident": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  },
+  "ship": {
+   "below": 8,
+   "above": 12,
+   "halfWidth": 38
+  },
+  "hold": {
+   "below": 1,
+   "above": 1,
+   "halfWidth": 3.5
+  },
+  "firemen": {
+   "below": 1.0,
+   "above": 0.75,
+   "halfWidth": 0.6
+  },
+  "blast": {
+   "below": 25,
+   "above": 30,
+   "halfWidth": 30
+  },
+  "cityFire": {
+   "below": 6,
+   "above": 6,
+   "halfWidth": 10
+  },
+  "dredger": {
+   "below": 2,
+   "above": 4,
+   "halfWidth": 10
+  },
+  "worker": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  },
+  "column": {
+   "below": 4.5,
+   "above": 6,
+   "halfWidth": 1
+  },
+  "officer": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    "rooftops"
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    "goldBar",
+    "resident"
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "ship"
+   ],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    "hold"
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    "hold"
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    "firemen"
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "ship"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    {
+     "name": "ship",
+     "to": 766
+    },
+    {
+     "name": "blast",
+     "from": 766
+    }
+   ],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    {
+     "name": "cityFire",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    {
+     "name": "firemen",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    {
+     "name": "goldBar",
+     "to": 1030
+    }
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    "worker"
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [
+    "goldBar"
+   ],
+   "fill": null
+  },
+  "14": {
+   "subjects": [
+    "firemen"
+   ],
+   "fill": null
+  },
+  "15": {
+   "subjects": [
+    "firemen"
+   ],
+   "fill": null
+  },
+  "16": {
+   "subjects": [
+    "column"
+   ],
+   "fill": null
+  },
+  "17": {
+   "subjects": [
+    "column"
+   ],
+   "fill": null
+  },
+  "18": {
+   "subjects": [
+    "rooftops"
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

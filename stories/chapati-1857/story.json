@@ -1,0 +1,15 @@
+{
+  "slug": "chapati-1857",
+  "composition": "ChapatiShort",
+  "title": "1857 की रहस्यमयी रोटियाँ",
+  "channel": "india",
+  "languages": {
+    "hi": {
+      "voice": "ElevenLabs Jessica (final, owner-approved; do not regenerate)",
+      "rate": "",
+      "dir": "hi",
+      "audio": "out/chapati-1857/audio/mix.wav"
+    }
+  },
+  "note": "Audio: bash audio/build_chapati-1857.sh -> out/chapati-1857/audio/. Draft: COMP=ChapatiShort GL=angle CONC=6 node scripts/render.mjs out/chapati-1857/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1}}'; then SIZE=540x960 INTRO_STATIC=1 AUDIO_OUT=out/chapati-1857/audio INTRO_CARD=brand/chapati-1857-thumb.png OUTRO_CARD=brand/endcard-india.png bash scripts/finish.sh out/chapati-1857/picture-half.mp4 out/chapati-1857/chapati-1857-hi-draft-half.mp4 1.0 3. Visuals use the opt-in kit (src/engine/kit)."
+}

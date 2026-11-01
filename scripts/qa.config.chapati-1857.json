@@ -1,0 +1,216 @@
+{
+ "_doc": "Visual QA config for 1857 chapati (Hindi). Frames are STORY frames (= picture frames; identity warp). See docs/VISUAL_QA.md.",
+ "story": "src/videos/chapati-1857/story.ts",
+ "storyboard": "src/videos/chapati-1857/storyboard.json",
+ "warp": "src/videos/chapati-1857/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 30,
+  "outro": 90
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "runner": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.5
+  },
+  "officers": {
+   "below": 1.0,
+   "above": 0.85,
+   "halfWidth": 1.2
+  },
+  "desk": {
+   "below": 0.1,
+   "above": 0.3,
+   "halfWidth": 0.9
+  },
+  "handoff": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 1.2
+  },
+  "villages": {
+   "below": 4,
+   "above": 4,
+   "halfWidth": 120
+  },
+  "map": {
+   "below": 1,
+   "above": 1,
+   "halfWidth": 30
+  },
+  "tearer": {
+   "below": 1.0,
+   "above": 0.85,
+   "halfWidth": 0.5
+  },
+  "hakim": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.5
+  },
+  "pointer": {
+   "below": 1.0,
+   "above": 0.85,
+   "halfWidth": 1.0
+  },
+  "chulha": {
+   "below": 0.35,
+   "above": 0.4,
+   "halfWidth": 0.5
+  },
+  "sepoys": {
+   "below": 1.0,
+   "above": 0.85,
+   "halfWidth": 5
+  },
+  "historian": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.5
+  },
+  "indore": {
+   "below": 0.5,
+   "above": 0.5,
+   "halfWidth": 6
+  },
+  "loner": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.4
+  },
+  "roti": {
+   "below": 0.3,
+   "above": 0.3,
+   "halfWidth": 0.3
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    "runner"
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    "officers"
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "desk"
+   ],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    "handoff"
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    {
+     "name": "villages",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    {
+     "name": "map",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "tearer"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    "hakim"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "pointer"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    "chulha"
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    {
+     "name": "sepoys",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [
+    "desk"
+   ],
+   "fill": null
+  },
+  "14": {
+   "subjects": [
+    "historian"
+   ],
+   "fill": null
+  },
+  "15": {
+   "subjects": [
+    "indore"
+   ],
+   "fill": null
+  },
+  "16": {
+   "subjects": [
+    "loner"
+   ],
+   "fill": null
+  },
+  "17": {
+   "subjects": [
+    "roti"
+   ],
+   "fill": null
+  },
+  "18": {
+   "subjects": [
+    {
+     "name": "runner",
+     "required": false
+    }
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

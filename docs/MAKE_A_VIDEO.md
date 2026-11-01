@@ -76,6 +76,8 @@ Copy `src/videos/roopkund/` (and read `docs/STORYBOARD.md`, `docs/CAMERA.md`). T
 - `cast.ts`: the characters (hat types live in `src/videos/tunguska/toon.ts`).
 - `story.ts`: the cameras.
 - Register the composition in `src/Root.tsx`.
+- For richer visuals (detailed characters with expressive faces and gestures, period costume, crowds, village-night and 1944-dock
+  sets, particles, firelight), use the opt-in kit in `src/engine/kit/`: see `docs/VISUAL_KIT.md` and the `KitShowcase` composition.
 
 `npm test` must stay green (Tunguska snapshot IDENTICAL). Check stills quickly while you build:
 ```bash
@@ -98,7 +100,7 @@ bash scripts/export_brand.sh <slug>-thumb
 - The thumbnail becomes the video's first frame (held still for 1 s), so it can be chosen as the Shorts cover.
 - End cards are ready made: `brand/endcard-india.png` (Hindi channel) and `brand/endcard-global.png` (Inkfall).
 - Keep text out of the bottom ~25%, because the Shorts buttons and caption cover it.
-- Design canvas with every brand board, editable: https://claude.ai/artifact/HpFWzm745j6NdKg45yXjJZ (owner's account).
+- Editable brand sources: `brand/src/*.html` (the old Claude design canvas was deleted).
 
 ### Step 6: Draft, QA, look
 ```bash
@@ -110,6 +112,7 @@ node --no-warnings scripts/qa-story-data.mjs --config scripts/qa.config.roopkund
 .venv/bin/python scripts/visual_qa.py out/roopkund/roopkund-hi-draft-half.mp4 --story out/roopkund/qa/qa-story.json \
   --audio-report out/roopkund/audio/audio_report.json --out out/roopkund/qa     # must be 0 errors
 ```
+Captions (optional, recommended for Hindi Shorts): render `<Captions>` from `src/engine/kit/captions.tsx` in the composition, driven by `words.json` (see `docs/VISUAL_KIT.md`, example `src/videos/chapati-1857/Chapati.tsx`); place them per shot so they never cover faces.
 Then **open the contact sheet and frames and look**: subjects in frame, nothing washed out, the story's key objects readable.
 Send the draft to the owner before the final.
 

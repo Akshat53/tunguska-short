@@ -1,0 +1,710 @@
+[
+ {
+  "id": "C01",
+  "claim": "On 14 April 1944 the cargo ship SS Fort Stikine, berthed at No. 1 Victoria Dock, Bombay, caught fire and exploded.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "A fire occurred in a ship S.S. \"Fort Stikins\" berthed at No.1, Victoria Docks"
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "MCGM spells it 'Fort Stikins' (typo); standard spelling Fort Stikine."
+ },
+ {
+  "id": "C02",
+  "claim": "The ship carried ammunition/explosives, cotton bales and gold bullion (plus oil drums and other cargo).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The ship was laden with ammunition, cotton bales, oil drums, bullion etc."
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "carrying hundreds of cotton bales, gold bullion"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C03",
+  "claim": "The explosives cargo was about 1,400 tons (Wikipedia: 1,395 tons incl. 238 tons of sensitive 'A' explosives; Outlook Traveller: over 1,400 tonnes); HISTORY.com gives about 300 tons of explosive.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "1,395 tons of explosives including 238 tons of sensitive \"A\" explosives"
+   },
+   {
+    "title": "Outlook Traveller: Mumbai, the sea and the city",
+    "url": "https://www.outlooktraveller.com/explore/features/mumbai-sea-and-the-city",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "carrying over 1,400 tonnes of explosives"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "say only 'टनों विस्फोटक' (tons of explosives); no figure",
+  "usableInScript": true,
+  "notes": "Figures disagree (300 vs ~1,400 tons), so the narration uses no number."
+ },
+ {
+  "id": "C04",
+  "claim": "The gold was about GBP 890,000 of bullion in bars, packed in 31 crates.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "approximately £890,000 of gold bullion in bars in 31 crates"
+   },
+   {
+    "title": "Scroll.in: article on the 1944 Bombay docks explosion",
+    "url": "https://amp.scroll.in/article/661674/scroll_in",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "carrying £890,000 of gold bullion in bars in 31 crates"
+   },
+   {
+    "title": "The Better India: Bombay dock blast, 1944 (fire safety history)",
+    "url": "https://thebetterindia.com/234820/bombay-dock-blast-explosion-fire-safety-blaze-history-explosion-ammunition-ww-ii-firemen-war-time-ang136",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "31 wooden crates containing gold bullion in bars"
+   }
+  ],
+  "qualification": "narration says only 'सोने के बक्से' (boxes of gold)",
+  "usableInScript": true,
+  "notes": "Bar counts/weights vary (Wikipedia 4 bars/crate at ~800 oz; HISTORY.com mentions a 28-pound bar; other sources 124 or 155 bars) — none spoken."
+ },
+ {
+  "id": "C05",
+  "claim": "The explosions flung gold bars out of the ship and into the city: bars were found far from the dock (HISTORY.com: a gold bar found a mile away; Amusing Planet: one crashed through a flat's roof in Girgaum).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the gold bricks from Fort Stikine, which were flung across the city, are still being discovered"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "A 28-pound gold bar ... found a mile away"
+   },
+   {
+    "title": "Amusing Planet: The Bombay Docks Explosion of 1944 (Dec 2025)",
+    "url": "https://www.amusingplanet.com/2025/12/the-bombay-docks-explosion-of-1944.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "A gold bar crashed through the roof into Burjor Cooverji Motiwalal's flat in Girguam"
+   }
+  ],
+  "qualification": "'सोने की ईंटें बरसीं' is a figurative image of bars thrown into the city by the blast; no counts, no distances, no claim that gold fell everywhere",
+  "usableInScript": true,
+  "notes": "Popular secondary sources only; no primary 1944 document opened. The Girgaum anecdote is single-source and is not spoken."
+ },
+ {
+  "id": "C06",
+  "claim": "The fire was noticed in the ship's No. 2 hold around 14:00 (early afternoon).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the crew were alerted to a fire onboard burning somewhere in the No. 2 hold"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "tried to put out the fire with hoses throughout the afternoon"
+   }
+  ],
+  "qualification": "say 'दोपहर में' (in the afternoon), no exact time",
+  "usableInScript": true
+ },
+ {
+  "id": "C07",
+  "claim": "Fire brigade men fought the fire with hoses for hours, through the afternoon, before the explosion.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "tried to put out the fire with hoses throughout the afternoon"
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "'घंटों' (for hours) — not an exact duration",
+  "usableInScript": true,
+  "notes": "Wikipedia timeline: fire ~14:00, first explosion ~16:06; inquiry criticised the delay in alerting the fire brigade."
+ },
+ {
+  "id": "C08",
+  "claim": "The first explosion came just after 4 p.m. (16:06-16:07; Wikipedia infobox 16:15).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "stopped at 4.06 pm - the exact moment when the first explosion took place"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "at 4:07 p.m., the resulting explosion rocked the bay area"
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "say 'चार बजे के बाद' (after four)",
+  "usableInScript": true,
+  "notes": "The 'port clock stopped at 4.06' detail is single-source (LiveHistory India) and is not spoken."
+ },
+ {
+  "id": "C09",
+  "claim": "A second explosion followed roughly half an hour later (Wikipedia: 16:34; Amusing Planet: about 34 minutes later).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "Amusing Planet: The Bombay Docks Explosion of 1944 (Dec 2025)",
+    "url": "https://www.amusingplanet.com/2025/12/the-bombay-docks-explosion-of-1944.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Roughly 34 minutes later, a second explosion erupted"
+   }
+  ],
+  "qualification": "'करीब आधे घंटे बाद' (about half an hour later)",
+  "usableInScript": true
+ },
+ {
+  "id": "C10",
+  "claim": "Fire spread from the docks into neighbouring civilian areas over more than a mile (Wikipedia: ~2 km2 set ablaze in an 800 m arc).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The entire Dock area and the neighboring civilian areas to an extent of more than a mile were in flames."
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Around 2 km2 (0.77 mi2) were set ablaze"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C11",
+  "claim": "Hundreds of people were killed; estimates range from an official ~740 to 800+ and up to ~1,300, with thousands injured.",
+  "category": "disputed",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The total number of lives lost in the explosion is estimated at more than 800"
+   },
+   {
+    "title": "Scroll.in: article on the 1944 Bombay docks explosion",
+    "url": "https://amp.scroll.in/article/661674/scroll_in",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "An estimated 800 people were killed in the blasts"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "killing 1,300 people and injuring another 3,000"
+   },
+   {
+    "title": "Deccan Herald: Bombay dock explosions, one of Mumbai's biggest disasters, 79 years ago (403 on fetch; search snippet only)",
+    "url": "https://www.deccanherald.com/amp/story/india%2Fbombay-dock-explosions-one-of-mumbais-biggest-disasters-79-years-ago-1209327.html",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02",
+    "quote": "the official death toll in the incident was 740"
+   }
+  ],
+  "qualification": "say 'सैकड़ों जानें' (hundreds of lives); never a single number",
+  "usableInScript": true,
+  "notes": "'Hundreds' is true under every estimate; the exact toll is disputed."
+ },
+ {
+  "id": "C12",
+  "claim": "Most of the gold was recovered afterwards (Wikipedia: 'almost all since recovered'; Naharnet/Mumbai Mirror: recovered up to the 1970s and returned).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "almost all since recovered"
+   },
+   {
+    "title": "Naharnet: Indian laborers find missing WWII gold (page now 'not found'; search snippet only)",
+    "url": "https://naharnet.com:443/stories/en/2580",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02",
+    "quote": "Some of the gold was found up to the 1970s and returned to the British government"
+   }
+  ],
+  "qualification": "'ज़्यादातर हिस्सा' (most of it), no amount",
+  "usableInScript": true
+ },
+ {
+  "id": "C13",
+  "claim": "In early 2011 workers dredging/digging near Victoria Dock found gold bars from the Fort Stikine; OneIndia reports two small bars (100 g and 50 g) stuck in a dredger's hopper on 31 January 2011.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "OneIndia (21 Jan 2012): Mumbai: live shells discovered near Cross Island",
+    "url": "https://www.oneindia.com/2012/01/21/mumbai-live-shells-discovered-near-cross-island.html",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "two gold bars (100gm and 50gm) ... stuck in steel plates of the dredger's hopper"
+   },
+   {
+    "title": "Outlook Traveller: Mumbai, the sea and the city",
+    "url": "https://www.outlooktraveller.com/explore/features/mumbai-sea-and-the-city",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "As recently as 2011, Gammon India employees building a dredge found gold bars from Stikine near Victoria docks."
+   },
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "As late as 2011, workers dredging the sea discovered gold bricks from the SS Fort Stikine."
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "some as late as February 2011"
+   }
+  ],
+  "qualification": "'समुद्र की खुदाई में सोने की छोटी ईंटें' — small bars; no weight, no month",
+  "usableInScript": true,
+  "notes": "Exact date (31 Jan vs Feb 2011) and site wording (new dock vs dredger) differ slightly."
+ },
+ {
+  "id": "C14",
+  "claim": "66 officers and men of the Bombay Fire Brigade lost their lives (MCGM). Some sources say 71 fire personnel.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the supreme sacrifice of 66 heroic officers and men, who laid down their lives"
+   },
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the 66 firemen who died in the explosion"
+   },
+   {
+    "title": "The Better India: Bombay dock blast, 1944 (fire safety history)",
+    "url": "https://thebetterindia.com/234820/bombay-dock-blast-explosion-fire-safety-blaze-history-explosion-ammunition-ww-ii-firemen-war-time-ang136",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Over 66 firefighters in the city too lost their lives"
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "say 'बंबई फ़ायर ब्रिगेड के छियासठ जवान' (attributed to the Bombay Fire Brigade, the MCGM figure)",
+  "usableInScript": true,
+  "notes": "71 appears in Wikipedia's lead and some fire-service pages (likely including other services); the city's own fire brigade gives 66."
+ },
+ {
+  "id": "C15",
+  "claim": "While people fled, the Fire Brigade stayed at its post and fought the conflagration.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Those who escaped death were running for their life. It was the Brigade, which remained undaunted ... stuck to their place of duty"
+   }
+  ],
+  "qualification": "general statement ('जो आग की तरफ़ दौड़े, जब सब भाग रहे थे'); no individual stories invented",
+  "usableInScript": true,
+  "notes": "Single (official) source for the wording; matches the role of firefighters in every account."
+ },
+ {
+  "id": "C16",
+  "claim": "14 April is observed as (National) Fire Service Day in memory of the firefighters who died in the 1944 Bombay dock explosion; Fire Service/Prevention Week runs from 14 April.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the Government of India declared \"14th April as Fire Services Day\""
+   },
+   {
+    "title": "Government of Goa, Dept. of Information & Publicity: National Fire Service Day, Fire Prevention Week from April 14-20 (3 Apr 2025)",
+    "url": "https://www.goa.gov.in/wp-content/uploads/2025/04/NATIONAL-FIRE-SERVICE-DAY.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "National Fire Service Day is observed every year on April 14 to commemorate the heroic fire fighters who lost their lives during the tragic Bombay Dock Explosion of 1944."
+   },
+   {
+    "title": "Maharashtra Fire Services: Fire Service Week page",
+    "url": "https://mahafireservice.gov.in/fire_service_week.php",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the 14th April each year so as to commemorate the memory of the brave firemen"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C17",
+  "claim": "A memorial column to the firemen stands at the Fire Brigade headquarters, Byculla, Mumbai.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the citizens of Bombay erected a Memorial Column at the Fire Brigade Headquarters"
+   },
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The Mumbai Fire Brigade headquarters at Byculla has a memorial"
+   },
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "a memorial stands outside Mumbai Fire Brigade headquarters"
+   },
+   {
+    "title": "The CSR Journal: Modern firefighter training centre to be set up in Kandivali (81st anniversary tribute at Byculla)",
+    "url": "https://thecsrjournal.in/modern-firefighter-centre-kandivali-training/",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02",
+    "quote": "Veer Smriti Stambh"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Used as a visual (shots 16-17) and in the description; not spoken."
+ },
+ {
+  "id": "C18",
+  "claim": "How long the firefighting lasted: MCGM says operations 'continued for over a month'; other accounts say the fire raged for three days and nights.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "MCGM (Municipal Corporation of Greater Mumbai), Chief Fire Officer RTI manual, 'Saga of Sacrifice'",
+    "url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Fire%20Officer/RTI%20Manuals/Chief_Fire_Officer_RTI_E02.pdf",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The fire-fighting operations continued for over a month."
+   },
+   {
+    "title": "The Better India: Bombay dock blast, 1944 (fire safety history)",
+    "url": "https://thebetterindia.com/234820/bombay-dock-blast-explosion-fire-safety-blaze-history-explosion-ammunition-ww-ii-firemen-war-time-ang136",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "For three days and three nights"
+   },
+   {
+    "title": "Amusing Planet: The Bombay Docks Explosion of 1944 (Dec 2025)",
+    "url": "https://www.amusingplanet.com/2025/12/the-bombay-docks-explosion-of-1944.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The fire raged on for three days and nights"
+   }
+  ],
+  "qualification": "not spoken",
+  "usableInScript": false,
+  "notes": "Both can be true (main fires vs full operations); left out to keep one clear line."
+ },
+ {
+  "id": "C19",
+  "claim": "The gold was being shipped to India for the Indian government / Reserve Bank (Better India: sold by the Bank of England to the Indian government; Amusing Planet: intended for the RBI; LiveHistory India: sent by the British government to 'stabilize' the rupee).",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "The Better India: Bombay dock blast, 1944 (fire safety history)",
+    "url": "https://thebetterindia.com/234820/bombay-dock-blast-explosion-fire-safety-blaze-history-explosion-ammunition-ww-ii-firemen-war-time-ang136",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "sold by the Bank of England to the Indian government"
+   },
+   {
+    "title": "Amusing Planet: The Bombay Docks Explosion of 1944 (Dec 2025)",
+    "url": "https://www.amusingplanet.com/2025/12/the-bombay-docks-explosion-of-1944.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "gold bullion intended for the Reserve Bank of India"
+   },
+   {
+    "title": "LiveHistory India: The explosion that shook Bombay in 1944",
+    "url": "https://livehistoryindia.com/story/eras/the-explosion-that-shook-bombay-in-1944",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "by the British government to 'stabilize' the rupee"
+   }
+  ],
+  "qualification": "only in the pinned comment, as 'कुछ स्रोतों के मुताबिक'; not in the narration",
+  "usableInScript": true,
+  "notes": "No RBI or official source opened; purpose wording differs between sources."
+ },
+ {
+  "id": "C20",
+  "claim": "The inquiry found the cotton bales were probably the seat of the fire and criticised stowing cotton with munitions, not flying the dangerous-cargo flag and the delay in calling the fire brigade; the exact cause was never established.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "identified the cotton bales as probably being the seat of the fire"
+   }
+  ],
+  "qualification": "description only, as 'जाँच के मुताबिक'",
+  "usableInScript": true,
+  "notes": "Wikipedia cites The Times, 12 Sep 1944; not opened."
+ },
+ {
+  "id": "C21",
+  "claim": "Twelve or thirteen ships were destroyed/lost in the harbour.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: 1944 Bombay explosion (used as a map to sources: Times of India 2004, The Times 1944, Mumbai Mirror 2011)",
+    "url": "https://en.wikipedia.org/wiki/1944_Bombay_explosion",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Thirteen ships were lost"
+   },
+   {
+    "title": "HISTORY.com: Explosion on cargo ship rocks Bombay, India (This Day in History, 14 April)",
+    "url": "https://www.history.com/this-day-in-history/april-14/explosion-on-cargo-ship-rocks-bombay-india",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Twelve other ships at the docks were destroyed"
+   }
+  ],
+  "qualification": "not spoken (count differs)",
+  "usableInScript": false
+ },
+ {
+  "id": "C22",
+  "claim": "A gold bar crashed through the roof of Burjor Cooverji Motiwala's flat in Girgaum; he handed it to the police and got a Rs 999 reward.",
+  "category": "fact",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Amusing Planet: The Bombay Docks Explosion of 1944 (Dec 2025)",
+    "url": "https://www.amusingplanet.com/2025/12/the-bombay-docks-explosion-of-1944.html",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "A gold bar crashed through the roof into Burjor Cooverji Motiwalal's flat in Girguam"
+   }
+  ],
+  "qualification": "not used: single source",
+  "usableInScript": false
+ },
+ {
+  "id": "C23",
+  "claim": "Viral framing: 'gold rained over the whole city and people got rich picking it up'.",
+  "category": "legend",
+  "confidence": "unverified",
+  "sources": [],
+  "qualification": "NOT USED: no source supports mass gold falling or people keeping it; sources say most gold was recovered",
+  "usableInScript": false,
+  "debunked": true,
+  "notes": "Treated as an exaggeration of C05/C12."
+ }
+]

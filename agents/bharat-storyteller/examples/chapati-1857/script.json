@@ -1,0 +1,3221 @@
+{
+ "$schema": "../../schemas/script-package.schema.json",
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "chapati-1857",
+  "title": "1857 की रहस्यमयी रोटियाँ",
+  "topic": "The 1857 'chapati movement': chapatis passed village to village across north India months before the uprising; origin and purpose never established",
+  "category": "freedom-struggle",
+  "structure": "myth-vs-evidence",
+  "angle": "Rotis raced from village to village across north India months before 1857, nobody ever found out who started it or why, and the competing theories (revolt signal vs cholera charm) are still open",
+  "centralQuestion": "इन रोटियों को कौन भेज रहा था, और क्यों?",
+  "audience": "Indian Shorts viewers 18-35, history-curious, not specialists",
+  "language": "hindi",
+  "durationSec": 69.0,
+  "totalFrames": 2070,
+  "coreEmotion": "uneasy curiosity turning into honest not-knowing",
+  "takeaway": "A spooky coincidence is not proof: the best evidence points to a cholera charm, but nobody can say for sure, and the link to the revolt is unproven",
+  "tone": "mysterious, wry in places, even-handed",
+  "sensitivity": "1857 is a freedom-struggle event with strong feelings: do not belittle the uprising or claim the chapatis caused it; present British suspicion as suspicion; rural people and the Delhi court shown with dignity; cholera charm described, not mocked",
+  "researchMode": "web-verified",
+  "created": "2026-11-02"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "At the end of January 1857 Mark Thornhill, magistrate at Mathura (Muttra), found four small cakes of coarse flour on his office table; a man had given one cake to a village watchman (chowkidar) with orders to bake four like it and give them to the watchmen of the adjacent villages, who were to do the same.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "It was at the end of January 1857 ... I found four little cakes laid on the table, dirty little cakes of the coarsest flour ... A man had come to a village, and given a cake to the watchman, with injunctions to bake four like it, to distribute them to the watchmen of the adjacent villages, and to desire them to do the same."
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "four 'dirty little cakes of the coarsest flour, about the size and thickness of a biscuit'"
+    },
+    {
+     "title": "Wikipedia, 'Mark Thornhill'",
+     "url": "https://en.wikipedia.org/wiki/Mark_Thornhill",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "say मथुरा के मजिस्ट्रेट; 'four' is Thornhill's number (other accounts give other numbers)",
+   "usableInScript": true,
+   "notes": "Dash dates it 'early February'; Thornhill's own text says end of January 1857. Narration gives no month for this scene.",
+   "debunked": false
+  },
+  {
+   "id": "C02",
+   "claim": "The cakes were being distributed the same way over all 'Upper India' (north India) in early 1857; popular accounts say from the Narmada to the Nepal border.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "we next learnt from the newspapers that these cakes were being distributed in the same manner over all Upper India."
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "from the Narmada river in the south to the Nepal border"
+    },
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "In the North-West Provinces it was discovered that chupatties were being circulated throughout the country (Cave-Browne)"
+    }
+   ],
+   "qualification": "'उत्तर भारत' is safe; Narmada-Nepal extent only in the description, attributed",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C03",
+   "claim": "Government inquiries could not establish who contrived the distribution, where it started, or what it meant.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "it could not be ascertained either by whom the distribution had been contrived, where it commenced, or what it signified."
+    },
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "inquiries were ordered to be set on foot, but nothing further could be traced as to their origin or object (Cave-Browne)"
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Hadow: 'It is not known where it originated, by whom or for what purpose'"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C04",
+   "claim": "Dr Gilbert Hadow, an army surgeon, wrote to his sister in Britain in March 1857: 'There is a most mysterious affair going on throughout the whole of India at present.'",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "There is a most mysterious affair going on throughout the whole of India at present."
+    },
+    {
+     "title": "Amusing Planet, 'The Chapati Movement of 1857' (2021), quoting Kim Wagner and Gilbert Hadow",
+     "url": "https://www.amusingplanet.com/2021/04/the-chapati-movement-of-1857.html",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "secondary quotation (Dash citing Hibbert, The Great Mutiny); primary letter not seen",
+   "usableInScript": true,
+   "notes": "Used only in description / pinned comment, not narration.",
+   "debunked": false
+  },
+  {
+   "id": "C05",
+   "claim": "An Agra official, George Harvey, estimated the chapatis were advancing at somewhere between 100 and 200 miles a night.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "at the rate of somewhere between 100 and 200 miles a night (Wagner p.63)"
+    },
+    {
+     "title": "The Better India, 'Chapati movement' (popular article)",
+     "url": "https://thebetterindia.com/59404/chapati-movement-india-revolt",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    },
+    {
+     "title": "Amusing Planet, 'The Chapati Movement of 1857' (2021), quoting Kim Wagner and Gilbert Hadow",
+     "url": "https://www.amusingplanet.com/2021/04/the-chapati-movement-of-1857.html",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "at a rate of 200 miles a night"
+    }
+   ],
+   "qualification": "spoken as one official's estimate: 'एक अफ़सर का अंदाज़ा था'; never as a measured speed",
+   "usableInScript": true,
+   "notes": "Better India attributes 'up to 300 km every night' to Thornhill (snippet) - attribution conflicts, so only the Harvey range via Dash/Wagner is used.",
+   "debunked": false
+  },
+  {
+   "id": "C06",
+   "claim": "Officials suspected seditious letters were hidden in the bread; the chapatis examined contained no messages.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "examination found no messages (Kaye p.572)"
+    },
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "OCR fragment of the main-text footnote on letters 'with flour, to be broken' (partly illegible)"
+    }
+   ],
+   "qualification": "say 'कुछ नहीं मिला' (nothing found), not 'every chapati was checked'",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C07",
+   "claim": "Hakim Ahsanullah, confidential physician to the King of Delhi (Bahadur Shah Zafar), stated: 'Nobody can tell what was the object of the distribution of the chupatties. It is not known who first projected the plan. All the people in the palace wondered what it could mean.'",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Nobody can tell what was the object of the distribution of the chupatties. It is not known who first projected the plan. All the people in the palace wondered what it could mean."
+    }
+   ],
+   "qualification": "a statement given after the revolt (trial evidence printed by Kaye); spoken as 'हकीम भी बोला'",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C08",
+   "claim": "Many contemporaries read the chapatis as a signal or warning of a coming outbreak ('a kind of fiery cross, to call them to action'; 'a forerunner of some universal popular outbreak'); Collector Ford of Gurgaon reported 'a signal' whose purport had not transpired.",
+   "category": "disputed",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "The greater number looked upon it as a signal of warning ... ; sent among them the chupatties, as a kind of fiery cross, to call them to action; forerunner of some universal popular outbreak (Hutchinson)"
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "a signal has passed through numbers of the villages in this district, the purport of which has not yet transpired (Ford, Kaye p.632)"
+    }
+   ],
+   "qualification": "a theory held by some officials, framed 'कुछ अफ़सरों को लगा'",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C09",
+   "claim": "Another contemporary reading was a charm against disease: cholera had ravaged several districts the previous autumn, and a custom of passing on objects to carry off sickness was reported.",
+   "category": "disputed",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "it might be some superstitious spell against disease, for cholera had ravaged several districts during the previous autumn (Cave-Browne)"
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Keatinge: the cakes came from Indore after incantations 'that would ensure the pestilence'; some officials saw the breads as a prophylactic against cholera (Wagner p.61)"
+    }
+   ],
+   "qualification": "a theory, framed 'दूसरे बोले'",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C10",
+   "claim": "Historian Kim A. Wagner (The Great Fear of 1857, 2010) concludes the circulation most likely began in Indore as an attempt to ward off cholera, and that its original meaning was lost as it spread.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Wagner pp.65, 67: began in Indore ... as an attempt to ward off cholera"
+    },
+    {
+     "title": "Amusing Planet, 'The Chapati Movement of 1857' (2021), quoting Kim Wagner and Gilbert Hadow",
+     "url": "https://www.amusingplanet.com/2021/04/the-chapati-movement-of-1857.html",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Although the original specific meaning of the chapattis had been lost early in the distribution (Wagner)"
+    },
+    {
+     "title": "Kim A. Wagner, The Great Fear of 1857: Rumours, Conspiracies and the Making of the Indian Uprising (Peter Lang, 2010), publisher page",
+     "url": "https://www.peterlang.com/view/title/11117",
+     "type": "academic",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    },
+    {
+     "title": "University of Birmingham research portal: The Great Fear of 1857 (Wagner)",
+     "url": "https://research.birmingham.ac.uk/en/publications/the-great-fear-of-1857-rumours-conspiracies-and-the-making-of-the/",
+     "type": "academic",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "'इतिहासकार ... मानते हैं ... शायद'; one historian's best reading, not proof",
+   "usableInScript": true,
+   "notes": "Wagner's book itself was not opened; his conclusion is known through Dash (who cites page numbers) and Amusing Planet.",
+   "debunked": false
+  },
+  {
+   "id": "C11",
+   "claim": "No link between the chapati circulation and the planning of the 1857 uprising has been proven; Wagner argues the chapatis were not 'harbingers of a coming storm', and their role, if any, remains uncertain.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "were not 'harbingers of a coming storm' (Wagner p.69)"
+    },
+    {
+     "title": "Foodways project, University of Illinois Chicago: 'Chapati and the Indian Mutiny 1857-8'",
+     "url": "https://foodwaysphd.digital.uic.edu/chapati-and-the-indian-mutiny-1857-8",
+     "type": "academic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "the role, if any, that it played in the uprisings of 1857-8 is still uncertain"
+    },
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "could not be ascertained ... what it signified"
+    }
+   ],
+   "qualification": "say 'साबित नहीं हुआ' (not proven), not 'it had nothing to do with it'",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C12",
+   "claim": "On 10 May 1857 sepoys at Meerut rose against their officers and marched on Delhi; the revolt spread across north India.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia, 'Meerut mutiny' (map to sources: Ball 1858)",
+     "url": "https://en.wikipedia.org/wiki/Meerut_mutiny",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "10 and 11 May 1857"
+    },
+    {
+     "title": "Encyclopaedia Britannica, 'Meerut' (May 1857: initial uprising of the Indian Mutiny)",
+     "url": "https://www.britannica.com/place/Meerut",
+     "type": "encyclopedia",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "quote": "It was there, in May 1857, that the initial uprising of the Indian Mutiny (1857-58) occurred"
+    },
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Early on the morning of the 12th of May a telegram was received ... from her niece at Meerut, informing her that one of the native regiments had mutinied ... and were gone off to Delhi."
+    }
+   ],
+   "qualification": "narration says only 'मई में'",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C13",
+   "claim": "An Oudh account: a chowkidar ran to another village with two chapatis and ordered his fellow official to make ten more and give two to each of the five nearest chowkidars; 'In a few hours the whole country was in a stir'.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "A Chowkeydar ran up to another village with two chupatties. He ordered his fellow-official to make ten more, and give two to each of the five nearest village Chowkeydars ... In a few hours the whole country was in a stir (Siege of Delhi, by an Officer who served there)"
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "a different number scheme from Thornhill's; numbers varied by area",
+   "usableInScript": true,
+   "notes": "Pinned comment only.",
+   "debunked": false
+  },
+  {
+   "id": "C14",
+   "claim": "Capt. G. Hutchinson's Oudh narrative reckoned that ten days were more than enough for every village chowkidar in Oudh to have received and passed on the cakes.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "it was calculated ten days more than sufficed for every village Chowkeydar in Oude to have received the little bread-cake"
+    }
+   ],
+   "qualification": "contemporary estimate",
+   "usableInScript": true,
+   "notes": "Cut from narration (density); kept for the pinned comment option.",
+   "debunked": false
+  },
+  {
+   "id": "C15",
+   "claim": "Other rumours: that the government meant to defile people's religion (a Delhi witness; Ahsanullah reports people believed the cakes were meant to 'preserve unpolluted the religion of the country'); that Lucknow court intriguers started it; that it was a charm against hail or about dyes.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "in order to preserve unpolluted the religion of the country (Ahsanullah); originated by some intriguers of the old Court of Lucknow (Siege of Delhi)"
+    },
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "dyers ... or spellwork against hail (Davenport p.441)"
+    }
+   ],
+   "qualification": "theories only",
+   "usableInScript": true,
+   "notes": "Cut from narration for length; mentioned in description.",
+   "debunked": false
+  },
+  {
+   "id": "C16",
+   "claim": "Derived illustration: if every watchman baked four and passed them on (C01), the count multiplies by four at each step: 4, 16, 64.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "bake four like it, to distribute them to the watchmen of the adjacent villages, and to desire them to do the same."
+    }
+   ],
+   "qualification": "arithmetic illustration of the instruction, not a recorded count; spoken as a chain, no total claimed",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C17",
+   "claim": "Hook framing: the chain moved fast enough that officials measured it per night ('रातों-रात', overnight).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "100 and 200 miles a night"
+    },
+    {
+     "title": "John William Kaye, A History of the Sepoy War in India 1857-1858, vol. I (Internet Archive, Cornell copy): main text on the chupatties and Appendix (statements of Hakim Ahsanullah, 'Siege of Delhi by an Officer', Capt. G. Hutchinson, Rev. T. Cave-Browne)",
+     "url": "https://archive.org/details/cu31924021098441",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "In a few hours the whole country was in a stir; spread with such amazing rapidity"
+    }
+   ],
+   "qualification": "'रातों-रात' = overnight/very fast; no claim that runners moved only at night",
+   "usableInScript": true,
+   "debunked": false
+  },
+  {
+   "id": "C18",
+   "claim": "MYTH: the chapatis carried secret messages or were the proven secret signal that planned and launched the 1857 revolt.",
+   "category": "legend",
+   "confidence": "low",
+   "debunked": true,
+   "sources": [
+    {
+     "title": "Mike Dash, 'The chupatty movement' (A Blast From The Past, 2010; author of the Smithsonian article 'Pass it on'), citing Thornhill, Kaye, Hibbert, Ireland and Kim A. Wagner, The Great Fear of 1857 (2010)",
+     "url": "https://mikedashhistory.com/2010/09/07/the-chupatty-movement/",
+     "type": "expert",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "examination found no messages; not 'harbingers of a coming storm'"
+    },
+    {
+     "title": "Foodways project, University of Illinois Chicago: 'Chapati and the Indian Mutiny 1857-8'",
+     "url": "https://foodwaysphd.digital.uic.edu/chapati-and-the-indian-mutiny-1857-8",
+     "type": "academic",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "NOT USED as fact; the narration presents 'signal' only as one theory and states the link is unproven",
+   "usableInScript": false
+  },
+  {
+   "id": "C19",
+   "claim": "Thornhill recalled that a similar distribution of cakes in Madras had preceded the Vellore mutiny (1806).",
+   "category": "legend",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Mark Thornhill, The Personal Adventures and Experiences of a Magistrate during the Rise, Progress and Suppression of the Indian Mutiny (London, 1884), ch. I, pp. 2-3 (Internet Archive full text)",
+     "url": "https://archive.org/details/personaladventur00thor",
+     "type": "primary-document",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "a similar distribution of cakes had been made in Madras towards the end of the last century, and had been followed by the mutiny of Vellore."
+    },
+    {
+     "title": "Wikipedia, 'Mark Thornhill'",
+     "url": "https://en.wikipedia.org/wiki/Mark_Thornhill",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "a recollection 'by those few who remembered'; Dash notes the Vellore rumours concerned defiled salt, not cakes. NOT USED.",
+   "usableInScript": false,
+   "debunked": false
+  },
+  {
+   "id": "C20",
+   "claim": "Popular articles say Thornhill found chapatis travelling up to 300 km every night.",
+   "category": "legend",
+   "confidence": "low",
+   "debunked": true,
+   "sources": [
+    {
+     "title": "The Better India, 'Chapati movement' (popular article)",
+     "url": "https://thebetterindia.com/59404/chapati-movement-india-revolt",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "misattribution: the per-night estimate is Harvey's (100-200 miles) per Dash/Wagner. NOT USED.",
+   "usableInScript": false
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "visual-curiosity",
+    "text": "रातों-रात, एक गाँव से दूसरे गाँव पहुँचती रोटियाँ।",
+    "score": 8,
+    "claimIds": [
+     "C17",
+     "C01"
+    ],
+    "critique": "strangest image first, 8 words, no background; opens 'who/why' without answering; loops with the last line"
+   },
+   {
+    "id": "H2",
+    "technique": "question",
+    "text": "अठारह सौ सत्तावन में अंग्रेज़ों को सबसे ज़्यादा डर किससे था? रोटियों से।",
+    "score": 6,
+    "claimIds": [
+     "C08"
+    ],
+    "critique": "punchy but 'सबसे ज़्यादा' is an unsupported superlative; question-answer opener feels like a quiz"
+   },
+   {
+    "id": "H3",
+    "technique": "dramatic-situation",
+    "text": "मथुरा के मजिस्ट्रेट की मेज़ पर, चार रोटियाँ रखी थीं।",
+    "score": 7,
+    "claimIds": [
+     "C01"
+    ],
+    "critique": "specific and true, count moment, but needs a beat to explain why that is strange"
+   },
+   {
+    "id": "H4",
+    "technique": "contradiction",
+    "text": "एक रोटी, जिसमें कोई ख़त नहीं था, फिर भी पूरी अंग्रेज़ी हुकूमत डर गई।",
+    "score": 6,
+    "claimIds": [
+     "C06",
+     "C08"
+    ],
+    "critique": "overstates ('पूरी हुकूमत डर गई'); gives away the 'no letter' beat"
+   },
+   {
+    "id": "H5",
+    "technique": "mystery",
+    "text": "बग़ावत से कुछ महीने पहले, उत्तर भारत में एक अजीब चेन चल रही थी।",
+    "score": 5,
+    "claimIds": [
+     "C02",
+     "C12"
+    ],
+    "critique": "abstract ('अजीब चेन'), background-first; weakest stop-power"
+   }
+  ],
+  "recommended": "H1",
+  "reason": "Image-first and true (C17 qualified as 'overnight'); the open question lands at ~4 s; the ending line repeats the hook image so the Short loops; H3 is reused as the count beat at ~7 s."
+ },
+ "narration": {
+  "language": "hindi",
+  "voice": {
+   "engine": "elevenlabs",
+   "id": "cgSgspJ2msm6clMCkdW9 (Jessica, eleven_v4)",
+   "rate": "+0%"
+  },
+  "wps": 2.45,
+  "totalWords": 159,
+  "estimatedSpeechSec": 64.9,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.3,
+    "endSec": 3.57,
+    "startFrame": 9,
+    "endFrame": 107,
+    "text": "रातों-रात, एक गाँव से दूसरे गाँव पहुँचती रोटियाँ।",
+    "marked": "रातों-रात, एक गाँव से दूसरे गाँव पहुँचती *रोटियाँ*। [pause 0.3]",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "रोटियाँ"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 5,
+    "musicMood": "night village bed, single low note",
+    "ambient": "night breeze, distant dog-less silence",
+    "sfx": [
+     "night-breeze",
+     "runner-steps"
+    ],
+    "claimIds": [
+     "C17",
+     "C01"
+    ]
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 3.87,
+    "endSec": 9.17,
+    "startFrame": 116,
+    "endFrame": 275,
+    "text": "इन्हें भेज कौन रहा है? अठारह सौ सत्तावन, अंग्रेज़ यही पूछ रहे थे।",
+    "marked": "इन्हें भेज *कौन* रहा है? [pause 0.2] अठारह सौ सत्तावन, अंग्रेज़ यही पूछ रहे थे। [pause 0.3]",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "कौन"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 5,
+    "musicMood": "low drone",
+    "ambient": "breeze",
+    "sfx": [
+     "question-hum"
+    ],
+    "claimIds": [
+     "C03",
+     "C02"
+    ]
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 9.47,
+    "endSec": 25.8,
+    "startFrame": 284,
+    "endFrame": 774,
+    "text": "मथुरा के मजिस्ट्रेट को मेज़ पर मिलीं, चार रोटियाँ। किसी अजनबी ने चौकीदार को रोटी दी, कि ऐसी चार बनाओ, आगे पहुँचाओ। चार से सोलह, सोलह से चौंसठ। एक अफ़सर का अंदाज़ा था, रात में सौ से दो सौ मील।",
+    "marked": "मथुरा के मजिस्ट्रेट को मेज़ पर मिलीं, *चार* रोटियाँ। [pause 0.3] किसी अजनबी ने चौकीदार को रोटी दी, कि ऐसी चार बनाओ, आगे पहुँचाओ। [pause 0.2] चार से सोलह, सोलह से *चौंसठ*। [pause 0.2] एक अफ़सर का अंदाज़ा था, रात में सौ से दो सौ मील। [pause 0.3]",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "चार",
+     "चौंसठ"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "plucky, counting pulse",
+    "ambient": "office room tone, then night",
+    "sfx": [
+     "count-four",
+     "count-chain",
+     "spread-whoosh"
+    ],
+    "claimIds": [
+     "C01",
+     "C16",
+     "C05"
+    ]
+   },
+   {
+    "id": "N04",
+    "beat": "escalation",
+    "startSec": 26.1,
+    "endSec": 34.67,
+    "startFrame": 783,
+    "endFrame": 1040,
+    "text": "रोटियाँ तोड़कर देखी गईं, अंदर कोई ख़त? कुछ नहीं मिला। दिल्ली के बादशाह का हकीम भी बोला, मक़सद कोई नहीं जानता।",
+    "marked": "रोटियाँ तोड़कर देखी गईं, अंदर कोई *ख़त*? [pause 0.3] कुछ नहीं मिला। दिल्ली के बादशाह का हकीम भी बोला, *मक़सद* कोई नहीं जानता। [pause 0.3]",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "ख़त",
+     "मक़सद"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "suspense, sparse",
+    "ambient": "room tone",
+    "sfx": [
+     "roti-tear",
+     "nothing-glock"
+    ],
+    "claimIds": [
+     "C06",
+     "C07"
+    ]
+   },
+   {
+    "id": "N05",
+    "beat": "escalation",
+    "startSec": 34.97,
+    "endSec": 39.87,
+    "startFrame": 1049,
+    "endFrame": 1196,
+    "text": "कुछ अफ़सरों को लगा, बग़ावत का इशारा। दूसरे बोले, हैजे का टोटका।",
+    "marked": "कुछ अफ़सरों को लगा, *बग़ावत* का इशारा। दूसरे बोले, हैजे का टोटका। [pause 0.3]",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "बग़ावत"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "two-sided, questioning",
+    "ambient": "night breeze, hearth crackle",
+    "sfx": [
+     "hearth-crackles"
+    ],
+    "claimIds": [
+     "C08",
+     "C09"
+    ]
+   },
+   {
+    "id": "N06",
+    "beat": "revelation",
+    "startSec": 40.17,
+    "endSec": 47.11,
+    "startFrame": 1205,
+    "endFrame": 1413,
+    "text": "और फिर मई में, मेरठ के सिपाहियों ने बग़ावत कर दी, जो उत्तर भारत में फैल गई।",
+    "marked": "और फिर मई में, *मेरठ* के सिपाहियों ने बग़ावत कर दी, जो उत्तर भारत में फैल गई। [pause 0.4]",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "मेरठ"
+    ],
+    "pauseAfterSec": 0.4,
+    "intensity": 9,
+    "musicMood": "peak: drums of the score, full chord",
+    "ambient": "wind over parade ground",
+    "sfx": [
+     "meerut-whoosh",
+     "meerut-boom",
+     "meerut-rumble",
+     "march-steps"
+    ],
+    "claimIds": [
+     "C12"
+    ]
+   },
+   {
+    "id": "N07",
+    "beat": "payoff",
+    "startSec": 47.51,
+    "endSec": 58.93,
+    "startFrame": 1425,
+    "endFrame": 1768,
+    "text": "क्या रोटियाँ इशारा थीं? इतिहासकार किम वैगनर मानते हैं, ये शायद इंदौर से चला, हैजे को भगाने के लिए। पर बग़ावत से रिश्ता, आज तक साबित नहीं हुआ।",
+    "marked": "क्या रोटियाँ इशारा थीं? [pause 0.3] इतिहासकार किम वैगनर मानते हैं, ये शायद इंदौर से चला, *हैजे* को भगाने के लिए। पर बग़ावत से रिश्ता, आज तक *साबित* नहीं हुआ। [pause 0.4]",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "हैजे",
+     "साबित"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "settling, curious lift",
+    "ambient": "soft room tone",
+    "sfx": [
+     "indore-glock"
+    ],
+    "claimIds": [
+     "C10",
+     "C11"
+    ]
+   },
+   {
+    "id": "N08",
+    "beat": "ending",
+    "startSec": 59.23,
+    "endSec": 67.83,
+    "startFrame": 1777,
+    "endFrame": 2035,
+    "text": "आपको क्या लगता है, इशारा या दुआ? जवाब आज भी नहीं। बचा है बस ये नज़ारा, रातों-रात गाँव-गाँव पहुँचती रोटियाँ।",
+    "marked": "आपको क्या लगता है, इशारा या दुआ? [pause 0.3] जवाब आज भी नहीं। बचा है बस ये नज़ारा, रातों-रात गाँव-गाँव पहुँचती रोटियाँ।",
+    "voiceEmotion": "reflective",
+    "speed": 0.95,
+    "emphasis": [],
+    "pauseAfterSec": 0.0,
+    "intensity": 4,
+    "musicMood": "thin, unresolved; loops into the hook",
+    "ambient": "night breeze",
+    "sfx": [
+     "end-breeze",
+     "end-steps",
+     "end-glock"
+    ],
+    "claimIds": [
+     "C03",
+     "C11",
+     "C17"
+    ]
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "village",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "north-Indian village cluster at dusk: mud huts (boxes, cream/ochre plaster) with thatch roofs (cones), a dirt path winding between villages, a well, one big neem-like tree, a chulha (clay stove) with smoke wisps; repeated huts instanced across the plain for the aerial chain shot",
+    "components": [
+     "gradient sky (dusk) + stars",
+     "ground plane with grass/cobble textures re-tinted as dry earth",
+     "boxes + cones (build.ts) for huts and thatch, instanced",
+     "tree (adapt from the Tunguska hero tree)",
+     "smoke wisps for the chulha",
+     "path ribbon (river-ribbon machinery, earth-coloured)"
+    ]
+   },
+   {
+    "id": "office",
+    "kind": "adapt",
+    "basedOn": "office",
+    "description": "Tunguska office set re-dressed as Thornhill's district office (kutcheri): desk with four roti cards, wide window, screens and star chart removed; re-lit golden and re-dressed with an arch for the Delhi palace room (hakim shot)",
+    "components": [
+     "office wall + window",
+     "desk (boxes)",
+     "roti cards on the desk",
+     "planks/facade textures",
+     "arch frame (boxes)"
+    ]
+   },
+   {
+    "id": "globe",
+    "kind": "reuse",
+    "basedOn": "globe",
+    "description": "existing textured globe turned to the Indian subcontinent; glow dots and arrow cards (no labels) show the chain spreading north and, later, a dot at Indore in central India",
+    "components": [
+     "textured globe",
+     "sparkle cards as dots",
+     "arrow cards as routes"
+    ]
+   },
+   {
+    "id": "cantonment",
+    "kind": "adapt",
+    "basedOn": "taiga",
+    "description": "Meerut parade ground: taiga ground re-textured as packed earth, trees removed, the big pole reused as a flagstaff, low barrack blocks (boxes, white plaster, tiled roofs) behind",
+    "components": [
+     "ground plane (cobble/stone re-tinted)",
+     "big pole from taiga as flagstaff",
+     "boxes with roof/facade textures for barracks",
+     "dust cards"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "chowkidar",
+    "kind": "human",
+    "description": "village watchman who receives and passes the chapatis; the recurring runner (draw with the Roopkund 'pagri' hat already in toon.ts; schema enum lists only legacy hats, so 'cap' is recorded here)",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#efe4c8",
+     "pants": "#e6dcc0",
+     "boots": "#6a4a32",
+     "cap": "#f2b632",
+     "sash": "#2f8f83",
+     "skin": "#a8724a",
+     "moustache": "#2a201a"
+    },
+    "respectNote": "ordinary rural worker shown with dignity: no caricature"
+   },
+   {
+    "id": "stranger",
+    "kind": "human",
+    "description": "the unknown man who hands over the first roti; hooded with a shawl, face mostly in shade (Thornhill: 'a man had come to a village')",
+    "build": "adult",
+    "hat": "hood",
+    "outfit": {
+     "jacket": "#3b5b5a",
+     "pants": "#e6dcc0",
+     "boots": "#6a4a32",
+     "cap": "#2f5f66",
+     "skin": "#9a6a48"
+    }
+   },
+   {
+    "id": "magistrate",
+    "kind": "human",
+    "description": "Mark Thornhill, British district magistrate of Mathura, 1857 civilian dress",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#1f5f66",
+     "pants": "#efe4c8",
+     "boots": "#3a2a22",
+     "hair": "#6a4a32",
+     "skin": "#f0c9a8",
+     "moustache": "#6a4a32",
+     "buttons": "#f2b632"
+    }
+   },
+   {
+    "id": "officer1",
+    "kind": "human",
+    "description": "British officer who suspects a signal of revolt (generic, unnamed)",
+    "build": "stout",
+    "hat": "shako_tall",
+    "outfit": {
+     "jacket": "#c0353a",
+     "pants": "#3b3f52",
+     "boots": "#10222B",
+     "skin": "#f0c9a8",
+     "moustache": "#4a3020",
+     "sash": "#f2b632"
+    }
+   },
+   {
+    "id": "officer2",
+    "kind": "human",
+    "description": "second British official who breaks a roti looking for a hidden letter",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#2f8f83",
+     "pants": "#efe4c8",
+     "boots": "#3a2a22",
+     "hair": "#c9a36a",
+     "skin": "#f0c9a8"
+    }
+   },
+   {
+    "id": "hakim",
+    "kind": "human",
+    "description": "Hakim Ahsanullah, physician at the Delhi court (draw with the existing 'topi'/'pagri' from toon.ts; beard is future development)",
+    "build": "stout",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#efe4c8",
+     "pants": "#efe4c8",
+     "boots": "#6a4a32",
+     "cap": "#2f5f66",
+     "sash": "#2f8f83",
+     "skin": "#b9805a",
+     "moustache": "#e6dcc0"
+    },
+    "respectNote": "historical court physician, dignified; no exotic caricature"
+   },
+   {
+    "id": "sepoy1",
+    "kind": "human",
+    "description": "Bengal Army sepoy, Meerut (shako + rifle exist from Tunguska riflemen)",
+    "build": "adult",
+    "hat": "shako",
+    "outfit": {
+     "jacket": "#c0353a",
+     "pants": "#efe4c8",
+     "boots": "#10222B",
+     "skin": "#a8724a",
+     "moustache": "#2a201a",
+     "belt": "#f1efe6"
+    }
+   },
+   {
+    "id": "sepoy2",
+    "kind": "human",
+    "description": "Bengal Army sepoy, Meerut",
+    "build": "adult",
+    "hat": "shako",
+    "outfit": {
+     "jacket": "#c0353a",
+     "pants": "#efe4c8",
+     "boots": "#10222B",
+     "skin": "#9a6a48",
+     "belt": "#f1efe6"
+    }
+   },
+   {
+    "id": "sepoy3",
+    "kind": "human",
+    "description": "Bengal Army sepoy, Meerut",
+    "build": "stout",
+    "hat": "shako",
+    "outfit": {
+     "jacket": "#c0353a",
+     "pants": "#efe4c8",
+     "boots": "#10222B",
+     "skin": "#b9805a",
+     "moustache": "#2a201a",
+     "belt": "#f1efe6"
+    }
+   }
+  ],
+  "subjects": [
+   {
+    "name": "runner",
+    "place": "chowkidar on the village path (moves along the path spline)",
+    "heightM": 1.6,
+    "castId": "chowkidar"
+   },
+   {
+    "name": "villages",
+    "place": "centre of the village cluster / plain of instanced villages",
+    "heightM": 2
+   },
+   {
+    "name": "officer1",
+    "place": "officer at the village edge",
+    "heightM": 1.75,
+    "castId": "officer1"
+   },
+   {
+    "name": "officer2",
+    "place": "official at the office desk",
+    "heightM": 1.7,
+    "castId": "officer2"
+   },
+   {
+    "name": "magistrate",
+    "place": "magistrate behind the desk",
+    "heightM": 1.7,
+    "castId": "magistrate"
+   },
+   {
+    "name": "desk",
+    "place": "desk top with the four roti cards",
+    "heightM": 0.8
+   },
+   {
+    "name": "stranger",
+    "place": "hooded stranger at the tree line",
+    "heightM": 1.7,
+    "castId": "stranger"
+   },
+   {
+    "name": "hakim",
+    "place": "hakim in the palace room",
+    "heightM": 1.65,
+    "castId": "hakim"
+   },
+   {
+    "name": "chulha",
+    "place": "chowkidar's hearth, seated eye line",
+    "heightM": 1.0
+   },
+   {
+    "name": "globe",
+    "place": "globe centre",
+    "heightM": 2
+   },
+   {
+    "name": "parade",
+    "place": "Meerut parade ground with flagstaff",
+    "heightM": 6
+   },
+   {
+    "name": "sepoys",
+    "place": "the three sepoys marching",
+    "heightM": 1.75
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 3.8,
+   "startFrame": 0,
+   "endFrame": 114,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "रातों-रात, एक गाँव से दूसरे गाँव पहुँचती रोटियाँ।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "dusk: a chowkidar runs along the dirt path between two villages holding a pale roti; hut lamps glow; another village waits ahead"
+   },
+   "characters": [
+    {
+     "id": "chowkidar",
+     "view": "side",
+     "mode": "march",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "chowkidar",
+     "atFrame": 0,
+     "action": "move",
+     "description": "runs along the path spline, roti card held at the hand"
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "profile",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "tracking",
+      "params": {
+       "subject": "runner",
+       "path": [
+        [
+         -14,
+         1.5,
+         7
+        ],
+        [
+         0,
+         1.7,
+         8
+        ],
+        [
+         14,
+         1.5,
+         7
+        ]
+       ],
+       "ease": "cruise"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "runner",
+   "lighting": "dusk",
+   "foreground": "dry grass tufts sliding past",
+   "background": "violet-blue evening sky, hut silhouettes, first stars",
+   "effects": [
+    {
+     "fx": "dust",
+     "atFrame": 6,
+     "note": "kicked dust at the runner's feet"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 0,
+     "newArt": true,
+     "note": "roti card in the runner's hand (F02)"
+    }
+   ],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "night-breeze",
+    "runner-steps"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "night pulse, single low note",
+    "duck": true
+   },
+   "emotionalIntention": "strangeness first: bread moving through the night like a message",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02",
+    "F05",
+    "F06"
+   ]
+  },
+  {
+   "id": 2,
+   "startSec": 3.8,
+   "endSec": 9.4,
+   "startFrame": 114,
+   "endFrame": 282,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "इन्हें भेज कौन रहा है? अठारह सौ सत्तावन, अंग्रेज़ यही पूछ रहे थे।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the runner passes a British officer at the village edge; the officer turns to watch him go"
+   },
+   "characters": [
+    {
+     "id": "officer1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "nervous",
+     "facing": 1
+    },
+    {
+     "id": "chowkidar",
+     "view": "side",
+     "mode": "march",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "officer1",
+     "atFrame": 134,
+     "action": "turn",
+     "params": {
+      "facing": -1
+     },
+     "description": "turns to follow the runner"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "officer1",
+     "atFrame": 144,
+     "expression": "nervous",
+     "word": "कौन"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 114,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "officer1",
+       "fill": 0.55,
+       "el": -14,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "officer1",
+   "lighting": "dusk",
+   "foreground": "runner crossing frame edge",
+   "background": "dusk sky, a hut lamp",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "question-hum"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low drone, a held note",
+    "duck": false
+   },
+   "emotionalIntention": "the open question: who is sending these?",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F05"
+   ]
+  },
+  {
+   "id": 3,
+   "startSec": 9.4,
+   "endSec": 13.07,
+   "startFrame": 282,
+   "endFrame": 392,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "मथुरा के मजिस्ट्रेट को मेज़ पर मिलीं, चार रोटियाँ।"
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "Thornhill's office by day: four roti cards on the desk appear one by one at 'चार' (count moment), the magistrate leans over them"
+   },
+   "characters": [
+    {
+     "id": "magistrate",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "magistrate",
+     "atFrame": 292,
+     "action": "lookUp",
+     "params": {
+      "headTilt": -10,
+      "look": 0.3
+     },
+     "description": "looks down at the cakes"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "magistrate",
+     "atFrame": 282,
+     "expression": "stern"
+    }
+   ],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 282,
+      "preset": "highAngle",
+      "params": {
+       "subject": "desk",
+       "fill": 0.5,
+       "el": 55,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "desk",
+   "lighting": "day",
+   "foreground": "desk edge, inkwell",
+   "background": "office wall and wide window",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 322,
+     "newArt": true,
+     "note": "roti 1 (F02)"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 330,
+     "newArt": true,
+     "note": "roti 2"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 338,
+     "newArt": true,
+     "note": "roti 3"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 346,
+     "newArt": true,
+     "note": "roti 4"
+    },
+    {
+     "fx": "sparkle",
+     "atFrame": 346
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 8,
+    "reason": "place change: village to office"
+   },
+   "soundEffects": [
+    "count-four"
+   ],
+   "musicDirection": {
+    "beat": "office",
+    "mood": "plucky count",
+    "duck": false
+   },
+   "emotionalIntention": "count/spot moment: viewer counts four cakes on a magistrate's desk",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 4,
+   "startSec": 13.07,
+   "endSec": 18.4,
+   "startFrame": 392,
+   "endFrame": 552,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "किसी अजनबी ने चौकीदार को रोटी दी, कि ऐसी चार बनाओ, आगे पहुँचाओ।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "night, tree line: the hooded stranger hands a roti to the chowkidar"
+   },
+   "characters": [
+    {
+     "id": "stranger",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    },
+    {
+     "id": "chowkidar",
+     "view": "front",
+     "mode": "stand",
+     "expression": "nervous",
+     "facing": -1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "stranger",
+     "atFrame": 400,
+     "action": "point",
+     "params": {
+      "wave": 0.6
+     },
+     "description": "holds the roti out"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "chowkidar",
+     "atFrame": 432,
+     "expression": "nervous",
+     "word": "बनाओ"
+    }
+   ],
+   "cameraAngle": "over-shoulder",
+   "cameraMovement": {
+    "kind": "static",
+    "keys": [
+     {
+      "f": 392,
+      "preset": "overShoulder",
+      "params": {
+       "subject": "runner",
+       "shoulder": "stranger",
+       "fill": 0.5
+      }
+     }
+    ]
+   },
+   "cameraTarget": "runner",
+   "lighting": "dusk",
+   "foreground": "stranger's hooded shoulder",
+   "background": "tree line, dusk sky",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 400,
+     "newArt": true,
+     "note": "roti card"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "office",
+    "mood": "plucky count, darker",
+    "duck": false
+   },
+   "emotionalIntention": "the instruction that makes the chain",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F03"
+   ]
+  },
+  {
+   "id": 5,
+   "startSec": 18.4,
+   "endSec": 20.83,
+   "startFrame": 552,
+   "endFrame": 625,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "चार से सोलह, सोलह से चौंसठ।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "aerial over a plain of instanced villages: glow dots multiply 1 to 4 to 16 to 64 as the camera rises"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 552,
+      "preset": "crane",
+      "params": {
+       "subject": "villages",
+       "fillFrom": 0.5,
+       "fillTo": 0.1,
+       "elFrom": 20,
+       "elTo": 60
+      }
+     }
+    ]
+   },
+   "cameraTarget": "villages",
+   "lighting": "dusk",
+   "foreground": "hut roofs",
+   "background": "dusk plain dotted with villages",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 558,
+     "note": "4 dots"
+    },
+    {
+     "fx": "sparkle",
+     "atFrame": 582,
+     "note": "16 dots"
+    },
+    {
+     "fx": "sparkle",
+     "atFrame": 606,
+     "note": "64 dots (seeded positions)"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "count-chain"
+   ],
+   "musicDirection": {
+    "beat": "spread",
+    "mood": "rising pulse",
+    "duck": false
+   },
+   "emotionalIntention": "exponential spread made visible: second count moment",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 6,
+   "startSec": 20.83,
+   "endSec": 26.03,
+   "startFrame": 625,
+   "endFrame": 781,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "एक अफ़सर का अंदाज़ा था, रात में सौ से दो सौ मील।"
+   },
+   "environment": {
+    "scene": "globe",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "globe turned to north India; arrow cards stream outward across the plain in one night"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 625,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "globe",
+       "fillFrom": 0.7,
+       "fillTo": 0.45,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "globe",
+   "lighting": "space",
+   "foreground": "globe rim",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "arrow",
+     "atFrame": 635,
+     "note": "routes north/east, no labels"
+    },
+    {
+     "fx": "arrow",
+     "atFrame": 655
+    },
+    {
+     "fx": "sparkle",
+     "atFrame": 665
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 10,
+    "reason": "abstract scale view"
+   },
+   "soundEffects": [
+    "spread-whoosh"
+   ],
+   "musicDirection": {
+    "beat": "spread",
+    "mood": "rising pulse",
+    "duck": true
+   },
+   "emotionalIntention": "scale: an officer's estimate of 100-200 miles a night",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F04"
+   ]
+  },
+  {
+   "id": 7,
+   "startSec": 26.03,
+   "endSec": 28.9,
+   "startFrame": 781,
+   "endFrame": 867,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "रोटियाँ तोड़कर देखी गईं, अंदर कोई ख़त?"
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "an official tears a roti open, looking for a hidden letter"
+   },
+   "characters": [
+    {
+     "id": "officer2",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "officer2",
+     "atFrame": 801,
+     "action": "flinch",
+     "params": {
+      "tilt": -6
+     },
+     "description": "tears the roti (two half-cards)"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "officer2",
+     "atFrame": 781,
+     "expression": "stern"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 781,
+      "preset": "closeUp",
+      "params": {
+       "subject": "officer2",
+       "fill": 0.55,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "officer2",
+   "lighting": "day",
+   "foreground": "desk with roti cards",
+   "background": "office wall",
+   "effects": [
+    {
+     "fx": "puff",
+     "atFrame": 803,
+     "note": "flour/crumb puff as the roti tears"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 801,
+     "newArt": true,
+     "note": "two roti halves (F02)"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 8,
+    "reason": "back to the office"
+   },
+   "soundEffects": [
+    "roti-tear"
+   ],
+   "musicDirection": {
+    "beat": "mystery",
+    "mood": "suspense, sparse",
+    "duck": false
+   },
+   "emotionalIntention": "suspicion: is there a message inside?",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 8,
+   "startSec": 28.9,
+   "endSec": 30.1,
+   "startFrame": 867,
+   "endFrame": 903,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "कुछ नहीं मिला।"
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "hard close on the official's face: nothing inside"
+   },
+   "characters": [
+    {
+     "id": "officer2",
+     "view": "front",
+     "mode": "stand",
+     "expression": "nervous"
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "officer2",
+     "atFrame": 867,
+     "expression": "nervous",
+     "word": "कुछ"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 867,
+      "preset": "extremeCloseUp",
+      "params": {
+       "subject": "officer2"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "officer2",
+   "lighting": "day",
+   "foreground": "roti half in hand",
+   "background": "blurred-free plain office wall",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "nothing-glock"
+   ],
+   "musicDirection": {
+    "beat": "mystery",
+    "mood": "a single held note",
+    "duck": true
+   },
+   "emotionalIntention": "deadpan anticlimax: empty bread",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 9,
+   "startSec": 30.1,
+   "endSec": 34.9,
+   "startFrame": 903,
+   "endFrame": 1047,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "दिल्ली के बादशाह का हकीम भी बोला, मक़सद कोई नहीं जानता।"
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "palace room in Delhi (office re-dressed with an arch, golden light): the hakim speaks to an unseen questioner"
+   },
+   "characters": [
+    {
+     "id": "hakim",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "hakim",
+     "atFrame": 933,
+     "action": "turn",
+     "params": {
+      "facing": 0
+     },
+     "description": "turns toward camera on 'मक़सद'"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "hakim",
+     "atFrame": 933,
+     "expression": "neutral",
+     "word": "मक़सद"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 903,
+      "preset": "orbit",
+      "params": {
+       "subject": "hakim",
+       "fill": 0.5,
+       "sweep": 30
+      }
+     }
+    ]
+   },
+   "cameraTarget": "hakim",
+   "lighting": "golden",
+   "foreground": "arch edge",
+   "background": "warm palace wall, lattice window",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 8,
+    "reason": "place change: Delhi court"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "mystery",
+    "mood": "suspense, warmer",
+    "duck": false
+   },
+   "emotionalIntention": "even the Mughal court did not know",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F03"
+   ]
+  },
+  {
+   "id": 10,
+   "startSec": 34.9,
+   "endSec": 37.77,
+   "startFrame": 1047,
+   "endFrame": 1133,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "कुछ अफ़सरों को लगा, बग़ावत का इशारा।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "dusk: officer1 points down the path where the runner went: 'a signal of revolt'"
+   },
+   "characters": [
+    {
+     "id": "officer1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern",
+     "facing": -1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "officer1",
+     "atFrame": 1057,
+     "action": "point",
+     "params": {
+      "wave": 1
+     },
+     "description": "points down the path"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "officer1",
+     "atFrame": 1047,
+     "expression": "stern"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1047,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "officer1",
+       "fillFrom": 0.35,
+       "fillTo": 0.55,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "officer1",
+   "lighting": "dusk",
+   "foreground": "path",
+   "background": "dusk sky, hut silhouettes",
+   "effects": [
+    {
+     "fx": "arrow",
+     "atFrame": 1062,
+     "note": "arrow card along the path"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 8,
+    "reason": "back to the village"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "theories",
+    "mood": "two-sided, questioning",
+    "duck": false
+   },
+   "emotionalIntention": "theory 1: a signal",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F05"
+   ]
+  },
+  {
+   "id": 11,
+   "startSec": 37.77,
+   "endSec": 40.1,
+   "startFrame": 1133,
+   "endFrame": 1203,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "दूसरे बोले, हैजे का टोटका।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the chowkidar sits at his chulha baking rotis; smoke rises; a soft glint on the bread: a charm against cholera"
+   },
+   "characters": [
+    {
+     "id": "chowkidar",
+     "view": "front",
+     "mode": "sit",
+     "expression": "smile_closed"
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "chowkidar",
+     "atFrame": 1133,
+     "expression": "smile_closed"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1133,
+      "preset": "closeUp",
+      "params": {
+       "subject": "chulha",
+       "fill": 0.5,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "chulha",
+   "lighting": "dusk",
+   "foreground": "chulha with roti cards",
+   "background": "hut wall, lamp",
+   "effects": [
+    {
+     "fx": "smoke",
+     "atFrame": 1133
+    },
+    {
+     "fx": "sparkle",
+     "atFrame": 1163,
+     "note": "the charm"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 1133,
+     "newArt": true,
+     "note": "rotis on the tava (F02)"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hearth-crackles"
+   ],
+   "musicDirection": {
+    "beat": "theories",
+    "mood": "two-sided, softer",
+    "duck": false
+   },
+   "emotionalIntention": "theory 2: a ritual against disease, told without mockery",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02",
+    "F03"
+   ]
+  },
+  {
+   "id": 12,
+   "startSec": 40.1,
+   "endSec": 47.43,
+   "startFrame": 1203,
+   "endFrame": 1423,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "और फिर मई में, मेरठ के सिपाहियों ने बग़ावत कर दी, जो उत्तर भारत में फैल गई।"
+   },
+   "environment": {
+    "scene": "cantonment",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "May, Meerut: white flash; sepoys with rifles march across the parade ground under the flagstaff, dust rising"
+   },
+   "characters": [
+    {
+     "id": "sepoy1",
+     "view": "side",
+     "mode": "march",
+     "expression": "stern"
+    },
+    {
+     "id": "sepoy2",
+     "view": "side",
+     "mode": "march",
+     "expression": "stern"
+    },
+    {
+     "id": "sepoy3",
+     "view": "side",
+     "mode": "march",
+     "expression": "stern"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "sepoy1",
+     "atFrame": 1203,
+     "action": "move",
+     "description": "march across frame"
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 1203,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "parade",
+       "push": 0.06
+      }
+     },
+     {
+      "f": 1278,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "sepoys",
+       "fill": 0.55,
+       "el": -14
+      },
+      "dur": 30
+     }
+    ]
+   },
+   "cameraTarget": "sepoys",
+   "lighting": "golden",
+   "foreground": "dust",
+   "background": "golden sky, barrack roofs, flagstaff",
+   "effects": [
+    {
+     "fx": "flash",
+     "atFrame": 1205,
+     "peak": 0.7
+    },
+    {
+     "fx": "kick",
+     "atFrame": 1205,
+     "gain": 0.6
+    },
+    {
+     "fx": "dust",
+     "atFrame": 1213
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "flashPeak": 0.7,
+    "reason": "the revolt breaks out"
+   },
+   "soundEffects": [
+    "meerut-whoosh",
+    "meerut-boom",
+    "meerut-rumble",
+    "march-steps"
+   ],
+   "musicDirection": {
+    "beat": "revolt",
+    "mood": "peak, full chord",
+    "duck": true
+   },
+   "emotionalIntention": "the turn: months later the revolt erupts",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F07"
+   ]
+  },
+  {
+   "id": 13,
+   "startSec": 47.43,
+   "endSec": 49.07,
+   "startFrame": 1423,
+   "endFrame": 1472,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "क्या रोटियाँ इशारा थीं?"
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "callback: the four rotis on the desk again, now in shadowy dusk light"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1423,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "desk",
+       "fillFrom": 0.35,
+       "fillTo": 0.6,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "desk",
+   "lighting": "dusk",
+   "foreground": "desk edge",
+   "background": "dim office window",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 1423,
+     "newArt": true,
+     "note": "the four rotis (F02)"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 10,
+    "reason": "back to the evidence"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "payoff",
+    "mood": "settling",
+    "duck": false
+   },
+   "emotionalIntention": "the question restated over the evidence",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 14,
+   "startSec": 49.07,
+   "endSec": 55.2,
+   "startFrame": 1472,
+   "endFrame": 1656,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "इतिहासकार किम वैगनर मानते हैं, ये शायद इंदौर से चला, हैजे को भगाने के लिए।"
+   },
+   "environment": {
+    "scene": "globe",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "globe: a warm dot lights up at Indore in central India; arrows radiate outward (no labels)"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 1472,
+      "preset": "orbit",
+      "params": {
+       "subject": "globe",
+       "fill": 0.55,
+       "sweep": 25
+      }
+     }
+    ]
+   },
+   "cameraTarget": "globe",
+   "lighting": "space",
+   "foreground": "globe rim",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 1492,
+     "note": "dot at Indore"
+    },
+    {
+     "fx": "arrow",
+     "atFrame": 1517
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 10,
+    "reason": "abstract explanation"
+   },
+   "soundEffects": [
+    "indore-glock"
+   ],
+   "musicDirection": {
+    "beat": "payoff",
+    "mood": "curious lift",
+    "duck": false
+   },
+   "emotionalIntention": "the best scholarly reading: a cholera charm from Indore",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F04"
+   ]
+  },
+  {
+   "id": 15,
+   "startSec": 55.2,
+   "endSec": 59.17,
+   "startFrame": 1656,
+   "endFrame": 1775,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "पर बग़ावत से रिश्ता, आज तक साबित नहीं हुआ।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "wide, golden-dusk: the lone chowkidar at a crossroads between villages, small in frame"
+   },
+   "characters": [
+    {
+     "id": "chowkidar",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 1656,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "runner",
+       "fillFrom": 0.3,
+       "fillTo": 0.12,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "runner",
+   "lighting": "golden",
+   "foreground": "path",
+   "background": "long shadows, villages",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 10,
+    "reason": "return to the village"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "payoff",
+    "mood": "settling",
+    "duck": true
+   },
+   "emotionalIntention": "honest uncertainty: no proven link",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  },
+  {
+   "id": 16,
+   "startSec": 59.17,
+   "endSec": 62.17,
+   "startFrame": 1775,
+   "endFrame": 1865,
+   "narration": {
+    "segmentIds": [
+     "N08"
+    ],
+    "text": "आपको क्या लगता है, इशारा या दुआ?"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "close on the chowkidar holding a roti, facing the viewer: the comment question"
+   },
+   "characters": [
+    {
+     "id": "chowkidar",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 0
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "chowkidar",
+     "atFrame": 1785,
+     "action": "point",
+     "params": {
+      "wave": 0.4
+     },
+     "description": "holds the roti up"
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1775,
+      "preset": "closeUp",
+      "params": {
+       "subject": "runner",
+       "fill": 0.55,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "runner",
+   "lighting": "dusk",
+   "foreground": "roti card",
+   "background": "dusk sky",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 1785,
+     "newArt": true,
+     "note": "roti held up"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "thin, open",
+    "duck": false
+   },
+   "emotionalIntention": "invite the viewer to choose: signal or prayer",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02",
+    "F06"
+   ]
+  },
+  {
+   "id": 17,
+   "startSec": 62.17,
+   "endSec": 69.0,
+   "startFrame": 1865,
+   "endFrame": 2070,
+   "narration": {
+    "segmentIds": [
+     "N08"
+    ],
+    "text": "जवाब आज भी नहीं। बचा है बस ये नज़ारा, रातों-रात गाँव-गाँव पहुँचती रोटियाँ।"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "loop: same composition as shot 1, the runner sets off along the path into the dusk as the camera rises"
+   },
+   "characters": [
+    {
+     "id": "chowkidar",
+     "view": "side",
+     "mode": "march",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "chowkidar",
+     "atFrame": 1865,
+     "action": "move",
+     "description": "runs along the path spline (matches shot 1 start pose at the last frame)"
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 1865,
+      "preset": "aerial",
+      "params": {
+       "subject": "runner",
+       "fill": 0.1,
+       "fillTo": 0.14,
+       "elFrom": 50,
+       "elTo": 30,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "runner",
+   "lighting": "dusk",
+   "foreground": "grass tufts",
+   "background": "evening sky, stars",
+   "effects": [
+    {
+     "fx": "dust",
+     "atFrame": 1875
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 12,
+    "reason": "loop back toward the opening image"
+   },
+   "soundEffects": [
+    "end-breeze",
+    "end-steps",
+    "end-glock"
+   ],
+   "musicDirection": {
+    "beat": "ending",
+    "mood": "fading, unresolved",
+    "duck": true
+   },
+   "emotionalIntention": "loop: the last line returns to the first frame",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02",
+    "F05"
+   ]
+  }
+ ],
+ "events": {
+  "flashAt": 1205,
+  "flashes": [
+   [
+    1205,
+    0.7
+   ]
+  ],
+  "hits": [
+   1205
+  ],
+  "kicks": [
+   [
+    1205,
+    0.6
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "night-breeze",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.45,
+     "bright": 0.25
+    },
+    "span": [
+     0,
+     282
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "night air over the plain (crickets synth not wired: F08)"
+   },
+   {
+    "id": "runner-steps",
+    "at": 4,
+    "gen": "steps",
+    "args": {
+     "period": 0.32,
+     "pitch": 1.0,
+     "gain": 0.6,
+     "pan0": -0.4,
+     "pan_step": 0.08
+    },
+    "span": [
+     4,
+     114
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "bare-foot running on earth: the chain is physical"
+   },
+   {
+    "id": "question-hum",
+    "at": 114,
+    "gen": "hum",
+    "args": {
+     "hz": 55,
+     "tone": 0.4,
+     "noise": 0.2
+    },
+    "span": [
+     114,
+     282
+    ],
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "unease under the open question"
+   },
+   {
+    "id": "count-four",
+    "at": 322,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      72,
+      74,
+      76,
+      79
+     ],
+     "level": 0.4,
+     "spacing": 0.27,
+     "pan0": -0.3,
+     "pan_step": 0.2
+    },
+    "segmentId": "N03",
+    "shotId": 3,
+    "intent": "one note per roti as they appear: the count moment"
+   },
+   {
+    "id": "count-chain",
+    "at": 558,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      64,
+      67,
+      71,
+      76
+     ],
+     "level": 0.35,
+     "spacing": 0.25,
+     "pan0": -0.4,
+     "pan_step": 0.25
+    },
+    "segmentId": "N03",
+    "shotId": 5,
+    "intent": "rising run as dots multiply 4-16-64"
+   },
+   {
+    "id": "spread-whoosh",
+    "at": 633,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.9,
+     "peak": 0.6
+    },
+    "segmentId": "N03",
+    "shotId": 6,
+    "intent": "arrows sweep across the map"
+   },
+   {
+    "id": "roti-tear",
+    "at": 801,
+    "gen": "crack",
+    "args": {},
+    "post": [
+     [
+      "gain",
+      -10
+     ]
+    ],
+    "segmentId": "N04",
+    "shotId": 7,
+    "intent": "small dry tear of the bread (quiet)"
+   },
+   {
+    "id": "nothing-glock",
+    "at": 871,
+    "gen": "glock",
+    "args": {
+     "midi": 69,
+     "level": 0.3
+    },
+    "segmentId": "N04",
+    "shotId": 8,
+    "intent": "deadpan 'nothing' note"
+   },
+   {
+    "id": "hearth-crackles",
+    "at": 1133,
+    "gen": "crackles",
+    "args": {
+     "dur": 2.5,
+     "density": 0.4,
+     "gain": 0.35
+    },
+    "segmentId": "N05",
+    "shotId": 11,
+    "intent": "chulha fire"
+   },
+   {
+    "id": "meerut-whoosh",
+    "at": 1190,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.5,
+     "peak": 0.8
+    },
+    "segmentId": "N06",
+    "shotId": 11,
+    "intent": "lead-in to the flash"
+   },
+   {
+    "id": "meerut-boom",
+    "at": 1205,
+    "gen": "boom",
+    "args": {
+     "dur": 1.2,
+     "f0": 55,
+     "big": false
+    },
+    "segmentId": "N06",
+    "shotId": 12,
+    "intent": "the revolt breaks out (flash + kick)"
+   },
+   {
+    "id": "meerut-rumble",
+    "at": 1215,
+    "gen": "rumble",
+    "args": {
+     "dur": 3.0,
+     "gain": 0.45,
+     "lo": 30,
+     "hi": 120,
+     "decay": 1.5
+    },
+    "segmentId": "N06",
+    "shotId": 12,
+    "intent": "spreading unrest"
+   },
+   {
+    "id": "march-steps",
+    "at": 1225,
+    "gen": "steps",
+    "args": {
+     "period": 0.5,
+     "pitch": 0.8,
+     "gain": 0.5,
+     "pan0": 0.3,
+     "pan_step": -0.05
+    },
+    "span": [
+     1225,
+     1423
+    ],
+    "segmentId": "N06",
+    "shotId": 12,
+    "intent": "boots on the parade ground"
+   },
+   {
+    "id": "indore-glock",
+    "at": 1492,
+    "gen": "glock",
+    "args": {
+     "midi": 76,
+     "level": 0.45
+    },
+    "segmentId": "N07",
+    "shotId": 14,
+    "intent": "the Indore dot lights: the best answer historians have"
+   },
+   {
+    "id": "end-breeze",
+    "at": 1775,
+    "gen": "breeze",
+    "args": {
+     "level": 0.4,
+     "bright": 0.2
+    },
+    "span": [
+     1775,
+     2070
+    ],
+    "segmentId": "N08",
+    "shotId": 16,
+    "intent": "back to the night"
+   },
+   {
+    "id": "end-steps",
+    "at": 1869,
+    "gen": "steps",
+    "args": {
+     "period": 0.32,
+     "pitch": 1.0,
+     "gain": 0.5,
+     "pan0": -0.4,
+     "pan_step": 0.08
+    },
+    "span": [
+     1869,
+     2070
+    ],
+    "segmentId": "N08",
+    "shotId": 17,
+    "intent": "same footsteps as the hook: the loop"
+   },
+   {
+    "id": "end-glock",
+    "at": 2025,
+    "gen": "glock",
+    "args": {
+     "midi": 69,
+     "level": 0.3
+    },
+    "segmentId": "N08",
+    "shotId": 17,
+    "intent": "soft unresolved note that leads back into the hook"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      2
+     ],
+     "chord": "Dm",
+     "level": 0.8,
+     "mood": "night pulse, eerie"
+    },
+    {
+     "name": "office",
+     "shots": [
+      3,
+      4
+     ],
+     "chord": "F",
+     "level": 0.85,
+     "mood": "plucky count"
+    },
+    {
+     "name": "spread",
+     "shots": [
+      5,
+      6
+     ],
+     "chord": "Gm",
+     "level": 0.95,
+     "mood": "rising"
+    },
+    {
+     "name": "mystery",
+     "shots": [
+      7,
+      9
+     ],
+     "chord": "Dm",
+     "level": 0.8,
+     "mood": "suspense, sparse"
+    },
+    {
+     "name": "theories",
+     "shots": [
+      10,
+      11
+     ],
+     "chord": "Bb",
+     "level": 0.85,
+     "mood": "two-sided, questioning"
+    },
+    {
+     "name": "revolt",
+     "shots": [
+      12,
+      12
+     ],
+     "chord": "A",
+     "level": 1.1,
+     "mood": "peak"
+    },
+    {
+     "name": "payoff",
+     "shots": [
+      13,
+      15
+     ],
+     "chord": "C",
+     "level": 0.8,
+     "mood": "settling, curious lift"
+    },
+    {
+     "name": "ending",
+     "shots": [
+      16,
+      17
+     ],
+     "chord": "Dm",
+     "level": 0.6,
+     "mood": "thin, unresolved; loops"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.0,
+   "fade_out": 0.6
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 8,
+   "originality": 8,
+   "researchReliability": 8,
+   "rhythm": 8,
+   "hinglishNaturalness": 7,
+   "emotion": 7,
+   "retention": 8,
+   "visualStorytelling": 7,
+   "pacing": 7,
+   "productionFeasibility": 7,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "duration",
+    "issue": "159 words: rhythm.py estimates 59.7 s at its default rate, but at Jessica's measured 2.45 words/s the speech runs ~66 s and the video ~69 s, above the 60-65 s aim. If words.json confirms >65 s after tighten_pauses, cut 'जवाब आज भी नहीं।' (-4 words) and 'दिल्ली के' (-2)",
+    "severity": "medium"
+   },
+   {
+    "area": "facts",
+    "issue": "The 100-200 miles a night estimate (C05) and Wagner's Indore/cholera conclusion (C10) are known only through Mike Dash's page-cited blog and a popular article; Wagner's book and the Smithsonian article (403) were not opened. Both are spoken with qualifiers ('एक अफ़सर का अंदाज़ा', 'मानते हैं ... शायद')",
+    "severity": "medium"
+   },
+   {
+    "area": "hook",
+    "issue": "'रातों-रात' means 'overnight / very fast'; sources give a per-night rate, not proof that runners moved only at night. Visual uses dusk (no night preset), which matches the honest reading",
+    "severity": "low"
+   },
+   {
+    "area": "production",
+    "issue": "1 new set (village) + 2 adapted (office, cantonment) + globe reuse; roti card art, night preset, carry pose and India globe dots are future development before render",
+    "severity": "medium"
+   },
+   {
+    "area": "language",
+    "issue": "S2 'और अंग्रेज़ परेशान, इन्हें भेज कौन रहा है?' is elliptical spoken Hindi; a voice artist may want 'अंग्रेज़ परेशान थे'. 'टोटका' could sound dismissive; kept because it is the everyday word and the line is framed as what others said",
+    "severity": "low"
+   },
+   {
+    "area": "emotion",
+    "issue": "Intensity is moderate throughout (peak 5.5 lexical); the Meerut flash and the score carry the turn more than the wording",
+    "severity": "low"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Cut the first draft from 265 to 186 words: removed Thornhill's name and month, the 'chowkidars did not know' line, the religion-rumour line, the 'Wagner searched old papers' line and 'meaning got lost'",
+    "reason": "rhythm hard FAIL: 92.7 s estimate, needed 4.82 words/s for 55 s; NO_BEAT 93 s; DENSE S4/S12"
+   },
+   {
+    "round": 2,
+    "change": "Cut to 162 words, swapped 'एक से चार' for 'चार से सोलह, सोलह से चौंसठ', 'कुछ ... कुछ' openers to 'कुछ ... दूसरे', added beat pauses; then made S11 a short line and S12 a long Meerut line",
+    "reason": "hard FAIL 3.62 words/s; REPEATED_OPENER; then HIGH MONOTONE_RUN S9-S12 and CV 0.34"
+   },
+   {
+    "round": 3,
+    "change": "Fact-check and length trims: 'रात के अंधेरे में ... दौड़ती' -> 'रातों-रात ... पहुँचती' (C17); 'ये बग़ावत का इशारा है' -> 'बग़ावत का इशारा' (theory voice); 'जवाब आज भी नहीं मिला' -> 'जवाब आज भी नहीं'; split S2 so the open question 'इन्हें भेज कौन रहा है?' starts at ~3.9 s (inside 5 s); 'ये हैजे का टोटका है' -> 'हैजे का टोटका'; 159 words",
+    "reason": "spoken wording must not be stronger than C05/C17 (no evidence runners moved only at night); owner target 150-160 words for Jessica's 2.45 words/s"
+   }
+  ],
+  "editorNotes": "Pass with medium weaknesses: duration likely ~66-69 s with Jessica (trim list given) and two medium-confidence claims carried with spoken qualifiers. Theories presented as theories; no claim that the chapatis caused the revolt; 0 unsupported, 0 debunked statements.",
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 59.69,
+   "wps": 2.86,
+   "lengthCv": 0.44,
+   "findings": 0
+  }
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "Village set (mud huts + thatch, dirt path, well, tree, chulha; instanced villages for the aerial)",
+   "need": "no Indian village scene exists",
+   "shotIds": [
+    1,
+    2,
+    4,
+    5,
+    10,
+    11,
+    15,
+    16,
+    17
+   ],
+   "suggestion": "new world.ts set: boxes + cones (build.ts) with plaster/thatch canvas textures, instanced across the plain; path = river-ribbon geometry in earth colour (ENGINE_CAPABILITIES §11.5)",
+   "workaround": "Roopkund trail ground re-tinted brown + box huts without thatch detail"
+  },
+  {
+   "id": "F02",
+   "feature": "Roti/chapati card art: flat round bread with char spots; states whole, stacked (4), torn in two halves, on a tava",
+   "need": "the story's central object",
+   "shotIds": [
+    1,
+    3,
+    4,
+    7,
+    11,
+    13,
+    16,
+    17
+   ],
+   "suggestion": "new art.ts card (same machinery as fxHailBall in Roopkund): cream disc + seeded brown spots; torn variant = two half-discs",
+   "workaround": "cream 'blob' cards"
+  },
+  {
+   "id": "F03",
+   "feature": "Costume details: beard for the hakim, dhoti/angarkha drape; chowkidar's lathi (staff) prop",
+   "need": "pagri/topi/dupatta exist in toon.ts since Roopkund, but beards and a staff do not",
+   "shotIds": [
+    4,
+    9,
+    11
+   ],
+   "suggestion": "toon.ts: beard shape + 'staff' prop (§11.1, §11.3); add pagri/topi/dupatta/beanie to the shot.schema/script-package hat enums",
+   "workaround": "pagri/topi with moustache only; no staff"
+  },
+  {
+   "id": "F04",
+   "feature": "India close-up on the globe with glow dots and route arcs (no text)",
+   "need": "show spread across north India and a dot at Indore",
+   "shotIds": [
+    6,
+    14
+   ],
+   "suggestion": "glow-dot + arc line on the globe texture (§11.8); Roopkund already added globe dots: extend with arcs",
+   "workaround": "sparkle + arrow cards in front of the globe"
+  },
+  {
+   "id": "F05",
+   "feature": "Night light preset",
+   "need": "the hook and ending are night scenes",
+   "shotIds": [
+    1,
+    2,
+    4,
+    10,
+    17
+   ],
+   "suggestion": "deep teal-blue night with moon key, never black (§11.10)",
+   "workaround": "dusk preset"
+  },
+  {
+   "id": "F06",
+   "feature": "Carry-object pose (hand holding a roti while running)",
+   "need": "runner holds the bread",
+   "shotIds": [
+    1,
+    16,
+    17
+   ],
+   "suggestion": "gesture library 'carry' mode with a prop slot (§11.3)",
+   "workaround": "roti card positioned at the hand each frame (pure function of the walk phase)"
+  },
+  {
+   "id": "F07",
+   "feature": "Cantonment set (parade ground, barracks, flagstaff)",
+   "need": "Meerut revolt shot",
+   "shotIds": [
+    12
+   ],
+   "suggestion": "adapt taiga ground + big pole; boxes with facade/roof textures for barracks",
+   "workaround": "village set with box barracks"
+  },
+  {
+   "id": "F08",
+   "feature": "Wire the 'crickets' synth as a cue generator",
+   "need": "night ambience",
+   "shotIds": [
+    1,
+    17
+   ],
+   "suggestion": "one GEN entry in audio/cues.py (§11.9)",
+   "workaround": "low breeze"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "1857 की रहस्यमयी रोटियाँ: गाँव-गाँव किसने भेजीं?",
+   "बग़ावत से पहले उत्तर भारत में घूमती रोटियों का रहस्य",
+   "1857 Chapati Movement: इशारा या हैजे का टोटका?",
+   "चार रोटियाँ, और अंग्रेज़ों की उड़ी नींद | 1857",
+   "रोटियाँ जिनका राज़ आज तक नहीं खुला"
+  ],
+  "thumbnails": [
+   {
+    "concept": "dusk path between mud-hut villages, a chowkidar running with a glowing roti, tiny huts lit behind; top third text",
+    "text": "1857: रोटियाँ किसने भेजीं?"
+   },
+   {
+    "concept": "top-down desk with four rotis in a row and a British magistrate's hand pointing; warm day light",
+    "text": "चार रोटियाँ, बड़ा रहस्य"
+   },
+   {
+    "concept": "split by colour: sepoys marching under a flagstaff (golden, left) vs a roti on a chulha with smoke (dusk, right)",
+    "text": "इशारा या दुआ?"
+   }
+  ],
+  "description": "1857 की शुरुआत में उत्तर भारत में गाँव-गाँव चपातियाँ पहुँच रही थीं। मथुरा के मजिस्ट्रेट मार्क थॉर्नहिल ने लिखा कि एक आदमी ने चौकीदार को एक रोटी दी और कहा, ऐसी चार बनाकर आसपास के गाँवों के चौकीदारों को दो। जाँच हुई, पर ये पता नहीं चला कि इसे किसने शुरू किया, कहाँ से, या क्यों। आगरा के एक अधिकारी (George Harvey) का अंदाज़ा था कि ये एक रात में 100-200 मील बढ़ रही थीं। कुछ अफ़सरों ने इसे बग़ावत का इशारा माना, कुछ ने हैजे से बचने का टोटका; अफ़वाहें धर्म भ्रष्ट करने और लखनऊ दरबार की साज़िश की भी थीं। मई 1857 में मेरठ से बग़ावत शुरू हुई। इतिहासकार Kim A. Wagner के मुताबिक ये शायद इंदौर से हैजे को भगाने की कोशिश के रूप में शुरू हुआ; बग़ावत से इसका कोई रिश्ता साबित नहीं हुआ।\nSources: Mark Thornhill, Personal Adventures and Experiences of a Magistrate (1884), pp. 2-3 (https://archive.org/details/personaladventur00thor); J. W. Kaye, A History of the Sepoy War in India, vol. I, incl. appendix statements (https://archive.org/details/cu31924021098441); Mike Dash, 'The chupatty movement' (https://mikedashhistory.com/2010/09/07/the-chupatty-movement/), citing Kim A. Wagner, The Great Fear of 1857 (Peter Lang, 2010); Encyclopaedia Britannica, 'Meerut'.",
+  "hashtags": [
+   "#1857",
+   "#ChapatiMovement",
+   "#IndianHistory",
+   "#FreedomStruggle",
+   "#Meerut",
+   "#HistoryMystery",
+   "#Hindi",
+   "#Shorts"
+  ],
+  "pinnedComment": "एक बात जो वीडियो में नहीं आ पाई: अवध के एक बयान के मुताबिक वहाँ चौकीदार को दो रोटियाँ मिलीं, और हुक्म था दस और बनाकर पाँच पास के चौकीदारों को दो-दो देने का। यानी हर इलाक़े में गिनती अलग थी। मार्च 1857 में एक अंग्रेज़ डॉक्टर, Gilbert Hadow, ने अपनी बहन को लिखा: 'पूरे भारत में एक बहुत रहस्यमयी चीज़ चल रही है।' आपको क्या लगता है, रोटियाँ इशारा थीं, या दुआ?"
+ }
+}

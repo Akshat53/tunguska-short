@@ -1,0 +1,15 @@
+{
+  "slug": "bombay-1944",
+  "composition": "Bombay1944Short",
+  "title": "बंबई में जब आसमान से सोना बरसा",
+  "channel": "india",
+  "languages": {
+    "hi": {
+      "voice": "ElevenLabs Jessica (final, owner-approved; do not regenerate)",
+      "rate": "",
+      "dir": "hi",
+      "audio": "out/bombay-1944/audio/mix.wav"
+    }
+  },
+  "note": "Audio: bash audio/build_bombay-1944.sh -> out/bombay-1944/audio/. Draft: COMP=Bombay1944Short GL=angle CONC=6 node scripts/render.mjs out/bombay-1944/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1}}'; then SIZE=540x960 INTRO_STATIC=1 AUDIO_OUT=out/bombay-1944/audio INTRO_CARD=brand/bombay-1944-thumb.png OUTRO_CARD=brand/endcard-india.png bash scripts/finish.sh out/bombay-1944/picture-half.mp4 out/bombay-1944/bombay-1944-hi-draft-half.mp4 1.0 3"
+}

@@ -1,0 +1,735 @@
+{
+ "version": 1,
+ "seed": 1857,
+ "cues": [
+  {
+   "id": "night-breeze",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.16,
+    "bright": 700
+   },
+   "post": [],
+   "span": [
+    0,
+    298
+   ],
+   "extra": 0.4,
+   "note": "night air over the village"
+  },
+  {
+   "id": "hook-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.05,
+    "noise": 0.04
+   },
+   "post": [],
+   "span": [
+    0,
+    298
+   ],
+   "note": "low uneasy bed under the hook"
+  },
+  {
+   "id": "runner-steps",
+   "at": 0,
+   "gen": "steps",
+   "args": {
+    "period": 0.33,
+    "pitch": 1.0,
+    "gain": 0.4,
+    "pan0": -0.4,
+    "pan_step": 0.08
+   },
+   "post": [],
+   "span": [
+    0,
+    128
+   ],
+   "start": 4,
+   "note": "bare-foot running on earth"
+  },
+  {
+   "id": "runner2-steps",
+   "at": 150,
+   "gen": "steps",
+   "args": {
+    "period": 0.33,
+    "pitch": 1.0,
+    "gain": 0.35,
+    "pan0": -0.5,
+    "pan_step": 0.12
+   },
+   "post": [],
+   "span": [
+    150,
+    240
+   ],
+   "note": "the runner passes the officers"
+  },
+  {
+   "id": "question-whoosh",
+   "at": 130,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.8,
+    "peak": 0.4,
+    "f_lo": 800,
+    "f_hi": 3000,
+    "width": 0.6
+   },
+   "post": [
+    [
+     "gain",
+     0.2
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "offset": -0.3,
+   "note": "cut to the officers on 'इन्हें भेज कौन'"
+  },
+  {
+   "id": "office-hum",
+   "at": 298,
+   "gen": "hum",
+   "args": {
+    "hz": 110.0,
+    "tone": 0.02,
+    "noise": 0.04
+   },
+   "post": [],
+   "span": [
+    298,
+    415
+   ],
+   "note": "office room tone"
+  },
+  {
+   "id": "count-four",
+   "at": 352,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     72,
+     74,
+     76,
+     79
+    ],
+    "level": 0.35,
+    "spacing": 0.3,
+    "pan0": -0.3,
+    "pan_step": 0.2
+   },
+   "post": [],
+   "note": "one note per roti as they appear (352/361/370/379)"
+  },
+  {
+   "id": "handoff-breeze",
+   "at": 415,
+   "gen": "breeze",
+   "args": {
+    "level": 0.18,
+    "bright": 600
+   },
+   "post": [],
+   "span": [
+    415,
+    576
+   ],
+   "note": "night under the peepal"
+  },
+  {
+   "id": "handoff-glock",
+   "at": 474,
+   "gen": "glock",
+   "args": {
+    "midi": 69,
+    "level": 0.3
+   },
+   "post": [
+    [
+     "pan",
+     -0.2
+    ]
+   ],
+   "note": "the roti changes hands"
+  },
+  {
+   "id": "count-chain",
+   "at": 580,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     64,
+     67,
+     71,
+     76
+    ],
+    "level": 0.35,
+    "spacing": 0.6,
+    "pan0": -0.4,
+    "pan_step": 0.25
+   },
+   "post": [],
+   "sync": true,
+   "word": "चार",
+   "word_index": 43,
+   "word_u": 0.0,
+   "note": "dots multiply 4 -> 16 -> 64"
+  },
+  {
+   "id": "chain-glock",
+   "at": 639,
+   "gen": "glock",
+   "args": {
+    "midi": 83,
+    "level": 0.35
+   },
+   "post": [],
+   "sync": true,
+   "word": "चौंसठ",
+   "word_index": 48,
+   "word_u": 0.0,
+   "note": "'चौंसठ': 64 lights"
+  },
+  {
+   "id": "spread-whoosh",
+   "at": 676,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.2,
+    "peak": 0.6,
+    "f_lo": 300,
+    "f_hi": 2600,
+    "width": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "routes race across the map"
+  },
+  {
+   "id": "miles-whoosh",
+   "at": 746,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.0,
+    "peak": 0.6,
+    "f_lo": 400,
+    "f_hi": 3000,
+    "width": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.3
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "'सौ से दो सौ मील'"
+  },
+  {
+   "id": "office-hum2",
+   "at": 801,
+   "gen": "hum",
+   "args": {
+    "hz": 110.0,
+    "tone": 0.02,
+    "noise": 0.04
+   },
+   "post": [],
+   "span": [
+    801,
+    937
+   ],
+   "note": ""
+  },
+  {
+   "id": "roti-tear",
+   "at": 822,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.25
+    ]
+   ],
+   "note": "dry tear of the bread"
+  },
+  {
+   "id": "nothing-glock",
+   "at": 905,
+   "gen": "glock",
+   "args": {
+    "midi": 69,
+    "level": 0.3
+   },
+   "post": [],
+   "sync": true,
+   "word": "नहीं",
+   "word_index": 69,
+   "word_u": 0.0,
+   "note": "deadpan 'नहीं मिला'"
+  },
+  {
+   "id": "palace-hum",
+   "at": 937,
+   "gen": "hum",
+   "args": {
+    "hz": 73.0,
+    "tone": 0.03,
+    "noise": 0.03
+   },
+   "post": [],
+   "span": [
+    937,
+    1064
+   ],
+   "note": "warm palace room"
+  },
+  {
+   "id": "hakim-glock",
+   "at": 1023,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.25
+   },
+   "post": [
+    [
+     "pan",
+     0.15
+    ]
+   ],
+   "note": "'कोई नहीं जानता'"
+  },
+  {
+   "id": "theory-breeze",
+   "at": 1064,
+   "gen": "breeze",
+   "args": {
+    "level": 0.16,
+    "bright": 700
+   },
+   "post": [],
+   "span": [
+    1064,
+    1226
+   ],
+   "note": ""
+  },
+  {
+   "id": "signal-whoosh",
+   "at": 1103,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.7,
+    "peak": 0.5,
+    "f_lo": 600,
+    "f_hi": 3200
+   },
+   "post": [
+    [
+     "gain",
+     0.25
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "the arrow along the lane on 'बग़ावत'"
+  },
+  {
+   "id": "hearth-crackles",
+   "at": 1149,
+   "gen": "crackles",
+   "args": {
+    "density": 20,
+    "gain": 0.3
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    1149,
+    1226
+   ],
+   "note": "the chulha fire"
+  },
+  {
+   "id": "charm-glock",
+   "at": 1170,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.3
+   },
+   "post": [
+    [
+     "pan",
+     0.2
+    ]
+   ],
+   "note": "the charm glints"
+  },
+  {
+   "id": "meerut-whoosh",
+   "at": 1263,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.6,
+    "peak": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.6
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "offset": -0.6,
+   "note": "lead-in to the flash"
+  },
+  {
+   "id": "meerut-boom",
+   "at": 1263,
+   "gen": "boom",
+   "args": {
+    "dur": 1.4,
+    "f0": 55,
+    "big": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.8
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "sync": true,
+   "word": "मेरठ",
+   "word_index": 98,
+   "word_u": 0.0,
+   "note": "the rising, under flash + kick on 'मेरठ'"
+  },
+  {
+   "id": "meerut-rumble",
+   "at": 1275,
+   "gen": "rumble",
+   "args": {
+    "dur": 3.0,
+    "gain": 0.45,
+    "lo": 30,
+    "hi": 120,
+    "decay": 1.5
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "spreading unrest"
+  },
+  {
+   "id": "march-steps",
+   "at": 1275,
+   "gen": "steps",
+   "args": {
+    "period": 0.4,
+    "pitch": 0.8,
+    "gain": 0.35,
+    "pan0": 0.3,
+    "pan_step": -0.05
+   },
+   "post": [],
+   "span": [
+    1275,
+    1399
+   ],
+   "note": "boots on the parade ground"
+  },
+  {
+   "id": "parade-wind",
+   "at": 1226,
+   "gen": "breeze",
+   "args": {
+    "level": 0.2,
+    "bright": 900
+   },
+   "post": [],
+   "span": [
+    1226,
+    1399
+   ],
+   "note": ""
+  },
+  {
+   "id": "desk-hum",
+   "at": 1399,
+   "gen": "hum",
+   "args": {
+    "hz": 110.0,
+    "tone": 0.02,
+    "noise": 0.03
+   },
+   "post": [],
+   "span": [
+    1399,
+    1549
+   ],
+   "note": ""
+  },
+  {
+   "id": "indore-glock",
+   "at": 1549,
+   "gen": "glock",
+   "args": {
+    "midi": 76,
+    "level": 0.45
+   },
+   "post": [],
+   "sync": true,
+   "word": "इंदौर",
+   "word_index": 122,
+   "word_u": 0.0,
+   "note": "the Indore dot lights"
+  },
+  {
+   "id": "indore-notes",
+   "at": 1568,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     72,
+     76
+    ],
+    "level": 0.25,
+    "spacing": 0.35,
+    "pan0": -0.3,
+    "pan_step": 0.3
+   },
+   "post": [],
+   "note": "routes radiate north"
+  },
+  {
+   "id": "end-breeze",
+   "at": 1641,
+   "gen": "breeze",
+   "args": {
+    "level": 0.16,
+    "bright": 600
+   },
+   "post": [],
+   "span": [
+    1641,
+    2085
+   ],
+   "note": "back to the night"
+  },
+  {
+   "id": "question-glock",
+   "at": 1790,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.3
+   },
+   "post": [],
+   "sync": true,
+   "word": "इशारा",
+   "word_index": 143,
+   "word_u": 0.0,
+   "note": "'इशारा या दुआ?'"
+  },
+  {
+   "id": "end-steps",
+   "at": 1868,
+   "gen": "steps",
+   "args": {
+    "period": 0.33,
+    "pitch": 1.0,
+    "gain": 0.35,
+    "pan0": -0.4,
+    "pan_step": 0.08
+   },
+   "post": [],
+   "span": [
+    1868,
+    2085
+   ],
+   "note": "same footsteps as the hook: the loop"
+  },
+  {
+   "id": "end-glock",
+   "at": 2041,
+   "gen": "glock",
+   "args": {
+    "midi": 69,
+    "level": 0.3
+   },
+   "post": [],
+   "sync": true,
+   "word": "रोटियाँ",
+   "word_index": 158,
+   "word_u": 0.0,
+   "note": "soft unresolved note into the loop"
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.6,
+  "arp_level": 0.7,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     2
+    ],
+    "chord": "Dm",
+    "level": 0.8
+   },
+   {
+    "name": "office",
+    "shots": [
+     3,
+     4
+    ],
+    "chord": "F",
+    "level": 0.85
+   },
+   {
+    "name": "spread",
+    "shots": [
+     5,
+     6
+    ],
+    "chord": "Gm",
+    "level": 0.95
+   },
+   {
+    "name": "mystery",
+    "shots": [
+     7,
+     9
+    ],
+    "chord": "Dm",
+    "level": 0.8
+   },
+   {
+    "name": "theories",
+    "shots": [
+     10,
+     11
+    ],
+    "chord": "Bb",
+    "level": 0.85
+   },
+   {
+    "name": "revolt",
+    "shots": [
+     12,
+     12
+    ],
+    "chord": "A",
+    "level": 1.05
+   },
+   {
+    "name": "payoff",
+    "shots": [
+     13,
+     16
+    ],
+    "chord": "C",
+    "level": 0.8
+   },
+   {
+    "name": "ending",
+    "shots": [
+     17,
+     18
+    ],
+    "chord": "Dm",
+    "level": 0.6
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.03,
+  "fade_out": 0.6
+ },
+ "_doc": "1857 chapati (Hindi) sound design: frames are picture frames authored on stories/chapati-1857/hi/words.json (frame = round(start*30)). Run with STORY=chapati-1857 CUES_FILE=audio/cues.chapati-1857.json (see audio/build_chapati-1857.sh)."
+}

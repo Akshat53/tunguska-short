@@ -1,0 +1,404 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 1960,
+ "scenes": [
+  "city",
+  "harbour",
+  "memorial",
+  "dredge"
+ ],
+ "words": "stories/bombay-1944/hi/words.json",
+ "events": {
+  "flashAt": 766,
+  "flashes": [
+   [
+    848,
+    0.6
+   ]
+  ],
+  "hits": [
+   766,
+   848
+  ],
+  "kicks": [
+   [
+    766,
+    1.0
+   ],
+   [
+    848,
+    0.6
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "rooftops",
+  "goldBar",
+  "resident",
+  "ship",
+  "hold",
+  "firemen",
+  "blast",
+  "cityFire",
+  "dredger",
+  "worker",
+  "column",
+  "officer"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 112,
+   "light": "golden",
+   "scene": "city",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: gold bars rain over Bombay's tiled rooftops (low angle, push-in)"
+  },
+  {
+   "id": 2,
+   "a": 112,
+   "b": 242,
+   "light": "golden",
+   "scene": "city",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 112,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "'सोने से कीमती कुछ खोया': a bar on the cobbles, people look up"
+  },
+  {
+   "id": 3,
+   "a": 242,
+   "b": 412,
+   "light": "day",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 242,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "xfade": 10,
+   "note": "Victoria Dock, 14 April 1944: the Fort Stikine at the quay"
+  },
+  {
+   "id": 4,
+   "a": 412,
+   "b": 550,
+   "light": "day",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 412,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "note": "down into the open No. 2 hold: cotton, explosives, gold crates"
+  },
+  {
+   "id": 5,
+   "a": 550,
+   "b": 616,
+   "light": "day",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 550,
+     "fn": "S5a"
+    }
+   ],
+   "dof": [],
+   "note": "'दोपहर में जहाज़ में आग लगी': smoke curls out of the hatch"
+  },
+  {
+   "id": 6,
+   "a": 616,
+   "b": 704,
+   "light": "day",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 616,
+     "fn": "S6a"
+    },
+    {
+     "f": 662,
+     "fn": "S6b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "the firemen fight it with hoses (tracking profile)"
+  },
+  {
+   "id": 7,
+   "a": 704,
+   "b": 756,
+   "light": "day",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 704,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "'चार बजे के बाद': the last quiet wide frame"
+  },
+  {
+   "id": 8,
+   "a": 756,
+   "b": 870,
+   "light": "day",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 756,
+     "fn": "S8a"
+    },
+    {
+     "f": 838,
+     "fn": "S8b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "two explosions seen from across the basin"
+  },
+  {
+   "id": 9,
+   "a": 870,
+   "b": 946,
+   "light": "golden",
+   "scene": "city",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 870,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "fire spreads into the city; people move away"
+  },
+  {
+   "id": 10,
+   "a": 946,
+   "b": 994,
+   "light": "dusk",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 946,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "note": "'सैकड़ों जानें गईं': the empty quay, a hose on the stones"
+  },
+  {
+   "id": 11,
+   "a": 994,
+   "b": 1102,
+   "light": "dusk",
+   "scene": "city",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 994,
+     "fn": "S11a"
+    },
+    {
+     "f": 1030,
+     "fn": "S11b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "fog": [
+    6,
+    60
+   ],
+   "note": "'और सोना?': one bar on the cobbles; cut on 'उसका' to the recovery (crate of bars, clerk with ledger)"
+  },
+  {
+   "id": 12,
+   "a": 1102,
+   "b": 1246,
+   "light": "day",
+   "scene": "dredge",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1102,
+     "fn": "S12a"
+    },
+    {
+     "f": 1184,
+     "fn": "S12b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "xfade": 12,
+   "note": "2011: a dredger in the harbour; small bars in the mud"
+  },
+  {
+   "id": 13,
+   "a": 1246,
+   "b": 1290,
+   "light": "day",
+   "scene": "dredge",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1246,
+     "fn": "S13a"
+    }
+   ],
+   "dof": [],
+   "note": "'सोना लौट आया': two small bars on wet mud"
+  },
+  {
+   "id": 14,
+   "a": 1290,
+   "b": 1415,
+   "light": "dusk",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1290,
+     "fn": "S14a"
+    }
+   ],
+   "dof": [],
+   "xfade": 10,
+   "note": "REVEAL: the 66 firemen never came back; the brigade stands"
+  },
+  {
+   "id": 15,
+   "a": 1415,
+   "b": 1527,
+   "light": "golden",
+   "scene": "harbour",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1415,
+     "fn": "S15a"
+    }
+   ],
+   "dof": [],
+   "note": "they ran toward the fire while everyone ran away"
+  },
+  {
+   "id": 16,
+   "a": 1527,
+   "b": 1674,
+   "light": "golden",
+   "scene": "memorial",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1527,
+     "fn": "S16a"
+    }
+   ],
+   "dof": [],
+   "xfade": 14,
+   "note": "Byculla memorial column; a firefighter salutes (Fire Service Day)"
+  },
+  {
+   "id": 17,
+   "a": 1674,
+   "b": 1792,
+   "light": "golden",
+   "scene": "memorial",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1674,
+     "fn": "S17a"
+    }
+   ],
+   "dof": [],
+   "note": "orbit around the column (viewer question)"
+  },
+  {
+   "id": 18,
+   "a": 1792,
+   "b": 1960,
+   "light": "golden",
+   "scene": "city",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1792,
+     "fn": "S18a"
+    }
+   ],
+   "dof": [],
+   "xfade": 12,
+   "note": "LOOP: back to the rooftops, last glints; ends on shot 1's first frame"
+  }
+ ]
+}

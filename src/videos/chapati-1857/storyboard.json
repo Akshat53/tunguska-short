@@ -1,0 +1,399 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 2085,
+ "scenes": [
+  "village",
+  "plain",
+  "office",
+  "map",
+  "palace",
+  "cantonment",
+  "archive"
+ ],
+ "words": "stories/chapati-1857/hi/words.json",
+ "events": {
+  "flashAt": 1263,
+  "flashes": [
+   [
+    1263,
+    0.7
+   ]
+  ],
+  "hits": [
+   1263
+  ],
+  "kicks": [
+   [
+    1263,
+    0.6
+   ],
+   [
+    822,
+    0.2
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "runner",
+  "officers",
+  "desk",
+  "handoff",
+  "villages",
+  "map",
+  "tearer",
+  "hakim",
+  "pointer",
+  "chulha",
+  "sepoys",
+  "historian",
+  "indore",
+  "loner",
+  "roti"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 130,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: the chowkidar runs between huts at night holding a roti (tracking profile)"
+  },
+  {
+   "id": 2,
+   "a": 130,
+   "b": 298,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 130,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "'इन्हें भेज कौन रहा है?': two British officers at the village edge turn to watch the runner pass"
+  },
+  {
+   "id": 3,
+   "a": 298,
+   "b": 415,
+   "light": "day",
+   "scene": "office",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 298,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "note": "Mathura: four rotis appear one by one on the magistrate's desk (4th on 'चार' 379)",
+   "xfade": 8
+  },
+  {
+   "id": 4,
+   "a": 415,
+   "b": 576,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 415,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "note": "the hooded stranger hands a roti to the chowkidar under the peepal ('ऐसी चार बनाओ, आगे पहुँचाओ')"
+  },
+  {
+   "id": 5,
+   "a": 576,
+   "b": 666,
+   "light": "night",
+   "scene": "plain",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 576,
+     "fn": "S5a"
+    }
+   ],
+   "dof": [],
+   "note": "aerial: glow dots multiply 4 (580) -> 16 (597) -> 64 (639) over a plain of villages, camera cranes up"
+  },
+  {
+   "id": 6,
+   "a": 666,
+   "b": 801,
+   "light": "map",
+   "scene": "map",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 666,
+     "fn": "S6a"
+    }
+   ],
+   "dof": [],
+   "note": "map of north India: routes race outward in one night (100-200 miles)",
+   "xfade": 10
+  },
+  {
+   "id": 7,
+   "a": 801,
+   "b": 898,
+   "light": "day",
+   "scene": "office",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 801,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "an official tears a roti open looking for a letter (tear at 822)",
+   "xfade": 8
+  },
+  {
+   "id": 8,
+   "a": 898,
+   "b": 937,
+   "light": "day",
+   "scene": "office",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 898,
+     "fn": "S8a"
+    }
+   ],
+   "dof": [],
+   "note": "'कुछ नहीं मिला': close on the official, two empty halves"
+  },
+  {
+   "id": 9,
+   "a": 937,
+   "b": 1064,
+   "light": "golden",
+   "scene": "palace",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 937,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "Delhi palace room: the hakim (white beard) says nobody knows the purpose",
+   "xfade": 8
+  },
+  {
+   "id": 10,
+   "a": 1064,
+   "b": 1149,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1064,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "note": "theory 1: an officer points down the lane: a signal of revolt",
+   "xfade": 8
+  },
+  {
+   "id": 11,
+   "a": 1149,
+   "b": 1226,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1149,
+     "fn": "S11a"
+    }
+   ],
+   "dof": [],
+   "note": "theory 2: rotis baked at the chulha, a charm against cholera"
+  },
+  {
+   "id": 12,
+   "a": 1226,
+   "b": 1399,
+   "light": "golden",
+   "scene": "cantonment",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1226,
+     "fn": "S12a"
+    },
+    {
+     "f": 1263,
+     "fn": "S12b",
+     "cut": true
+    },
+    {
+     "f": 1333,
+     "fn": "S12c",
+     "dur": 50
+    }
+   ],
+   "dof": [],
+   "note": "Meerut, May: flash + kick on 'मेरठ' (1263), sepoys rise; smoke spreads (no gore)"
+  },
+  {
+   "id": 13,
+   "a": 1399,
+   "b": 1460,
+   "light": "dusk",
+   "scene": "office",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1399,
+     "fn": "S13a"
+    }
+   ],
+   "dof": [],
+   "note": "callback: the four rotis on the desk at lamp-light",
+   "xfade": 10
+  },
+  {
+   "id": 14,
+   "a": 1460,
+   "b": 1549,
+   "light": "golden",
+   "scene": "archive",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1460,
+     "fn": "S14a"
+    }
+   ],
+   "dof": [],
+   "note": "historian at an archive table with old papers",
+   "xfade": 8
+  },
+  {
+   "id": 15,
+   "a": 1549,
+   "b": 1641,
+   "light": "map",
+   "scene": "map",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1549,
+     "fn": "S15a"
+    }
+   ],
+   "dof": [],
+   "note": "map: a warm dot lights at Indore (1549), routes radiate north"
+  },
+  {
+   "id": 16,
+   "a": 1641,
+   "b": 1748,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1641,
+     "fn": "S16a"
+    }
+   ],
+   "dof": [],
+   "note": "'साबित नहीं हुआ': the lone chowkidar at a crossroads, camera pulls up and away",
+   "xfade": 10
+  },
+  {
+   "id": 17,
+   "a": 1748,
+   "b": 1844,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1748,
+     "fn": "S17a"
+    }
+   ],
+   "dof": [],
+   "note": "'इशारा या दुआ?': close on the chowkidar holding up a roti"
+  },
+  {
+   "id": 18,
+   "a": 1844,
+   "b": 2085,
+   "light": "night",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1844,
+     "fn": "S18a"
+    }
+   ],
+   "dof": [],
+   "note": "LOOP: the runner sets off again; the camera lands on shot 1's first framing",
+   "xfade": 12
+  }
+ ]
+}

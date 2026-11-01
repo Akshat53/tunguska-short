@@ -1,0 +1,51 @@
+RHYTHM REPORT — verdict FAIL
+duration 88.2 s (estimate) | 242 words | 2.86 words/s (speech-only 2.86) | 26 sentences
+to hit the target duration the voice needs 4.71 words/s
+sentence length: mean 9.31 std 4.52 CV 0.49 (healthy 0.35-0.9) min 2 max 17
+histogram: 1-3:####4  4-6:###3  7-10:#########9  11-15:########8  16-20:##2  21+:0
+pauses: 14 totalling 3.6 s, mean 0.26 s; longest run without a pause 10.9 s
+ellipses 0 | questions 2 (unanswered: none) | density mean 0.31 max 3
+hook (first 3 s): "बंबई के आसमान से, सोने की ईंटें बरस रही" -> 7/10 (first sentence 10 words (good); concrete name/number)
+intensity per 5 s: ▃▂▄▃▂▂▄▄▂▂▂▂▄▄▃▄▄▂  [3.5, 3.0, 4.5, 3.5, 3.0, 3.0, 4.5, 4.5, 3.0, 3.0, 3.0, 3.0, 4.5, 4.8, 3.5, 5.0, 5.5, 3.0]  peak S19 at 66.1 s
+script mix: Devanagari 242 | Roman 0 | numeric 0 | Roman share 0%
+
+sentences:
+  S1     0.0s  10w  int  3.5  बंबई के आसमान से, सोने की ईंटें बरस रही थीं।
+  S2     3.8s  11w  int  3.0  कुछ ईंटें तो उड़कर शहर के अंदर, घरों तक जा गिरीं।
+  S3     7.6s  14w  int  4.0  पर उस दिन बंबई ने जो खोया, वो सोने से कहीं ज़्यादा कीमती था।
+  S4    12.8s   5w  int  5.0  चौदह अप्रैल, उन्नीस सौ चौवालीस।
+  S5    14.6s   9w  int  4.0  विक्टोरिया डॉक में खड़ा एक मालवाहक जहाज़, फ़ोर्ट स्टिकीन।
+  S6    17.7s   7w  int  3.0  उसमें करीब चौदह सौ टन विस्फोटक था।
+  S7    20.2s  10w  int  3.0  साथ में रूई की गांठें, और सोने से भरे बक्से।
+  S8    23.9s   7w  int  3.0  दोपहर में जहाज़ के अंदर आग दिखी।
+  S9    26.6s  14w  int  3.0  बंबई फ़ायर ब्रिगेड के जवान पहुँचे, और घंटों तक पाइप से पानी डालते रहे।
+  S10   31.5s   7w  int  3.5  फिर, चार बजे के कुछ ही बाद,
+  S11   34.1s   2w  int  5.5  पहला धमाका।
+  S12   35.1s   5w  int  4.5  करीब आधे घंटे बाद, दूसरा।
+  S13   37.1s  17w  int  3.0  आसपास के कई जहाज़ डूब गए, और आग डॉक से निकलकर शहर की बस्तियों तक फैल गई।
+  S14   43.1s   8w  int  3.0  सैकड़ों लोगों की जान गई, हज़ारों घायल हुए।
+  S15   46.2s   9w  int  3.0  और उनमें थे, बंबई फ़ायर ब्रिगेड के छियासठ जवान।
+  S16   49.5s  16w  int  3.0  वो लोग, जो आग की तरफ़ दौड़े थे, जब बाकी सब उससे दूर भाग रहे थे।
+  S17   55.4s  15w  int  3.0  इसीलिए आज, हर चौदह अप्रैल को, देश भर में फ़ायर सर्विस डे मनाया जाता है।
+  S18   60.6s  14w  int  4.5  बायकुला में फ़ायर ब्रिगेड के मुख्यालय पर, उनकी याद में एक स्मारक खड़ा है।
+  S19   65.7s   2w  int  6.5  और सोना?
+  S20   66.6s   7w  int  3.0  उसका ज़्यादातर हिस्सा बाद में मिल गया।
+  S21   69.1s  15w  int  3.5  दो हज़ार ग्यारह में भी, बंदरगाह की खुदाई में, सोने की दो छोटी ईंटें निकलीं।
+  S22   74.6s   3w  int  5.5  सोना लौट आया।
+  S23   75.7s   6w  int  5.5  पर वो जवान, कभी नहीं लौटे।
+  S24   78.1s  11w  int  4.0  आपके शहर में, चौदह अप्रैल को इन्हें याद किया जाता है?
+  S25   81.9s   3w  int  5.5  कमेंट में बताइए।
+  S26   83.0s  15w  int  3.0  और अगली बार कोई कहे कि बंबई में सोना बरसा था, तो पूरी कहानी सुनाइएगा।
+
+HARD FAILURES:
+  ✗ duration 88.2 s outside 30-75 s (use --allow-length to override)
+  ✗ to fit 55 s the voice would need 4.71 words/s (> 3.4): cut words
+FINDINGS + REWRITE SUGGESTIONS:
+  [MEDIUM] DENSE                S5: S5 packs 3 new names/numbers (विक्टोरिया डॉक, फ़ोर्ट स्टिकीन, एक)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [LOW   ] REPEATED_PHRASE      -: phrase "बंबई फायर ब्रिगेड" occurs 2 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).
+  [LOW   ] REPEATED_PHRASE      -: phrase "फायर ब्रिगेड के" occurs 3 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).
+  [LOW   ] REPEATED_PHRASE      -: phrase "चौदह अप्रैल को" occurs 2 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).

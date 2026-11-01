@@ -1,0 +1,53 @@
+RHYTHM REPORT — verdict FAIL
+duration 92.7 s (estimate) | 265 words | 2.86 words/s (speech-only 2.86) | 24 sentences
+to hit the target duration the voice needs 4.82 words/s
+sentence length: mean 11.04 std 4.53 CV 0.41 (healthy 0.35-0.9) min 3 max 20
+histogram: 1-3:#1  4-6:##2  7-10:###########11  11-15:####4  16-20:######6  21+:0
+pauses: 0 totalling 0.0 s, mean 0 s; longest run without a pause 92.7 s
+ellipses 0 | questions 4 (unanswered: none) | density mean 0.54 max 3
+hook (first 3 s): "रात के अंधेरे में, गाँव से गाँव दौड़ती रोटियाँ।" -> 6/10 (first sentence 9 words (good))
+intensity per 5 s: ▂▄▄▂▂▄▂▄▄▄▂▁▂▃▃▂▃▃▃  [3.2, 4.5, 5.0, 3.0, 3.0, 4.5, 2.5, 5.2, 5.0, 4.5, 3.0, 2.0, 3.2, 4.0, 3.8, 3.0, 4.0, 4.0, 4.0]  peak S10 at 37.6 s
+script mix: Devanagari 265 | Roman 0 | numeric 0 | Roman share 0%
+
+sentences:
+  S1     0.0s   9w  int  3.0  रात के अंधेरे में, गाँव से गाँव दौड़ती रोटियाँ।
+  S2     3.1s   7w  int  3.5  अठारह सौ सत्तावन की शुरुआत, उत्तर भारत।
+  S3     5.6s  14w  int  4.5  और अंग्रेज़ अफ़सर एक ही सवाल पूछ रहे थे, इन्हें भेज कौन रहा है?
+  S4    10.5s  16w  int  5.0  जनवरी के आख़िर में, मथुरा के मजिस्ट्रेट मार्क थॉर्नहिल को अपनी मेज़ पर मिलीं, च…
+  S5    16.1s  11w  int  3.0  एक अजनबी ने गाँव के चौकीदार को एक रोटी दी थी।
+  S6    19.9s  13w  int  3.0  हुक्म था, ऐसी चार बनाओ, और आसपास के गाँवों के चौकीदारों तक पहुँचाओ।
+  S7    24.5s   6w  int  4.5  एक से चार, चार से सोलह।
+  S8    26.6s  20w  int  2.5  एक अंग्रेज़ अफ़सर ने हिसाब लगाया, ये लहर एक रात में सौ से दो सौ मील आगे बढ़ रही…
+  S9    33.6s  10w  int  5.0  अंग्रेज़ों ने रोटियाँ तोड़कर देखीं, अंदर कोई ख़त तो नहीं?
+  S10   37.1s   3w  int  6.5  कुछ नहीं मिला।
+  S11   38.1s  10w  int  4.0  चौकीदार भी नहीं जानते थे, बस आगे बढ़ा देते थे।
+  S12   41.6s  16w  int  5.0  दिल्ली में बादशाह के हकीम तक ने कहा, किसी को नहीं पता इसका मक़सद क्या था।
+  S13   47.2s   4w  int  4.5  तो अंदाज़े लगने लगे।
+  S14   48.6s   9w  int  3.0  कुछ अफ़सरों को लगा, ये बग़ावत का इशारा है।
+  S15   51.8s  19w  int  2.0  कुछ ने कहा, ये हैजे से बचने का टोटका है, क्योंकि पिछले साल कई ज़िलों में हैजा फ…
+  S16   58.4s  13w  int  3.0  अफ़वाह ये भी थी कि सरकार लोगों का धर्म भ्रष्ट करना चाहती है।
+  S17   62.9s  10w  int  3.5  फिर मई में, मेरठ में सिपाहियों ने बग़ावत कर दी।
+  S18   66.4s   7w  int  4.0  तो क्या रोटियाँ सच में इशारा थीं?
+  S19   68.9s   7w  int  4.0  इतिहासकार किम वैगनर ने पुराने काग़ज़ खंगाले।
+  S20   71.3s  17w  int  3.5  उनके हिसाब से ये शायद इंदौर से शुरू हुआ, हैजे को भगाने की एक रस्म की तरह।
+  S21   77.3s   9w  int  3.0  और रास्ते में, इसका असली मतलब कहीं खो गया।
+  S22   80.4s   9w  int  4.0  बग़ावत से इसका रिश्ता, आज तक साबित नहीं हुआ।
+  S23   83.6s   9w  int  4.0  आपको क्या लगता है, ये इशारा था, या दुआ?
+  S24   86.7s  17w  int  4.0  जवाब किसी के पास नहीं, बस वो रातें बची हैं, जब गाँव से गाँव रोटियाँ दौड़ती थीं।
+
+HARD FAILURES:
+  ✗ duration 92.7 s outside 30-75 s (use --allow-length to override)
+  ✗ to fit 55 s the voice would need 4.82 words/s (> 3.4): cut words
+FINDINGS + REWRITE SUGGESTIONS:
+  [MEDIUM] NO_BEAT              S1,S2,S3,S4,S5,S6,S7,S8…: 93 s of continuous speech without a pause (0.0-92.7 s)
+           -> add [pause 0.3] after S10 (the strongest line in the stretch) or a blank-line beat break.
+  [MEDIUM] DENSE                S4: S4 packs 3 new names/numbers (मथुरा, थॉर्नहिल, चार)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [MEDIUM] REPEATED_OPENER      S7,S8: 2 sentences in a row start with "एक" (S7-S8)
+           -> start S8 with its subject or a time/place ("अंग्रेज़ अफ़सर ने हिसाब लगाया, ये लहर ए…"), or join two with a contrast/cause (लेकिन / इसलिए).
+  [MEDIUM] DENSE                S12: S12 packs 3 new names/numbers (दिल्ली, हकीम, बादशाह)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [MEDIUM] REPEATED_OPENER      S14,S15: 2 sentences in a row start with "कुछ" (S14-S15)
+           -> start S15 with its subject or a time/place ("ने कहा, ये हैजे से बचने का टोटका है, क्…"), or join two with a contrast/cause (लेकिन / इसलिए).
+  [LOW   ] REPEATED_PHRASE      -: phrase "गांव से गांव" occurs 2 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).
