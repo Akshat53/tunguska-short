@@ -1,8 +1,14 @@
+# YOUR ACCOUNTS (confirmed by the owner, 2026-11-01)
+- Instagram: https://www.instagram.com/theinkfallstudio   (handle @theinkfallstudio)
+- YouTube:   https://www.youtube.com/@inkfallshorts   (handle @inkfallshorts)
+- Note: the two handles differ (theinkfallstudio vs inkfallshorts). That is fine; put each platform's link in the other's bio so people find you either way.
+- Put in the Instagram bio link: https://www.youtube.com/@inkfallshorts   |   put in YouTube Studio > Customization > Links: https://www.instagram.com/theinkfallstudio
+
 # Inkfall — YouTube setup (copy/paste)
 
 ## Channel 1: Inkfall (global, English)
 **Name:** Inkfall
-**Handle:** @inkfall (fallbacks: @inkfallshorts, @inkfall.official, @watchinkfall)
+**Handle:** @inkfallshorts (created)
 **Avatar:** brand/inkfall-global.png  **Banner:** brand/banner-global.png (2048x1152)
 
 **Description (About):**

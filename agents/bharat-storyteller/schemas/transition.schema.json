@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Transition INTO a shot (engine: storyboard xfade, events.flashAt / events.flashes; see ENGINE_CAPABILITIES.md §7)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type"],
+  "properties": {
+    "type": { "type": "string", "enum": ["open", "cut", "xfade", "flash", "xfade-flash"], "description": "open = first shot only; flash = hard cut under a white flash" },
+    "frames": { "type": "integer", "minimum": 2, "maximum": 30, "description": "xfade length in frames (storyboard shot.xfade); required for xfade / xfade-flash" },
+    "flashPeak": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "white flash peak (events.flashes [frame, peak], 10-frame fall); required for flash / xfade-flash" },
+    "reason": { "type": "string" }
+  }
+}

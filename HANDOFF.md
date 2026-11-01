@@ -48,7 +48,13 @@ Open: jitter report unresolved (no timestamps; frame-diff spikes found were cuts
 Nothing is wired in yet; owner has not chosen between re-voicing Tunguska, the Hindi voice, or SDK-only. Never ask for a key in chat.
 
 ## 3c. ENGINE UPGRADE PLAN
-See `docs/AUDIT_AND_ROADMAP.md` (architecture audit, measured bottlenecks, ordered roadmap with acceptance tests). **Step 1 (storyboard config + validation) is DONE** — `docs/STORYBOARD.md`, `npm test`; timeline and render proven bit-identical. **Step 2 (production render pipeline) is DONE** — `npm run produce`, `docs/PRODUCTION.md`. **Step 3 (audio cue system) is DONE** — `audio/cues.json`, `npm run audio`, `docs/AUDIO.md`. **Step 4 (camera director) is DONE** — `src/engine/camera`, `docs/CAMERA.md`, upgraded set behind `{"camera":"upgraded"}`. Steps 5-9 not started.
+See `docs/AUDIT_AND_ROADMAP.md` (architecture audit, measured bottlenecks, ordered roadmap with acceptance tests). **Step 1 (storyboard config + validation) is DONE** — `docs/STORYBOARD.md`, `npm test`; timeline and render proven bit-identical. **Step 2 (production render pipeline) is DONE** — `npm run produce`, `docs/PRODUCTION.md`. **Step 3 (audio cue system) is DONE** — `audio/cues.json`, `npm run audio`, `docs/AUDIO.md`. **Step 4 (camera director) is DONE** — `src/engine/camera`, `docs/CAMERA.md`, upgraded set behind `{"camera":"upgraded"}`. **Step 5 (visual QA system) is DONE** — `scripts/visual_qa.py`, `bash scripts/test-visual-qa.sh` (13 injected faults, 0 misses, re-run and verified by the coordinator), `docs/VISUAL_QA.md`. Its real findings on tunguska-final3.mp4 (verified on frames): rock off-screen in shot 6 (frames ~646-739), near-empty pink sky in shot 13, left herder touches the edge in shot 20, last ~12 frames frozen by the time-warp hold. NOT fixed yet (owner decision). Steps 6-9 not started.
+
+## 3d. BHARAT STORYTELLER (Indian Shorts script agent)
+`agents/bharat-storyteller/` (AGENT.md, roles/, schemas/, tools/ validate.mjs + rhythm.py, 38 passing tests via tools/test_tools.sh) and `.claude/agents/bharat-storyteller.md`. Research for Saraighat / Roopkund / Iron Pillar is in examples/ with a 'coordinatorVerification' section each (read it: it lists what was independently confirmed and what must not be used).
+
+## 3e. OWNER ACCOUNTS
+YouTube https://www.youtube.com/@inkfallshorts ; Instagram https://www.instagram.com/theinkfallstudio . See brand/youtube-setup.md and brand/instagram-setup.md.
 Known hazard: `render.mjs`/`stills.mjs` delete all `remotion-webpack-bundle-*` in the shared temp dir on exit (fix in roadmap item 2).
 
 ## 4. PIPELINE (new language / new story) — see NEW_STORY.md and `make.sh`

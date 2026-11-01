@@ -1,0 +1,283 @@
+{
+ "_doc": "Per-story config for the visual QA (scripts/qa-story-data.mjs -> qa-story.json -> scripts/visual_qa.py). Frames here are STORY frames (storyboard.json). See docs/VISUAL_QA.md.",
+ "story": "src/videos/tunguska/story.ts",
+ "storyboard": "src/videos/tunguska/storyboard.json",
+ "warp": "src/videos/tunguska/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 24,
+  "outro": 90
+ },
+ "bookendWhiteFadeIn": 5,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "_subjectGeometry": "world-space box around the subject's anchor point (DIRECTOR_SUBJECTS[name].at): metres below / above the anchor and half width; OR screenW/screenH = a box of that fraction of the frame width around the projected anchor (fx cards drawn at constant screen size, cast.ts scr()). Approximate: findings that depend on it are warn-level.",
+ "subjectGeometry": {
+  "herder1": {
+   "below": 1.55,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "herder2": {
+   "below": 1.45,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "deer": {
+   "below": 1.1,
+   "above": 0.5,
+   "halfWidth": 0.8
+  },
+  "camp": {
+   "below": 1.5,
+   "above": 2.0,
+   "halfWidth": 4.0
+  },
+  "gzHerder": {
+   "below": 1.45,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "heroTree": {
+   "below": 4.5,
+   "above": 4.5,
+   "halfWidth": 2.5
+  },
+  "burst": {
+   "screenW": 0.3,
+   "screenH": 0.3
+  },
+  "rock": {
+   "screenW": 0.18,
+   "screenH": 0.18
+  },
+  "expedition": {
+   "below": 1.1,
+   "above": 0.7,
+   "halfWidth": 1.5
+  }
+ },
+ "_extraSubjects": "subjects that are not DIRECTOR_SUBJECTS: a function exported by story.ts, called with the shot's event clock ('clock') or the story frame ('frame')",
+ "extraSubjects": {
+  "rock": {
+   "fn": "rockAt",
+   "arg": "clock"
+  },
+  "expedition": {
+   "fn": "EXPED",
+   "arg": "frame"
+  }
+ },
+ "audioSync": {
+  "_doc": "events (kind, story frame) that have no sharp sound on purpose; every other flash / hit / kick is expected to have an audio onset. flash 312 = faint light streak (0.35, cue 'action-shimmer' is a slow whoosh); flash 164 = the hook-end white transition flash: audio/cue_sheet.csv has no cue on it (only the slow 'hook-shimmer' whoosh from 158)",
+  "noAudioExpected": [
+   [
+    "flash",
+    312
+   ],
+   [
+    "flash",
+    164
+   ]
+  ]
+ },
+ "composition": {
+  "eyeY": [
+   0.2,
+   0.6
+  ],
+  "minHeadroom": 0.02,
+  "eyeSubjects": [
+   "herder1",
+   "herder2",
+   "gzHerder"
+  ]
+ },
+ "shots": {
+  "1": {
+   "subjects": [],
+   "motion": "moving",
+   "note": "aerial hook; the fireball card is drawn with screen-space offsets, not registered as a subject"
+  },
+  "2": {
+   "subjects": [
+    {
+     "name": "camp",
+     "required": false
+    }
+   ],
+   "motion": "moving",
+   "note": "river glide; the camp only appears at the end (default camera: 0% in safe area, see docs/CAMERA.md)"
+  },
+  "3": {
+   "subjects": [
+    "herder1",
+    "herder2",
+    {
+     "name": "deer",
+     "required": false
+    }
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": [
+     0.2,
+     0.7
+    ]
+   }
+  },
+  "4": {
+   "subjects": [
+    {
+     "name": "herder1",
+     "from": 362
+    },
+    {
+     "name": "herder2",
+     "from": 362
+    }
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": [
+     0.3,
+     1.2
+    ]
+   },
+   "note": "4a looks up past the herders (no required subject), 4b = faces close-up"
+  },
+  "5": {
+   "subjects": [
+    "rock"
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": null
+   },
+   "note": "fx card drawn at a constant screen size: fill is not a distance choice, so it is not checked"
+  },
+  "6": {
+   "subjects": [
+    "rock"
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": null
+   },
+   "note": "fx card drawn at a constant screen size: fill is not a distance choice, so it is not checked"
+  },
+  "7": {
+   "subjects": [
+    {
+     "name": "burst",
+     "from": 671
+    }
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": null
+   },
+   "note": "fx card drawn at a constant screen size: fill is not a distance choice, so it is not checked"
+  },
+  "8": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "9": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "10": {
+   "subjects": [
+    {
+     "name": "camp",
+     "required": false
+    }
+   ],
+   "motion": "moving",
+   "note": "tents into the air; camp box (8 m) is larger than the frame on purpose"
+  },
+  "11": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "12": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "13": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "14": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "15": {
+   "subjects": [
+    "heroTree"
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": [
+     0.2,
+     0.9
+    ]
+   }
+  },
+  "16": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "17": {
+   "subjects": [
+    "gzHerder"
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": [
+     0.15,
+     0.8
+    ]
+   }
+  },
+  "18": {
+   "subjects": [
+    "expedition"
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": [
+     0.05,
+     0.6
+    ]
+   }
+  },
+  "19": {
+   "subjects": [],
+   "motion": "moving"
+  },
+  "20": {
+   "subjects": [
+    {
+     "name": "herder1",
+     "to": 1996
+    },
+    {
+     "name": "herder2",
+     "to": 1996
+    }
+   ],
+   "motion": "moving",
+   "framing": {
+    "fill": [
+     0.2,
+     0.7
+    ]
+   },
+   "note": "herders leave the frame on purpose in the crane-out (20b)"
+  }
+ }
+}

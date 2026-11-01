@@ -1,0 +1,778 @@
+{
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "fixture-rani-ki-vav",
+  "title": "TEST FIXTURE — Rani ki Vav",
+  "topic": "Rani ki Vav stepwell",
+  "category": "temples-monuments",
+  "structure": "mystery-reveal",
+  "angle": "the mud that buried it is what saved it",
+  "centralQuestion": "how did a buried well survive nine centuries?",
+  "audience": "Indian Shorts viewers 16-35",
+  "language": "hinglish",
+  "durationSec": 30,
+  "totalFrames": 900,
+  "coreEmotion": "wonder",
+  "takeaway": "what hides a thing can also protect it",
+  "researchMode": "offline-unverified",
+  "created": "2026-11-01"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "Rani ki Vav is a stepwell in Patan, Gujarat, built below ground level.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TEST FIXTURE source A (not a real reference)",
+     "url": "https://example.org/fixture/a",
+     "type": "other",
+     "read": "page"
+    },
+    {
+     "title": "TEST FIXTURE source B (not a real reference)",
+     "url": "https://example.org/fixture/b",
+     "type": "other",
+     "read": "snippet"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C02",
+   "claim": "It is about 900 years old (11th century).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "TEST FIXTURE source A (not a real reference)",
+     "url": "https://example.org/fixture/a",
+     "type": "other",
+     "read": "page"
+    }
+   ],
+   "qualification": "say 'करीब' (about)",
+   "usableInScript": true
+  },
+  {
+   "id": "C03",
+   "claim": "Floods silted the well over; the silt protected the carvings.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "TEST FIXTURE source A (not a real reference)",
+     "url": "https://example.org/fixture/a",
+     "type": "other",
+     "read": "page"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C04",
+   "claim": "It is a UNESCO World Heritage Site and appears on the 100-rupee note.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TEST FIXTURE source A (not a real reference)",
+     "url": "https://example.org/fixture/a",
+     "type": "other",
+     "read": "page"
+    },
+    {
+     "title": "TEST FIXTURE source B (not a real reference)",
+     "url": "https://example.org/fixture/b",
+     "type": "other",
+     "read": "snippet"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C05",
+   "claim": "A secret tunnel from the well leads to a nearby town.",
+   "category": "legend",
+   "confidence": "unverified",
+   "sources": [],
+   "qualification": "local legend only",
+   "usableInScript": false
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "contradiction",
+    "text": "गुजरात में एक मंदिर है जो ज़मीन के नीचे बना है।",
+    "score": 8,
+    "claimIds": [
+     "C01"
+    ]
+   },
+   {
+    "id": "H2",
+    "technique": "question",
+    "text": "नौ सौ साल मिट्टी में दबी इमारत बची कैसे?",
+    "score": 7
+   },
+   {
+    "id": "H3",
+    "technique": "visual-curiosity",
+    "text": "सौ रुपये का नोट पलटिए।",
+    "score": 6
+   },
+   {
+    "id": "H4",
+    "technique": "surprising-fact",
+    "text": "बाढ़ ने इसे दफ़नाया, और उसी बाढ़ ने इसे बचाया।",
+    "score": 7
+   },
+   {
+    "id": "H5",
+    "technique": "mystery",
+    "text": "सदियों तक किसी को पता नहीं था कि ये यहाँ है।",
+    "score": 5
+   }
+  ],
+  "recommended": "H1",
+  "reason": "concrete, true, and the contradiction (temple going down) is visual"
+ },
+ "narration": {
+  "language": "hinglish",
+  "voice": {
+   "engine": "edge-tts",
+   "id": "hi-IN-MadhurNeural",
+   "rate": "+10%"
+  },
+  "wps": 2.6,
+  "totalWords": 72,
+  "estimatedSpeechSec": 27.7,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.2,
+    "endSec": 4.43,
+    "startFrame": 6,
+    "endFrame": 133,
+    "text": "गुजरात में एक मंदिर है जो ज़मीन के नीचे बना है।",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "नीचे"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "low strings",
+    "ambient": "well echo, faint birds",
+    "sfx": [],
+    "claimIds": [
+     "C01"
+    ]
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 4.73,
+    "endSec": 10.11,
+    "startFrame": 142,
+    "endFrame": 303,
+    "text": "नाम है रानी की वाव। पाटन की एक बावड़ी, करीब नौ सौ साल पुरानी।",
+    "voiceEmotion": "warm",
+    "speed": 1.0,
+    "emphasis": [
+     "रानी की वाव"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 4,
+    "musicMood": "low strings",
+    "ambient": "well echo, faint birds",
+    "sfx": [],
+    "claimIds": [
+     "C01",
+     "C02"
+    ]
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 10.41,
+    "endSec": 15.79,
+    "startFrame": 312,
+    "endFrame": 474,
+    "text": "फिर सरस्वती नदी में बाढ़ आई, और पूरी इमारत मिट्टी के नीचे दब गई।",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "बाढ़"
+    ],
+    "pauseAfterSec": 0.4,
+    "intensity": 7,
+    "musicMood": "rising pulse",
+    "ambient": "well echo, faint birds",
+    "sfx": [
+     "flood-rumble"
+    ],
+    "claimIds": [
+     "C03"
+    ]
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 16.19,
+    "endSec": 22.73,
+    "startFrame": 486,
+    "endFrame": 682,
+    "text": "लेकिन उसी मिट्टी ने इसे बचा भी लिया। सदियों तक मूर्तियाँ धूप और लुटेरों से दूर रहीं।",
+    "voiceEmotion": "awed",
+    "speed": 1.0,
+    "emphasis": [
+     "बचा"
+    ],
+    "pauseAfterSec": 0.4,
+    "intensity": 8,
+    "musicMood": "rising pulse",
+    "ambient": "well echo, faint birds",
+    "sfx": [
+     "reveal-glock"
+    ],
+    "claimIds": [
+     "C03"
+    ]
+   },
+   {
+    "id": "N05",
+    "beat": "ending",
+    "startSec": 23.13,
+    "endSec": 29.28,
+    "startFrame": 694,
+    "endFrame": 878,
+    "text": "आज ये विश्व धरोहर है। और सौ रुपये के नोट पर भी। अपनी जेब में देखिए।",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "जेब"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 6,
+    "musicMood": "low strings",
+    "ambient": "well echo, faint birds",
+    "sfx": [],
+    "claimIds": [
+     "C04"
+    ]
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "stepwell",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "terraced stone stepwell (new world code)",
+    "components": [
+     "gradient sky",
+     "stone texture (paint.ts stoneHD)"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "guide",
+    "kind": "human",
+    "description": "local guide",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#2a9d8f",
+     "pants": "#3b3f52",
+     "boots": "#5a3b2a"
+    }
+   }
+  ],
+  "subjects": [
+   {
+    "name": "well",
+    "place": "well centre",
+    "heightM": 20
+   },
+   {
+    "name": "guide",
+    "castId": "guide",
+    "heightM": 1.7
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0,
+   "endSec": 4,
+   "startFrame": 0,
+   "endFrame": 120,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "गुजरात में एक मंदिर है जो ज़मीन के नीचे बना है।"
+   },
+   "environment": {
+    "scene": "stepwell",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "stepwell interior, carved stone walls, terraces"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "aerial",
+      "params": {
+       "subject": "well",
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "well",
+   "lighting": "day",
+   "foreground": "carved pillar edge",
+   "background": "gradient sky above the well mouth",
+   "effects": [],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "sparse",
+    "duck": true
+   },
+   "emotionalIntention": "curiosity: a temple that goes down",
+   "visualImportance": "hero"
+  },
+  {
+   "id": 2,
+   "startSec": 4,
+   "endSec": 10,
+   "startFrame": 120,
+   "endFrame": 300,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "नाम है रानी की वाव। पाटन की एक बावड़ी, करीब नौ सौ साल पुरानी।"
+   },
+   "environment": {
+    "scene": "stepwell",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "stepwell interior, carved stone walls, terraces"
+   },
+   "characters": [
+    {
+     "id": "guide",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "guide",
+     "atFrame": 150,
+     "action": "point",
+     "params": {
+      "wave": 0.3
+     }
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "guide",
+     "atFrame": 200,
+     "expression": "smile"
+    }
+   ],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 120,
+      "preset": "closeUp",
+      "params": {
+       "subject": "guide",
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "guide",
+   "lighting": "golden",
+   "foreground": "carved pillar edge",
+   "background": "gradient sky above the well mouth",
+   "effects": [],
+   "transition": {
+    "type": "flash",
+    "flashPeak": 1
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "story",
+    "mood": "sparse",
+    "duck": true
+   },
+   "emotionalIntention": "warmth, place",
+   "visualImportance": "key"
+  },
+  {
+   "id": 3,
+   "startSec": 10,
+   "endSec": 19,
+   "startFrame": 300,
+   "endFrame": 570,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "फिर सरस्वती नदी में बाढ़ आई, और पूरी इमारत मिट्टी के नीचे दब गई।"
+   },
+   "environment": {
+    "scene": "stepwell",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "stepwell interior, carved stone walls, terraces"
+   },
+   "characters": [
+    {
+     "id": "guide",
+     "view": "front",
+     "mode": "stand",
+     "expression": "nervous",
+     "facing": 1
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "guide",
+     "atFrame": 340,
+     "expression": "shock"
+    }
+   ],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 300,
+      "preset": "crane",
+      "params": {
+       "subject": "well",
+       "fillFrom": 0.4,
+       "fillTo": 0.12
+      }
+     }
+    ]
+   },
+   "cameraTarget": "well",
+   "lighting": "dusk",
+   "foreground": "carved pillar edge",
+   "background": "gradient sky above the well mouth",
+   "effects": [
+    {
+     "fx": "kick",
+     "atFrame": 330,
+     "gain": 1.0
+    },
+    {
+     "fx": "dust",
+     "atFrame": 330,
+     "untilFrame": 500
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "flood-rumble"
+   ],
+   "musicDirection": {
+    "beat": "story",
+    "mood": "sparse",
+    "duck": true
+   },
+   "emotionalIntention": "loss: buried",
+   "visualImportance": "key"
+  },
+  {
+   "id": 4,
+   "startSec": 19,
+   "endSec": 30,
+   "startFrame": 570,
+   "endFrame": 900,
+   "narration": {
+    "segmentIds": [
+     "N04",
+     "N05"
+    ],
+    "text": "लेकिन उसी मिट्टी ने इसे बचा भी लिया। सदियों तक मूर्तियाँ धूप और लुटेरों से दूर रहीं। आज ये विश्व धरोहर है। और सौ रुपये के नोट पर भी। अपनी जेब में देखिए।"
+   },
+   "environment": {
+    "scene": "stepwell",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "stepwell interior, carved stone walls, terraces"
+   },
+   "characters": [
+    {
+     "id": "guide",
+     "view": "front",
+     "mode": "stand",
+     "expression": "smile",
+     "facing": 1
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "guide",
+     "atFrame": 700,
+     "expression": "grin"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 570,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "guide"
+      }
+     },
+     {
+      "f": 720,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "guide",
+       "fillFrom": 0.4,
+       "fillTo": 0.6
+      },
+      "dur": 30
+     }
+    ]
+   },
+   "cameraTarget": "guide",
+   "lighting": "day",
+   "foreground": "carved pillar edge",
+   "background": "gradient sky above the well mouth",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 600,
+     "untilFrame": 660
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 15
+   },
+   "soundEffects": [
+    "reveal-glock"
+   ],
+   "musicDirection": {
+    "beat": "reveal",
+    "mood": "sparse",
+    "duck": true
+   },
+   "emotionalIntention": "wonder, then a wink",
+   "visualImportance": "hero"
+  }
+ ],
+ "events": {
+  "flashAt": 120,
+  "flashes": [],
+  "hits": [],
+  "kicks": [
+   [
+    330,
+    1.0
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "flood-rumble",
+    "at": 330,
+    "gen": "rumble",
+    "args": {
+     "dur": 3.0,
+     "gain": 0.6,
+     "decay": 1.5
+    },
+    "post": [
+     [
+      "widen"
+     ]
+    ],
+    "segmentId": "N03",
+    "shotId": 3,
+    "intent": "the flood arrives"
+   },
+   {
+    "id": "reveal-glock",
+    "at": 600,
+    "gen": "glock",
+    "args": {
+     "midi": 76,
+     "level": 0.5
+    },
+    "post": [
+     [
+      "gain",
+      0.8
+     ]
+    ],
+    "segmentId": "N04",
+    "shotId": 4,
+    "intent": "the reveal"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      1
+     ],
+     "chord": "Dm",
+     "level": 0.9
+    },
+    {
+     "name": "story",
+     "shots": [
+      2,
+      3
+     ],
+     "chord": "F",
+     "level": 0.8
+    },
+    {
+     "name": "reveal",
+     "shots": [
+      4,
+      4
+     ],
+     "chord": "C",
+     "level": 0.85
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.0,
+   "fade_out": 0.15
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 8,
+   "originality": 7,
+   "researchReliability": 7,
+   "rhythm": 7,
+   "hinglishNaturalness": 8,
+   "emotion": 7,
+   "retention": 7,
+   "visualStorytelling": 7,
+   "pacing": 7,
+   "productionFeasibility": 7,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "research",
+    "issue": "fixture uses placeholder sources",
+    "severity": "medium"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 1,
+  "revisionLog": [],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 28.6,
+   "wps": 2.6,
+   "lengthCv": 0.4,
+   "findings": 1
+  }
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "stepwell world",
+   "need": "no stone terrace set exists",
+   "shotIds": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "suggestion": "new world.ts set from boxGeo terraces + stoneHD"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "Zameen ke neeche mandir",
+   "Rani ki Vav ka raaz",
+   "Mitti ne bachaya",
+   "100 ke note wala kuan",
+   "900 saal dabi rahi"
+  ],
+  "thumbnails": [
+   {
+    "concept": "stepwell from above, deep shadow",
+    "text": "नीचे मंदिर?"
+   },
+   {
+    "concept": "note held up against the well",
+    "text": "जेब में!"
+   },
+   {
+    "concept": "flood mud over carvings",
+    "text": "मिट्टी ने बचाया"
+   }
+  ],
+  "description": "TEST FIXTURE package for validate.mjs.",
+  "hashtags": [
+   "#RaniKiVav",
+   "#Gujarat",
+   "#Shorts"
+  ],
+  "pinnedComment": "TEST FIXTURE pinned comment."
+ }
+}

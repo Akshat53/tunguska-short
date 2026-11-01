@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Story metadata (SPEC §12 A)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "title", "category", "structure", "angle", "centralQuestion", "audience", "language", "durationSec", "totalFrames", "coreEmotion", "takeaway"],
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "minLength": 3, "maxLength": 48 },
+    "title": { "type": "string", "minLength": 3, "maxLength": 100 },
+    "topic": { "type": "string", "minLength": 3 },
+    "category": {
+      "type": "string",
+      "enum": ["ancient-civilisation", "history", "battles-rulers", "freedom-struggle", "mythology-epics", "ancient-science-maths",
+               "engineering-architecture", "temples-monuments", "geographical-mystery", "culture-festivals", "wildlife-nature",
+               "isro-space", "modern-technology", "unusual-real-life", "historical-discovery", "trending"]
+    },
+    "structure": {
+      "type": "string",
+      "enum": ["mystery-reveal", "rise-and-fall", "one-decision", "impossible-engineering", "forgotten-hero", "survival",
+               "discovery", "myth-vs-evidence", "unexpected-science", "ancient-to-modern"]
+    },
+    "angle": { "type": "string", "minLength": 10 },
+    "centralQuestion": { "type": "string", "minLength": 5 },
+    "audience": { "type": "string", "minLength": 3 },
+    "language": { "type": "string", "enum": ["hinglish", "hindi", "english"] },
+    "durationSec": { "type": "number", "minimum": 30, "maximum": 75 },
+    "totalFrames": { "type": "integer", "minimum": 900, "maximum": 2250 },
+    "coreEmotion": { "type": "string", "minLength": 3 },
+    "takeaway": { "type": "string", "minLength": 10 },
+    "tone": { "type": "string" },
+    "sensitivity": { "type": "string", "description": "community / tragedy / religious sensitivity notes; empty string if none" },
+    "researchMode": { "type": "string", "enum": ["web-verified", "partial", "offline-unverified"] },
+    "created": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

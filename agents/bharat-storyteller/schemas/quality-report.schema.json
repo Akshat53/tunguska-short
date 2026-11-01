@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Final quality report (SPEC §11, §12 K) — honest scores 1-10",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["scores", "weaknesses", "verdict", "rounds", "revisionLog", "rhythm"],
+  "properties": {
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hook", "originality", "researchReliability", "rhythm", "hinglishNaturalness", "emotion", "retention", "visualStorytelling", "pacing", "productionFeasibility", "ending"],
+      "properties": {
+        "hook": { "$ref": "#/definitions/score" },
+        "originality": { "$ref": "#/definitions/score" },
+        "researchReliability": { "$ref": "#/definitions/score" },
+        "rhythm": { "$ref": "#/definitions/score" },
+        "hinglishNaturalness": { "$ref": "#/definitions/score" },
+        "emotion": { "$ref": "#/definitions/score" },
+        "retention": { "$ref": "#/definitions/score" },
+        "visualStorytelling": { "$ref": "#/definitions/score" },
+        "pacing": { "$ref": "#/definitions/score" },
+        "productionFeasibility": { "$ref": "#/definitions/score" },
+        "ending": { "$ref": "#/definitions/score" }
+      }
+    },
+    "weaknesses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["area", "issue", "severity"],
+        "properties": {
+          "area": { "type": "string" },
+          "issue": { "type": "string", "minLength": 5 },
+          "severity": { "type": "string", "enum": ["low", "medium", "high"] },
+          "resolved": { "type": "boolean" }
+        }
+      }
+    },
+    "verdict": { "type": "string", "enum": ["pass", "revise", "fail"] },
+    "rounds": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "revisionLog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["round", "change", "reason"],
+        "properties": {
+          "round": { "type": "integer", "minimum": 1 },
+          "change": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "rhythm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "durationSec", "wps", "lengthCv", "findings"],
+      "properties": {
+        "verdict": { "type": "string", "enum": ["PASS", "REVISE", "FAIL"] },
+        "durationSec": { "type": "number" },
+        "wps": { "type": "number" },
+        "lengthCv": { "type": "number" },
+        "findings": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "editorNotes": { "type": "string" }
+  },
+  "definitions": {
+    "score": { "type": "integer", "minimum": 1, "maximum": 10 }
+  }
+}

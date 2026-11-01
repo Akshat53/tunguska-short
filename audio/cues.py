@@ -1,7 +1,7 @@
 # Event-driven sound cues. A story's sound design is DATA (audio/cues.json); this module plays it.
 #   python3 audio/cues.py            -> validates audio/cues.json against the storyboard (no audio rendering)
-# Cue: {id, at (story frame), offset (s), gen, args, span [fromFrame,toFrame] (-> args.dur), extra (s), post [[op, arg]...], gain-free ordering, word, sync}
-# Post ops run IN ORDER on the generated array: ["gain", g] ["widen"] ["pan", p] ["st2"] ["decay", tau] ["ramp", s]  (widen draws from the shared rng).
+# Cue: {id, at (story frame), offset (s), gen, args, span [fromFrame,toFrame] (-> args.dur), extra (s), post [[op, arg]...], word, sync}
+# Post ops run IN ORDER on the generated array: ["gain", g] ["widen"] ["pan", p] ["st2"]  (widen draws from the shared rng). Envelopes such as decay/ramp are generator args, not post ops.
 # Cues run in file order with ONE shared rng, so changing a cue only changes sounds that come after it (reproducible, no hidden state).
 import json, os
 import numpy as np

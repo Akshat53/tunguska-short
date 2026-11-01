@@ -1,0 +1,213 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Storyboard shot: all 20 SPEC §8 fields, restricted to ENGINE_CAPABILITIES.md (30 fps, 1080x1920)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "startSec", "endSec", "startFrame", "endFrame", "narration", "environment", "characters", "actions", "expressions",
+               "cameraAngle", "cameraMovement", "cameraTarget", "lighting", "foreground", "background", "effects", "transition",
+               "soundEffects", "musicDirection", "emotionalIntention", "visualImportance"],
+  "properties": {
+    "id": { "type": "integer", "minimum": 1, "description": "1..N in order (engine storyboard rule)" },
+    "startSec": { "type": "number", "minimum": 0 },
+    "endSec": { "type": "number", "exclusiveMinimum": 0 },
+    "startFrame": { "type": "integer", "minimum": 0, "description": "= round(startSec * 30); engine shot.a" },
+    "endFrame": { "type": "integer", "minimum": 1, "description": "= round(endSec * 30); engine shot.b (exclusive)" },
+    "narration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["segmentIds", "text"],
+      "properties": {
+        "segmentIds": { "type": "array", "items": { "type": "string", "pattern": "^N[0-9]{2}$" } },
+        "text": { "type": "string", "description": "the words heard during this shot (empty string for a silent beat)" }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scene", "clock", "description"],
+      "properties": {
+        "scene": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$", "description": "id of a scene in package.world.scenes" },
+        "clock": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind"],
+          "properties": {
+            "kind": { "type": "string", "enum": ["none", "after", "rel"] },
+            "at": { "type": "integer", "minimum": 0 },
+            "arrive": { "type": "number", "minimum": 0 },
+            "scale": { "type": "number", "exclusiveMinimum": 0 }
+          }
+        },
+        "fog": { "type": "array", "items": { "type": "number", "minimum": 0 }, "minItems": 2, "maxItems": 2 },
+        "era": { "type": "string" },
+        "description": { "type": "string", "minLength": 5 }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "view", "mode", "expression"],
+        "properties": {
+          "id": { "type": "string", "description": "id from package.world.cast" },
+          "view": { "type": "string", "enum": ["front", "side"] },
+          "mode": { "type": "string", "enum": ["march", "stroll", "stand", "sit", "fall", "swing", "push", "graze"], "description": "front: march|stroll|stand|sit|fall; side: march|stand|swing|push; animal: stand|graze|march" },
+          "expression": { "$ref": "#/definitions/expr" },
+          "facing": { "type": "integer", "enum": [-1, 0, 1] },
+          "look": { "type": "number", "minimum": -1, "maximum": 1 },
+          "prop": { "type": "string", "enum": ["none", "icecream", "shako", "hatHeld", "hammer"] },
+          "placement": { "type": "string" },
+          "scale": { "type": "number", "minimum": 0.3, "maximum": 3 }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["characterId", "atFrame", "action"],
+        "properties": {
+          "characterId": { "type": "string" },
+          "atFrame": { "type": "integer", "minimum": 0 },
+          "untilFrame": { "type": "integer", "minimum": 0 },
+          "action": { "type": "string", "enum": ["march", "stroll", "stand", "sit", "fall", "swing", "push", "graze", "wave", "point", "flinch", "lookUp", "turn", "peek", "hammerStrike", "hatOff", "move"] },
+          "params": { "type": "object", "description": "numeric draw params that exist in toon.ts: tilt, headTilt, look, wave, lift, stomp, stride, pose, phaseRate" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "expressions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["characterId", "atFrame", "expression"],
+        "properties": {
+          "characterId": { "type": "string" },
+          "atFrame": { "type": "integer", "minimum": 0, "description": "lands 0-3 frames BEFORE the word onset; a blink hides the swap" },
+          "expression": { "$ref": "#/definitions/expr" },
+          "word": { "type": "string" }
+        }
+      }
+    },
+    "cameraAngle": { "type": "string", "enum": ["eye-level", "low", "high", "aerial", "over-shoulder", "profile"] },
+    "cameraMovement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "keys"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["static", "push-in", "pull-out", "orbit", "crane", "tracking", "aerial-descent", "handheld"] },
+        "keys": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["f", "preset", "params"],
+            "properties": {
+              "f": { "type": "integer", "minimum": 0 },
+              "preset": { "type": "string", "enum": ["establishingWide", "aerial", "closeUp", "extremeCloseUp", "lowAngle", "highAngle", "dollyIn", "dollyOut", "orbit", "crane", "tracking", "overShoulder"] },
+              "params": { "$ref": "#/definitions/presetParams" },
+              "dur": { "type": "integer", "minimum": 1, "description": "glide (frames) from the previous key; default 24" },
+              "cut": { "type": "boolean", "description": "hard cut to this key inside the shot" }
+            }
+          }
+        }
+      }
+    },
+    "cameraTarget": { "type": "string", "description": "a subject name from package.world.subjects" },
+    "lighting": { "type": "string", "enum": ["day", "golden", "dusk", "space"] },
+    "foreground": { "type": "string" },
+    "background": { "type": "string" },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["fx", "atFrame"],
+        "properties": {
+          "fx": { "type": "string", "enum": ["fireball", "bowShock", "blast", "puffCloud", "waveRing", "dust", "needles", "straw", "hand", "arrow", "gust",
+                                             "shootingStar", "sparkle", "note", "burst", "splash", "puff", "stars", "creak", "ring", "cloud", "plank", "drum",
+                                             "blob", "smoke", "kick", "flash"] },
+          "atFrame": { "type": "integer", "minimum": 0 },
+          "untilFrame": { "type": "integer", "minimum": 0 },
+          "gain": { "type": "number", "exclusiveMinimum": 0, "maximum": 2, "description": "kick only (7-frame camera shake)" },
+          "peak": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "flash only" },
+          "newArt": { "type": "boolean", "description": "true if this card needs a NEW drawing in the story's art.ts (same machinery)" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "transition": { "$ref": "transition.schema.json" },
+    "soundEffects": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }, "description": "ids of audio cues" },
+    "musicDirection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["beat", "mood"],
+      "properties": {
+        "beat": { "type": "string", "description": "name of a music beat in package.audio.music.beats" },
+        "mood": { "type": "string" },
+        "duck": { "type": "boolean" }
+      }
+    },
+    "emotionalIntention": { "type": "string", "minLength": 3 },
+    "visualImportance": { "type": "string", "enum": ["hero", "key", "support", "bridge"] },
+    "dof": {
+      "type": "array",
+      "description": "OFF by default (lens:false). Only with a focus on the character's face and low cInf; owner approval needed.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["f", "cInf"],
+        "properties": {
+          "f": { "type": "integer", "minimum": 0 },
+          "cInf": { "type": "number", "minimum": 0, "maximum": 40 },
+          "dur": { "type": "integer", "minimum": 1 },
+          "focus": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 }
+        }
+      }
+    },
+    "futureDevelopmentIds": { "type": "array", "items": { "type": "string", "pattern": "^F[0-9]{2}$" } },
+    "note": { "type": "string" }
+  },
+  "definitions": {
+    "expr": { "type": "string", "enum": ["neutral", "stern", "grin", "laugh", "whistle", "nervous", "shock", "relief", "relief_open", "dazed", "pained", "smile", "smile_closed", "lick"] },
+    "presetParams": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "subject": { "anyOf": [ { "type": "string" }, { "type": "array", "items": { "type": "string" }, "minItems": 1 } ] },
+        "shoulder": { "type": "string" },
+        "path": { "type": "array", "minItems": 2, "items": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 } },
+        "fov": { "type": "number", "minimum": 15, "maximum": 75 },
+        "fovTo": { "type": "number", "minimum": 15, "maximum": 75 },
+        "ease": { "type": "string", "enum": ["smooth", "cubic", "cruise", "linear"] },
+        "accel": { "type": "number", "minimum": 0, "maximum": 1 },
+        "decel": { "type": "number", "minimum": 0, "maximum": 1 },
+        "roll": { "type": "number" },
+        "handheld": { "type": "number", "minimum": 0, "maximum": 3 },
+        "seed": { "type": "integer" },
+        "sigma": { "type": "number", "minimum": 0 },
+        "eyeY": { "type": "number", "minimum": 0, "maximum": 1 },
+        "margin": { "type": "number", "minimum": 0 },
+        "az": { "type": "number" },
+        "el": { "type": "number", "minimum": -89, "maximum": 89 },
+        "size": { "type": "number", "exclusiveMinimum": 0 },
+        "fill": { "type": "number", "exclusiveMinimum": 0, "maximum": 1.5 },
+        "push": { "type": "number", "minimum": -1, "maximum": 1 },
+        "fillFrom": { "type": "number", "exclusiveMinimum": 0, "maximum": 1.5 },
+        "fillTo": { "type": "number", "exclusiveMinimum": 0, "maximum": 1.5 },
+        "elFrom": { "type": "number", "minimum": -89, "maximum": 89 },
+        "elTo": { "type": "number", "minimum": -89, "maximum": 89 },
+        "swing": { "type": "number" },
+        "az0": { "type": "number" },
+        "sweep": { "type": "number" },
+        "back": { "type": "number" },
+        "side": { "type": "number" },
+        "up": { "type": "number" }
+      }
+    }
+  }
+}
