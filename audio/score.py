@@ -15,10 +15,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OUT = os.path.join(HERE, "out")
 os.makedirs(OUT, exist_ok=True)
-FPS, TOTAL = 30, 2078
-DUR = TOTAL / FPS
+FPS, TOTAL = 30, 2078            # TOTAL = length of the picture timeline the cues below were authored on
+WARP = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "warp.json")))
+_A = WARP["anchors"]             # [[newFrame, oldFrame], ...]: the picture/voice time warp (scripts/warp.py)
+DUR = WARP["outFrames"] / FPS    # output length = current voice length
 N = ns(DUR)
-F = lambda f: f / FPS
+def F(f):
+    """story frame (old timeline) -> seconds on the output timeline"""
+    for k in range(len(_A) - 1):
+        if f <= _A[k + 1][1] or k == len(_A) - 2:
+            (n0, o0), (n1, o1) = _A[k], _A[k + 1]
+            return (n0 + (f - o0) * (n1 - n0) / (o1 - o0)) / FPS
 
 # story beats (frames) and their chord: one chord per scene
 BEATS = [("hook", 0, 166, "Dm"), ("setting", 166, 303, "F"), ("action", 303, 540, "Gm"), ("escalation", 540, 750, "A"),
@@ -36,7 +43,7 @@ def music():
     r = rng(1908)
     out = np.zeros((2, N))
     for name, a, b, ch in BEATS:
-        t0, d = F(a), F(b - a)
+        t0, d = F(a), (F(b) - F(a))
         lv = LEVEL[name]
         notes = CH[ch]
         # warm pad on the chord (slow attack, overlaps into the next beat by its release)
@@ -106,13 +113,13 @@ def sfx():
     place(out, widen(rumble(3.0, r, gain=0.7) * np.exp(-tt(3.0) / 1.5), r), F(80))
     place(out, widen(X.whoosh(0.5, r, peak=0.35, f_lo=800, f_hi=4000) * 0.25, r), F(158))
     # SETTING / camp: breeze, river, birds
-    env_bed(166, 303, X.breeze(F(303 - 166) + 0.5, r, 0.12))
-    place(out, st2(X.water_bed(F(303 - 166), r, close=0.4)) * 0.25, F(166))
-    place(out, st2(X.bird_chirps(F(303 - 166), r, density=0.4)) * 0.18, F(170))
+    env_bed(166, 303, X.breeze((F(303) - F(166)) + 0.5, r, 0.12))
+    place(out, st2(X.water_bed((F(303) - F(166)), r, close=0.4)) * 0.25, F(166))
+    place(out, st2(X.bird_chirps((F(303) - F(166)), r, density=0.4)) * 0.18, F(170))
     # ACTION: rising light shimmer, the bang, fireball roar through the chase
     place(out, widen(X.whoosh(1.2, r, peak=1.0, f_lo=1500, f_hi=6000, width=0.6) * 0.25, r), F(312) - 0.9)
     place(out, widen(crack(r) * 0.85, r), F(364))
-    roar_d = F(668 - 420)
+    roar_d = (F(668) - F(420))
     roar = rumble(roar_d, r, 60, 900, 0.9) * np.minimum(1, tt(roar_d) / 1.5) * (0.6 + 0.4 * tt(roar_d) / roar_d)
     place(out, widen(roar, r), F(420))
     place(out, widen(crackles(0.6, r, 40, 0.7), r), F(645))
@@ -120,8 +127,8 @@ def sfx():
     place(out, widen(boom(r, 4.5, 40, 1.5) * 1.1, r), F(671))
     # SNAP: blast wave roar, the falling forest crackling
     place(out, widen(X.whoosh(3.0, r, peak=0.5, f_lo=120, f_hi=900, width=1.2, tail=1.2) * 0.9, r), F(752))
-    place(out, widen(crackles(F(915 - 770), r, 60, 0.45), r), F(770))
-    sweep = crackles(F(915 - 835), r, 90, 0.5)
+    place(out, widen(crackles((F(915) - F(770)), r, 60, 0.45), r), F(770))
+    sweep = crackles((F(915) - F(835)), r, 90, 0.5)
     place(out, pan(sweep, -0.5), F(835))
     place(out, widen(X.wood_crack(r) * 0.25, r), F(867))
     # tents into the air: flap whoosh, oofs
@@ -132,8 +139,8 @@ def sfx():
     for a, d in [(970, 1.9), (1028, 1.1)]:
         place(out, widen(X.whoosh(d, r, peak=d * 0.5, f_lo=200, f_hi=1500, width=1.0, tail=0.4) * 0.45, r), F(a))
     # DEADPAN: quiet wind + embers
-    place(out, X.breeze(F(1228 - 1062) + 0.3, r, 0.1, bright=600), F(1062))
-    place(out, widen(crackles(F(1228 - 1062), r, 4, 0.12), r), F(1062))
+    place(out, X.breeze((F(1228) - F(1062)) + 0.3, r, 0.1, bright=600), F(1062))
+    place(out, widen(crackles((F(1228) - F(1062)), r, 4, 0.12), r), F(1062))
     # from above: the replay boom (smaller)
     place(out, widen(boom(r, 2.5, 52, 0.8) * 0.6, r), F(1262))
     place(out, widen(crackles(1.2, r, 30, 0.3), r), F(1266))
@@ -145,21 +152,21 @@ def sfx():
     place(out, widen(X.wood_crack(r) * 0.3, r), F(1436))
     # diagram: ring whoosh
     place(out, widen(X.whoosh(2.0, r, peak=0.6, f_lo=200, f_hi=1200, width=1.0, tail=0.8) * 0.35, r), F(1466))
-    place(out, X.breeze(F(1665 - 1590), r, 0.1, bright=600), F(1590))
+    place(out, X.breeze((F(1665) - F(1590)), r, 0.1, bright=600), F(1590))
     # 1927 expedition: footsteps
-    for k in range(int(F(1760 - 1665) / 0.56)):
+    for k in range(int((F(1760) - F(1665)) / 0.56)):
         place(out, pan(X.stroll_step(r, 0.6) * 0.35, -0.2 + 0.4 * (k % 2)), F(1668) + k * 0.56)
-    place(out, X.breeze(F(1760 - 1665), r, 0.08), F(1665))
+    place(out, X.breeze((F(1760) - F(1665)), r, 0.08), F(1665))
     # office: hum, keyboard clicks, the spotted sparkle
-    hum = (np.sin(phase(np.full(ns(F(1910 - 1760)), 120.0))) * 0.02 + lp(colored(ns(F(1910 - 1760)), r, 1.0), 500) * 0.05)
+    hum = (np.sin(phase(np.full(ns((F(1910) - F(1760))), 120.0))) * 0.02 + lp(colored(ns((F(1910) - F(1760))), r, 1.0), 500) * 0.05)
     place(out, hum, F(1760))
     for k in range(18):
         place(out, pan(X.clink(r, r.uniform(2500, 4000), 0.04, 0.4) * 0.12, r.uniform(-0.6, 0.6)), F(1765) + r.uniform(0, 3.0))
     place(out, pan(I.glock(I.m2f(93), 0.5, r), 0.2), F(1866))
     place(out, pan(I.glock(I.m2f(98), 0.35, r), 0.2), F(1870))
     # CALLBACK: breeze, birds, hat whoosh, shooting star shimmer, final burst
-    place(out, X.breeze(F(TOTAL - 1910) + 0.2, r, 0.12), F(1910))
-    place(out, st2(X.bird_chirps(F(TOTAL - 1910), r, density=0.3)) * 0.15, F(1915))
+    place(out, X.breeze((F(TOTAL) - F(1910)) + 0.2, r, 0.12), F(1910))
+    place(out, st2(X.bird_chirps((F(TOTAL) - F(1910)), r, density=0.3)) * 0.15, F(1915))
     place(out, widen(X.whoosh(0.5, r, peak=0.2, f_lo=600, f_hi=3000) * 0.3, r), F(1982))
     place(out, widen(X.whoosh(0.9, r, peak=0.75, f_lo=2500, f_hi=9000, width=0.5) * 0.3, r), F(2026))
     for k, m in enumerate([86, 90, 93, 98, 102]):

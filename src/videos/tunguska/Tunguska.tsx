@@ -14,9 +14,10 @@ import { World } from "./world";
 import { InkPass, noInkFallback } from "./ink";
 import { LensBlur } from "./lensblur";
 import { GradeEffect, GRADES, GRADE_STRENGTH, gradeFor } from "./grade";
+import { OUT_FRAMES, useStoryFrame } from "./warp";
 import { TOTAL, FLASH_AT, FLASHES, SHOTS, layersAt, dofAt } from "./story";
 
-export const TUNGUSKA_FRAMES = TOTAL;
+export const TUNGUSKA_FRAMES = OUT_FRAMES;
 
 type PostToggles = { ink: boolean; lens: boolean; pre: boolean; bloom: boolean; grade: boolean; msaa: number; inkDebug: number };
 const toggles = (): PostToggles => ({ ink: true, lens: false, pre: true, bloom: true, grade: true, msaa: 0, inkDebug: 0, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
@@ -33,7 +34,7 @@ const fwd = new THREE.Vector3(), fpt = new THREE.Vector3();
 let WORLD: World | null = null; // one world shared by both crossfade canvases' scenes is not allowed (one parent): per canvas
 
 const Inner: React.FC<{ id: number }> = ({ id }) => {
-  const f = useCurrentFrame();
+  const f = useStoryFrame();
   const { camera, scene } = useThree();
   const world = useMemo(() => new World(), []);
   const on = useMemo(toggles, []);
@@ -89,14 +90,15 @@ const ShotView: React.FC<{ id: number; alpha: number }> = ({ id, alpha }) => (
 );
 
 /** white overlay: the hook-end flash (4 f) + the burst flashes (peak, then a 10-frame fall) */
-const flashAt = (f: number) => {
+const flashAt = (fs: number) => {
+  const f = Math.floor(fs); // flashes are frame-counted effects: integer story frames
   let a = f >= FLASH_AT && f < FLASH_AT + 4 ? [1, 0.75, 0.45, 0.2][f - FLASH_AT] : 0;
   for (const [f0, pk] of FLASHES) if (f >= f0 && f < f0 + 10) a = Math.max(a, pk * (1 - (f - f0) / 10) ** 1.6);
   return a;
 };
 
 export const TunguskaShort: React.FC = () => {
-  const f = useCurrentFrame();
+  const f = useStoryFrame();
   const flash = flashAt(f);
   return (
     <AbsoluteFill style={{ background: "#9cbfea" }}>

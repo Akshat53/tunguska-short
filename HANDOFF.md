@@ -35,13 +35,16 @@ python3 -m venv .venv && .venv/bin/pip install edge-tts numpy scipy pillow
   the two biggest (f540, f1629) are an intentional 7-frame impact kick and a hard cut. **No real glitch found yet — ask the owner for timestamps** and inspect those frames.
 - Always LOOK at frames (`scripts/qa.sh` makes a contact sheet) before telling the owner a video is good.
 
-## 3. TODO BEFORE VIDEO #1 CAN BE POSTED (status: picture re-render pending with lens off)
-1. Render: `CONC=6 node scripts/render.mjs out/picture.mp4 all 1 '{"post":{"dpr":1}}'` (expected ~3–5 min with angle).
-2. **Voice polish** (timing-preserving): voice is edge-tts `en-US-ChristopherNeural` at +32% rate (rushed). Apply EQ/compression/de-ess/light room to `voice/voice.wav`
-   (original saved as `voice/voice.orig.wav` locally), then `.venv/bin/python audio/score.py && bash audio/finalize.sh`. A new pace/voice changes word timings = shots must be retimed by hand (see §5).
-3. **Intro (~2 s) + outro (~3 s)**: separate clips (Inkfall logo + "follow for more"), joined with ffmpeg concat so the main timeline needs no retiming; delay the mix by the intro length.
-4. `bash scripts/mux.sh out/picture.mp4 out/final.mp4` then `scripts/qa.sh out/final.mp4`.
-5. Upload as **Unlisted**, watch on a phone, then Public. Disclose synthetic voice in YouTube's AI-content question.
+## 3. VIDEO #1 (Tunguska) STATUS — final candidate built: `out/tunguska-final.mp4` (local, not in git; 79.8 s, -14.3 LUFS)
+Built with: voice at **+22%** (75 s, was +32%/69 s), **time warp** (`scripts/warp.py` -> `src/videos/tunguska/warp.json`; picture timeline stays
+authored for the old voice and is played through the warp; max sync error 0.02 s over 203 words, stretch 1.06-1.08),
+`audio/score.py` places every cue through the same warp (F() in score.py), voice polished (EQ/de-ess/compress/room; raw kept as `voice/voice.raw.wav`),
+intro 1.6 s + outro 3 s cards (`brand/card-*.svg`, sounds from `audio/bookends.py`), lens blur off, GL=angle (full render ~45 s).
+Rebuild: `python3 scripts/warp.py voice/v1/words.json voice/words.json src/videos/tunguska/warp.json` ->
+`CONC=6 node scripts/render.mjs out/picture-warp.mp4 all 1 '{"post":{"dpr":1}}'` -> `.venv/bin/python audio/score.py && bash audio/finalize.sh` ->
+`.venv/bin/python audio/bookends.py` -> ffmpeg concat (see git history message / HANDOFF) -> `scripts/qa.sh`.
+**Reuse this warp trick for any re-paced voice or other language of the same script** (needs same word count in both words.json files).
+Open: owner has not yet watched/approved it; jitter report unresolved (no timestamps); captions not added (owner decision); globe shot sits on a purple background (owner dislikes purple).
 
 ## 4. PIPELINE (new language / new story) — see NEW_STORY.md and `make.sh`
 `./make.sh <slug> <lang> [voice beats render mux]`; config in `stories/<slug>/story.json`; `scripts/beats.py words.json` prints word→frame.
