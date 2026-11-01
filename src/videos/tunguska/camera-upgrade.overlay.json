@@ -1,0 +1,182 @@
+{
+ "note": "camera-director upgrade of five shots (tracking, dollyIn on a group, orbit, lowAngle+closeUp, dollyIn+crane). Used only when the input prop {\"camera\":\"upgraded\"} (or env STORY_CAMERA=upgraded) is set; storyboard.json is untouched.",
+ "check": {
+  "2": [
+   "camp"
+  ],
+  "3": [
+   "herder1",
+   "herder2"
+  ],
+  "15": [
+   "heroTree"
+  ],
+  "17": [
+   "gzHerder"
+  ],
+  "20": [
+   "herder1",
+   "herder2"
+  ]
+ },
+ "shots": {
+  "2": {
+   "camera": [
+    {
+     "f": 166,
+     "preset": "tracking",
+     "params": {
+      "subject": "camp",
+      "path": [
+       [
+        260,
+        34,
+        341.44
+       ],
+       [
+        222.5,
+        32.5,
+        345.79
+       ],
+       [
+        185.0,
+        31.0,
+        347.86
+       ],
+       [
+        147.5,
+        29.5,
+        347.42
+       ],
+       [
+        110.0,
+        28.0,
+        344.51
+       ]
+      ],
+      "fov": 44,
+      "ease": "cruise",
+      "accel": 0.35,
+      "decel": 0.2
+     }
+    }
+   ]
+  },
+  "3": {
+   "camera": [
+    {
+     "f": 240,
+     "preset": "dollyIn",
+     "params": {
+      "subject": [
+       "herder1",
+       "herder2"
+      ],
+      "fillFrom": 0.5,
+      "fillTo": 0.62,
+      "az": 8,
+      "el": -2,
+      "fov": 40,
+      "ease": "cruise",
+      "eyeY": 0.4
+     }
+    }
+   ]
+  },
+  "15": {
+   "camera": [
+    {
+     "f": 1408,
+     "preset": "orbit",
+     "params": {
+      "subject": "heroTree",
+      "size": 9,
+      "fill": 0.5,
+      "az0": -12,
+      "sweep": 30,
+      "el": 6,
+      "fov": 50
+     }
+    }
+   ]
+  },
+  "17": {
+   "camera": [
+    {
+     "f": 1590,
+     "preset": "lowAngle",
+     "params": {
+      "subject": "gzHerder",
+      "fill": 0.5,
+      "az": 15,
+      "el": -10,
+      "push": 0.08,
+      "fov": 42
+     }
+    },
+    {
+     "f": 1629,
+     "cut": true,
+     "preset": "closeUp",
+     "params": {
+      "subject": "gzHerder",
+      "fill": 0.75,
+      "az": 10,
+      "el": 0,
+      "push": 0.05,
+      "fov": 38,
+      "handheld": 0.6,
+      "seed": 3
+     }
+    }
+   ]
+  },
+  "20": {
+   "camera": [
+    {
+     "f": 1910,
+     "preset": "dollyIn",
+     "params": {
+      "subject": [
+       "herder1",
+       "herder2"
+      ],
+      "fillFrom": 0.5,
+      "fillTo": 0.62,
+      "az": 5,
+      "el": 0,
+      "fov": 40,
+      "ease": "cruise",
+      "eyeY": 0.4
+     }
+    },
+    {
+     "f": 1996,
+     "cut": true,
+     "preset": "crane",
+     "params": {
+      "subject": [
+       "herder1",
+       "herder2"
+      ],
+      "fillFrom": 0.62,
+      "fillTo": 0.0139,
+      "elFrom": 0,
+      "elTo": 32.4,
+      "az": 5,
+      "swing": 23,
+      "fov": 40,
+      "ease": "cruise",
+      "eyeY": 0.4,
+      "lookTo": [
+       -40,
+       60,
+       120
+      ],
+      "fovTo": 46
+     }
+    }
+   ]
+  }
+ }
+}

@@ -5,9 +5,19 @@
 // the herders' camp sits by the river ~315 m out, inside the falling ring.
 import storyboard from "./storyboard.json";
 import { assertValid, type Storyboard, type ClockSpec } from "../../engine/storyboard/schema";
+import { buildPreset, checkPreset, lerp3 as lerpV, type Obstacle, type Subject } from "../../engine/camera";
+import cameraUpgrade from "./camera-upgrade.overlay.json";
 
 export const FPS = 30;
-const SB = storyboard as unknown as Storyboard;
+/** which camera set to use: "" (default, hand-written) or "upgraded" (camera-director presets, camera-upgrade.overlay.json).
+ *  Chosen with the Remotion input prop {"camera":"upgraded"} in the browser, or env STORY_CAMERA in node scripts. */
+const cameraVariant = (): string => {
+  try { const w = (globalThis as any).window; if (w?.remotion_inputProps) return JSON.parse(w.remotion_inputProps).camera ?? ""; } catch { /* no input props */ }
+  try { return (globalThis as any).process?.env?.STORY_CAMERA ?? ""; } catch { return ""; }
+};
+const baseSB = storyboard as unknown as Storyboard;
+const OVER = (cameraUpgrade as unknown as { shots: Record<string, Partial<Storyboard["shots"][number]>> }).shots;
+const SB: Storyboard = cameraVariant() === "upgraded" ? { ...baseSB, shots: baseSB.shots.map((x) => (OVER[String(x.id)] ? { ...x, ...OVER[String(x.id)] } : x)) } : baseSB;
 export const TOTAL = SB.totalFrames;
 export type V3 = [number, number, number];
 
@@ -190,8 +200,24 @@ const S20b = (f: number): Shot => {
 
 /** camera functions by name: storyboard.json refers to these (validated: unknown names are reported) */
 const CAM_FN: Record<string, (f: number) => Shot> = { S1a, S1b, S2a, S3a, S3b, S4a, S4b, S5a, S5b, S6a, S6b, S7a, S8a, S8b, S9a, S10a, S11a, S11b, S12a, S12b, S12c, S13a, S14a, S14b, S15a, S16a, S16b, S17a, S17b, S18a, S19a, S19b, S20a, S20b };
-assertValid(SB, { camFns: Object.keys(CAM_FN) });
-const CAMS: Record<number, Key[]> = Object.fromEntries(SB.shots.map((x) => [x.id, x.camera.map((k) => ({ f: k.f, ...(k.dur ? { dur: k.dur } : {}), ...(k.cut ? { cut: true } : {}), s: CAM_FN[k.fn] }))]));
+// ---- camera director: subjects (what a preset can frame / look at) and obstacles (what the camera must not enter) ----
+const eye = (p: V3, h: number): V3 => [p[0], p[1] + h, p[2]];
+export const DIRECTOR_SUBJECTS: Record<string, Subject> = {
+  herder1: { at: () => eye(H1, 1.55), height: 1.7 }, herder2: { at: () => eye(H2, 1.45), height: 1.5 },
+  deer: { at: () => [DEER[0][0], 1.1, DEER[0][1]], height: 1.6 }, camp: { at: () => [CAMP[0], 1.5, CAMP[2]], height: 3 },
+  gzHerder: { at: () => [2.0, 1.45, 4.2], height: 1.6 }, heroTree: { at: () => ST(3, 4.5, 0), height: 9 }, burst: { at: () => BURST, height: 20 },
+};
+export const DIRECTOR_OBSTACLES: Obstacle[] = [
+  { kind: "sphere", c: [TENT[0], 1.2, TENT[2]], r: 1.6 }, { kind: "cyl", x: H1[0], z: H1[2], r: 0.45, h: 1.9 }, { kind: "cyl", x: H2[0], z: H2[2], r: 0.45, h: 1.7 },
+  ...DEER.map(([x, z]) => ({ kind: "cyl", x, z, r: 0.6, h: 1.6 } as Obstacle)), { kind: "cyl", x: 2.0, z: 4.2, r: 0.45, h: 1.8 },
+];
+const DIRECTOR_CTX = { subjects: DIRECTOR_SUBJECTS, obstacles: DIRECTOR_OBSTACLES, groundY: 0 };
+assertValid(SB, { camFns: Object.keys(CAM_FN), subjects: Object.keys(DIRECTOR_SUBJECTS), presetCheck: checkPreset });
+const CAMS: Record<number, Key[]> = Object.fromEntries(SB.shots.map((x) => [x.id, x.camera.map((k, i) => {
+  const next = x.camera[i + 1]?.f ?? x.b;
+  const s = k.preset ? ((cam) => (f: number): Shot => cam(f))(buildPreset(k.preset, { f0: k.f, dur: next - k.f, ...(k.params ?? {}) }, DIRECTOR_CTX)) : CAM_FN[k.fn!];
+  return { f: k.f, ...(k.dur ? { dur: k.dur } : {}), ...(k.cut ? { cut: true } : {}), s };
+})]));
 
 // impact kicks (s): bang, burst, the four falling-ring hits, the tents, "Twice"
 export const HITS = SB.events.hits; // the 4 percussion hits under the falling ring (frames)
@@ -220,5 +246,7 @@ export const dofAt = (f: number) => {
   let i = 0; while (i + 1 < DOF.length && f >= DOF[i + 1].f) i++;
   const d = DOF[i], p = DOF[Math.max(0, i - 1)];
   const k = d.dur ? Math.min(1, (f - d.f) / d.dur) : 1;
-  return { cInf: p.cInf + (d.cInf - p.cInf) * k, focus: d.focus };
+  // rack focus: when a keyed transition (dur) goes from one focus point to another, the focus point glides instead of jumping
+  const focus = d.dur && d.focus && p.focus && p !== d ? (g: number): V3 => lerpV(p.focus!(g), d.focus!(g), glide(k)) : d.focus;
+  return { cInf: p.cInf + (d.cInf - p.cInf) * k, focus };
 };

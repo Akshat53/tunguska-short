@@ -690,5 +690,14 @@
    ],
    "note": "CALLBACK"
   }
+ ],
+ "cameraSubjects": [
+  "herder1",
+  "herder2",
+  "deer",
+  "camp",
+  "gzHerder",
+  "heroTree",
+  "burst"
  ]
 }

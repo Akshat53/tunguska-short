@@ -7,12 +7,14 @@ const root = new URL("..", import.meta.url).pathname;
 const args = process.argv.slice(2), selftest = args.includes("--selftest");
 const file = args.find((a) => !a.startsWith("--")) ?? path.join(root, "src/videos/tunguska/storyboard.json");
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "sb-val-")), out = path.join(tmp, "schema.mjs");
+const camOut = path.join(tmp, "camera.mjs");
 await build({ entryPoints: [path.join(root, "src/engine/storyboard/schema.ts")], bundle: true, format: "esm", platform: "node", outfile: out, logLevel: "error" });
-const { validateStoryboard } = await import(out); fs.rmSync(tmp, { recursive: true, force: true });
+await build({ entryPoints: [path.join(root, "src/engine/camera/index.ts")], bundle: true, format: "esm", platform: "node", outfile: camOut, logLevel: "error" });
+const { validateStoryboard } = await import(out), { checkPreset } = await import(camOut); fs.rmSync(tmp, { recursive: true, force: true });
 const dir = path.dirname(file), storySrc = fs.existsSync(path.join(dir, "story.ts")) ? fs.readFileSync(path.join(dir, "story.ts"), "utf8") : "";
 const camFns = [...storySrc.matchAll(/^const (S\d+[a-z]*) = /gm)].map((m) => m[1]);
 const ctxFor = (sb) => {
-  const ctx = { camFns: camFns.length ? camFns : undefined };
+  const ctx = { camFns: camFns.length ? camFns : undefined, presetCheck: checkPreset, subjects: sb.cameraSubjects };
   const w = path.join(root, "voice/v1/words.json");   // the narration the picture timeline was authored on
   if (fs.existsSync(w)) { const words = JSON.parse(fs.readFileSync(w, "utf8")); ctx.voiceFrames = Math.round((words.at(-1).end + 0.5) * sb.fps); ctx.wordFrames = words.map((x) => Math.round(x.start * sb.fps)); }
   return ctx;
@@ -26,6 +28,10 @@ if (selftest) {
     "unknown camera fn": (s) => { s.shots[1].camera[0].fn = "S99z"; }, "xfade longer than shot": (s) => { s.shots[11].xfade = 5000; },
     "bad light": (s) => { s.shots[0].light = "neon"; }, "camera key outside shot": (s) => { s.shots[2].camera[1].f = 999; },
     "camera not starting at shot start": (s) => { s.shots[4].camera[0].f += 3; }, "last shot short": (s) => { s.shots.at(-1).b -= 1; },
+    "camera key with both fn and preset": (s) => { s.shots[1].camera[0].preset = "dollyIn"; s.shots[1].camera[0].params = { subject: "camp", fillFrom: 0.3, fillTo: 0.5 }; },
+    "unknown camera preset": (s) => { delete s.shots[1].camera[0].fn; s.shots[1].camera[0].preset = "barrelRoll"; },
+    "preset with unknown subject": (s) => { delete s.shots[1].camera[0].fn; s.shots[1].camera[0].preset = "closeUp"; s.shots[1].camera[0].params = { subject: "ghost" }; },
+    "preset missing required param": (s) => { delete s.shots[1].camera[0].fn; s.shots[1].camera[0].preset = "dollyIn"; s.shots[1].camera[0].params = { subject: "camp" }; },
     "dof key outside shot": (s) => { s.shots[0].dof[0].f = 500; }, "bad flash peak": (s) => { s.events.flashes[0][1] = 2; },
   };
   let missed = 0;

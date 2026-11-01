@@ -9,17 +9,20 @@ export type ClockSpec =
   | { kind: "none" }                                             // event clock parked far in the past: nothing happens
   | { kind: "after" }                                            // aftermath: everything settled
   | { kind: "rel"; at: number; arrive?: number; scale?: number } // e = (f - at)/fps [* scale] [+ blast-wave arrival time at radius `arrive`]
-export type CameraKey = { f: number; fn: string; dur?: number; cut?: boolean };
+/** one camera key: either `fn` (a hand-written camera function, by name) or `preset` (+ params) from the camera director (src/engine/camera) */
+export type CameraKey = { f: number; fn?: string; preset?: string; params?: Record<string, unknown>; dur?: number; cut?: boolean };
 export type DofKey = { f: number; cInf: number; dur?: number; focus?: V3 };
 export type StoryShot = {
   id: number; a: number; b: number; light: LightName; scene: SceneName; clock: ClockSpec; camera: CameraKey[]; dof: DofKey[];
   fog?: [number, number]; year?: "1908" | "1927" | "now"; xfade?: number; note?: string;
 };
 export type StoryEvents = { flashAt: number; flashes: [number, number][]; hits: number[]; kicks: [number, number][] };
-export type Storyboard = { version: 1; fps: number; totalFrames: number; events: StoryEvents; shots: StoryShot[] };
+export type Storyboard = { version: 1; fps: number; totalFrames: number; events: StoryEvents; shots: StoryShot[]; cameraSubjects?: string[] };
 export type Issue = { level: "error" | "warn"; where: string; msg: string };
 export type ValidateCtx = {
   camFns?: string[];                         // names that exist in the code registry (missing-asset detection)
+  subjects?: string[];                       // camera-director subjects that exist in code
+  presetCheck?: (name: string, params: Record<string, unknown>, subjects?: string[]) => string[];   // camera-director preset validator
   scenes?: string[]; lights?: string[];      // allowed values (defaults below)
   voiceFrames?: number;                      // length of the narration in frames (timeline consistency)
   wordFrames?: number[];                     // start frame of every spoken word: used to check cue alignment (optional)
@@ -64,7 +67,12 @@ export function validateStoryboard(sb: Storyboard, ctx: ValidateCtx = {}): Issue
         if (j && k.f <= s.camera[j - 1].f) err(w, `camera keys must be strictly ascending (key ${j} at ${k.f})`);
         if (k.f < s.a || k.f >= s.b) err(w, `camera key at ${k.f} is outside the shot ${s.a}..${s.b}`);
         if (k.dur !== undefined && !(k.dur > 0)) err(w, `camera key at ${k.f}: dur must be > 0`);
-        if (ctx.camFns && !ctx.camFns.includes(k.fn)) err(w, `camera key at ${k.f}: unknown camera function "${k.fn}" (missing asset)`);
+        if ((k.fn === undefined) === (k.preset === undefined)) err(w, `camera key at ${k.f}: give exactly one of fn or preset`);
+        else if (k.fn !== undefined && ctx.camFns && !ctx.camFns.includes(k.fn)) err(w, `camera key at ${k.f}: unknown camera function "${k.fn}" (missing asset)`);
+        else if (k.preset !== undefined) {
+          if (!ctx.presetCheck) warn(w, `camera key at ${k.f}: preset "${k.preset}" not checked (no preset validator given)`);
+          else for (const m of ctx.presetCheck(k.preset, k.params ?? {}, ctx.subjects)) err(w, `camera key at ${k.f}: ${m}`);
+        }
       });
     }
     (s.dof ?? []).forEach((d, j) => {
@@ -80,6 +88,7 @@ export function validateStoryboard(sb: Storyboard, ctx: ValidateCtx = {}): Issue
       else if (s.xfade > Math.min(len, plen)) err(w, `xfade ${s.xfade} is longer than a neighbouring shot (${plen}/${len})`);
     }
   });
+  if (sb.cameraSubjects && ctx.subjects) { for (const n of sb.cameraSubjects) if (!ctx.subjects.includes(n)) err("storyboard", `cameraSubjects lists "${n}" but no such subject exists in code`); for (const n of ctx.subjects) if (!sb.cameraSubjects.includes(n)) warn("storyboard", `subject "${n}" exists in code but is not listed in cameraSubjects`); }
   const last = sb.shots[sb.shots.length - 1];
   if (last && last.b !== sb.totalFrames) err("storyboard", `last shot ends at ${last.b}, totalFrames is ${sb.totalFrames}`);
   const ev = sb.events, inRange = (f: number) => isInt(f) && f >= 0 && f < sb.totalFrames;
