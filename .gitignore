@@ -1,11 +1,11 @@
 node_modules/
 .tmp/
 .venv/
-out/
+/out/
 audio/_cache/
 *.log
 output/*.mp4
 audio/out/*
 !audio/out/mix.wav
-out/
+/out/
 __pycache__/
