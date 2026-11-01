@@ -308,8 +308,8 @@ export class World {
     this.globe.quaternion.setFromUnitVectors(sibLocal, V(0.35, 0.78, 0.52).normalize());
     this.globeSet.add(this.globe);
     const ringM = new THREE.MeshBasicMaterial({ color: new THREE.Color(2.2, 2.0, 1.4), transparent: true, opacity: 0.95, depthWrite: false });
-    this.ring = new THREE.Mesh(new THREE.TorusGeometry(1, 0.012, 6, 96), ringM);
-    this.ring2 = new THREE.Mesh(new THREE.TorusGeometry(1, 0.03, 6, 96), new THREE.MeshBasicMaterial({ color: new THREE.Color(1.3, 1.2, 1.6), transparent: true, opacity: 0.35, depthWrite: false }));
+    this.ring = new THREE.Mesh(new THREE.TorusGeometry(1, 0.06, 6, 96), ringM);
+    this.ring2 = new THREE.Mesh(new THREE.TorusGeometry(1, 0.16, 6, 96), new THREE.MeshBasicMaterial({ color: new THREE.Color(1.6, 1.3, 0.6), transparent: true, opacity: 0.55, depthWrite: false }));
     for (const r of [this.ring, this.ring2]) { r.layers.set(NOINK); this.globeSet.add(r); }
     R.add(this.globeSet);
   }
@@ -454,7 +454,7 @@ export class World {
     }
     if (s.scene === "tree" || s.scene === "straw") {
       const tip = id === 15 ? easeOut(clamp01((f - 1420) / 14)) : 0;
-      this.hero.rotation.set(0, 0, -tip * 1.35);
+      this.hero.rotation.set(0, 0, -tip * 1.15);
     }
     if (s.scene === "globe") {
       // the pressure ring runs out from Siberia to the far side and back, twice ("Twice" lands on the second pass)

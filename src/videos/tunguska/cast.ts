@@ -254,7 +254,7 @@ const fireball = (cam: CamInfo, out: Stage, e: number, frac: number, crack = 0, 
   const cx = P[0] - (cam.right.x * Math.cos(rot) + cam.up.x * Math.sin(rot)) * off, cy = P[1] - (cam.right.y * Math.cos(rot) + cam.up.y * Math.sin(rot)) * off,
     cz = P[2] - (cam.right.z * Math.cos(rot) + cam.up.z * Math.sin(rot)) * off;
   const fl = q((t * 3) % 1, 8), ck = q(crack, 10);
-  out.fx.push({ key: `fireball|${ck}|${fl}`, cw: 1000, ch: 400, draw: (p) => fxFireball(p, ck, fl), x: cx, y: cy, z: cz, w, h: w * 0.4, rot, glow: 1.12 });
+  out.fx.push({ key: `fireball|${ck}|${fl}`, cw: 1000, ch: 400, draw: (p) => fxFireball(p, ck, fl), x: cx, y: cy, z: cz, w, h: w * 0.4, rot, glow: 1.0 });
 };
 const blast = (cam: CamInfo, out: Stage, e: number, at: V3, frac: number) => {
   if (e < 0) return;
@@ -319,10 +319,11 @@ export const stage = (id: number, f: number, cam: CamInfo): Stage => {
     case 4: {
       // "Then a light brighter than the sun" -> shock, looking up; "gunfire" -> flinch
       const flinch = f >= 362 && f < 380 ? (1 - (f - 362) / 18) : 0;
-      camp("both", exprAt(t, [[310 / FPS, "shock"], [364 / FPS, "pained"], [384 / FPS, "shock"]], "neutral"), exprAt(t, [[312 / FPS, "shock"], [366 / FPS, "nervous"]], "smile"),
-        { look: 1, tilt: -6 * flinch, headTilt: -4 }, { look: 1, tilt: 7 * flinch, headTilt: -3 });
+      // side by side across the east-looking lens (the light crosses the eastern sky)
+      herder(cam, out, 1, HERDER1, 40.3, 0, 313.55, { mode: "stand", expr: exprAt(t, [[310 / FPS, "shock"], [364 / FPS, "pained"], [384 / FPS, "shock"]], "neutral"), look: 1, tilt: -6 * flinch, headTilt: -4, t } as FrontOpts);
+      herder(cam, out, 2, HERDER2, 40.6, 0, 315.0, { mode: "stand", expr: exprAt(t, [[312 / FPS, "shock"], [366 / FPS, "nervous"]], "smile"), look: -1, tilt: 7 * flinch, headTilt: -3, t } as FrontOpts, 0.94);
       DEER.forEach(([x, z, ph, face], i) => deer(cam, out, i, x, 0, z, face, f > 312 ? 0 : 0.6, 0, 0, t));
-      fireball(cam, out, e, 0.16, 0, t);
+      fireball(cam, out, e, 0.22, 0, t);
       break;
     }
     case 5: case 6: {
@@ -410,12 +411,12 @@ export const stage = (id: number, f: number, cam: CamInfo): Stage => {
     }
     case 14: {
       // straw on a stump: hand presses from the top (holds), then from the side (folds on "sideways")
-      const [sx, sy, sz] = SET_STRAW, top = 1.36;
+      const [sx, sy, sz] = SET_STRAW, top = 1.66;
       const press = smooth((f - 1318) / 8) - smooth((f - 1346) / 8), side = smooth((f - 1360) / 8), fold = smooth((f - 1368) / 7);
       const squash = q(press * 0.8, 10);
-      out.fx.push({ key: `straw|${squash}|${q(fold, 14)}`, cw: 300, ch: 1000, draw: (p) => fxStraw(p, squash, q(fold, 14)), x: sx, y: sy + 0.86 + 0.5 - 0.96 * 0.5 + 0.02, z: sz, w: 0.15, h: 0.5 });
-      if (press > 0.01 && f < 1356) out.fx.push({ key: "hand", cw: 400, ch: 300, draw: (p) => fxHand(p), x: sx, y: sy + top + 0.1 + 0.25 * (1 - press) - 0.03 * squash, z: sz, w: 0.36, h: 0.27, rot: -Math.PI / 2 });
-      if (side > 0.01) out.fx.push({ key: "hand", cw: 400, ch: 300, draw: (p) => fxHand(p), x: sx - 0.33 - 0.25 * (1 - side) + 0.12 * fold, y: sy + 1.16 - 0.02 * fold, z: sz + 0.01, w: 0.36, h: 0.27 });
+      out.fx.push({ key: `straw|${squash}|${q(fold, 14)}`, cw: 300, ch: 1000, draw: (p) => fxStraw(p, squash, q(fold, 14)), x: sx, y: sy + 0.87 + 0.8 * 0.46, z: sz, w: 0.24, h: 0.8 });
+      if (press > 0.01 && f < 1356) out.fx.push({ key: "hand", cw: 400, ch: 300, draw: (p) => fxHand(p), x: sx + 0.02, y: sy + top + 0.17 + 0.3 * (1 - press) - 0.03 * squash, z: sz, w: 0.46, h: 0.35, rot: -Math.PI / 2 });
+      if (side > 0.01) out.fx.push({ key: "hand", cw: 400, ch: 300, draw: (p) => fxHand(p), x: sx - 0.36 - 0.3 * (1 - side) + 0.14 * fold, y: sy + 1.45 - 0.03 * fold, z: sz + 0.01, w: 0.46, h: 0.35 });
       break;
     }
     case 15: {
@@ -447,7 +448,7 @@ export const stage = (id: number, f: number, cam: CamInfo): Stage => {
       const u = (f - 1665) / FPS, dir: V3 = [0.62, 0, -0.78], ph = (u * 0.9) % 1;
       const base: V3 = [-131.5, 0, 160.5];
       const walk = (k: number): V3 => [base[0] + dir[0] * (0.8 * u - k), 0, base[2] + dir[2] * (0.8 * u - k)];
-      const [ax, , az] = walk(0), [bx, , bz] = walk(2.0), [dx, , dz] = walk(4.4);
+      const [ax, , az] = walk(0.9), [bx, , bz] = walk(2.0), [dx, , dz] = walk(3.5);
       const view = viewOf(cam, ax, az, dir[0], dir[2]);
       const so: SideOpts = { mode: "march", phase: q(ph, 24), expr: "dazed", stomp: 0.5, stride: 0.6 * view.fs };
       out.places.push(person(cam, { i: 5, o: SCIENTIST, okey: "sci" }, ax, 0, az, view, { mode: "stroll", phase: q(ph, 24), expr: "dazed" }, so));
@@ -462,13 +463,13 @@ export const stage = (id: number, f: number, cam: CamInfo): Stage => {
       // sky-watchers at their desks (office set): four sit facing the screens, one spots the hidden asteroid and points
       const [ox, , oz] = SET_OFFICE;
       [[-6.6, 0], [-2.6, 1], [1.4, 2], [5.0, 3]].forEach(([dx, k], i) => {
-        const spot = i === 2 && f >= 1856;
+        const spot = i === 3 && f >= 1856;
         const ex: Expr = spot ? exprAt(t, [[1856 / FPS, "shock"], [1872 / FPS, "grin"]], "neutral") : (["neutral", "smile", "neutral", "smile_closed"] as Expr[])[i];
         herder(cam, out, 10 + i, WATCHERS[k], ox + dx, 0.12, oz + 1.1, { mode: "sit", expr: ex, look: spot ? -1 : 0, wave: spot ? q(Math.sin(t * 6) * 0.3, 10) : undefined, t } as FrontOpts, 1, false);
       });
       if (f >= 1866 && f < 1890) {
         const u = q((f - 1866) / 24, 24);
-        out.fx.push({ key: `sparkle|${u}`, cw: 400, ch: 400, draw: (p) => fxSparkle(p, u), x: ox + 3.0 + 0.32, y: 1.62, z: oz - 0.3, w: 0.5, h: 0.5, glow: 1.6 });
+        out.fx.push({ key: `sparkle|${u}`, cw: 400, ch: 400, draw: (p) => fxSparkle(p, u), x: ox + 6.24, y: 1.48, z: oz - 0.55, w: 0.45, h: 0.45, glow: 1.4 });
       }
       break;
     }

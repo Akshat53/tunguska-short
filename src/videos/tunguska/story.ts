@@ -142,8 +142,8 @@ const S2a = (f: number) => { const u = (f - 166) / 74; const x = 260 - 150 * u; 
 const S3a = (f: number) => dolly([41.6, 1.7, 321.6], [40.75, 1.15, 312.6], pushK(f, 240, 0.0025), { fov: 40 });
 const S3b = (f: number) => dolly([44.2, 1.5, 318.4], [42.4, 1.0, 311.0], pushK(f, 268, 0.0025), { fov: 40, roll: -0.03 });
 // 4 ACTION: low behind the herders, looking up east where the light crosses; punch on "gunfire"
-const S4a = (f: number) => dolly([37.6, 0.9, 319.8], [70, 26, 290], pushK(f, 303, 0.002), { fov: 46, roll: 0.02 });
-const S4b = (f: number) => dolly([41.2, 1.7, 318.9], [40.7, 1.55, 314.4], pushK(f, 362, 0.002, 0.006, 30), { fov: 40, roll: -0.04 }); // faces, flinch
+const S4a = (f: number) => dolly([34.4, 1.15, 314.3], [60, 7.5, 314.3], pushK(f, 303, 0.002), { fov: 50, roll: 0.02 });
+const S4b = (f: number) => dolly([36.2, 1.65, 314.3], [40.5, 1.55, 314.3], pushK(f, 362, 0.002, 0.006, 30), { fov: 40, roll: -0.04 }); // faces, flinch
 // 5 the rock (chase from the side): fixed screen size (sprite rule: card size ~ distance)
 const S5a = (f: number) => chase(5, f, 150, 30, -18, 10, 40);
 const S5b = (f: number) => chase(5, f, 105, 10, -10, 18, 38);
@@ -162,21 +162,21 @@ const S9a = (f: number) => { const u = (f - 835) / 80, r = 205 + 50 * u, a = -0.
 const S10a = (f: number) => dolly([46, 2.6, 331], [38.5, 2.6, 309], pushK(f, 915, 0.002), { fov: 46, roll: 0.03 });
 // 11 globe: Siberia toward the lens, slow push; "Twice" punch
 const G = (x: number, y: number, z: number): V3 => [SET_GLOBE[0] + x, SET_GLOBE[1] + y, SET_GLOBE[2] + z];
-const S11a = (f: number) => dolly(G(70, 150, 160), G(0, 8, 0), pushK(f, 968, 0.0015), { fov: 40 });
-const S11b = (f: number) => dolly(G(140, 120, 110), G(0, 8, 0), pushK(f, 1028, 0.0015, 0.006, 30), { fov: 40, roll: -0.04 });
+const S11a = (f: number) => dolly(G(95, 205, 215), G(0, 22, 0), pushK(f, 968, 0.0015), { fov: 40 });
+const S11b = (f: number) => dolly(G(150, 190, 170), G(0, 22, 0), pushK(f, 1028, 0.0015, 0.006, 30), { fov: 40, roll: -0.04 });
 // 12 DEADPAN: crane down over ground zero ("directly underneath?"), then low among the stripped poles
 const S12a = (f: number) => dolly([60, 230, 120], [0, 0, 0], pushK(f, 1062, 0.002), { fov: 44 });
 const S12b = (f: number) => dolly([18, 1.6, 34], [0, 7, 0], pushK(f, 1113, 0.0018), { fov: 46, roll: 0.03 });
 const S12c = (f: number) => dolly([-3.5, 1.55, 22.5], [-9.5, 1.5, 9.5], pushK(f, 1163, 0.0025), { fov: 40, roll: -0.02 }); // the hidden one
 // 13 force straight down: lens on the floor of ground zero looking up through the poles
-const S13a = (f: number) => dolly([14, 1.4, 20], [0, 80, 0], pushK(f, 1228, 0.0025), { fov: 52 });
+const S13a = (f: number) => dolly([16, 1.4, 24], [0, 34, 0], pushK(f, 1228, 0.0025), { fov: 58 });
 // 14 the straw (insert set): end-on press, then sideways
 const SS = (x: number, y: number, z: number): V3 => [SET_STRAW[0] + x, SET_STRAW[1] + y, SET_STRAW[2] + z];
-const S14a = (f: number) => dolly(SS(0.25, 1.15, 2.6), SS(0, 1.12, 0), pushK(f, 1298, 0.0018), { fov: 36 });
-const S14b = (f: number) => dolly(SS(-0.3, 1.12, 2.3), SS(0, 1.08, 0), pushK(f, 1349, 0.0025), { fov: 36, roll: 0.03 });
+const S14a = (f: number) => dolly(SS(0.3, 1.45, 3.0), SS(0, 1.3, 0), pushK(f, 1298, 0.0018), { fov: 36 });
+const S14b = (f: number) => dolly(SS(-0.35, 1.35, 2.7), SS(-0.1, 1.25, 0), pushK(f, 1349, 0.0025), { fov: 36, roll: 0.03 });
 // 15 so does a tree
 const ST = (x: number, y: number, z: number): V3 => [SET_TREE[0] + x, SET_TREE[1] + y, SET_TREE[2] + z];
-const S15a = (f: number) => dolly(ST(3, 3.4, 15), ST(0, 5.5, 0), pushK(f, 1408, 0.003), { fov: 44 });
+const S15a = (f: number) => dolly(ST(4, 3.0, 19), ST(3, 4.5, 0), pushK(f, 1408, 0.003), { fov: 50 });
 // 16 diagram from above: outer ring sideways, then push to the middle
 const S16a = (f: number) => dolly([60, 520, 160], [0, 0, 0], pushK(f, 1452, 0.0015), { fov: 50 });
 const S16b = (f: number) => dolly([30, 120, 70], [0, 10, 0], pushK(f, 1531, 0.003), { fov: 46, roll: 0.02 });
@@ -184,11 +184,12 @@ const S16b = (f: number) => dolly([30, 120, 70], [0, 10, 0], pushK(f, 1531, 0.00
 const S17a = (f: number) => dolly([7.5, 1.7, 14.5], [2.0, 1.3, 4.2], pushK(f, 1590, 0.0025), { fov: 42 });
 const S17b = (f: number) => dolly([4.8, 1.55, 9.2], [2.0, 1.45, 4.2], pushK(f, 1629, 0.002, 0.006, 25), { fov: 38, roll: 0.035 });
 // 18 1927: the expedition walks through the fallen forest
-const S18a = (f: number) => { const u = (f - 1665) / 95; return { pos: [-118 + 6 * u, 2.2, 168 - 4 * u] as V3, look: [-130 + 9 * u, 1.3, 160 - 6 * u] as V3, fov: 42, roll: 0.02 }; };
+export const EXPED = (f: number): V3 => { const u = (f - 1665) / FPS; return [-131.5 + 0.62 * (0.8 * u - 2.0), 1.1, 160.5 - 0.78 * (0.8 * u - 2.0)]; };
+const S18a = (f: number) => { const g = EXPED(f); return dolly([g[0] + 7.5, 2.0, g[2] + 6.0], g, pushK(f, 1665, 0.002), { fov: 42, roll: 0.02 }); };
 // 19 the office: drive along nine screens, spot the hidden one
 const SO = (x: number, y: number, z: number): V3 => [SET_OFFICE[0] + x, SET_OFFICE[1] + y, SET_OFFICE[2] + z];
 const S19a = (f: number) => { const u = glide((f - 1760) / 96); return { pos: SO(-9 + 13.5 * u, 2.0, 5.2), look: SO(-7.5 + 13.5 * u, 1.3, 0), fov: 44, roll: -0.02 }; };
-const S19b = (f: number) => dolly(SO(3.4, 1.55, 2.6), SO(3.0, 1.35, -0.4), pushK(f, 1856, 0.0025, 0.006, 30), { fov: 40 });
+const S19b = (f: number) => dolly(SO(4.3, 2.25, 3.5), SO(5.9, 1.35, -0.6), pushK(f, 1856, 0.0025, 0.006, 30), { fov: 40 });
 // 20 CALLBACK: herders at the rebuilt camp, the hat comes off, crane out over the empty taiga, the last spark
 const S20a = (f: number) => dolly([41.4, 1.7, 321.2], [40.7, 1.3, 313.0], pushK(f, 1910, 0.002), { fov: 40 });
 const CR: V3[] = [[70, 40, 380], [150, 150, 520]];
@@ -247,7 +248,7 @@ export const DOF: Dof[] = [
   { f: 0, cInf: 0 },                                         // hook aerial: sharp
   { f: 240, cInf: 12, focus: () => [40.7, 1.6, 314.4] },     // herders MS: eyes
   { f: 303, cInf: 0 },                                       // looking up at the sky
-  { f: 362, cInf: 12, focus: () => [40.7, 1.65, 314.4] },    // faces flinch
+  { f: 362, cInf: 12, focus: () => [40.5, 1.65, 314.3] },    // faces flinch
   { f: 420, cInf: 0 },                                       // chase, burst, aerials, drive
   { f: 915, cInf: 6 },                                       // camp blown over
   { f: 968, cInf: 0 },                                       // globe
@@ -257,7 +258,7 @@ export const DOF: Dof[] = [
   { f: 1408, cInf: 8 },                                      // hero tree
   { f: 1452, cInf: 0 },                                      // diagram
   { f: 1590, cInf: 11, focus: () => [2.0, 1.55, 4.2] },      // herder at ground zero
-  { f: 1665, cInf: 7 },                                      // expedition: focus = look
+  { f: 1665, cInf: 7 },                                      // expedition: focus = look (the group)
   { f: 1760, cInf: 0 },                                      // office drive
   { f: 1856, dur: 26, cInf: 12 },                            // the hidden screen
   { f: 1910, cInf: 12, focus: () => [40.6, 1.6, 314.4] },    // callback MS
