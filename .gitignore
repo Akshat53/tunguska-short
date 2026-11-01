@@ -1,0 +1,6 @@
+node_modules/
+.tmp/
+.venv/
+out/
+audio/_cache/
+*.log
