@@ -1,1017 +1,1017 @@
 [
  {
   "word": "On",
-  "start": 0.091,
-  "end": 0.234
+  "start": 0.068,
+  "end": 0.159
  },
  {
   "word": "the",
-  "start": 0.245,
-  "end": 0.306
+  "start": 0.17,
+  "end": 0.261
  },
  {
   "word": "thirtieth",
-  "start": 0.316,
-  "end": 0.726
+  "start": 0.273,
+  "end": 0.682
  },
  {
   "word": "of",
-  "start": 0.736,
-  "end": 0.829
+  "start": 0.693,
+  "end": 0.773
  },
  {
   "word": "June",
-  "start": 0.839,
-  "end": 1.157
+  "start": 0.784,
+  "end": 1.239
  },
  {
   "word": "nineteen-oh-eight",
-  "start": 1.351,
-  "end": 2.007
+  "start": 1.523,
+  "end": 2.375
  },
  {
   "word": "the",
-  "start": 2.181,
-  "end": 2.273
+  "start": 2.523,
+  "end": 2.625
  },
  {
   "word": "sky",
-  "start": 2.284,
-  "end": 2.571
+  "start": 2.636,
+  "end": 2.966
  },
  {
   "word": "exploded",
-  "start": 2.581,
-  "end": 3.083
+  "start": 2.977,
+  "end": 3.489
  },
  {
   "word": "over",
-  "start": 3.093,
-  "end": 3.267
+  "start": 3.5,
+  "end": 3.693
  },
  {
   "word": "Siberia",
-  "start": 3.277,
-  "end": 3.82
+  "start": 3.705,
+  "end": 4.341
  },
  {
   "word": "and",
-  "start": 4.066,
-  "end": 4.21
+  "start": 4.625,
+  "end": 4.807
  },
  {
   "word": "nothing",
-  "start": 4.22,
-  "end": 4.538
+  "start": 4.818,
+  "end": 5.159
  },
  {
   "word": "ever",
-  "start": 4.548,
-  "end": 4.722
+  "start": 5.17,
+  "end": 5.375
  },
  {
   "word": "hit",
-  "start": 4.732,
-  "end": 4.876
+  "start": 5.386,
+  "end": 5.58
  },
  {
   "word": "the",
-  "start": 4.886,
-  "end": 4.958
+  "start": 5.591,
+  "end": 5.659
  },
  {
   "word": "ground",
-  "start": 4.968,
-  "end": 5.409
+  "start": 5.67,
+  "end": 6.136
  },
  {
   "word": "Just",
-  "start": 6.107,
-  "end": 6.363
+  "start": 6.489,
+  "end": 6.682
  },
  {
   "word": "taiga",
-  "start": 6.373,
-  "end": 6.762
+  "start": 6.693,
+  "end": 7.068
  },
  {
   "word": "thin",
-  "start": 6.977,
-  "end": 7.193
+  "start": 7.682,
+  "end": 7.898
  },
  {
   "word": "pines",
-  "start": 7.203,
-  "end": 7.633
+  "start": 7.909,
+  "end": 8.398
  },
  {
   "word": "a",
-  "start": 7.797,
-  "end": 7.848
+  "start": 8.818,
+  "end": 8.864
  },
  {
   "word": "slow",
-  "start": 7.859,
-  "end": 8.176
+  "start": 8.875,
+  "end": 9.227
  },
  {
   "word": "river",
-  "start": 8.186,
-  "end": 8.484
+  "start": 9.239,
+  "end": 9.545
  },
  {
   "word": "Evenki",
-  "start": 8.668,
-  "end": 9.016
+  "start": 10.08,
+  "end": 10.42
  },
  {
   "word": "herders",
-  "start": 9.027,
-  "end": 9.457
+  "start": 10.432,
+  "end": 10.909
  },
  {
   "word": "and",
-  "start": 9.549,
-  "end": 9.652
+  "start": 10.92,
+  "end": 11.034
  },
  {
   "word": "their",
-  "start": 9.662,
-  "end": 9.795
+  "start": 11.045,
+  "end": 11.193
  },
  {
   "word": "reindeer",
-  "start": 9.805,
-  "end": 10.277
+  "start": 11.205,
+  "end": 11.659
  },
  {
   "word": "Then",
-  "start": 10.984,
-  "end": 11.168
+  "start": 12.011,
+  "end": 12.148
  },
  {
   "word": "a",
-  "start": 11.178,
-  "end": 11.23
+  "start": 12.159,
+  "end": 12.227
  },
  {
   "word": "light",
-  "start": 11.24,
-  "end": 11.486
+  "start": 12.239,
+  "end": 12.523
  },
  {
   "word": "brighter",
-  "start": 11.496,
-  "end": 11.793
+  "start": 12.534,
+  "end": 12.875
  },
  {
   "word": "than",
-  "start": 11.803,
-  "end": 11.906
+  "start": 12.886,
+  "end": 13.023
  },
  {
   "word": "the",
-  "start": 11.916,
-  "end": 11.988
+  "start": 13.034,
+  "end": 13.102
  },
  {
   "word": "sun",
-  "start": 11.998,
-  "end": 12.326
+  "start": 13.114,
+  "end": 13.58
  },
  {
   "word": "and",
-  "start": 12.5,
-  "end": 12.602
+  "start": 13.807,
+  "end": 13.977
  },
  {
   "word": "a",
-  "start": 12.613,
-  "end": 12.654
+  "start": 13.989,
+  "end": 14.034
  },
  {
   "word": "sound",
-  "start": 12.664,
-  "end": 12.961
+  "start": 14.045,
+  "end": 14.398
  },
  {
   "word": "like",
-  "start": 12.971,
-  "end": 13.115
+  "start": 14.409,
+  "end": 14.58
  },
  {
   "word": "gunfire",
-  "start": 13.125,
-  "end": 13.648
+  "start": 14.591,
+  "end": 15.182
  },
  {
   "word": "with",
-  "start": 13.822,
-  "end": 13.955
+  "start": 15.205,
+  "end": 15.341
  },
  {
   "word": "no",
-  "start": 13.965,
-  "end": 14.17
+  "start": 15.352,
+  "end": 15.523
  },
  {
   "word": "gun",
-  "start": 14.18,
-  "end": 14.529
+  "start": 15.534,
+  "end": 15.886
  },
  {
   "word": "A",
-  "start": 15.236,
-  "end": 15.348
+  "start": 16.25,
+  "end": 16.33
  },
  {
   "word": "rock",
-  "start": 15.359,
-  "end": 15.615
+  "start": 16.341,
+  "end": 16.727
  },
  {
   "word": "the",
-  "start": 15.625,
-  "end": 15.707
+  "start": 16.739,
+  "end": 16.807
  },
  {
   "word": "size",
-  "start": 15.717,
-  "end": 16.055
+  "start": 16.818,
+  "end": 17.25
  },
  {
   "word": "of",
-  "start": 16.066,
-  "end": 16.117
+  "start": 17.261,
+  "end": 17.341
  },
  {
   "word": "a",
-  "start": 16.127,
-  "end": 16.199
+  "start": 17.352,
+  "end": 17.432
  },
  {
   "word": "building",
-  "start": 16.209,
-  "end": 16.516
+  "start": 17.443,
+  "end": 17.784
  },
  {
   "word": "hit",
-  "start": 16.527,
-  "end": 16.68
+  "start": 17.795,
+  "end": 18.102
  },
  {
   "word": "the",
-  "start": 16.691,
-  "end": 16.783
+  "start": 18.125,
+  "end": 18.205
  },
  {
   "word": "atmosphere",
-  "start": 16.793,
-  "end": 17.346
+  "start": 18.216,
+  "end": 18.864
  },
  {
   "word": "at",
-  "start": 17.357,
-  "end": 17.438
+  "start": 18.875,
+  "end": 18.989
  },
  {
   "word": "fifteen",
-  "start": 17.449,
-  "end": 17.92
+  "start": 19.0,
+  "end": 19.375
  },
  {
   "word": "kilometers",
-  "start": 17.93,
-  "end": 18.381
+  "start": 19.386,
+  "end": 19.898
  },
  {
   "word": "a",
-  "start": 18.391,
-  "end": 18.443
+  "start": 19.909,
+  "end": 19.966
  },
  {
   "word": "second",
-  "start": 18.453,
-  "end": 18.873
+  "start": 19.977,
+  "end": 20.443
  },
  {
   "word": "At",
-  "start": 19.58,
-  "end": 19.734
+  "start": 20.807,
+  "end": 20.92
  },
  {
   "word": "that",
-  "start": 19.744,
-  "end": 19.918
+  "start": 20.932,
+  "end": 21.125
  },
  {
   "word": "speed",
-  "start": 19.928,
-  "end": 20.297
+  "start": 21.136,
+  "end": 21.614
  },
  {
   "word": "air",
-  "start": 20.523,
-  "end": 20.697
+  "start": 21.636,
+  "end": 21.875
  },
  {
   "word": "cannot",
-  "start": 20.707,
-  "end": 20.973
+  "start": 21.886,
+  "end": 22.227
  },
  {
   "word": "get",
-  "start": 20.984,
-  "end": 21.107
+  "start": 22.239,
+  "end": 22.398
  },
  {
   "word": "out",
-  "start": 21.117,
-  "end": 21.24
+  "start": 22.409,
+  "end": 22.545
  },
  {
   "word": "of",
-  "start": 21.25,
-  "end": 21.301
+  "start": 22.557,
+  "end": 22.625
  },
  {
   "word": "the",
-  "start": 21.311,
-  "end": 21.373
+  "start": 22.636,
+  "end": 22.716
  },
  {
   "word": "way",
-  "start": 21.383,
-  "end": 21.68
+  "start": 22.727,
+  "end": 23.045
  },
  {
   "word": "It",
-  "start": 22.387,
-  "end": 22.52
+  "start": 23.38,
+  "end": 23.493
  },
  {
   "word": "squeezes",
-  "start": 22.531,
-  "end": 22.982
+  "start": 23.505,
+  "end": 24.061
  },
  {
   "word": "until",
-  "start": 22.992,
-  "end": 23.227
+  "start": 24.073,
+  "end": 24.345
  },
  {
   "word": "the",
-  "start": 23.238,
-  "end": 23.33
+  "start": 24.357,
+  "end": 24.436
  },
  {
   "word": "rock",
-  "start": 23.34,
-  "end": 23.607
+  "start": 24.448,
+  "end": 24.766
  },
  {
   "word": "gives",
-  "start": 23.617,
-  "end": 23.863
+  "start": 24.777,
+  "end": 25.016
  },
  {
   "word": "up",
-  "start": 23.873,
-  "end": 24.057
+  "start": 25.027,
+  "end": 25.334
  },
  {
   "word": "exploding",
-  "start": 24.283,
-  "end": 24.754
+  "start": 25.63,
+  "end": 26.22
  },
  {
   "word": "five",
-  "start": 24.764,
-  "end": 25.051
+  "start": 26.232,
+  "end": 26.55
  },
  {
   "word": "kilometers",
-  "start": 25.061,
-  "end": 25.543
+  "start": 26.561,
+  "end": 27.164
  },
  {
   "word": "above",
-  "start": 25.553,
-  "end": 25.83
+  "start": 27.175,
+  "end": 27.436
  },
  {
   "word": "the",
-  "start": 25.84,
-  "end": 25.902
+  "start": 27.448,
+  "end": 27.527
  },
  {
   "word": "forest",
-  "start": 25.912,
-  "end": 26.414
+  "start": 27.539,
+  "end": 28.073
  },
  {
   "word": "The",
-  "start": 27.121,
-  "end": 27.234
+  "start": 28.42,
+  "end": 28.489
  },
  {
   "word": "blast",
-  "start": 27.244,
-  "end": 27.572
+  "start": 28.5,
+  "end": 28.886
  },
  {
   "word": "wave",
-  "start": 27.582,
-  "end": 27.818
+  "start": 28.898,
+  "end": 29.17
  },
  {
   "word": "slammed",
-  "start": 27.828,
-  "end": 28.156
+  "start": 29.182,
+  "end": 29.602
  },
  {
   "word": "down",
-  "start": 28.166,
-  "end": 28.432
+  "start": 29.614,
+  "end": 29.977
  },
  {
   "word": "and",
-  "start": 28.443,
-  "end": 28.514
+  "start": 29.989,
+  "end": 30.114
  },
  {
   "word": "flattened",
-  "start": 28.525,
-  "end": 28.924
+  "start": 30.125,
+  "end": 30.557
  },
  {
   "word": "everything",
-  "start": 28.934,
-  "end": 29.395
+  "start": 30.568,
+  "end": 31.091
  },
  {
   "word": "Millions",
-  "start": 30.102,
-  "end": 30.523
+  "start": 31.455,
+  "end": 31.886
  },
  {
   "word": "of",
-  "start": 30.533,
-  "end": 30.615
+  "start": 31.898,
+  "end": 31.977
  },
  {
   "word": "trees",
-  "start": 30.625,
-  "end": 31.066
+  "start": 31.989,
+  "end": 32.443
  },
  {
   "word": "knocked",
-  "start": 31.219,
-  "end": 31.486
+  "start": 32.455,
+  "end": 32.818
  },
  {
   "word": "over",
-  "start": 31.496,
-  "end": 31.67
+  "start": 32.83,
+  "end": 33.045
  },
  {
   "word": "like",
-  "start": 31.68,
-  "end": 31.844
+  "start": 33.057,
+  "end": 33.227
  },
  {
   "word": "grass",
-  "start": 31.855,
-  "end": 32.367
+  "start": 33.239,
+  "end": 33.739
  },
  {
   "word": "Tents",
-  "start": 33.074,
-  "end": 33.361
+  "start": 34.091,
+  "end": 34.432
  },
  {
   "word": "thrown",
-  "start": 33.371,
-  "end": 33.648
+  "start": 34.443,
+  "end": 34.841
  },
  {
   "word": "into",
-  "start": 33.658,
-  "end": 33.811
+  "start": 34.852,
+  "end": 35.125
  },
  {
   "word": "the",
-  "start": 33.822,
-  "end": 33.904
+  "start": 35.136,
+  "end": 35.193
  },
  {
   "word": "air",
-  "start": 33.914,
-  "end": 34.283
+  "start": 35.205,
+  "end": 35.614
  },
  {
   "word": "The",
-  "start": 34.99,
-  "end": 35.102
+  "start": 35.966,
+  "end": 36.023
  },
  {
   "word": "shockwave",
-  "start": 35.113,
-  "end": 35.625
+  "start": 36.034,
+  "end": 36.625
  },
  {
   "word": "circled",
-  "start": 35.635,
-  "end": 35.973
+  "start": 36.636,
+  "end": 37.045
  },
  {
   "word": "the",
-  "start": 35.984,
-  "end": 36.055
+  "start": 37.057,
+  "end": 37.125
  },
  {
   "word": "planet",
-  "start": 36.066,
-  "end": 36.465
+  "start": 37.136,
+  "end": 37.648
  },
  {
   "word": "Twice",
-  "start": 37.172,
-  "end": 37.736
+  "start": 37.977,
+  "end": 38.364
  },
  {
   "word": "And",
-  "start": 38.432,
-  "end": 38.576
+  "start": 38.727,
+  "end": 38.886
  },
  {
   "word": "directly",
-  "start": 38.586,
-  "end": 39.006
+  "start": 38.898,
+  "end": 39.443
  },
  {
   "word": "underneath",
-  "start": 39.016,
-  "end": 39.498
+  "start": 39.455,
+  "end": 40.148
  },
  {
   "word": "Trees",
-  "start": 40.205,
-  "end": 40.523
+  "start": 40.5,
+  "end": 40.795
  },
  {
   "word": "still",
-  "start": 40.533,
-  "end": 40.779
+  "start": 40.807,
+  "end": 41.068
  },
  {
   "word": "standing",
-  "start": 40.789,
-  "end": 41.301
+  "start": 41.08,
+  "end": 41.659
  },
  {
   "word": "Stripped",
-  "start": 42.008,
-  "end": 42.439
+  "start": 41.991,
+  "end": 42.366
  },
  {
   "word": "bare",
-  "start": 42.449,
-  "end": 42.746
+  "start": 42.377,
+  "end": 42.673
  },
  {
   "word": "but",
-  "start": 42.971,
-  "end": 43.115
+  "start": 42.684,
+  "end": 42.843
  },
  {
   "word": "standing",
-  "start": 43.125,
-  "end": 43.648
+  "start": 42.855,
+  "end": 43.434
  },
  {
   "word": "Because",
-  "start": 44.355,
-  "end": 44.652
+  "start": 43.784,
+  "end": 44.068
  },
  {
   "word": "the",
-  "start": 44.662,
-  "end": 44.744
+  "start": 44.08,
+  "end": 44.182
  },
  {
   "word": "force",
-  "start": 44.754,
-  "end": 45.061
+  "start": 44.193,
+  "end": 44.557
  },
  {
   "word": "came",
-  "start": 45.072,
-  "end": 45.277
+  "start": 44.568,
+  "end": 44.886
  },
  {
   "word": "from",
-  "start": 45.287,
-  "end": 45.42
+  "start": 44.898,
+  "end": 45.091
  },
  {
   "word": "straight",
-  "start": 45.43,
-  "end": 45.686
+  "start": 45.102,
+  "end": 45.466
  },
  {
   "word": "above",
-  "start": 45.697,
-  "end": 46.096
+  "start": 45.477,
+  "end": 45.966
  },
  {
   "word": "A",
-  "start": 46.803,
-  "end": 46.895
+  "start": 46.3,
+  "end": 46.391
  },
  {
   "word": "straw",
-  "start": 46.906,
-  "end": 47.223
+  "start": 46.402,
+  "end": 46.686
  },
  {
   "word": "holds",
-  "start": 47.234,
-  "end": 47.49
+  "start": 46.698,
+  "end": 47.073
  },
  {
   "word": "if",
-  "start": 47.5,
-  "end": 47.592
+  "start": 47.084,
+  "end": 47.198
  },
  {
   "word": "you",
-  "start": 47.602,
-  "end": 47.695
+  "start": 47.209,
+  "end": 47.3
  },
  {
   "word": "push",
-  "start": 47.705,
-  "end": 47.982
+  "start": 47.311,
+  "end": 47.55
  },
  {
   "word": "end",
-  "start": 47.992,
-  "end": 48.186
+  "start": 47.561,
+  "end": 47.755
  },
  {
   "word": "on",
-  "start": 48.197,
-  "end": 48.432
+  "start": 47.766,
+  "end": 48.073
  },
  {
   "word": "and",
-  "start": 48.648,
-  "end": 48.75
+  "start": 48.334,
+  "end": 48.527
  },
  {
   "word": "folds",
-  "start": 48.76,
-  "end": 49.068
+  "start": 48.539,
+  "end": 48.914
  },
  {
   "word": "if",
-  "start": 49.078,
-  "end": 49.17
+  "start": 48.925,
+  "end": 49.039
  },
  {
   "word": "you",
-  "start": 49.18,
-  "end": 49.262
+  "start": 49.05,
+  "end": 49.141
  },
  {
   "word": "push",
-  "start": 49.273,
-  "end": 49.508
+  "start": 49.152,
+  "end": 49.38
  },
  {
   "word": "sideways",
-  "start": 49.518,
-  "end": 50.143
+  "start": 49.391,
+  "end": 50.005
  },
  {
   "word": "So",
-  "start": 50.85,
-  "end": 51.107
+  "start": 50.332,
+  "end": 50.48
  },
  {
   "word": "does",
-  "start": 51.117,
-  "end": 51.281
+  "start": 50.491,
+  "end": 50.673
  },
  {
   "word": "a",
-  "start": 51.291,
-  "end": 51.342
+  "start": 50.684,
+  "end": 50.752
  },
  {
   "word": "tree",
-  "start": 51.352,
-  "end": 51.732
+  "start": 50.764,
+  "end": 51.173
  },
  {
   "word": "The",
-  "start": 52.439,
-  "end": 52.551
+  "start": 51.523,
+  "end": 51.591
  },
  {
   "word": "blast",
-  "start": 52.561,
-  "end": 52.91
+  "start": 51.602,
+  "end": 52.045
  },
  {
   "word": "blew",
-  "start": 52.92,
-  "end": 53.135
+  "start": 52.057,
+  "end": 52.375
  },
  {
   "word": "the",
-  "start": 53.145,
-  "end": 53.258
+  "start": 52.386,
+  "end": 52.5
  },
  {
   "word": "outer",
-  "start": 53.268,
-  "end": 53.535
+  "start": 52.511,
+  "end": 52.807
  },
  {
   "word": "forest",
-  "start": 53.545,
-  "end": 53.924
+  "start": 52.818,
+  "end": 53.193
  },
  {
   "word": "sideways",
-  "start": 53.934,
-  "end": 54.58
+  "start": 53.205,
+  "end": 53.807
  },
  {
   "word": "The",
-  "start": 55.287,
-  "end": 55.4
+  "start": 54.159,
+  "end": 54.227
  },
  {
   "word": "middle",
-  "start": 55.41,
-  "end": 55.717
+  "start": 54.239,
+  "end": 54.648
  },
  {
   "word": "it",
-  "start": 55.922,
-  "end": 56.004
+  "start": 54.67,
+  "end": 54.784
  },
  {
   "word": "only",
-  "start": 56.014,
-  "end": 56.219
+  "start": 54.795,
+  "end": 55.068
  },
  {
   "word": "pressed",
-  "start": 56.23,
-  "end": 56.721
+  "start": 55.08,
+  "end": 55.58
  },
  {
   "word": "No",
-  "start": 57.428,
-  "end": 57.664
+  "start": 55.932,
+  "end": 56.148
  },
  {
   "word": "crater",
-  "start": 57.674,
-  "end": 58.125
+  "start": 56.159,
+  "end": 56.682
  },
  {
   "word": "No",
-  "start": 58.832,
-  "end": 59.078
+  "start": 57.023,
+  "end": 57.182
  },
  {
   "word": "rock",
-  "start": 59.088,
-  "end": 59.488
+  "start": 57.193,
+  "end": 57.545
  },
  {
   "word": "Scientists",
-  "start": 60.195,
-  "end": 60.84
+  "start": 57.909,
+  "end": 58.489
  },
  {
   "word": "took",
-  "start": 60.85,
-  "end": 61.055
+  "start": 58.5,
+  "end": 58.75
  },
  {
   "word": "almost",
-  "start": 61.066,
-  "end": 61.332
+  "start": 58.761,
+  "end": 59.091
  },
  {
   "word": "twenty",
-  "start": 61.342,
-  "end": 61.588
+  "start": 59.102,
+  "end": 59.364
  },
  {
   "word": "years",
-  "start": 61.598,
-  "end": 61.865
+  "start": 59.375,
+  "end": 59.739
  },
  {
   "word": "just",
-  "start": 61.875,
-  "end": 62.07
+  "start": 59.75,
+  "end": 59.977
  },
  {
   "word": "to",
-  "start": 62.08,
-  "end": 62.152
+  "start": 59.989,
+  "end": 60.068
  },
  {
   "word": "reach",
-  "start": 62.162,
-  "end": 62.377
+  "start": 60.08,
+  "end": 60.352
  },
  {
   "word": "the",
-  "start": 62.387,
-  "end": 62.469
+  "start": 60.364,
+  "end": 60.443
  },
  {
   "word": "site",
-  "start": 62.48,
-  "end": 62.838
+  "start": 60.455,
+  "end": 60.898
  },
  {
   "word": "Now",
-  "start": 63.545,
-  "end": 63.791
+  "start": 61.261,
+  "end": 61.443
  },
  {
   "word": "June",
-  "start": 63.801,
-  "end": 64.057
+  "start": 61.455,
+  "end": 61.705
  },
  {
   "word": "thirtieth",
-  "start": 64.068,
-  "end": 64.477
+  "start": 61.716,
+  "end": 62.182
  },
  {
   "word": "is",
-  "start": 64.488,
-  "end": 64.58
+  "start": 62.205,
+  "end": 62.364
  },
  {
   "word": "International",
-  "start": 64.59,
-  "end": 65.143
+  "start": 62.375,
+  "end": 63.0
  },
  {
   "word": "Asteroid",
-  "start": 65.154,
-  "end": 65.604
+  "start": 63.011,
+  "end": 63.455
  },
  {
   "word": "Day",
-  "start": 65.615,
-  "end": 65.881
+  "start": 63.466,
+  "end": 63.75
  },
  {
   "word": "and",
-  "start": 66.137,
-  "end": 66.291
+  "start": 64.034,
+  "end": 64.227
  },
  {
   "word": "NASA",
-  "start": 66.301,
-  "end": 66.66
+  "start": 64.239,
+  "end": 64.602
  },
  {
   "word": "has",
-  "start": 66.67,
-  "end": 66.834
+  "start": 64.614,
+  "end": 64.784
  },
  {
   "word": "a",
-  "start": 66.844,
-  "end": 66.895
+  "start": 64.795,
+  "end": 64.841
  },
  {
   "word": "whole",
-  "start": 66.906,
-  "end": 67.162
+  "start": 64.852,
+  "end": 65.17
  },
  {
   "word": "office",
-  "start": 67.172,
-  "end": 67.459
+  "start": 65.182,
+  "end": 65.591
  },
  {
   "word": "watching",
-  "start": 67.469,
-  "end": 67.766
+  "start": 65.602,
+  "end": 65.966
  },
  {
   "word": "the",
-  "start": 67.777,
-  "end": 67.838
+  "start": 65.977,
+  "end": 66.045
  },
  {
   "word": "sky",
-  "start": 67.848,
-  "end": 68.248
+  "start": 66.057,
+  "end": 66.5
  },
  {
   "word": "That",
-  "start": 68.965,
-  "end": 69.17
+  "start": 66.864,
+  "end": 67.011
  },
  {
   "word": "morning",
-  "start": 69.18,
-  "end": 69.529
+  "start": 67.023,
+  "end": 67.432
  },
  {
   "word": "a",
-  "start": 69.744,
-  "end": 69.785
+  "start": 67.989,
+  "end": 68.034
  },
  {
   "word": "city-sized",
-  "start": 69.795,
-  "end": 70.369
+  "start": 68.045,
+  "end": 68.716
  },
  {
   "word": "blast",
-  "start": 70.379,
-  "end": 70.686
+  "start": 68.727,
+  "end": 69.114
  },
  {
   "word": "hit",
-  "start": 70.697,
-  "end": 70.809
+  "start": 69.125,
+  "end": 69.364
  },
  {
   "word": "the",
-  "start": 70.82,
-  "end": 70.891
+  "start": 69.42,
+  "end": 69.511
  },
  {
   "word": "emptiest",
-  "start": 70.902,
-  "end": 71.332
+  "start": 69.523,
+  "end": 69.989
  },
  {
   "word": "place",
-  "start": 71.342,
-  "end": 71.588
+  "start": 70.0,
+  "end": 70.284
  },
  {
   "word": "on",
-  "start": 71.598,
-  "end": 71.721
+  "start": 70.295,
+  "end": 70.42
  },
  {
   "word": "Earth",
-  "start": 71.732,
-  "end": 72.049
+  "start": 70.432,
+  "end": 70.807
  },
  {
   "word": "It",
-  "start": 72.756,
-  "end": 72.879
+  "start": 71.141,
+  "end": 71.277
  },
  {
   "word": "will",
-  "start": 72.889,
-  "end": 72.982
+  "start": 71.289,
+  "end": 71.402
  },
  {
   "word": "not",
-  "start": 72.992,
-  "end": 73.186
+  "start": 71.414,
+  "end": 71.641
  },
  {
   "word": "always",
-  "start": 73.197,
-  "end": 73.514
+  "start": 71.652,
+  "end": 72.016
  },
  {
   "word": "be",
-  "start": 73.525,
-  "end": 73.648
+  "start": 72.027,
+  "end": 72.186
  },
  {
   "word": "this",
-  "start": 73.658,
-  "end": 73.822
+  "start": 72.198,
+  "end": 72.402
  },
  {
   "word": "lucky",
-  "start": 73.832,
-  "end": 74.242
+  "start": 72.414,
+  "end": 72.845
  }
 ]

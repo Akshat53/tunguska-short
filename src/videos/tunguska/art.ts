@@ -113,12 +113,16 @@ export const fxBlast = (p: Pen, t: number) => {
 };
 /** smoke + fire cloud left after the flash (mushroom-ish puff), 800 x 800 card, k 0..1 grows, dark 0 hot .. 1 sooty */
 export const fxPuffCloud = (p: Pen, k: number, dark: number) => {
-  const lobes: [number, number, number][] = [[400, 420, 200], [260, 460, 150], [540, 460, 150], [330, 300, 150], [480, 300, 150], [400, 220, 140], [200, 560, 110], [600, 560, 110]];
-  const col = mix(mix("#ff8a2a", "#b98a8a", Math.min(1, dark * 1.5)), "#7d6f8e", Math.max(0, dark - 0.5)), lit = mix(col, "#ffe0a0", 0.45);
-  for (const [x, y, r] of lobes) p.ell(400 + (x - 400) * k, 520 + (y - 520) * k, r * k, r * k * 0.9, col, 10);
-  for (const [x, y, r] of lobes.slice(3, 6)) p.ell(400 + (x - 400 - 30) * k, 520 + (y - 520 - 40) * k, r * k * 0.55, r * k * 0.45, lit, 0);
+  // a proper mushroom: wide skirt, tapering stem, billowing cap (orange fire cooling to cool grey smoke, never brown/mauve)
+  const col = mix(mix("#ff8a2a", "#ffb04a", 0.2), "#8d97aa", Math.min(1, dark * 1.3)), lit = mix(col, "#ffe9b0", 0.5), shade = mix(col, "#4b5568", 0.35);
+  const X = (x: number) => 400 + (x - 400) * k, Y = (y: number) => 520 + (y - 520) * k;
+  p.ell(X(400), Y(655), 215 * k, 52 * k, shade, 10);                                          // ground skirt
+  p.poly([[X(335), Y(650)], [X(365), Y(430)], [X(435), Y(430)], [X(465), Y(650)]], col, 10);  // stem
+  const cap: [number, number, number][] = [[400, 330, 150], [265, 365, 112], [535, 365, 112], [320, 255, 112], [480, 255, 112], [400, 215, 105], [215, 410, 78], [585, 410, 78]];
+  for (const [x, y, r] of cap) p.ell(X(x), Y(y), r * k, r * k * 0.88, col, 10);
+  for (const [x, y, r] of cap.slice(3, 6)) p.ell(X(x - 22), Y(y - 24), r * k * 0.5, r * k * 0.4, lit, 0);   // lit crown
+  p.ell(X(400), Y(430), 120 * k, 26 * k, shade, 0);                                           // shadow under the cap
 };
-
 /** flat ground dust ring for the blast wave (top-down), 1024 x 1024; drawn ring at radius .78-.98 */
 export const fxWaveRing = (p: Pen) => {
   const g = p.g;

@@ -35,16 +35,21 @@ python3 -m venv .venv && .venv/bin/pip install edge-tts numpy scipy pillow
   the two biggest (f540, f1629) are an intentional 7-frame impact kick and a hard cut. **No real glitch found yet — ask the owner for timestamps** and inspect those frames.
 - Always LOOK at frames (`scripts/qa.sh` makes a contact sheet) before telling the owner a video is good.
 
-## 3. VIDEO #1 (Tunguska) STATUS — final candidate built: `out/tunguska-final.mp4` (local, not in git; 79.8 s, -14.3 LUFS)
-Built with: voice at **+22%** (75 s, was +32%/69 s), **time warp** (`scripts/warp.py` -> `src/videos/tunguska/warp.json`; picture timeline stays
-authored for the old voice and is played through the warp; max sync error 0.02 s over 203 words, stretch 1.06-1.08),
-`audio/score.py` places every cue through the same warp (F() in score.py), voice polished (EQ/de-ess/compress/room; raw kept as `voice/voice.raw.wav`),
-intro 1.6 s + outro 3 s cards (`brand/card-*.svg`, sounds from `audio/bookends.py`), lens blur off, GL=angle (full render ~45 s).
-Rebuild: `python3 scripts/warp.py voice/v1/words.json voice/words.json src/videos/tunguska/warp.json` ->
-`CONC=6 node scripts/render.mjs out/picture-warp.mp4 all 1 '{"post":{"dpr":1}}'` -> `.venv/bin/python audio/score.py && bash audio/finalize.sh` ->
-`.venv/bin/python audio/bookends.py` -> ffmpeg concat (see git history message / HANDOFF) -> `scripts/qa.sh`.
-**Reuse this warp trick for any re-paced voice or other language of the same script** (needs same word count in both words.json files).
-Open: owner has not yet watched/approved it; jitter report unresolved (no timestamps); captions not added (owner decision); globe shot sits on a purple background (owner dislikes purple).
+## 3. VIDEO #1 (Tunguska) STATUS — candidate to post: `out/tunguska-final2.mp4` (local, not in git; 77.6 s, -14.2 LUFS; owner has not yet watched/approved)
+Voice: **en-US-BrianMultilingualNeural at +10%** (73.2 s, 203 words), polished (EQ/de-ess/compress/room; raw `voice/voice.raw.wav`; previous Christopher voice kept in `voice/christopher22/`, original +32% voice in `voice/v1/`).
+Retiming: picture timeline is still authored for the OLD voice and played through a time warp. For a different voice use the **cue-anchored warp**
+(`scripts/warp_cues.py story.ts old_words new_words src/videos/tunguska/warp.json` — anchors at shot cuts/flashes/kicks/hits; the pause-anchored `scripts/warp.py` is only good when the new voice has the same inner rhythm).
+Visual fixes: lens blur off; mushroom cloud redrawn (`fxPuffCloud` in art.ts; the old lobed brown blob could be misread); globe backdrop teal (space look); golden sunset sky warmer with a wider gradient (no flat mauve when looking up).
+Build chain: `python3 scripts/warp_cues.py ...` -> `CONC=6 node scripts/render.mjs out/picture.mp4 all 1 '{"post":{"dpr":1}}'` (~45 s) -> `.venv/bin/python audio/score.py && bash audio/finalize.sh` -> `scripts/finish.sh out/picture.mp4 out/final.mp4 0.8 3` (intro 0.8 s + outro 3 s cards) -> `scripts/qa.sh out/final.mp4`.
+Open: jitter report unresolved (no timestamps; frame-diff spikes found were cuts/kicks); captions not added (owner decision); hook is still a quiet aerial (consider a cold-open teaser).
+
+## 3b. ELEVENLABS
+`npx @elevenlabs/cli onboard connect` was run on the owner's Mac: the key lives ONLY in `.env.local` (gitignored, never committed, never print it). On a new machine run `npx -y @elevenlabs/cli@latest onboard init` again.
+Nothing is wired in yet; owner has not chosen between re-voicing Tunguska, the Hindi voice, or SDK-only. Never ask for a key in chat.
+
+## 3c. ENGINE UPGRADE PLAN
+See `docs/AUDIT_AND_ROADMAP.md` (architecture audit, measured bottlenecks, ordered roadmap with acceptance tests). **Nothing from the roadmap is implemented yet** — only the audit exists.
+Known hazard: `render.mjs`/`stills.mjs` delete all `remotion-webpack-bundle-*` in the shared temp dir on exit (fix in roadmap item 2).
 
 ## 4. PIPELINE (new language / new story) — see NEW_STORY.md and `make.sh`
 `./make.sh <slug> <lang> [voice beats render mux]`; config in `stories/<slug>/story.json`; `scripts/beats.py words.json` prints word→frame.

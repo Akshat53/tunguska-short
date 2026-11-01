@@ -11,3 +11,6 @@ audio/out/*
 __pycache__/
 .DS_Store
 voice/voice.orig.wav
+.env
+# Local secrets written by `elevenlabs onboard`
+/.env.local

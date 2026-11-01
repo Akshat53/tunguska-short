@@ -28,7 +28,7 @@ export const LIGHTS: Record<LightName, LightPreset> = {
     lit: [1.5, 0.68, 0.24], shade: [0.15, 0.15, 0.3], lift: [0.04, 0.06, 0.17], lambert: 0.35, sideK: 0.82, term: 0.07,
     charTint: [1.0, 0.78, 0.56], charShade: 0.88, charGrad: 0.1, bodyGrad: 0.25, sideTint: [0.85, 0.80, 0.95],
     blob: [0.75, 0.74, 0.9], actorShadow: true,
-    top: "#6a4f8c", hor: "#ffd08a", skyCurve: [0.05, 0.6, 1.0], fog: "#efb489", fogNear: 50, fogFar: 380, sunDisc: "#ffcf9e",
+    top: "#b0607a", hor: "#ffd08a", skyCurve: [0.05, 0.6, 1.0], fog: "#efb489", fogNear: 50, fogFar: 380, sunDisc: "#ffcf9e",
     sunCol: "#ffab5e", sunI: 5.5, sky: "#d8b0b8", ground: "#8a6a60", hemiI: 0.5,
     bias: -0.0006, normalBias: 0.03,
   },
@@ -48,8 +48,8 @@ export const LIGHTS: Record<LightName, LightPreset> = {
     lit: [1.6, 1.52, 1.4], shade: [0.26, 0.27, 0.46], lift: [0.05, 0.06, 0.16], lambert: 0.5, sideK: 0.9, term: 0.25,
     charTint: [1.0, 0.96, 0.95], charShade: 0.86, charGrad: 0.07, bodyGrad: 0.2, sideTint: [0.9, 0.9, 1.0],
     blob: [0.6, 0.6, 0.7], actorShadow: false,
-    top: "#252a78", hor: "#6a62c0", skyCurve: [0.0, 0.5, 0.6], fog: "#6a62c0", fogNear: 5000, fogFar: 9000, sunDisc: "#000000",
-    sunCol: "#ffffff", sunI: 2.8, sky: "#c0c8ff", ground: "#5a5080", hemiI: 0.5,
+    top: "#145c70", hor: "#4fb8a8", skyCurve: [0.0, 0.5, 0.6], fog: "#4fb8a8", fogNear: 5000, fogFar: 9000, sunDisc: "#000000",
+    sunCol: "#ffffff", sunI: 2.8, sky: "#c8f0e8", ground: "#2a6a70", hemiI: 0.5,
     bias: -0.0005, normalBias: 0.02,
   },
 };
@@ -75,7 +75,7 @@ export const LOOK: Record<LightName, WorldLook> = {
   golden: {
     // sunset, not dusk: #ffd08a horizon, peach/orange through ~10 deg, warm rose at 20, muted warm mauve only near the top
     // (the golden grade adds ~+11/255 blue to shadows/mids, so these lean warm)
-    sky: { c: ["#ffc47c", "#f7ae78", "#e8967c", "#c4848e", "#8a6f8a"], e: [0, 4, 10, 20, 40] },
+    sky: { c: ["#ffc47c", "#f7ae78", "#f2965f", "#e2766c", "#b85870"], e: [0, 4, 12, 35, 85] },
     water: { near: "#1e3a6e", mid: "#355f96", far: "#d4a48e", crest: "#d9a088", trough: "#16294f", glint: "#ffe2b0", shade: [0.42, 0.46, 0.72] },
     cloud: { lit: "#ffd2a8", mid: "#f2a08f", shade: "#a98fc4" },
     bounce: [0.04, 0.02, 0.0],
@@ -89,7 +89,7 @@ export const LOOK: Record<LightName, WorldLook> = {
     sat: 1.08,
   },
   space: {
-    sky: { c: ["#7a6cc8", "#5e58b8", "#4446a4", "#30368e", "#232a78"], e: [0, 5, 15, 35, 70] },
+    sky: { c: ["#6fd0c0", "#3fb5a8", "#2a9d8f", "#1e7f86", "#145c70"], e: [0, 5, 15, 35, 70] },
     water: { near: "#22a7b6", mid: "#167fb2", far: "#1a5596", crest: "#7ddfe8", trough: "#0e4a80", glint: "#ffffff", shade: [0.5, 0.56, 0.72] },
     cloud: { lit: "#fbf8f1", mid: "#e1e5f3", shade: "#c3cbe9" },
     bounce: [0, 0, 0],
