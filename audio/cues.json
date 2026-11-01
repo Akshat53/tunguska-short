@@ -1,0 +1,926 @@
+{
+ "version": 1,
+ "seed": 7,
+ "cues": [
+  {
+   "id": "hook-whoosh",
+   "at": 70,
+   "gen": "whoosh",
+   "args": {
+    "dur": 2.4,
+    "peak": 2.2,
+    "f_lo": 200,
+    "f_hi": 1800,
+    "width": 1.0,
+    "tail": 0.3
+   },
+   "post": [
+    [
+     "gain",
+     0.9
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "offset": -2.3,
+   "note": "fireball whoosh into the burst"
+  },
+  {
+   "id": "hook-boom",
+   "at": 70,
+   "gen": "boom",
+   "args": {
+    "dur": 4.0,
+    "f0": 46,
+    "big": 1.2
+   },
+   "post": [
+    [
+     "gain",
+     0.9
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "sync": true,
+   "note": "the sky explodes",
+   "word": "exploded",
+   "word_index": 8,
+   "word_u": -0.1177
+  },
+  {
+   "id": "hook-rumble",
+   "at": 80,
+   "gen": "rumble",
+   "args": {
+    "dur": 3.0,
+    "gain": 0.7,
+    "decay": 1.5
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "hook-shimmer",
+   "at": 158,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.5,
+    "peak": 0.35,
+    "f_lo": 800,
+    "f_hi": 4000
+   },
+   "post": [
+    [
+     "gain",
+     0.25
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "camp-breeze",
+   "at": 166,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12
+   },
+   "post": [],
+   "span": [
+    166,
+    303
+   ],
+   "extra": 0.5
+  },
+  {
+   "id": "camp-water",
+   "at": 166,
+   "gen": "water",
+   "args": {
+    "close": 0.4
+   },
+   "post": [
+    [
+     "gain",
+     0.25
+    ]
+   ],
+   "span": [
+    166,
+    303
+   ]
+  },
+  {
+   "id": "camp-birds",
+   "at": 170,
+   "gen": "birds",
+   "args": {
+    "density": 0.4
+   },
+   "post": [
+    [
+     "gain",
+     0.18
+    ]
+   ],
+   "span": [
+    166,
+    303
+   ]
+  },
+  {
+   "id": "action-shimmer",
+   "at": 312,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.2,
+    "peak": 1.0,
+    "f_lo": 1500,
+    "f_hi": 6000,
+    "width": 0.6
+   },
+   "post": [
+    [
+     "gain",
+     0.25
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "offset": -0.9
+  },
+  {
+   "id": "action-crack",
+   "at": 364,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.85
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "sync": true,
+   "note": "the bang",
+   "word": "gunfire",
+   "word_index": 40,
+   "word_u": 0.0036
+  },
+  {
+   "id": "action-roar",
+   "at": 420,
+   "gen": "roar",
+   "args": {
+    "lo": 60,
+    "hi": 900,
+    "gain": 0.9,
+    "ramp": 1.5,
+    "floor": 0.6
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    420,
+    668
+   ]
+  },
+  {
+   "id": "action-crackles",
+   "at": 645,
+   "gen": "crackles",
+   "args": {
+    "dur": 0.6,
+    "density": 40,
+    "gain": 0.7
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "burst-boom",
+   "at": 671,
+   "gen": "boom",
+   "args": {
+    "dur": 4.5,
+    "f0": 40,
+    "big": 1.5
+   },
+   "post": [
+    [
+     "gain",
+     1.1
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "sync": true,
+   "note": "the airburst",
+   "word": "exploding",
+   "word_index": 76,
+   "word_u": -0.1715
+  },
+  {
+   "id": "snap-roar",
+   "at": 752,
+   "gen": "whoosh",
+   "args": {
+    "dur": 3.0,
+    "peak": 0.5,
+    "f_lo": 120,
+    "f_hi": 900,
+    "width": 1.2,
+    "tail": 1.2
+   },
+   "post": [
+    [
+     "gain",
+     0.9
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "snap-forest",
+   "at": 770,
+   "gen": "crackles",
+   "args": {
+    "density": 60,
+    "gain": 0.45
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    770,
+    915
+   ]
+  },
+  {
+   "id": "snap-sweep",
+   "at": 835,
+   "gen": "crackles",
+   "args": {
+    "density": 90,
+    "gain": 0.5
+   },
+   "post": [
+    [
+     "pan",
+     -0.5
+    ]
+   ],
+   "span": [
+    835,
+    915
+   ]
+  },
+  {
+   "id": "snap-wood",
+   "at": 867,
+   "gen": "wood_crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.25
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "tents-flap",
+   "at": 919,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.0,
+    "peak": 0.25,
+    "f_lo": 300,
+    "f_hi": 2500
+   },
+   "post": [
+    [
+     "gain",
+     0.6
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "tents-oof",
+   "at": 925,
+   "gen": "oof",
+   "args": {
+    "voice": "oof"
+   },
+   "post": [
+    [
+     "gain",
+     0.5
+    ],
+    [
+     "pan",
+     -0.3
+    ]
+   ]
+  },
+  {
+   "id": "tents-whoa",
+   "at": 928,
+   "gen": "whoa",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.4
+    ],
+    [
+     "pan",
+     0.3
+    ]
+   ]
+  },
+  {
+   "id": "globe-pass-1",
+   "at": 970,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.9,
+    "peak": 0.95,
+    "f_lo": 200,
+    "f_hi": 1500,
+    "width": 1.0,
+    "tail": 0.4
+   },
+   "post": [
+    [
+     "gain",
+     0.45
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "pressure wave, first pass"
+  },
+  {
+   "id": "globe-pass-2",
+   "at": 1028,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.1,
+    "peak": 0.55,
+    "f_lo": 200,
+    "f_hi": 1500,
+    "width": 1.0,
+    "tail": 0.4
+   },
+   "post": [
+    [
+     "gain",
+     0.45
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "second pass: Twice"
+  },
+  {
+   "id": "deadpan-wind",
+   "at": 1062,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 600
+   },
+   "post": [],
+   "span": [
+    1062,
+    1228
+   ],
+   "extra": 0.3
+  },
+  {
+   "id": "deadpan-embers",
+   "at": 1062,
+   "gen": "crackles",
+   "args": {
+    "density": 4,
+    "gain": 0.12
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "span": [
+    1062,
+    1228
+   ]
+  },
+  {
+   "id": "replay-boom",
+   "at": 1262,
+   "gen": "boom",
+   "args": {
+    "dur": 2.5,
+    "f0": 52,
+    "big": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.6
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "sync": true,
+   "note": "the replay from above",
+   "word": "straight",
+   "word_index": 123,
+   "word_u": 0.3157
+  },
+  {
+   "id": "replay-crackles",
+   "at": 1266,
+   "gen": "crackles",
+   "args": {
+    "dur": 1.2,
+    "density": 30,
+    "gain": 0.3
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "straw-squeak",
+   "at": 1320,
+   "gen": "squeak",
+   "args": {
+    "pitch": 0.6
+   },
+   "post": [
+    [
+     "pan",
+     0.1
+    ],
+    [
+     "gain",
+     0.3
+    ]
+   ]
+  },
+  {
+   "id": "straw-fold",
+   "at": 1368,
+   "gen": "crackles",
+   "args": {
+    "dur": 0.18,
+    "density": 80,
+    "gain": 0.6
+   },
+   "post": [
+    [
+     "pan",
+     -0.1
+    ]
+   ]
+  },
+  {
+   "id": "tree-gust",
+   "at": 1410,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.9,
+    "peak": 0.3,
+    "f_lo": 300,
+    "f_hi": 2000
+   },
+   "post": [
+    [
+     "gain",
+     0.5
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "tree-crack",
+   "at": 1436,
+   "gen": "wood_crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.3
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "diagram-whoosh",
+   "at": 1466,
+   "gen": "whoosh",
+   "args": {
+    "dur": 2.0,
+    "peak": 0.6,
+    "f_lo": 200,
+    "f_hi": 1200,
+    "width": 1.0,
+    "tail": 0.8
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "consequence-breeze",
+   "at": 1590,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 600
+   },
+   "post": [],
+   "span": [
+    1590,
+    1665
+   ]
+  },
+  {
+   "id": "expedition-steps",
+   "at": 1665,
+   "gen": "steps",
+   "args": {
+    "period": 0.56,
+    "pitch": 0.6,
+    "gain": 0.35,
+    "pan0": -0.2,
+    "pan_step": 0.4
+   },
+   "span": [
+    1665,
+    1760
+   ],
+   "start": 1668
+  },
+  {
+   "id": "expedition-breeze",
+   "at": 1665,
+   "gen": "breeze",
+   "args": {
+    "level": 0.08
+   },
+   "post": [],
+   "span": [
+    1665,
+    1760
+   ]
+  },
+  {
+   "id": "office-hum",
+   "at": 1760,
+   "gen": "hum",
+   "args": {
+    "hz": 120.0,
+    "tone": 0.02,
+    "noise": 0.05
+   },
+   "post": [],
+   "span": [
+    1760,
+    1910
+   ]
+  },
+  {
+   "id": "office-clicks",
+   "at": 1765,
+   "gen": "clicks",
+   "args": {
+    "count": 18,
+    "freq": [
+     2500,
+     4000
+    ],
+    "decay": 0.04,
+    "level": 0.4,
+    "gain": 0.12,
+    "pan": [
+     -0.6,
+     0.6
+    ],
+    "window": 3.0
+   }
+  },
+  {
+   "id": "spotted-glock-1",
+   "at": 1866,
+   "gen": "glock",
+   "args": {
+    "midi": 93,
+    "level": 0.5
+   },
+   "post": [
+    [
+     "pan",
+     0.2
+    ]
+   ],
+   "note": "visual cue (the hidden screen), synchronised to the storyboard moment, not to a word"
+  },
+  {
+   "id": "spotted-glock-2",
+   "at": 1870,
+   "gen": "glock",
+   "args": {
+    "midi": 98,
+    "level": 0.35
+   },
+   "post": [
+    [
+     "pan",
+     0.2
+    ]
+   ],
+   "note": "visual cue (the hidden screen), synchronised to the storyboard moment, not to a word"
+  },
+  {
+   "id": "callback-breeze",
+   "at": 1910,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12
+   },
+   "post": [],
+   "span": [
+    1910,
+    2078
+   ],
+   "extra": 0.2
+  },
+  {
+   "id": "callback-birds",
+   "at": 1915,
+   "gen": "birds",
+   "args": {
+    "density": 0.3
+   },
+   "post": [
+    [
+     "gain",
+     0.15
+    ]
+   ],
+   "span": [
+    1910,
+    2078
+   ]
+  },
+  {
+   "id": "hat-whoosh",
+   "at": 1982,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.5,
+    "peak": 0.2,
+    "f_lo": 600,
+    "f_hi": 3000
+   },
+   "post": [
+    [
+     "gain",
+     0.3
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "star-shimmer",
+   "at": 2026,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.9,
+    "peak": 0.75,
+    "f_lo": 2500,
+    "f_hi": 9000,
+    "width": 0.5
+   },
+   "post": [
+    [
+     "gain",
+     0.3
+    ],
+    [
+     "widen"
+    ]
+   ]
+  },
+  {
+   "id": "final-burst",
+   "at": 2047,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     86,
+     90,
+     93,
+     98,
+     102
+    ],
+    "level": 0.45,
+    "pan0": -0.4,
+    "pan_step": 0.2,
+    "spacing": 0.05
+   },
+   "sync": true,
+   "note": "final spark burst",
+   "word": "lucky",
+   "word_index": 202,
+   "word_u": -0.015
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     1
+    ],
+    "chord": "Dm",
+    "level": 0.9
+   },
+   {
+    "name": "setting",
+    "shots": [
+     2,
+     3
+    ],
+    "chord": "F",
+    "level": 0.75
+   },
+   {
+    "name": "action",
+    "shots": [
+     4,
+     5
+    ],
+    "chord": "Gm",
+    "level": 0.85
+   },
+   {
+    "name": "escalation",
+    "shots": [
+     6,
+     7
+    ],
+    "chord": "A",
+    "level": 1.0
+   },
+   {
+    "name": "snap",
+    "shots": [
+     8,
+     11
+    ],
+    "chord": "Dm",
+    "level": 1.15
+   },
+   {
+    "name": "deadpan",
+    "shots": [
+     12,
+     12
+    ],
+    "chord": "Bb",
+    "level": 0.6
+   },
+   {
+    "name": "explanation",
+    "shots": [
+     13,
+     16
+    ],
+    "chord": "F",
+    "level": 0.7
+   },
+   {
+    "name": "consequence",
+    "shots": [
+     17,
+     19
+    ],
+    "chord": "C",
+    "level": 0.75
+   },
+   {
+    "name": "callback",
+    "shots": [
+     20,
+     20
+    ],
+    "chord": "Dm",
+    "level": 0.85
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.0,
+  "fade_out": 0.15
+ }
+}

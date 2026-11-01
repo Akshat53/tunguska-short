@@ -10,10 +10,11 @@ from scipy import signal
 from dsp import SR, ns, tt, rng, lp, hp, bp, dbg, place, fades, write_wav, read_wav, make_ir, convolve_st, integrated, colored, phase, widen, pan
 import instruments as I
 import sfx_gen as X
+from synth import st2
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-OUT = os.path.join(HERE, "out")
+OUT = os.environ.get("AUDIO_OUT", os.path.join(HERE, "out"))
 os.makedirs(OUT, exist_ok=True)
 FPS, TOTAL = 30, 2078            # TOTAL = length of the picture timeline the cues below were authored on
 WARP = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "warp.json")))
@@ -27,15 +28,13 @@ def F(f):
             (n0, o0), (n1, o1) = _A[k], _A[k + 1]
             return (n0 + (f - o0) * (n1 - n0) / (o1 - o0)) / FPS
 
-# story beats (frames) and their chord: one chord per scene
-BEATS = [("hook", 0, 166, "Dm"), ("setting", 166, 303, "F"), ("action", 303, 540, "Gm"), ("escalation", 540, 750, "A"),
-         ("snap", 750, 1062, "Dm"), ("deadpan", 1062, 1228, "Bb"), ("explanation", 1228, 1590, "F"),
-         ("consequence", 1590, 1910, "C"), ("callback", 1910, TOTAL, "Dm")]
-CH = {"Dm": [50, 57, 62, 65, 69], "F": [53, 57, 60, 65, 69], "Gm": [55, 58, 62, 67, 70], "A": [57, 61, 64, 69, 73],
-      "Bb": [58, 62, 65, 70, 74], "C": [48, 55, 60, 64, 67]}
-BASS = {"Dm": 38, "F": 41, "Gm": 43, "A": 45, "Bb": 46, "C": 36}
-LEVEL = {"hook": 0.9, "setting": 0.75, "action": 0.85, "escalation": 1.0, "snap": 1.15, "deadpan": 0.6, "explanation": 0.7,
-         "consequence": 0.75, "callback": 0.85}
+# music + SFX design lives in audio/cues.json (cues.py plays it); beats get their frame ranges from storyboard SHOT ids
+import cues as C
+SB = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "storyboard.json")))
+CFG = C.load()
+BEATS = C.beats(CFG, SB)
+CH, BASS = CFG["music"]["chords"], CFG["music"]["bass"]
+LEVEL = {b["name"]: b["level"] for b in CFG["music"]["beats"]}
 HITS = json.load(open(os.path.join(ROOT, "src", "videos", "tunguska", "storyboard.json")))["events"]["hits"]  # single source: the storyboard
 assert HITS == [772, 791, 835, 866], HITS
 
@@ -70,114 +69,13 @@ def music():
     return 0.8 * out + 0.25 * wet
 
 
-def boom(r, dur=3.5, f0=48, big=1.0):
-    t = tt(dur)
-    y = np.exp(-t / (0.9 * big)) * np.sin(phase(f0 * (1 + 0.8 * np.exp(-t / 0.08)))) * 1.6
-    y += lp(r.standard_normal(len(t)), 260, 2) * np.exp(-t / (1.1 * big)) * 2.2
-    y += bp(r.standard_normal(len(t)), 300, 3000, 1) * np.exp(-t / 0.12) * 0.8
-    return fades(y * (1 - np.exp(-t / 0.003)), 0.0005, 0.3)
-
-
-def crack(r):
-    t = tt(1.6)
-    y = hp(r.standard_normal(len(t)), 900, 2) * np.exp(-t / 0.012) * 2.0
-    y += np.exp(-t / 0.4) * lp(r.standard_normal(len(t)), 180, 2) * 1.8
-    for d, g in [(0.35, 0.4), (0.7, 0.22)]:  # far echoes off the taiga
-        k = ns(d)
-        y[k:] += g * lp(y[: len(y) - k], 1500)
-    return y
-
-
-def rumble(dur, r, lo=40, hi=220, gain=1.0):
-    n = ns(dur)
-    return lp(hp(colored(n, r, 1.6), lo), hi, 2) * gain
-
-
-def crackles(dur, r, density, gain=1.0):
-    n = ns(dur)
-    y = np.zeros(n)
-    tm = 0.0
-    while tm < dur:
-        k = X.modal(0.05, [(r.uniform(700, 2400), 1, 0.006), (r.uniform(2500, 6000), 0.5, 0.003)], r)
-        X._place_mono(y, k * r.uniform(0.2, 1.0), tm)
-        tm += r.exponential(1.0 / density)
-    return y * gain
+SHEET = []
 
 
 def sfx():
-    r = rng(7)
-    out = np.zeros((2, N))
-    env_bed = lambda a, b, x, g=1.0: place(out, x * g, F(a))
-    # HOOK: fireball whoosh into the burst, boom, long rumble
-    place(out, widen(X.whoosh(2.4, r, peak=2.2, f_lo=200, f_hi=1800, width=1.0, tail=0.3) * 0.9, r), F(70) - 2.3)
-    place(out, widen(boom(r, 4.0, 46, 1.2) * 0.9, r), F(70))
-    place(out, widen(rumble(3.0, r, gain=0.7) * np.exp(-tt(3.0) / 1.5), r), F(80))
-    place(out, widen(X.whoosh(0.5, r, peak=0.35, f_lo=800, f_hi=4000) * 0.25, r), F(158))
-    # SETTING / camp: breeze, river, birds
-    env_bed(166, 303, X.breeze((F(303) - F(166)) + 0.5, r, 0.12))
-    place(out, st2(X.water_bed((F(303) - F(166)), r, close=0.4)) * 0.25, F(166))
-    place(out, st2(X.bird_chirps((F(303) - F(166)), r, density=0.4)) * 0.18, F(170))
-    # ACTION: rising light shimmer, the bang, fireball roar through the chase
-    place(out, widen(X.whoosh(1.2, r, peak=1.0, f_lo=1500, f_hi=6000, width=0.6) * 0.25, r), F(312) - 0.9)
-    place(out, widen(crack(r) * 0.85, r), F(364))
-    roar_d = (F(668) - F(420))
-    roar = rumble(roar_d, r, 60, 900, 0.9) * np.minimum(1, tt(roar_d) / 1.5) * (0.6 + 0.4 * tt(roar_d) / roar_d)
-    place(out, widen(roar, r), F(420))
-    place(out, widen(crackles(0.6, r, 40, 0.7), r), F(645))
-    # the burst
-    place(out, widen(boom(r, 4.5, 40, 1.5) * 1.1, r), F(671))
-    # SNAP: blast wave roar, the falling forest crackling
-    place(out, widen(X.whoosh(3.0, r, peak=0.5, f_lo=120, f_hi=900, width=1.2, tail=1.2) * 0.9, r), F(752))
-    place(out, widen(crackles((F(915) - F(770)), r, 60, 0.45), r), F(770))
-    sweep = crackles((F(915) - F(835)), r, 90, 0.5)
-    place(out, pan(sweep, -0.5), F(835))
-    place(out, widen(X.wood_crack(r) * 0.25, r), F(867))
-    # tents into the air: flap whoosh, oofs
-    place(out, widen(X.whoosh(1.0, r, peak=0.25, f_lo=300, f_hi=2500) * 0.6, r), F(919))
-    place(out, pan(X.oof(r, "oof") * 0.5, -0.3), F(925))
-    place(out, pan(X.whoa(r) * 0.4, 0.3), F(928))
-    # globe: two passes of the pressure wave
-    for a, d in [(970, 1.9), (1028, 1.1)]:
-        place(out, widen(X.whoosh(d, r, peak=d * 0.5, f_lo=200, f_hi=1500, width=1.0, tail=0.4) * 0.45, r), F(a))
-    # DEADPAN: quiet wind + embers
-    place(out, X.breeze((F(1228) - F(1062)) + 0.3, r, 0.1, bright=600), F(1062))
-    place(out, widen(crackles((F(1228) - F(1062)), r, 4, 0.12), r), F(1062))
-    # from above: the replay boom (smaller)
-    place(out, widen(boom(r, 2.5, 52, 0.8) * 0.6, r), F(1262))
-    place(out, widen(crackles(1.2, r, 30, 0.3), r), F(1266))
-    # straw: press squeak, the fold crinkle
-    place(out, pan(X.swing_squeak(r, 0.6), 0.1) * 0.3, F(1320))
-    place(out, pan(crackles(0.18, r, 80, 0.6), -0.1), F(1368))
-    # tree: gust and fall
-    place(out, widen(X.whoosh(0.9, r, peak=0.3, f_lo=300, f_hi=2000) * 0.5, r), F(1410))
-    place(out, widen(X.wood_crack(r) * 0.3, r), F(1436))
-    # diagram: ring whoosh
-    place(out, widen(X.whoosh(2.0, r, peak=0.6, f_lo=200, f_hi=1200, width=1.0, tail=0.8) * 0.35, r), F(1466))
-    place(out, X.breeze((F(1665) - F(1590)), r, 0.1, bright=600), F(1590))
-    # 1927 expedition: footsteps
-    for k in range(int((F(1760) - F(1665)) / 0.56)):
-        place(out, pan(X.stroll_step(r, 0.6) * 0.35, -0.2 + 0.4 * (k % 2)), F(1668) + k * 0.56)
-    place(out, X.breeze((F(1760) - F(1665)), r, 0.08), F(1665))
-    # office: hum, keyboard clicks, the spotted sparkle
-    hum = (np.sin(phase(np.full(ns((F(1910) - F(1760))), 120.0))) * 0.02 + lp(colored(ns((F(1910) - F(1760))), r, 1.0), 500) * 0.05)
-    place(out, hum, F(1760))
-    for k in range(18):
-        place(out, pan(X.clink(r, r.uniform(2500, 4000), 0.04, 0.4) * 0.12, r.uniform(-0.6, 0.6)), F(1765) + r.uniform(0, 3.0))
-    place(out, pan(I.glock(I.m2f(93), 0.5, r), 0.2), F(1866))
-    place(out, pan(I.glock(I.m2f(98), 0.35, r), 0.2), F(1870))
-    # CALLBACK: breeze, birds, hat whoosh, shooting star shimmer, final burst
-    place(out, X.breeze((F(TOTAL) - F(1910)) + 0.2, r, 0.12), F(1910))
-    place(out, st2(X.bird_chirps((F(TOTAL) - F(1910)), r, density=0.3)) * 0.15, F(1915))
-    place(out, widen(X.whoosh(0.5, r, peak=0.2, f_lo=600, f_hi=3000) * 0.3, r), F(1982))
-    place(out, widen(X.whoosh(0.9, r, peak=0.75, f_lo=2500, f_hi=9000, width=0.5) * 0.3, r), F(2026))
-    for k, m in enumerate([86, 90, 93, 98, 102]):
-        place(out, pan(I.glock(I.m2f(m), 0.45, r), -0.4 + 0.2 * k), F(2047) + 0.05 * k)
+    out, sheet = C.run(CFG, F, N)
+    SHEET[:] = sheet
     return out
-
-
-def st2(x):
-    x = np.asarray(x, float)
-    return np.stack([x, x]) if x.ndim == 1 else x
 
 
 def voice48():
@@ -214,6 +112,10 @@ def main():
     pk = np.abs(mix).max()
     if pk > 0.98:
         mix *= 0.98 / pk
+    mf = CFG.get("master", {})                       # optional master fades (seconds); 0 = off
+    if mf.get("fade_in"): mix[:, : ns(mf["fade_in"])] *= np.linspace(0, 1, ns(mf["fade_in"]))
+    if mf.get("fade_out"): mix[:, -ns(mf["fade_out"]):] *= np.linspace(1, 0, ns(mf["fade_out"]))
+    json.dump({"pre_scale_peak": float(pk), "scaled_db": float(20 * np.log10(0.98 / pk)) if pk > 0.98 else 0.0}, open(os.path.join(OUT, "audio_stats.json"), "w"))
     for name, x in [("music", m), ("sfx", s), ("voice48", v), ("mix_pre", mix)]:
         write_wav(os.path.join(OUT, f"{name}.wav"), x)
     print("LUFS voice %.1f music %.1f sfx %.1f mix %.1f  len %.3f s" % (integrated(v), integrated(m), integrated(s), integrated(mix), mix.shape[1] / SR))
