@@ -4,3 +4,8 @@ node_modules/
 out/
 audio/_cache/
 *.log
+output/*.mp4
+audio/out/*
+!audio/out/mix.wav
+out/
+__pycache__/
