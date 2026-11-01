@@ -254,17 +254,17 @@ const fireball = (cam: CamInfo, out: Stage, e: number, frac: number, crack = 0, 
   const cx = P[0] - (cam.right.x * Math.cos(rot) + cam.up.x * Math.sin(rot)) * off, cy = P[1] - (cam.right.y * Math.cos(rot) + cam.up.y * Math.sin(rot)) * off,
     cz = P[2] - (cam.right.z * Math.cos(rot) + cam.up.z * Math.sin(rot)) * off;
   const fl = q((t * 3) % 1, 8), ck = q(crack, 10);
-  out.fx.push({ key: `fireball|${ck}|${fl}`, cw: 1000, ch: 400, draw: (p) => fxFireball(p, ck, fl), x: cx, y: cy, z: cz, w, h: w * 0.4, rot, glow: 1.9 });
+  out.fx.push({ key: `fireball|${ck}|${fl}`, cw: 1000, ch: 400, draw: (p) => fxFireball(p, ck, fl), x: cx, y: cy, z: cz, w, h: w * 0.4, rot, glow: 1.12 });
 };
 const blast = (cam: CamInfo, out: Stage, e: number, at: V3, frac: number) => {
   if (e < 0) return;
   if (e < 0.9) {
     const u = q(e / 0.9, 30), w = scr(cam, at, frac) * (0.6 + 0.6 * u);
-    out.fx.push({ key: `blast|${u}`, cw: 1000, ch: 1000, draw: (p) => fxBlast(p, u), x: at[0], y: at[1], z: at[2], w, h: w, glow: 2.4 * (1 - 0.5 * u) });
+    out.fx.push({ key: `blast|${u}`, cw: 1000, ch: 1000, draw: (p) => fxBlast(p, u), x: at[0], y: at[1], z: at[2], w, h: w, glow: 1.35 * (1 - 0.25 * u) });
   }
   if (e > 0.5 && e < 30) {
     const k = q(Math.min(1, 0.55 + (e - 0.5) * 0.25), 30), dark = q(clamp01((e - 0.6) / 3), 20), w = scr(cam, at, frac) * 1.1;
-    out.fx.push({ key: `puff|${k}|${dark}`, cw: 800, ch: 800, draw: (p) => fxPuffCloud(p, k, dark), x: at[0], y: at[1] + 0.12 * w * k, z: at[2], w, h: w, glow: 1.0 + 0.8 * (1 - dark), soft: false });
+    out.fx.push({ key: `puff|${k}|${dark}`, cw: 800, ch: 800, draw: (p) => fxPuffCloud(p, k, dark), x: at[0], y: at[1] + 0.12 * w * k, z: at[2], w, h: w, glow: 1.0, soft: false });
   }
 };
 /** the ground ring of the blast wave + dust billows riding its front (only on the near part of the ring) */

@@ -114,7 +114,7 @@ export const fxBlast = (p: Pen, t: number) => {
 /** smoke + fire cloud left after the flash (mushroom-ish puff), 800 x 800 card, k 0..1 grows, dark 0 hot .. 1 sooty */
 export const fxPuffCloud = (p: Pen, k: number, dark: number) => {
   const lobes: [number, number, number][] = [[400, 420, 200], [260, 460, 150], [540, 460, 150], [330, 300, 150], [480, 300, 150], [400, 220, 140], [200, 560, 110], [600, 560, 110]];
-  const col = mix(mix("#ffb04a", "#c9a8a8", Math.min(1, dark * 1.5)), "#8a7a8e", Math.max(0, dark - 0.5)), lit = mix(col, "#fff4dc", 0.45);
+  const col = mix(mix("#ff8a2a", "#b98a8a", Math.min(1, dark * 1.5)), "#7d6f8e", Math.max(0, dark - 0.5)), lit = mix(col, "#ffe0a0", 0.45);
   for (const [x, y, r] of lobes) p.ell(400 + (x - 400) * k, 520 + (y - 520) * k, r * k, r * k * 0.9, col, 10);
   for (const [x, y, r] of lobes.slice(3, 6)) p.ell(400 + (x - 400 - 30) * k, 520 + (y - 520 - 40) * k, r * k * 0.55, r * k * 0.45, lit, 0);
 };
@@ -220,11 +220,11 @@ export const poleTex = () => ctex("poleBark", 256, 512, (g, r) => {
 /** taiga floor: moss green with lichen, berries and needle litter; burnt variant for the aftermath */
 export const floorTex = (burnt: boolean) => ctex(burnt ? "floorBurnt" : "floorMoss", 1024, 1024, (g, r) => {
   const S = 1024;
-  g.fillStyle = burnt ? "#8f8a5a" : "#6fa24a"; g.fillRect(0, 0, S, S);
+  g.fillStyle = burnt ? "#8a8456" : "#5f9640"; g.fillRect(0, 0, S, S);
   for (let i = 0; i < 26; i++) {
     const x = r() * S, y = r() * S, rr = 60 + r() * 200;
     const gr = g.createRadialGradient(x, y, 0, x, y, rr);
-    const c = burnt ? (r() > 0.5 ? "120,112,80" : "150,140,96") : (r() > 0.5 ? "130,180,84" : "84,140,60");
+    const c = burnt ? (r() > 0.5 ? "120,112,80" : "150,140,96") : (r() > 0.5 ? "118,168,76" : "70,124,56");
     gr.addColorStop(0, `rgba(${c},0.55)`); gr.addColorStop(1, `rgba(${c},0)`);
     g.fillStyle = gr; g.fillRect(x - rr, y - rr, rr * 2, rr * 2);
   }

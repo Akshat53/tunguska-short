@@ -19,7 +19,7 @@ import {
 
 // ---------------- the forest ----------------
 type Tree = { x: number; z: number; r: number; a: number; h: number; w: number; yaw: number; tilt: number; fringe: boolean };
-const SPACING = 7.5, FRINGE = 15, R_FRINGE = 950;
+const SPACING = 9, FRINGE = 21, R_FRINGE = 900;
 const BIG_POLE: V3 = [-9.5, 0, 9.5];
 const inRiver = (x: number, z: number, pad: number) => Math.abs(z - riverZ(x)) < RIVER_W / 2 + pad;
 const makeTrees = (): Tree[] => {
@@ -44,14 +44,13 @@ const makeTrees = (): Tree[] => {
   return out;
 };
 /** trunk: thin tapered 6-sided cylinder, base at 0, height 1 (scaled per tree) */
-const trunkGeo = () => { const g = new THREE.CylinderGeometry(0.11, 0.22, 1, 6, 1, true); g.translate(0, 0.5, 0); return g; };
+const trunkGeo = () => { const g = new THREE.CylinderGeometry(0.11, 0.22, 1, 5, 1, true); g.translate(0, 0.5, 0); return g; };
 /** crown: three stacked cones from 30 % to 100 % of the height (scaled per tree), thin taiga pine */
 const crownGeo = () => {
   const parts: THREE.BufferGeometry[] = [];
-  for (const [y0, h, rad] of [[0.3, 0.36, 1.25], [0.5, 0.32, 1.0], [0.68, 0.32, 0.72]] as const) {
-    const c = new THREE.ConeGeometry(rad, h, 7, 1, false); c.translate(0, y0 + h / 2, 0); parts.push(c.toNonIndexed());
+  for (const [y0, h, rad] of [[0.3, 0.38, 1.25], [0.52, 0.34, 0.95], [0.72, 0.3, 0.62]] as const) {
+    const c = new THREE.ConeGeometry(rad, h, 6, 1, true); c.translate(0, y0 + h / 2, 0); parts.push(c.toNonIndexed());
   }
-  const top = new THREE.ConeGeometry(0.42, 0.22, 7, 1, false); top.translate(0, 0.86, 0); parts.push(top.toNonIndexed());
   return mergeAll(parts);
 };
 /** snags: broken branch stubs on the stripped poles */
@@ -149,7 +148,7 @@ export class World {
           gl_FragColor = vec4(c, 1.0); }`,
       side: THREE.BackSide, depthWrite: false, fog: false,
     });
-    this.sky = new THREE.Mesh(new THREE.SphereGeometry(9000, 48, 24), this.skyMat);
+    this.sky = new THREE.Mesh(new THREE.SphereGeometry(3500, 48, 24), this.skyMat);
     this.sky.renderOrder = -1; this.sky.frustumCulled = false; this.sky.layers.set(NOINK);
     R.add(this.sky);
     this.sunDisc = new THREE.Sprite(new THREE.SpriteMaterial({ map: discTex(), color: new THREE.Color(6.0, 4.4, 2.4), fog: false, depthWrite: false }));
@@ -157,16 +156,16 @@ export class World {
     this.hemi = new THREE.HemisphereLight("#cfe6ff", "#6c5c8c", 1.1);
     this.sun = new THREE.DirectionalLight("#fff0d6", 2.6);
     this.sun.castShadow = true;
-    this.sun.shadow.mapSize.set(2048, 2048);
+    this.sun.shadow.mapSize.set(1024, 1024);
     R.add(this.hemi, this.sun, this.sun.target);
-    this.cloudMaps = Object.fromEntries((["day", "golden", "dusk", "space"] as const).map((l) => [l, [0, 1, 2, 3].map((k) => cloudHD(k, LOOK[l].cloud))]));
+    this.cloudMaps = {}; // painted lazily per light (canvas blur is slow on the CPU)
     for (let i = 0; i < 12; i++) {
-      const m = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: this.cloudMaps.day[i % 4], color: new THREE.Color(1.1, 1.1, 1.1), transparent: true, depthWrite: false, fog: false }));
+      const m = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ color: new THREE.Color(1.1, 1.1, 1.1), transparent: true, depthWrite: false, fog: false }));
       m.layers.set(NOINK); m.frustumCulled = false;
       this.clouds.push(m); R.add(m);
     }
     const sp: number[] = [], sr = rng(42);
-    for (let i = 0; i < 900; i++) { const a = sr() * Math.PI * 2, el = 0.05 + Math.asin(sr()) * 1.0; sp.push(Math.cos(a) * Math.cos(el) * 8000, Math.sin(el) * 8000, Math.sin(a) * Math.cos(el) * 8000); }
+    for (let i = 0; i < 900; i++) { const a = sr() * Math.PI * 2, el = 0.05 + Math.asin(sr()) * 1.0; sp.push(Math.cos(a) * Math.cos(el) * 3300, Math.sin(el) * 3300, Math.sin(a) * Math.cos(el) * 3300); }
     const sg = new THREE.BufferGeometry(); sg.setAttribute("position", new THREE.Float32BufferAttribute(sp, 3));
     this.stars = new THREE.Points(sg, new THREE.PointsMaterial({ color: new THREE.Color(1.6, 1.55, 1.3), size: 3.2, sizeAttenuation: false, fog: false, depthWrite: false }));
     this.stars.layers.set(NOINK); this.stars.frustumCulled = false; R.add(this.stars);
@@ -223,7 +222,7 @@ export class World {
       this.crowns.setColorAt(i, cols[i % 4]);
       const k = `${Math.floor(t.x / 20)},${Math.floor(t.z / 20)}`; const l = this.grid.get(k); if (l) l.push(i); else this.grid.set(k, [i]);
     });
-    for (const im of [this.trunks, this.crowns, this.snags]) { im.castShadow = true; im.receiveShadow = true; im.frustumCulled = false; this.taiga.add(im); }
+    for (const im of [this.trunks, this.crowns, this.snags]) { im.castShadow = false; im.receiveShadow = true; im.frustumCulled = false; this.taiga.add(im); } // CPU budget: trees cast no shadow-map shadows
     // the big old larch pole of the hidden herder (ground zero)
     const big = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.6, 15, 9, 1, true).translate(0, 7.5, 0), lam("bigPole", () => ({ map: poleTex() })));
     big.position.set(...BIG_POLE); big.castShadow = true; big.receiveShadow = true; this.taiga.add(big);
@@ -381,7 +380,7 @@ export class World {
     // ---- camera ----
     const c = camAt(id, f);
     cam.position.set(...c.pos); cam.up.set(0, 1, 0); cam.lookAt(...c.look); cam.rotateZ(c.roll);
-    cam.fov = c.fov; cam.near = s.scene === "straw" ? 0.05 : 0.2; cam.far = 12000; cam.updateProjectionMatrix(); cam.updateMatrixWorld();
+    cam.fov = c.fov; cam.near = s.scene === "straw" ? 0.05 : 0.2; cam.far = 4000; cam.updateProjectionMatrix(); cam.updateMatrixWorld();
     const focus = V(...c.look), dist = cam.position.distanceTo(focus);
     cam.layers.enable(NOINK);
     // ---- which set ----
@@ -414,14 +413,14 @@ export class World {
     this.fog.near = fn; this.fog.far = ff;
     scene.fog = s.scene === "globe" ? null : this.fog; scene.background = null;
     this.sunDisc.visible = s.light === "golden";
-    if (this.sunDisc.visible) { this.sunDisc.position.copy(cam.position).addScaledVector(sunDir, 8000); this.sunDisc.scale.setScalar(2 * 8000 * Math.tan(THREE.MathUtils.degToRad(1.7))); }
+    if (this.sunDisc.visible) { this.sunDisc.position.copy(cam.position).addScaledVector(sunDir, 3000); this.sunDisc.scale.setScalar(2 * 3000 * Math.tan(THREE.MathUtils.degToRad(1.7))); }
     const cloudy = s.light !== "space";
     for (let i = 0; i < this.clouds.length; i++) {
-      const m = this.clouds[i], a = (i / 12) * Math.PI * 2 + 0.3, d = 2600 + (i % 3) * 400, w = 900 + (i % 4) * 220;
+      const m = this.clouds[i], a = (i / 12) * Math.PI * 2 + 0.3, d = 1900 + (i % 3) * 400, w = 700 + (i % 4) * 160;
       m.visible = cloudy && s.scene !== "office";
-      m.position.set(cam.position.x + Math.cos(a) * d, 500 + (i % 4) * 220, cam.position.z + Math.sin(a) * d); m.scale.set(w, w / 2, 1);
+      m.position.set(cam.position.x + Math.cos(a) * d, cam.position.y * 0.5 + 380 + (i % 4) * 160, cam.position.z + Math.sin(a) * d); m.scale.set(w, w / 2, 1);
       m.lookAt(cam.position.x, m.position.y, cam.position.z);
-      (m.material as THREE.MeshBasicMaterial).map = this.cloudMaps[s.light][i % 4];
+      (m.material as THREE.MeshBasicMaterial).map = (this.cloudMaps[s.light] ??= [0, 1, 2, 3].map((k) => cloudHD(k, LOOK[s.light].cloud)))[i % 4];
     }
     // office: clouds seen through the window, placed behind the wall
     if (s.scene === "office") for (let i = 0; i < 4; i++) {

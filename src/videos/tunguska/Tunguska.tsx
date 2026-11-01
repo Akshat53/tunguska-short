@@ -18,8 +18,8 @@ import { TOTAL, FLASH_AT, FLASHES, SHOTS, layersAt, dofAt } from "./story";
 
 export const TUNGUSKA_FRAMES = TOTAL;
 
-type PostToggles = { ink: boolean; lens: boolean; pre: boolean; bloom: boolean; grade: boolean; msaa: number };
-const toggles = (): PostToggles => ({ ink: true, lens: true, pre: true, bloom: true, grade: true, msaa: 4, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
+type PostToggles = { ink: boolean; lens: boolean; pre: boolean; bloom: boolean; grade: boolean; msaa: number; inkDebug: number };
+const toggles = (): PostToggles => ({ ink: true, lens: true, pre: true, bloom: true, grade: true, msaa: 0, inkDebug: 0, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
 
 const makeBloom = () => {
   const b = new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.5, luminanceThreshold: 1.0, luminanceSmoothing: 0.2, mipmapBlur: true, levels: 6, radius: 0.6 });
@@ -45,18 +45,20 @@ const Inner: React.FC<{ id: number }> = ({ id }) => {
     grade: new GradeEffect(GRADES.day, GRADE_STRENGTH.day),
   }), [camera, scene]);
   useEffect(() => () => fx.ink.dispose(), [fx]);
+  fx.ink.debug = on.inkDebug;
+  const lensOn = on.lens && dofAt(f).cInf > 0.5; // CPU budget: the lens passes only run in DOF shots
   const post = useMemo(() => (
-    <EffectComposer multisampling={on.msaa}>
+    <EffectComposer multisampling={lensOn ? Math.max(2, on.msaa) : on.msaa}>
       {[
         on.ink ? <primitive key="ink" object={fx.ink} dispose={null} /> : null,
-        on.lens && on.pre ? <primitive key="pre" object={fx.lens.pre} dispose={null} /> : null,
-        on.lens ? <primitive key="lens" object={fx.lens.main} dispose={null} /> : null,
+        lensOn && on.pre ? <primitive key="pre" object={fx.lens.pre} dispose={null} /> : null,
+        lensOn ? <primitive key="lens" object={fx.lens.main} dispose={null} /> : null,
         on.bloom ? <primitive key="bloom" object={fx.bloom} dispose={null} /> : null,
         <primitive key="tone" object={fx.tone} dispose={null} />,
         on.grade ? <primitive key="grade" object={fx.grade} dispose={null} /> : null,
       ].filter((x): x is JSX.Element => !!x)}
     </EffectComposer>
-  ), [fx, on]);
+  ), [fx, on, lensOn]);
   const cam = camera as THREE.PerspectiveCamera;
   const target = world.update(id, f, cam, scene);
   noInkFallback(world.root);
@@ -80,7 +82,7 @@ const dprOverride = () => (getInputProps() as { post?: { dpr?: number } }).post?
 const ShotView: React.FC<{ id: number; alpha: number }> = ({ id, alpha }) => (
   <AbsoluteFill style={{ opacity: alpha }}>
     <ThreeCanvas width={1080} height={1920} {...(dprOverride() ? { dpr: dprOverride() } : {})} shadows gl={{ antialias: false, stencil: false, powerPreference: "high-performance", toneMappingExposure: 1.0, preserveDrawingBuffer: true }}
-      camera={{ fov: 40, near: 0.2, far: 12000 }}>
+      camera={{ fov: 40, near: 0.2, far: 4000 }}>
       <Inner id={id} />
     </ThreeCanvas>
   </AbsoluteFill>

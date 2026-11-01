@@ -20,10 +20,10 @@ export const R_FOREST = 470;                 // falling forest out to here; a st
 export const riverZ = (x: number) => 286 + 22 * Math.sin(x / 110);  // river centre line (z of x)
 export const RIVER_W = 22;
 export const CAMP: V3 = [40, 0, 318];
-export const TENT: V3 = [30, 0, 309];
-export const H1: V3 = [38.6, 0, 314.6];      // older herder
-export const H2: V3 = [42.6, 0, 313.8];      // younger herder
-export const DEER: [number, number, number, number][] = [[47.8, 312.4, 0.0, 1], [51.5, 317.5, 0.35, -1], [45.5, 320.5, 0.7, 1], [34.5, 318.6, 0.2, -1]]; // x, z, graze phase, facing
+export const TENT: V3 = [35.8, 0, 306.8];
+export const H1: V3 = [40.0, 0, 314.6];      // older herder
+export const H2: V3 = [41.35, 0, 314.15];    // younger herder
+export const DEER: [number, number, number, number][] = [[43.4, 311.2, 0.0, -1], [38.2, 310.6, 0.35, 1], [46.0, 309.0, 0.7, -1], [33.8, 312.0, 0.2, 1]]; // x, z, graze phase, facing
 export const STUMP: V3 = [0, 0, 0];          // straw insert lives in its own little set far away (see world.ts)
 export const SET_STRAW: V3 = [2000, 0, 2000];
 export const SET_TREE: V3 = [2100, 0, 2000];
@@ -139,11 +139,11 @@ const S1b = (f: number) => dolly([380, 260, 560], [0, 20, 0], 1 / pushK(f, 92, 0
 // 2 SETTING: low aerial glide along the river toward the camp
 const S2a = (f: number) => { const u = (f - 166) / 74; const x = 260 - 150 * u; return { pos: [x, 34 - 6 * u, riverZ(x) + 40] as V3, look: [x - 70, 6, riverZ(x - 70) - 6] as V3, fov: 44 }; };
 // 3 herders + reindeer MS (looking -z across the river toward the forest)
-const S3a = (f: number) => dolly([44.5, 1.75, 324.5], [41.6, 1.25, 314.2], pushK(f, 240, 0.0025), { fov: 40 });
-const S3b = (f: number) => dolly([52.5, 1.6, 323.0], [48.5, 0.9, 315.0], pushK(f, 268, 0.0025), { fov: 40, roll: -0.03 });
+const S3a = (f: number) => dolly([41.6, 1.7, 321.6], [40.75, 1.15, 312.6], pushK(f, 240, 0.0025), { fov: 40 });
+const S3b = (f: number) => dolly([44.2, 1.5, 318.4], [42.4, 1.0, 311.0], pushK(f, 268, 0.0025), { fov: 40, roll: -0.03 });
 // 4 ACTION: low behind the herders, looking up east where the light crosses; punch on "gunfire"
-const S4a = (f: number) => dolly([36.2, 1.15, 320.6], [80, 22, 290], pushK(f, 303, 0.002), { fov: 46, roll: 0.02 });
-const S4b = (f: number) => dolly([45.5, 1.7, 306.5], [40.8, 1.55, 314.2], pushK(f, 362, 0.002, 0.006, 30), { fov: 40, roll: -0.04 }); // faces, flinch
+const S4a = (f: number) => dolly([37.6, 0.9, 319.8], [70, 26, 290], pushK(f, 303, 0.002), { fov: 46, roll: 0.02 });
+const S4b = (f: number) => dolly([41.2, 1.7, 318.9], [40.7, 1.55, 314.4], pushK(f, 362, 0.002, 0.006, 30), { fov: 40, roll: -0.04 }); // faces, flinch
 // 5 the rock (chase from the side): fixed screen size (sprite rule: card size ~ distance)
 const S5a = (f: number) => chase(5, f, 150, 30, -18, 10, 40);
 const S5b = (f: number) => chase(5, f, 105, 10, -10, 18, 38);
@@ -159,7 +159,7 @@ const S8b = (f: number) => dolly([150, 230, 240], [20, 0, 40], pushK(f, 789, 0.0
 const S9a = (f: number) => { const u = (f - 835) / 80, r = 205 + 50 * u, a = -0.9; const p: V3 = [r * Math.sin(a), 2.8, r * Math.cos(a)];
   const t: V3 = [Math.cos(a), 0, -Math.sin(a)]; return { pos: add(p, t, -26) as V3, look: add([p[0], 3.4, p[2]], t, 10) as V3, fov: 44, roll: 0.04 }; };
 // 10 the camp: tents into the air
-const S10a = (f: number) => dolly([52, 3.0, 330], [36, 3.2, 310], pushK(f, 915, 0.002), { fov: 46, roll: 0.03 });
+const S10a = (f: number) => dolly([46, 2.6, 331], [38.5, 2.6, 309], pushK(f, 915, 0.002), { fov: 46, roll: 0.03 });
 // 11 globe: Siberia toward the lens, slow push; "Twice" punch
 const G = (x: number, y: number, z: number): V3 => [SET_GLOBE[0] + x, SET_GLOBE[1] + y, SET_GLOBE[2] + z];
 const S11a = (f: number) => dolly(G(70, 150, 160), G(0, 8, 0), pushK(f, 968, 0.0015), { fov: 40 });
@@ -190,7 +190,7 @@ const SO = (x: number, y: number, z: number): V3 => [SET_OFFICE[0] + x, SET_OFFI
 const S19a = (f: number) => { const u = glide((f - 1760) / 96); return { pos: SO(-9 + 13.5 * u, 2.0, 5.2), look: SO(-7.5 + 13.5 * u, 1.3, 0), fov: 44, roll: -0.02 }; };
 const S19b = (f: number) => dolly(SO(3.4, 1.55, 2.6), SO(3.0, 1.35, -0.4), pushK(f, 1856, 0.0025, 0.006, 30), { fov: 40 });
 // 20 CALLBACK: herders at the rebuilt camp, the hat comes off, crane out over the empty taiga, the last spark
-const S20a = (f: number) => dolly([45.5, 1.7, 325.5], [41.2, 1.35, 314.6], pushK(f, 1910, 0.002), { fov: 40 });
+const S20a = (f: number) => dolly([41.4, 1.7, 321.2], [40.7, 1.3, 313.0], pushK(f, 1910, 0.002), { fov: 40 });
 const CR: V3[] = [[70, 40, 380], [150, 150, 520]];
 const S20b = (f: number): Shot => {
   const a = S20a(1996), s = glide((f - 1996) / 70), r = 1 - s, [C, B] = CR;
@@ -245,9 +245,9 @@ export const camAt = (id: number, f: number): Cam => {
 export type Dof = { f: number; dur?: number; cInf: number; focus?: (f: number) => V3 };
 export const DOF: Dof[] = [
   { f: 0, cInf: 0 },                                         // hook aerial: sharp
-  { f: 240, cInf: 12, focus: () => [41, 1.6, 314.3] },       // herders MS: eyes
+  { f: 240, cInf: 12, focus: () => [40.7, 1.6, 314.4] },     // herders MS: eyes
   { f: 303, cInf: 0 },                                       // looking up at the sky
-  { f: 362, cInf: 12, focus: () => [40.8, 1.65, 314.2] },    // faces flinch
+  { f: 362, cInf: 12, focus: () => [40.7, 1.65, 314.4] },    // faces flinch
   { f: 420, cInf: 0 },                                       // chase, burst, aerials, drive
   { f: 915, cInf: 6 },                                       // camp blown over
   { f: 968, cInf: 0 },                                       // globe
