@@ -1,5 +1,5 @@
 #!/bin/bash
-# usage: ./make.sh <slug> <lang> [stage ...]      stages: check voice beats render mux   (default: all)
+# usage: ./make.sh <slug> <lang> [stage ...]      stages: check voice beats render mux produce   (default: all)
 # Reads stories/<slug>/story.json. Output: out/<slug>-<lang>.mp4
 # env: SCALE=1 (0.5 = fast draft), CONC=6, PROPS='{"post":{"dpr":1}}'
 set -e
@@ -18,6 +18,7 @@ for s in $STAGES; do case $s in
   voice)  [ -f "$VDIR/voice.wav" ] && [ -z "$REVOICE" ] && echo "voice: exists ($VDIR) - REVOICE=1 to redo" || \
           { [ -d .venv ] || python3 -m venv .venv; .venv/bin/pip -q install edge-tts; .venv/bin/python make_voice.py "$VDIR" "$VOICE" "$RATE"; } ;;
   beats)  python3 scripts/beats.py "$VDIR/words.json" ;;
+  produce) node --no-warnings scripts/produce.mjs --out "out/$SLUG-$LANG_.mp4" --scale "$SCALE" --conc "$CONC" ;;
   render) node scripts/render.mjs "out/$SLUG-$LANG_.picture.mp4" all "$SCALE" "$PROPS" ;;
   mux)    bash scripts/mux.sh "out/$SLUG-$LANG_.picture.mp4" "out/$SLUG-$LANG_.mp4" "$AUDIO" ;;
   *) echo "unknown stage $s"; exit 1 ;;

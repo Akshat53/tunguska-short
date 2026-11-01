@@ -18,5 +18,6 @@ try {
     onProgress: ({ renderedFrames }) => { if (renderedFrames - last >= 10) { last = renderedFrames; console.log(`frames ${renderedFrames} ${((Date.now() - t0) / 1000 / renderedFrames).toFixed(2)} s/f`); } } });
   console.log("done", ((Date.now() - t0) / 1000).toFixed(0) + "s");
 } finally {
-  for (const d of fs.readdirSync(process.env.TEMP || "/tmp")) if (d.startsWith("remotion-webpack-bundle-")) fs.rmSync(path.join(process.env.TEMP || "/tmp", d), { recursive: true, force: true });
+  // remove ONLY the bundle this run created (never glob the shared temp dir: another render may be using its own bundle)
+  if (path.basename(serveUrl).startsWith("remotion-webpack-bundle-")) fs.rmSync(serveUrl, { recursive: true, force: true });
 }

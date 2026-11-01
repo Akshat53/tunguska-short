@@ -2,7 +2,7 @@
   "name": "tunguska-short",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "studio": "remotion studio", "tsc": "tsc --noEmit", "test": "bash scripts/test.sh" },
+  "scripts": { "studio": "remotion studio", "tsc": "tsc --noEmit", "test": "bash scripts/test.sh", "produce": "node --no-warnings scripts/produce.mjs" },
   "dependencies": {
     "@react-three/fiber": "8.17.10",
     "@react-three/postprocessing": "2.16.3",

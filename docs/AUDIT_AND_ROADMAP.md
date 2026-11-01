@@ -58,7 +58,7 @@ Not yet measured: memory per worker under `angle`, preview vs 2K output quality,
 | # | Subsystem | Acceptance criteria |
 |---|---|---|
 | 1 | **DONE (2026-11-01, see docs/STORYBOARD.md)** Storyboard config + validation (types, schema, shot presets, overlap/duration/missing-asset checks, `story.ts` kept as a compatible loader) | `tsc` passes; the config reproduces the current 20 shots; frame-for-frame identical render (SSIM ≥ 0.999 on 30 sample frames); validator catches an injected overlap |
-| 2 | **Production render pipeline** (preflight, chunked render + resume, muxing, output validation, report; own-folder temp cleanup) | killed mid-run resumes without redoing finished chunks; script prints success only if all output checks pass; no deletion outside its own folder |
+| 2 | **DONE (2026-11-01, see docs/PRODUCTION.md)** Production render pipeline (preflight, chunked render + resume, muxing, output validation, report; own-folder temp cleanup) | killed mid-run resumes without redoing finished chunks; script prints success only if all output checks pass; no deletion outside its own folder |
 | 3 | **Audio cue system** (cue file per story, cue sheet, sync report, clip + fade check) | every cue lands within 1 frame of its word in the sync report; true peak < -1 dBTP; length = picture length exactly |
 | 4 | **Camera director** (presets, Catmull-Rom paths, framing for 9:16, tracking filter, collision) | numeric: no velocity discontinuity above threshold in new shots; before/after stills; existing shots unchanged unless opted in |
 | 5 | **Visual QA reports** (black/white/frozen/duplicate frames, pose jumps, composition, lighting jumps, audio sync/loudness) | report-only (never edits code); detects deliberately injected faults in a test video |

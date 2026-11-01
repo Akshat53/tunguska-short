@@ -48,7 +48,7 @@ Open: jitter report unresolved (no timestamps; frame-diff spikes found were cuts
 Nothing is wired in yet; owner has not chosen between re-voicing Tunguska, the Hindi voice, or SDK-only. Never ask for a key in chat.
 
 ## 3c. ENGINE UPGRADE PLAN
-See `docs/AUDIT_AND_ROADMAP.md` (architecture audit, measured bottlenecks, ordered roadmap with acceptance tests). **Step 1 (storyboard config + validation) is DONE** — `docs/STORYBOARD.md`, `npm test`; timeline and render proven bit-identical. Steps 2-9 not started.
+See `docs/AUDIT_AND_ROADMAP.md` (architecture audit, measured bottlenecks, ordered roadmap with acceptance tests). **Step 1 (storyboard config + validation) is DONE** — `docs/STORYBOARD.md`, `npm test`; timeline and render proven bit-identical. **Step 2 (production render pipeline) is DONE** — `npm run produce`, `docs/PRODUCTION.md`. Steps 3-9 not started.
 Known hazard: `render.mjs`/`stills.mjs` delete all `remotion-webpack-bundle-*` in the shared temp dir on exit (fix in roadmap item 2).
 
 ## 4. PIPELINE (new language / new story) — see NEW_STORY.md and `make.sh`
