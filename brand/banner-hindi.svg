@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1152" width="2048" height="1152">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF3D81"/><stop offset="1" stop-color="#FF9F1C"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE45C" stop-opacity="0"/><stop offset=".6" stop-color="#FFB02E"/><stop offset="1" stop-color="#FF5A1F"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFF6B0"/><stop offset="1" stop-color="#FFF6B0" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="2048" height="1152" fill="url(#bg)"/>
+<g stroke="#fff" stroke-opacity=".18" stroke-width="14"><path d="M-100 1152 L1000 -100"/><path d="M200 1252 L1300 0"/><path d="M700 1252 L1800 0"/><path d="M1200 1252 L2300 0"/></g>
+<g transform="translate(-250 -120)">
+<path d="M-40 -20 L330 0 L560 420 L470 470 Z" fill="url(#fire)" stroke="#14102B" stroke-width="12" stroke-linejoin="round"/>
+<path d="M120 -10 L260 -10 L440 330 L395 355 Z" fill="#FFE45C" opacity=".9"/>
+<circle cx="520" cy="470" r="150" fill="url(#glow)"/>
+<circle cx="520" cy="470" r="78" fill="#FFB02E" stroke="#14102B" stroke-width="14"/>
+<circle cx="498" cy="448" r="26" fill="#FFF3A0"/>
+</g>
+<g transform="translate(1850 560) scale(0.8)">
+<circle r="270" fill="url(#glow)"/>
+<polygon points="0,-230 50,-110 170,-170 120,-50 240,0 120,50 170,170 50,110 0,230 -50,110 -170,170 -120,50 -240,0 -120,-50 -170,-170 -50,-110" fill="#FFD23F" stroke="#14102B" stroke-width="14" stroke-linejoin="round"/>
+<polygon points="0,-130 30,-60 100,-90 70,-30 130,0 70,30 100,90 30,60 0,130 -30,60 -100,90 -70,30 -130,0 -70,-30 -100,-90 -30,-60" fill="#FF7A1A" stroke="#14102B" stroke-width="10" stroke-linejoin="round"/>
+<polygon points="0,-60 14,-24 50,-34 28,0 50,34 14,24 0,60 -14,24 -50,34 -28,0 -50,-34 -14,-24" fill="#FFF3A0"/>
+</g>
+<!-- ground + pines -->
+<path d="M0 960 Q 500 880 1024 950 T 2048 930 L2048 1152 L0 1152Z" fill="#7ED321" stroke="#14102B" stroke-width="14"/>
+<path d="M0 1040 Q 600 990 1100 1050 T 2048 1030 L2048 1152 L0 1152Z" fill="#4FAE1E"/>
+<path d="M120 830 l-42.0 125.99999999999999 h84.0z M120 886.0 l-56.0 125.99999999999999 h112.0z" fill="#14102B"/><path d="M250 860 l-33.0 99.00000000000001 h66.0z M250 904.0 l-44.0 99.00000000000001 h88.0z" fill="#14102B"/><path d="M1840 800 l-45.0 135.0 h90.0z M1840 860.0 l-60.0 135.0 h120.0z" fill="#14102B"/><path d="M1960 850 l-33.0 99.00000000000001 h66.0z M1960 894.0 l-44.0 99.00000000000001 h88.0z" fill="#14102B"/><path d="M700 880 l-24.0 72.0 h48.0z M700 912.0 l-32.0 72.0 h64.0z" fill="#14102B"/><path d="M1400 885 l-24.0 72.0 h48.0z M1400 917.0 l-32.0 72.0 h64.0z" fill="#14102B"/>
+<!-- wordmark (inside the 1235x338 safe area) -->
+<g font-family="Arial Black, Impact, Helvetica" font-weight="900" text-anchor="middle">
+<text x="1034" y="574" font-size="236" fill="#14102B" letter-spacing="8">INKFALL</text>
+<text x="1024" y="560" font-size="236" fill="#FFFFFF" stroke="#14102B" stroke-width="18" paint-order="stroke" letter-spacing="8">INKFALL</text>
+</g>
+<rect x="440" y="618" width="1168" height="92" rx="46" fill="#14102B"/>
+<text x="1024" y="684" text-anchor="middle" font-family="Helvetica Neue, Arial" font-weight="800" font-size="44" fill="#FFE45C">ITIHAAS KI BADI KAHANIYAN  •  60 SECOND</text>
+</svg>

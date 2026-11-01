@@ -19,7 +19,7 @@ import { TOTAL, FLASH_AT, FLASHES, SHOTS, layersAt, dofAt } from "./story";
 export const TUNGUSKA_FRAMES = TOTAL;
 
 type PostToggles = { ink: boolean; lens: boolean; pre: boolean; bloom: boolean; grade: boolean; msaa: number; inkDebug: number };
-const toggles = (): PostToggles => ({ ink: true, lens: true, pre: true, bloom: true, grade: true, msaa: 0, inkDebug: 0, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
+const toggles = (): PostToggles => ({ ink: true, lens: false, pre: true, bloom: true, grade: true, msaa: 0, inkDebug: 0, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
 
 const makeBloom = () => {
   const b = new BloomEffect({ blendFunction: BlendFunction.ADD, intensity: 0.5, luminanceThreshold: 1.0, luminanceSmoothing: 0.2, mipmapBlur: true, levels: 6, radius: 0.6 });
@@ -44,7 +44,7 @@ const Inner: React.FC<{ id: number }> = ({ id }) => {
     tone: new ToneMappingEffect({ mode: ToneMappingMode.NEUTRAL }),
     grade: new GradeEffect(GRADES.day, GRADE_STRENGTH.day),
   }), [camera, scene]);
-  useEffect(() => () => fx.ink.dispose(), [fx]);
+  useEffect(() => () => { try { (fx.ink as any)?.dispose?.(); } catch (e) { /* cleanup must not kill the render */ } }, [fx]);
   fx.ink.debug = on.inkDebug;
   const lensOn = on.lens && dofAt(f).cInf > 0.5; // CPU budget: the lens passes only run in DOF shots
   const post = useMemo(() => (

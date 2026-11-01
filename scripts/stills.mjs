@@ -5,7 +5,7 @@ import path from "node:path";
 import { bundle } from "@remotion/bundler";
 import { renderStill, selectComposition } from "@remotion/renderer";
 const [prefix, frames, scale = "0.5", props = "{}"] = process.argv.slice(2);
-const chromiumOptions = { gl: "swangle" };
+const chromiumOptions = process.env.GL ? { gl: process.env.GL } : { gl: "angle" }; // GL=swangle for CPU-only boxes
 const inputProps = JSON.parse(props);
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts"), publicDir: path.resolve("public") });
 try {

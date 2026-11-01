@@ -9,3 +9,5 @@ audio/out/*
 !audio/out/mix.wav
 /out/
 __pycache__/
+.DS_Store
+voice/voice.orig.wav

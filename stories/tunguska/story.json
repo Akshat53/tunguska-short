@@ -1,0 +1,10 @@
+{
+  "slug": "tunguska",
+  "composition": "TunguskaShort",
+  "title": "Tunguska",
+  "channel": "global",
+  "languages": {
+    "en": { "voice": "en-US-ChristopherNeural", "rate": "+32%", "dir": ".", "audio": "audio/out/mix.wav" }
+  },
+  "note": "Tunguska predates the pipeline: voice in voice/, final mix in audio/out/. New stories use stories/<slug>/<lang>/ (see NEW_STORY.md)."
+}

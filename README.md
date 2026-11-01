@@ -24,6 +24,7 @@ world**, Remotion + three.js, rendered locally (no AI video generator).
 git clone <this repo> && cd tunguska-short
 npm install
 
+# NOTE: see HANDOFF.md - render defaults are now GL=angle, CONC=6 (~0.07 s/frame measured), lens blur off.
 # 1) Picture (1080x1920) — see the GPU note below first!
 node scripts/render.mjs out/picture.mp4 all 1 '{"post":{"dpr":1}}'
 
@@ -31,7 +32,7 @@ node scripts/render.mjs out/picture.mp4 all 1 '{"post":{"dpr":1}}'
 bash scripts/mux.sh out/picture.mp4 out/tunguska-1080x1920.mp4
 ```
 
-**GPU note (important):** `scripts/render.mjs` pins `gl: "swangle"` (software GL) because it was
+
 written for a CPU-only Linux box (~7 s/frame). **On a Mac, delete that `chromiumOptions` override**
 (or pass the default GL) to use the GPU — expect ~0.1–0.5 s/frame, i.e. a few minutes for the whole
 video. Also raise render concurrency: `CONC=4 node scripts/render.mjs ...` (up to `CONC=8` on
