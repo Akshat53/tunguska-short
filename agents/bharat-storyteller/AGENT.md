@@ -110,3 +110,13 @@ From "Dancing Plague 1518" (Nov 2026): 64% swiped away at the start; stayed-to-w
 3. Keep what worked: escalation every 8-10 s (one dancer -> crowd -> stage + musicians) and a late twist that recontextualises
    (records vs chronicles). Average view ~25 s: put the twist before 30 s.
 4. Market-research rules (Nov 2026): 45-55 s total; open loop every 2-3 sentences; loop-friendly last frame; narrow topic; verified facts only.
+5. **Beat blueprint (45-55 s), use by default for mysteries/disasters:**
+   | time | beat | rule |
+   |---|---|---|
+   | 0:00-0:03 | Paradox hook | a bizarre fact that sounds impossible; never exposition ("In 1919 Boston…", "A crowd is dancing…") |
+   | 0:03-0:15 | Escalation | how fast it got out of hand; a new, bigger image every few seconds |
+   | 0:15-0:30 | Failed solution / twist | authorities tried something and it backfired; plant an unresolved mystery at 15-20 s ("the cure made it ten times worse") |
+   | ~0:25-0:30 | Debate prompt | two-sided question in the narration + one short on-screen text pill (e.g. "Hysteria or poison? 👇"); this is NOT a caption (captions stay off) |
+   | 0:30-0:45 | Leading theory | the best-supported explanation, briefly; say what is disputed |
+   | 0:45-0:55 | Lingering question | an eerie or thought-provoking last line that loops back to frame 0 |
+   Stayed-to-watch across our Shorts: 29.8-42.2%. The swipe in the first 2 s is the biggest loss, so spend most effort on line 1 and frame 0.
