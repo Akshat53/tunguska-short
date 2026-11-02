@@ -89,29 +89,26 @@ Delivery notes: **N01** Easy, intimate; small lift on 'कहते हैं' (
 Revelation line: N04 "नहीं। जंग इसे भी लगती है।" at 27.1 s (42% of runtime); mechanism lands 31.8-42.9 s.
 
 ## E. Clean narration (= narration.txt)
+
+**Revised 2026-11-02 (produced version):** 131 words, real ElevenLabs Jessica voice 50.7 s (stories/iron-pillar/hi/words.json). The old 172-word narration is kept in narration.long.txt (and script.long.json, narration.marked.long.txt, rhythm.long.txt). Rhythm PASS, hook 9/10, validator 0 errors.
+
 ```
-कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी।
-ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।
-इस पर राजा चंद्र की तारीफ़ खुदी है।
-माना जाता है, ये चंद्रगुप्त द्वितीय थे।
-करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर जोड़कर बनाया।
-फिर किसी ने इस पर तोप का गोला दागा।
-गड्ढा पड़ा, पर खंभा नहीं टूटा।
+सोलह सौ साल का लोहा, और आज तक जंग नहीं?
+पर सच और अजीब है।
+क़ुतुब मीनार के आँगन का ये खंभा, लोहारों ने गरम टुकड़े पीटकर बनाया।
+किसी ने इस पर तोप का गोला दागा, गड्ढा पड़ा, पर ये टूटा नहीं।
 तो क्या ये जादुई लोहा है?
-नहीं।
-जंग इसे भी लगती है।
-शुरू में तो तेज़ी से लगी।
-लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई परत बनी।
-बारिश और धूप ने उसे और पक्का किया।
-वही परत इसकी ढाल है।
-फ़ॉस्फ़रस आया कहाँ से?
-पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही रह गया।
-लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था।
-फिर जाली लग गई।
-और करीब साल भर में, वो चमक भी भूरी पड़ गई।
-ये खंभा जंग से बचा नहीं।
-जंग ने इसे बचाया है।
+नहीं। जंग इसे भी लगी, शुरू में तेज़ी से।
+फिर कुछ ऐसा हुआ, जिसने जंग को ही ढाल बना दिया।
+इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिससे सतह पर पतली, कसी परत बनी।
+पुराने लोहार भट्टी में चूना नहीं डालते थे, तो फ़ॉस्फ़रस रह गया।
+सबूत?
+लोग किस्मत के लिए इसे बाँहों में भरते थे, वो हिस्सा चमकता था।
+फिर जाली लगी, और करीब साल भर में वो चमक भी भूरी पड़ गई।
+ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया।
 ```
+
+Dropped for length: the Chandra/Chandragupta II context line (kept in the description), "करीब छह टन", "बारिश और धूप ने उसे और पक्का किया" (C17). Facts re-checked on the web on 2026-11-02 (Wikipedia: 5th c. CE / Chandragupta II, >6 t, forge-welded, cannonball dent ~4 m, fast early corrosion then a phosphorus-assisted passive film with misawite, no lime in the furnace; 1997 fence and the hugging custom: Onmanorama and other reports). The picture actually produced follows src/videos/iron-pillar/storyboard.json (16 shots), not section F below.
 
 ## F. Storyboard
 ### World
@@ -383,6 +380,9 @@ Master: fade in 0.0 s, fade out 0.6 s. Music peaks on the reveal (level 0.85), d
 - Research reliability assessment: 8/10 — two primary papers read in full; ASI's own monument page not reached.
 
 ## J. Publishing
+
+**Produced upload text (2026-11-02):** out/upload/iron-pillar-title.txt, -description.txt, -pinned.txt. Title: "दिल्ली का लौह स्तंभ: 1600 साल, फिर भी गला क्यों नहीं? #Shorts".
+
 **Titles**
 1. Iron Pillar को जंग लगती है, और वही उसे बचाती है
 2. 1600 साल का लोहा: जादू नहीं, केमिस्ट्री

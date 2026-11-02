@@ -5,6 +5,7 @@ import { RoopkundShort, ROOPKUND_FRAMES } from "./videos/roopkund/Roopkund";
 import { ChapatiShort, CHAPATI_FRAMES } from "./videos/chapati-1857/Chapati";
 import { Bombay1944Short, BOMBAY_FRAMES } from "./videos/bombay-1944/Bombay1944";
 import { MolassesShort, MOLASSES_FRAMES } from "./videos/molasses-1919/Molasses";
+import { IronPillarShort, IRON_PILLAR_FRAMES } from "./videos/iron-pillar/IronPillar";
 import { KitCast, KIT_CAST_FRAMES } from "./videos/kitshowcase/KitCast";
 import { KitShowcase, KIT_SHOWCASE_FRAMES } from "./videos/kitshowcase/KitShowcase";
 
@@ -15,6 +16,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="ChapatiShort" component={ChapatiShort} durationInFrames={CHAPATI_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="Bombay1944Short" component={Bombay1944Short} durationInFrames={BOMBAY_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="MolassesShort" component={MolassesShort} durationInFrames={MOLASSES_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="IronPillarShort" component={IronPillarShort} durationInFrames={IRON_PILLAR_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="KitShowcase" component={KitShowcase} durationInFrames={KIT_SHOWCASE_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="KitCast" component={KitCast} durationInFrames={KIT_CAST_FRAMES} fps={30} width={1080} height={1920} />
   </>

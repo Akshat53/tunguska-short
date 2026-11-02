@@ -1,0 +1,752 @@
+{
+ "version": 1,
+ "seed": 416,
+ "cues": [
+  {
+   "id": "court-air",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.14,
+    "bright": 800
+   },
+   "post": [],
+   "note": "open courtyard air",
+   "span": [
+    0,
+    243
+   ]
+  },
+  {
+   "id": "court-birds",
+   "at": 0,
+   "gen": "birds",
+   "args": {
+    "density": 0.25
+   },
+   "post": [
+    [
+     "gain",
+     0.5
+    ]
+   ],
+   "note": "",
+   "span": [
+    0,
+    243
+   ]
+  },
+  {
+   "id": "hook-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.05,
+    "noise": 0.04
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    0,
+    172
+   ]
+  },
+  {
+   "id": "hook-glints",
+   "at": 6,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     86,
+     89,
+     93
+    ],
+    "level": 0.28,
+    "spacing": 0.5,
+    "pan0": -0.3,
+    "pan_step": 0.3
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "truth-glock",
+   "at": 126,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.3
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "forge-crackle",
+   "at": 243,
+   "gen": "crackles",
+   "args": {
+    "density": 22,
+    "gain": 0.35
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "",
+   "span": [
+    243,
+    328
+   ]
+  },
+  {
+   "id": "hammer-1",
+   "at": 258,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "hammer-2",
+   "at": 267,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.4
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "hammer-3",
+   "at": 286,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.45
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "hammer-4",
+   "at": 301,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.4
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "hammer-5",
+   "at": 320,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.4
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "dusk-air",
+   "at": 328,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 600
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    328,
+    475
+   ]
+  },
+  {
+   "id": "cannon-boom",
+   "at": 352,
+   "gen": "boom",
+   "args": {
+    "dur": 2.0,
+    "f0": 50,
+    "big": 0.7
+   },
+   "post": [
+    [
+     "gain",
+     0.7
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "ball-whoosh",
+   "at": 354,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.8,
+    "peak": 0.7,
+    "f_lo": 300,
+    "f_hi": 2600,
+    "width": 0.6
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "impact-clang",
+   "at": 378,
+   "gen": "glock",
+   "args": {
+    "midi": 64,
+    "level": 0.5
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "impact-crack",
+   "at": 378,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.6
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "impact-rumble",
+   "at": 380,
+   "gen": "rumble",
+   "args": {
+    "dur": 2.5,
+    "gain": 0.45,
+    "lo": 30,
+    "hi": 140,
+    "decay": 1.4
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "still-standing",
+   "at": 452,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.3
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "magic-notes",
+   "at": 482,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     88,
+     91,
+     95,
+     98
+    ],
+    "level": 0.28,
+    "spacing": 0.35,
+    "pan0": -0.3,
+    "pan_step": 0.2
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "storm-rain",
+   "at": 540,
+   "gen": "water",
+   "args": {
+    "close": 0.7
+   },
+   "post": [],
+   "note": "monsoon rain on the young pillar",
+   "span": [
+    540,
+    664
+   ]
+  },
+  {
+   "id": "storm-wind",
+   "at": 540,
+   "gen": "breeze",
+   "args": {
+    "level": 0.2,
+    "bright": 1200
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    540,
+    664
+   ]
+  },
+  {
+   "id": "thunder",
+   "at": 543,
+   "gen": "boom",
+   "args": {
+    "dur": 2.5,
+    "f0": 40,
+    "big": 0.6
+   },
+   "post": [
+    [
+     "gain",
+     0.55
+    ],
+    [
+     "widen"
+    ]
+   ],
+   "note": "lightning on 'नहीं'"
+  },
+  {
+   "id": "macro-hum",
+   "at": 664,
+   "gen": "hum",
+   "args": {
+    "hz": 73.0,
+    "tone": 0.03,
+    "noise": 0.04
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    664,
+    788
+   ]
+  },
+  {
+   "id": "layer-notes",
+   "at": 668,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     72,
+     76,
+     81
+    ],
+    "level": 0.3,
+    "spacing": 0.45,
+    "pan0": -0.4,
+    "pan_step": 0.25
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "drop-glock",
+   "at": 700,
+   "gen": "glock",
+   "args": {
+    "midi": 93,
+    "level": 0.2
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "shield-glock",
+   "at": 742,
+   "gen": "glock",
+   "args": {
+    "midi": 86,
+    "level": 0.4
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "lab-hum",
+   "at": 788,
+   "gen": "hum",
+   "args": {
+    "hz": 110.0,
+    "tone": 0.02,
+    "noise": 0.03
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    788,
+    858
+   ]
+  },
+  {
+   "id": "p-glock",
+   "at": 813,
+   "gen": "glock",
+   "args": {
+    "midi": 79,
+    "level": 0.35
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "macro-hum2",
+   "at": 858,
+   "gen": "hum",
+   "args": {
+    "hz": 73.0,
+    "tone": 0.03,
+    "noise": 0.04
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    858,
+    950
+   ]
+  },
+  {
+   "id": "film-notes",
+   "at": 870,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     76,
+     79,
+     83
+    ],
+    "level": 0.25,
+    "spacing": 0.4,
+    "pan0": 0.3,
+    "pan_step": -0.3
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "forge-crackle-2",
+   "at": 950,
+   "gen": "crackles",
+   "args": {
+    "density": 18,
+    "gain": 0.3
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "",
+   "span": [
+    950,
+    1086
+   ]
+  },
+  {
+   "id": "lime-glock",
+   "at": 993,
+   "gen": "glock",
+   "args": {
+    "midi": 69,
+    "level": 0.3
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "proof-whoosh",
+   "at": 1084,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.5,
+    "peak": 0.5,
+    "f_lo": 800,
+    "f_hi": 3200
+   },
+   "post": [
+    [
+     "gain",
+     0.25
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "hug-air",
+   "at": 1117,
+   "gen": "breeze",
+   "args": {
+    "level": 0.14,
+    "bright": 900
+   },
+   "post": [],
+   "note": "",
+   "span": [
+    1117,
+    1560
+   ]
+  },
+  {
+   "id": "hug-birds",
+   "at": 1117,
+   "gen": "birds",
+   "args": {
+    "density": 0.25
+   },
+   "post": [
+    [
+     "gain",
+     0.5
+    ]
+   ],
+   "note": "",
+   "span": [
+    1117,
+    1398
+   ]
+  },
+  {
+   "id": "shine-glints",
+   "at": 1220,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     91,
+     95
+    ],
+    "level": 0.25,
+    "spacing": 0.3,
+    "pan0": 0.2,
+    "pan_step": -0.2
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "fence-clink",
+   "at": 1264,
+   "gen": "crack",
+   "args": {},
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "fence-glock",
+   "at": 1264,
+   "gen": "glock",
+   "args": {
+    "midi": 62,
+    "level": 0.35
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "end-glints",
+   "at": 1420,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     93,
+     91,
+     88
+    ],
+    "level": 0.25,
+    "spacing": 0.6,
+    "pan0": 0.2,
+    "pan_step": -0.2
+   },
+   "post": [],
+   "note": ""
+  },
+  {
+   "id": "end-glock",
+   "at": 1498,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.35
+   },
+   "post": [],
+   "note": ""
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.6,
+  "arp_level": 0.7,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     3
+    ],
+    "chord": "Dm",
+    "level": 0.8
+   },
+   {
+    "name": "forge",
+    "shots": [
+     4,
+     4
+    ],
+    "chord": "F",
+    "level": 0.9
+   },
+   {
+    "name": "cannon",
+    "shots": [
+     5,
+     6
+    ],
+    "chord": "A",
+    "level": 1.05
+   },
+   {
+    "name": "magic",
+    "shots": [
+     7,
+     7
+    ],
+    "chord": "Gm",
+    "level": 0.8
+   },
+   {
+    "name": "reveal",
+    "shots": [
+     8,
+     9
+    ],
+    "chord": "Dm",
+    "level": 0.9
+   },
+   {
+    "name": "science",
+    "shots": [
+     10,
+     12
+    ],
+    "chord": "C",
+    "level": 0.85
+   },
+   {
+    "name": "proof",
+    "shots": [
+     13,
+     15
+    ],
+    "chord": "F",
+    "level": 0.8
+   },
+   {
+    "name": "ending",
+    "shots": [
+     16,
+     16
+    ],
+    "chord": "Bb",
+    "level": 0.7
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.03,
+  "fade_out": 0.6
+ },
+ "_doc": "Iron Pillar (Hindi) sound design: frames are picture frames authored on stories/iron-pillar/hi/words.json (frame = round(start*30)). Run with STORY=iron-pillar CUES_FILE=audio/cues.iron-pillar.json (see audio/build_iron-pillar.sh)."
+}

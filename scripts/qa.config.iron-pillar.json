@@ -1,0 +1,196 @@
+{
+ "_doc": "Visual QA config for Iron Pillar (Hindi). Frames are STORY frames (= picture frames; identity warp). Bookends: 0.6 s static thumbnail intro (18 f) + 1.5 s India end card (45 f). See docs/VISUAL_QA.md.",
+ "story": "src/videos/iron-pillar/story.ts",
+ "storyboard": "src/videos/iron-pillar/storyboard.json",
+ "warp": "src/videos/iron-pillar/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 18,
+  "outro": 45
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "pillar": {
+   "below": 3.2,
+   "above": 3.5,
+   "halfWidth": 0.25
+  },
+  "dent": {
+   "below": 0.12,
+   "above": 0.12,
+   "halfWidth": 0.12
+  },
+  "girl": {
+   "below": 0.8,
+   "above": 0.45,
+   "halfWidth": 0.3
+  },
+  "smith": {
+   "below": 1.0,
+   "above": 0.75,
+   "halfWidth": 0.4
+  },
+  "cannon": {
+   "below": 0.9,
+   "above": 0.5,
+   "halfWidth": 0.9
+  },
+  "macro": {
+   "below": 0.5,
+   "above": 0.5,
+   "halfWidth": 1.5
+  },
+  "scientist": {
+   "below": 1.0,
+   "above": 0.75,
+   "halfWidth": 0.4
+  },
+  "hugger": {
+   "below": 1.0,
+   "above": 0.75,
+   "halfWidth": 0.4
+  },
+  "fence": {
+   "below": 0.6,
+   "above": 0.6,
+   "halfWidth": 1.7
+  },
+  "guide": {
+   "below": 1.0,
+   "above": 0.75,
+   "halfWidth": 0.4
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    "pillar",
+    {
+     "name": "girl",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    "guide"
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "pillar"
+   ],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    "smith"
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    "cannon"
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    {
+     "name": "dent",
+     "to": 430
+    },
+    {
+     "name": "pillar",
+     "from": 460,
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    {
+     "name": "pillar",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    {
+     "name": "pillar",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    "macro"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "scientist"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    "macro"
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    {
+     "name": "smith",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [
+    "scientist"
+   ],
+   "fill": null
+  },
+  "14": {
+   "subjects": [
+    "hugger"
+   ],
+   "fill": null
+  },
+  "15": {
+   "subjects": [
+    {
+     "name": "fence",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "16": {
+   "subjects": [
+    {
+     "name": "pillar",
+     "required": false
+    }
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

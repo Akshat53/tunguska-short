@@ -1,0 +1,50 @@
+{
+ "slug": "iron-pillar",
+ "composition": "IronPillarShort",
+ "title": "दिल्ली का लौह स्तंभ: 1600 साल, फिर भी गला क्यों नहीं?",
+ "channel": "india",
+ "languages": {
+  "hi": {
+   "voice": "ElevenLabs Jessica cgSgspJ2msm6clMCkdW9, eleven_v4, stability 0.6, similarity 0.75 (final; do not regenerate: words.json drives every shot)",
+   "rate": "",
+   "dir": "hi",
+   "audio": "out/iron-pillar/audio/mix.wav"
+  }
+ },
+ "captions": "none (owner decision): <Captions> removed from IronPillar.tsx; labels are drawn into the macro scenes",
+ "layout": "0.6 s static thumbnail opening card + 52.0 s picture + 1.5 s India end card = 54.1 s",
+ "commands": {
+  "script_check": [
+   "node agents/bharat-storyteller/tools/validate.mjs agents/bharat-storyteller/examples/iron-pillar/script.json --narration-file agents/bharat-storyteller/examples/iron-pillar/narration.txt",
+   "python3 agents/bharat-storyteller/tools/rhythm.py agents/bharat-storyteller/examples/iron-pillar/narration.marked.txt --voice-rate +10% --names-file agents/bharat-storyteller/examples/iron-pillar/names.txt --words-json stories/iron-pillar/hi/words.json"
+  ],
+  "voice": [
+   "node --env-file=.env.local scripts/make_voice_el.mjs stories/iron-pillar/hi cgSgspJ2msm6clMCkdW9 eleven_v4 0.6 0.75",
+   ".venv/bin/python scripts/tighten_pauses.py stories/iron-pillar/hi"
+  ],
+  "audio": "bash audio/build_iron-pillar.sh",
+  "thumbnail": [
+   "COMP=IronPillarShort GL=angle node scripts/stills.mjs out/iron-pillar/chk/thf 30 1 '{\"captions\":false,\"thumbCam\":{\"pos\":[1.7,0.6,4.6],\"look\":[0.25,2.75,-1],\"fov\":62}}' && cp out/iron-pillar/chk/thf0030.jpg brand/src/iron-pillar-thumb-bg.jpg",
+   "bash scripts/export_brand.sh iron-pillar-thumb"
+  ],
+  "draft": [
+   "COMP=IronPillarShort GL=angle CONC=6 node scripts/render.mjs out/iron-pillar/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1}}'",
+   "SIZE=540x960 INTRO_STATIC=1 INTRO_CARD=brand/iron-pillar-thumb.png AUDIO_OUT=out/iron-pillar/audio OUTRO_CARD=brand/endcard-india.png bash scripts/finish.sh out/iron-pillar/picture-half.mp4 out/iron-pillar/iron-pillar-hi-draft-half.mp4 0.6 1.5"
+  ],
+  "final": [
+   "COMP=IronPillarShort GL=angle CONC=6 node scripts/render.mjs out/iron-pillar/picture.mp4 all 1",
+   "INTRO_STATIC=1 INTRO_CARD=brand/iron-pillar-thumb.png AUDIO_OUT=out/iron-pillar/audio OUTRO_CARD=brand/endcard-india.png bash scripts/finish.sh out/iron-pillar/picture.mp4 out/iron-pillar/iron-pillar-hi-final.mp4 0.6 1.5"
+  ],
+  "qa": [
+   "bash scripts/qa.sh out/iron-pillar/iron-pillar-hi-final.mp4 out/iron-pillar/qa-final",
+   "node --no-warnings scripts/qa-story-data.mjs --config scripts/qa.config.iron-pillar.json --out out/iron-pillar/qa-final/qa-story.json",
+   ".venv/bin/python scripts/visual_qa.py out/iron-pillar/iron-pillar-hi-final.mp4 --story out/iron-pillar/qa-final/qa-story.json --audio-report out/iron-pillar/audio/audio_report.json --out out/iron-pillar/qa-final"
+  ]
+ },
+ "result": "out/iron-pillar/iron-pillar-hi-final.mp4: 1080x1920, 54.1 s, -14.4 LUFS, visual QA 0 errors (22 warns)",
+ "upload": {
+  "title": "out/upload/iron-pillar-title.txt",
+  "description": "out/upload/iron-pillar-description.txt",
+  "pinned": "out/upload/iron-pillar-pinned.txt"
+ }
+}

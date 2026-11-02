@@ -13,8 +13,8 @@
   "centralQuestion": "how has open-air iron survived about 1,600 years if it is not magic?",
   "audience": "Indian Shorts viewers 16-35, curious, not specialists",
   "language": "hinglish",
-  "durationSec": 64.9,
-  "totalFrames": 1947,
+  "durationSec": 52.0,
+  "totalFrames": 1560,
   "coreEmotion": "awe, then the pleasure of a clean explanation",
   "takeaway": "sometimes what looks like damage is the protection",
   "tone": "awed, curious",
@@ -843,35 +843,34 @@
  "narration": {
   "language": "hinglish",
   "voice": {
-   "engine": "edge-tts",
-   "id": "hi-IN-MadhurNeural",
-   "rate": "+10%"
+   "engine": "elevenlabs",
+   "id": "cgSgspJ2msm6clMCkdW9",
+   "rate": "+0%"
   },
-  "wps": 2.86,
-  "totalWords": 172,
-  "estimatedSpeechSec": 60.1,
+  "wps": 2.6,
+  "totalWords": 131,
+  "estimatedSpeechSec": 50.4,
   "segments": [
    {
     "id": "N01",
     "beat": "hook",
-    "startSec": 0.2,
-    "endSec": 8.54,
-    "startFrame": 6,
-    "endFrame": 256,
-    "text": "कहते हैं, सोलह सौ साल में इस खंभे को जंग नहीं लगी। ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।",
-    "marked": "कहते हैं, सोलह सौ साल में इस खंभे को *जंग* नहीं लगी। [pause 0.3] ये लोहे का खंभा क़ुतुब मीनार के आँगन में खड़ा है।",
+    "startSec": 0,
+    "endSec": 5.71,
+    "startFrame": 0,
+    "endFrame": 171,
+    "text": "सोलह सौ साल का लोहा, और आज तक जंग नहीं? पर सच और अजीब है।",
+    "marked": "सोलह सौ साल का लोहा, और आज तक *जंग* नहीं? [pause 0.3] पर सच और अजीब है।",
     "voiceEmotion": "curious",
     "speed": 1.0,
     "emphasis": [
      "जंग"
     ],
-    "pauseAfterSec": 0.25,
+    "pauseAfterSec": 0.04,
     "intensity": 5,
     "musicMood": "sparse low drone, single high note",
     "ambient": "open courtyard breeze, distant birds",
     "sfx": [],
     "claimIds": [
-     "C01",
      "C02",
      "C12"
     ],
@@ -879,44 +878,46 @@
    },
    {
     "id": "N02",
-    "beat": "context",
-    "startSec": 8.79,
-    "endSec": 14.24,
-    "startFrame": 264,
-    "endFrame": 427,
-    "text": "इस पर राजा चंद्र की तारीफ़ खुदी है। माना जाता है, ये चंद्रगुप्त द्वितीय थे।",
-    "marked": "इस पर राजा चंद्र की तारीफ़ खुदी है। [pause 0.2] माना जाता है, ये *चंद्रगुप्त द्वितीय* थे।",
+    "beat": "escalation",
+    "startSec": 5.75,
+    "endSec": 15.79,
+    "startFrame": 173,
+    "endFrame": 474,
+    "text": "क़ुतुब मीनार के आँगन का ये खंभा, लोहारों ने गरम टुकड़े पीटकर बनाया। किसी ने इस पर तोप का गोला दागा, गड्ढा पड़ा, पर ये टूटा नहीं।",
+    "marked": "क़ुतुब मीनार के आँगन का ये खंभा, लोहारों ने गरम टुकड़े पीटकर बनाया। किसी ने इस पर तोप का गोला दागा, गड्ढा पड़ा, पर ये *टूटा* नहीं।",
     "voiceEmotion": "warm",
     "speed": 1.0,
     "emphasis": [
-     "चंद्रगुप्त द्वितीय"
+     "टूटा"
     ],
-    "pauseAfterSec": 0.25,
+    "pauseAfterSec": 0.04,
     "intensity": 4,
     "musicMood": "warm pad",
     "ambient": "courtyard breeze",
     "sfx": [],
     "claimIds": [
-     "C03",
-     "C04"
+     "C01",
+     "C07",
+     "C08",
+     "C09"
     ],
     "deliveryNote": "Warm, informative; 'माना जाता है' clearly audible."
    },
    {
     "id": "N03",
-    "beat": "escalation",
-    "startSec": 14.49,
-    "endSec": 24.23,
-    "startFrame": 435,
-    "endFrame": 727,
-    "text": "करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर जोड़कर बनाया। फिर किसी ने इस पर तोप का गोला दागा। गड्ढा पड़ा, पर खंभा नहीं टूटा।",
-    "marked": "करीब छह टन लोहा, जिसे लोहारों ने गरम टुकड़े पीट-पीटकर *जोड़कर* बनाया। [pause 0.3] फिर किसी ने इस पर तोप का गोला दागा। गड्ढा पड़ा, पर खंभा नहीं टूटा।",
+    "beat": "revelation",
+    "startSec": 15.83,
+    "endSec": 22.11,
+    "startFrame": 475,
+    "endFrame": 663,
+    "text": "तो क्या ये जादुई लोहा है? नहीं। जंग इसे भी लगी, शुरू में तेज़ी से।",
+    "marked": "तो क्या ये जादुई लोहा है? [pause 0.3] *नहीं।* जंग इसे भी लगी, शुरू में तेज़ी से।",
     "voiceEmotion": "tense",
     "speed": 1.0,
     "emphasis": [
-     "जोड़कर"
+     "नहीं।"
     ],
-    "pauseAfterSec": 0.25,
+    "pauseAfterSec": 0.04,
     "intensity": 7,
     "musicMood": "pulse enters, rising",
     "ambient": "forge crackle, then courtyard",
@@ -929,28 +930,26 @@
      "crater-rumble"
     ],
     "claimIds": [
-     "C06",
-     "C07",
-     "C08",
-     "C09"
+     "C14"
     ],
     "deliveryNote": "Builds; short beat after 'दागा', then a firm 'पर खंभा नहीं टूटा'."
    },
    {
     "id": "N04",
-    "beat": "revelation",
-    "startSec": 24.48,
-    "endSec": 29.17,
-    "startFrame": 734,
-    "endFrame": 875,
-    "text": "तो क्या ये जादुई लोहा है? नहीं। जंग इसे भी लगती है।",
-    "marked": "तो क्या ये जादुई लोहा है? [pause 0.5] नहीं। जंग इसे भी *लगती* है।",
+    "beat": "explanation",
+    "startSec": 22.15,
+    "endSec": 31.63,
+    "startFrame": 665,
+    "endFrame": 949,
+    "text": "फिर कुछ ऐसा हुआ, जिसने जंग को ही ढाल बना दिया। इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिससे सतह पर पतली, कसी परत बनी।",
+    "marked": "फिर कुछ ऐसा हुआ, जिसने जंग को ही *ढाल* बना दिया। इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिससे सतह पर पतली, कसी *परत* बनी।",
     "voiceEmotion": "awed",
     "speed": 1.0,
     "emphasis": [
-     "लगती"
+     "ढाल",
+     "परत"
     ],
-    "pauseAfterSec": 0.25,
+    "pauseAfterSec": 0.04,
     "intensity": 9,
     "musicMood": "stop on 'नहीं', reveal chord",
     "ambient": "near silence",
@@ -958,25 +957,27 @@
      "reveal-glock"
     ],
     "claimIds": [
-     "C14"
+     "C14",
+     "C15",
+     "C16"
     ],
     "deliveryNote": "Ask the question straight, hold the pause, 'नहीं' quiet and certain."
    },
    {
     "id": "N05",
-    "beat": "explanation",
-    "startSec": 29.42,
-    "endSec": 42.51,
-    "startFrame": 883,
-    "endFrame": 1275,
-    "text": "शुरू में तो तेज़ी से लगी। लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई परत बनी। बारिश और धूप ने उसे और पक्का किया। वही परत इसकी ढाल है।",
-    "marked": "शुरू में तो तेज़ी से लगी। [pause 0.2] लेकिन इस लोहे में फ़ॉस्फ़रस ज़्यादा था, जिसकी वजह से सतह पर पतली, कसी हुई *परत* बनी। बारिश और धूप ने उसे और पक्का किया। [pause 0.3] वही परत इसकी ढाल है।",
+    "beat": "payoff",
+    "startSec": 31.67,
+    "endSec": 36.11,
+    "startFrame": 950,
+    "endFrame": 1083,
+    "text": "पुराने लोहार भट्टी में चूना नहीं डालते थे, तो फ़ॉस्फ़रस रह गया।",
+    "marked": "पुराने लोहार भट्टी में *चूना* नहीं डालते थे, तो फ़ॉस्फ़रस रह गया।",
     "voiceEmotion": "curious",
     "speed": 1.0,
     "emphasis": [
-     "परत"
+     "चूना"
     ],
-    "pauseAfterSec": 0.25,
+    "pauseAfterSec": 0.08,
     "intensity": 7,
     "musicMood": "bright arpeggio, steady",
     "ambient": "soft rain then dry wind",
@@ -986,28 +987,27 @@
      "rain-water"
     ],
     "claimIds": [
-     "C14",
-     "C15",
      "C16",
-     "C17"
+     "C18"
     ],
     "deliveryNote": "Explain like to a friend; slow slightly on 'पतली, कसी हुई परत'."
    },
    {
     "id": "N06",
     "beat": "payoff",
-    "startSec": 42.76,
-    "endSec": 49.4,
-    "startFrame": 1283,
-    "endFrame": 1482,
-    "text": "फ़ॉस्फ़रस आया कहाँ से? पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही रह गया।",
-    "marked": "फ़ॉस्फ़रस आया कहाँ से? पुराने लोहार भट्टी में चूना नहीं डालते थे, तो वो लोहे में ही *रह* गया।",
+    "startSec": 36.19,
+    "endSec": 46.51,
+    "startFrame": 1086,
+    "endFrame": 1395,
+    "text": "सबूत? लोग किस्मत के लिए इसे बाँहों में भरते थे, वो हिस्सा चमकता था। फिर जाली लगी, और करीब साल भर में वो चमक भी भूरी पड़ गई।",
+    "marked": "*सबूत?* [pause 0.2] लोग किस्मत के लिए इसे बाँहों में भरते थे, वो हिस्सा चमकता था। फिर जाली लगी, और करीब साल भर में वो *चमक* भी भूरी पड़ गई।",
     "voiceEmotion": "warm",
     "speed": 1.0,
     "emphasis": [
-     "रह"
+     "सबूत?",
+     "चमक"
     ],
-    "pauseAfterSec": 0.25,
+    "pauseAfterSec": 0.08,
     "intensity": 6,
     "musicMood": "warm, lower",
     "ambient": "forge crackle",
@@ -1015,24 +1015,25 @@
      "forge-crackle-2"
     ],
     "claimIds": [
-     "C16",
-     "C18"
+     "C19",
+     "C20",
+     "C21"
     ],
     "deliveryNote": "Light, almost amused question, then plain answer."
    },
    {
     "id": "N07",
     "beat": "ending",
-    "startSec": 49.65,
-    "endSec": 64.34,
-    "startFrame": 1490,
-    "endFrame": 1930,
-    "text": "लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था। फिर जाली लग गई। और करीब साल भर में, वो चमक भी भूरी पड़ गई। ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया है।",
-    "marked": "लोग किस्मत के लिए इसे बाँहों में भरते थे, इसलिए वो हिस्सा चमकता था। [pause 0.3] फिर जाली लग गई। और करीब साल भर में, वो *चमक* भी भूरी पड़ गई। [pause 0.4] ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया है।",
+    "startSec": 46.59,
+    "endSec": 50.75,
+    "startFrame": 1398,
+    "endFrame": 1523,
+    "text": "ये खंभा जंग से बचा नहीं। जंग ने इसे बचाया।",
+    "marked": "ये खंभा जंग से बचा नहीं। [pause 0.3] जंग ने इसे *बचाया।*",
     "voiceEmotion": "reflective",
     "speed": 1.0,
     "emphasis": [
-     "चमक"
+     "बचाया।"
     ],
     "pauseAfterSec": 0.0,
     "intensity": 6,
@@ -1043,9 +1044,6 @@
      "end-glock"
     ],
     "claimIds": [
-     "C19",
-     "C20",
-     "C21",
      "C15"
     ],
     "deliveryNote": "Softer; the last two lines slower, with a pause between them."
@@ -1172,9 +1170,9 @@
   {
    "id": 1,
    "startSec": 0.0,
-   "endSec": 4.6,
+   "endSec": 3.7,
    "startFrame": 0,
-   "endFrame": 138,
+   "endFrame": 111,
    "narration": {
     "segmentIds": [
      "N01"
@@ -1230,10 +1228,10 @@
   },
   {
    "id": 2,
-   "startSec": 4.6,
-   "endSec": 8.7,
-   "startFrame": 138,
-   "endFrame": 261,
+   "startSec": 3.7,
+   "endSec": 6.9667,
+   "startFrame": 111,
+   "endFrame": 209,
    "narration": {
     "segmentIds": [
      "N01"
@@ -1260,7 +1258,7 @@
    "actions": [
     {
      "characterId": "visitor",
-     "atFrame": 150,
+     "atFrame": 120,
      "action": "lookUp",
      "params": {
       "headTilt": -12,
@@ -1271,7 +1269,7 @@
    "expressions": [
     {
      "characterId": "visitor",
-     "atFrame": 216,
+     "atFrame": 173,
      "expression": "smile",
      "word": "जंग"
     }
@@ -1281,7 +1279,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 138,
+      "f": 111,
       "preset": "lowAngle",
       "params": {
        "subject": "pillar",
@@ -1298,8 +1296,8 @@
    "effects": [
     {
      "fx": "sparkle",
-     "atFrame": 210,
-     "untilFrame": 246,
+     "atFrame": 168,
+     "untilFrame": 197,
      "note": "glint on the dark iron as 'जंग नहीं लगती' lands"
     }
    ],
@@ -1317,10 +1315,10 @@
   },
   {
    "id": 3,
-   "startSec": 8.7,
-   "endSec": 14.4,
-   "startFrame": 261,
-   "endFrame": 432,
+   "startSec": 6.9667,
+   "endSec": 11.5333,
+   "startFrame": 209,
+   "endFrame": 346,
    "narration": {
     "segmentIds": [
      "N02"
@@ -1343,7 +1341,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 261,
+      "f": 209,
       "preset": "dollyIn",
       "params": {
        "subject": "inscription",
@@ -1376,10 +1374,10 @@
   },
   {
    "id": 4,
-   "startSec": 14.4,
-   "endSec": 18.8667,
-   "startFrame": 432,
-   "endFrame": 566,
+   "startSec": 11.5333,
+   "endSec": 15.1,
+   "startFrame": 346,
+   "endFrame": 453,
    "narration": {
     "segmentIds": [
      "N03"
@@ -1407,7 +1405,7 @@
    "actions": [
     {
      "characterId": "smith",
-     "atFrame": 450,
+     "atFrame": 361,
      "action": "hammerStrike",
      "params": {
       "strike": 1
@@ -1415,7 +1413,7 @@
     },
     {
      "characterId": "smith",
-     "atFrame": 498,
+     "atFrame": 399,
      "action": "hammerStrike",
      "params": {
       "strike": 1
@@ -1425,7 +1423,7 @@
    "expressions": [
     {
      "characterId": "smith",
-     "atFrame": 522,
+     "atFrame": 418,
      "expression": "smile_closed"
     }
    ],
@@ -1434,7 +1432,7 @@
     "kind": "static",
     "keys": [
      {
-      "f": 432,
+      "f": 346,
       "preset": "closeUp",
       "params": {
        "subject": "smith",
@@ -1451,29 +1449,29 @@
    "effects": [
     {
      "fx": "burst",
-     "atFrame": 450,
-     "untilFrame": 458,
+     "atFrame": 361,
+     "untilFrame": 367,
      "note": "spark rays on the strike"
     },
     {
      "fx": "kick",
-     "atFrame": 450,
+     "atFrame": 361,
      "gain": 0.25
     },
     {
      "fx": "burst",
-     "atFrame": 498,
-     "untilFrame": 506
+     "atFrame": 399,
+     "untilFrame": 405
     },
     {
      "fx": "kick",
-     "atFrame": 498,
+     "atFrame": 399,
      "gain": 0.25
     },
     {
      "fx": "smoke",
-     "atFrame": 432,
-     "untilFrame": 566
+     "atFrame": 346,
+     "untilFrame": 453
     }
    ],
    "transition": {
@@ -1499,10 +1497,10 @@
   },
   {
    "id": 5,
-   "startSec": 18.8667,
-   "endSec": 22.0333,
-   "startFrame": 566,
-   "endFrame": 661,
+   "startSec": 15.1,
+   "endSec": 17.6667,
+   "startFrame": 453,
+   "endFrame": 530,
    "narration": {
     "segmentIds": [
      "N03"
@@ -1525,7 +1523,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 566,
+      "f": 453,
       "preset": "highAngle",
       "params": {
        "subject": "pillar",
@@ -1535,7 +1533,7 @@
       }
      },
      {
-      "f": 659,
+      "f": 528,
       "preset": "closeUp",
       "params": {
        "subject": "crater",
@@ -1552,24 +1550,24 @@
    "effects": [
     {
      "fx": "blob",
-     "atFrame": 581,
-     "untilFrame": 659,
+     "atFrame": 466,
+     "untilFrame": 528,
      "note": "cannonball as a dark ink blob on a short arc"
     },
     {
      "fx": "flash",
-     "atFrame": 659,
+     "atFrame": 528,
      "peak": 0.8
     },
     {
      "fx": "kick",
-     "atFrame": 659,
+     "atFrame": 528,
      "gain": 1.0
     },
     {
      "fx": "puff",
-     "atFrame": 659,
-     "untilFrame": 661
+     "atFrame": 528,
+     "untilFrame": 530
     }
    ],
    "transition": {
@@ -1592,10 +1590,10 @@
   },
   {
    "id": 6,
-   "startSec": 22.0333,
-   "endSec": 24.3667,
-   "startFrame": 661,
-   "endFrame": 731,
+   "startSec": 17.6667,
+   "endSec": 19.5333,
+   "startFrame": 530,
+   "endFrame": 586,
    "narration": {
     "segmentIds": [
      "N03"
@@ -1618,7 +1616,7 @@
     "kind": "crane",
     "keys": [
      {
-      "f": 661,
+      "f": 530,
       "preset": "crane",
       "params": {
        "subject": "crater",
@@ -1637,8 +1635,8 @@
    "effects": [
     {
      "fx": "dust",
-     "atFrame": 661,
-     "untilFrame": 709
+     "atFrame": 530,
+     "untilFrame": 568
     }
    ],
    "transition": {
@@ -1657,10 +1655,10 @@
   },
   {
    "id": 7,
-   "startSec": 24.3667,
-   "endSec": 26.9667,
-   "startFrame": 731,
-   "endFrame": 809,
+   "startSec": 19.5333,
+   "endSec": 21.6,
+   "startFrame": 586,
+   "endFrame": 648,
    "narration": {
     "segmentIds": [
      "N04"
@@ -1687,7 +1685,7 @@
    "actions": [
     {
      "characterId": "visitor",
-     "atFrame": 740,
+     "atFrame": 593,
      "action": "lookUp",
      "params": {
       "headTilt": -8,
@@ -1698,7 +1696,7 @@
    "expressions": [
     {
      "characterId": "visitor",
-     "atFrame": 758,
+     "atFrame": 607,
      "expression": "whistle",
      "word": "जादुई"
     }
@@ -1708,7 +1706,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 731,
+      "f": 586,
       "preset": "closeUp",
       "params": {
        "subject": "visitor",
@@ -1725,8 +1723,8 @@
    "effects": [
     {
      "fx": "stars",
-     "atFrame": 767,
-     "untilFrame": 809,
+     "atFrame": 615,
+     "untilFrame": 648,
      "note": "tiny wonder stars by the head"
     }
    ],
@@ -1744,10 +1742,10 @@
   },
   {
    "id": 8,
-   "startSec": 26.9667,
-   "endSec": 29.3333,
-   "startFrame": 809,
-   "endFrame": 880,
+   "startSec": 21.6,
+   "endSec": 23.5,
+   "startFrame": 648,
+   "endFrame": 705,
    "narration": {
     "segmentIds": [
      "N04"
@@ -1770,7 +1768,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 809,
+      "f": 648,
       "preset": "dollyIn",
       "params": {
        "subject": "surface",
@@ -1788,13 +1786,13 @@
    "effects": [
     {
      "fx": "kick",
-     "atFrame": 809,
+     "atFrame": 648,
      "gain": 0.4
     },
     {
      "fx": "blob",
-     "atFrame": 827,
-     "untilFrame": 880,
+     "atFrame": 663,
+     "untilFrame": 705,
      "note": "rust-coloured blobs bloom on the metal"
     }
    ],
@@ -1818,10 +1816,10 @@
   },
   {
    "id": 9,
-   "startSec": 29.3333,
-   "endSec": 31.6333,
-   "startFrame": 880,
-   "endFrame": 949,
+   "startSec": 23.5,
+   "endSec": 25.3333,
+   "startFrame": 705,
+   "endFrame": 760,
    "narration": {
     "segmentIds": [
      "N05"
@@ -1844,7 +1842,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 880,
+      "f": 705,
       "preset": "highAngle",
       "params": {
        "subject": "surface",
@@ -1861,14 +1859,14 @@
    "effects": [
     {
      "fx": "dust",
-     "atFrame": 880,
-     "untilFrame": 949,
+     "atFrame": 705,
+     "untilFrame": 760,
      "note": "rust-orange dust"
     },
     {
      "fx": "creak",
-     "atFrame": 895,
-     "untilFrame": 949
+     "atFrame": 717,
+     "untilFrame": 760
     }
    ],
    "transition": {
@@ -1887,10 +1885,10 @@
   },
   {
    "id": 10,
-   "startSec": 31.6333,
-   "endSec": 37.5667,
-   "startFrame": 949,
-   "endFrame": 1127,
+   "startSec": 25.3333,
+   "endSec": 30.1,
+   "startFrame": 760,
+   "endFrame": 903,
    "narration": {
     "segmentIds": [
      "N05"
@@ -1913,7 +1911,7 @@
     "kind": "orbit",
     "keys": [
      {
-      "f": 949,
+      "f": 760,
       "preset": "orbit",
       "params": {
        "subject": "surface",
@@ -1931,14 +1929,14 @@
    "effects": [
     {
      "fx": "sparkle",
-     "atFrame": 973,
-     "untilFrame": 1039,
+     "atFrame": 780,
+     "untilFrame": 832,
      "note": "phosphorus specks"
     },
     {
      "fx": "ring",
-     "atFrame": 1045,
-     "untilFrame": 1127,
+     "atFrame": 837,
+     "untilFrame": 903,
      "note": "the thin layer drawn as a glowing outline hugging the metal"
     }
    ],
@@ -1961,10 +1959,10 @@
   },
   {
    "id": 11,
-   "startSec": 37.5667,
-   "endSec": 40.6667,
-   "startFrame": 1127,
-   "endFrame": 1220,
+   "startSec": 30.1,
+   "endSec": 32.6,
+   "startFrame": 903,
+   "endFrame": 978,
    "narration": {
     "segmentIds": [
      "N05"
@@ -1987,7 +1985,7 @@
     "kind": "aerial-descent",
     "keys": [
      {
-      "f": 1127,
+      "f": 903,
       "preset": "aerial",
       "params": {
        "subject": "surface"
@@ -2002,18 +2000,18 @@
    "effects": [
     {
      "fx": "cloud",
-     "atFrame": 1127,
-     "untilFrame": 1175
+     "atFrame": 903,
+     "untilFrame": 941
     },
     {
      "fx": "splash",
-     "atFrame": 1142,
-     "untilFrame": 1172
+     "atFrame": 915,
+     "untilFrame": 939
     },
     {
      "fx": "burst",
-     "atFrame": 1178,
-     "untilFrame": 1220,
+     "atFrame": 944,
+     "untilFrame": 978,
      "note": "sun rays (drying)"
     }
    ],
@@ -2033,10 +2031,10 @@
   },
   {
    "id": 12,
-   "startSec": 40.6667,
-   "endSec": 42.6667,
-   "startFrame": 1220,
-   "endFrame": 1280,
+   "startSec": 32.6,
+   "endSec": 34.2,
+   "startFrame": 978,
+   "endFrame": 1026,
    "narration": {
     "segmentIds": [
      "N05"
@@ -2059,7 +2057,7 @@
     "kind": "pull-out",
     "keys": [
      {
-      "f": 1220,
+      "f": 978,
       "preset": "dollyOut",
       "params": {
        "subject": "surface",
@@ -2076,8 +2074,8 @@
    "effects": [
     {
      "fx": "ring",
-     "atFrame": 1220,
-     "untilFrame": 1280
+     "atFrame": 978,
+     "untilFrame": 1026
     }
    ],
    "transition": {
@@ -2094,10 +2092,10 @@
   },
   {
    "id": 13,
-   "startSec": 42.6667,
-   "endSec": 49.5667,
-   "startFrame": 1280,
-   "endFrame": 1487,
+   "startSec": 34.2,
+   "endSec": 39.7,
+   "startFrame": 1026,
+   "endFrame": 1191,
    "narration": {
     "segmentIds": [
      "N06"
@@ -2124,9 +2122,9 @@
    "actions": [
     {
      "characterId": "smith",
-     "atFrame": 1289,
+     "atFrame": 1033,
      "action": "push",
-     "untilFrame": 1355,
+     "untilFrame": 1086,
      "params": {
       "pose": 0.6
      },
@@ -2136,7 +2134,7 @@
    "expressions": [
     {
      "characterId": "smith",
-     "atFrame": 1370,
+     "atFrame": 1098,
      "expression": "smile_closed"
     }
    ],
@@ -2145,7 +2143,7 @@
     "kind": "tracking",
     "keys": [
      {
-      "f": 1280,
+      "f": 1026,
       "preset": "tracking",
       "params": {
        "subject": "furnace",
@@ -2172,8 +2170,8 @@
    "effects": [
     {
      "fx": "smoke",
-     "atFrame": 1280,
-     "untilFrame": 1487
+     "atFrame": 1026,
+     "untilFrame": 1191
     }
    ],
    "transition": {
@@ -2197,10 +2195,10 @@
   },
   {
    "id": 14,
-   "startSec": 49.5667,
-   "endSec": 54.7333,
-   "startFrame": 1487,
-   "endFrame": 1642,
+   "startSec": 39.7,
+   "endSec": 43.8667,
+   "startFrame": 1191,
+   "endFrame": 1316,
    "narration": {
     "segmentIds": [
      "N07"
@@ -2227,7 +2225,7 @@
    "actions": [
     {
      "characterId": "visitor",
-     "atFrame": 1496,
+     "atFrame": 1199,
      "action": "push",
      "params": {
       "pose": 0.35
@@ -2238,7 +2236,7 @@
    "expressions": [
     {
      "characterId": "visitor",
-     "atFrame": 1547,
+     "atFrame": 1240,
      "expression": "laugh"
     }
    ],
@@ -2247,7 +2245,7 @@
     "kind": "orbit",
     "keys": [
      {
-      "f": 1487,
+      "f": 1191,
       "preset": "orbit",
       "params": {
        "subject": [
@@ -2268,8 +2266,8 @@
    "effects": [
     {
      "fx": "sparkle",
-     "atFrame": 1559,
-     "untilFrame": 1642,
+     "atFrame": 1249,
+     "untilFrame": 1316,
      "note": "shine on the polished band"
     }
    ],
@@ -2291,10 +2289,10 @@
   },
   {
    "id": 15,
-   "startSec": 54.7333,
-   "endSec": 56.1333,
-   "startFrame": 1642,
-   "endFrame": 1684,
+   "startSec": 43.8667,
+   "endSec": 44.9667,
+   "startFrame": 1316,
+   "endFrame": 1349,
    "narration": {
     "segmentIds": [
      "N07"
@@ -2325,7 +2323,7 @@
     "kind": "static",
     "keys": [
      {
-      "f": 1642,
+      "f": 1316,
       "preset": "highAngle",
       "params": {
        "subject": "pillar",
@@ -2356,10 +2354,10 @@
   },
   {
    "id": 16,
-   "startSec": 56.1333,
-   "endSec": 60.4,
-   "startFrame": 1684,
-   "endFrame": 1812,
+   "startSec": 44.9667,
+   "endSec": 48.4,
+   "startFrame": 1349,
+   "endFrame": 1452,
    "narration": {
     "segmentIds": [
      "N07"
@@ -2382,7 +2380,7 @@
     "kind": "push-in",
     "keys": [
      {
-      "f": 1684,
+      "f": 1349,
       "preset": "extremeCloseUp",
       "params": {
        "subject": "band",
@@ -2398,8 +2396,8 @@
    "effects": [
     {
      "fx": "sparkle",
-     "atFrame": 1684,
-     "untilFrame": 1720,
+     "atFrame": 1349,
+     "untilFrame": 1378,
      "note": "last glint, then gone"
     }
    ],
@@ -2420,10 +2418,10 @@
   },
   {
    "id": 17,
-   "startSec": 60.4,
-   "endSec": 64.9,
-   "startFrame": 1812,
-   "endFrame": 1947,
+   "startSec": 48.4,
+   "endSec": 52.0,
+   "startFrame": 1452,
+   "endFrame": 1560,
    "narration": {
     "segmentIds": [
      "N07"
@@ -2446,7 +2444,7 @@
     "kind": "crane",
     "keys": [
      {
-      "f": 1812,
+      "f": 1452,
       "preset": "establishingWide",
       "params": {
        "subject": "pillar",
@@ -2455,7 +2453,7 @@
       }
      },
      {
-      "f": 1878,
+      "f": 1505,
       "preset": "crane",
       "params": {
        "subject": "pillar",
@@ -2488,32 +2486,32 @@
   }
  ],
  "events": {
-  "flashAt": 809,
+  "flashAt": 648,
   "flashes": [
    [
-    659,
+    528,
     0.8
    ]
   ],
   "hits": [
-   659,
-   809
+   528,
+   648
   ],
   "kicks": [
    [
-    450,
+    361,
     0.25
    ],
    [
-    498,
+    399,
     0.25
    ],
    [
-    659,
+    528,
     1.0
    ],
    [
-    809,
+    648,
     0.4
    ]
   ]
@@ -2530,7 +2528,7 @@
     },
     "span": [
      0,
-     432
+     346
     ],
     "segmentId": "N01",
     "shotId": 1,
@@ -2545,7 +2543,7 @@
     },
     "span": [
      0,
-     261
+     209
     ],
     "segmentId": "N01",
     "shotId": 1,
@@ -2553,7 +2551,7 @@
    },
    {
     "id": "forge-crackle",
-    "at": 432,
+    "at": 346,
     "gen": "crackles",
     "args": {
      "dur": 4.5,
@@ -2566,7 +2564,7 @@
    },
    {
     "id": "hammer-1",
-    "at": 450,
+    "at": 361,
     "gen": "crack",
     "args": {},
     "post": [
@@ -2581,7 +2579,7 @@
    },
    {
     "id": "hammer-2",
-    "at": 498,
+    "at": 399,
     "gen": "crack",
     "args": {},
     "post": [
@@ -2596,7 +2594,7 @@
    },
    {
     "id": "cannon-whoosh",
-    "at": 581,
+    "at": 466,
     "gen": "whoosh",
     "args": {
      "dur": 2.6,
@@ -2610,7 +2608,7 @@
    },
    {
     "id": "cannon-boom",
-    "at": 659,
+    "at": 528,
     "gen": "boom",
     "args": {
      "dur": 2.0,
@@ -2628,7 +2626,7 @@
    },
    {
     "id": "crater-rumble",
-    "at": 661,
+    "at": 530,
     "gen": "rumble",
     "args": {
      "dur": 1.8,
@@ -2643,7 +2641,7 @@
    },
    {
     "id": "reveal-glock",
-    "at": 809,
+    "at": 648,
     "gen": "glock",
     "args": {
      "midi": 76,
@@ -2655,7 +2653,7 @@
    },
    {
     "id": "rust-crackle",
-    "at": 880,
+    "at": 705,
     "gen": "crackles",
     "args": {
      "dur": 2.3,
@@ -2668,7 +2666,7 @@
    },
    {
     "id": "layer-notes",
-    "at": 1045,
+    "at": 837,
     "gen": "notes",
     "args": {
      "midi": [
@@ -2685,14 +2683,14 @@
    },
    {
     "id": "rain-water",
-    "at": 1127,
+    "at": 903,
     "gen": "water",
     "args": {
      "close": 0.4
     },
     "span": [
-     1127,
-     1175
+     903,
+     941
     ],
     "segmentId": "N05",
     "shotId": 11,
@@ -2700,7 +2698,7 @@
    },
    {
     "id": "forge-crackle-2",
-    "at": 1280,
+    "at": 1026,
     "gen": "crackles",
     "args": {
      "dur": 6.9,
@@ -2713,7 +2711,7 @@
    },
    {
     "id": "fence-clink",
-    "at": 1642,
+    "at": 1316,
     "gen": "clicks",
     "args": {
      "count": 3,
@@ -2727,7 +2725,7 @@
    },
    {
     "id": "end-glock",
-    "at": 1883,
+    "at": 1509,
     "gen": "glock",
     "args": {
      "midi": 72,
@@ -2894,7 +2892,7 @@
   ],
   "rhythm": {
    "verdict": "PASS",
-   "durationSec": 64.14,
+   "durationSec": 48.4,
    "wps": 2.86,
    "lengthCv": 0.49,
    "findings": 0

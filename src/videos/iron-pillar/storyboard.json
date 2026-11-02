@@ -1,0 +1,364 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 1560,
+ "scenes": [
+  "court",
+  "forge",
+  "macro",
+  "lab"
+ ],
+ "words": "stories/iron-pillar/hi/words.json",
+ "events": {
+  "flashAt": 543,
+  "flashes": [
+   [
+    352,
+    0.3
+   ],
+   [
+    378,
+    0.5
+   ],
+   [
+    543,
+    0.45
+   ]
+  ],
+  "hits": [
+   352,
+   378,
+   543
+  ],
+  "kicks": [
+   [
+    267,
+    0.25
+   ],
+   [
+    286,
+    0.3
+   ],
+   [
+    352,
+    0.5
+   ],
+   [
+    378,
+    1
+   ],
+   [
+    543,
+    0.4
+   ],
+   [
+    1264,
+    0.2
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "pillar",
+  "dent",
+  "girl",
+  "smith",
+  "cannon",
+  "macro",
+  "scientist",
+  "hugger",
+  "fence",
+  "guide"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 116,
+   "light": "golden",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: a girl at the fence reaches up in awe at the 1,600-year-old iron pillar, crowd around, Qutb Minar behind"
+  },
+  {
+   "id": 2,
+   "a": 116,
+   "b": 172,
+   "light": "golden",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 116,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "\"the truth is stranger\": the guide leans in with a knowing smile"
+  },
+  {
+   "id": 3,
+   "a": 172,
+   "b": 243,
+   "light": "day",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 172,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "xfade": 8,
+   "note": "Qutb complex courtyard: crane over visitors, arches, the pillar"
+  },
+  {
+   "id": 4,
+   "a": 243,
+   "b": 328,
+   "light": "night",
+   "scene": "forge",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 243,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "note": "Gupta-era forge: smiths hammer hot iron lumps together (sparks)"
+  },
+  {
+   "id": 5,
+   "a": 328,
+   "b": 399,
+   "light": "dusk",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 328,
+     "fn": "S5a"
+    }
+   ],
+   "dof": [],
+   "note": "someone fires a cannonball at the pillar"
+  },
+  {
+   "id": 6,
+   "a": 399,
+   "b": 475,
+   "light": "dusk",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 399,
+     "fn": "S6a"
+    }
+   ],
+   "dof": [],
+   "note": "the dent: smoke clears, the pillar stands unbroken"
+  },
+  {
+   "id": 7,
+   "a": 475,
+   "b": 543,
+   "light": "day",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 475,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "magic iron? visitors marvel, sparkles"
+  },
+  {
+   "id": 8,
+   "a": 543,
+   "b": 664,
+   "light": "rain",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 543,
+     "fn": "S8a"
+    }
+   ],
+   "dof": [],
+   "note": "NO: monsoon storm, lightning; orange rust blooms fast over the young pillar"
+  },
+  {
+   "id": 9,
+   "a": 664,
+   "b": 788,
+   "light": "macro",
+   "scene": "macro",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 664,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "inside the metal (labelled): iron, rust, then a thin tight film forms; drops bead and roll off"
+  },
+  {
+   "id": 10,
+   "a": 788,
+   "b": 858,
+   "light": "lab",
+   "scene": "lab",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 788,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "note": "a scientist: the iron is high in phosphorus"
+  },
+  {
+   "id": 11,
+   "a": 858,
+   "b": 950,
+   "light": "macro",
+   "scene": "macro",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 858,
+     "fn": "S11a"
+    }
+   ],
+   "dof": [],
+   "note": "phosphorus atoms rise and build the thin compact film; drops bead off"
+  },
+  {
+   "id": 12,
+   "a": 950,
+   "b": 1086,
+   "light": "night",
+   "scene": "forge",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 950,
+     "fn": "S12a"
+    }
+   ],
+   "dof": [],
+   "note": "the old smiths never put lime in the furnace"
+  },
+  {
+   "id": 13,
+   "a": 1086,
+   "b": 1117,
+   "light": "lab",
+   "scene": "lab",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1086,
+     "fn": "S13a"
+    }
+   ],
+   "dof": [],
+   "note": "proof?"
+  },
+  {
+   "id": 14,
+   "a": 1117,
+   "b": 1257,
+   "light": "day",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1117,
+     "fn": "S14a"
+    }
+   ],
+   "dof": [],
+   "note": "visitors hug the pillar for luck; the band shines"
+  },
+  {
+   "id": 15,
+   "a": 1257,
+   "b": 1398,
+   "light": "day",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1257,
+     "fn": "S15a"
+    }
+   ],
+   "dof": [],
+   "note": "1997: the fence goes up, a boy reaches through; within about a year the shine goes brown"
+  },
+  {
+   "id": 16,
+   "a": 1398,
+   "b": 1560,
+   "light": "golden",
+   "scene": "court",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1398,
+     "fn": "S16a"
+    }
+   ],
+   "dof": [],
+   "xfade": 8,
+   "note": "rust saved it: crane up over the Qutb complex, then glide down to the girl (loops to frame 0)"
+  }
+ ]
+}
