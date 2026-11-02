@@ -11,5 +11,5 @@
       "audio": "out/molasses-1919/audio/mix.wav"
     }
   },
-  "note": "Audio: bash audio/build_molasses-1919.sh -> out/molasses-1919/audio/. Draft: COMP=MolassesShort GL=angle CONC=6 node scripts/render.mjs out/molasses-1919/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1}}'; then SIZE=540x960 NO_INTRO=1 PRE_OUTRO_CARD=brand/molasses-1919-thumb.png PRE_OUTRO_S=0.4 AUDIO_OUT=out/molasses-1919/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/molasses-1919/picture-half.mp4 out/molasses-1919/molasses-1919-en-draft-half.mp4 0 1.5. New format: no intro card (frame 0 = the wave), thumbnail held 0.4 s before a 1.5 s end card."
+  "note": "Audio: bash audio/build_molasses-1919.sh -> out/molasses-1919/audio/. Draft: COMP=MolassesShort GL=angle CONC=6 node scripts/render.mjs out/molasses-1919/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1},\"captions\":false}'; then SIZE=540x960 NO_INTRO=1 PRE_OUTRO_CARD=brand/molasses-1919-thumb.png PRE_OUTRO_S=0.4 AUDIO_OUT=out/molasses-1919/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/molasses-1919/picture-half.mp4 out/molasses-1919/molasses-1919-en-draft-half.mp4 0 1.5. New format: no intro card (frame 0 = the wave), thumbnail held 0.4 s before a 1.5 s end card. Published without captions (owner's choice): pass captions:false."
 }
