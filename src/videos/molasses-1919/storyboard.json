@@ -1,0 +1,353 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 1575,
+ "scenes": [
+  "street",
+  "explainer",
+  "office"
+ ],
+ "words": "stories/molasses-1919/en/words.json",
+ "events": {
+  "flashAt": 325,
+  "flashes": [],
+  "hits": [
+   325,
+   1295
+  ],
+  "kicks": [
+   [
+    325,
+    1.0
+   ],
+   [
+    1295,
+    0.35
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "wave",
+  "tank",
+  "resident",
+  "runners",
+  "scale",
+  "thermo",
+  "rescuer",
+  "kid",
+  "painter",
+  "manager",
+  "northend",
+  "desk",
+  "stamp",
+  "engineer"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 130,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    },
+    {
+     "f": 72,
+     "fn": "S1b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: a glossy molasses wave rolls down Commercial Street; cut to two runners ahead of it"
+  },
+  {
+   "id": 2,
+   "a": 130,
+   "b": 200,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 130,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "'January, nineteen-nineteen': the calm street before, the brown tank at the end, an El train"
+  },
+  {
+   "id": 3,
+   "a": 200,
+   "b": 286,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 200,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "note": "'How does syrup kill twenty-one people?': a resident looks up at the tank"
+  },
+  {
+   "id": 4,
+   "a": 286,
+   "b": 325,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 286,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "note": "'Two million gallons': the tank wall from below, rivets straining"
+  },
+  {
+   "id": 5,
+   "a": 325,
+   "b": 464,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 325,
+     "fn": "S5a"
+    }
+   ],
+   "dof": [],
+   "note": "burst (flash) and the wave tears down the street (tracking)"
+  },
+  {
+   "id": 6,
+   "a": 464,
+   "b": 574,
+   "light": "day",
+   "scene": "explainer",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 464,
+     "fn": "S6a"
+    }
+   ],
+   "dof": [],
+   "note": "balance scale: water vs molasses, the molasses side drops"
+  },
+  {
+   "id": 7,
+   "a": 574,
+   "b": 666,
+   "light": "day",
+   "scene": "explainer",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 574,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "cold: thermometer drops, the blob stiffens"
+  },
+  {
+   "id": 8,
+   "a": 666,
+   "b": 743,
+   "light": "dusk",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 666,
+     "fn": "S8a"
+    }
+   ],
+   "dof": [],
+   "note": "'stuck': high and quiet, a rescuer wading, a cap on the syrup"
+  },
+  {
+   "id": 9,
+   "a": 743,
+   "b": 794,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 743,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "xfade": 8,
+   "note": "'This wasn't bad luck': the clean grey tank (1915), push in"
+  },
+  {
+   "id": 10,
+   "a": 794,
+   "b": 863,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 794,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "note": "'leaked from day one': a kid with a can under the drips"
+  },
+  {
+   "id": 11,
+   "a": 863,
+   "b": 994,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 863,
+     "fn": "S11a"
+    },
+    {
+     "f": 905,
+     "fn": "S11b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "the company man; 'Paint it brown': the painter covers the streaks"
+  },
+  {
+   "id": 12,
+   "a": 994,
+   "b": 1147,
+   "light": "golden",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 994,
+     "fn": "S12a"
+    }
+   ],
+   "dof": [],
+   "note": "'Weight, cold, and warnings ignored': aerial over the flooded block"
+  },
+  {
+   "id": 13,
+   "a": 1147,
+   "b": 1340,
+   "light": "day",
+   "scene": "office",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1147,
+     "fn": "S13a"
+    },
+    {
+     "f": 1238,
+     "fn": "S13b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "xfade": 8,
+   "note": "hearing: owners found liable; then the stamp on 'sign'"
+  },
+  {
+   "id": 14,
+   "a": 1340,
+   "b": 1379,
+   "light": "day",
+   "scene": "office",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1340,
+     "fn": "S14a"
+    }
+   ],
+   "dof": [],
+   "note": "'They still do': a present-day engineer with a stamped plan"
+  },
+  {
+   "id": 15,
+   "a": 1379,
+   "b": 1449,
+   "light": "golden",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1379,
+     "fn": "S15a"
+    }
+   ],
+   "dof": [],
+   "xfade": 8,
+   "note": "'Would you have lived next to that tank?': resident's doorstep, the tank looms"
+  },
+  {
+   "id": 16,
+   "a": 1449,
+   "b": 1575,
+   "light": "day",
+   "scene": "street",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1449,
+     "fn": "S16a"
+    }
+   ],
+   "dof": [],
+   "note": "LOOP: the hook framing again, ending exactly on frame 0"
+  }
+ ]
+}

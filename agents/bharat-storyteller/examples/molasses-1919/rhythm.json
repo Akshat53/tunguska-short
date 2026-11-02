@@ -1,0 +1,316 @@
+{
+  "verdict": "PASS",
+  "hardFailures": [],
+  "timingSource": "estimate",
+  "durationSec": 52.07,
+  "words": 129,
+  "wps": 2.6,
+  "measuredWps": 2.6,
+  "requiredWpsForTarget": 2.9,
+  "sentences": 18,
+  "lengths": {
+    "values": [
+      11,
+      2,
+      6,
+      15,
+      11,
+      7,
+      7,
+      4,
+      6,
+      3,
+      8,
+      5,
+      5,
+      17,
+      3,
+      8,
+      5,
+      6
+    ],
+    "mean": 7.17,
+    "std": 3.93,
+    "cv": 0.55,
+    "min": 2,
+    "max": 17,
+    "histogram": {
+      "1-3": 3,
+      "4-6": 7,
+      "7-10": 4,
+      "11-15": 3,
+      "16-20": 1,
+      "21+": 0
+    }
+  },
+  "pauses": {
+    "count": 9,
+    "totalSec": 2.45,
+    "meanSec": 0.27,
+    "longestRunWithoutPauseSec": 10.0,
+    "at": [
+      4.23,
+      7.51,
+      17.81,
+      23.49,
+      28.79,
+      32.17,
+      36.32,
+      44.26,
+      47.63
+    ]
+  },
+  "ellipses": 0,
+  "questions": {
+    "count": 4,
+    "unanswered": []
+  },
+  "density": {
+    "perSentence": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0.11,
+    "max": 1
+  },
+  "hook": {
+    "text": "A wave of molasses, taller than a bus,",
+    "firstSentenceWords": 11,
+    "score": 7,
+    "notes": [
+      "first sentence 11 words (good)",
+      "concrete name/number"
+    ],
+    "banned": []
+  },
+  "intensity": {
+    "perSentence": [
+      3.5,
+      5.5,
+      5.5,
+      3.5,
+      3.0,
+      4.0,
+      3.0,
+      4.5,
+      4.5,
+      6.5,
+      3.0,
+      5.5,
+      4.5,
+      3.0,
+      5.5,
+      4.0,
+      4.5,
+      4.5
+    ],
+    "per5s": [
+      4.5,
+      5.5,
+      3.5,
+      3.5,
+      3.8,
+      5.5,
+      4.2,
+      3.8,
+      5.5,
+      4.2,
+      4.5
+    ],
+    "curve": "▄▄▃▃▃▄▃▃▄▃▄",
+    "peakSentence": 10,
+    "peakSec": 28.2
+  },
+  "hinglish": {
+    "devanagari": 0,
+    "roman": 129,
+    "numeric": 0,
+    "romanShare": 1.0
+  },
+  "findings": [
+    {
+      "type": "REPEATED_PHRASE",
+      "severity": "low",
+      "sentences": [],
+      "problem": "phrase \"does syrup kill\" occurs 2 times",
+      "suggestion": "keep one; the second time use a fresher image (or make it an intentional callback at the end)."
+    },
+    {
+      "type": "REPEATED_STRUCTURE",
+      "severity": "low",
+      "sentences": [
+        6,
+        7,
+        8
+      ],
+      "problem": "S6-S8 have the same length band and ending",
+      "suggestion": "change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line."
+    }
+  ],
+  "sentenceTable": [
+    {
+      "i": 1,
+      "start": 0.0,
+      "words": 11,
+      "intensity": 3.5,
+      "entities": [
+        "Boston"
+      ],
+      "text": "A wave of molasses, taller than a bus, just hit Boston."
+    },
+    {
+      "i": 2,
+      "start": 4.43,
+      "words": 2,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "January, nineteen-nineteen."
+    },
+    {
+      "i": 3,
+      "start": 5.2,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "How does syrup kill twenty-one people?"
+    },
+    {
+      "i": 4,
+      "start": 7.81,
+      "words": 15,
+      "intensity": 3.5,
+      "entities": [
+        "million"
+      ],
+      "text": "Two million gallons burst from one tank and ran at around thirty-five miles an hour."
+    },
+    {
+      "i": 5,
+      "start": 13.58,
+      "words": 11,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "Molasses is about one and a half times heavier than water."
+    },
+    {
+      "i": 6,
+      "start": 18.11,
+      "words": 7,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "Then the cold thickened it, like glue."
+    },
+    {
+      "i": 7,
+      "start": 20.8,
+      "words": 7,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "Many victims died because they were stuck."
+    },
+    {
+      "i": 8,
+      "start": 23.79,
+      "words": 4,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "This wasn't bad luck."
+    },
+    {
+      "i": 9,
+      "start": 25.33,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "That tank leaked from day one."
+    },
+    {
+      "i": 10,
+      "start": 27.64,
+      "words": 3,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "The company's fix?"
+    },
+    {
+      "i": 11,
+      "start": 29.09,
+      "words": 8,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "Paint it brown, so the leaks wouldn't show."
+    },
+    {
+      "i": 12,
+      "start": 32.47,
+      "words": 5,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "So how does syrup kill?"
+    },
+    {
+      "i": 13,
+      "start": 34.39,
+      "words": 5,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Weight, cold, and warnings ignored."
+    },
+    {
+      "i": 14,
+      "start": 36.57,
+      "words": 17,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "The owners were found liable, and Boston began making engineers file their math and sign their plans."
+    },
+    {
+      "i": 15,
+      "start": 43.1,
+      "words": 3,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "They still do."
+    },
+    {
+      "i": 16,
+      "start": 44.56,
+      "words": 8,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "Would you have lived next to that tank?"
+    },
+    {
+      "i": 17,
+      "start": 47.83,
+      "words": 5,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Slow as molasses, they say."
+    },
+    {
+      "i": 18,
+      "start": 49.76,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Not the day it hit Boston."
+    }
+  ]
+}

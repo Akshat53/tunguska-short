@@ -1,0 +1,771 @@
+[
+ {
+  "id": "C01",
+  "claim": "On 15 January 1919 a large molasses storage tank on Commercial Street in Boston's North End burst, sending a wave of molasses through the neighbourhood.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "people in Boston's North End were startled by a loud rumbling noise"
+   },
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "sending a 2.3 million gallon wave of molasses rushing through the crowded North End"
+   },
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "Encyclopaedia Britannica: Great Molasses Flood",
+    "url": "https://www.britannica.com/print/article/1293502",
+    "type": "encyclopedia",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C02",
+  "claim": "21 people were killed and about 150 injured.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the molasses killed 21 people and injured 150"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Twenty-one people died, more than 150 others were injured"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "ultimately killed 21 people and injured 150 more"
+   },
+   {
+    "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+    "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Twenty-one people died, 150 were injured"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Early 1919 newspapers reported 11 dead (Mass Moments); 21 is the settled figure."
+ },
+ {
+  "id": "C03",
+  "claim": "The tank was about 50 ft (15 m) tall and 90 ft (27 m) across and held up to about 2.3 million US gallons (~8.7 million litres) of molasses.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "50 feet (15 meters) tall and 90 ft (27 m) in diameter ... as much as 2.3 million US gal"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "2,300,000 gallons of molasses"
+   },
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Designed to hold 2.5 million gallons of liquid"
+   },
+   {
+    "title": "Encyclopaedia Britannica: Great Molasses Flood",
+    "url": "https://www.britannica.com/print/article/1293502",
+    "type": "encyclopedia",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "spoken as 'two million gallons' (rounded down)",
+  "usableInScript": true,
+  "notes": "History.com: design capacity 2.5 million gal; a ship had just delivered 2.3 million gal. Britannica snippet: 'more than two million gallons'."
+ },
+ {
+  "id": "C04",
+  "claim": "The wave moved at an estimated ~35 mph (~56 km/h).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "rushed through the North End at about 35 miles per hour"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Moving at 35 miles per hour"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "reached speeds of up to 35 miles per hour"
+   },
+   {
+    "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+    "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Experts and eyewitnesses agreed on 35 mph"
+   },
+   {
+    "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+    "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "raced through the cobblestone streets at 35 miles per hour"
+   }
+  ],
+  "qualification": "'around thirty-five miles an hour' (an estimate, nobody clocked it)",
+  "usableInScript": true,
+  "notes": "Straight Dope notes an MIT professor's theoretical maximum of 38 mph; one 2016 report gives a lower 16 km/h figure (snippet only). Speed is an estimate."
+ },
+ {
+  "id": "C05",
+  "claim": "Wave height estimates vary widely: 8-15 ft (Straight Dope), 15 ft (Mass Moments, History.com, Park), 25 ft (Scientific American via Wikipedia; NBC/Puleo), 30 ft (Boston Post 1919), 40 ft (plaque).",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "15 feet high and 160 feet wide"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "reached a depth of 15 feet"
+   },
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "25 ft (8 m) high at its peak"
+   },
+   {
+    "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+    "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "25 feet high"
+   },
+   {
+    "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+    "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "variously estimated at 8 to 15 feet high"
+   }
+  ],
+  "qualification": "spoken only as a comparison 'taller than a bus' (a bus is ~3-4.4 m; the common 15 ft = 4.6 m figure clears it)",
+  "usableInScript": true,
+  "notes": "No exact height in narration; description gives the range."
+ },
+ {
+  "id": "C06",
+  "claim": "Molasses is about 1.5 times denser than water.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Molasses, which is 1.5 times denser than water"
+   }
+  ],
+  "qualification": "'about one and a half times heavier'",
+  "usableInScript": true,
+  "notes": "Only one source read states the ratio; typical cane molasses density ~1.4 g/ml is consistent. Kept with 'about'."
+ },
+ {
+  "id": "C07",
+  "claim": "Molasses thickens dramatically as it cools; the spilled molasses cooled rapidly in the January air (Harvard team: Nicole Sharp, Jordan Kennedy, Shmuel Rubinstein, APS fluid-dynamics meeting, Nov 2016), with viscosity up by a factor of four or more by Sharp's estimate.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+    "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "molasses thickens dramatically when exposed to cold"
+   },
+   {
+    "title": "Christian Science Monitor (2016): Scientists finally decode the Great Molasses Flood of 1919",
+    "url": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the viscosity of the molasses increased by a factor of four or more"
+   },
+   {
+    "title": "Insurance Journal (AP, 2016): Study explains how winter chill contributed to deadly 1919 molasses disaster",
+    "url": "https://amp.insurancejournal.com/news/east/2016/11/29/433372.htm",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "presented last week at a conference of the American Physical Society"
+   },
+   {
+    "title": "APS News (Jan 2017): January 15, 1919: Physics and the Boston Molasses Flood (Sharp, Kennedy, Rubinstein; APS DFD 2016 abstract L27.00008)",
+    "url": "https://aps.org/publications/apsnews/201701/physicshistory.cfm",
+    "type": "institutional",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "spoken as 'the cold thickened it, like glue' (no factor)",
+  "usableInScript": true
+ },
+ {
+  "id": "C08",
+  "claim": "The thickening hampered rescue; Harvard's Shmuel Rubinstein said about half of the victims 'died basically because they were stuck'.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Christian Science Monitor (2016): Scientists finally decode the Great Molasses Flood of 1919",
+    "url": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "died basically because they were stuck"
+   },
+   {
+    "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+    "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "complicating rescuers' frantic efforts to free victims"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "some victims then became stuck in molasses"
+   }
+  ],
+  "qualification": "softened to 'many victims died because they were stuck' (single expert estimate for 'half')",
+  "usableInScript": true
+ },
+ {
+  "id": "C09",
+  "claim": "The day was unusually mild (~40 F / 4 C) after a cold spell; temperatures dropped to around freezing that night.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The air temperature on the day of the disaster was about 40°F"
+   },
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "risen above 40 degrees Fahrenheit"
+   },
+   {
+    "title": "Christian Science Monitor (2016): Scientists finally decode the Great Molasses Flood of 1919",
+    "url": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Temperatures dipped just below freezing the night following the accident"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Narration says only 'the cold'; the street was cold January air even on a mild day."
+ },
+ {
+  "id": "C10",
+  "claim": "The tank leaked from the start (filled 1915); residents complained, and children collected the drips.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "had leaked or 'wept' molasses consistently since its construction in 1915"
+   },
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "they could see the molasses seeping out at the tank's seams"
+   },
+   {
+    "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+    "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The tank starts leaking on Day 1"
+   },
+   {
+    "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+    "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "neighborhood kids collected the drippings in cans"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "would bring cups to fill with sweet molasses that dripped out of it"
+   }
+  ],
+  "qualification": "'leaked from day one'",
+  "usableInScript": true
+ },
+ {
+  "id": "C11",
+  "claim": "Instead of repairing the leaks, the company had the tank painted brown to disguise them.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Purity Distilling painted the tank brown, to disguise the oozing molasses"
+   },
+   {
+    "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+    "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "had the steel-colored tank painted brown, to camouflage the oozing molasses"
+   },
+   {
+    "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+    "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "to have the tank painted brown so the leaks wouldn't be so noticeable"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "painting the tank brown in an effort to conceal them"
+   },
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": "Mass Moments frames it as what the company was accused of; Boston.gov, Puleo (court records) and Straight Dope state it as fact. Original colour: 'steel-colored' (NBC/Puleo) / 'steel blue' (Puleo snippet)."
+ },
+ {
+  "id": "C12",
+  "claim": "The tank's owner, United States Industrial Alcohol (which had bought Purity Distilling in 1917), was found liable after years of hearings before court-appointed auditor Hugh W. Ogden; it paid about $628,000 in settlements.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "a court-appointed auditor ruled that the negligence by the tank's owners was to blame"
+   },
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "U.S. Industrial Alcohol, the company that owned the tank, was found liable"
+   },
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "$628,000"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "to pay $1,000,000 in compensation"
+   }
+  ],
+  "qualification": "'the owners were found liable' (no dollar figure)",
+  "usableInScript": true,
+  "notes": "Amount conflicts: Mass Moments $1,000,000 vs Wikipedia $628,000 / Straight Dope 'more than $600,000'. Not spoken."
+ },
+ {
+  "id": "C13",
+  "claim": "After the flood, Boston's Building Department required engineers' and architects' calculations to be filed with their plans and stamped drawings to be signed; Massachusetts and most other states passed laws certifying engineers.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+    "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "all calculations of engineers and architects be filed with their plans"
+   },
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "regulations stipulating that engineers needed to sign and seal plans"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "passing laws to certify engineers and regulate construction"
+   },
+   {
+    "title": "NPR (2019) transcript: A deadly tsunami of molasses (Stephen Puleo interview)",
+    "url": "https://www.npr.org/transcripts/684894921",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "'Boston began making engineers file their math and sign their plans'",
+  "usableInScript": true
+ },
+ {
+  "id": "C14",
+  "claim": "Licensed engineers today still sign and seal (stamp) their plans, a practice Puleo traces partly to this case.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "regulations stipulating that engineers needed to sign and seal plans"
+   },
+   {
+    "title": "NPR (2019) transcript: A deadly tsunami of molasses (Stephen Puleo interview)",
+    "url": "https://www.npr.org/transcripts/684894921",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "'They still do.'",
+  "usableInScript": true,
+  "notes": "NPR transcript (Puleo: engineers 'need to sign and seal their plans') seen only as a search snippet (page timed out). General professional practice."
+ },
+ {
+  "id": "C15",
+  "claim": "The tank needed no building permit (classed as a 'receptacle'); the manager in charge (USIA treasurer Arthur Jell) had no engineering background and tested the 50-ft tank with only ~6 inches of water.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+    "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "the tank didn't even require a permit because it was considered a receptacle, not a building"
+   },
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "water insufficient to check for leaks"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "Strong detail cut for length; kept for pinned comment / future longer cut. Jell not named in narration (no individual blamed by name in a 47 s cut)."
+ },
+ {
+  "id": "C16",
+  "claim": "USIA claimed anarchists had blown up the tank; the auditor rejected this.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "Cut for length."
+ },
+ {
+  "id": "C17",
+  "claim": "Several horses were also killed.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "several horses were killed"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "Not shown or spoken (no animal deaths on screen)."
+ },
+ {
+  "id": "C18",
+  "claim": "Time of the collapse: about 12:30-1 p.m. (Wikipedia 12:30; Boston.gov 'about 1 p.m.'); Mass Moments says mid-afternoon.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "12:30 p.m."
+   },
+   {
+    "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+    "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+    "type": "government",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "At about 1 p.m., they heard a low rumble"
+   },
+   {
+    "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+    "url": "https://www.massmoments.org/moment-details.html?mid=19",
+    "type": "institutional",
+    "read": "page",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "not spoken",
+  "usableInScript": false
+ },
+ {
+  "id": "C19",
+  "claim": "Engineering factors found later: walls too thin, brittle low-manganese steel, warm molasses added to cold days earlier.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+    "url": "https://www.history.com/articles/great-molasses-flood-science",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "Both the inadequate thickness and rivet issues were signs of negligence"
+   },
+   {
+    "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+    "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+    "type": "news",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "hadn't yet cooled to Boston winter temperatures"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "notes": "Cut for length; the narration keeps negligence at the level the court found."
+ },
+ {
+  "id": "C20",
+  "claim": "Folklore: residents long said the North End smelled of molasses on hot days (Edwards Park, Smithsonian 1983: 'remained for decades a distinctive, unmistakable atmosphere of Boston').",
+  "category": "legend",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "The smell of molasses remained for decades a distinctive, unmistakable atmosphere of Boston"
+   },
+   {
+    "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+    "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+    "type": "other",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "For decades afterward it was claimed that central Boston smelled like molasses"
+   },
+   {
+    "title": "Smithsonian (Edwards Park, 1983, republished 2019): Without Warning, Molasses in January Surged Over Boston",
+    "url": "https://www.smithsonianmag.com/history/without-warning-molasses-january-surged-over-boston-180971251/",
+    "type": "news",
+    "read": "snippet",
+    "accessed": "2026-11-02"
+   }
+  ],
+  "qualification": "'locals say' / folklore only",
+  "usableInScript": true,
+  "notes": "Used only in the pinned comment, framed as folklore; not in narration (cut for length)."
+ },
+ {
+  "id": "C21",
+  "claim": "'The North End still smells of molasses today' stated as fact.",
+  "category": "legend",
+  "confidence": "unverified",
+  "sources": [],
+  "qualification": "NOT USED as fact",
+  "usableInScript": false,
+  "notes": "No source supports a present-day smell; treated as folklore (C20).",
+  "debunked": true
+ },
+ {
+  "id": "C22",
+  "claim": "'A 40-foot wave' (plaque) or any single exact wave height stated as fact.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+    "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+    "type": "encyclopedia",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "quote": "A 40-foot wave"
+   }
+  ],
+  "qualification": "NOT USED",
+  "usableInScript": false,
+  "notes": "Estimates range 8-40 ft (C05).",
+  "debunked": true
+ }
+]

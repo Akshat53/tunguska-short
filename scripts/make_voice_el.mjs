@@ -1,6 +1,7 @@
 // usage: node --env-file=.env.local scripts/make_voice_el.mjs <dir> <voiceId> [model=eleven_v4] [stability=0.6] [similarity=0.75]
 // ElevenLabs counterpart of make_voice.py: reads <dir>/narration.txt -> <dir>/voice.mp3, voice.wav (44.1 kHz mono) and
 // words.json ([{word,start,end}] in seconds, same format the warp/beat tools read), built from the character alignment.
+// Language: EL_LANG=en for English (default hi).
 // The key comes from ELEVENLABS_API_KEY (.env.local, loaded by --env-file); never put it in code.
 // Then smooth it: .venv/bin/python scripts/tighten_pauses.py <dir>
 import fs from "node:fs";
@@ -19,7 +20,7 @@ const client = new ElevenLabsClient();
 let res;
 try {
   res = await client.textToSpeech.convertWithTimestamps(voiceId, {
-    text, modelId, languageCode: "hi", outputFormat: "mp3_44100_128",
+    text, modelId, languageCode: process.env.EL_LANG ?? "hi", outputFormat: "mp3_44100_128",
     voiceSettings: { stability: Number(stab), similarityBoost: Number(sim) },
   });
 } catch (e) {

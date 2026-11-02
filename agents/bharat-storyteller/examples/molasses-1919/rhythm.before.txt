@@ -1,0 +1,49 @@
+RHYTHM REPORT — verdict FAIL
+duration 89.2 s (estimate) | 232 words | 2.6 words/s (speech-only 2.6) | 24 sentences
+to hit the target duration the voice needs 4.94 words/s
+sentence length: mean 9.67 std 3.9 CV 0.4 (healthy 0.35-0.9) min 3 max 18
+histogram: 1-3:#1  4-6:#####5  7-10:########8  11-15:#########9  16-20:#1  21+:0
+pauses: 0 totalling 0.0 s, mean 0 s; longest run without a pause 89.2 s
+ellipses 0 | questions 4 (unanswered: none) | density mean 0.29 max 4
+hook (first 3 s): "A wave of molasses, as tall as a" -> 5/10 (first sentence 15 words: the hook should land within ~3 s; concrete name/number)
+intensity per 5 s: ▃▃▃▂▃▂▂▂▃▂▂▄▄▃▂▂▃▂  [3.5, 3.5, 4.0, 3.0, 3.8, 3.0, 3.0, 3.0, 3.5, 3.0, 3.0, 4.7, 5.0, 3.8, 3.0, 3.0, 4.0, 3.0]  peak S15 at 57.5 s
+script mix: Devanagari 0 | Roman 232 | numeric 0 | Roman share 100%
+
+sentences:
+  S1     0.0s  15w  int  3.5  A wave of molasses, as tall as a house, is rolling down a Boston street.
+  S2     5.8s  10w  int  3.5  It is January, nineteen-nineteen, and this is not a joke.
+  S3     9.6s  10w  int  4.0  So how does a tank of syrup kill twenty-one people?
+  S4    13.5s  18w  int  3.0  In the North End stood a steel tank, fifty feet tall, holding over two million …
+  S5    20.4s   4w  int  4.5  Around lunchtime, it burst.
+  S6    21.9s  14w  int  3.0  The wave ran at around thirty-five miles an hour, crushing buildings, wagons an…
+  S7    27.3s  11w  int  3.0  Molasses is about one and a half times heavier than water.
+  S8    31.5s  10w  int  3.0  You cannot swim in it, and you cannot outrun it.
+  S9    35.4s   7w  int  3.0  And the worst part came after dark.
+  S10   38.1s  15w  int  3.5  As the air froze, the molasses thickened, four times or more, by one Harvard es…
+  S11   43.9s  12w  int  3.0  Researchers say about half the victims died simply because they were stuck.
+  S12   48.5s   7w  int  3.0  And it was not just bad luck.
+  S13   51.1s   9w  int  3.0  Neighbours said that tank had leaked from day one.
+  S14   54.6s   6w  int  4.5  Kids collected the drips in cans.
+  S15   56.9s   3w  int  6.5  The company's fix?
+  S16   58.1s   9w  int  3.0  Paint it brown, so the leaks would not show.
+  S17   61.5s   5w  int  5.5  So how does syrup kill?
+  S18   63.5s   4w  int  4.5  Heavy, freezing, and ignored.
+  S19   65.0s   6w  int  4.5  A court-appointed auditor blamed the owners.
+  S20   67.3s  11w  int  3.0  Soon Boston made engineers file their calculations and sign their plans.
+  S21   71.5s  11w  int  3.0  That is part of why engineers today must prove their math.
+  S22   75.8s  12w  int  3.0  Some say the North End still smells of molasses on hot days.
+  S23   80.4s   8w  int  4.0  Would you have lived next to that tank?
+  S24   83.5s  15w  int  3.0  Next time someone says slow as molasses, tell them about the day it hit Boston.
+
+HARD FAILURES:
+  ✗ duration 89.2 s outside 30-75 s (use --allow-length to override)
+  ✗ to fit 47 s the voice would need 4.94 words/s (> 3.4): cut words
+FINDINGS + REWRITE SUGGESTIONS:
+  [HIGH  ] DENSE                S4: S4 packs 4 new names/numbers (North End, North, End, million)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [MEDIUM] NO_BEAT              S1,S2,S3,S4,S5,S6,S7,S8…: 89 s of continuous speech without a pause (0.0-89.2 s)
+           -> add [pause 0.3] after S15 (the strongest line in the stretch) or a blank-line beat break.
+  [MEDIUM] HOOK                 S1: hook sentence is 15 words
+           -> cut it to the first striking clause: "A wave of molasses, as tall as a house, is…"
+  [LOW   ] REPEATED_PHRASE      -: phrase "the north end" occurs 2 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).

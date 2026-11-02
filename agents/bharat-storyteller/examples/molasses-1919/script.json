@@ -1,0 +1,3209 @@
+{
+ "$schema": "../../schemas/script-package.schema.json",
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "molasses-1919",
+  "title": "A Wave of Molasses Killed 21 People in Boston",
+  "topic": "The Great Molasses Flood, Boston North End, 15 January 1919: a leaking, brown-painted molasses tank burst; 21 dead; owners found liable; engineering sign-off rules followed",
+  "category": "unusual-real-life",
+  "structure": "unexpected-science",
+  "angle": "It sounds like a joke, but syrup killed 21 people: physics (dense, thickening in the cold) plus a leak the company painted over",
+  "centralQuestion": "How does a tank of syrup kill twenty-one people?",
+  "audience": "Global English Shorts viewers 18-35 (Inkfall, @inkfallshorts)",
+  "language": "english",
+  "durationSec": 52.02,
+  "totalFrames": 1561,
+  "coreEmotion": "disbelief turning to grim respect, ending wry",
+  "takeaway": "Weight, cold, and ignored warnings killed 21 people; that is partly why engineers must still sign for their math",
+  "tone": "wry hook, grave middle, dry ending",
+  "sensitivity": "Real tragedy: no bodies, no struggling victims, no jokes about the dead; humour only in the premise and the idiom; company figures are generic, no named individual blamed on screen",
+  "researchMode": "web-verified",
+  "created": "2026-11-02"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "On 15 January 1919 a large molasses storage tank on Commercial Street in Boston's North End burst, sending a wave of molasses through the neighbourhood.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "people in Boston's North End were startled by a loud rumbling noise"
+    },
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "sending a 2.3 million gallon wave of molasses rushing through the crowded North End"
+    },
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02"
+    },
+    {
+     "title": "Encyclopaedia Britannica: Great Molasses Flood",
+     "url": "https://www.britannica.com/print/article/1293502",
+     "type": "encyclopedia",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C02",
+   "claim": "21 people were killed and about 150 injured.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "the molasses killed 21 people and injured 150"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Twenty-one people died, more than 150 others were injured"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "ultimately killed 21 people and injured 150 more"
+    },
+    {
+     "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+     "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Twenty-one people died, 150 were injured"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Early 1919 newspapers reported 11 dead (Mass Moments); 21 is the settled figure."
+  },
+  {
+   "id": "C03",
+   "claim": "The tank was about 50 ft (15 m) tall and 90 ft (27 m) across and held up to about 2.3 million US gallons (~8.7 million litres) of molasses.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "50 feet (15 meters) tall and 90 ft (27 m) in diameter ... as much as 2.3 million US gal"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "2,300,000 gallons of molasses"
+    },
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Designed to hold 2.5 million gallons of liquid"
+    },
+    {
+     "title": "Encyclopaedia Britannica: Great Molasses Flood",
+     "url": "https://www.britannica.com/print/article/1293502",
+     "type": "encyclopedia",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "spoken as 'two million gallons' (rounded down)",
+   "usableInScript": true,
+   "notes": "History.com: design capacity 2.5 million gal; a ship had just delivered 2.3 million gal. Britannica snippet: 'more than two million gallons'."
+  },
+  {
+   "id": "C04",
+   "claim": "The wave moved at an estimated ~35 mph (~56 km/h).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "rushed through the North End at about 35 miles per hour"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Moving at 35 miles per hour"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "reached speeds of up to 35 miles per hour"
+    },
+    {
+     "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+     "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Experts and eyewitnesses agreed on 35 mph"
+    },
+    {
+     "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+     "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "raced through the cobblestone streets at 35 miles per hour"
+    }
+   ],
+   "qualification": "'around thirty-five miles an hour' (an estimate, nobody clocked it)",
+   "usableInScript": true,
+   "notes": "Straight Dope notes an MIT professor's theoretical maximum of 38 mph; one 2016 report gives a lower 16 km/h figure (snippet only). Speed is an estimate."
+  },
+  {
+   "id": "C05",
+   "claim": "Wave height estimates vary widely: 8-15 ft (Straight Dope), 15 ft (Mass Moments, History.com, Park), 25 ft (Scientific American via Wikipedia; NBC/Puleo), 30 ft (Boston Post 1919), 40 ft (plaque).",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "15 feet high and 160 feet wide"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "reached a depth of 15 feet"
+    },
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "25 ft (8 m) high at its peak"
+    },
+    {
+     "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+     "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "25 feet high"
+    },
+    {
+     "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+     "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "variously estimated at 8 to 15 feet high"
+    }
+   ],
+   "qualification": "spoken only as a comparison 'taller than a bus' (a bus is ~3-4.4 m; the common 15 ft = 4.6 m figure clears it)",
+   "usableInScript": true,
+   "notes": "No exact height in narration; description gives the range."
+  },
+  {
+   "id": "C06",
+   "claim": "Molasses is about 1.5 times denser than water.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Molasses, which is 1.5 times denser than water"
+    }
+   ],
+   "qualification": "'about one and a half times heavier'",
+   "usableInScript": true,
+   "notes": "Only one source read states the ratio; typical cane molasses density ~1.4 g/ml is consistent. Kept with 'about'."
+  },
+  {
+   "id": "C07",
+   "claim": "Molasses thickens dramatically as it cools; the spilled molasses cooled rapidly in the January air (Harvard team: Nicole Sharp, Jordan Kennedy, Shmuel Rubinstein, APS fluid-dynamics meeting, Nov 2016), with viscosity up by a factor of four or more by Sharp's estimate.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+     "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "molasses thickens dramatically when exposed to cold"
+    },
+    {
+     "title": "Christian Science Monitor (2016): Scientists finally decode the Great Molasses Flood of 1919",
+     "url": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "the viscosity of the molasses increased by a factor of four or more"
+    },
+    {
+     "title": "Insurance Journal (AP, 2016): Study explains how winter chill contributed to deadly 1919 molasses disaster",
+     "url": "https://amp.insurancejournal.com/news/east/2016/11/29/433372.htm",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "presented last week at a conference of the American Physical Society"
+    },
+    {
+     "title": "APS News (Jan 2017): January 15, 1919: Physics and the Boston Molasses Flood (Sharp, Kennedy, Rubinstein; APS DFD 2016 abstract L27.00008)",
+     "url": "https://aps.org/publications/apsnews/201701/physicshistory.cfm",
+     "type": "institutional",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "spoken as 'the cold thickened it, like glue' (no factor)",
+   "usableInScript": true
+  },
+  {
+   "id": "C08",
+   "claim": "The thickening hampered rescue; Harvard's Shmuel Rubinstein said about half of the victims 'died basically because they were stuck'.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Christian Science Monitor (2016): Scientists finally decode the Great Molasses Flood of 1919",
+     "url": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "died basically because they were stuck"
+    },
+    {
+     "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+     "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "complicating rescuers' frantic efforts to free victims"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "some victims then became stuck in molasses"
+    }
+   ],
+   "qualification": "softened to 'many victims died because they were stuck' (single expert estimate for 'half')",
+   "usableInScript": true
+  },
+  {
+   "id": "C09",
+   "claim": "The day was unusually mild (~40 F / 4 C) after a cold spell; temperatures dropped to around freezing that night.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "The air temperature on the day of the disaster was about 40°F"
+    },
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "risen above 40 degrees Fahrenheit"
+    },
+    {
+     "title": "Christian Science Monitor (2016): Scientists finally decode the Great Molasses Flood of 1919",
+     "url": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Temperatures dipped just below freezing the night following the accident"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Narration says only 'the cold'; the street was cold January air even on a mild day."
+  },
+  {
+   "id": "C10",
+   "claim": "The tank leaked from the start (filled 1915); residents complained, and children collected the drips.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "had leaked or 'wept' molasses consistently since its construction in 1915"
+    },
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "they could see the molasses seeping out at the tank's seams"
+    },
+    {
+     "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+     "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "The tank starts leaking on Day 1"
+    },
+    {
+     "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+     "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "neighborhood kids collected the drippings in cans"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "would bring cups to fill with sweet molasses that dripped out of it"
+    }
+   ],
+   "qualification": "'leaked from day one'",
+   "usableInScript": true
+  },
+  {
+   "id": "C11",
+   "claim": "Instead of repairing the leaks, the company had the tank painted brown to disguise them.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Purity Distilling painted the tank brown, to disguise the oozing molasses"
+    },
+    {
+     "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+     "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "had the steel-colored tank painted brown, to camouflage the oozing molasses"
+    },
+    {
+     "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+     "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "to have the tank painted brown so the leaks wouldn't be so noticeable"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "painting the tank brown in an effort to conceal them"
+    },
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": "Mass Moments frames it as what the company was accused of; Boston.gov, Puleo (court records) and Straight Dope state it as fact. Original colour: 'steel-colored' (NBC/Puleo) / 'steel blue' (Puleo snippet)."
+  },
+  {
+   "id": "C12",
+   "claim": "The tank's owner, United States Industrial Alcohol (which had bought Purity Distilling in 1917), was found liable after years of hearings before court-appointed auditor Hugh W. Ogden; it paid about $628,000 in settlements.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "a court-appointed auditor ruled that the negligence by the tank's owners was to blame"
+    },
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "U.S. Industrial Alcohol, the company that owned the tank, was found liable"
+    },
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "$628,000"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "to pay $1,000,000 in compensation"
+    }
+   ],
+   "qualification": "'the owners were found liable' (no dollar figure)",
+   "usableInScript": true,
+   "notes": "Amount conflicts: Mass Moments $1,000,000 vs Wikipedia $628,000 / Straight Dope 'more than $600,000'. Not spoken."
+  },
+  {
+   "id": "C13",
+   "claim": "After the flood, Boston's Building Department required engineers' and architects' calculations to be filed with their plans and stamped drawings to be signed; Massachusetts and most other states passed laws certifying engineers.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+     "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "all calculations of engineers and architects be filed with their plans"
+    },
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "regulations stipulating that engineers needed to sign and seal plans"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "passing laws to certify engineers and regulate construction"
+    },
+    {
+     "title": "NPR (2019) transcript: A deadly tsunami of molasses (Stephen Puleo interview)",
+     "url": "https://www.npr.org/transcripts/684894921",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "'Boston began making engineers file their math and sign their plans'",
+   "usableInScript": true
+  },
+  {
+   "id": "C14",
+   "claim": "Licensed engineers today still sign and seal (stamp) their plans, a practice Puleo traces partly to this case.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "regulations stipulating that engineers needed to sign and seal plans"
+    },
+    {
+     "title": "NPR (2019) transcript: A deadly tsunami of molasses (Stephen Puleo interview)",
+     "url": "https://www.npr.org/transcripts/684894921",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "'They still do.'",
+   "usableInScript": true,
+   "notes": "NPR transcript (Puleo: engineers 'need to sign and seal their plans') seen only as a search snippet (page timed out). General professional practice."
+  },
+  {
+   "id": "C15",
+   "claim": "The tank needed no building permit (classed as a 'receptacle'); the manager in charge (USIA treasurer Arthur Jell) had no engineering background and tested the 50-ft tank with only ~6 inches of water.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "NBC News (Ben Kesslen, 2019), syndicated on Euronews: Great Boston Molasses Flood of 1919 killed 21 (Stephen Puleo interview, Dark Tide)",
+     "url": "https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "the tank didn't even require a permit because it was considered a receptacle, not a building"
+    },
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "water insufficient to check for leaks"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "Strong detail cut for length; kept for pinned comment / future longer cut. Jell not named in narration (no individual blamed by name in a 47 s cut)."
+  },
+  {
+   "id": "C16",
+   "claim": "USIA claimed anarchists had blown up the tank; the auditor rejected this.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "Cut for length."
+  },
+  {
+   "id": "C17",
+   "claim": "Several horses were also killed.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "several horses were killed"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "Not shown or spoken (no animal deaths on screen)."
+  },
+  {
+   "id": "C18",
+   "claim": "Time of the collapse: about 12:30-1 p.m. (Wikipedia 12:30; Boston.gov 'about 1 p.m.'); Mass Moments says mid-afternoon.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "12:30 p.m."
+    },
+    {
+     "title": "City of Boston: 100 years ago today, molasses crashes through Boston's North End (2019)",
+     "url": "https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+     "type": "government",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "At about 1 p.m., they heard a low rumble"
+    },
+    {
+     "title": "Mass Moments (Mass Humanities): January 15, 1919 — Molasses Flood",
+     "url": "https://www.massmoments.org/moment-details.html?mid=19",
+     "type": "institutional",
+     "read": "page",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "not spoken",
+   "usableInScript": false
+  },
+  {
+   "id": "C19",
+   "claim": "Engineering factors found later: walls too thin, brittle low-manganese steel, warm molasses added to cold days earlier.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "HISTORY.com (Emily Sohn): Why the Great Molasses Flood was so deadly (science)",
+     "url": "https://www.history.com/articles/great-molasses-flood-science",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "Both the inadequate thickness and rivet issues were signs of negligence"
+    },
+    {
+     "title": "AP via Boston.com (2016): Slow as molasses? Sweet but deadly 1919 disaster explained",
+     "url": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained",
+     "type": "news",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "hadn't yet cooled to Boston winter temperatures"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "notes": "Cut for length; the narration keeps negligence at the level the court found."
+  },
+  {
+   "id": "C20",
+   "claim": "Folklore: residents long said the North End smelled of molasses on hot days (Edwards Park, Smithsonian 1983: 'remained for decades a distinctive, unmistakable atmosphere of Boston').",
+   "category": "legend",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "The smell of molasses remained for decades a distinctive, unmistakable atmosphere of Boston"
+    },
+    {
+     "title": "The Straight Dope (Cecil Adams, 2004): Was Boston once literally flooded with molasses?",
+     "url": "https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses",
+     "type": "other",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "For decades afterward it was claimed that central Boston smelled like molasses"
+    },
+    {
+     "title": "Smithsonian (Edwards Park, 1983, republished 2019): Without Warning, Molasses in January Surged Over Boston",
+     "url": "https://www.smithsonianmag.com/history/without-warning-molasses-january-surged-over-boston-180971251/",
+     "type": "news",
+     "read": "snippet",
+     "accessed": "2026-11-02"
+    }
+   ],
+   "qualification": "'locals say' / folklore only",
+   "usableInScript": true,
+   "notes": "Used only in the pinned comment, framed as folklore; not in narration (cut for length)."
+  },
+  {
+   "id": "C21",
+   "claim": "'The North End still smells of molasses today' stated as fact.",
+   "category": "legend",
+   "confidence": "unverified",
+   "sources": [],
+   "qualification": "NOT USED as fact",
+   "usableInScript": false,
+   "notes": "No source supports a present-day smell; treated as folklore (C20).",
+   "debunked": true
+  },
+  {
+   "id": "C22",
+   "claim": "'A 40-foot wave' (plaque) or any single exact wave height stated as fact.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia: Great Molasses Flood (map to sources: Scientific American 2013, Park/Smithsonian 1983, NBC News 2019, Straight Dope 2004)",
+     "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+     "type": "encyclopedia",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "quote": "A 40-foot wave"
+    }
+   ],
+   "qualification": "NOT USED",
+   "usableInScript": false,
+   "notes": "Estimates range 8-40 ft (C05).",
+   "debunked": true
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "visual-curiosity",
+    "text": "A wave of molasses, taller than a bus, just hit Boston.",
+    "score": 9,
+    "claimIds": [
+     "C01",
+     "C05"
+    ],
+    "critique": "strangest true image in 11 words, no background first; 'taller than a bus' is the lowest mainstream height (15 ft) stated as a comparison; loops with the last line"
+   },
+   {
+    "id": "H2",
+    "technique": "question",
+    "text": "How does a tank of syrup kill twenty-one people?",
+    "score": 8,
+    "claimIds": [
+     "C02"
+    ],
+    "critique": "great loop, but no image; used as line 3 instead"
+   },
+   {
+    "id": "H3",
+    "technique": "contradiction",
+    "text": "Slow as molasses? Not on the fifteenth of January, nineteen-nineteen.",
+    "score": 7,
+    "claimIds": [
+     "C01",
+     "C04"
+    ],
+    "critique": "clever, but the idiom needs a beat to land for non-native viewers; kept as the loop ending"
+   },
+   {
+    "id": "H4",
+    "technique": "surprising-fact",
+    "text": "In 1919, Boston was hit by a wave moving at thirty-five miles an hour. Of syrup.",
+    "score": 7,
+    "claimIds": [
+     "C01",
+     "C04"
+    ],
+    "critique": "date-first opener (coordinator banned) and the punchline lands at ~4 s"
+   },
+   {
+    "id": "H5",
+    "technique": "dramatic-situation",
+    "text": "The company knew the tank was leaking. So they painted it brown.",
+    "score": 6,
+    "claimIds": [
+     "C10",
+     "C11"
+    ],
+    "critique": "strong, but spends the twist in the first second"
+   }
+  ],
+  "recommended": "H1",
+  "reason": "best stop-power and first frame (a brown wave in a street), true with the height kept as a comparison, followed at once by H2 as the open question; the last line ('the day it hit Boston') loops back to it"
+ },
+ "narration": {
+  "language": "english",
+  "voice": {
+   "engine": "edge-tts",
+   "id": "en-US-BrianMultilingualNeural",
+   "rate": "+10%"
+  },
+  "wps": 2.75,
+  "totalWords": 129,
+  "estimatedSpeechSec": 46.9,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.3,
+    "endSec": 7.609,
+    "startFrame": 9,
+    "endFrame": 228,
+    "text": "A wave of molasses, taller than a bus, just hit Boston. January, nineteen-nineteen. How does syrup kill twenty-one people?",
+    "marked": "A wave of *molasses*, taller than a bus, just hit Boston. [pause 0.2] January, nineteen-nineteen. How does syrup kill *twenty-one* people?",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "molasses",
+     "twenty-one"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "low brass-like drone + one glock tick",
+    "ambient": "street air, gulls",
+    "sfx": [
+     "wave-roar",
+     "street-air",
+     "hook-hum"
+    ],
+    "claimIds": [
+     "C01",
+     "C02",
+     "C05"
+    ],
+    "deliveryNote": "deadpan on the absurd image, then the question turns it serious"
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 7.909,
+    "endSec": 17.113,
+    "startFrame": 237,
+    "endFrame": 513,
+    "text": "Two million gallons burst from one tank and ran at around thirty-five miles an hour. Molasses is about one and a half times heavier than water.",
+    "marked": "[pause 0.3] Two million gallons burst from one tank and ran at around *thirty-five* miles an hour. Molasses is about one and a half times *heavier* than water.",
+    "voiceEmotion": "tense",
+    "speed": 1.05,
+    "emphasis": [
+     "thirty-five",
+     "heavier"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "pulse enters",
+    "ambient": "rivets, rush",
+    "sfx": [
+     "tank-groan",
+     "rivet-cracks",
+     "burst-boom",
+     "wave-whoosh",
+     "wood-crush",
+     "scale-tick"
+    ],
+    "claimIds": [
+     "C03",
+     "C04",
+     "C06"
+    ],
+    "deliveryNote": "brisk; physics line clear and plain"
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 17.413,
+    "endSec": 22.972,
+    "startFrame": 522,
+    "endFrame": 689,
+    "text": "Then the cold thickened it, like glue. Many victims died because they were stuck.",
+    "marked": "[pause 0.3] Then the cold thickened it, like *glue*. Many victims died because they were *stuck*.",
+    "voiceEmotion": "grave",
+    "speed": 0.95,
+    "emphasis": [
+     "glue",
+     "stuck"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "pulse drops away, low pad",
+    "ambient": "cold wind, slow slosh",
+    "sfx": [
+     "cold-wind",
+     "slosh"
+    ],
+    "claimIds": [
+     "C07",
+     "C08",
+     "C09"
+    ],
+    "deliveryNote": "slower, no humour from here"
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 23.272,
+    "endSec": 31.509,
+    "startFrame": 698,
+    "endFrame": 945,
+    "text": "This wasn't bad luck. That tank leaked from day one. The company's fix? Paint it brown, so the leaks wouldn't show.",
+    "marked": "[pause 0.3] This wasn't bad luck. That tank leaked from *day one*. The company's fix? [pause 0.3] Paint it *brown*, so the leaks wouldn't show.",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "day one",
+     "brown"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "music returns, rising",
+    "ambient": "drip, brush strokes",
+    "sfx": [
+     "drip-glock",
+     "brush-strokes"
+    ],
+    "claimIds": [
+     "C10",
+     "C11"
+    ],
+    "deliveryNote": "'This wasn't bad luck' lands flat and hard; small beat before 'Paint it brown'"
+   },
+   {
+    "id": "N05",
+    "beat": "payoff",
+    "startSec": 31.809,
+    "endSec": 35.836,
+    "startFrame": 954,
+    "endFrame": 1075,
+    "text": "So how does syrup kill? Weight, cold, and warnings ignored.",
+    "marked": "[pause 0.3] So how does syrup kill? Weight, cold, and warnings *ignored*.",
+    "voiceEmotion": "grave",
+    "speed": 0.95,
+    "emphasis": [
+     "ignored"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 9,
+    "musicMood": "peak, then hold",
+    "ambient": "",
+    "sfx": [
+     "answer-hit"
+    ],
+    "claimIds": [
+     "C06",
+     "C07",
+     "C10",
+     "C11"
+    ],
+    "deliveryNote": "the answer: three words, evenly weighted"
+   },
+   {
+    "id": "N06",
+    "beat": "explanation",
+    "startSec": 36.086,
+    "endSec": 43.559,
+    "startFrame": 1083,
+    "endFrame": 1307,
+    "text": "The owners were found liable, and Boston began making engineers file their math and sign their plans. They still do.",
+    "marked": "The owners were found liable, and Boston began making engineers file their math and *sign* their plans. They still do.",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "sign"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "warm resolve",
+    "ambient": "room tone",
+    "sfx": [
+     "stamp-thump"
+    ],
+    "claimIds": [
+     "C12",
+     "C13",
+     "C14"
+    ],
+    "deliveryNote": "steady; 'They still do' gently"
+   },
+   {
+    "id": "N07",
+    "beat": "ending",
+    "startSec": 43.859,
+    "endSec": 51.168,
+    "startFrame": 1316,
+    "endFrame": 1535,
+    "text": "Would you have lived next to that tank? Slow as molasses, they say. Not the day it hit Boston.",
+    "marked": "[pause 0.3] Would you have lived next to that tank? [pause 0.2] Slow as molasses, they say. Not the day it hit *Boston*.",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "Boston"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 7,
+    "musicMood": "returns to the hook drone",
+    "ambient": "street air",
+    "sfx": [
+     "loop-roar"
+    ],
+    "claimIds": [
+     "C01"
+    ],
+    "deliveryNote": "question sincere; last line dry, a small smile in the voice"
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "northend",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Boston North End waterfront, 1919 (stylised): cobbled Commercial Street, brick tenements, elevated-railway girders (box beams on posts), the 50-ft riveted molasses tank (cylinder, steel-grey; repainted brown in shot 11; a torn shell after the burst), harbour edge with masts; re-dressed at dusk (flooded, glossy brown ground sheet) and golden hour",
+    "components": [
+     "gradient sky",
+     "cobbleHD/brick/facadeHD textures",
+     "boxes/cylinders via build.ts (tank, girders, tenements)",
+     "kit dock.ts: godown, colonial, gasLamp, skyline, bollard, quayGround",
+     "kit stage.ts water plane (tinted brown) or ground sheet",
+     "smoke wisps"
+    ]
+   },
+   {
+    "id": "explainer",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "flat teal (space light) / cool dusk explainer stage: a balance scale with two jars (water vs molasses), a big thermometer and a molasses blob; no text",
+    "components": [
+     "gradient sky (space/dusk preset)",
+     "boxes/cylinders for scale and jars",
+     "canvas-painted props"
+    ]
+   },
+   {
+    "id": "office",
+    "kind": "adapt",
+    "basedOn": "office",
+    "description": "Tunguska office re-dressed: wall + wide window, long hearing table with paper stacks; a drafting desk with a blank plan sheet (no writing) and a stamp; daylight version for the modern engineer",
+    "components": [
+     "Tunguska office wall/window/desk",
+     "paper stacks (boxes)",
+     "hand effect card",
+     "ring card (seal)"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "citizen1",
+    "kind": "human",
+    "description": "North End resident, 1919 (generic): flat cap, waistcoat; kit wardrobe citizen1944 re-coloured",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#2f6f73",
+     "pants": "#3b3f52",
+     "boots": "#10222b",
+     "skin": "#e0b48f",
+     "moustache": "#10222b"
+    },
+    "respectNote": "a stand-in for real residents: never comic in the disaster shots"
+   },
+   {
+    "id": "citizen2",
+    "kind": "human",
+    "description": "North End resident, woman, 1919 (generic): long skirt, shawl, bonnet",
+    "build": "adult",
+    "hat": "bonnet",
+    "outfit": {
+     "dress": "#f2e3c6",
+     "jacket": "#3a8f7d",
+     "skin": "#d9a882"
+    },
+    "respectNote": "never shown hurt"
+   },
+   {
+    "id": "kid",
+    "kind": "human",
+    "description": "neighbourhood kid collecting drips in a can (pre-disaster)",
+    "build": "kid",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#f4c430",
+     "pants": "#3b3f52",
+     "skin": "#e0b48f"
+    }
+   },
+   {
+    "id": "rescuer",
+    "kind": "human",
+    "description": "rescuer wading (generic; sailors, police and firemen all helped)",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#1f5f6b",
+     "pants": "#10222b",
+     "boots": "#10222b",
+     "skin": "#c98e66"
+    },
+    "respectNote": "dignified, stern; no struggling victims on screen"
+   },
+   {
+    "id": "painter",
+    "kind": "human",
+    "description": "workman painting the tank brown (side view, push pose)",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#f2e3c6",
+     "pants": "#6b4a2f",
+     "skin": "#d9a882"
+    }
+   },
+   {
+    "id": "manager",
+    "kind": "human",
+    "description": "company man in a dark suit and top hat (generic; not a portrait of any named person)",
+    "build": "stout",
+    "hat": "tophat",
+    "outfit": {
+     "jacket": "#10222b",
+     "pants": "#10222b",
+     "buttons": "#f4c430",
+     "skin": "#e8bf9a",
+     "moustache": "#10222b"
+    }
+   },
+   {
+    "id": "engineer",
+    "kind": "human",
+    "description": "present-day engineer (generic), shirt sleeves",
+    "build": "adult",
+    "hat": "hair",
+    "outfit": {
+     "jacket": "#3a8f7d",
+     "pants": "#2c3e50",
+     "skin": "#b97a50",
+     "hair": "#10222b"
+    }
+   }
+  ],
+  "subjects": [
+   {
+    "name": "wave",
+    "place": "the wave front in the street",
+    "heightM": 4.5
+   },
+   {
+    "name": "tank",
+    "place": "centre of the molasses tank",
+    "heightM": 15
+   },
+   {
+    "name": "northend",
+    "place": "centre of the flooded block",
+    "heightM": 8
+   },
+   {
+    "name": "citizen1",
+    "castId": "citizen1",
+    "place": "eye line",
+    "heightM": 1.6
+   },
+   {
+    "name": "citizen2",
+    "castId": "citizen2",
+    "place": "eye line",
+    "heightM": 1.55
+   },
+   {
+    "name": "kid",
+    "castId": "kid",
+    "place": "eye line",
+    "heightM": 1.1
+   },
+   {
+    "name": "rescuer",
+    "castId": "rescuer",
+    "place": "eye line",
+    "heightM": 1.6
+   },
+   {
+    "name": "painter",
+    "castId": "painter",
+    "place": "on the ladder",
+    "heightM": 6
+   },
+   {
+    "name": "manager",
+    "castId": "manager",
+    "place": "eye line",
+    "heightM": 1.65
+   },
+   {
+    "name": "engineer",
+    "castId": "engineer",
+    "place": "eye line",
+    "heightM": 1.7
+   },
+   {
+    "name": "scale",
+    "place": "balance beam (explainer)",
+    "heightM": 1.0
+   },
+   {
+    "name": "thermo",
+    "place": "thermometer bulb/centre (explainer)",
+    "heightM": 1.0
+   },
+   {
+    "name": "desk",
+    "place": "hearing table centre (office)",
+    "heightM": 0.9
+   },
+   {
+    "name": "stamp",
+    "place": "plan sheet on the drafting desk",
+    "heightM": 0.85
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 4.4333,
+   "startFrame": 0,
+   "endFrame": 133,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "A wave of molasses, taller than a bus, just hit Boston."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "Commercial Street, North End, 1919 (stylised): cobbles, brick tenements, the elevated-railway girders overhead; a glossy dark-brown wave fills the far end of the street and rolls toward camera, well above head height; a man and a woman (small, mid-ground) turn and run"
+   },
+   "characters": [
+    {
+     "id": "citizen1",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    },
+    {
+     "id": "citizen2",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "citizen1",
+     "atFrame": 10,
+     "action": "move",
+     "untilFrame": 133,
+     "params": {
+      "note": "runs toward camera, eased"
+     }
+    },
+    {
+     "characterId": "citizen2",
+     "atFrame": 14,
+     "action": "move",
+     "untilFrame": 133
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "wave",
+       "fill": 0.55,
+       "el": -14,
+       "push": 0.05,
+       "ease": "smooth"
+      }
+     },
+     {
+      "f": 75,
+      "preset": "closeUp",
+      "params": {
+       "subject": [
+        "citizen1",
+        "citizen2"
+       ],
+       "fill": 0.45
+      },
+      "cut": true
+     }
+    ]
+   },
+   "cameraTarget": "wave",
+   "lighting": "day",
+   "foreground": "cobbles and a lamp post base",
+   "background": "the brown wave front with splash crest, girders, pale blue sky",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 0,
+     "untilFrame": 133,
+     "newArt": true,
+     "note": "F01 molasses wave card: glossy brown front, curling crest, advancing as f(frame)"
+    },
+    {
+     "fx": "splash",
+     "atFrame": 20,
+     "untilFrame": 133,
+     "note": "brown splash at the crest (tinted)"
+    },
+    {
+     "fx": "dust",
+     "atFrame": 40,
+     "untilFrame": 133
+    }
+   ],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "wave-roar",
+    "street-air",
+    "hook-hum"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low drone, one glock tick on 'Boston'",
+    "duck": true
+   },
+   "emotionalIntention": "the strangest image first: 'is this a joke?'",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ],
+   "note": "shot 16 repeats this composition for the loop; in-shot cut at +75 to the two runners (hook stays readable)"
+  },
+  {
+   "id": 2,
+   "startSec": 4.4333,
+   "endSec": 5.3667,
+   "startFrame": 133,
+   "endFrame": 161,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "January, nineteen-nineteen."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "before: the same street, calm, midday; the huge steel tank looms over low rooftops by the harbour; a horse-cart-free street with a few people"
+   },
+   "characters": [
+    {
+     "id": "citizen1",
+     "view": "side",
+     "mode": "march",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 133,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "tank",
+       "fill": 0.3,
+       "el": 10,
+       "push": 0.05
+      }
+     }
+    ]
+   },
+   "cameraTarget": "tank",
+   "lighting": "day",
+   "foreground": "cobbles",
+   "background": "tank above the rooftops, harbour masts",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 8
+   },
+   "soundEffects": [
+    "street-air"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "drone holds",
+    "duck": true
+   },
+   "emotionalIntention": "place and date in one picture: the tank is the character",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 3,
+   "startSec": 5.3667,
+   "endSec": 7.8333,
+   "startFrame": 161,
+   "endFrame": 235,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "How does syrup kill twenty-one people?"
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the man stops on the street and looks up at the tank; the tank wall fills the background"
+   },
+   "characters": [
+    {
+     "id": "citizen1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "citizen1",
+     "atFrame": 165,
+     "action": "lookUp"
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "citizen1",
+     "atFrame": 191,
+     "expression": "nervous"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 161,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "citizen1",
+       "fill": 0.55,
+       "el": -12,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "citizen1",
+   "lighting": "day",
+   "foreground": "none",
+   "background": "riveted steel tank wall rising out of frame",
+   "effects": [
+    {
+     "fx": "creak",
+     "atFrame": 201,
+     "untilFrame": 235,
+     "note": "faint strain lines on the tank wall"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hook-hum"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "drone with a low swell",
+    "duck": true
+   },
+   "emotionalIntention": "the open question, asked over a human face: serious now",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 4,
+   "startSec": 7.8333,
+   "endSec": 8.8667,
+   "startFrame": 235,
+   "endFrame": 266,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "Two million gallons burst"
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the tank from below: rivets pop along a seam (creak lines), the wall bulges"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 235,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "tank",
+       "fillFrom": 0.45,
+       "fillTo": 0.75,
+       "el": -20
+      }
+     }
+    ]
+   },
+   "cameraTarget": "tank",
+   "lighting": "day",
+   "foreground": "rooftop edge",
+   "background": "sky",
+   "effects": [
+    {
+     "fx": "creak",
+     "atFrame": 235,
+     "untilFrame": 266
+    },
+    {
+     "fx": "burst",
+     "atFrame": 260,
+     "untilFrame": 266,
+     "note": "rivet pops"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "tank-groan",
+    "rivet-cracks"
+   ],
+   "musicDirection": {
+    "beat": "burst",
+    "mood": "pulse enters",
+    "duck": true
+   },
+   "emotionalIntention": "dread: the wall is going",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 5,
+   "startSec": 8.8667,
+   "endSec": 13.2333,
+   "startFrame": 266,
+   "endFrame": 397,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "from one tank and ran at around thirty-five miles an hour."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "flash; then the wave tears down the street past the camera: brown front, splash crest, a wooden shed folding (plank cards), girders shuddering"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 266,
+      "preset": "tracking",
+      "params": {
+       "subject": "wave",
+       "path": [
+        [
+         0,
+         2,
+         30
+        ],
+        [
+         0,
+         2.5,
+         -10
+        ]
+       ],
+       "fill": 0.5
+      }
+     }
+    ]
+   },
+   "cameraTarget": "wave",
+   "lighting": "day",
+   "foreground": "cobbles disappearing under brown",
+   "background": "tenements, girders",
+   "effects": [
+    {
+     "fx": "flash",
+     "atFrame": 266
+    },
+    {
+     "fx": "kick",
+     "atFrame": 266
+    },
+    {
+     "fx": "blob",
+     "atFrame": 266,
+     "untilFrame": 397,
+     "newArt": true,
+     "note": "F01 wave front"
+    },
+    {
+     "fx": "plank",
+     "atFrame": 296,
+     "untilFrame": 397,
+     "note": "shed boards flying"
+    },
+    {
+     "fx": "splash",
+     "atFrame": 276,
+     "untilFrame": 397
+    },
+    {
+     "fx": "dust",
+     "atFrame": 296,
+     "untilFrame": 397
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "flashPeak": 1.0
+   },
+   "soundEffects": [
+    "burst-boom",
+    "wave-whoosh",
+    "wood-crush"
+   ],
+   "musicDirection": {
+    "beat": "burst",
+    "mood": "hit, then driving pulse",
+    "duck": false
+   },
+   "emotionalIntention": "speed and weight: unstoppable",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ]
+  },
+  {
+   "id": 6,
+   "startSec": 13.2333,
+   "endSec": 17.3333,
+   "startFrame": 397,
+   "endFrame": 520,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "Molasses is about one and a half times heavier than water."
+   },
+   "environment": {
+    "scene": "explainer",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "flat explainer stage: a balance scale; left pan a jar of water (pale blue), right pan the same jar of molasses (brown); the molasses side drops hard"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 397,
+      "preset": "closeUp",
+      "params": {
+       "subject": "scale",
+       "fill": 0.6,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "scale",
+   "lighting": "space",
+   "foreground": "none",
+   "background": "teal backdrop",
+   "effects": [
+    {
+     "fx": "arrow",
+     "atFrame": 437,
+     "untilFrame": 520,
+     "note": "down arrow under the molasses jar"
+    },
+    {
+     "fx": "drum",
+     "atFrame": 397,
+     "untilFrame": 520,
+     "newArt": true,
+     "note": "F03 balance + two jars (no text)"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "scale-tick"
+   ],
+   "musicDirection": {
+    "beat": "burst",
+    "mood": "pulse thins",
+    "duck": true
+   },
+   "emotionalIntention": "physics made obvious in one image: heavier than water",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F03"
+   ]
+  },
+  {
+   "id": 7,
+   "startSec": 17.3333,
+   "endSec": 20.2333,
+   "startFrame": 520,
+   "endFrame": 607,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "Then the cold thickened it, like glue."
+   },
+   "environment": {
+    "scene": "explainer",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the same stage, colder: a big thermometer drops; a molasses blob next to it goes from runny to a stiff glossy lump (flow slows to a stop)"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "pull-out",
+    "keys": [
+     {
+      "f": 520,
+      "preset": "dollyOut",
+      "params": {
+       "subject": "thermo",
+       "fillFrom": 0.7,
+       "fillTo": 0.5
+      }
+     }
+    ]
+   },
+   "cameraTarget": "thermo",
+   "lighting": "dusk",
+   "foreground": "none",
+   "background": "cool blue-violet backdrop (dusk preset)",
+   "effects": [
+    {
+     "fx": "gust",
+     "atFrame": 520,
+     "untilFrame": 607,
+     "note": "cold wind lines"
+    },
+    {
+     "fx": "blob",
+     "atFrame": 520,
+     "untilFrame": 607,
+     "newArt": true,
+     "note": "F03 thermometer + thickening blob"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "cold-wind"
+   ],
+   "musicDirection": {
+    "beat": "cold",
+    "mood": "pulse drops away",
+    "duck": true
+   },
+   "emotionalIntention": "the second trick: cold",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F03"
+   ]
+  },
+  {
+   "id": 8,
+   "startSec": 20.2333,
+   "endSec": 23.2,
+   "startFrame": 607,
+   "endFrame": 696,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "Many victims died because they were stuck."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "evening, high and quiet: the street under a brown sheet; a rescuer wades slowly, knee-deep; a single flat cap lies on the surface; no bodies"
+   },
+   "characters": [
+    {
+     "id": "rescuer",
+     "view": "side",
+     "mode": "march",
+     "expression": "stern"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "rescuer",
+     "atFrame": 607,
+     "action": "move",
+     "untilFrame": 696,
+     "params": {
+      "note": "very slow wade, low lift"
+     }
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "static",
+    "keys": [
+     {
+      "f": 607,
+      "preset": "highAngle",
+      "params": {
+       "subject": "rescuer",
+       "fill": 0.3,
+       "el": 45,
+       "push": 0.01
+      }
+     }
+    ]
+   },
+   "cameraTarget": "rescuer",
+   "lighting": "dusk",
+   "foreground": "the cap on the molasses",
+   "background": "dark brown street, lit windows",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 607,
+     "untilFrame": 696,
+     "newArt": true,
+     "note": "F01 molasses ground sheet (flat, glossy)"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "slosh",
+    "cold-wind"
+   ],
+   "musicDirection": {
+    "beat": "cold",
+    "mood": "near silence",
+    "duck": true
+   },
+   "emotionalIntention": "grief without showing the dead",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01",
+    "F04"
+   ]
+  },
+  {
+   "id": 9,
+   "startSec": 23.2,
+   "endSec": 24.8667,
+   "startFrame": 696,
+   "endFrame": 746,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "This wasn't bad luck."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "flashback, before the flood: the clean steel-grey tank in daylight; slow push in"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 696,
+      "preset": "dollyIn",
+      "params": {
+       "subject": "tank",
+       "fillFrom": 0.4,
+       "fillTo": 0.55
+      }
+     }
+    ]
+   },
+   "cameraTarget": "tank",
+   "lighting": "day",
+   "foreground": "none",
+   "background": "sky, rooftops",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 10
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "twist",
+    "mood": "music returns, low",
+    "duck": true
+   },
+   "emotionalIntention": "turn: from tragedy to accusation",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 10,
+   "startSec": 24.8667,
+   "endSec": 27.2333,
+   "startFrame": 746,
+   "endFrame": 817,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "That tank leaked from day one."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the base of the tank: brown streaks down a seam; a kid holds a small can under a drip and grins"
+   },
+   "characters": [
+    {
+     "id": "kid",
+     "view": "front",
+     "mode": "stand",
+     "expression": "grin",
+     "facing": -1
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 746,
+      "preset": "closeUp",
+      "params": {
+       "subject": "kid",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "kid",
+   "lighting": "day",
+   "foreground": "drips falling",
+   "background": "streaked tank seam",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 746,
+     "untilFrame": 817,
+     "newArt": true,
+     "note": "F05 drip streaks + falling drops; can prop"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "drip-glock"
+   ],
+   "musicDirection": {
+    "beat": "twist",
+    "mood": "plucked glock drips",
+    "duck": true
+   },
+   "emotionalIntention": "the warning everyone could see",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02",
+    "F05"
+   ],
+   "note": "kids collecting drips is sourced (C10); kept as visual only"
+  },
+  {
+   "id": 11,
+   "startSec": 27.2333,
+   "endSec": 31.7333,
+   "startFrame": 817,
+   "endFrame": 952,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "The company's fix? Paint it brown, so the leaks wouldn't show."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "a painter on a ladder (side view, push pose) rolls brown paint over the grey tank wall; the leaks vanish under the colour; a company man in a top hat watches, arms behind back"
+   },
+   "characters": [
+    {
+     "id": "painter",
+     "view": "side",
+     "mode": "push",
+     "expression": "neutral"
+    },
+    {
+     "id": "manager",
+     "view": "front",
+     "mode": "stand",
+     "expression": "stern",
+     "facing": 1
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "painter",
+     "atFrame": 821,
+     "action": "push",
+     "untilFrame": 952,
+     "params": {
+      "note": "brush strokes, pose 0-1 loop"
+     }
+    }
+   ],
+   "expressions": [
+    {
+     "characterId": "manager",
+     "atFrame": 867,
+     "expression": "smile_closed"
+    }
+   ],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 817,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "manager",
+       "fill": 0.45,
+       "el": -10
+      }
+     },
+     {
+      "f": 857,
+      "preset": "crane",
+      "params": {
+       "subject": "painter",
+       "fillFrom": 0.4,
+       "fillTo": 0.25,
+       "elFrom": 5,
+       "elTo": 25
+      }
+     }
+    ]
+   },
+   "cameraTarget": "painter",
+   "lighting": "day",
+   "foreground": "paint bucket",
+   "background": "tank wall turning from grey to brown (wipe)",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 857,
+     "untilFrame": 952,
+     "newArt": true,
+     "note": "F06 brown paint wipe over the leak streaks"
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "brush-strokes"
+   ],
+   "musicDirection": {
+    "beat": "twist",
+    "mood": "rising",
+    "duck": true
+   },
+   "emotionalIntention": "the twist: the cover-up, shown plainly",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F02",
+    "F06"
+   ],
+   "note": "manager is a generic company figure, not a portrait of anyone named"
+  },
+  {
+   "id": 12,
+   "startSec": 31.7333,
+   "endSec": 36.0333,
+   "startFrame": 952,
+   "endFrame": 1081,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "So how does syrup kill? Weight, cold, and warnings ignored."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "aerial: the whole North End block under brown, the broken tank shell by the harbour, golden afternoon light"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "aerial",
+   "cameraMovement": {
+    "kind": "aerial-descent",
+    "keys": [
+     {
+      "f": 952,
+      "preset": "aerial",
+      "params": {
+       "subject": "northend",
+       "fill": 0.08,
+       "fillTo": 0.12,
+       "elFrom": 60,
+       "elTo": 45,
+       "swing": 20
+      }
+     }
+    ]
+   },
+   "cameraTarget": "northend",
+   "lighting": "golden",
+   "foreground": "none",
+   "background": "harbour",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 952,
+     "untilFrame": 1081,
+     "newArt": true,
+     "note": "F01 flood sheet"
+    },
+    {
+     "fx": "smoke",
+     "atFrame": 952
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "answer-hit"
+   ],
+   "musicDirection": {
+    "beat": "answer",
+    "mood": "peak, then hold",
+    "duck": true
+   },
+   "emotionalIntention": "the answer, seen whole: weight, cold, neglect",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": [
+    "F01",
+    "F02"
+   ]
+  },
+  {
+   "id": 13,
+   "startSec": 36.0333,
+   "endSec": 42.4,
+   "startFrame": 1081,
+   "endFrame": 1272,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "The owners were found liable, and Boston began making engineers file their math and sign their plans."
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "a 1920s hearing room re-dressed from the Tunguska office: a long table, stacked papers; then cut to a drafting desk where a hand stamps a blank plan (no text, just a round seal shape)"
+   },
+   "characters": [],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1081,
+      "preset": "establishingWide",
+      "params": {
+       "subject": "desk",
+       "fill": 0.25,
+       "el": 20,
+       "push": 0.04
+      }
+     },
+     {
+      "f": 1181,
+      "preset": "closeUp",
+      "params": {
+       "subject": "stamp",
+       "fill": 0.6,
+       "el": 35
+      },
+      "cut": true
+     }
+    ]
+   },
+   "cameraTarget": "stamp",
+   "lighting": "dusk",
+   "foreground": "papers",
+   "background": "window, shelves",
+   "effects": [
+    {
+     "fx": "hand",
+     "atFrame": 1211,
+     "untilFrame": 1272,
+     "note": "pressing hand with a stamp"
+    },
+    {
+     "fx": "kick",
+     "atFrame": 1238
+    },
+    {
+     "fx": "ring",
+     "atFrame": 1238,
+     "untilFrame": 1272,
+     "note": "seal ring on the plan"
+    }
+   ],
+   "transition": {
+    "type": "xfade",
+    "frames": 8
+   },
+   "soundEffects": [
+    "stamp-thump"
+   ],
+   "musicDirection": {
+    "beat": "law",
+    "mood": "warm resolve",
+    "duck": true
+   },
+   "emotionalIntention": "accountability becomes a rule",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F07"
+   ],
+   "note": "stamp lands on 'sign' (~frame 1238)"
+  },
+  {
+   "id": 14,
+   "startSec": 42.4,
+   "endSec": 43.8,
+   "startFrame": 1272,
+   "endFrame": 1314,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "They still do."
+   },
+   "environment": {
+    "scene": "office",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "today: a young engineer at the same desk lifts a stamped plan and smiles"
+   },
+   "characters": [
+    {
+     "id": "engineer",
+     "view": "front",
+     "mode": "stand",
+     "expression": "smile_closed"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "engineer",
+     "atFrame": 1278,
+     "action": "wave",
+     "params": {
+      "note": "raises the plan"
+     }
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1272,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "engineer",
+       "fill": 0.55,
+       "el": -10,
+       "push": 0.03
+      }
+     }
+    ]
+   },
+   "cameraTarget": "engineer",
+   "lighting": "day",
+   "foreground": "desk edge",
+   "background": "bright window",
+   "effects": [
+    {
+     "fx": "sparkle",
+     "atFrame": 1282,
+     "untilFrame": 1314
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "law",
+    "mood": "lift",
+    "duck": true
+   },
+   "emotionalIntention": "why it matters today",
+   "visualImportance": "support",
+   "futureDevelopmentIds": [
+    "F07"
+   ]
+  },
+  {
+   "id": 15,
+   "startSec": 43.8,
+   "endSec": 46.9,
+   "startFrame": 1314,
+   "endFrame": 1407,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "Would you have lived next to that tank?"
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "golden hour, before: over the man's shoulder, the tank looms over his home's doorway"
+   },
+   "characters": [
+    {
+     "id": "citizen1",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral",
+     "facing": 1
+    }
+   ],
+   "actions": [],
+   "expressions": [
+    {
+     "characterId": "citizen1",
+     "atFrame": 1354,
+     "expression": "nervous"
+    }
+   ],
+   "cameraAngle": "over-shoulder",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1314,
+      "preset": "overShoulder",
+      "params": {
+       "subject": "tank",
+       "shoulder": "citizen1",
+       "fill": 0.5
+      }
+     }
+    ]
+   },
+   "cameraTarget": "tank",
+   "lighting": "golden",
+   "foreground": "his shoulder and cap",
+   "background": "tank above the rooftops",
+   "effects": [],
+   "transition": {
+    "type": "xfade",
+    "frames": 8
+   },
+   "soundEffects": [
+    "street-air-2"
+   ],
+   "musicDirection": {
+    "beat": "loop",
+    "mood": "drone returns",
+    "duck": true
+   },
+   "emotionalIntention": "put the viewer next door: the comment question",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F02"
+   ]
+  },
+  {
+   "id": 16,
+   "startSec": 46.9,
+   "endSec": 52.0333,
+   "startFrame": 1407,
+   "endFrame": 1561,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "Slow as molasses, they say. Not the day it hit Boston."
+   },
+   "environment": {
+    "scene": "northend",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "the hook frame again: the brown wave fills the far end of the street and rolls toward camera; the last frame matches frame 1 so the loop is seamless"
+   },
+   "characters": [
+    {
+     "id": "citizen1",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    },
+    {
+     "id": "citizen2",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [
+    {
+     "characterId": "citizen1",
+     "atFrame": 1437,
+     "action": "move",
+     "untilFrame": 1561
+    }
+   ],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1407,
+      "preset": "lowAngle",
+      "params": {
+       "subject": "wave",
+       "fill": 0.45,
+       "el": -14,
+       "push": 0.05,
+       "ease": "smooth"
+      }
+     }
+    ]
+   },
+   "cameraTarget": "wave",
+   "lighting": "day",
+   "foreground": "cobbles and lamp post base",
+   "background": "brown wave, girders, sky",
+   "effects": [
+    {
+     "fx": "blob",
+     "atFrame": 1407,
+     "untilFrame": 1561,
+     "newArt": true,
+     "note": "F01 wave card (same as shot 1)"
+    },
+    {
+     "fx": "splash",
+     "atFrame": 1427,
+     "untilFrame": 1561
+    }
+   ],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "loop-roar"
+   ],
+   "musicDirection": {
+    "beat": "loop",
+    "mood": "drone; ends on the hook's tick",
+    "duck": true
+   },
+   "emotionalIntention": "loop back to the first frame; dry last line",
+   "visualImportance": "key",
+   "futureDevelopmentIds": [
+    "F01"
+   ]
+  }
+ ],
+ "events": {
+  "flashAt": 266,
+  "flashes": [],
+  "hits": [
+   266,
+   1238
+  ],
+  "kicks": [
+   [
+    266,
+    1.0
+   ],
+   [
+    1238,
+    0.3
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "street-air",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.35,
+     "bright": 0.4
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "open street air",
+    "span": [
+     0,
+     235
+    ]
+   },
+   {
+    "id": "hook-hum",
+    "at": 0,
+    "gen": "hum",
+    "args": {
+     "hz": 49,
+     "tone": 0.4,
+     "noise": 0.2
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "low strange bed under the hook",
+    "span": [
+     0,
+     235
+    ]
+   },
+   {
+    "id": "wave-roar",
+    "at": 0,
+    "gen": "roar",
+    "args": {
+     "lo": 50,
+     "hi": 300,
+     "gain": 0.45,
+     "ramp": 1.5,
+     "floor": 0.2
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "thick, low rush of the wave (not watery-bright)",
+    "span": [
+     0,
+     133
+    ]
+   },
+   {
+    "id": "tank-groan",
+    "at": 235,
+    "gen": "rumble",
+    "args": {
+     "dur": 1.2,
+     "gain": 0.5,
+     "lo": 25,
+     "hi": 90,
+     "decay": 1.0
+    },
+    "segmentId": "N02",
+    "shotId": 4,
+    "intent": "steel straining"
+   },
+   {
+    "id": "rivet-cracks",
+    "at": 255,
+    "gen": "crack",
+    "args": {},
+    "segmentId": "N02",
+    "shotId": 4,
+    "intent": "rivets popping just before the burst"
+   },
+   {
+    "id": "burst-boom",
+    "at": 266,
+    "gen": "boom",
+    "args": {
+     "dur": 2.5,
+     "f0": 42,
+     "big": 0.8
+    },
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "the tank gives way (on the flash)"
+   },
+   {
+    "id": "wave-whoosh",
+    "at": 269,
+    "gen": "whoosh",
+    "args": {
+     "dur": 1.2,
+     "peak": 0.8,
+     "f_lo": 120,
+     "f_hi": 1500,
+     "width": 0.7,
+     "tail": 0.4
+    },
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "the wave passing camera"
+   },
+   {
+    "id": "wood-crush",
+    "at": 320,
+    "gen": "wood_crack",
+    "args": {},
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "a shed folding"
+   },
+   {
+    "id": "scale-tick",
+    "at": 440,
+    "gen": "glock",
+    "args": {
+     "midi": 79,
+     "level": 0.3
+    },
+    "segmentId": "N02",
+    "shotId": 6,
+    "intent": "the scale tips"
+   },
+   {
+    "id": "cold-wind",
+    "at": 520,
+    "gen": "breeze",
+    "args": {
+     "level": 0.45,
+     "bright": 0.15
+    },
+    "segmentId": "N03",
+    "shotId": 7,
+    "intent": "cold, dull wind",
+    "span": [
+     520,
+     696
+    ]
+   },
+   {
+    "id": "slosh",
+    "at": 607,
+    "gen": "water",
+    "args": {
+     "close": 0.3
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "slow thick slosh around the rescuer's legs",
+    "span": [
+     607,
+     696
+    ]
+   },
+   {
+    "id": "drip-glock",
+    "at": 760,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      84,
+      81,
+      84,
+      79
+     ],
+     "level": 0.3,
+     "spacing": 0.45,
+     "pan0": 0.2,
+     "pan_step": -0.1
+    },
+    "segmentId": "N04",
+    "shotId": 10,
+    "intent": "each drip"
+   },
+   {
+    "id": "brush-strokes",
+    "at": 830,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.5,
+     "peak": 0.3,
+     "f_lo": 300,
+     "f_hi": 2000,
+     "width": 0.3,
+     "tail": 0.1
+    },
+    "segmentId": "N04",
+    "shotId": 11,
+    "intent": "a soft brush stroke as the paint covers the leak"
+   },
+   {
+    "id": "answer-hit",
+    "at": 1050,
+    "gen": "rumble",
+    "args": {
+     "dur": 2.0,
+     "gain": 0.4,
+     "lo": 30,
+     "hi": 110,
+     "decay": 1.5
+    },
+    "segmentId": "N05",
+    "shotId": 12,
+    "intent": "weight under 'ignored'"
+   },
+   {
+    "id": "stamp-thump",
+    "at": 1238,
+    "gen": "boom",
+    "args": {
+     "dur": 0.4,
+     "f0": 90,
+     "big": 0.0
+    },
+    "segmentId": "N06",
+    "shotId": 13,
+    "intent": "the stamp lands on 'sign'"
+   },
+   {
+    "id": "street-air-2",
+    "at": 1314,
+    "gen": "breeze",
+    "args": {
+     "level": 0.3,
+     "bright": 0.35
+    },
+    "segmentId": "N07",
+    "shotId": 15,
+    "intent": "back on the street",
+    "span": [
+     1314,
+     1561
+    ]
+   },
+   {
+    "id": "loop-roar",
+    "at": 1407,
+    "gen": "roar",
+    "args": {
+     "lo": 50,
+     "hi": 300,
+     "gain": 0.4,
+     "ramp": 1.0,
+     "floor": 0.2
+    },
+    "segmentId": "N07",
+    "shotId": 16,
+    "intent": "the hook's wave sound returns: loop",
+    "span": [
+     1407,
+     1561
+    ]
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      3
+     ],
+     "chord": "Dm",
+     "level": 0.8,
+     "mood": "low drone, single glock tick"
+    },
+    {
+     "name": "burst",
+     "shots": [
+      4,
+      6
+     ],
+     "chord": "A",
+     "level": 1.1,
+     "mood": "pulse, hit on the flash"
+    },
+    {
+     "name": "cold",
+     "shots": [
+      7,
+      8
+     ],
+     "chord": "Dm",
+     "level": 0.5,
+     "mood": "near silence"
+    },
+    {
+     "name": "twist",
+     "shots": [
+      9,
+      11
+     ],
+     "chord": "Gm",
+     "level": 0.95,
+     "mood": "plucked, rising"
+    },
+    {
+     "name": "answer",
+     "shots": [
+      12,
+      12
+     ],
+     "chord": "Bb",
+     "level": 1.05,
+     "mood": "peak, held"
+    },
+    {
+     "name": "law",
+     "shots": [
+      13,
+      14
+     ],
+     "chord": "F",
+     "level": 0.75,
+     "mood": "warm resolve"
+    },
+    {
+     "name": "loop",
+     "shots": [
+      15,
+      16
+     ],
+     "chord": "Dm",
+     "level": 0.8,
+     "mood": "back to the hook drone"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.0,
+   "fade_out": 0.6
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 8,
+   "originality": 7,
+   "researchReliability": 8,
+   "rhythm": 8,
+   "hinglishNaturalness": 8,
+   "emotion": 7,
+   "retention": 8,
+   "visualStorytelling": 7,
+   "pacing": 8,
+   "productionFeasibility": 7,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "production",
+    "issue": "Needs a molasses-wave card and flood sheet (F01), a North End set with the tank (F02) and explainer props (F03); the wave is the hook and cannot be faked cheaply. Scored 7: 3 sets (1 adapted, the street adapts the built bombay-1944 city + kit dock.ts), minus 1 for the unbuilt wave card.",
+    "severity": "medium"
+   },
+   {
+    "area": "facts",
+    "issue": "'Taller than a bus' rests on the 15 ft estimate (Mass Moments, History.com); one source gives 8-15 ft. Kept as a comparison, range in the description.",
+    "severity": "low"
+   },
+   {
+    "area": "facts",
+    "issue": "'Many victims died because they were stuck' softens Rubinstein's single-expert 'about half' (CSMonitor); 1.5x density has one source read (History.com).",
+    "severity": "low"
+   },
+   {
+    "area": "duration",
+    "issue": "129 words: rhythm.py estimates 52.1 s (marked) / 49.6 s (clean) vs the 47 s target (+5-11%). At Brian +10% (~2.77 w/s measured on Tunguska) real audio should land ~49-51 s; retime from words.json. If it runs long, cut 'They still do.' or 'they say'.",
+    "severity": "low"
+   },
+   {
+    "area": "structure",
+    "issue": "The open question is answered at ~65-69% (31.8-35.8 s of 52 s), slightly before the requested ~70%.",
+    "severity": "low"
+   },
+   {
+    "area": "emotion",
+    "issue": "At 47 s there is no room for a named victim; the human cost is carried by 'twenty-one people' and the rescuer shot only.",
+    "severity": "medium"
+   },
+   {
+    "area": "language",
+    "issue": "'Tell us below' was cut; the comment ask is the question alone (no CTA wording). The idiom 'slow as molasses' may be unfamiliar to some non-US viewers; the hook image carries the loop anyway.",
+    "severity": "low"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Cut the first draft from 232 to 141 words: removed the 50-ft tank line, the 'four times thicker' Harvard number, 'You cannot swim in it', the auditor line, the folklore line (moved to pinned comment); hook rewritten from 15 to 11 words",
+    "reason": "rhythm hard FAIL: 89.2 s estimate, 4.94 w/s needed for 47 s; first sentence too long for the 3 s hook"
+   },
+   {
+    "round": 2,
+    "change": "Applied coordinator market brief: target 120-135 words / 47 s, wave-first hook (date second), loop openers every 2-3 lines ('This wasn't bad luck.', 'The company's fix?'), merged tank + speed into one sentence; '...about half...' -> 'Many victims'",
+    "reason": "retention at 30-50 s; open loops; single-expert figure softened"
+   },
+   {
+    "round": 3,
+    "change": "Fixed UNANSWERED_QUESTION (comment question followed by a question), REPEATED_OPENER ('The tank'/'The company' -> 'That tank'), NO_BEAT (pause before the cold line); ending reshaped to 'Slow as molasses, they say. Not the day it hit Boston.'",
+    "reason": "rhythm HIGH/MEDIUM findings; loop to the first frame"
+   }
+  ],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 52.1,
+   "wps": 2.6,
+   "lengthCv": 0.55,
+   "findings": 2
+  },
+  "editorNotes": "Pass. Rhythm PASS with 2 LOW findings (the repeated 'does syrup kill' is the deliberate question/answer callback; S6-S8 same length band is broken by the following question). 0 unsupported statements, 0 debunked claims in narration, titles or description. The score field 'hinglishNaturalness' is used here for English spoken naturalness."
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "Molasses wave + flood sheet: a glossy dark-brown advancing wave card (front + curling crest + brown splash) and a flat glossy ground sheet",
+   "need": "hook, wave, stuck, answer and loop shots",
+   "shotIds": [
+    1,
+    5,
+    8,
+    12,
+    16
+   ],
+   "suggestion": "new card in art.ts as f(frame) (bulging front, seeded crest wobble); reuse kit stage.ts water plane tinted brown with low ripple for the sheet (polygonOffset on the ground)",
+   "workaround": "tinted kit waterJet/blastCard + brown water plane"
+  },
+  {
+   "id": "F02",
+   "feature": "North End 1919 set with the riveted tank and elevated-railway girders",
+   "need": "most shots",
+   "shotIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16
+   ],
+   "suggestion": "adapt the bombay-1944 harbour/city world.ts + kit dock.ts (godown, colonial, gasLamp, skyline, quayGround); tank = cylinder with rivet-band texture, colour param grey->brown, torn-shell variant",
+   "workaround": "bombay-1944 city set re-dressed"
+  },
+  {
+   "id": "F03",
+   "feature": "Explainer props: balance scale with two jars; thermometer; thickening blob",
+   "need": "physics beat",
+   "shotIds": [
+    6,
+    7
+   ],
+   "suggestion": "boxes/cylinders + canvas-painted jars; blob = ellipse card whose drip length eases to 0",
+   "workaround": "arrow + drum/blob cards"
+  },
+  {
+   "id": "F04",
+   "feature": "Flat cap lying on the surface (prop card)",
+   "need": "stuck shot (absence instead of bodies)",
+   "shotIds": [
+    8
+   ],
+   "suggestion": "reuse toon.ts cap drawing as a ground card",
+   "workaround": "omit"
+  },
+  {
+   "id": "F05",
+   "feature": "Drip streaks on the tank seam + falling drops + small can prop for the kid",
+   "need": "leak shot",
+   "shotIds": [
+    10
+   ],
+   "suggestion": "painted streak texture + kit fx drops (closed-form fall); can as a new prop in props list",
+   "workaround": "kid without the can, drips only"
+  },
+  {
+   "id": "F06",
+   "feature": "Paint wipe: brown colour sweeping over the grey tank and hiding the streaks; paint brush prop and ladder",
+   "need": "the twist",
+   "shotIds": [
+    11
+   ],
+   "suggestion": "tank texture lerp by a moving mask (f(frame)); brush prop for side 'push' pose; ladder from boxes",
+   "workaround": "cut grey->brown with xfade"
+  },
+  {
+   "id": "F07",
+   "feature": "Stamp prop + seal ring on a blank plan; modern engineer outfit",
+   "need": "law payoff",
+   "shotIds": [
+    13,
+    14
+   ],
+   "suggestion": "hand card holding a stamp; ring card; outfit via kit wardrobe (no text on the plan)",
+   "workaround": "hand card pressing on paper"
+  },
+  {
+   "id": "F08",
+   "feature": "English captions (kit captions.tsx is Devanagari/Baloo 2)",
+   "need": "Inkfall Shorts are watched muted",
+   "shotIds": [],
+   "suggestion": "Latin font option in captions.tsx (owner decision)",
+   "workaround": "no captions"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "A Wave of Molasses Killed 21 People in Boston",
+   "Boston's Deadly Molasses Flood (1919)",
+   "They Painted the Leaking Tank Brown",
+   "How Syrup Killed 21 People: The Great Molasses Flood",
+   "Slow as Molasses? Not in Boston, 1919"
+  ],
+  "thumbnails": [
+   {
+    "concept": "low angle down a cobbled 1919 street: a glossy brown wave taller than the people running from it",
+    "text": "A WAVE OF SYRUP?"
+   },
+   {
+    "concept": "a workman painting a leaking grey tank brown while a top-hatted man watches",
+    "text": "HIDE THE LEAKS"
+   },
+   {
+    "concept": "balance scale: water jar up, molasses jar slammed down, cold blue background",
+    "text": "WHY IT KILLED"
+   }
+  ],
+  "description": "On 15 January 1919, a storage tank holding about 2.3 million gallons of molasses burst in Boston's North End. The wave, estimated at around 35 mph and somewhere between 15 and 25 feet high (estimates range from 8 to 40 ft), killed 21 people and injured about 150. Molasses is far denser than water, and as it cooled in the January air it thickened, trapping victims and slowing rescuers. Neighbours said the tank had leaked since it was filled in 1915; instead of fixing it, the company had it painted brown. A court-appointed auditor later found the owner, United States Industrial Alcohol, liable, and Boston began requiring engineers' calculations to be filed and plans signed and stamped.\nSources: Mass Moments (https://www.massmoments.org/moment-details.html?mid=19); City of Boston (https://www.boston.gov/ar/news/100-years-ago-today-molasses-crashes-through-bostons-north-end); HISTORY.com, the science of the flood (https://www.history.com/articles/great-molasses-flood-science); AP/Boston.com on the 2016 Harvard fluid-dynamics study (https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained); Christian Science Monitor (https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919); NBC News / Stephen Puleo, Dark Tide (https://www.euronews.com/2019/01/15/great-boston-molasses-flood-1919-killed-21-after-2-million-n958326); The Straight Dope (https://www.straightdope.com/21343697/was-boston-once-literally-flooded-with-molasses); Wikipedia, Great Molasses Flood (for its cited sources).",
+  "hashtags": [
+   "#MolassesFlood",
+   "#Boston",
+   "#History",
+   "#Engineering",
+   "#WeirdHistory",
+   "#Physics",
+   "#Shorts"
+  ],
+  "pinnedComment": "Numbers note: nobody measured the wave. Height estimates run from about 8 to 40 feet (15 and 25 ft are the most quoted), speed around 35 mph. One Harvard researcher estimated about half the victims died because they were stuck. And the folklore: for decades, locals said the North End smelled of molasses on hot days. Would you have lived next to that tank?"
+ }
+}

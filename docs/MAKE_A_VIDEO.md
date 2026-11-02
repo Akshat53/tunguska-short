@@ -112,6 +112,13 @@ node --no-warnings scripts/qa-story-data.mjs --config scripts/qa.config.roopkund
 .venv/bin/python scripts/visual_qa.py out/roopkund/roopkund-hi-draft-half.mp4 --story out/roopkund/qa/qa-story.json \
   --audio-report out/roopkund/audio/audio_report.json --out out/roopkund/qa     # must be 0 errors
 ```
+New format (opt-in, owner-approved first for Molasses 1919): no intro card, so frame 0 is the hook already moving; the thumbnail is
+held still for 0.4 s just before a short 1.5 s end card (pick that frame as the Shorts cover). Old videos keep the default layout:
+```bash
+SIZE=540x960 NO_INTRO=1 PRE_OUTRO_CARD=brand/molasses-1919-thumb.png PRE_OUTRO_S=0.4 AUDIO_OUT=out/molasses-1919/audio OUTRO_CARD=brand/endcard-global.png \
+  bash scripts/finish.sh out/molasses-1919/picture-half.mp4 out/molasses-1919/molasses-1919-en-draft-half.mp4 0 1.5
+```
+(set `"bookends": {"intro": 0, "outro": 57}` in the story's `scripts/qa.config.<slug>.json` = (0.4 + 1.5) s x 30.)
 Captions (optional, recommended for Hindi Shorts): render `<Captions>` from `src/engine/kit/captions.tsx` in the composition, driven by `words.json` (see `docs/VISUAL_KIT.md`, example `src/videos/chapati-1857/Chapati.tsx`); place them per shot so they never cover faces.
 Then **open the contact sheet and frames and look**: subjects in frame, nothing washed out, the story's key objects readable.
 Send the draft to the owner before the final.

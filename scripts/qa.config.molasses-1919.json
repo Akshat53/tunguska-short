@@ -1,0 +1,224 @@
+{
+ "_doc": "Visual QA config for Molasses 1919 (English, Inkfall). Frames are STORY frames (= picture frames; identity warp). No intro card (NO_INTRO=1): the bookends are the 0.4 s thumbnail still + the 1.5 s end card after the picture. See docs/VISUAL_QA.md.",
+ "story": "src/videos/molasses-1919/story.ts",
+ "storyboard": "src/videos/molasses-1919/storyboard.json",
+ "warp": "src/videos/molasses-1919/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 0,
+  "outro": 57
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "wave": {
+   "below": 3.5,
+   "above": 3.5,
+   "halfWidth": 6
+  },
+  "tank": {
+   "below": 7.5,
+   "above": 7.5,
+   "halfWidth": 13
+  },
+  "resident": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  },
+  "runners": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.8
+  },
+  "scale": {
+   "below": 0.3,
+   "above": 0.6,
+   "halfWidth": 0.6
+  },
+  "thermo": {
+   "below": 0.4,
+   "above": 0.4,
+   "halfWidth": 0.6
+  },
+  "rescuer": {
+   "below": 0.4,
+   "above": 0.6,
+   "halfWidth": 0.4
+  },
+  "kid": {
+   "below": 0.7,
+   "above": 0.4,
+   "halfWidth": 0.35
+  },
+  "painter": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  },
+  "manager": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.45
+  },
+  "northend": {
+   "below": 4,
+   "above": 10,
+   "halfWidth": 20
+  },
+  "desk": {
+   "below": 1,
+   "above": 1,
+   "halfWidth": 2
+  },
+  "stamp": {
+   "below": 0.1,
+   "above": 0.2,
+   "halfWidth": 0.2
+  },
+  "engineer": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    "wave"
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    {
+     "name": "tank",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "resident"
+   ],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    {
+     "name": "tank",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    {
+     "name": "wave",
+     "from": 330
+    }
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    "scale"
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "thermo"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    "rescuer"
+   ],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    "tank"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "kid"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    {
+     "name": "manager",
+     "to": 905
+    },
+    {
+     "name": "painter",
+     "from": 905,
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    {
+     "name": "northend",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [
+    {
+     "name": "desk",
+     "to": 1238,
+     "required": false
+    },
+    {
+     "name": "stamp",
+     "from": 1238,
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "14": {
+   "subjects": [
+    {
+     "name": "engineer",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "15": {
+   "subjects": [
+    {
+     "name": "tank",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "16": {
+   "subjects": [
+    "wave"
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

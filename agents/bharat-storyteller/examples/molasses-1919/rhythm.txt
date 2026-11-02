@@ -1,0 +1,36 @@
+RHYTHM REPORT — verdict PASS
+duration 52.1 s (estimate) | 129 words | 2.6 words/s (speech-only 2.6) | 18 sentences
+to hit the target duration the voice needs 2.9 words/s
+sentence length: mean 7.17 std 3.93 CV 0.55 (healthy 0.35-0.9) min 2 max 17
+histogram: 1-3:###3  4-6:#######7  7-10:####4  11-15:###3  16-20:#1  21+:0
+pauses: 9 totalling 2.45 s, mean 0.27 s; longest run without a pause 10.0 s
+ellipses 0 | questions 4 (unanswered: none) | density mean 0.11 max 1
+hook (first 3 s): "A wave of molasses, taller than a bus," -> 7/10 (first sentence 11 words (good); concrete name/number)
+intensity per 5 s: ▄▄▃▃▃▄▃▃▄▃▄  [4.5, 5.5, 3.5, 3.5, 3.8, 5.5, 4.2, 3.8, 5.5, 4.2, 4.5]  peak S10 at 28.2 s
+script mix: Devanagari 0 | Roman 129 | numeric 0 | Roman share 100%
+
+sentences:
+  S1     0.0s  11w  int  3.5  A wave of molasses, taller than a bus, just hit Boston.
+  S2     4.4s   2w  int  5.5  January, nineteen-nineteen.
+  S3     5.2s   6w  int  5.5  How does syrup kill twenty-one people?
+  S4     7.8s  15w  int  3.5  Two million gallons burst from one tank and ran at around thirty-five miles an …
+  S5    13.6s  11w  int  3.0  Molasses is about one and a half times heavier than water.
+  S6    18.1s   7w  int  4.0  Then the cold thickened it, like glue.
+  S7    20.8s   7w  int  3.0  Many victims died because they were stuck.
+  S8    23.8s   4w  int  4.5  This wasn't bad luck.
+  S9    25.3s   6w  int  4.5  That tank leaked from day one.
+  S10   27.6s   3w  int  6.5  The company's fix?
+  S11   29.1s   8w  int  3.0  Paint it brown, so the leaks wouldn't show.
+  S12   32.5s   5w  int  5.5  So how does syrup kill?
+  S13   34.4s   5w  int  4.5  Weight, cold, and warnings ignored.
+  S14   36.6s  17w  int  3.0  The owners were found liable, and Boston began making engineers file their math…
+  S15   43.1s   3w  int  5.5  They still do.
+  S16   44.6s   8w  int  4.0  Would you have lived next to that tank?
+  S17   47.8s   5w  int  4.5  Slow as molasses, they say.
+  S18   49.8s   6w  int  4.5  Not the day it hit Boston.
+
+FINDINGS + REWRITE SUGGESTIONS:
+  [LOW   ] REPEATED_PHRASE      -: phrase "does syrup kill" occurs 2 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).
+  [LOW   ] REPEATED_STRUCTURE   S6,S7,S8: S6-S8 have the same length band and ending
+           -> change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line.
