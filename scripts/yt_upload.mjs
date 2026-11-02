@@ -105,7 +105,7 @@ async function upload() {
   const title = read("title-file") ?? args.title ?? die("--title-file or --title required");
   const description = read("desc-file") ?? args.description ?? "";
   if (title.length > 100) die(`title is ${title.length} chars (max 100)`);
-  const privacy = args.privacy ?? "private";
+  const privacy = args.privacy ?? "public"; // owner: upload public by default
   const status = { privacyStatus: args["publish-at"] ? "private" : privacy, selfDeclaredMadeForKids: false, containsSyntheticMedia: args.ai !== "false" };
   if (args["publish-at"]) status.publishAt = new Date(args["publish-at"]).toISOString();
   const lang = args.lang ?? "en";

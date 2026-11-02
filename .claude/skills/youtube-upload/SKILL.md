@@ -29,6 +29,7 @@ node scripts/yt_upload.mjs upload global --file out/<slug>/<slug>-en-final.mp4 \
   --title-file out/upload/<slug>-title.txt --desc-file out/upload/<slug>-description.txt \
   --tags "tag one,tag two" --lang en [--privacy private|unlisted|public] [--publish-at 2026-11-03T08:00:00-05:00] [--thumb brand/<slug>-thumb.png]
 ```
+- Default privacy is **public** (owner's choice); pass `--privacy private` only if asked.
 - Always set: not made for kids, category 27 (Education), AI-altered content = true (done by default).
 - `--publish-at` schedules (video stays private until then).
 - Report back the `https://youtube.com/shorts/<id>` link.
