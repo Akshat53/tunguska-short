@@ -610,15 +610,18 @@ const drawFront = (p: KPen, P: Person, pose: Pose): Anchors => {
     const S: P2 = [cx + side * (swk - 0.1 * H), sh + 0.07 * H];
     const sw = walkK ? Math.sin(TAU * ph) * side * 0.6 * walkK : I.shift * 0.08 * side;
     const tg = armTarget(g, side, S, r, cx, I.t, pose.wave ?? 0, sw);
-    if (g === "hang") { tg.T = [S[0] + side * 0.1 * H + sw * 0.25 * H, hip + 0.02 * H - Math.abs(sw) * 0.08 * H]; }
+    if (g === "hang") { // relaxed arm: almost straight, angled a little away from the body, hand beside the thigh (no kinked elbow)
+      const reach = (r.ua + r.fa) * 0.975, ang = Math.PI / 2 - side * (0.11 + 0.02 * Math.abs(sw)) + sw * 0.35;
+      tg.T = [S[0] + Math.cos(ang) * reach, S[1] + Math.sin(ang) * reach]; tg.bend = side; tg.dir = ang - side * 0.08;
+    }
     const [E, Wr] = ik2(S, tg.T, r.ua, r.fa, tg.bend);
     const line = [S, lerp2(S, E, 0.5), E, lerp2(E, Wr, 0.5), Wr];
     const sleeveLong = !G.sleeveless && !G.short && !(L.extras ?? []).includes("rolled_sleeves");
     if (skinArm) p.poly(tube(line, 0.21 * H, 0.13 * H), P.skin);
     else {
-      if (!sleeveLong) p.poly(tube([lerp2(S, E, 0.4), E, lerp2(E, Wr, 0.5), Wr], 0.19 * H, 0.13 * H), P.skin);
-      const up = G.short ? tube([S, lerp2(S, E, 0.6)], 0.27 * H, 0.24 * H)
-        : (L.extras ?? []).includes("rolled_sleeves") ? tube([S, lerp2(S, E, 0.5), E, lerp2(E, Wr, 0.2)], 0.25 * H, 0.2 * H) : tube(line, 0.25 * H, 0.17 * H);
+      if (!sleeveLong) p.poly(tube([lerp2(S, E, 0.4), E, lerp2(E, Wr, 0.5), Wr], 0.17 * H, 0.13 * H), P.skin);
+      const up = G.short ? tube([S, lerp2(S, E, 0.6)], 0.23 * H, 0.21 * H)
+        : (L.extras ?? []).includes("rolled_sleeves") ? tube([S, lerp2(S, E, 0.5), E, lerp2(E, Wr, 0.2)], 0.22 * H, 0.18 * H) : tube(line, 0.22 * H, 0.16 * H);
       form(p, up, sleeveCol, light, 0.8); p.pattern(up, L.topPat, L.topPatCol ?? tint(topCol, 0.35), u / 1.2); p.poly(up, null);
       if (sleeveLong) {
         const cuffC = L.top === "officer_coat" ? (L.trimCol ?? "#1f3a5a") : L.trimCol;

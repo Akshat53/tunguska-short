@@ -119,7 +119,7 @@ SIZE=540x960 NO_INTRO=1 PRE_OUTRO_CARD=brand/molasses-1919-thumb.png PRE_OUTRO_S
   bash scripts/finish.sh out/molasses-1919/picture-half.mp4 out/molasses-1919/molasses-1919-en-draft-half.mp4 0 1.5
 ```
 (set `"bookends": {"intro": 0, "outro": 57}` in the story's `scripts/qa.config.<slug>.json` = (0.4 + 1.5) s x 30.)
-Captions (optional, recommended for Hindi Shorts): render `<Captions>` from `src/engine/kit/captions.tsx` in the composition, driven by `words.json` (see `docs/VISUAL_KIT.md`, example `src/videos/chapati-1857/Chapati.tsx`); place them per shot so they never cover faces.
+Captions: **owner decision (Nov 2026): no burned-in captions in any new video** (English or Hindi). The kit `<Captions>` (`src/engine/kit/captions.tsx`) stays for old videos only; don't add it to new ones.
 Then **open the contact sheet and frames and look**: subjects in frame, nothing washed out, the story's key objects readable.
 Send the draft to the owner before the final.
 
