@@ -9,7 +9,8 @@ import type { Card, V3 } from "../../engine/kit/stage";
 import { drawPerson, type Person, type Pose, type Anchors, type Gesture } from "../../engine/kit/people";
 import { KPen, SKINS, hash, pick, shade, PAL, type P2 } from "../../engine/kit/core";
 import type { Expr } from "../../engine/kit/face";
-import { handFlag, tubeAt } from "./art";
+import { handFlag } from "./art";
+import { tubeAt3d } from "./props3d";
 
 const H = (seed: number, k: number) => hash(seed * 1.73 + 0.41, k);
 const DARK = SKINS.slice(4);                        // natural deep warm tones
@@ -99,8 +100,11 @@ const stethX: Extra = (k, A, P) => {
   k.stroke([[x + 0.32 * h, ny], [x + 0.22 * h, ny + 0.45 * h]], 0.05 * h, "#2a3a3e");
   k.ell(x + 0.08 * h, ny + 0.72 * h, 0.08 * h, 0.08 * h, "#c9ced0", k.ow * 0.6);
 };
-/** a test tube held up in the near hand */
-const tubeX = (liquid: string): Extra => (k, A, P) => { const { H: h } = rigH(P), hd = A.hands[1] ?? A.hands[0]; if (hd) tubeAt(k, hd[0], hd[1] - 0.05 * h, 1.1 * h, liquid); };
+/** a test tube held up in the raised (highest) hand, to the light */
+const tubeX = (liquid: string): Extra => (k, A, P) => {
+  const { H: h } = rigH(P), hd = A.hands.reduce<(typeof A.hands)[number] | undefined>((m, c) => (!m || c[1] < m[1] ? c : m), undefined);
+  if (hd) tubeAt3d(k, hd[0], hd[1] - 0.05 * h, 1.25 * h, liquid);
+};
 /** a Tanganyika hand flag in the raised hand */
 const flagX = (w: number): Extra => (k, A, P) => { const { H: h } = rigH(P); const hd = A.hands.reduce<P2 | undefined>((m, q) => (!m || q[1] < m[1] ? q : m), undefined); if (hd) handFlag(k, hd[0], hd[1], 0.75 * h, w); };
 /** a piece of chalk in the pointing hand */

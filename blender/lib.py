@@ -78,3 +78,59 @@ def render():
 def args(default_size=1024):
     a = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
     return (a[0] if a else "/tmp/prop.png"), (int(a[1]) if len(a) > 1 else default_size)
+
+# ---- extra helpers (props with moving parts / glass) ----
+def holdout(name="holdout"):
+    """Cut-out material: the object punches a transparent hole (e.g. a wheel drawn as a separate, rotating sprite behind)."""
+    m = bpy.data.materials.new(name); m.use_nodes = True
+    nt = m.node_tree; nt.nodes.clear()
+    h = nt.nodes.new("ShaderNodeHoldout"); out = nt.nodes.new("ShaderNodeOutputMaterial")
+    nt.links.new(h.outputs[0], out.inputs[0])
+    return m
+
+def sheer(name, hexcol, alpha=0.45, shade=0.8, light=1.08):
+    """Semi-transparent cel material (mosquito net, thin glass): toon bands mixed with a transparent BSDF."""
+    m = toon(name, hexcol, shade, light); nt = m.node_tree
+    out = [n for n in nt.nodes if n.type == "OUTPUT_MATERIAL"][0]; emi = [n for n in nt.nodes if n.type == "EMISSION"][0]
+    tr = nt.nodes.new("ShaderNodeBsdfTransparent"); mix = nt.nodes.new("ShaderNodeMixShader")
+    mix.inputs[0].default_value = alpha
+    nt.links.new(tr.outputs[0], mix.inputs[1]); nt.links.new(emi.outputs[0], mix.inputs[2]); nt.links.new(mix.outputs[0], out.inputs[0])
+    try: m.surface_render_method = "BLENDED"
+    except Exception: pass
+    return m
+
+def lathe(name, prof, n=40, axis_z=True, wob=None):
+    """Spin a (radius, z) profile around Z into a mesh object. wob(a, z) -> radius multiplier (folds, flutes)."""
+    me = bpy.data.meshes.new(name); verts = []; faces = []; m = len(prof)
+    for i in range(n):
+        a = 2 * math.pi * i / n
+        for r, z in prof:
+            k = wob(a, z) if wob else 1.0
+            verts.append((r * k * math.cos(a), r * k * math.sin(a), z))
+    for i in range(n):
+        for j in range(m - 1):
+            a0, a1 = i * m + j, ((i + 1) % n) * m + j
+            faces.append((a0, a1, a1 + 1, a0 + 1))
+    me.from_pydata(verts, [], faces); me.update()
+    ob = bpy.data.objects.new(name, me); bpy.context.scene.collection.objects.link(ob)
+    return ob
+
+def meta(out, points, margin=8):
+    """After render(): write <out>.json with named world points projected into the CROPPED image's pixels (crop.py uses
+    the same alpha bbox + margin), plus the cropped size, so a video can place moving parts (wheels) on the static image."""
+    import json
+    from bpy_extras.object_utils import world_to_camera_view
+    import numpy as np
+    sc = bpy.context.scene; W = sc.render.resolution_x; H = sc.render.resolution_y
+    im = bpy.data.images.load(out); px = np.empty(W * H * 4, dtype=np.float32); im.pixels.foreach_get(px)
+    a = px.reshape(H, W, 4)[::-1, :, 3]  # Blender stores rows bottom-up
+    ys, xs = np.nonzero(a > 0.5 / 255)
+    x0, y0 = max(0, xs.min() - margin), max(0, ys.min() - margin)
+    x1, y1 = min(W, xs.max() + 1 + margin), min(H, ys.max() + 1 + margin)
+    res = {"w": int(x1 - x0), "h": int(y1 - y0)}
+    for k, p in points.items():
+        v = world_to_camera_view(sc, sc.camera, Vector(p))
+        res[k] = [round(v.x * W - x0, 1), round((1 - v.y) * H - y0, 1)]
+    if sc.camera.data.type == "ORTHO": res["px_per_m"] = round(W / sc.camera.data.ortho_scale, 3)
+    with open(out[:-4] + ".json", "w") as fh: json.dump(res, fh)
+    print("meta", res)

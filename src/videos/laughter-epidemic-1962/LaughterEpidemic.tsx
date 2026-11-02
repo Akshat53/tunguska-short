@@ -18,6 +18,8 @@ import { GRADE_HAZE } from "../../engine/kit/looks";
 import { TOTAL, FLASHES, SHOTS, PILL, layersAt } from "./story";
 import { KIT_FONT, useKitFont } from "../../engine/kit/captions";
 import { GRADE_OF } from "./lights";
+import { useKitAssets } from "../../engine/kit/assets";
+import { PROP3D } from "./props3d";
 
 export const LAUGHTER_EPIDEMIC_FRAMES = TOTAL;
 
@@ -104,8 +106,9 @@ const Pill: React.FC<{ f: number }> = ({ f }) => {
 export const LaughterEpidemicShort: React.FC = () => {
   const f = useCurrentFrame();
   const ready = useKitFont();   // map / board / calendar text and the pill use Baloo 2
+  const props = useKitAssets(PROP3D);   // Blender props (public/props), drawn inside cards: wait until decoded
   const flash = flashAt(f);
-  if (!ready) return <AbsoluteFill style={{ background: "#86c0e4" }} />;
+  if (!ready || !props) return <AbsoluteFill style={{ background: "#86c0e4" }} />;
   return (
     <AbsoluteFill style={{ background: "#86c0e4" }}>
       {layersAt(f).map((l, i) => <ShotView key={i ? "over" : "base"} id={l.id} alpha={l.alpha} />)}

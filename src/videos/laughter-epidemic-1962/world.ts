@@ -24,10 +24,11 @@ import {
 } from "./story";
 import { LIGHTING } from "./lights";
 import {
-  schoolHouse, bananaTree, hillsFar, roundHut, tinHouse, lorry, suitcase, classWall, desk, girlBack, boardWall, teacherTable, bench,
-  dormWall, bed, trunk, wallClock, clinicWall, labTable, mapCard, MAP_PTS, flagPole, buntingTZ, earthPaint, grassPaint, floorPaint, tilePaint,
+  schoolHouse, bananaTree, hillsFar, roundHut, tinHouse, suitcase, classWall, desk, girlBack, boardWall, teacherTable, bench,
+  dormWall, trunk, wallClock, clinicWall, mapCard, MAP_PTS, flagPole, buntingTZ, earthPaint, grassPaint, floorPaint, tilePaint,
   glowDot, ring, dustPuff, calendar,
 } from "./art";
+import { lorry3d, labTable3d, LAB_DW, LAB_DH, LAB_BASE, bed3d, BED_DW, BED_DH, BED_BASE, BED_W } from "./props3d";
 import {
   schoolgirl, villager, crowdPerson, HOOK_A as GA, HOOK_B as GB, TEACHER, TEACHER2, MISTRESS, OFFICIAL1, OFFICIAL2, DRIVER, DOC1, DOC2, NURSE,
   MOTHER_P, FATHER_P, HOMEGIRL, HOLDOUT, X, laughFit, panic, personCard, propCard, type Dressed,
@@ -201,8 +202,9 @@ const school = (id: number, f: number, cam: THREE.PerspectiveCamera, light: Ligh
     if (R > 0 && R < 30) out.push({ key: "ring", draw: (p) => ring(p, "#5fe0c8"), dw: 512, dh: 512, w: (2 * R) / 0.9, pos: [rp.o[0], 0.05, rp.o[2]], face: "flat", add: true, lit: false, glow: 1.3 * (1 - clamp01((R - 8) / 8)), maxPx: 1024 });
   }
   if (id === 9 || id === 10) {
-    const lx = lorryX(id, f), wheel = id === 10 ? -(lx - LORRY0[0]) / 0.55 : 0;
-    out.push(propCard(`lorry${Math.round(wheel * 4) / 4}`, (p) => lorry(p, Math.round(wheel * 4) / 4), 1400, 760, 750, LORRY_W, [lx, 0, ROAD_Z], { face: "fixed" }));
+    // road wheels roll with the distance driven (r = 0.46 m), folded into one sixth of a turn (the wheel has 6-fold symmetry)
+    const lx = lorryX(id, f), wheel = Math.round(((((lx - LORRY0[0]) / 0.46) % (Math.PI / 3)) * 20)) / 20;
+    out.push(propCard(`lorry${wheel}`, (p) => lorry3d(p, wheel), 1400, 760, 750, LORRY_W, [lx, 0, ROAD_Z], { face: "fixed" }));
     out.push(personCard("driver", DRIVER, { t, expr: "worried", arms: ["hold", "cover"], turn: 0.4, look: [0.5, 0] }, [lx + 1.75, 0.55, ROAD_Z - 0.25], { scale: 0.85 }));
     // girls in the lorry bed (bed floor ~1.04 m)
     for (let k = 0; k < 6; k++) {
@@ -242,7 +244,7 @@ const DORM_STATIC: Card[] = (() => {
   const out: Card[] = [];
   out.push(propCard("dwall", (p) => dormWall(p, 1), 3000, 1400, 1400, 10, [0, 0, DORM_BACK], { face: "fixed" }));
   for (const sx of [-1, 1]) out.push(propCard(`dside${sx}`, (p) => dormWall(p, sx > 0 ? 3 : 2), 3000, 1400, 1400, 10, [sx * 4.8, 0, 2.0], { face: "fixed", yaw: -sx * Math.PI / 2 }));
-  BEDS.forEach((x, i) => out.push(propCard(`bed${i}`, (p) => bed(p, i, i === 0 || i === 3), 1200, 1200, 1190, 2.0, [x, 0, BED_Z], { face: "fixed" })));
+  BEDS.forEach((x, i) => out.push(propCard(`bed${i}`, (p) => bed3d(p, i === 0 || i === 3), BED_DW, BED_DH, BED_BASE, BED_W, [x, 0, BED_Z], { face: "fixed" })));
   [[-2.6, 0], [2.5, 2], [-0.3, 1]].forEach(([x, s]) => out.push(propCard(`trunk${s}`, (p) => trunk(p, s), 500, 300, 295, 0.8, [x, 0, BED_Z + 0.55], { face: "fixed" })));
   return out;
 })();
@@ -277,7 +279,7 @@ const dorm = (id: number, f: number): Built => {
 const clinic = (id: number, f: number): Built => {
   const t = f / FPS, out: Card[] = [];
   out.push(propCard("clwall", (p) => clinicWall(p, 1), 3000, 1400, 1400, 10, [0, 0, -3.2], { face: "fixed" }));
-  out.push(propCard("lab", labTable, 1400, 640, 630, 3.0, [0.2, 0, TABLE_Z], { face: "fixed" }));
+  out.push(propCard("lab", labTable3d, LAB_DW, LAB_DH, LAB_BASE, 3.0, [0.2, 0, TABLE_Z], { face: "fixed" }));
   out.push(propCard("cbench", bench, 1000, 400, 395, 1.6, [-2.45, 0, PATIENT[2] + 0.35], { face: "fixed" }));
   const shake = f >= 845 ? Math.sin((f - 845) / FPS * Math.PI * 2 * 1.6) * smooth((f - 845) / 6) * (1 - smooth((f - 872) / 8)) : 0;
   // doctor 1: raises a test tube to the light ("Poison?"), then shakes his head
