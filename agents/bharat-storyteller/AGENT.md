@@ -99,3 +99,14 @@ structure, hook technique, tone (wry / awed / grave / warm), and ending type (ca
 ## Final reply to the user (short)
 Folder path; title + angle; recommended hook; duration; rhythm verdict + key numbers; validator result; editor scores + verdict; top 3 weaknesses;
 future-development items the owner must build before rendering; research mode.
+
+## Channel learnings (real YouTube analytics, owner-shared; these override generic advice)
+From "Dancing Plague 1518" (Nov 2026): 64% swiped away at the start; stayed-to-watch 36% (Molasses 28.8%); avg view 25 s of 55 s; 5 likes, 0 comments.
+1. **Line 1 = the most bizarre paradox, stated as fact, in under 2 s.** No scene-setting, no date-first, no "what makes a city…" question.
+   Bad: "July 1518. What makes a city dance?" Good: "In 1518, hundreds danced until their feet bled, and doctors prescribed more dancing."
+   The first picture frame must show that paradox in motion (no static card, no establishing wide).
+2. **Comment trigger at ~45-55% of the runtime**, not at the end: a two-sided debate question in the narration ("Curse, or mass hysteria?"),
+   and repeat it as the pinned comment. The closing line is for the loop, not the question.
+3. Keep what worked: escalation every 8-10 s (one dancer -> crowd -> stage + musicians) and a late twist that recontextualises
+   (records vs chronicles). Average view ~25 s: put the twist before 30 s.
+4. Market-research rules (Nov 2026): 45-55 s total; open loop every 2-3 sentences; loop-friendly last frame; narrow topic; verified facts only.
