@@ -1,0 +1,258 @@
+{
+ "_doc": "Visual QA config for The Tanganyika Laughter Epidemic 1962 (English, Inkfall). Frames are STORY frames (= picture frames; identity warp). Default layout: the thumbnail held still 0.6 s as the opening card (INTRO_STATIC=1), then the picture, then the 1.5 s global end card (a no-card version uses bookends intro 0). See docs/VISUAL_QA.md.",
+ "story": "src/videos/laughter-epidemic-1962/story.ts",
+ "storyboard": "src/videos/laughter-epidemic-1962/storyboard.json",
+ "warp": "src/videos/laughter-epidemic-1962/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 18,
+  "outro": 45
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "girls": {
+   "below": 1.0,
+   "above": 1.0,
+   "halfWidth": 2.5
+  },
+  "hookA": {
+   "below": 0.35,
+   "above": 0.3,
+   "halfWidth": 0.3
+  },
+  "teacher": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.45
+  },
+  "school": {
+   "below": 1.6,
+   "above": 4.0,
+   "halfWidth": 8
+  },
+  "yard": {
+   "below": 0.8,
+   "above": 1.0,
+   "halfWidth": 7
+  },
+  "faint": {
+   "below": 0.9,
+   "above": 0.8,
+   "halfWidth": 1.0
+  },
+  "bedgirl": {
+   "below": 0.5,
+   "above": 0.4,
+   "halfWidth": 0.35
+  },
+  "officials": {
+   "below": 1.0,
+   "above": 0.9,
+   "halfWidth": 2.5
+  },
+  "lorry": {
+   "below": 1.5,
+   "above": 1.4,
+   "halfWidth": 2.6
+  },
+  "map": {
+   "below": 0.1,
+   "above": 0.1,
+   "halfWidth": 3.5
+  },
+  "doctors": {
+   "below": 0.6,
+   "above": 0.5,
+   "halfWidth": 0.9
+  },
+  "home": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.8
+  },
+  "village": {
+   "below": 0.8,
+   "above": 1.0,
+   "halfWidth": 6
+  },
+  "flag": {
+   "below": 2.4,
+   "above": 1.0,
+   "halfWidth": 1.4
+  },
+  "board": {
+   "below": 0.8,
+   "above": 1.2,
+   "halfWidth": 2.5
+  },
+  "studier": {
+   "below": 0.35,
+   "above": 0.3,
+   "halfWidth": 0.3
+  },
+  "calendar": {
+   "below": 0.42,
+   "above": 0.42,
+   "halfWidth": 0.36
+  },
+  "crowd": {
+   "below": 0.9,
+   "above": 1.0,
+   "halfWidth": 7
+  },
+  "holdout": {
+   "below": 0.35,
+   "above": 0.3,
+   "halfWidth": 0.3
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    "hookA"
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    "school"
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "hookA"
+   ],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    "school"
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    {
+     "name": "teacher",
+     "to": 340
+    },
+    {
+     "name": "girls",
+     "from": 340
+    }
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    "yard"
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "faint"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    "bedgirl"
+   ],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    "officials"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "lorry"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    "map"
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    "doctors"
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [
+    "home"
+   ],
+   "fill": null
+  },
+  "14": {
+   "subjects": [
+    "village"
+   ],
+   "fill": null
+  },
+  "15": {
+   "subjects": [
+    "flag"
+   ],
+   "fill": null
+  },
+  "16": {
+   "subjects": [
+    "board"
+   ],
+   "fill": null
+  },
+  "17": {
+   "subjects": [
+    "studier"
+   ],
+   "fill": null
+  },
+  "18": {
+   "subjects": [
+    "calendar"
+   ],
+   "fill": null
+  },
+  "19": {
+   "subjects": [
+    "crowd"
+   ],
+   "fill": null
+  },
+  "20": {
+   "subjects": [
+    "board"
+   ],
+   "fill": null
+  },
+  "21": {
+   "subjects": [
+    {
+     "name": "holdout",
+     "to": 1545
+    },
+    {
+     "name": "hookA",
+     "from": 1545
+    }
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

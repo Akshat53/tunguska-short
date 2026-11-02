@@ -1,0 +1,504 @@
+{
+  "verdict": "REVISE",
+  "hardFailures": [],
+  "timingSource": "words.json",
+  "durationSec": 52.53,
+  "words": 130,
+  "wps": 2.6,
+  "measuredWps": 2.47,
+  "requiredWpsForTarget": 2.48,
+  "sentences": 26,
+  "lengths": {
+    "values": [
+      8,
+      2,
+      1,
+      8,
+      4,
+      3,
+      4,
+      2,
+      2,
+      7,
+      9,
+      2,
+      7,
+      1,
+      1,
+      3,
+      4,
+      4,
+      6,
+      15,
+      6,
+      7,
+      4,
+      6,
+      8,
+      6
+    ],
+    "mean": 5,
+    "std": 3.14,
+    "cv": 0.63,
+    "min": 1,
+    "max": 15,
+    "histogram": {
+      "1-3": 9,
+      "4-6": 9,
+      "7-10": 7,
+      "11-15": 1,
+      "16-20": 0,
+      "21+": 0
+    }
+  },
+  "pauses": {
+    "count": 0,
+    "totalSec": 0.0,
+    "meanSec": 0,
+    "longestRunWithoutPauseSec": 52.5,
+    "at": []
+  },
+  "ellipses": 2,
+  "questions": {
+    "count": 5,
+    "unanswered": [
+      14,
+      26
+    ]
+  },
+  "density": {
+    "perSentence": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "mean": 0.12,
+    "max": 1
+  },
+  "hook": {
+    "text": "In 1962, an epidemic shut down fourteen schools.",
+    "firstSentenceWords": 8,
+    "score": 7,
+    "notes": [
+      "first sentence 8 words (good)",
+      "concrete name/number"
+    ],
+    "banned": []
+  },
+  "intensity": {
+    "perSentence": [
+      3.5,
+      6.5,
+      5.5,
+      3.5,
+      5.0,
+      5.5,
+      4.5,
+      5.5,
+      5.5,
+      4.0,
+      3.0,
+      5.5,
+      3.0,
+      6.5,
+      6.5,
+      5.5,
+      5.5,
+      4.5,
+      4.5,
+      3.0,
+      4.5,
+      3.0,
+      5.0,
+      5.5,
+      3.5,
+      5.5
+    ],
+    "per5s": [
+      5.0,
+      4.5,
+      5.0,
+      5.0,
+      3.8,
+      6.0,
+      4.5,
+      3.0,
+      3.8,
+      4.7,
+      5.5
+    ],
+    "curve": "▄▄▄▄▃▅▄▂▃▄▄",
+    "peakSentence": 15,
+    "peakSec": 27.3
+  },
+  "hinglish": {
+    "devanagari": 0,
+    "roman": 129,
+    "numeric": 1,
+    "romanShare": 1.0
+  },
+  "findings": [
+    {
+      "type": "MONOTONE_RUN",
+      "severity": "high",
+      "sentences": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "problem": "sentences 5-9 are all 2-4 words with the same shape (5 in a row)",
+      "suggestion": "break the pattern: merge S5+S6 into one flowing sentence (\"Three students began laughing…, and couldn't stop.\"), or cut S9 to a 2-3 word beat, or turn one into a question that the next line answers."
+    },
+    {
+      "type": "UNANSWERED_QUESTION",
+      "severity": "high",
+      "sentences": [
+        14
+      ],
+      "problem": "S14 asks a question nothing later answers: \"Poison?\"",
+      "suggestion": "answer it (ideally at the revelation) or turn it into a statement."
+    },
+    {
+      "type": "UNANSWERED_QUESTION",
+      "severity": "high",
+      "sentences": [
+        26
+      ],
+      "problem": "S26 asks a question nothing later answers: \"how long could you hold out?\"",
+      "suggestion": "answer it (ideally at the revelation) or turn it into a statement."
+    },
+    {
+      "type": "NO_BEAT",
+      "severity": "medium",
+      "sentences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "problem": "53 s of continuous speech without a pause (0.0-52.5 s)",
+      "suggestion": "add [pause 0.3] after S2 (the strongest line in the stretch) or a blank-line beat break."
+    },
+    {
+      "type": "CHOPPY",
+      "severity": "medium",
+      "sentences": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        23
+      ],
+      "problem": "54% of sentences are 4 words or fewer: every line sounds like a trailer",
+      "suggestion": "merge pairs of short lines into medium explanatory sentences; keep short punches only for reveals and turns."
+    },
+    {
+      "type": "REPEATED_OPENER",
+      "severity": "medium",
+      "sentences": [
+        19,
+        20,
+        21
+      ],
+      "problem": "3 sentences in a row start with \"the\" (S19-S21)",
+      "suggestion": "keep the first; start S20 with its subject or a time/place (\"country had won independence just weeks…\"), or join two with a contrast/cause (लेकिन / इसलिए)."
+    },
+    {
+      "type": "REPEATED_OPENER",
+      "severity": "low",
+      "sentences": [
+        2,
+        10,
+        13,
+        19,
+        20,
+        21
+      ],
+      "problem": "6 sentences open with \"the\" across the script",
+      "suggestion": "rephrase two of them so the ear does not hear a template."
+    },
+    {
+      "type": "REPEATED_STRUCTURE",
+      "severity": "low",
+      "sentences": [
+        21,
+        22,
+        23
+      ],
+      "problem": "S21-S23 have the same length band and ending",
+      "suggestion": "change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line."
+    }
+  ],
+  "sentenceTable": [
+    {
+      "i": 1,
+      "start": 0.0,
+      "words": 8,
+      "intensity": 3.5,
+      "entities": [
+        "1962"
+      ],
+      "text": "In 1962, an epidemic shut down fourteen schools."
+    },
+    {
+      "i": 2,
+      "start": 4.36,
+      "words": 2,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "The symptom?"
+    },
+    {
+      "i": 3,
+      "start": 5.29,
+      "words": 1,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "Laughter."
+    },
+    {
+      "i": 4,
+      "start": 6.39,
+      "words": 8,
+      "intensity": 3.5,
+      "entities": [
+        "Tanganyika"
+      ],
+      "text": "It started at a girls' school in Tanganyika."
+    },
+    {
+      "i": 5,
+      "start": 9.08,
+      "words": 4,
+      "intensity": 5.0,
+      "entities": [],
+      "text": "Three students began laughing…"
+    },
+    {
+      "i": 6,
+      "start": 11.11,
+      "words": 3,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "and couldn't stop."
+    },
+    {
+      "i": 7,
+      "start": 12.57,
+      "words": 4,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Soon, ninety-five had it."
+    },
+    {
+      "i": 8,
+      "start": 14.66,
+      "words": 2,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "They cried."
+    },
+    {
+      "i": 9,
+      "start": 15.54,
+      "words": 2,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "They fainted."
+    },
+    {
+      "i": 10,
+      "start": 16.55,
+      "words": 7,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "The fits lasted hours, then came back."
+    },
+    {
+      "i": 11,
+      "start": 19.61,
+      "words": 9,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "So officials closed the school and sent everyone home."
+    },
+    {
+      "i": 12,
+      "start": 22.8,
+      "words": 2,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "Big mistake."
+    },
+    {
+      "i": 13,
+      "start": 23.96,
+      "words": 7,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "The girls carried it to their villages."
+    },
+    {
+      "i": 14,
+      "start": 26.14,
+      "words": 1,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "Poison?"
+    },
+    {
+      "i": 15,
+      "start": 26.94,
+      "words": 1,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "Infection?"
+    },
+    {
+      "i": 16,
+      "start": 27.89,
+      "words": 3,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "Doctors found neither."
+    },
+    {
+      "i": 17,
+      "start": 29.34,
+      "words": 4,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "So what was it?"
+    },
+    {
+      "i": 18,
+      "start": 30.42,
+      "words": 4,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Tell me your theory."
+    },
+    {
+      "i": 19,
+      "start": 31.8,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "The leading explanation: mass psychogenic illness."
+    },
+    {
+      "i": 20,
+      "start": 35.29,
+      "words": 15,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "The country had won independence just weeks earlier, and these students lived under intense pressure."
+    },
+    {
+      "i": 21,
+      "start": 40.78,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "The stress came out as laughter."
+    },
+    {
+      "i": 22,
+      "start": 42.85,
+      "words": 7,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "It took over a year to fade."
+    },
+    {
+      "i": 23,
+      "start": 44.89,
+      "words": 4,
+      "intensity": 5.0,
+      "entities": [
+        "thousand"
+      ],
+      "text": "Around a thousand people."
+    },
+    {
+      "i": 24,
+      "start": 46.56,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "And there was never a joke."
+    },
+    {
+      "i": 25,
+      "start": 48.24,
+      "words": 8,
+      "intensity": 3.5,
+      "entities": [],
+      "text": "If everyone around you started laughing right now…"
+    },
+    {
+      "i": 26,
+      "start": 51.15,
+      "words": 6,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "how long could you hold out?"
+    }
+  ]
+}

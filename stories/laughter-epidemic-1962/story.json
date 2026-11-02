@@ -1,0 +1,25 @@
+{
+  "slug": "laughter-epidemic-1962",
+  "composition": "LaughterEpidemicShort",
+  "title": "In 1962, Laughter Shut Down 14 Schools. Nobody Told a Joke.",
+  "channel": "global",
+  "languages": {
+    "en": {
+      "voice": "ElevenLabs George JBFqnCBsd6RMkjVDRZzb, eleven_v4, 0.6 / 0.75 (EL_LANG=en). The 57.6 s take was time-compressed x1.1 (ffmpeg atempo=1.1 on voice.loose.wav, words.loose.json timings / 1.1), then tighten_pauses -> 52.46 s. Final: the picture is timed on words.json, do not regenerate. Original take kept in out/laughter-epidemic-1962/take1/.",
+      "rate": "",
+      "dir": "en",
+      "audio": "out/laughter-epidemic-1962/audio/mix.wav"
+    }
+  },
+  "commands": {
+    "voice": "EL_LANG=en node --env-file=.env.local scripts/make_voice_el.mjs stories/laughter-epidemic-1962/en JBFqnCBsd6RMkjVDRZzb eleven_v4 0.6 0.75 && ffmpeg -y -i stories/laughter-epidemic-1962/en/voice.loose.wav -af atempo=1.1 -ar 44100 -ac 1 <tmp> (scale words.loose.json by 1/1.1) && .venv/bin/python scripts/tighten_pauses.py stories/laughter-epidemic-1962/en",
+    "audio": "bash audio/build_laughter-epidemic-1962.sh",
+    "thumbnail": "bash scripts/export_brand.sh laughter-epidemic-1962-thumb",
+    "draft": "COMP=LaughterEpidemicShort GL=angle CONC=6 node scripts/render.mjs out/laughter-epidemic-1962/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1},\"captions\":false}' && SIZE=540x960 INTRO_STATIC=1 INTRO_CARD=brand/laughter-epidemic-1962-thumb.png AUDIO_OUT=out/laughter-epidemic-1962/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/laughter-epidemic-1962/picture-half.mp4 out/laughter-epidemic-1962/laughter-epidemic-1962-en-draft-half.mp4 0.6 1.5",
+    "picture": "COMP=LaughterEpidemicShort GL=angle CONC=6 node scripts/render.mjs out/laughter-epidemic-1962/picture.mp4 all 1 '{\"post\":{\"dpr\":1},\"captions\":false}'",
+    "final_card": "INTRO_STATIC=1 INTRO_CARD=brand/laughter-epidemic-1962-thumb.png AUDIO_OUT=out/laughter-epidemic-1962/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/laughter-epidemic-1962/picture.mp4 out/laughter-epidemic-1962/laughter-epidemic-1962-en-final.mp4 0.6 1.5",
+    "final_nocard": "NO_INTRO=1 AUDIO_OUT=out/laughter-epidemic-1962/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/laughter-epidemic-1962/picture.mp4 out/laughter-epidemic-1962/laughter-epidemic-1962-en-final-nocard.mp4 0 1.5",
+    "qa": "bash scripts/qa.sh <mp4> out/laughter-epidemic-1962/qa-final && node --no-warnings scripts/qa-story-data.mjs --config scripts/qa.config.laughter-epidemic-1962.json --out out/laughter-epidemic-1962/qa-final/qa-story.json && .venv/bin/python scripts/visual_qa.py <mp4> --story out/laughter-epidemic-1962/qa-final/qa-story.json --audio-report out/laughter-epidemic-1962/audio/audio_report.json --out out/laughter-epidemic-1962/qa-final  (no-card version: same config with bookends.intro = 0, out/laughter-epidemic-1962/qa-final-nocard/config.json)"
+  },
+  "note": "No captions. One debate pill 'Poison… or the mind? 👇' at frames 884-952 (src/videos/laughter-epidemic-1962/story.ts PILL). Loop: shot 21 cuts back to the hook camera on the hook clock at 1545, so the last picture frame matches frame 0. Upload text: out/upload/laughter-title.txt, laughter-description.txt, laughter-pinned.txt."
+}

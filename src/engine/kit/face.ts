@@ -4,7 +4,7 @@
 import { KPen, P2, clamp, lerp, hash, noise1, mix, shade, rgba, ellPts, TAU, rot2 } from "./core";
 
 export type Expr = "neutral" | "smile" | "happy" | "laugh" | "surprised" | "scared" | "worried" | "stern" | "angry"
-  | "determined" | "sad" | "shout" | "awe" | "sly";
+  | "determined" | "sad" | "shout" | "awe" | "sly" | "hysteric" | "sob";
 type FaceDef = {
   brow: [number, number];   // inner, outer raise in % of head height (+ = up)
   open: number;              // upper-lid opening 0..1.2 (1.2 = wide)
@@ -27,6 +27,9 @@ const FACES: Record<Expr, FaceDef> = {
   shout: { brow: [-3, 2], open: 1.05, squint: 0.1, mouth: { curve: -0.1, open: 0.95, width: 1.2 } },
   awe: { brow: [4.5, 4], open: 1.08, squint: 0, mouth: { curve: 0.2, open: 0.3, width: 0.7, round: 0.6 } },
   sly: { brow: [-1, 3], open: 0.6, squint: 0.35, mouth: { curve: 0.55, open: 0, width: 0.9 } },
+  // laughing against one's will (Laughter Epidemic 1962): a wide laughing mouth under frightened, wide eyes / crying, squeezed eyes
+  hysteric: { brow: [9, -1], open: 1.12, squint: 0, mouth: { curve: 0.45, open: 0.55, width: 1.15 } },
+  sob: { brow: [5.5, -2], open: 0.5, squint: 0.32, mouth: { curve: 0.65, open: 0.5, width: 1.1 } },
 };
 
 // ---------------- schedules (frame-pure) ----------------
@@ -65,6 +68,7 @@ export const gazeAt = (t: number, seed: number, amt = 0.35): [number, number] =>
 export type FaceOpts = {
   expr?: Expr; turn?: number; blink?: number; look?: [number, number]; talk?: { open: number; round: number };
   skin: string; brows: string; lashes?: boolean; age?: number; blush?: boolean; light?: number;
+  tears?: number; t?: number;              // tears 0..1: streaks down both cheeks + drops (t = seconds, drives the drops)
 };
 /** draws the features on an already-drawn head. (cx, cy) = head centre, W/H = head size. */
 export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, o: FaceOpts) => {
@@ -144,6 +148,24 @@ export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, 
     const inner: P2 = [xi, by - bi], outer: P2 = [xo, by - bo - 2 * u];
     p.taper(inner, [lerp(xi, xo, 0.55), by - (bi + bo) / 2 - 3.5 * u], 5.2 * u, 4.4 * u, o.brows);
     p.taper([lerp(xi, xo, 0.55), by - (bi + bo) / 2 - 3.5 * u], outer, 4.4 * u, 1.8 * u, o.brows);
+  }
+  // ---- tears (opt-in) ----
+  if ((o.tears ?? 0) > 0) {
+    const k = clamp(o.tears ?? 0), tt = o.t ?? 0;
+    for (const e of eyes) {
+      const x0 = e.x + e.side * er * e.k * 0.35, y0 = ey + eh * 0.75;
+      const len = (0.22 + 0.16 * k) * H, wob = 1.5 * u * Math.sin(tt * 3 + e.side);
+      const st: P2[] = [[x0, y0], [x0 + e.side * 2.5 * u + wob, y0 + len * 0.5], [x0 + e.side * 1.5 * u, y0 + len]];
+      p.stroke(st, (4.2 + 2 * k) * u, rgba("#bfefff", 0.55 + 0.35 * k));
+      p.stroke(st, 1.6 * u, rgba("#ffffff", 0.75));
+      for (let d = 0; d < 2; d++) {
+        const ph = (((tt * 1.3 + hash(d + (e.side > 0 ? 3 : 0), 11)) % 1) + 1) % 1, dy = y0 + len * (0.6 + 0.9 * ph * ph);
+        if (ph > 0.8 || k < 0.4) continue;
+        const dx = x0 + e.side * 2 * u, r0 = (3 + 1.5 * k) * u;
+        p.poly([[dx, dy - 2.2 * r0], [dx + r0, dy], ...ellPts(dx, dy, r0, r0, 0, 180, 0, 8), [dx - r0, dy]], rgba("#bfefff", 0.95), 1.4 * u);
+        p.dot(dx - r0 * 0.3, dy - r0 * 0.2, r0 * 0.3, "#ffffff");
+      }
+    }
   }
   // ---- nose ----
   const nyy = cy + 0.22 * H;

@@ -1,0 +1,1013 @@
+{
+ "version": 1,
+ "seed": 1962,
+ "cues": [
+  {
+   "id": "hook-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.04,
+    "noise": 0.03
+   },
+   "span": [
+    0,
+    87
+   ],
+   "post": [],
+   "note": "uneasy bed under the hook (classroom)"
+  },
+  {
+   "id": "hook-air",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.08,
+    "bright": 700
+   },
+   "span": [
+    0,
+    87
+   ],
+   "post": [],
+   "note": "open louvred windows"
+  },
+  {
+   "id": "year-tick",
+   "at": 7,
+   "gen": "glock",
+   "args": {
+    "midi": 86,
+    "level": 0.26
+   },
+   "post": [
+    [
+     "pan",
+     0.1
+    ]
+   ],
+   "note": "on '1962'"
+  },
+  {
+   "id": "school-air",
+   "at": 87,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 800
+   },
+   "span": [
+    87,
+    159
+   ],
+   "post": [],
+   "note": "the yard"
+  },
+  {
+   "id": "school-birds",
+   "at": 87,
+   "gen": "birds",
+   "args": {
+    "density": 0.12
+   },
+   "span": [
+    87,
+    159
+   ],
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": "weaver birds"
+  },
+  {
+   "id": "fourteen-notes",
+   "at": 103,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     74,
+     77,
+     81
+    ],
+    "level": 0.22,
+    "spacing": 0.12,
+    "pan0": -0.3,
+    "pan_step": 0.3
+   },
+   "post": [],
+   "note": "on 'fourteen schools'"
+  },
+  {
+   "id": "laugh-whoosh",
+   "at": 150,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.35,
+    "peak": 0.3,
+    "f_lo": 300,
+    "f_hi": 2400,
+    "width": 0.4,
+    "tail": 0.12
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": "into 'Laughter'"
+  },
+  {
+   "id": "laugh-hit",
+   "at": 159,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.3
+   },
+   "post": [],
+   "note": "on 'Laughter' (kick)"
+  },
+  {
+   "id": "laugh-low",
+   "at": 159,
+   "gen": "boom",
+   "args": {
+    "dur": 1.2,
+    "f0": 45,
+    "big": 0.25
+   },
+   "post": [],
+   "note": "weight under the reveal"
+  },
+  {
+   "id": "hills-air",
+   "at": 192,
+   "gen": "breeze",
+   "args": {
+    "level": 0.14,
+    "bright": 800
+   },
+   "span": [
+    192,
+    272
+   ],
+   "post": [],
+   "note": "green hills by the lake"
+  },
+  {
+   "id": "hills-birds",
+   "at": 192,
+   "gen": "birds",
+   "args": {
+    "density": 0.16
+   },
+   "span": [
+    192,
+    272
+   ],
+   "post": [
+    [
+     "gain",
+     0.4
+    ]
+   ],
+   "note": "birds over the banana groves"
+  },
+  {
+   "id": "class-hum",
+   "at": 272,
+   "gen": "hum",
+   "args": {
+    "hz": 60.0,
+    "tone": 0.02,
+    "noise": 0.03
+   },
+   "span": [
+    272,
+    377
+   ],
+   "post": [],
+   "note": "the classroom"
+  },
+  {
+   "id": "began-tick",
+   "at": 296,
+   "gen": "glock",
+   "args": {
+    "midi": 79,
+    "level": 0.24
+   },
+   "post": [],
+   "note": "on 'began laughing'"
+  },
+  {
+   "id": "stop-notes",
+   "at": 340,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     77,
+     74,
+     70
+    ],
+    "level": 0.22,
+    "spacing": 0.18,
+    "pan0": 0.2,
+    "pan_step": -0.2
+   },
+   "post": [],
+   "note": "'couldn't stop'"
+  },
+  {
+   "id": "yard-air",
+   "at": 377,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 700
+   },
+   "span": [
+    377,
+    440
+   ],
+   "post": [],
+   "note": "the yard"
+  },
+  {
+   "id": "ripple-notes",
+   "at": 380,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     74,
+     77,
+     81,
+     86
+    ],
+    "level": 0.24,
+    "spacing": 0.16,
+    "pan0": -0.4,
+    "pan_step": 0.2
+   },
+   "post": [],
+   "note": "the fit ripples out"
+  },
+  {
+   "id": "ninetyfive-boom",
+   "at": 394,
+   "gen": "boom",
+   "args": {
+    "dur": 1.0,
+    "f0": 55,
+    "big": 0.2
+   },
+   "post": [],
+   "note": "on 'ninety-five' (kick)"
+  },
+  {
+   "id": "dorm-hum",
+   "at": 440,
+   "gen": "hum",
+   "args": {
+    "hz": 50.0,
+    "tone": 0.03,
+    "noise": 0.025
+   },
+   "span": [
+    440,
+    588
+   ],
+   "post": [],
+   "note": "the dormitory"
+  },
+  {
+   "id": "faint-low",
+   "at": 473,
+   "gen": "rumble",
+   "args": {
+    "dur": 1.4,
+    "gain": 0.25,
+    "lo": 30,
+    "hi": 110,
+    "decay": 1.2
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "she faints"
+  },
+  {
+   "id": "hours-ticks",
+   "at": 500,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     84,
+     84,
+     84,
+     84,
+     84,
+     84
+    ],
+    "level": 0.14,
+    "spacing": 0.42,
+    "pan0": 0.1,
+    "pan_step": 0.0
+   },
+   "post": [],
+   "note": "the clock: hours pass"
+  },
+  {
+   "id": "back-hit",
+   "at": 547,
+   "gen": "glock",
+   "args": {
+    "midi": 76,
+    "level": 0.28
+   },
+   "post": [],
+   "note": "'then came back'"
+  },
+  {
+   "id": "golden-air",
+   "at": 588,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 600
+   },
+   "span": [
+    588,
+    719
+   ],
+   "post": [],
+   "note": "golden afternoon, the yard and the road"
+  },
+  {
+   "id": "golden-birds",
+   "at": 588,
+   "gen": "birds",
+   "args": {
+    "density": 0.08
+   },
+   "span": [
+    588,
+    684
+   ],
+   "post": [
+    [
+     "gain",
+     0.3
+    ]
+   ],
+   "note": "evening birds"
+  },
+  {
+   "id": "lorry-rumble",
+   "at": 684,
+   "gen": "rumble",
+   "args": {
+    "dur": 1.4,
+    "gain": 0.35,
+    "lo": 35,
+    "hi": 140,
+    "decay": 1.0
+   },
+   "post": [],
+   "note": "the lorry engine pulls away"
+  },
+  {
+   "id": "mistake-whoosh",
+   "at": 686,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.4,
+    "peak": 0.35,
+    "f_lo": 250,
+    "f_hi": 2000,
+    "width": 0.4,
+    "tail": 0.15
+   },
+   "post": [
+    [
+     "gain",
+     0.4
+    ]
+   ],
+   "note": "into 'Big mistake'"
+  },
+  {
+   "id": "mistake-boom",
+   "at": 693,
+   "gen": "boom",
+   "args": {
+    "dur": 1.4,
+    "f0": 42,
+    "big": 0.35
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "on 'Big mistake' (kick)"
+  },
+  {
+   "id": "map-room",
+   "at": 719,
+   "gen": "hum",
+   "args": {
+    "hz": 60.0,
+    "tone": 0.015,
+    "noise": 0.02
+   },
+   "span": [
+    719,
+    784
+   ],
+   "post": [],
+   "note": "the map table"
+  },
+  {
+   "id": "map-spread",
+   "at": 726,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     72,
+     74,
+     77,
+     79,
+     81,
+     84,
+     86
+    ],
+    "level": 0.2,
+    "spacing": 0.11,
+    "pan0": -0.4,
+    "pan_step": 0.11
+   },
+   "post": [],
+   "note": "dots multiplying"
+  },
+  {
+   "id": "clinic-hum",
+   "at": 784,
+   "gen": "hum",
+   "args": {
+    "hz": 60.0,
+    "tone": 0.03,
+    "noise": 0.02
+   },
+   "span": [
+    784,
+    880
+   ],
+   "post": [],
+   "note": "the clinic"
+  },
+  {
+   "id": "poison-tick",
+   "at": 784,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.24
+   },
+   "post": [
+    [
+     "pan",
+     -0.2
+    ]
+   ],
+   "note": "'Poison?'"
+  },
+  {
+   "id": "infection-tick",
+   "at": 808,
+   "gen": "glock",
+   "args": {
+    "midi": 84,
+    "level": 0.24
+   },
+   "post": [
+    [
+     "pan",
+     0.2
+    ]
+   ],
+   "note": "'Infection?'"
+  },
+  {
+   "id": "neither-notes",
+   "at": 851,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     77,
+     72
+    ],
+    "level": 0.24,
+    "spacing": 0.3,
+    "pan0": 0.0,
+    "pan_step": 0.0
+   },
+   "post": [],
+   "note": "'found neither'"
+  },
+  {
+   "id": "village-air",
+   "at": 880,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 600
+   },
+   "span": [
+    880,
+    954
+   ],
+   "post": [],
+   "note": "the village"
+  },
+  {
+   "id": "village-birds",
+   "at": 880,
+   "gen": "birds",
+   "args": {
+    "density": 0.1
+   },
+   "span": [
+    880,
+    954
+   ],
+   "post": [
+    [
+     "gain",
+     0.3
+    ]
+   ],
+   "note": "birds"
+  },
+  {
+   "id": "theory-tick",
+   "at": 913,
+   "gen": "glock",
+   "args": {
+    "midi": 79,
+    "level": 0.26
+   },
+   "post": [],
+   "note": "'Tell me your theory' (the pill)"
+  },
+  {
+   "id": "dusk-air",
+   "at": 954,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 400
+   },
+   "span": [
+    954,
+    1059
+   ],
+   "post": [],
+   "note": "dusk"
+  },
+  {
+   "id": "threads-notes",
+   "at": 966,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     62,
+     65,
+     69,
+     72,
+     74,
+     77,
+     81
+    ],
+    "level": 0.2,
+    "spacing": 0.35,
+    "pan0": -0.3,
+    "pan_step": 0.1
+   },
+   "post": [],
+   "note": "the fit passed person to person"
+  },
+  {
+   "id": "uhuru-air",
+   "at": 1059,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 800
+   },
+   "span": [
+    1059,
+    1144
+   ],
+   "post": [],
+   "note": "celebration day"
+  },
+  {
+   "id": "uhuru-steps",
+   "at": 1059,
+   "gen": "steps",
+   "args": {
+    "period": 0.25,
+    "pitch": 0.9,
+    "gain": 0.22,
+    "pan0": -0.4,
+    "pan_step": 0.8
+   },
+   "span": [
+    1059,
+    1144
+   ],
+   "post": [],
+   "note": "feet of a celebrating crowd"
+  },
+  {
+   "id": "uhuru-bell",
+   "at": 1085,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     74,
+     78,
+     81,
+     86
+    ],
+    "level": 0.22,
+    "spacing": 0.14,
+    "pan0": -0.2,
+    "pan_step": 0.15
+   },
+   "post": [],
+   "note": "'independence': a bright fanfare"
+  },
+  {
+   "id": "pressure-hum",
+   "at": 1144,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.04,
+    "noise": 0.03
+   },
+   "span": [
+    1144,
+    1286
+   ],
+   "post": [],
+   "note": "classroom pressure"
+  },
+  {
+   "id": "pressure-ticks",
+   "at": 1150,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     88,
+     88,
+     88,
+     88,
+     88,
+     88,
+     88
+    ],
+    "level": 0.12,
+    "spacing": 0.5,
+    "pan0": 0.2,
+    "pan_step": 0.0
+   },
+   "post": [],
+   "note": "a clock ticking: pressure"
+  },
+  {
+   "id": "stress-whoosh",
+   "at": 1248,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.35,
+    "peak": 0.3,
+    "f_lo": 300,
+    "f_hi": 2400,
+    "width": 0.4,
+    "tail": 0.12
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": "into 'laughter'"
+  },
+  {
+   "id": "stress-boom",
+   "at": 1257,
+   "gen": "boom",
+   "args": {
+    "dur": 1.2,
+    "f0": 48,
+    "big": 0.3
+   },
+   "post": [],
+   "note": "on 'laughter' (kick)"
+  },
+  {
+   "id": "pages",
+   "at": 1292,
+   "gen": "whoosh",
+   "args": {
+    "dur": 1.5,
+    "peak": 0.2,
+    "f_lo": 800,
+    "f_hi": 4000,
+    "width": 0.3,
+    "tail": 0.2
+   },
+   "post": [
+    [
+     "gain",
+     0.25
+    ]
+   ],
+   "note": "calendar pages flipping"
+  },
+  {
+   "id": "year-notes",
+   "at": 1300,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     72,
+     74,
+     76,
+     77,
+     79,
+     81
+    ],
+    "level": 0.16,
+    "spacing": 0.2,
+    "pan0": -0.2,
+    "pan_step": 0.08
+   },
+   "post": [],
+   "note": "a year passes"
+  },
+  {
+   "id": "crowd-air",
+   "at": 1347,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 600
+   },
+   "span": [
+    1347,
+    1397
+   ],
+   "post": [],
+   "note": "the crowd"
+  },
+  {
+   "id": "thousand-boom",
+   "at": 1358,
+   "gen": "boom",
+   "args": {
+    "dur": 1.4,
+    "f0": 45,
+    "big": 0.25
+   },
+   "post": [],
+   "note": "'a thousand'"
+  },
+  {
+   "id": "empty-room",
+   "at": 1397,
+   "gen": "hum",
+   "args": {
+    "hz": 50.0,
+    "tone": 0.015,
+    "noise": 0.015
+   },
+   "span": [
+    1397,
+    1447
+   ],
+   "post": [],
+   "note": "the empty classroom"
+  },
+  {
+   "id": "joke-tick",
+   "at": 1421,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.22
+   },
+   "post": [],
+   "note": "'never a joke'"
+  },
+  {
+   "id": "hold-hum",
+   "at": 1447,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.04,
+    "noise": 0.03
+   },
+   "span": [
+    1447,
+    1584
+   ],
+   "post": [],
+   "note": "the hook bed returns: loops into frame 0"
+  },
+  {
+   "id": "hold-notes",
+   "at": 1452,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     74,
+     77,
+     81,
+     86
+    ],
+    "level": 0.22,
+    "spacing": 0.3,
+    "pan0": -0.4,
+    "pan_step": 0.2
+   },
+   "post": [],
+   "note": "the fits spread round her"
+  },
+  {
+   "id": "hold-air",
+   "at": 1447,
+   "gen": "breeze",
+   "args": {
+    "level": 0.08,
+    "bright": 700
+   },
+   "span": [
+    1447,
+    1584
+   ],
+   "post": [],
+   "note": "open windows, as the hook"
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.2273,
+  "arp_level": 0.6,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     3
+    ],
+    "chord": "Dm",
+    "level": 0.85
+   },
+   {
+    "name": "start",
+    "shots": [
+     4,
+     6
+    ],
+    "chord": "Gm",
+    "level": 0.6
+   },
+   {
+    "name": "fits",
+    "shots": [
+     7,
+     8
+    ],
+    "chord": "A",
+    "level": 0.7
+   },
+   {
+    "name": "mistake",
+    "shots": [
+     9,
+     11
+    ],
+    "chord": "Bb",
+    "level": 0.9
+   },
+   {
+    "name": "doctors",
+    "shots": [
+     12,
+     13
+    ],
+    "chord": "Gm",
+    "level": 0.75
+   },
+   {
+    "name": "theory",
+    "shots": [
+     14,
+     17
+    ],
+    "chord": "F",
+    "level": 0.65
+   },
+   {
+    "name": "year",
+    "shots": [
+     18,
+     20
+    ],
+    "chord": "Dm",
+    "level": 0.5
+   },
+   {
+    "name": "loop",
+    "shots": [
+     21,
+     21
+    ],
+    "chord": "Dm",
+    "level": 0.85
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.02,
+  "fade_out": 0.2
+ },
+ "_doc": "Laughter Epidemic 1962 (English, Inkfall) sound design: frames are picture frames authored on stories/laughter-epidemic-1962/en/words.json (frame = round(start*30)). Run with STORY=laughter-epidemic-1962 CUES_FILE=audio/cues.laughter-epidemic-1962.json (see audio/build_laughter-epidemic-1962.sh). No synthetic laughter layer (it would sound fake); the hook bed returns at the end so the loop is seamless."
+}

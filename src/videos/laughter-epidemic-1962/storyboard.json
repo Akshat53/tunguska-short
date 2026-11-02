@@ -1,0 +1,470 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 1584,
+ "scenes": [
+  "classroom",
+  "school",
+  "dorm",
+  "map",
+  "clinic",
+  "village",
+  "front",
+  "calendar"
+ ],
+ "words": "stories/laughter-epidemic-1962/en/words.json",
+ "events": {
+  "flashAt": 159,
+  "flashes": [
+   [
+    159,
+    0.18
+   ]
+  ],
+  "hits": [
+   159,
+   394,
+   693,
+   1257
+  ],
+  "kicks": [
+   [
+    159,
+    0.5
+   ],
+   [
+    394,
+    0.45
+   ],
+   [
+    693,
+    0.55
+   ],
+   [
+    1257,
+    0.5
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "girls",
+  "hookA",
+  "teacher",
+  "school",
+  "yard",
+  "faint",
+  "bedgirl",
+  "officials",
+  "lorry",
+  "map",
+  "doctors",
+  "home",
+  "village",
+  "flag",
+  "board",
+  "studier",
+  "calendar",
+  "crowd",
+  "holdout"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 87,
+   "light": "day",
+   "scene": "classroom",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: frame 0 = the paradox in motion: two schoolgirls at their desk laughing with tears and frightened eyes, a teacher panicking behind them, the whole class in fits"
+  },
+  {
+   "id": 2,
+   "a": 87,
+   "b": 159,
+   "light": "day",
+   "scene": "school",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 87,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "'shut down fourteen schools': low angle at the school doors, the headmistress sends the girls out with their suitcases, some still in fits"
+  },
+  {
+   "id": 3,
+   "a": 159,
+   "b": 192,
+   "light": "day",
+   "scene": "classroom",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 159,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "note": "'Laughter.': extreme close-up of one girl, laughing mouth, tears, frightened eyes"
+  },
+  {
+   "id": 4,
+   "a": 192,
+   "b": 272,
+   "light": "day",
+   "scene": "school",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 192,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "note": "'a girls' school in Tanganyika': the mission school among banana trees and green hills, Lake Victoria beyond"
+  },
+  {
+   "id": 5,
+   "a": 272,
+   "b": 377,
+   "light": "day",
+   "scene": "classroom",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 272,
+     "fn": "S5a"
+    },
+    {
+     "f": 340,
+     "fn": "S5b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "'Three students began laughing': over the teacher's shoulder, three girls start, the class stares; cut closer on 'couldn't stop'"
+  },
+  {
+   "id": 6,
+   "a": 377,
+   "b": 440,
+   "light": "day",
+   "scene": "school",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 377,
+     "fn": "S6a"
+    }
+   ],
+   "dof": [],
+   "note": "'Soon, ninety-five had it': high wide over the school yard, the fits ripple from girl to girl"
+  },
+  {
+   "id": 7,
+   "a": 440,
+   "b": 497,
+   "light": "day",
+   "scene": "dorm",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 440,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "'They cried. They fainted.': dormitory, a girl faints and two friends hold her up"
+  },
+  {
+   "id": 8,
+   "a": 497,
+   "b": 588,
+   "light": "golden",
+   "scene": "dorm",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 497,
+     "fn": "S8a"
+    },
+    {
+     "f": 547,
+     "fn": "S8b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "'The fits lasted hours, then came back': a girl exhausted on her bed, the clock sweeps hours, the teacher with a lamp; cut close as the fit returns"
+  },
+  {
+   "id": 9,
+   "a": 588,
+   "b": 684,
+   "light": "golden",
+   "scene": "school",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 588,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "'officials closed the school and sent everyone home': officials with a clipboard, girls climb onto a lorry with suitcases"
+  },
+  {
+   "id": 10,
+   "a": 684,
+   "b": 719,
+   "light": "golden",
+   "scene": "school",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 684,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "note": "'Big mistake.': the lorry pulls away down the dusty red road, a girl in the back laughing"
+  },
+  {
+   "id": 11,
+   "a": 719,
+   "b": 784,
+   "light": "day",
+   "scene": "map",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 719,
+     "fn": "S11a"
+    }
+   ],
+   "dof": [],
+   "note": "'carried it to their villages': the map, Kashasha to Nshamba and beyond, glowing dots multiplying (14 schools)"
+  },
+  {
+   "id": 12,
+   "a": 784,
+   "b": 880,
+   "light": "day",
+   "scene": "clinic",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 784,
+     "fn": "S12a"
+    },
+    {
+     "f": 837,
+     "fn": "S12b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "'Poison? Infection? Doctors found neither.': a doctor raises a test tube, another at the microscope; cut to the two doctors shaking their heads"
+  },
+  {
+   "id": 13,
+   "a": 880,
+   "b": 954,
+   "light": "golden",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 880,
+     "fn": "S13a"
+    }
+   ],
+   "dof": [],
+   "note": "'So what was it? Tell me your theory.': in her village, a girl in a fit held by her mother; the debate pill"
+  },
+  {
+   "id": 14,
+   "a": 954,
+   "b": 1059,
+   "light": "dusk",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 954,
+     "fn": "S14a"
+    }
+   ],
+   "dof": [],
+   "note": "'mass psychogenic illness': wide over the village at dusk, glowing threads pass the fit from person to person"
+  },
+  {
+   "id": 15,
+   "a": 1059,
+   "b": 1144,
+   "light": "golden",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1059,
+     "fn": "S15a"
+    }
+   ],
+   "dof": [],
+   "note": "'won independence just weeks earlier': low angle, the new green/black/gold flag, bunting, a cheering crowd with hand flags (Dec 1961)"
+  },
+  {
+   "id": 16,
+   "a": 1144,
+   "b": 1223,
+   "light": "day",
+   "scene": "front",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1144,
+     "fn": "S16a"
+    }
+   ],
+   "dof": [],
+   "note": "'intense pressure': over a girl's shoulder, the teacher at a blackboard full of sums and 'EXAMINATIONS', piles of books"
+  },
+  {
+   "id": 17,
+   "a": 1223,
+   "b": 1286,
+   "light": "day",
+   "scene": "classroom",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1223,
+     "fn": "S17a"
+    }
+   ],
+   "dof": [],
+   "note": "'The stress came out as laughter': close on a girl studying, worried, who breaks into a fit on 'laughter'"
+  },
+  {
+   "id": 18,
+   "a": 1286,
+   "b": 1347,
+   "light": "day",
+   "scene": "calendar",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1286,
+     "fn": "S18a"
+    }
+   ],
+   "dof": [],
+   "note": "'It took over a year to fade': the wall calendar flips from January 1962 to February 1963"
+  },
+  {
+   "id": 19,
+   "a": 1347,
+   "b": 1397,
+   "light": "golden",
+   "scene": "village",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1347,
+     "fn": "S19a"
+    }
+   ],
+   "dof": [],
+   "note": "'Around a thousand people': a wide crowd of villagers and schoolgirls"
+  },
+  {
+   "id": 20,
+   "a": 1397,
+   "b": 1447,
+   "light": "day",
+   "scene": "front",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1397,
+     "fn": "S20a"
+    }
+   ],
+   "dof": [],
+   "note": "'And there was never a joke': the empty classroom, quiet, faded chalk"
+  },
+  {
+   "id": 21,
+   "a": 1447,
+   "b": 1584,
+   "light": "day",
+   "scene": "classroom",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1447,
+     "fn": "S21a"
+    },
+    {
+     "f": 1545,
+     "fn": "S21b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "'how long could you hold out?': one girl presses her mouth shut while the fits spread around her; cut back to the hook (last frame = frame 0)"
+  }
+ ]
+}

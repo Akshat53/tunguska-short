@@ -1,0 +1,56 @@
+RHYTHM REPORT — verdict REVISE
+duration 52.5 s (words.json) | 130 words | 2.6 words/s (speech-only 2.47) | 26 sentences
+to hit the target duration the voice needs 2.48 words/s
+sentence length: mean 5 std 3.14 CV 0.63 (healthy 0.35-0.9) min 1 max 15
+histogram: 1-3:#########9  4-6:#########9  7-10:#######7  11-15:#1  16-20:0  21+:0
+pauses: 0 totalling 0.0 s, mean 0 s; longest run without a pause 52.5 s
+ellipses 2 | questions 5 (unanswered: [14, 26]) | density mean 0.12 max 1
+hook (first 3 s): "In 1962, an epidemic shut down fourteen schools." -> 7/10 (first sentence 8 words (good); concrete name/number)
+intensity per 5 s: ▄▄▄▄▃▅▄▂▃▄▄  [5.0, 4.5, 5.0, 5.0, 3.8, 6.0, 4.5, 3.0, 3.8, 4.7, 5.5]  peak S15 at 27.3 s
+script mix: Devanagari 0 | Roman 129 | numeric 1 | Roman share 100%
+
+sentences:
+  S1     0.0s   8w  int  3.5  In 1962, an epidemic shut down fourteen schools.
+  S2     4.4s   2w  int  6.5  The symptom?
+  S3     5.3s   1w  int  5.5  Laughter.
+  S4     6.4s   8w  int  3.5  It started at a girls' school in Tanganyika.
+  S5     9.1s   4w  int  5.0  Three students began laughing…
+  S6    11.1s   3w  int  5.5  and couldn't stop.
+  S7    12.6s   4w  int  4.5  Soon, ninety-five had it.
+  S8    14.7s   2w  int  5.5  They cried.
+  S9    15.5s   2w  int  5.5  They fainted.
+  S10   16.6s   7w  int  4.0  The fits lasted hours, then came back.
+  S11   19.6s   9w  int  3.0  So officials closed the school and sent everyone home.
+  S12   22.8s   2w  int  5.5  Big mistake.
+  S13   24.0s   7w  int  3.0  The girls carried it to their villages.
+  S14   26.1s   1w  int  6.5  Poison?
+  S15   26.9s   1w  int  6.5  Infection?
+  S16   27.9s   3w  int  5.5  Doctors found neither.
+  S17   29.3s   4w  int  5.5  So what was it?
+  S18   30.4s   4w  int  4.5  Tell me your theory.
+  S19   31.8s   6w  int  4.5  The leading explanation: mass psychogenic illness.
+  S20   35.3s  15w  int  3.0  The country had won independence just weeks earlier, and these students lived u…
+  S21   40.8s   6w  int  4.5  The stress came out as laughter.
+  S22   42.9s   7w  int  3.0  It took over a year to fade.
+  S23   44.9s   4w  int  5.0  Around a thousand people.
+  S24   46.6s   6w  int  5.5  And there was never a joke.
+  S25   48.2s   8w  int  3.5  If everyone around you started laughing right now…
+  S26   51.1s   6w  int  5.5  how long could you hold out?
+
+FINDINGS + REWRITE SUGGESTIONS:
+  [HIGH  ] MONOTONE_RUN         S5,S6,S7,S8,S9: sentences 5-9 are all 2-4 words with the same shape (5 in a row)
+           -> break the pattern: merge S5+S6 into one flowing sentence ("Three students began laughing…, and couldn't stop."), or cut S9 to a 2-3 word beat, or turn one into a question that the next line answers.
+  [HIGH  ] UNANSWERED_QUESTION  S14: S14 asks a question nothing later answers: "Poison?"
+           -> answer it (ideally at the revelation) or turn it into a statement.
+  [HIGH  ] UNANSWERED_QUESTION  S26: S26 asks a question nothing later answers: "how long could you hold out?"
+           -> answer it (ideally at the revelation) or turn it into a statement.
+  [MEDIUM] NO_BEAT              S1,S2,S3,S4,S5,S6,S7,S8…: 53 s of continuous speech without a pause (0.0-52.5 s)
+           -> add [pause 0.3] after S2 (the strongest line in the stretch) or a blank-line beat break.
+  [MEDIUM] CHOPPY               S2,S3,S5,S6,S7,S8,S9,S12…: 54% of sentences are 4 words or fewer: every line sounds like a trailer
+           -> merge pairs of short lines into medium explanatory sentences; keep short punches only for reveals and turns.
+  [MEDIUM] REPEATED_OPENER      S19,S20,S21: 3 sentences in a row start with "the" (S19-S21)
+           -> keep the first; start S20 with its subject or a time/place ("country had won independence just weeks…"), or join two with a contrast/cause (लेकिन / इसलिए).
+  [LOW   ] REPEATED_OPENER      S2,S10,S13,S19,S20,S21: 6 sentences open with "the" across the script
+           -> rephrase two of them so the ear does not hear a template.
+  [LOW   ] REPEATED_STRUCTURE   S21,S22,S23: S21-S23 have the same length band and ending
+           -> change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line.

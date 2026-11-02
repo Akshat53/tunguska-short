@@ -1,0 +1,3485 @@
+{
+ "$schema": "../../schemas/script-package.schema.json",
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "laughter-epidemic-1962",
+  "title": "In 1962, Laughter Shut Down 14 Schools",
+  "topic": "The 1962 Tanganyika laughter epidemic: Kashasha mission girls' boarding school near Bukoba; 95 of 159 pupils; school closed 18 March 1962; spread to Nshamba and other villages; 14 schools closed, about 1,000 people; leading explanation mass psychogenic illness",
+  "category": "unusual-real-life",
+  "structure": "mystery-reveal",
+  "angle": "An epidemic whose only symptom was laughter, and it wasn't funny: the cure (sending everyone home) spread it, and there was never a joke",
+  "centralQuestion": "What makes a thousand people laugh without a joke?",
+  "audience": "Global English Shorts viewers 18-35 (Inkfall, @inkfallshorts)",
+  "language": "english",
+  "durationSec": 52.8,
+  "totalFrames": 1584,
+  "coreEmotion": "disbelief turning to unease",
+  "takeaway": "Stress can spread through a community like a disease, even as laughter",
+  "tone": "paradox hook, brisk middle, eerie ending",
+  "sensitivity": "Real distress of real schoolgirls in 1962 Tanganyika: shown with dignity, laughing WITH tears and frightened eyes, never as comedy; no caricature; the cause is framed as the leading explanation, not as a put-down",
+  "researchMode": "web-verified",
+  "created": "2026-11-02"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "An outbreak of uncontrollable laughing began on 30 January 1962 at a mission-run girls' boarding school in Kashasha, near Bukoba on Lake Victoria, Tanganyika.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Rankin & Philip 1963, Central African Journal of Medicine (PubMed record)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/13973013",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    },
+    {
+     "title": "Scibabe: Daily MOS: The Tanganyika Laughing Epidemic",
+     "url": "https://scibabe.com/daily-mos-the-tanganyika-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C02",
+   "claim": "It started with three girls.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Scibabe: Daily MOS: The Tanganyika Laughing Epidemic",
+     "url": "https://scibabe.com/daily-mos-the-tanganyika-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    },
+    {
+     "title": "Now I Know: Tanganyika's Laughing Epidemic",
+     "url": "https://nowiknow.com/tanganyikas-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    },
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "popular accounts; consistent",
+   "usableInScript": true,
+   "notes": "Rankin & Philip describe the first cases; 'three' is the widely repeated figure"
+  },
+  {
+   "id": "C03",
+   "claim": "95 of 159 pupils were affected.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Rankin & Philip 1963, Central African Journal of Medicine (PubMed record)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/13973013",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C04",
+   "claim": "Attacks combined laughing with crying and restlessness, some fainting; fits lasted minutes to hours and recurred.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Rankin & Philip 1963, Central African Journal of Medicine (PubMed record)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/13973013",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    },
+    {
+     "title": "Clio's Current: The Bizarre Case of the Tanganyika Laughing Disease",
+     "url": "https://clioscurrent.com/blog/2015/7/29/tanganyikalaughingepidemic",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C05",
+   "claim": "The school closed on 18 March 1962 and the pupils were sent home.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Owaahh: The Tanganyika Laughing Epidemic of 1962",
+     "url": "https://owaahh.com/the-tanganyika-laughing-epidemic-of-1962",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C06",
+   "claim": "The pupils carried it to their villages, notably Nshamba (217 cases, Apr-May 1962) and other villages and schools.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Owaahh: The Tanganyika Laughing Epidemic of 1962",
+     "url": "https://owaahh.com/the-tanganyika-laughing-epidemic-of-1962",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C07",
+   "claim": "In total 14 schools closed.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Scibabe: Daily MOS: The Tanganyika Laughing Epidemic",
+     "url": "https://scibabe.com/daily-mos-the-tanganyika-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C08",
+   "claim": "About 1,000 people were affected.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Scibabe: Daily MOS: The Tanganyika Laughing Epidemic",
+     "url": "https://scibabe.com/daily-mos-the-tanganyika-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    },
+    {
+     "title": "Now I Know: Tanganyika's Laughing Epidemic",
+     "url": "https://nowiknow.com/tanganyikas-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "'around' (approximate)",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C09",
+   "claim": "Investigators found no toxic or infectious cause.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Rankin & Philip 1963, Central African Journal of Medicine (PubMed record)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/13973013",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    },
+    {
+     "title": "Hempelmann 2007, Humor 20(1)",
+     "url": "https://argia.eus/fitxategiak/ckfinder/files/Hempelmann2007.pdf",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C10",
+   "claim": "The leading explanation is mass psychogenic illness linked to stress (post-independence strain, pressure on pupils).",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Hempelmann 2007, Humor 20(1)",
+     "url": "https://argia.eus/fitxategiak/ckfinder/files/Hempelmann2007.pdf",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    },
+    {
+     "title": "Lawrence Weschler, Wondercabinet issue 48 (Provine)",
+     "url": "https://lawrenceweschler.substack.com/p/august-3-2023-issue-48",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "'the leading explanation', not settled",
+   "usableInScript": true,
+   "notes": "Bartholomew & Wessely offer a culture-specific variant"
+  },
+  {
+   "id": "C11",
+   "claim": "Tanganyika became independent on 9 December 1961, weeks before the outbreak.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "IFLScience: the Tanganyika laughing epidemic of 1962 (independence context)",
+     "url": "https://www.iflscience.com/the-tanganyika-laughing-epidemic-of-1962-a-case-of-mass-hysteria-at-the-end-of-colonial-psychiatry-83540",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C12",
+   "claim": "It faded after more than a year (about 18 months).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Scibabe: Daily MOS: The Tanganyika Laughing Epidemic",
+     "url": "https://scibabe.com/daily-mos-the-tanganyika-laughing-epidemic/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "'over a year'",
+   "usableInScript": true,
+   "notes": "some accounts say to June 1964"
+  },
+  {
+   "id": "C13",
+   "claim": "No joke or funny trigger is recorded; the laughter came with distress.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Tanganyika laughter epidemic",
+     "url": "https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Hempelmann 2007, Humor 20(1)",
+     "url": "https://argia.eus/fitxategiak/ckfinder/files/Hempelmann2007.pdf",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "academic"
+    },
+    {
+     "title": "Clio's Current: The Bizarre Case of the Tanganyika Laughing Disease",
+     "url": "https://clioscurrent.com/blog/2015/7/29/tanganyikalaughingepidemic",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "contradiction",
+    "text": "In 1962, an epidemic shut down fourteen schools. The symptom? Laughter.",
+    "score": 9,
+    "claimIds": [
+     "C07",
+     "C04"
+    ],
+    "critique": "paradox stated as fact in the first 5 s; 'Laughter' lands as the reveal"
+   },
+   {
+    "id": "H2",
+    "technique": "surprising-fact",
+    "text": "A thousand people couldn't stop laughing, and there was never a joke.",
+    "score": 8,
+    "claimIds": [
+     "C08",
+     "C13"
+    ],
+    "critique": "strong, but spends the ending"
+   },
+   {
+    "id": "H3",
+    "technique": "question",
+    "text": "What if laughter were contagious, literally?",
+    "score": 6,
+    "claimIds": [
+     "C10"
+    ],
+    "critique": "abstract, no image"
+   },
+   {
+    "id": "H4",
+    "technique": "dramatic-situation",
+    "text": "Three schoolgirls started laughing, and couldn't stop.",
+    "score": 7,
+    "claimIds": [
+     "C02"
+    ],
+    "critique": "good image but slower than the paradox; used as line 2"
+   },
+   {
+    "id": "H5",
+    "technique": "visual-curiosity",
+    "text": "Why are these girls laughing and crying at the same time?",
+    "score": 7,
+    "claimIds": [
+     "C04"
+    ],
+    "critique": "strong visual question, but not stated as fact"
+   }
+  ],
+  "recommended": "H1",
+  "reason": "owner-approved line 1; frame 0 shows the paradox (laughing girls in tears, a panicking teacher)"
+ },
+ "narration": {
+  "language": "english",
+  "voice": {
+   "engine": "elevenlabs",
+   "id": "JBFqnCBsd6RMkjVDRZzb",
+   "rate": "+0%"
+  },
+  "wps": 2.48,
+  "totalWords": 130,
+  "estimatedSpeechSec": 52.5,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0.0,
+    "endSec": 6.09,
+    "startFrame": 0,
+    "endFrame": 183,
+    "text": "In 1962, an epidemic shut down fourteen schools. The symptom? Laughter.",
+    "marked": "In 1962, an epidemic shut down fourteen schools. The symptom? Laughter.",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "epidemic",
+     "Laughter"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C07",
+     "C04"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 6.39,
+    "endSec": 14.31,
+    "startFrame": 192,
+    "endFrame": 429,
+    "text": "It started at a girls' school in Tanganyika. Three students began laughing… and couldn't stop. Soon, ninety-five had it.",
+    "marked": "It started at a girls' school in Tanganyika. Three students began laughing… and couldn't stop. Soon, ninety-five had it.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "couldn't stop",
+     "ninety-five",
+     "Three"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C01",
+     "C02",
+     "C03"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 14.66,
+    "endSec": 19.35,
+    "startFrame": 440,
+    "endFrame": 581,
+    "text": "They cried. They fainted. The fits lasted hours, then came back.",
+    "marked": "They cried. They fainted. The fits lasted hours, then came back.",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "cried",
+     "fainted",
+     "came back"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C04"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 19.61,
+    "endSec": 25.89,
+    "startFrame": 588,
+    "endFrame": 777,
+    "text": "So officials closed the school and sent everyone home. Big mistake. The girls carried it to their villages.",
+    "marked": "So officials closed the school and sent everyone home. Big mistake. The girls carried it to their villages.",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "Big mistake",
+     "villages"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C05",
+     "C06"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N05",
+    "beat": "explanation",
+    "startSec": 26.14,
+    "endSec": 31.55,
+    "startFrame": 784,
+    "endFrame": 947,
+    "text": "Poison? Infection? Doctors found neither. So what was it? Tell me your theory.",
+    "marked": "Poison? Infection? Doctors found neither. So what was it? Tell me your theory.",
+    "voiceEmotion": "curious",
+    "speed": 1.0,
+    "emphasis": [
+     "Poison",
+     "Infection",
+     "neither",
+     "theory"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C09"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N06",
+    "beat": "explanation",
+    "startSec": 31.8,
+    "endSec": 42.78,
+    "startFrame": 954,
+    "endFrame": 1283,
+    "text": "The leading explanation: mass psychogenic illness. The country had won independence just weeks earlier, and these students lived under intense pressure. The stress came out as laughter.",
+    "marked": "The leading explanation: mass psychogenic illness. The country had won independence just weeks earlier, and these students lived under intense pressure. The stress came out as laughter.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "psychogenic",
+     "independence",
+     "pressure",
+     "laughter"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C10",
+     "C11"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N07",
+    "beat": "payoff",
+    "startSec": 42.85,
+    "endSec": 48.16,
+    "startFrame": 1286,
+    "endFrame": 1445,
+    "text": "It took over a year to fade. Around a thousand people. And there was never a joke.",
+    "marked": "It took over a year to fade. Around a thousand people. And there was never a joke.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "year",
+     "thousand",
+     "never"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C12",
+     "C08",
+     "C13"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N08",
+    "beat": "ending",
+    "startSec": 48.24,
+    "endSec": 52.53,
+    "startFrame": 1447,
+    "endFrame": 1576,
+    "text": "If everyone around you started laughing right now… how long could you hold out?",
+    "marked": "If everyone around you started laughing right now… how long could you hold out?",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "laughing",
+     "hold out"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 7,
+    "musicMood": "see section G",
+    "ambient": "",
+    "sfx": [],
+    "claimIds": [
+     "C13"
+    ],
+    "deliveryNote": ""
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "classroom",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "mission-school classroom 1962: double desks, louvred windows, map of Africa, 1962 calendar",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "school",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "the school block with a red tin roof among banana trees, green hills, Lake Victoria; yard, road, lorry",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "dorm",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "dormitory: iron beds, mosquito nets, tin trunks, wall clock",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "map",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "map: Kashasha, Bukoba, Nshamba, Lake Victoria, 14 glowing school dots",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "clinic",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "small clinic: bottle shelves, test tubes, microscope, doctors in white coats",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "village",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "round thatched and tin-roofed houses, banana trees, flags and bunting for independence",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "front",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "blackboard wall: date, sums, 'EXAMINATIONS'; girls seen from behind",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   },
+   {
+    "id": "calendar",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "wall calendar January 1962 -> February 1963",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/laughter-epidemic-1962/art.ts",
+     "kit people.ts / face.ts"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "schoolgirl",
+    "kind": "human",
+    "description": "Tanganyikan schoolgirls 12-18 in sea-green uniform dresses, cropped hair or braids",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#2f8f83",
+     "pants": "#2b8478",
+     "skin": "#93603e"
+    },
+    "respectNote": "distressed, never comic; tears with the laughter"
+   },
+   {
+    "id": "teacher",
+    "kind": "human",
+    "description": "teachers in kitenge-print dresses and head-wraps; a male teacher in a white shirt",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#d9a441",
+     "pants": "#d9a441",
+     "skin": "#7a4e33"
+    },
+    "respectNote": "alarmed, caring"
+   },
+   {
+    "id": "doctor",
+    "kind": "human",
+    "description": "doctors in white coats with stethoscopes",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#f6f8f2",
+     "pants": "#3a3a3e",
+     "skin": "#93603e"
+    },
+    "respectNote": "serious"
+   },
+   {
+    "id": "villager",
+    "kind": "human",
+    "description": "villagers in kanzu and kofia, kanga/kitenge wraps and head-wraps",
+    "build": "adult",
+    "hat": "cap",
+    "outfit": {
+     "jacket": "#f6f2e6",
+     "pants": "#c4683a",
+     "skin": "#b0754e"
+    },
+    "respectNote": "dignified everyday dress"
+   }
+  ],
+  "subjects": [
+   {
+    "name": "girls",
+    "place": "girls",
+    "heightM": 1.6
+   },
+   {
+    "name": "hookA",
+    "place": "hookA",
+    "heightM": 1.6
+   },
+   {
+    "name": "teacher",
+    "place": "teacher",
+    "heightM": 1.6
+   },
+   {
+    "name": "school",
+    "place": "school",
+    "heightM": 1.6
+   },
+   {
+    "name": "yard",
+    "place": "yard",
+    "heightM": 1.6
+   },
+   {
+    "name": "faint",
+    "place": "faint",
+    "heightM": 1.6
+   },
+   {
+    "name": "bedgirl",
+    "place": "bedgirl",
+    "heightM": 1.6
+   },
+   {
+    "name": "officials",
+    "place": "officials",
+    "heightM": 1.6
+   },
+   {
+    "name": "lorry",
+    "place": "lorry",
+    "heightM": 1.6
+   },
+   {
+    "name": "map",
+    "place": "map",
+    "heightM": 1.6
+   },
+   {
+    "name": "doctors",
+    "place": "doctors",
+    "heightM": 1.6
+   },
+   {
+    "name": "home",
+    "place": "home",
+    "heightM": 1.6
+   },
+   {
+    "name": "village",
+    "place": "village",
+    "heightM": 1.6
+   },
+   {
+    "name": "flag",
+    "place": "flag",
+    "heightM": 1.6
+   },
+   {
+    "name": "board",
+    "place": "board",
+    "heightM": 1.6
+   },
+   {
+    "name": "studier",
+    "place": "studier",
+    "heightM": 1.6
+   },
+   {
+    "name": "calendar",
+    "place": "calendar",
+    "heightM": 1.6
+   },
+   {
+    "name": "crowd",
+    "place": "crowd",
+    "heightM": 1.6
+   },
+   {
+    "name": "holdout",
+    "place": "holdout",
+    "heightM": 1.6
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 2.9,
+   "startFrame": 0,
+   "endFrame": 87,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "In 1962 an epidemic shut down"
+   },
+   "environment": {
+    "scene": "classroom",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "HOOK: frame 0 = the paradox in motion: two schoolgirls at their desk laughing with tears and frightened eyes, a teacher panicking behind them, the whole class in fits"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "closeUp",
+      "params": {
+       "subject": "hookA",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "hookA",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "HOOK: frame 0 = the paradox in motion: two schoolgirls at their desk laughing wi",
+   "effects": [],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "hook-hum",
+    "hook-air",
+    "year-tick"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low uneasy pad, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "HOOK",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 2,
+   "startSec": 2.9,
+   "endSec": 5.3,
+   "startFrame": 87,
+   "endFrame": 159,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "fourteen schools The symptom"
+   },
+   "environment": {
+    "scene": "school",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'shut down fourteen schools': low angle at the school doors, the headmistress sends the girls out with their suitcases, some still in fits"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 87,
+      "preset": "closeUp",
+      "params": {
+       "subject": "school",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "school",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'shut down fourteen schools': low angle at the school doors, the headmistress se",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "school-air",
+    "school-birds",
+    "fourteen-notes",
+    "laugh-whoosh"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low uneasy pad, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'shut down fourteen schools'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 3,
+   "startSec": 5.3,
+   "endSec": 6.4,
+   "startFrame": 159,
+   "endFrame": 192,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "Laughter"
+   },
+   "environment": {
+    "scene": "classroom",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Laughter.': extreme close-up of one girl, laughing mouth, tears, frightened eyes"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 159,
+      "preset": "closeUp",
+      "params": {
+       "subject": "hookA",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "hookA",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'Laughter.': extreme close-up of one girl, laughing mouth, tears, frightened eye",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "laugh-hit",
+    "laugh-low"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "low uneasy pad, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'Laughter.'",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 4,
+   "startSec": 6.4,
+   "endSec": 9.0667,
+   "startFrame": 192,
+   "endFrame": 272,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "It started at a girls school in Tanganyika"
+   },
+   "environment": {
+    "scene": "school",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'a girls' school in Tanganyika': the mission school among banana trees and green hills, Lake Victoria beyond"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 192,
+      "preset": "closeUp",
+      "params": {
+       "subject": "school",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "school",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'a girls' school in Tanganyika': the mission school among banana trees and green",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hills-air",
+    "hills-birds"
+   ],
+   "musicDirection": {
+    "beat": "start",
+    "mood": "thin pulse, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'a girls' school in Tanganyika'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 5,
+   "startSec": 9.0667,
+   "endSec": 12.5667,
+   "startFrame": 272,
+   "endFrame": 377,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "Three students began laughing and couldnt stop"
+   },
+   "environment": {
+    "scene": "classroom",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Three students began laughing': over the teacher's shoulder, three girls start, the class stares; cut closer on 'couldn't stop'"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 272,
+      "preset": "closeUp",
+      "params": {
+       "subject": "teacher",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "teacher",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'Three students began laughing': over the teacher's shoulder, three girls start,",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "class-hum",
+    "began-tick",
+    "stop-notes"
+   ],
+   "musicDirection": {
+    "beat": "start",
+    "mood": "thin pulse, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'Three students began laughing'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 6,
+   "startSec": 12.5667,
+   "endSec": 14.6667,
+   "startFrame": 377,
+   "endFrame": 440,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "Soon ninety-five had it"
+   },
+   "environment": {
+    "scene": "school",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Soon, ninety-five had it': high wide over the school yard, the fits ripple from girl to girl"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 377,
+      "preset": "closeUp",
+      "params": {
+       "subject": "yard",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "yard",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'Soon, ninety-five had it': high wide over the school yard, the fits ripple from",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "yard-air",
+    "ripple-notes",
+    "ninetyfive-boom"
+   ],
+   "musicDirection": {
+    "beat": "start",
+    "mood": "thin pulse, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'Soon, ninety-five had it'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 7,
+   "startSec": 14.6667,
+   "endSec": 16.5667,
+   "startFrame": 440,
+   "endFrame": 497,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "They cried They fainted"
+   },
+   "environment": {
+    "scene": "dorm",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'They cried. They fainted.': dormitory, a girl faints and two friends hold her up"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 440,
+      "preset": "closeUp",
+      "params": {
+       "subject": "faint",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "faint",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'They cried. They fainted.': dormitory, a girl faints and two friends hold her u",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "dorm-hum",
+    "faint-low"
+   ],
+   "musicDirection": {
+    "beat": "fits",
+    "mood": "tense, A",
+    "duck": true
+   },
+   "emotionalIntention": "'They cried. They fainted.'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 8,
+   "startSec": 16.5667,
+   "endSec": 19.6,
+   "startFrame": 497,
+   "endFrame": 588,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "The fits lasted hours then came back"
+   },
+   "environment": {
+    "scene": "dorm",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'The fits lasted hours, then came back': a girl exhausted on her bed, the clock sweeps hours, the teacher with a lamp; cut close as the fit returns"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 497,
+      "preset": "closeUp",
+      "params": {
+       "subject": "bedgirl",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "bedgirl",
+   "lighting": "golden",
+   "foreground": "desks / yard / table",
+   "background": "'The fits lasted hours, then came back': a girl exhausted on her bed, the clock ",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hours-ticks",
+    "back-hit"
+   ],
+   "musicDirection": {
+    "beat": "fits",
+    "mood": "tense, A",
+    "duck": true
+   },
+   "emotionalIntention": "'The fits lasted hours, then came back'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 9,
+   "startSec": 19.6,
+   "endSec": 22.8,
+   "startFrame": 588,
+   "endFrame": 684,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "So officials closed the school and sent everyone home"
+   },
+   "environment": {
+    "scene": "school",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'officials closed the school and sent everyone home': officials with a clipboard, girls climb onto a lorry with suitcases"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 588,
+      "preset": "closeUp",
+      "params": {
+       "subject": "officials",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "officials",
+   "lighting": "golden",
+   "foreground": "desks / yard / table",
+   "background": "'officials closed the school and sent everyone home': officials with a clipboard",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "golden-air",
+    "golden-birds"
+   ],
+   "musicDirection": {
+    "beat": "mistake",
+    "mood": "full, Bb",
+    "duck": true
+   },
+   "emotionalIntention": "'officials closed the school and sent everyone home'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 10,
+   "startSec": 22.8,
+   "endSec": 23.9667,
+   "startFrame": 684,
+   "endFrame": 719,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "Big mistake"
+   },
+   "environment": {
+    "scene": "school",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Big mistake.': the lorry pulls away down the dusty red road, a girl in the back laughing"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 684,
+      "preset": "closeUp",
+      "params": {
+       "subject": "lorry",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "lorry",
+   "lighting": "golden",
+   "foreground": "desks / yard / table",
+   "background": "'Big mistake.': the lorry pulls away down the dusty red road, a girl in the back",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "lorry-rumble",
+    "mistake-whoosh",
+    "mistake-boom"
+   ],
+   "musicDirection": {
+    "beat": "mistake",
+    "mood": "full, Bb",
+    "duck": true
+   },
+   "emotionalIntention": "'Big mistake.'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 11,
+   "startSec": 23.9667,
+   "endSec": 26.1333,
+   "startFrame": 719,
+   "endFrame": 784,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "The girls carried it to their villages"
+   },
+   "environment": {
+    "scene": "map",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'carried it to their villages': the map, Kashasha to Nshamba and beyond, glowing dots multiplying (14 schools)"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 719,
+      "preset": "closeUp",
+      "params": {
+       "subject": "map",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "map",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'carried it to their villages': the map, Kashasha to Nshamba and beyond, glowing",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "map-room",
+    "map-spread"
+   ],
+   "musicDirection": {
+    "beat": "mistake",
+    "mood": "full, Bb",
+    "duck": true
+   },
+   "emotionalIntention": "'carried it to their villages'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 12,
+   "startSec": 26.1333,
+   "endSec": 29.3333,
+   "startFrame": 784,
+   "endFrame": 880,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "Poison Infection Doctors found neither"
+   },
+   "environment": {
+    "scene": "clinic",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Poison? Infection? Doctors found neither.': a doctor raises a test tube, another at the microscope; cut to the two doctors shaking their heads"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 784,
+      "preset": "closeUp",
+      "params": {
+       "subject": "doctors",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "doctors",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'Poison? Infection? Doctors found neither.': a doctor raises a test tube, anothe",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "clinic-hum",
+    "poison-tick",
+    "infection-tick",
+    "neither-notes"
+   ],
+   "musicDirection": {
+    "beat": "doctors",
+    "mood": "questioning glock, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'Poison? Infection? Doctors found neither.'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 13,
+   "startSec": 29.3333,
+   "endSec": 31.8,
+   "startFrame": 880,
+   "endFrame": 954,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "So what was it Tell me your theory"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'So what was it? Tell me your theory.': in her village, a girl in a fit held by her mother; the debate pill"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 880,
+      "preset": "closeUp",
+      "params": {
+       "subject": "home",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "home",
+   "lighting": "golden",
+   "foreground": "desks / yard / table",
+   "background": "'So what was it? Tell me your theory.': in her village, a girl in a fit held by ",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "village-air",
+    "village-birds",
+    "theory-tick"
+   ],
+   "musicDirection": {
+    "beat": "doctors",
+    "mood": "questioning glock, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'So what was it? Tell me your theory.'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 14,
+   "startSec": 31.8,
+   "endSec": 35.3,
+   "startFrame": 954,
+   "endFrame": 1059,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "The leading explanation: mass psychogenic illness"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'mass psychogenic illness': wide over the village at dusk, glowing threads pass the fit from person to person"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 954,
+      "preset": "closeUp",
+      "params": {
+       "subject": "village",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "village",
+   "lighting": "dusk",
+   "foreground": "desks / yard / table",
+   "background": "'mass psychogenic illness': wide over the village at dusk, glowing threads pass ",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "dusk-air",
+    "threads-notes"
+   ],
+   "musicDirection": {
+    "beat": "theory",
+    "mood": "soft, F",
+    "duck": true
+   },
+   "emotionalIntention": "'mass psychogenic illness'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 15,
+   "startSec": 35.3,
+   "endSec": 38.1333,
+   "startFrame": 1059,
+   "endFrame": 1144,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "The country had won independence just weeks earlier"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'won independence just weeks earlier': low angle, the new green/black/gold flag, bunting, a cheering crowd with hand flags (Dec 1961)"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1059,
+      "preset": "closeUp",
+      "params": {
+       "subject": "flag",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "flag",
+   "lighting": "golden",
+   "foreground": "desks / yard / table",
+   "background": "'won independence just weeks earlier': low angle, the new green/black/gold flag,",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "uhuru-air",
+    "uhuru-steps",
+    "uhuru-bell"
+   ],
+   "musicDirection": {
+    "beat": "theory",
+    "mood": "soft, F",
+    "duck": true
+   },
+   "emotionalIntention": "'won independence just weeks earlier'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 16,
+   "startSec": 38.1333,
+   "endSec": 40.7667,
+   "startFrame": 1144,
+   "endFrame": 1223,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "and these students lived under intense pressure"
+   },
+   "environment": {
+    "scene": "front",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'intense pressure': over a girl's shoulder, the teacher at a blackboard full of sums and 'EXAMINATIONS', piles of books"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1144,
+      "preset": "closeUp",
+      "params": {
+       "subject": "board",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "board",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'intense pressure': over a girl's shoulder, the teacher at a blackboard full of ",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "pressure-hum",
+    "pressure-ticks"
+   ],
+   "musicDirection": {
+    "beat": "theory",
+    "mood": "soft, F",
+    "duck": true
+   },
+   "emotionalIntention": "'intense pressure'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 17,
+   "startSec": 40.7667,
+   "endSec": 42.8667,
+   "startFrame": 1223,
+   "endFrame": 1286,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "The stress came out as laughter"
+   },
+   "environment": {
+    "scene": "classroom",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'The stress came out as laughter': close on a girl studying, worried, who breaks into a fit on 'laughter'"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1223,
+      "preset": "closeUp",
+      "params": {
+       "subject": "studier",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "studier",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'The stress came out as laughter': close on a girl studying, worried, who breaks",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "stress-whoosh",
+    "stress-boom"
+   ],
+   "musicDirection": {
+    "beat": "theory",
+    "mood": "soft, F",
+    "duck": true
+   },
+   "emotionalIntention": "'The stress came out as laughter'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 18,
+   "startSec": 42.8667,
+   "endSec": 44.9,
+   "startFrame": 1286,
+   "endFrame": 1347,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "It took over a year to fade"
+   },
+   "environment": {
+    "scene": "calendar",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'It took over a year to fade': the wall calendar flips from January 1962 to February 1963"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1286,
+      "preset": "closeUp",
+      "params": {
+       "subject": "calendar",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "calendar",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'It took over a year to fade': the wall calendar flips from January 1962 to Febr",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "pages",
+    "year-notes"
+   ],
+   "musicDirection": {
+    "beat": "year",
+    "mood": "near silence, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'It took over a year to fade'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 19,
+   "startSec": 44.9,
+   "endSec": 46.5667,
+   "startFrame": 1347,
+   "endFrame": 1397,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "Around a thousand people"
+   },
+   "environment": {
+    "scene": "village",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Around a thousand people': a wide crowd of villagers and schoolgirls"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1347,
+      "preset": "closeUp",
+      "params": {
+       "subject": "crowd",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "crowd",
+   "lighting": "golden",
+   "foreground": "desks / yard / table",
+   "background": "'Around a thousand people': a wide crowd of villagers and schoolgirls",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "crowd-air",
+    "thousand-boom"
+   ],
+   "musicDirection": {
+    "beat": "year",
+    "mood": "near silence, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'Around a thousand people'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 20,
+   "startSec": 46.5667,
+   "endSec": 48.2333,
+   "startFrame": 1397,
+   "endFrame": 1447,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "And there was never a joke"
+   },
+   "environment": {
+    "scene": "front",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'And there was never a joke': the empty classroom, quiet, faded chalk"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1397,
+      "preset": "closeUp",
+      "params": {
+       "subject": "board",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "board",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'And there was never a joke': the empty classroom, quiet, faded chalk",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "empty-room",
+    "joke-tick"
+   ],
+   "musicDirection": {
+    "beat": "year",
+    "mood": "near silence, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'And there was never a joke'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 21,
+   "startSec": 48.2333,
+   "endSec": 52.8,
+   "startFrame": 1447,
+   "endFrame": 1584,
+   "narration": {
+    "segmentIds": [
+     "N08"
+    ],
+    "text": "If everyone around you started laughing right now how long could you hold out"
+   },
+   "environment": {
+    "scene": "classroom",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'how long could you hold out?': one girl presses her mouth shut while the fits spread around her; cut back to the hook (last frame = frame 0)"
+   },
+   "characters": [
+    {
+     "id": "schoolgirl",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1447,
+      "preset": "closeUp",
+      "params": {
+       "subject": "holdout",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "holdout",
+   "lighting": "day",
+   "foreground": "desks / yard / table",
+   "background": "'how long could you hold out?': one girl presses her mouth shut while the fits s",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hold-hum",
+    "hold-notes",
+    "hold-air"
+   ],
+   "musicDirection": {
+    "beat": "loop",
+    "mood": "the hook bed returns, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'how long could you hold out?'",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  }
+ ],
+ "events": {
+  "flashAt": 159,
+  "flashes": [
+   [
+    159,
+    0.18
+   ]
+  ],
+  "hits": [
+   159,
+   394,
+   693,
+   1257
+  ],
+  "kicks": [
+   [
+    159,
+    0.5
+   ],
+   [
+    394,
+    0.45
+   ],
+   [
+    693,
+    0.55
+   ],
+   [
+    1257,
+    0.5
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "hook-hum",
+    "at": 0,
+    "gen": "hum",
+    "args": {
+     "hz": 55.0,
+     "tone": 0.04,
+     "noise": 0.03
+    },
+    "span": [
+     0,
+     87
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "uneasy bed under the hook (classroom)"
+   },
+   {
+    "id": "hook-air",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.08,
+     "bright": 700
+    },
+    "span": [
+     0,
+     87
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "open louvred windows"
+   },
+   {
+    "id": "year-tick",
+    "at": 7,
+    "gen": "glock",
+    "args": {
+     "midi": 86,
+     "level": 0.26
+    },
+    "post": [
+     [
+      "pan",
+      0.1
+     ]
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "on '1962'"
+   },
+   {
+    "id": "school-air",
+    "at": 87,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 800
+    },
+    "span": [
+     87,
+     159
+    ],
+    "segmentId": "N01",
+    "shotId": 2,
+    "intent": "the yard"
+   },
+   {
+    "id": "school-birds",
+    "at": 87,
+    "gen": "birds",
+    "args": {
+     "density": 0.12
+    },
+    "span": [
+     87,
+     159
+    ],
+    "post": [
+     [
+      "gain",
+      0.35
+     ]
+    ],
+    "segmentId": "N01",
+    "shotId": 2,
+    "intent": "weaver birds"
+   },
+   {
+    "id": "fourteen-notes",
+    "at": 103,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      74,
+      77,
+      81
+     ],
+     "level": 0.22,
+     "spacing": 0.12,
+     "pan0": -0.3,
+     "pan_step": 0.3
+    },
+    "segmentId": "N01",
+    "shotId": 2,
+    "intent": "on 'fourteen schools'"
+   },
+   {
+    "id": "laugh-whoosh",
+    "at": 150,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.35,
+     "peak": 0.3,
+     "f_lo": 300,
+     "f_hi": 2400,
+     "width": 0.4,
+     "tail": 0.12
+    },
+    "post": [
+     [
+      "gain",
+      0.35
+     ]
+    ],
+    "segmentId": "N01",
+    "shotId": 2,
+    "intent": "into 'Laughter'"
+   },
+   {
+    "id": "laugh-hit",
+    "at": 159,
+    "gen": "glock",
+    "args": {
+     "midi": 81,
+     "level": 0.3
+    },
+    "segmentId": "N01",
+    "shotId": 3,
+    "intent": "on 'Laughter' (kick)"
+   },
+   {
+    "id": "laugh-low",
+    "at": 159,
+    "gen": "boom",
+    "args": {
+     "dur": 1.2,
+     "f0": 45,
+     "big": 0.25
+    },
+    "segmentId": "N01",
+    "shotId": 3,
+    "intent": "weight under the reveal"
+   },
+   {
+    "id": "hills-air",
+    "at": 192,
+    "gen": "breeze",
+    "args": {
+     "level": 0.14,
+     "bright": 800
+    },
+    "span": [
+     192,
+     272
+    ],
+    "segmentId": "N02",
+    "shotId": 4,
+    "intent": "green hills by the lake"
+   },
+   {
+    "id": "hills-birds",
+    "at": 192,
+    "gen": "birds",
+    "args": {
+     "density": 0.16
+    },
+    "span": [
+     192,
+     272
+    ],
+    "post": [
+     [
+      "gain",
+      0.4
+     ]
+    ],
+    "segmentId": "N02",
+    "shotId": 4,
+    "intent": "birds over the banana groves"
+   },
+   {
+    "id": "class-hum",
+    "at": 272,
+    "gen": "hum",
+    "args": {
+     "hz": 60.0,
+     "tone": 0.02,
+     "noise": 0.03
+    },
+    "span": [
+     272,
+     377
+    ],
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "the classroom"
+   },
+   {
+    "id": "began-tick",
+    "at": 296,
+    "gen": "glock",
+    "args": {
+     "midi": 79,
+     "level": 0.24
+    },
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "on 'began laughing'"
+   },
+   {
+    "id": "stop-notes",
+    "at": 340,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      77,
+      74,
+      70
+     ],
+     "level": 0.22,
+     "spacing": 0.18,
+     "pan0": 0.2,
+     "pan_step": -0.2
+    },
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "'couldn't stop'"
+   },
+   {
+    "id": "yard-air",
+    "at": 377,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 700
+    },
+    "span": [
+     377,
+     440
+    ],
+    "segmentId": "N02",
+    "shotId": 6,
+    "intent": "the yard"
+   },
+   {
+    "id": "ripple-notes",
+    "at": 380,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      69,
+      74,
+      77,
+      81,
+      86
+     ],
+     "level": 0.24,
+     "spacing": 0.16,
+     "pan0": -0.4,
+     "pan_step": 0.2
+    },
+    "segmentId": "N02",
+    "shotId": 6,
+    "intent": "the fit ripples out"
+   },
+   {
+    "id": "ninetyfive-boom",
+    "at": 394,
+    "gen": "boom",
+    "args": {
+     "dur": 1.0,
+     "f0": 55,
+     "big": 0.2
+    },
+    "segmentId": "N02",
+    "shotId": 6,
+    "intent": "on 'ninety-five' (kick)"
+   },
+   {
+    "id": "dorm-hum",
+    "at": 440,
+    "gen": "hum",
+    "args": {
+     "hz": 50.0,
+     "tone": 0.03,
+     "noise": 0.025
+    },
+    "span": [
+     440,
+     588
+    ],
+    "segmentId": "N03",
+    "shotId": 7,
+    "intent": "the dormitory"
+   },
+   {
+    "id": "faint-low",
+    "at": 473,
+    "gen": "rumble",
+    "args": {
+     "dur": 1.4,
+     "gain": 0.25,
+     "lo": 30,
+     "hi": 110,
+     "decay": 1.2
+    },
+    "post": [
+     [
+      "widen"
+     ]
+    ],
+    "segmentId": "N03",
+    "shotId": 7,
+    "intent": "she faints"
+   },
+   {
+    "id": "hours-ticks",
+    "at": 500,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      84,
+      84,
+      84,
+      84,
+      84,
+      84
+     ],
+     "level": 0.14,
+     "spacing": 0.42,
+     "pan0": 0.1,
+     "pan_step": 0.0
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "the clock: hours pass"
+   },
+   {
+    "id": "back-hit",
+    "at": 547,
+    "gen": "glock",
+    "args": {
+     "midi": 76,
+     "level": 0.28
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "'then came back'"
+   },
+   {
+    "id": "golden-air",
+    "at": 588,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 600
+    },
+    "span": [
+     588,
+     719
+    ],
+    "segmentId": "N04",
+    "shotId": 9,
+    "intent": "golden afternoon, the yard and the road"
+   },
+   {
+    "id": "golden-birds",
+    "at": 588,
+    "gen": "birds",
+    "args": {
+     "density": 0.08
+    },
+    "span": [
+     588,
+     684
+    ],
+    "post": [
+     [
+      "gain",
+      0.3
+     ]
+    ],
+    "segmentId": "N04",
+    "shotId": 9,
+    "intent": "evening birds"
+   },
+   {
+    "id": "lorry-rumble",
+    "at": 684,
+    "gen": "rumble",
+    "args": {
+     "dur": 1.4,
+     "gain": 0.35,
+     "lo": 35,
+     "hi": 140,
+     "decay": 1.0
+    },
+    "segmentId": "N04",
+    "shotId": 10,
+    "intent": "the lorry engine pulls away"
+   },
+   {
+    "id": "mistake-whoosh",
+    "at": 686,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.4,
+     "peak": 0.35,
+     "f_lo": 250,
+     "f_hi": 2000,
+     "width": 0.4,
+     "tail": 0.15
+    },
+    "post": [
+     [
+      "gain",
+      0.4
+     ]
+    ],
+    "segmentId": "N04",
+    "shotId": 10,
+    "intent": "into 'Big mistake'"
+   },
+   {
+    "id": "mistake-boom",
+    "at": 693,
+    "gen": "boom",
+    "args": {
+     "dur": 1.4,
+     "f0": 42,
+     "big": 0.35
+    },
+    "post": [
+     [
+      "widen"
+     ]
+    ],
+    "segmentId": "N04",
+    "shotId": 10,
+    "intent": "on 'Big mistake' (kick)"
+   },
+   {
+    "id": "map-room",
+    "at": 719,
+    "gen": "hum",
+    "args": {
+     "hz": 60.0,
+     "tone": 0.015,
+     "noise": 0.02
+    },
+    "span": [
+     719,
+     784
+    ],
+    "segmentId": "N04",
+    "shotId": 11,
+    "intent": "the map table"
+   },
+   {
+    "id": "map-spread",
+    "at": 726,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      69,
+      72,
+      74,
+      77,
+      79,
+      81,
+      84,
+      86
+     ],
+     "level": 0.2,
+     "spacing": 0.11,
+     "pan0": -0.4,
+     "pan_step": 0.11
+    },
+    "segmentId": "N04",
+    "shotId": 11,
+    "intent": "dots multiplying"
+   },
+   {
+    "id": "clinic-hum",
+    "at": 784,
+    "gen": "hum",
+    "args": {
+     "hz": 60.0,
+     "tone": 0.03,
+     "noise": 0.02
+    },
+    "span": [
+     784,
+     880
+    ],
+    "segmentId": "N05",
+    "shotId": 12,
+    "intent": "the clinic"
+   },
+   {
+    "id": "poison-tick",
+    "at": 784,
+    "gen": "glock",
+    "args": {
+     "midi": 81,
+     "level": 0.24
+    },
+    "post": [
+     [
+      "pan",
+      -0.2
+     ]
+    ],
+    "segmentId": "N05",
+    "shotId": 12,
+    "intent": "'Poison?'"
+   },
+   {
+    "id": "infection-tick",
+    "at": 808,
+    "gen": "glock",
+    "args": {
+     "midi": 84,
+     "level": 0.24
+    },
+    "post": [
+     [
+      "pan",
+      0.2
+     ]
+    ],
+    "segmentId": "N05",
+    "shotId": 12,
+    "intent": "'Infection?'"
+   },
+   {
+    "id": "neither-notes",
+    "at": 851,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      77,
+      72
+     ],
+     "level": 0.24,
+     "spacing": 0.3,
+     "pan0": 0.0,
+     "pan_step": 0.0
+    },
+    "segmentId": "N05",
+    "shotId": 12,
+    "intent": "'found neither'"
+   },
+   {
+    "id": "village-air",
+    "at": 880,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 600
+    },
+    "span": [
+     880,
+     954
+    ],
+    "segmentId": "N05",
+    "shotId": 13,
+    "intent": "the village"
+   },
+   {
+    "id": "village-birds",
+    "at": 880,
+    "gen": "birds",
+    "args": {
+     "density": 0.1
+    },
+    "span": [
+     880,
+     954
+    ],
+    "post": [
+     [
+      "gain",
+      0.3
+     ]
+    ],
+    "segmentId": "N05",
+    "shotId": 13,
+    "intent": "birds"
+   },
+   {
+    "id": "theory-tick",
+    "at": 913,
+    "gen": "glock",
+    "args": {
+     "midi": 79,
+     "level": 0.26
+    },
+    "segmentId": "N05",
+    "shotId": 13,
+    "intent": "'Tell me your theory' (the pill)"
+   },
+   {
+    "id": "dusk-air",
+    "at": 954,
+    "gen": "breeze",
+    "args": {
+     "level": 0.1,
+     "bright": 400
+    },
+    "span": [
+     954,
+     1059
+    ],
+    "segmentId": "N06",
+    "shotId": 14,
+    "intent": "dusk"
+   },
+   {
+    "id": "threads-notes",
+    "at": 966,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      62,
+      65,
+      69,
+      72,
+      74,
+      77,
+      81
+     ],
+     "level": 0.2,
+     "spacing": 0.35,
+     "pan0": -0.3,
+     "pan_step": 0.1
+    },
+    "segmentId": "N06",
+    "shotId": 14,
+    "intent": "the fit passed person to person"
+   },
+   {
+    "id": "uhuru-air",
+    "at": 1059,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 800
+    },
+    "span": [
+     1059,
+     1144
+    ],
+    "segmentId": "N06",
+    "shotId": 15,
+    "intent": "celebration day"
+   },
+   {
+    "id": "uhuru-steps",
+    "at": 1059,
+    "gen": "steps",
+    "args": {
+     "period": 0.25,
+     "pitch": 0.9,
+     "gain": 0.22,
+     "pan0": -0.4,
+     "pan_step": 0.8
+    },
+    "span": [
+     1059,
+     1144
+    ],
+    "segmentId": "N06",
+    "shotId": 15,
+    "intent": "feet of a celebrating crowd"
+   },
+   {
+    "id": "uhuru-bell",
+    "at": 1085,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      74,
+      78,
+      81,
+      86
+     ],
+     "level": 0.22,
+     "spacing": 0.14,
+     "pan0": -0.2,
+     "pan_step": 0.15
+    },
+    "segmentId": "N06",
+    "shotId": 15,
+    "intent": "'independence': a bright fanfare"
+   },
+   {
+    "id": "pressure-hum",
+    "at": 1144,
+    "gen": "hum",
+    "args": {
+     "hz": 55.0,
+     "tone": 0.04,
+     "noise": 0.03
+    },
+    "span": [
+     1144,
+     1286
+    ],
+    "segmentId": "N06",
+    "shotId": 16,
+    "intent": "classroom pressure"
+   },
+   {
+    "id": "pressure-ticks",
+    "at": 1150,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88
+     ],
+     "level": 0.12,
+     "spacing": 0.5,
+     "pan0": 0.2,
+     "pan_step": 0.0
+    },
+    "segmentId": "N06",
+    "shotId": 16,
+    "intent": "a clock ticking: pressure"
+   },
+   {
+    "id": "stress-whoosh",
+    "at": 1248,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.35,
+     "peak": 0.3,
+     "f_lo": 300,
+     "f_hi": 2400,
+     "width": 0.4,
+     "tail": 0.12
+    },
+    "post": [
+     [
+      "gain",
+      0.35
+     ]
+    ],
+    "segmentId": "N06",
+    "shotId": 17,
+    "intent": "into 'laughter'"
+   },
+   {
+    "id": "stress-boom",
+    "at": 1257,
+    "gen": "boom",
+    "args": {
+     "dur": 1.2,
+     "f0": 48,
+     "big": 0.3
+    },
+    "segmentId": "N06",
+    "shotId": 17,
+    "intent": "on 'laughter' (kick)"
+   },
+   {
+    "id": "pages",
+    "at": 1292,
+    "gen": "whoosh",
+    "args": {
+     "dur": 1.5,
+     "peak": 0.2,
+     "f_lo": 800,
+     "f_hi": 4000,
+     "width": 0.3,
+     "tail": 0.2
+    },
+    "post": [
+     [
+      "gain",
+      0.25
+     ]
+    ],
+    "segmentId": "N07",
+    "shotId": 18,
+    "intent": "calendar pages flipping"
+   },
+   {
+    "id": "year-notes",
+    "at": 1300,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      72,
+      74,
+      76,
+      77,
+      79,
+      81
+     ],
+     "level": 0.16,
+     "spacing": 0.2,
+     "pan0": -0.2,
+     "pan_step": 0.08
+    },
+    "segmentId": "N07",
+    "shotId": 18,
+    "intent": "a year passes"
+   },
+   {
+    "id": "crowd-air",
+    "at": 1347,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 600
+    },
+    "span": [
+     1347,
+     1397
+    ],
+    "segmentId": "N07",
+    "shotId": 19,
+    "intent": "the crowd"
+   },
+   {
+    "id": "thousand-boom",
+    "at": 1358,
+    "gen": "boom",
+    "args": {
+     "dur": 1.4,
+     "f0": 45,
+     "big": 0.25
+    },
+    "segmentId": "N07",
+    "shotId": 19,
+    "intent": "'a thousand'"
+   },
+   {
+    "id": "empty-room",
+    "at": 1397,
+    "gen": "hum",
+    "args": {
+     "hz": 50.0,
+     "tone": 0.015,
+     "noise": 0.015
+    },
+    "span": [
+     1397,
+     1447
+    ],
+    "segmentId": "N07",
+    "shotId": 20,
+    "intent": "the empty classroom"
+   },
+   {
+    "id": "joke-tick",
+    "at": 1421,
+    "gen": "glock",
+    "args": {
+     "midi": 74,
+     "level": 0.22
+    },
+    "segmentId": "N07",
+    "shotId": 20,
+    "intent": "'never a joke'"
+   },
+   {
+    "id": "hold-hum",
+    "at": 1447,
+    "gen": "hum",
+    "args": {
+     "hz": 55.0,
+     "tone": 0.04,
+     "noise": 0.03
+    },
+    "span": [
+     1447,
+     1584
+    ],
+    "segmentId": "N08",
+    "shotId": 21,
+    "intent": "the hook bed returns: loops into frame 0"
+   },
+   {
+    "id": "hold-notes",
+    "at": 1452,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      69,
+      74,
+      77,
+      81,
+      86
+     ],
+     "level": 0.22,
+     "spacing": 0.3,
+     "pan0": -0.4,
+     "pan_step": 0.2
+    },
+    "segmentId": "N08",
+    "shotId": 21,
+    "intent": "the fits spread round her"
+   },
+   {
+    "id": "hold-air",
+    "at": 1447,
+    "gen": "breeze",
+    "args": {
+     "level": 0.08,
+     "bright": 700
+    },
+    "span": [
+     1447,
+     1584
+    ],
+    "segmentId": "N08",
+    "shotId": 21,
+    "intent": "open windows, as the hook"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      3
+     ],
+     "chord": "Dm",
+     "level": 0.85,
+     "mood": "low uneasy pad, Dm"
+    },
+    {
+     "name": "start",
+     "shots": [
+      4,
+      6
+     ],
+     "chord": "Gm",
+     "level": 0.6,
+     "mood": "thin pulse, Gm"
+    },
+    {
+     "name": "fits",
+     "shots": [
+      7,
+      8
+     ],
+     "chord": "A",
+     "level": 0.7,
+     "mood": "tense, A"
+    },
+    {
+     "name": "mistake",
+     "shots": [
+      9,
+      11
+     ],
+     "chord": "Bb",
+     "level": 0.9,
+     "mood": "full, Bb"
+    },
+    {
+     "name": "doctors",
+     "shots": [
+      12,
+      13
+     ],
+     "chord": "Gm",
+     "level": 0.75,
+     "mood": "questioning glock, Gm"
+    },
+    {
+     "name": "theory",
+     "shots": [
+      14,
+      17
+     ],
+     "chord": "F",
+     "level": 0.65,
+     "mood": "soft, F"
+    },
+    {
+     "name": "year",
+     "shots": [
+      18,
+      20
+     ],
+     "chord": "Dm",
+     "level": 0.5,
+     "mood": "near silence, Dm"
+    },
+    {
+     "name": "loop",
+     "shots": [
+      21,
+      21
+     ],
+     "chord": "Dm",
+     "level": 0.85,
+     "mood": "the hook bed returns, Dm"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.02,
+   "fade_out": 0.2
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 9,
+   "originality": 8,
+   "researchReliability": 8,
+   "rhythm": 7,
+   "hinglishNaturalness": 8,
+   "emotion": 7,
+   "retention": 8,
+   "visualStorytelling": 8,
+   "pacing": 8,
+   "productionFeasibility": 8,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "facts",
+    "issue": "End date varies by source (mid-1963 vs 1964); narration says only 'over a year'.",
+    "severity": "low"
+   },
+   {
+    "area": "facts",
+    "issue": "Mass psychogenic illness is the leading explanation, not proven; said as 'the leading explanation'.",
+    "severity": "low"
+   },
+   {
+    "area": "audio",
+    "issue": "George ran 57.6 s; the take was time-compressed x1.1 (atempo) to 52.5 s to hit 45-55 s total.",
+    "severity": "medium"
+   },
+   {
+    "area": "production",
+    "issue": "No seated/back-view people in the kit: seated girls are cards sunk behind desks; backs are hand-drawn cards.",
+    "severity": "low"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Narration used verbatim (owner-approved).",
+    "reason": "owner"
+   },
+   {
+    "round": 2,
+    "change": "Faces: new kit expressions 'hysteric' and 'sob' + opt-in tears so laughter reads as distress; no outstretched stiff arms in fits",
+    "reason": "laughter must not read as fun"
+   },
+   {
+    "round": 3,
+    "change": "Framing fixes (heads uncropped, no giant foreground figures), thumbnail layout fix",
+    "reason": "lead review"
+   }
+  ],
+  "rhythm": {
+   "verdict": "REVISE",
+   "durationSec": 52.5,
+   "wps": 2.6,
+   "lengthCv": 0.63,
+   "findings": 8
+  },
+  "editorNotes": "Narration is owner-approved and used verbatim, so rhythm findings are explained, not rewritten: S14 'Poison?' IS answered by S16 'Doctors found neither' (tool false positive); S26 is the deliberate open loop/lingering question; the S5-S9 staccato ('They cried. They fainted.') is intentional escalation; no long pause because tighten_pauses caps gaps at 0.35 s."
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "a seated pose and a back view for kit people",
+   "need": "girls at desks and over-the-shoulder shots",
+   "shotIds": [
+    1,
+    3,
+    16,
+    17,
+    21
+   ],
+   "suggestion": "cards sunk behind desk cards and hand-drawn back-of-head cards (used)"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "In 1962, Laughter Shut Down 14 Schools. Nobody Told a Joke. #Shorts",
+   "The Tanganyika Laughter Epidemic (1962)",
+   "1,000 People Couldn't Stop Laughing",
+   "The Epidemic Whose Only Symptom Was Laughter",
+   "Why 95 Schoolgirls Couldn't Stop Laughing"
+  ],
+  "thumbnails": [
+   {
+    "concept": "schoolgirls laughing with tears and frightened eyes at their desks, a teacher with her hands on her head",
+    "text": "THE LAUGHTER EPIDEMIC"
+   },
+   {
+    "concept": "map of Lake Victoria with glowing dots spreading from Kashasha",
+    "text": "14 SCHOOLS CLOSED"
+   },
+   {
+    "concept": "a girl in her uniform, laughing with tears, a doctor holding a test tube",
+    "text": "POISON... OR THE MIND?"
+   }
+  ],
+  "description": "On 30 January 1962, at a mission girls' boarding school in Kashasha, near Bukoba on Lake Victoria in newly independent Tanganyika (now Tanzania), three students started laughing and couldn't stop. Within weeks 95 of the school's 159 pupils had attacks: laughing mixed with crying, restlessness and fainting, lasting hours and coming back. Teachers were not affected.\n\nOn 18 March the school was closed and the girls were sent home. It spread with them: to Nshamba, where 217 people had attacks, and to other villages and schools. In all, 14 schools were shut and about 1,000 people were affected over roughly a year and a half.\n\nDoctors tested for poison and infection and found neither. The leading explanation is mass psychogenic illness: real physical symptoms, spread socially, triggered by stress. Tanganyika had won independence on 9 December 1961, and pupils lived under strict discipline and heavy expectations. No joke was ever recorded. This is the leading theory, not a settled fact, and some historians question how the case was framed at the time.\n\nSources:\n- A. M. Rankin & P. J. Philip, \"An epidemic of laughing in the Bukoba district of Tanganyika\", Central African Journal of Medicine, May 1963 (https://pubmed.ncbi.nlm.nih.gov/13973013)\n- C. F. Hempelmann, \"The laughter of the 1962 Tanganyika 'laughter epidemic'\", Humor 20(1), 2007\n- Robert Provine, Laughter: A Scientific Investigation; interviewed by Lawrence Weschler (https://lawrenceweschler.substack.com/p/august-3-2023-issue-48)\n- Wikipedia, Tanganyika laughter epidemic (https://en.wikipedia.org/wiki/Tanganyika_laughter_epidemic)\n- Clio's Current (https://clioscurrent.com/blog/2015/7/29/tanganyikalaughingepidemic)\n- Scibabe (https://scibabe.com/daily-mos-the-tanganyika-laughing-epidemic/)\n- Owaahh (https://owaahh.com/the-tanganyika-laughing-epidemic-of-1962)\n- Now I Know (https://nowiknow.com/tanganyikas-laughing-epidemic/)\n\n#LaughterEpidemic #Tanganyika #Tanzania #History #WeirdHistory #Psychology #MassHysteria #Shorts",
+  "hashtags": [
+   "#LaughterEpidemic",
+   "#Tanganyika",
+   "#Tanzania",
+   "#History",
+   "#WeirdHistory",
+   "#Psychology",
+   "#MassHysteria",
+   "#Shorts"
+  ],
+  "pinnedComment": "Poison or the mind? Doctors ruled out poison and infection, and the leading explanation is mass psychogenic illness from stress after independence. Others think something physical was missed, or that the \"hysteria\" label says more about 1960s medicine than about the girls. Which side are you on? 👇"
+ }
+}

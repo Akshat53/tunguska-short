@@ -1,0 +1,652 @@
+[
+ {
+  "word": "In",
+  "start": 0.0,
+  "end": 0.145
+ },
+ {
+  "word": "1962",
+  "start": 0.218,
+  "end": 1.455
+ },
+ {
+  "word": "an",
+  "start": 1.527,
+  "end": 1.6
+ },
+ {
+  "word": "epidemic",
+  "start": 1.673,
+  "end": 2.255
+ },
+ {
+  "word": "shut",
+  "start": 2.327,
+  "end": 2.473
+ },
+ {
+  "word": "down",
+  "start": 2.545,
+  "end": 2.764
+ },
+ {
+  "word": "fourteen",
+  "start": 2.909,
+  "end": 3.345
+ },
+ {
+  "word": "schools",
+  "start": 3.418,
+  "end": 4.145
+ },
+ {
+  "word": "The",
+  "start": 4.364,
+  "end": 4.436
+ },
+ {
+  "word": "symptom",
+  "start": 4.509,
+  "end": 4.945
+ },
+ {
+  "word": "Laughter",
+  "start": 5.382,
+  "end": 6.182
+ },
+ {
+  "word": "It",
+  "start": 6.473,
+  "end": 6.618
+ },
+ {
+  "word": "started",
+  "start": 6.8,
+  "end": 6.982
+ },
+ {
+  "word": "at",
+  "start": 7.018,
+  "end": 7.055
+ },
+ {
+  "word": "a",
+  "start": 7.127,
+  "end": 7.2
+ },
+ {
+  "word": "girls",
+  "start": 7.273,
+  "end": 7.527
+ },
+ {
+  "word": "school",
+  "start": 7.564,
+  "end": 7.782
+ },
+ {
+  "word": "in",
+  "start": 7.855,
+  "end": 7.927
+ },
+ {
+  "word": "Tanganyika",
+  "start": 8.0,
+  "end": 8.909
+ },
+ {
+  "word": "Three",
+  "start": 9.164,
+  "end": 9.382
+ },
+ {
+  "word": "students",
+  "start": 9.455,
+  "end": 9.891
+ },
+ {
+  "word": "began",
+  "start": 9.964,
+  "end": 10.182
+ },
+ {
+  "word": "laughing",
+  "start": 10.255,
+  "end": 11.127
+ },
+ {
+  "word": "and",
+  "start": 11.2,
+  "end": 11.273
+ },
+ {
+  "word": "couldnt",
+  "start": 11.418,
+  "end": 11.636
+ },
+ {
+  "word": "stop",
+  "start": 11.709,
+  "end": 12.364
+ },
+ {
+  "word": "Soon",
+  "start": 12.655,
+  "end": 13.164
+ },
+ {
+  "word": "ninety-five",
+  "start": 13.236,
+  "end": 13.964
+ },
+ {
+  "word": "had",
+  "start": 14.073,
+  "end": 14.182
+ },
+ {
+  "word": "it",
+  "start": 14.255,
+  "end": 14.4
+ },
+ {
+  "word": "They",
+  "start": 14.836,
+  "end": 14.982
+ },
+ {
+  "word": "cried",
+  "start": 15.055,
+  "end": 15.6
+ },
+ {
+  "word": "They",
+  "start": 15.709,
+  "end": 15.782
+ },
+ {
+  "word": "fainted",
+  "start": 15.927,
+  "end": 16.545
+ },
+ {
+  "word": "The",
+  "start": 16.727,
+  "end": 16.8
+ },
+ {
+  "word": "fits",
+  "start": 16.873,
+  "end": 17.164
+ },
+ {
+  "word": "lasted",
+  "start": 17.236,
+  "end": 17.673
+ },
+ {
+  "word": "hours",
+  "start": 17.891,
+  "end": 18.327
+ },
+ {
+  "word": "then",
+  "start": 18.4,
+  "end": 18.618
+ },
+ {
+  "word": "came",
+  "start": 18.691,
+  "end": 18.909
+ },
+ {
+  "word": "back",
+  "start": 18.982,
+  "end": 19.527
+ },
+ {
+  "word": "So",
+  "start": 19.782,
+  "end": 20.0
+ },
+ {
+  "word": "officials",
+  "start": 20.073,
+  "end": 20.509
+ },
+ {
+  "word": "closed",
+  "start": 20.582,
+  "end": 20.873
+ },
+ {
+  "word": "the",
+  "start": 20.945,
+  "end": 20.982
+ },
+ {
+  "word": "school",
+  "start": 21.018,
+  "end": 21.382
+ },
+ {
+  "word": "and",
+  "start": 21.455,
+  "end": 21.527
+ },
+ {
+  "word": "sent",
+  "start": 21.6,
+  "end": 21.818
+ },
+ {
+  "word": "everyone",
+  "start": 21.891,
+  "end": 22.182
+ },
+ {
+  "word": "home",
+  "start": 22.255,
+  "end": 22.618
+ },
+ {
+  "word": "Big",
+  "start": 23.127,
+  "end": 23.345
+ },
+ {
+  "word": "mistake",
+  "start": 23.418,
+  "end": 24.109
+ },
+ {
+  "word": "The",
+  "start": 24.291,
+  "end": 24.364
+ },
+ {
+  "word": "girls",
+  "start": 24.436,
+  "end": 24.727
+ },
+ {
+  "word": "carried",
+  "start": 24.8,
+  "end": 25.091
+ },
+ {
+  "word": "it",
+  "start": 25.127,
+  "end": 25.164
+ },
+ {
+  "word": "to",
+  "start": 25.236,
+  "end": 25.309
+ },
+ {
+  "word": "their",
+  "start": 25.382,
+  "end": 25.455
+ },
+ {
+  "word": "villages",
+  "start": 25.491,
+  "end": 26.218
+ },
+ {
+  "word": "Poison",
+  "start": 26.473,
+  "end": 27.2
+ },
+ {
+  "word": "Infection",
+  "start": 27.273,
+  "end": 28.0
+ },
+ {
+  "word": "Doctors",
+  "start": 28.218,
+  "end": 28.582
+ },
+ {
+  "word": "found",
+  "start": 28.691,
+  "end": 28.8
+ },
+ {
+  "word": "neither",
+  "start": 28.873,
+  "end": 29.455
+ },
+ {
+  "word": "So",
+  "start": 29.673,
+  "end": 29.745
+ },
+ {
+  "word": "what",
+  "start": 29.818,
+  "end": 29.964
+ },
+ {
+  "word": "was",
+  "start": 30.073,
+  "end": 30.182
+ },
+ {
+  "word": "it",
+  "start": 30.255,
+  "end": 30.4
+ },
+ {
+  "word": "Tell",
+  "start": 30.836,
+  "end": 30.909
+ },
+ {
+  "word": "me",
+  "start": 30.982,
+  "end": 31.055
+ },
+ {
+  "word": "your",
+  "start": 31.127,
+  "end": 31.273
+ },
+ {
+  "word": "theory",
+  "start": 31.345,
+  "end": 31.964
+ },
+ {
+  "word": "The",
+  "start": 32.218,
+  "end": 32.291
+ },
+ {
+  "word": "leading",
+  "start": 32.364,
+  "end": 32.655
+ },
+ {
+  "word": "explanation:",
+  "start": 32.764,
+  "end": 33.673
+ },
+ {
+  "word": "mass",
+  "start": 33.818,
+  "end": 33.964
+ },
+ {
+  "word": "psychogenic",
+  "start": 34.109,
+  "end": 34.691
+ },
+ {
+  "word": "illness",
+  "start": 34.764,
+  "end": 35.455
+ },
+ {
+  "word": "The",
+  "start": 35.709,
+  "end": 35.855
+ },
+ {
+  "word": "country",
+  "start": 36.0,
+  "end": 36.145
+ },
+ {
+  "word": "had",
+  "start": 36.218,
+  "end": 36.291
+ },
+ {
+  "word": "won",
+  "start": 36.364,
+  "end": 36.509
+ },
+ {
+  "word": "independence",
+  "start": 36.582,
+  "end": 37.236
+ },
+ {
+  "word": "just",
+  "start": 37.309,
+  "end": 37.455
+ },
+ {
+  "word": "weeks",
+  "start": 37.6,
+  "end": 37.818
+ },
+ {
+  "word": "earlier",
+  "start": 37.891,
+  "end": 38.473
+ },
+ {
+  "word": "and",
+  "start": 38.545,
+  "end": 38.618
+ },
+ {
+  "word": "these",
+  "start": 38.727,
+  "end": 38.836
+ },
+ {
+  "word": "students",
+  "start": 39.055,
+  "end": 39.273
+ },
+ {
+  "word": "lived",
+  "start": 39.345,
+  "end": 39.491
+ },
+ {
+  "word": "under",
+  "start": 39.564,
+  "end": 39.782
+ },
+ {
+  "word": "intense",
+  "start": 39.891,
+  "end": 40.218
+ },
+ {
+  "word": "pressure",
+  "start": 40.291,
+  "end": 41.164
+ },
+ {
+  "word": "The",
+  "start": 41.2,
+  "end": 41.236
+ },
+ {
+  "word": "stress",
+  "start": 41.309,
+  "end": 41.745
+ },
+ {
+  "word": "came",
+  "start": 41.818,
+  "end": 41.964
+ },
+ {
+  "word": "out",
+  "start": 42.036,
+  "end": 42.109
+ },
+ {
+  "word": "as",
+  "start": 42.182,
+  "end": 42.255
+ },
+ {
+  "word": "laughter",
+  "start": 42.327,
+  "end": 43.2
+ },
+ {
+  "word": "It",
+  "start": 43.273,
+  "end": 43.345
+ },
+ {
+  "word": "took",
+  "start": 43.455,
+  "end": 43.564
+ },
+ {
+  "word": "over",
+  "start": 43.636,
+  "end": 43.782
+ },
+ {
+  "word": "a",
+  "start": 43.855,
+  "end": 44.0
+ },
+ {
+  "word": "year",
+  "start": 44.145,
+  "end": 44.291
+ },
+ {
+  "word": "to",
+  "start": 44.364,
+  "end": 44.436
+ },
+ {
+  "word": "fade",
+  "start": 44.618,
+  "end": 45.164
+ },
+ {
+  "word": "Around",
+  "start": 45.309,
+  "end": 45.455
+ },
+ {
+  "word": "a",
+  "start": 45.527,
+  "end": 45.6
+ },
+ {
+  "word": "thousand",
+  "start": 45.673,
+  "end": 46.036
+ },
+ {
+  "word": "people",
+  "start": 46.109,
+  "end": 46.909
+ },
+ {
+  "word": "And",
+  "start": 46.982,
+  "end": 47.055
+ },
+ {
+  "word": "there",
+  "start": 47.091,
+  "end": 47.127
+ },
+ {
+  "word": "was",
+  "start": 47.2,
+  "end": 47.345
+ },
+ {
+  "word": "never",
+  "start": 47.418,
+  "end": 47.636
+ },
+ {
+  "word": "a",
+  "start": 47.685,
+  "end": 47.734
+ },
+ {
+  "word": "joke",
+  "start": 47.782,
+  "end": 48.582
+ },
+ {
+  "word": "If",
+  "start": 48.655,
+  "end": 48.727
+ },
+ {
+  "word": "everyone",
+  "start": 48.8,
+  "end": 49.164
+ },
+ {
+  "word": "around",
+  "start": 49.345,
+  "end": 49.527
+ },
+ {
+  "word": "you",
+  "start": 49.6,
+  "end": 49.673
+ },
+ {
+  "word": "started",
+  "start": 49.745,
+  "end": 50.036
+ },
+ {
+  "word": "laughing",
+  "start": 50.109,
+  "end": 50.473
+ },
+ {
+  "word": "right",
+  "start": 50.545,
+  "end": 50.764
+ },
+ {
+  "word": "now",
+  "start": 50.836,
+  "end": 51.491
+ },
+ {
+  "word": "how",
+  "start": 51.564,
+  "end": 51.636
+ },
+ {
+  "word": "long",
+  "start": 51.709,
+  "end": 51.782
+ },
+ {
+  "word": "could",
+  "start": 51.855,
+  "end": 52.0
+ },
+ {
+  "word": "you",
+  "start": 52.073,
+  "end": 52.218
+ },
+ {
+  "word": "hold",
+  "start": 52.327,
+  "end": 52.436
+ },
+ {
+  "word": "out",
+  "start": 52.545,
+  "end": 52.945
+ }
+]

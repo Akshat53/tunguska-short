@@ -44,6 +44,7 @@ export type Pose = {
   headTilt?: number;               // degrees
   light?: number;                  // -1 key light from screen-left .. +1 from screen-right (form shading side)
   wave?: number;                   // 0..1 phase of a wave/beckon
+  tears?: number;                  // 0..1 tears on the cheeks (opt-in; face.ts)
 };
 /** points of interest returned in card units (lantern / torch flames for glow cards, the head for look-at, hands) */
 export type Anchors = { glows: { x: number; y: number; r: number; col: string }[]; head: P2; hands: P2[] };
@@ -783,7 +784,7 @@ const drawHead = (p: KPen, P: Person, r: Rig, cx: number, hc: number, turn: numb
   const look = pose.look === "idle" || pose.look === undefined ? gazeAt(I.t, P.seed, 0.35 * I.k) : pose.look;
   const ex = L.extras ?? [];
   if (L.facial === "beard" || L.facial === "chops" || L.facial === "stubble") facialHair(p, { ...P, look: { ...L, facial: L.facial === "chops" ? "chops" : L.facial } }, r, cx, turn, true);
-  drawFace(p, cx, hc, W, H, { expr: pose.expr, turn, blink: I.blink, look, talk: I.talk, skin: P.skin, brows: mix(P.hairCol, INK, 0.3), lashes: r.fem, age: P.age, light });
+  drawFace(p, cx, hc, W, H, { expr: pose.expr, turn, blink: I.blink, look, talk: I.talk, skin: P.skin, brows: mix(P.hairCol, INK, 0.3), lashes: r.fem, age: P.age, light, ...(pose.tears ? { tears: pose.tears, t: I.t } : {}) });
   if (ex.includes("bindi") && at < 0.85) p.dot(cx + turn * 0.3 * W, hc - 0.14 * H, 0.03 * W, PAL.red);
   if (ex.includes("nosering") && at < 0.85) p.stroke(ellPts(cx + turn * 0.37 * W + sg * 0.05 * W, hc + 0.27 * H, 0.035 * W, 0.04 * H, -40, 220, 0, 8), 1.4 * u, PAL.gold);
   facialHair(p, P, r, cx, turn, false);
