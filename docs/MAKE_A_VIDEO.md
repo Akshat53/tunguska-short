@@ -128,7 +128,9 @@ Run the same commands with scale `1`, without `SIZE=`, and with `-final` names. 
 Roopkund final: `out/roopkund/roopkund-hi-final.mp4` (74.5 s, −14.3 LUFS, visual QA 0 errors).
 `out/` is gitignored, so re-render on a new machine.
 
-### Step 8: Upload (owner does this; Claude never uploads)
+### Step 8: Upload
+Claude can upload with `scripts/yt_upload.mjs` after the owner confirms (skill: `.claude/skills/youtube-upload/SKILL.md`;
+one-time sign-in per channel, secrets in `~/.config/inkfall/`, never in the repo). Or upload by hand:
 - Title, description, hashtags and pinned comment: section **J** of the story's `script.md`. Add `#Shorts`.
 - Cover: in the YouTube app, pick the first frame (the thumbnail).
 - Audience: "Not made for kids".
