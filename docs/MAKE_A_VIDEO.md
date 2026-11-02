@@ -76,6 +76,7 @@ Copy `src/videos/roopkund/` (and read `docs/STORYBOARD.md`, `docs/CAMERA.md`). T
 - `cast.ts`: the characters (hat types live in `src/videos/tunguska/toon.ts`).
 - `story.ts`: the cameras.
 - Register the composition in `src/Root.tsx`.
+- Detailed props (cannons, ships, machines): model them in Blender as a script and draw the rendered PNG in a card: `blender/README.md`.
 - For richer visuals (detailed characters with expressive faces and gestures, period costume, crowds, village-night and 1944-dock
   sets, particles, firelight), use the opt-in kit in `src/engine/kit/`: see `docs/VISUAL_KIT.md` and the `KitShowcase` composition.
 

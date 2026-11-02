@@ -9,6 +9,7 @@ import { DancingPlagueShort, DANCING_PLAGUE_FRAMES } from "./videos/dancing-plag
 import { IronPillarShort, IRON_PILLAR_FRAMES } from "./videos/iron-pillar/IronPillar";
 import { LaughterEpidemicShort, LAUGHTER_EPIDEMIC_FRAMES } from "./videos/laughter-epidemic-1962/LaughterEpidemic";
 import { KitCast, KIT_CAST_FRAMES } from "./videos/kitshowcase/KitCast";
+import { KitAssets, KIT_ASSETS_FRAMES } from "./videos/kitshowcase/KitAssets";
 import { KitShowcase, KIT_SHOWCASE_FRAMES } from "./videos/kitshowcase/KitShowcase";
 
 export const RemotionRoot: React.FC = () => (
@@ -22,6 +23,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="IronPillarShort" component={IronPillarShort} durationInFrames={IRON_PILLAR_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="LaughterEpidemicShort" component={LaughterEpidemicShort} durationInFrames={LAUGHTER_EPIDEMIC_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="KitShowcase" component={KitShowcase} durationInFrames={KIT_SHOWCASE_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="KitAssets" component={KitAssets} durationInFrames={KIT_ASSETS_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="KitCast" component={KitCast} durationInFrames={KIT_CAST_FRAMES} fps={30} width={1080} height={1920} />
   </>
 );
