@@ -1,0 +1,15 @@
+{
+  "slug": "dancing-plague-1518",
+  "composition": "DancingPlagueShort",
+  "title": "In 1518, a City Couldn't Stop Dancing",
+  "channel": "global",
+  "languages": {
+    "en": {
+      "voice": "ElevenLabs George JBFqnCBsd6RMkjVDRZzb, eleven_v4, 0.6 / 0.75, pauses tightened (final; the picture is timed on words.json, do not regenerate)",
+      "rate": "",
+      "dir": "en",
+      "audio": "out/dancing-plague-1518/audio/mix.wav"
+    }
+  },
+  "note": "Audio: bash audio/build_dancing-plague-1518.sh -> out/dancing-plague-1518/audio/ (cues + score + the dance layer audio/dance_layer_dancing-plague-1518.py). Draft: COMP=DancingPlagueShort GL=angle CONC=6 node scripts/render.mjs out/dancing-plague-1518/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1},\"captions\":false}'; then SIZE=540x960 INTRO_STATIC=1 INTRO_CARD=brand/dancing-plague-1518-thumb.png AUDIO_OUT=out/dancing-plague-1518/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/dancing-plague-1518/picture-half.mp4 out/dancing-plague-1518/dancing-plague-1518-en-draft-half.mp4 0.6 1.5. Final: COMP=DancingPlagueShort GL=angle CONC=6 node scripts/render.mjs out/dancing-plague-1518/picture.mp4 all 1 '{\"post\":{\"dpr\":1},\"captions\":false}'; then INTRO_STATIC=1 INTRO_CARD=brand/dancing-plague-1518-thumb.png AUDIO_OUT=out/dancing-plague-1518/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/dancing-plague-1518/picture.mp4 out/dancing-plague-1518/dancing-plague-1518-en-final.mp4 0.6 1.5. QA: bash scripts/qa.sh <mp4> out/dancing-plague-1518/qa-final; node --no-warnings scripts/qa-story-data.mjs --config scripts/qa.config.dancing-plague-1518.json --out out/dancing-plague-1518/qa-final/qa-story.json; .venv/bin/python scripts/visual_qa.py <mp4> --story out/dancing-plague-1518/qa-final/qa-story.json --audio-report out/dancing-plague-1518/audio/audio_report.json --out out/dancing-plague-1518/qa-final. Thumbnail: bash scripts/export_brand.sh dancing-plague-1518-thumb. No captions (English channel)."
+}

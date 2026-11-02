@@ -1,0 +1,602 @@
+[
+ {
+  "word": "A",
+  "start": 0,
+  "end": 0.08
+ },
+ {
+  "word": "crowd",
+  "start": 0.16,
+  "end": 0.48
+ },
+ {
+  "word": "is",
+  "start": 0.56,
+  "end": 0.72
+ },
+ {
+  "word": "dancing",
+  "start": 0.8,
+  "end": 1.28
+ },
+ {
+  "word": "through",
+  "start": 1.36,
+  "end": 1.52
+ },
+ {
+  "word": "Strasbourg",
+  "start": 1.6,
+  "end": 2.48
+ },
+ {
+  "word": "and",
+  "start": 2.6,
+  "end": 2.72
+ },
+ {
+  "word": "no",
+  "start": 2.8,
+  "end": 2.96
+ },
+ {
+  "word": "one",
+  "start": 3.04,
+  "end": 3.2
+ },
+ {
+  "word": "can",
+  "start": 3.28,
+  "end": 3.44
+ },
+ {
+  "word": "stop",
+  "start": 3.52,
+  "end": 4.24
+ },
+ {
+  "word": "July",
+  "start": 4.56,
+  "end": 5.28
+ },
+ {
+  "word": "fifteen-eighteen",
+  "start": 5.36,
+  "end": 6.84
+ },
+ {
+  "word": "What",
+  "start": 7.19,
+  "end": 7.27
+ },
+ {
+  "word": "makes",
+  "start": 7.51,
+  "end": 7.59
+ },
+ {
+  "word": "a",
+  "start": 7.67,
+  "end": 7.83
+ },
+ {
+  "word": "city",
+  "start": 7.99,
+  "end": 8.07
+ },
+ {
+  "word": "dance",
+  "start": 8.29,
+  "end": 8.93
+ },
+ {
+  "word": "One",
+  "start": 9.17,
+  "end": 9.25
+ },
+ {
+  "word": "woman",
+  "start": 9.47,
+  "end": 9.67
+ },
+ {
+  "word": "started",
+  "start": 9.87,
+  "end": 9.95
+ },
+ {
+  "word": "it",
+  "start": 10.03,
+  "end": 10.39
+ },
+ {
+  "word": "dancing",
+  "start": 10.43,
+  "end": 11.03
+ },
+ {
+  "word": "alone",
+  "start": 11.23,
+  "end": 11.27
+ },
+ {
+  "word": "in",
+  "start": 11.31,
+  "end": 11.39
+ },
+ {
+  "word": "the",
+  "start": 11.47,
+  "end": 11.55
+ },
+ {
+  "word": "street",
+  "start": 11.77,
+  "end": 11.85
+ },
+ {
+  "word": "for",
+  "start": 11.93,
+  "end": 12.01
+ },
+ {
+  "word": "days",
+  "start": 12.23,
+  "end": 12.91
+ },
+ {
+  "word": "Within",
+  "start": 13.03,
+  "end": 13.11
+ },
+ {
+  "word": "a",
+  "start": 13.19,
+  "end": 13.31
+ },
+ {
+  "word": "week",
+  "start": 13.43,
+  "end": 13.75
+ },
+ {
+  "word": "dozens",
+  "start": 13.83,
+  "end": 14.23
+ },
+ {
+  "word": "joined",
+  "start": 14.45,
+  "end": 14.57
+ },
+ {
+  "word": "her",
+  "start": 14.69,
+  "end": 15.29
+ },
+ {
+  "word": "The",
+  "start": 15.33,
+  "end": 15.41
+ },
+ {
+  "word": "doctors",
+  "start": 15.49,
+  "end": 15.81
+ },
+ {
+  "word": "cure",
+  "start": 15.89,
+  "end": 16.69
+ },
+ {
+  "word": "More",
+  "start": 16.93,
+  "end": 17.01
+ },
+ {
+  "word": "dancing",
+  "start": 17.25,
+  "end": 18.13
+ },
+ {
+  "word": "The",
+  "start": 18.21,
+  "end": 18.25
+ },
+ {
+  "word": "council",
+  "start": 18.29,
+  "end": 18.69
+ },
+ {
+  "word": "built",
+  "start": 18.93,
+  "end": 18.97
+ },
+ {
+  "word": "a",
+  "start": 19.01,
+  "end": 19.09
+ },
+ {
+  "word": "stage",
+  "start": 19.31,
+  "end": 19.39
+ },
+ {
+  "word": "and",
+  "start": 19.47,
+  "end": 19.55
+ },
+ {
+  "word": "hired",
+  "start": 19.63,
+  "end": 19.99
+ },
+ {
+  "word": "musicians",
+  "start": 20.11,
+  "end": 21.07
+ },
+ {
+  "word": "The",
+  "start": 21.15,
+  "end": 21.23
+ },
+ {
+  "word": "crowd",
+  "start": 21.47,
+  "end": 21.71
+ },
+ {
+  "word": "only",
+  "start": 21.95,
+  "end": 22.03
+ },
+ {
+  "word": "grew",
+  "start": 22.11,
+  "end": 23.07
+ },
+ {
+  "word": "Did",
+  "start": 23.15,
+  "end": 23.23
+ },
+ {
+  "word": "anyone",
+  "start": 23.47,
+  "end": 23.63
+ },
+ {
+  "word": "dance",
+  "start": 23.85,
+  "end": 23.93
+ },
+ {
+  "word": "to",
+  "start": 24.01,
+  "end": 24.09
+ },
+ {
+  "word": "death",
+  "start": 24.31,
+  "end": 24.95
+ },
+ {
+  "word": "Later",
+  "start": 25.27,
+  "end": 25.39
+ },
+ {
+  "word": "chronicles",
+  "start": 25.51,
+  "end": 25.91
+ },
+ {
+  "word": "claim",
+  "start": 26.15,
+  "end": 26.23
+ },
+ {
+  "word": "up",
+  "start": 26.31,
+  "end": 26.39
+ },
+ {
+  "word": "to",
+  "start": 26.55,
+  "end": 26.59
+ },
+ {
+  "word": "fifteen",
+  "start": 26.63,
+  "end": 27.11
+ },
+ {
+  "word": "a",
+  "start": 27.19,
+  "end": 27.39
+ },
+ {
+  "word": "day",
+  "start": 27.59,
+  "end": 28.15
+ },
+ {
+  "word": "The",
+  "start": 28.23,
+  "end": 28.31
+ },
+ {
+  "word": "citys",
+  "start": 28.55,
+  "end": 28.79
+ },
+ {
+  "word": "own",
+  "start": 28.87,
+  "end": 28.95
+ },
+ {
+  "word": "records",
+  "start": 29.17,
+  "end": 29.33
+ },
+ {
+  "word": "mention",
+  "start": 29.55,
+  "end": 29.63
+ },
+ {
+  "word": "none",
+  "start": 29.85,
+  "end": 30.57
+ },
+ {
+  "word": "So",
+  "start": 30.81,
+  "end": 31.05
+ },
+ {
+  "word": "why",
+  "start": 31.29,
+  "end": 31.37
+ },
+ {
+  "word": "dance",
+  "start": 31.59,
+  "end": 32.23
+ },
+ {
+  "word": "Strasbourg",
+  "start": 32.47,
+  "end": 32.99
+ },
+ {
+  "word": "had",
+  "start": 33.11,
+  "end": 33.15
+ },
+ {
+  "word": "suffered",
+  "start": 33.19,
+  "end": 33.59
+ },
+ {
+  "word": "years",
+  "start": 33.81,
+  "end": 33.89
+ },
+ {
+  "word": "of",
+  "start": 33.97,
+  "end": 34.05
+ },
+ {
+  "word": "famine",
+  "start": 34.25,
+  "end": 34.49
+ },
+ {
+  "word": "and",
+  "start": 34.53,
+  "end": 34.61
+ },
+ {
+  "word": "disease",
+  "start": 34.83,
+  "end": 35.67
+ },
+ {
+  "word": "And",
+  "start": 35.75,
+  "end": 35.83
+ },
+ {
+  "word": "people",
+  "start": 36.07,
+  "end": 36.23
+ },
+ {
+  "word": "feared",
+  "start": 36.31,
+  "end": 36.55
+ },
+ {
+  "word": "Saint",
+  "start": 36.71,
+  "end": 36.79
+ },
+ {
+  "word": "Vitus",
+  "start": 36.87,
+  "end": 37.59
+ },
+ {
+  "word": "who",
+  "start": 37.67,
+  "end": 37.79
+ },
+ {
+  "word": "could",
+  "start": 37.91,
+  "end": 38.03
+ },
+ {
+  "word": "curse",
+  "start": 38.15,
+  "end": 38.39
+ },
+ {
+  "word": "sinners",
+  "start": 38.47,
+  "end": 38.79
+ },
+ {
+  "word": "to",
+  "start": 38.87,
+  "end": 39.11
+ },
+ {
+  "word": "dance",
+  "start": 39.35,
+  "end": 39.99
+ },
+ {
+  "word": "The",
+  "start": 40.07,
+  "end": 40.15
+ },
+ {
+  "word": "leading",
+  "start": 40.37,
+  "end": 40.45
+ },
+ {
+  "word": "theory:",
+  "start": 40.67,
+  "end": 41.23
+ },
+ {
+  "word": "mass",
+  "start": 41.45,
+  "end": 41.53
+ },
+ {
+  "word": "psychogenic",
+  "start": 41.77,
+  "end": 42.37
+ },
+ {
+  "word": "illness",
+  "start": 42.49,
+  "end": 43.37
+ },
+ {
+  "word": "Fear",
+  "start": 43.72,
+  "end": 44.04
+ },
+ {
+  "word": "spreading",
+  "start": 44.12,
+  "end": 44.52
+ },
+ {
+  "word": "body",
+  "start": 44.74,
+  "end": 44.78
+ },
+ {
+  "word": "to",
+  "start": 44.82,
+  "end": 44.9
+ },
+ {
+  "word": "body",
+  "start": 45.12,
+  "end": 45.76
+ },
+ {
+  "word": "Would",
+  "start": 45.92,
+  "end": 46.0
+ },
+ {
+  "word": "you",
+  "start": 46.08,
+  "end": 46.16
+ },
+ {
+  "word": "have",
+  "start": 46.24,
+  "end": 46.32
+ },
+ {
+  "word": "joined",
+  "start": 46.56,
+  "end": 46.64
+ },
+ {
+  "word": "in",
+  "start": 46.8,
+  "end": 47.44
+ },
+ {
+  "word": "Careful",
+  "start": 47.68,
+  "end": 48.32
+ },
+ {
+  "word": "It",
+  "start": 48.4,
+  "end": 48.48
+ },
+ {
+  "word": "only",
+  "start": 48.64,
+  "end": 48.84
+ },
+ {
+  "word": "takes",
+  "start": 49.04,
+  "end": 49.12
+ },
+ {
+  "word": "one",
+  "start": 49.2,
+  "end": 49.28
+ },
+ {
+  "word": "dancer",
+  "start": 49.36,
+  "end": 49.84
+ },
+ {
+  "word": "to",
+  "start": 49.92,
+  "end": 50.0
+ },
+ {
+  "word": "start",
+  "start": 50.16,
+  "end": 50.24
+ },
+ {
+  "word": "a",
+  "start": 50.32,
+  "end": 50.4
+ },
+ {
+  "word": "whole",
+  "start": 50.64,
+  "end": 50.72
+ },
+ {
+  "word": "crowd",
+  "start": 50.96,
+  "end": 51.44
+ }
+]

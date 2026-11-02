@@ -1,0 +1,44 @@
+RHYTHM REPORT — verdict PASS
+duration 50.0 s (estimate) | 130 words | 2.6 words/s (speech-only 2.6) | 20 sentences
+to hit the target duration the voice needs 2.6 words/s
+sentence length: mean 6.5 std 3.07 CV 0.47 (healthy 0.35-0.9) min 1 max 11
+histogram: 1-3:####4  4-6:######6  7-10:#######7  11-15:###3  16-20:0  21+:0
+pauses: 0 totalling 0.0 s, mean 0 s; longest run without a pause 50.0 s
+ellipses 0 | questions 4 (unanswered: none) | density mean 0.25 max 3
+hook (first 3 s): "A whole crowd is dancing through Strasbourg, and" -> 7/10 (first sentence 11 words (good); concrete name/number)
+intensity per 5 s: ▄▃▂▃▄▃▄▃▄▄  [4.5, 4.2, 3.0, 3.8, 5.5, 3.8, 4.8, 4.0, 4.5, 4.8]  peak S13 at 30.2 s
+script mix: Devanagari 0 | Roman 130 | numeric 0 | Roman share 100%
+
+sentences:
+  S1     0.0s  11w  int  3.5  A whole crowd is dancing through Strasbourg, and nobody can stop.
+  S2     4.2s   2w  int  5.5  July, fifteen-eighteen.
+  S3     5.0s   5w  int  5.5  What makes a city dance?
+  S4     6.9s  11w  int  3.0  One woman started it, dancing alone in the street for days.
+  S5    11.2s   7w  int  3.0  Within a week, dozens had joined her.
+  S6    13.8s   8w  int  3.0  The doctors' cure was the worst idea possible.
+  S7    16.9s   2w  int  5.5  More dancing.
+  S8    17.7s   8w  int  3.0  The council built a stage and hired musicians.
+  S9    20.8s   4w  int  5.5  The crowd only grew.
+  S10   22.3s   5w  int  5.5  Did anyone dance to death?
+  S11   24.2s   8w  int  3.0  Later chronicles claim up to fifteen a day.
+  S12   27.3s   6w  int  4.5  The city's own records mention none.
+  S13   29.6s   3w  int  6.5  So why dance?
+  S14   30.8s  10w  int  3.0  Strasbourg was starving, after years of failed harvests and disease.
+  S15   34.6s  11w  int  4.0  And people feared Saint Vitus, who could curse sinners to dance.
+  S16   38.9s   7w  int  3.5  The leading theory is mass psychogenic illness.
+  S17   41.5s   6w  int  4.5  Fear, spreading from body to body.
+  S18   43.9s   5w  int  5.5  Would you have joined in?
+  S19   45.8s   1w  int  5.5  Careful.
+  S20   46.1s  10w  int  4.0  It only takes one dancer to start a whole crowd.
+
+FINDINGS + REWRITE SUGGESTIONS:
+  [MEDIUM] NO_BEAT              S1,S2,S3,S4,S5,S6,S7,S8…: 50 s of continuous speech without a pause (0.0-50.0 s)
+           -> add [pause 0.3] after S13 (the strongest line in the stretch) or a blank-line beat break.
+  [MEDIUM] REPEATED_OPENER      S8,S9: 2 sentences in a row start with "the" (S8-S9)
+           -> start S9 with its subject or a time/place ("crowd only grew."), or join two with a contrast/cause (लेकिन / इसलिए).
+  [MEDIUM] DENSE                S15: S15 packs 3 new names/numbers (Saint Vitus, Vitus, Saint)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [LOW   ] REPEATED_PHRASE      -: phrase "a whole crowd" occurs 2 times
+           -> keep one; the second time use a fresher image (or make it an intentional callback at the end).
+  [LOW   ] REPEATED_OPENER      S6,S8,S9,S12,S16: 5 sentences open with "the" across the script
+           -> rephrase two of them so the ear does not hear a template.

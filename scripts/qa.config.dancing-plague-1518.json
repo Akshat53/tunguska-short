@@ -1,0 +1,248 @@
+{
+ "_doc": "Visual QA config for Dancing Plague 1518 (English, Inkfall). Frames are STORY frames (= picture frames; identity warp). Final layout: the thumbnail held still 0.6 s as the opening card (INTRO_STATIC=1), then the picture, then the 1.5 s global end card. See docs/VISUAL_QA.md.",
+ "story": "src/videos/dancing-plague-1518/story.ts",
+ "storyboard": "src/videos/dancing-plague-1518/storyboard.json",
+ "warp": "src/videos/dancing-plague-1518/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 18,
+  "outro": 45
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "crowd": {
+   "below": 1.0,
+   "above": 1.0,
+   "halfWidth": 6
+  },
+  "heroes": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.45
+  },
+  "woman": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  },
+  "joiners": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 2.0
+  },
+  "doctor": {
+   "below": 1.0,
+   "above": 0.8,
+   "halfWidth": 0.45
+  },
+  "stage": {
+   "below": 1.0,
+   "above": 1.2,
+   "halfWidth": 1.6
+  },
+  "collapse": {
+   "below": 0.6,
+   "above": 0.7,
+   "halfWidth": 0.45
+  },
+  "chronicle": {
+   "below": 0.3,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "records": {
+   "below": 0.3,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "family": {
+   "below": 0.9,
+   "above": 0.8,
+   "halfWidth": 0.9
+  },
+  "statue": {
+   "below": 0.9,
+   "above": 0.8,
+   "halfWidth": 0.4
+  },
+  "ripple": {
+   "below": 0.5,
+   "above": 0.5,
+   "halfWidth": 2
+  },
+  "row": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.5
+  },
+  "bystander": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.4
+  },
+  "feet": {
+   "below": 0.3,
+   "above": 0.3,
+   "halfWidth": 0.4
+  },
+  "drummer": {
+   "below": 1.0,
+   "above": 0.7,
+   "halfWidth": 0.5
+  },
+  "laneFeet": {
+   "below": 0.3,
+   "above": 0.3,
+   "halfWidth": 0.4
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    {
+     "name": "heroes",
+     "to": 46
+    },
+    {
+     "name": "feet",
+     "from": 46,
+     "to": 92
+    },
+    {
+     "name": "heroes",
+     "from": 92
+    }
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    "crowd"
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    {
+     "name": "woman",
+     "to": 335
+    },
+    {
+     "name": "laneFeet",
+     "from": 335
+    }
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    "joiners"
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    "doctor"
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "doctor"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    {
+     "name": "stage",
+     "to": 596
+    },
+    {
+     "name": "drummer",
+     "from": 596
+    }
+   ],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    "crowd"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "collapse"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    "chronicle"
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    {
+     "name": "records",
+     "from": 880
+    }
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [],
+   "fill": null
+  },
+  "14": {
+   "subjects": [
+    "family"
+   ],
+   "fill": null
+  },
+  "15": {
+   "subjects": [
+    {
+     "name": "statue",
+     "required": false
+    }
+   ],
+   "fill": null
+  },
+  "16": {
+   "subjects": [
+    "ripple"
+   ],
+   "fill": null
+  },
+  "17": {
+   "subjects": [],
+   "fill": null
+  },
+  "18": {
+   "subjects": [
+    "bystander"
+   ],
+   "fill": null
+  },
+  "19": {
+   "subjects": [
+    "heroes"
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

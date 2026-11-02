@@ -1,0 +1,374 @@
+{
+  "verdict": "PASS",
+  "hardFailures": [],
+  "timingSource": "words.json",
+  "durationSec": 51.44,
+  "words": 120,
+  "wps": 2.6,
+  "measuredWps": 2.33,
+  "requiredWpsForTarget": 2.4,
+  "sentences": 20,
+  "lengths": {
+    "values": [
+      11,
+      2,
+      5,
+      11,
+      6,
+      3,
+      2,
+      8,
+      4,
+      5,
+      8,
+      6,
+      3,
+      8,
+      11,
+      6,
+      5,
+      5,
+      1,
+      10
+    ],
+    "mean": 6,
+    "std": 3.05,
+    "cv": 0.51,
+    "min": 1,
+    "max": 11,
+    "histogram": {
+      "1-3": 5,
+      "4-6": 8,
+      "7-10": 4,
+      "11-15": 3,
+      "16-20": 0,
+      "21+": 0
+    }
+  },
+  "pauses": {
+    "count": 0,
+    "totalSec": 0.0,
+    "meanSec": 0,
+    "longestRunWithoutPauseSec": 51.4,
+    "at": []
+  },
+  "ellipses": 0,
+  "questions": {
+    "count": 5,
+    "unanswered": []
+  },
+  "density": {
+    "perSentence": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0.25,
+    "max": 3
+  },
+  "hook": {
+    "text": "A crowd is dancing through Strasbourg, and no",
+    "firstSentenceWords": 11,
+    "score": 7,
+    "notes": [
+      "first sentence 11 words (good)",
+      "concrete name/number"
+    ],
+    "banned": []
+  },
+  "intensity": {
+    "perSentence": [
+      3.5,
+      5.5,
+      5.5,
+      3.0,
+      4.5,
+      6.5,
+      5.5,
+      3.0,
+      5.5,
+      5.5,
+      3.0,
+      4.5,
+      6.5,
+      3.0,
+      4.0,
+      5.0,
+      4.5,
+      5.5,
+      5.5,
+      4.0
+    ],
+    "per5s": [
+      3.5,
+      5.5,
+      3.8,
+      5.0,
+      5.5,
+      3.8,
+      4.8,
+      4.0,
+      4.8,
+      5.0,
+      5.0
+    ],
+    "curve": "▃▄▃▄▄▃▄▃▄▄▄",
+    "peakSentence": 13,
+    "peakSec": 31.5
+  },
+  "hinglish": {
+    "devanagari": 0,
+    "roman": 120,
+    "numeric": 0,
+    "romanShare": 1.0
+  },
+  "findings": [
+    {
+      "type": "NO_BEAT",
+      "severity": "medium",
+      "sentences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "problem": "51 s of continuous speech without a pause (0.0-51.4 s)",
+      "suggestion": "add [pause 0.3] after S6 (the strongest line in the stretch) or a blank-line beat break."
+    },
+    {
+      "type": "REPEATED_OPENER",
+      "severity": "medium",
+      "sentences": [
+        8,
+        9
+      ],
+      "problem": "2 sentences in a row start with \"the\" (S8-S9)",
+      "suggestion": "start S9 with its subject or a time/place (\"crowd only grew.\"), or join two with a contrast/cause (लेकिन / इसलिए)."
+    },
+    {
+      "type": "DENSE",
+      "severity": "medium",
+      "sentences": [
+        15
+      ],
+      "problem": "S15 packs 3 new names/numbers (Saint Vitus, Vitus, Saint)",
+      "suggestion": "give each number its own beat, round or drop the least important one, or move a name to the visual."
+    },
+    {
+      "type": "REPEATED_OPENER",
+      "severity": "low",
+      "sentences": [
+        6,
+        8,
+        9,
+        12,
+        16
+      ],
+      "problem": "5 sentences open with \"the\" across the script",
+      "suggestion": "rephrase two of them so the ear does not hear a template."
+    }
+  ],
+  "sentenceTable": [
+    {
+      "i": 1,
+      "start": 0.0,
+      "words": 11,
+      "intensity": 3.5,
+      "entities": [
+        "Strasbourg"
+      ],
+      "text": "A crowd is dancing through Strasbourg, and no one can stop."
+    },
+    {
+      "i": 2,
+      "start": 4.56,
+      "words": 2,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "July, fifteen-eighteen."
+    },
+    {
+      "i": 3,
+      "start": 7.19,
+      "words": 5,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "What makes a city dance?"
+    },
+    {
+      "i": 4,
+      "start": 9.17,
+      "words": 11,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "One woman started it, dancing alone in the street for days."
+    },
+    {
+      "i": 5,
+      "start": 13.03,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Within a week, dozens joined her."
+    },
+    {
+      "i": 6,
+      "start": 15.33,
+      "words": 3,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "The doctors' cure?"
+    },
+    {
+      "i": 7,
+      "start": 16.93,
+      "words": 2,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "More dancing."
+    },
+    {
+      "i": 8,
+      "start": 18.21,
+      "words": 8,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "The council built a stage and hired musicians."
+    },
+    {
+      "i": 9,
+      "start": 21.15,
+      "words": 4,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "The crowd only grew."
+    },
+    {
+      "i": 10,
+      "start": 23.15,
+      "words": 5,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "Did anyone dance to death?"
+    },
+    {
+      "i": 11,
+      "start": 25.27,
+      "words": 8,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "Later chronicles claim up to fifteen a day."
+    },
+    {
+      "i": 12,
+      "start": 28.23,
+      "words": 6,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "The city's own records mention none."
+    },
+    {
+      "i": 13,
+      "start": 30.81,
+      "words": 3,
+      "intensity": 6.5,
+      "entities": [],
+      "text": "So why dance?"
+    },
+    {
+      "i": 14,
+      "start": 32.47,
+      "words": 8,
+      "intensity": 3.0,
+      "entities": [],
+      "text": "Strasbourg had suffered years of famine and disease."
+    },
+    {
+      "i": 15,
+      "start": 35.75,
+      "words": 11,
+      "intensity": 4.0,
+      "entities": [
+        "Saint Vitus",
+        "Vitus",
+        "Saint"
+      ],
+      "text": "And people feared Saint Vitus, who could curse sinners to dance."
+    },
+    {
+      "i": 16,
+      "start": 40.07,
+      "words": 6,
+      "intensity": 5.0,
+      "entities": [
+        "Psychogenic"
+      ],
+      "text": "The leading theory: mass psychogenic illness."
+    },
+    {
+      "i": 17,
+      "start": 43.72,
+      "words": 5,
+      "intensity": 4.5,
+      "entities": [],
+      "text": "Fear, spreading body to body."
+    },
+    {
+      "i": 18,
+      "start": 45.92,
+      "words": 5,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "Would you have joined in?"
+    },
+    {
+      "i": 19,
+      "start": 47.68,
+      "words": 1,
+      "intensity": 5.5,
+      "entities": [],
+      "text": "Careful."
+    },
+    {
+      "i": 20,
+      "start": 48.4,
+      "words": 10,
+      "intensity": 4.0,
+      "entities": [],
+      "text": "It only takes one dancer to start a whole crowd."
+    }
+  ]
+}

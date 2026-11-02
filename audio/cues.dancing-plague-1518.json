@@ -1,0 +1,622 @@
+{
+ "version": 1,
+ "seed": 1518,
+ "cues": [
+  {
+   "id": "square-air",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 800
+   },
+   "span": [
+    0,
+    275
+   ],
+   "post": [],
+   "note": "open summer square"
+  },
+  {
+   "id": "hook-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.04,
+    "noise": 0.03
+   },
+   "span": [
+    0,
+    275
+   ],
+   "post": [],
+   "note": "low uneasy bed under the hook"
+  },
+  {
+   "id": "hook-stomps",
+   "at": 0,
+   "gen": "steps",
+   "args": {
+    "period": 0.23,
+    "pitch": 0.8,
+    "gain": 0.3,
+    "pan0": -0.35,
+    "pan_step": 0.7
+   },
+   "span": [
+    0,
+    275
+   ],
+   "post": [],
+   "note": "many feet stamping on cobbles"
+  },
+  {
+   "id": "year-tick",
+   "at": 161,
+   "gen": "glock",
+   "args": {
+    "midi": 86,
+    "level": 0.28
+   },
+   "post": [
+    [
+     "pan",
+     0.1
+    ]
+   ],
+   "note": "tick on 'fifteen-eighteen'"
+  },
+  {
+   "id": "lane-air",
+   "at": 275,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 700
+   },
+   "span": [
+    275,
+    460
+   ],
+   "post": [],
+   "note": "a quiet lane"
+  },
+  {
+   "id": "lone-steps",
+   "at": 275,
+   "gen": "steps",
+   "args": {
+    "period": 0.42,
+    "pitch": 1.05,
+    "gain": 0.26,
+    "pan0": -0.1,
+    "pan_step": 0.2
+   },
+   "span": [
+    275,
+    391
+   ],
+   "post": [],
+   "note": "one woman's feet, alone"
+  },
+  {
+   "id": "joiners-steps",
+   "at": 391,
+   "gen": "steps",
+   "args": {
+    "period": 0.26,
+    "pitch": 0.9,
+    "gain": 0.3,
+    "pan0": -0.4,
+    "pan_step": 0.8
+   },
+   "span": [
+    391,
+    460
+   ],
+   "post": [],
+   "note": "more and more feet"
+  },
+  {
+   "id": "cure-whoosh",
+   "at": 500,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.5,
+    "peak": 0.4,
+    "f_lo": 300,
+    "f_hi": 2200,
+    "width": 0.4,
+    "tail": 0.15
+   },
+   "post": [
+    [
+     "gain",
+     0.4
+    ]
+   ],
+   "note": "into 'More dancing'"
+  },
+  {
+   "id": "cure-hit",
+   "at": 508,
+   "gen": "glock",
+   "args": {
+    "midi": 81,
+    "level": 0.3
+   },
+   "post": [],
+   "note": "on 'More dancing'"
+  },
+  {
+   "id": "square-air-2",
+   "at": 508,
+   "gen": "breeze",
+   "args": {
+    "level": 0.12,
+    "bright": 800
+   },
+   "span": [
+    508,
+    694
+   ],
+   "post": [],
+   "note": "the square"
+  },
+  {
+   "id": "stage-knock1",
+   "at": 568,
+   "gen": "boom",
+   "args": {
+    "dur": 0.3,
+    "f0": 140,
+    "big": 0.08
+   },
+   "post": [],
+   "note": "hammer on the stage planks"
+  },
+  {
+   "id": "stage-knock2",
+   "at": 584,
+   "gen": "boom",
+   "args": {
+    "dur": 0.3,
+    "f0": 150,
+    "big": 0.08
+   },
+   "post": [],
+   "note": "hammer"
+  },
+  {
+   "id": "stage-knock3",
+   "at": 600,
+   "gen": "boom",
+   "args": {
+    "dur": 0.3,
+    "f0": 140,
+    "big": 0.08
+   },
+   "post": [],
+   "note": "hammer"
+  },
+  {
+   "id": "crowd-stomps",
+   "at": 546,
+   "gen": "steps",
+   "args": {
+    "period": 0.22,
+    "pitch": 0.8,
+    "gain": 0.3,
+    "pan0": -0.4,
+    "pan_step": 0.8
+   },
+   "span": [
+    546,
+    694
+   ],
+   "post": [],
+   "note": "the crowd stamping"
+  },
+  {
+   "id": "dusk-low",
+   "at": 694,
+   "gen": "rumble",
+   "args": {
+    "dur": 2.0,
+    "gain": 0.3,
+    "lo": 30,
+    "hi": 110,
+    "decay": 1.4
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "the dancer sinks"
+  },
+  {
+   "id": "dusk-air",
+   "at": 694,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 400
+   },
+   "span": [
+    694,
+    758
+   ],
+   "post": [],
+   "note": "evening"
+  },
+  {
+   "id": "room",
+   "at": 758,
+   "gen": "hum",
+   "args": {
+    "hz": 60.0,
+    "tone": 0.02,
+    "noise": 0.03
+   },
+   "span": [
+    758,
+    924
+   ],
+   "post": [],
+   "note": "the archive, candles"
+  },
+  {
+   "id": "fifteen-tick",
+   "at": 799,
+   "gen": "glock",
+   "args": {
+    "midi": 84,
+    "level": 0.28
+   },
+   "post": [],
+   "note": "on 'fifteen'"
+  },
+  {
+   "id": "none-tick",
+   "at": 896,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     79,
+     74
+    ],
+    "level": 0.26,
+    "spacing": 0.35,
+    "pan0": 0.1,
+    "pan_step": -0.2
+   },
+   "post": [],
+   "note": "on 'none'"
+  },
+  {
+   "id": "why-air",
+   "at": 924,
+   "gen": "breeze",
+   "args": {
+    "level": 0.11,
+    "bright": 400
+   },
+   "span": [
+    924,
+    974
+   ],
+   "post": [],
+   "note": "dusk square"
+  },
+  {
+   "id": "field-wind",
+   "at": 974,
+   "gen": "breeze",
+   "args": {
+    "level": 0.22,
+    "bright": 350
+   },
+   "span": [
+    974,
+    1072
+   ],
+   "post": [],
+   "note": "dry wind over an empty field"
+  },
+  {
+   "id": "field-birds",
+   "at": 974,
+   "gen": "birds",
+   "args": {
+    "density": 0.1
+   },
+   "span": [
+    974,
+    1072
+   ],
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": "a few birds (crows drawn)"
+  },
+  {
+   "id": "chapel-tone",
+   "at": 1072,
+   "gen": "hum",
+   "args": {
+    "hz": 49.0,
+    "tone": 0.04,
+    "noise": 0.02
+   },
+   "span": [
+    1072,
+    1202
+   ],
+   "post": [],
+   "note": "stone chapel"
+  },
+  {
+   "id": "curse-boom",
+   "at": 1144,
+   "gen": "boom",
+   "args": {
+    "dur": 2.0,
+    "f0": 40,
+    "big": 0.5
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "on 'curse' (flash, candles flare)"
+  },
+  {
+   "id": "ripple-air",
+   "at": 1202,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 500
+   },
+   "span": [
+    1202,
+    1430
+   ],
+   "post": [],
+   "note": "dusk square"
+  },
+  {
+   "id": "ripple-notes",
+   "at": 1214,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     74,
+     77,
+     81,
+     86
+    ],
+    "level": 0.26,
+    "spacing": 0.38,
+    "pan0": -0.3,
+    "pan_step": 0.15
+   },
+   "post": [],
+   "note": "the ripple spreads"
+  },
+  {
+   "id": "ripple-steps",
+   "at": 1240,
+   "gen": "steps",
+   "args": {
+    "period": 0.26,
+    "pitch": 0.85,
+    "gain": 0.26,
+    "pan0": -0.4,
+    "pan_step": 0.8
+   },
+   "span": [
+    1240,
+    1378
+   ],
+   "post": [],
+   "note": "feet catch the dance"
+  },
+  {
+   "id": "row-notes",
+   "at": 1312,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     74,
+     77,
+     81
+    ],
+    "level": 0.24,
+    "spacing": 0.3,
+    "pan0": -0.4,
+    "pan_step": 0.4
+   },
+   "post": [],
+   "note": "body to body"
+  },
+  {
+   "id": "careful-tick",
+   "at": 1430,
+   "gen": "glock",
+   "args": {
+    "midi": 79,
+    "level": 0.26
+   },
+   "post": [],
+   "note": "on 'Careful'"
+  },
+  {
+   "id": "loop-stomps",
+   "at": 1452,
+   "gen": "steps",
+   "args": {
+    "period": 0.23,
+    "pitch": 0.8,
+    "gain": 0.3,
+    "pan0": -0.35,
+    "pan_step": 0.7
+   },
+   "span": [
+    1452,
+    1560
+   ],
+   "post": [],
+   "note": "the crowd catches it again: loops into the hook"
+  },
+  {
+   "id": "loop-hum",
+   "at": 1452,
+   "gen": "hum",
+   "args": {
+    "hz": 55.0,
+    "tone": 0.04,
+    "noise": 0.03
+   },
+   "span": [
+    1452,
+    1560
+   ],
+   "post": [],
+   "note": "the hook bed returns"
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.2273,
+  "arp_level": 0.75,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     3
+    ],
+    "chord": "Dm",
+    "level": 0.9
+   },
+   {
+    "name": "one",
+    "shots": [
+     4,
+     5
+    ],
+    "chord": "Gm",
+    "level": 0.6
+   },
+   {
+    "name": "cure",
+    "shots": [
+     6,
+     9
+    ],
+    "chord": "A",
+    "level": 1.0
+   },
+   {
+    "name": "death",
+    "shots": [
+     10,
+     12
+    ],
+    "chord": "Dm",
+    "level": 0.5
+   },
+   {
+    "name": "why",
+    "shots": [
+     13,
+     15
+    ],
+    "chord": "Bb",
+    "level": 0.7
+   },
+   {
+    "name": "theory",
+    "shots": [
+     16,
+     17
+    ],
+    "chord": "Gm",
+    "level": 0.95
+   },
+   {
+    "name": "loop",
+    "shots": [
+     18,
+     19
+    ],
+    "chord": "Dm",
+    "level": 0.9
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.02,
+  "fade_out": 0.2
+ },
+ "_doc": "Dancing Plague 1518 (English, Inkfall) sound design: frames are picture frames authored on stories/dancing-plague-1518/en/words.json (frame = round(start*30)). Run with STORY=dancing-plague-1518 CUES_FILE=audio/cues.dancing-plague-1518.json (see audio/build_dancing-plague-1518.sh). A tabor drum + fife + crowd layer is added by audio/dance_layer_dancing-plague-1518.py (frame-timed, seeded) before loudness normalisation; no fades so the loop is seamless."
+}

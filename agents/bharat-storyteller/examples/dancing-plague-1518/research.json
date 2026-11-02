@@ -1,0 +1,367 @@
+[
+ {
+  "id": "C01",
+  "claim": "In July 1518 a woman in Strasbourg (then in the Holy Roman Empire) began dancing alone in the street; later accounts name her Frau Troffea.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other"
+   }
+  ],
+  "qualification": "do not name her as fact",
+  "usableInScript": true,
+  "notes": "The name may be a later addition (museum press kit cited by ScienceBlog); the video does not name her."
+ },
+ {
+  "id": "C02",
+  "claim": "She kept dancing for days (about a week by most accounts).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C03",
+  "claim": "Within days (about a week) more than thirty people had joined her.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C04",
+  "claim": "How many danced is disputed: the city clerk Sebastian Brant wrote of about fifty; the later Imlin family chronicle says four hundred.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news",
+    "quote": "about fifty people were dancing day and night, which was painful to see"
+   },
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "say 'dozens'; never a total",
+  "usableInScript": true,
+  "notes": "Narration says 'dozens' and 'the crowd only grew'; no total stated."
+ },
+ {
+  "id": "C05",
+  "claim": "Physicians blamed 'overheated blood' and prescribed more dancing so the afflicted could dance it out.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia",
+    "quote": "dance themselves free of it"
+   },
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C06",
+  "claim": "The council had platforms (stages) built in the horse market and the grain market, opened guild halls and paid musicians to keep the dancers going.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other",
+    "quote": "in the horse market and in the grain market"
+   },
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C07",
+  "claim": "The approach backfired: more people joined, and the council then banned public music and dancing.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C08",
+  "claim": "Later chronicles claim that at the peak up to fifteen people died each day.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news"
+   }
+  ],
+  "qualification": "only as 'later chronicles claim', followed by the city records",
+  "usableInScript": true,
+  "notes": "Stated in the narration only as a later chronicles' claim."
+ },
+ {
+  "id": "C09",
+  "claim": "Strasbourg's own records from 1518 do not mention any deaths.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia",
+    "quote": "did not mention the number of deaths, or even if there were fatalities"
+   },
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news",
+    "quote": "mention no deaths"
+   }
+  ],
+  "qualification": "'the city's own records mention none'",
+  "usableInScript": true
+ },
+ {
+  "id": "C10",
+  "claim": "Strasbourg and Alsace had suffered years of famine, bad harvests, disease and very high grain prices before 1518.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other"
+   },
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news"
+   },
+   {
+    "title": "Big Think: the dancing plague (Waller on famine, grain prices, syphilis, plague)",
+    "url": "https://bigthink.com/the-past/dancing-plague-middle-ages/",
+    "read": "snippet",
+    "accessed": "2026-11-02",
+    "type": "other"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C11",
+  "claim": "People believed Saint Vitus could punish sinners with compulsive dancing; the worst-affected were taken to his shrine at Saverne and given red shoes.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C12",
+  "claim": "The leading modern explanation (historian John Waller) is mass psychogenic illness under extreme stress and religious fear; ergot poisoning is widely rejected; some scholars (Bartholomew) see it as more ritual than illness.",
+  "category": "disputed",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news",
+    "quote": "classic instances of a very different phenomenon: mass psychogenic illness"
+   },
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "'the leading theory'",
+  "usableInScript": true
+ },
+ {
+  "id": "C13",
+  "claim": "The outbreak faded by early September 1518.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+    "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "other"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true
+ },
+ {
+  "id": "C14",
+  "claim": "NOT USED: 'hundreds danced to death' / a death toll stated as fact.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+    "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "news"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "debunked": true,
+  "notes": "Unsupported by contemporary records; only the later-chronicle claim is voiced, immediately qualified."
+ },
+ {
+  "id": "C15",
+  "claim": "NOT USED: ergot (rye fungus) poisoning as the established cause.",
+  "category": "disputed",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+    "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+    "read": "page",
+    "accessed": "2026-11-02",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": false,
+  "debunked": true
+ }
+]

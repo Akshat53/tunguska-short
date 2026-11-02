@@ -1,0 +1,2847 @@
+{
+ "$schema": "../../schemas/script-package.schema.json",
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "dancing-plague-1518",
+  "title": "In 1518, a City Couldn't Stop Dancing",
+  "topic": "The dancing plague of Strasbourg, July-September 1518: one woman starts dancing, dozens join, the council builds a stage and hires musicians, deaths claimed by later chronicles but not in the city records; leading theory mass psychogenic illness under famine and religious fear",
+  "category": "unusual-real-life",
+  "structure": "myth-vs-evidence",
+  "angle": "A plague of dancing, and the cure was more dancing; then the honest twist: the famous death toll is not in the city's own records",
+  "centralQuestion": "What makes a city dance?",
+  "audience": "Global English Shorts viewers 18-35 (Inkfall, @inkfallshorts)",
+  "language": "english",
+  "durationSec": 52.0,
+  "totalFrames": 1560,
+  "coreEmotion": "disbelief turning to unease, ending eerie",
+  "takeaway": "Hunger, fear and belief can spread through a crowd like a disease; and a famous death toll may be later storytelling",
+  "tone": "frantic hook, dry middle, eerie ending",
+  "sensitivity": "Real suffering: dancers are shown frightened and exhausted, never mocked; no deaths shown, the collapse is a man sinking to his knees; the death toll is voiced only as a later claim and immediately qualified",
+  "researchMode": "web-verified",
+  "created": "2026-11-02"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "In July 1518 a woman in Strasbourg (then in the Holy Roman Empire) began dancing alone in the street; later accounts name her Frau Troffea.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "do not name her as fact",
+   "usableInScript": true,
+   "notes": "The name may be a later addition (museum press kit cited by ScienceBlog); the video does not name her."
+  },
+  {
+   "id": "C02",
+   "claim": "She kept dancing for days (about a week by most accounts).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C03",
+   "claim": "Within days (about a week) more than thirty people had joined her.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C04",
+   "claim": "How many danced is disputed: the city clerk Sebastian Brant wrote of about fifty; the later Imlin family chronicle says four hundred.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news",
+     "quote": "about fifty people were dancing day and night, which was painful to see"
+    },
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "say 'dozens'; never a total",
+   "usableInScript": true,
+   "notes": "Narration says 'dozens' and 'the crowd only grew'; no total stated."
+  },
+  {
+   "id": "C05",
+   "claim": "Physicians blamed 'overheated blood' and prescribed more dancing so the afflicted could dance it out.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia",
+     "quote": "dance themselves free of it"
+    },
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C06",
+   "claim": "The council had platforms (stages) built in the horse market and the grain market, opened guild halls and paid musicians to keep the dancers going.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other",
+     "quote": "in the horse market and in the grain market"
+    },
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C07",
+   "claim": "The approach backfired: more people joined, and the council then banned public music and dancing.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C08",
+   "claim": "Later chronicles claim that at the peak up to fifteen people died each day.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news"
+    }
+   ],
+   "qualification": "only as 'later chronicles claim', followed by the city records",
+   "usableInScript": true,
+   "notes": "Stated in the narration only as a later chronicles' claim."
+  },
+  {
+   "id": "C09",
+   "claim": "Strasbourg's own records from 1518 do not mention any deaths.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia",
+     "quote": "did not mention the number of deaths, or even if there were fatalities"
+    },
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news",
+     "quote": "mention no deaths"
+    }
+   ],
+   "qualification": "'the city's own records mention none'",
+   "usableInScript": true
+  },
+  {
+   "id": "C10",
+   "claim": "Strasbourg and Alsace had suffered years of famine, bad harvests, disease and very high grain prices before 1518.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other"
+    },
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news"
+    },
+    {
+     "title": "Big Think: the dancing plague (Waller on famine, grain prices, syphilis, plague)",
+     "url": "https://bigthink.com/the-past/dancing-plague-middle-ages/",
+     "read": "snippet",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C11",
+   "claim": "People believed Saint Vitus could punish sinners with compulsive dancing; the worst-affected were taken to his shrine at Saverne and given red shoes.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C12",
+   "claim": "The leading modern explanation (historian John Waller) is mass psychogenic illness under extreme stress and religious fear; ergot poisoning is widely rejected; some scholars (Bartholomew) see it as more ritual than illness.",
+   "category": "disputed",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news",
+     "quote": "classic instances of a very different phenomenon: mass psychogenic illness"
+    },
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "'the leading theory'",
+   "usableInScript": true
+  },
+  {
+   "id": "C13",
+   "claim": "The outbreak faded by early September 1518.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "The Public Domain Review: The Dancing Plague of 1518 (2018 essay drawing on John Waller)",
+     "url": "https://publicdomainreview.org/essay/the-dancing-plague-of-1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "other"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true
+  },
+  {
+   "id": "C14",
+   "claim": "NOT USED: 'hundreds danced to death' / a death toll stated as fact.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "ScienceBlog: In 1518, somewhere between 50 and 400 people in Strasbourg danced for days... (contemporary records vs later chronicles)",
+     "url": "https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "news"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "debunked": true,
+   "notes": "Unsupported by contemporary records; only the later-chronicle claim is voiced, immediately qualified."
+  },
+  {
+   "id": "C15",
+   "claim": "NOT USED: ergot (rye fungus) poisoning as the established cause.",
+   "category": "disputed",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Wikipedia: Dancing plague of 1518 (for its cited sources)",
+     "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+     "read": "page",
+     "accessed": "2026-11-02",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": false,
+   "debunked": true
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "visual-curiosity",
+    "text": "A crowd is dancing through Strasbourg, and no one can stop.",
+    "score": 9,
+    "claimIds": [
+     "C01",
+     "C03"
+    ],
+    "critique": "the strangest true image first, frame 1 already moving; 'no one can stop' is the hook verb"
+   },
+   {
+    "id": "H2",
+    "technique": "question",
+    "text": "What makes a city dance?",
+    "score": 8,
+    "claimIds": [
+     "C12"
+    ],
+    "critique": "clean open loop, no image; used as line 3"
+   },
+   {
+    "id": "H3",
+    "technique": "contradiction",
+    "text": "The cure for a dancing plague? More dancing.",
+    "score": 8,
+    "claimIds": [
+     "C05",
+     "C06"
+    ],
+    "critique": "funny and true, but spends the best twist in second 1; kept for 16 s"
+   },
+   {
+    "id": "H4",
+    "technique": "surprising-fact",
+    "text": "In 1518, people may have danced themselves to death.",
+    "score": 6,
+    "claimIds": [
+     "C08"
+    ],
+    "critique": "leads with the disputed toll as the headline: misleading; rejected"
+   },
+   {
+    "id": "H5",
+    "technique": "dramatic-situation",
+    "text": "One woman stepped into the street and started dancing. She couldn't stop.",
+    "score": 7,
+    "claimIds": [
+     "C01",
+     "C02"
+    ],
+    "critique": "good, but a single figure is a weaker first frame than a frantic crowd"
+   }
+  ],
+  "recommended": "H1",
+  "reason": "best first frame (a frantic crowd), true as stated, and the last line ('one dancer to start a whole crowd') loops straight back to it"
+ },
+ "narration": {
+  "language": "english",
+  "voice": {
+   "engine": "elevenlabs",
+   "id": "JBFqnCBsd6RMkjVDRZzb",
+   "rate": "+0%"
+  },
+  "wps": 2.33,
+  "totalWords": 120,
+  "estimatedSpeechSec": 51.4,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0,
+    "endSec": 8.93,
+    "startFrame": 0,
+    "endFrame": 268,
+    "text": "A crowd is dancing through Strasbourg, and no one can stop. July, fifteen-eighteen. What makes a city dance?",
+    "marked": "A crowd is dancing through Strasbourg, and no one can stop. July, fifteen-eighteen. What makes a city dance?",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "dancing",
+     "stop"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "tabor drum + fife, Dm",
+    "ambient": "",
+    "sfx": [
+     "square-air",
+     "hook-hum",
+     "hook-stomps",
+     "year-tick",
+     "lane-air",
+     "lone-steps"
+    ],
+    "claimIds": [
+     "C01"
+    ],
+    "deliveryNote": "frantic image first, then the year and the open question"
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 9.17,
+    "endSec": 15.29,
+    "startFrame": 275,
+    "endFrame": 459,
+    "text": "One woman started it, dancing alone in the street for days. Within a week, dozens joined her.",
+    "marked": "One woman started it, dancing alone in the street for days. Within a week, dozens joined her.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "alone",
+     "dozens"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 5,
+    "musicMood": "drum thins, Gm",
+    "ambient": "",
+    "sfx": [
+     "lane-air",
+     "lone-steps",
+     "joiners-steps"
+    ],
+    "claimIds": [
+     "C01",
+     "C02",
+     "C03"
+    ],
+    "deliveryNote": "quiet, specific: one woman, then dozens"
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 15.33,
+    "endSec": 23.07,
+    "startFrame": 460,
+    "endFrame": 692,
+    "text": "The doctors' cure? More dancing. The council built a stage and hired musicians. The crowd only grew.",
+    "marked": "The doctors' cure? More dancing. The council built a stage and hired musicians. The crowd only grew.",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "More dancing",
+     "grew"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "full dance band, A",
+    "ambient": "",
+    "sfx": [
+     "cure-whoosh",
+     "cure-hit",
+     "square-air-2",
+     "stage-knock1",
+     "stage-knock2",
+     "stage-knock3"
+    ],
+    "claimIds": [
+     "C04",
+     "C05",
+     "C06",
+     "C07"
+    ],
+    "deliveryNote": "the absurd cure lands dry; 'More dancing.' is a beat on its own"
+   },
+   {
+    "id": "N04",
+    "beat": "revelation",
+    "startSec": 23.15,
+    "endSec": 30.57,
+    "startFrame": 695,
+    "endFrame": 917,
+    "text": "Did anyone dance to death? Later chronicles claim up to fifteen a day. The city's own records mention none.",
+    "marked": "Did anyone dance to death? Later chronicles claim up to fifteen a day. The city's own records mention none.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "fifteen",
+     "none"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "near silence, a low tick",
+    "ambient": "",
+    "sfx": [
+     "dusk-low",
+     "dusk-air",
+     "room",
+     "fifteen-tick",
+     "none-tick",
+     "why-air"
+    ],
+    "claimIds": [
+     "C08",
+     "C09"
+    ],
+    "deliveryNote": "the honest twist: a claimed toll vs the records"
+   },
+   {
+    "id": "N05",
+    "beat": "payoff",
+    "startSec": 30.81,
+    "endSec": 39.99,
+    "startFrame": 924,
+    "endFrame": 1200,
+    "text": "So why dance? Strasbourg had suffered years of famine and disease. And people feared Saint Vitus, who could curse sinners to dance.",
+    "marked": "So why dance? Strasbourg had suffered years of famine and disease. And people feared Saint Vitus, who could curse sinners to dance.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "famine",
+     "curse"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "Bb pad, candle hum",
+    "ambient": "",
+    "sfx": [
+     "why-air",
+     "field-wind",
+     "field-birds",
+     "chapel-tone",
+     "curse-boom",
+     "ripple-air"
+    ],
+    "claimIds": [
+     "C10",
+     "C11"
+    ],
+    "deliveryNote": "answer begins: hunger and fear"
+   },
+   {
+    "id": "N06",
+    "beat": "explanation",
+    "startSec": 40.07,
+    "endSec": 45.76,
+    "startFrame": 1202,
+    "endFrame": 1373,
+    "text": "The leading theory: mass psychogenic illness. Fear, spreading body to body.",
+    "marked": "The leading theory: mass psychogenic illness. Fear, spreading body to body.",
+    "voiceEmotion": "reflective",
+    "speed": 1.0,
+    "emphasis": [
+     "psychogenic",
+     "body to body"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "Gm, rising glock as the ripple spreads",
+    "ambient": "",
+    "sfx": [
+     "ripple-air",
+     "ripple-notes",
+     "ripple-steps",
+     "row-notes"
+    ],
+    "claimIds": [
+     "C12"
+    ],
+    "deliveryNote": "the theory, plainly"
+   },
+   {
+    "id": "N07",
+    "beat": "ending",
+    "startSec": 45.92,
+    "endSec": 51.44,
+    "startFrame": 1378,
+    "endFrame": 1543,
+    "text": "Would you have joined in? Careful. It only takes one dancer to start a whole crowd.",
+    "marked": "Would you have joined in? Careful. It only takes one dancer to start a whole crowd.",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "Careful",
+     "whole crowd"
+    ],
+    "pauseAfterSec": 0.0,
+    "intensity": 7,
+    "musicMood": "the hook's drum returns, Dm",
+    "ambient": "",
+    "sfx": [
+     "careful-tick",
+     "loop-stomps",
+     "loop-hum"
+    ],
+    "claimIds": [
+     "C01"
+    ],
+    "deliveryNote": "viewer question, then the loop line back to frame 1"
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "square",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "Strasbourg Horse Market 1518 (stylised): half-timbered gabled houses, the cathedral spire, wooden dance stage with bunting and musicians, fountain, stalls; a seeded crowd of kit dancers",
+    "components": [
+     "kit stage.ts card stage",
+     "canvas art in src/videos/dancing-plague-1518/art.ts",
+     "kit people.ts / face.ts dancers"
+    ]
+   },
+   {
+    "id": "lane",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "a narrow lane of half-timbered houses",
+    "components": [
+     "kit stage.ts",
+     "art.ts halfTimber"
+    ]
+   },
+   {
+    "id": "archive",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "candlelit desk: the chronicle vs the city records",
+    "components": [
+     "art.ts lecternBook, candle"
+    ]
+   },
+   {
+    "id": "field",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "famine field, dead tree, crows, distant city",
+    "components": [
+     "art.ts"
+    ]
+   },
+   {
+    "id": "chapel",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "stone chapel, St Vitus statue, candles",
+    "components": [
+     "art.ts"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "dancer",
+    "kind": "human",
+    "description": "Strasbourg townsfolk 1518 (generic): linen shirts, doublets, hose, flat bonnets; women in tunics, long skirts and white coifs",
+    "build": "adult",
+    "hat": "bonnet",
+    "outfit": {
+     "jacket": "#1f5f66",
+     "pants": "#5a3a26",
+     "skin": "#e8b98f"
+    },
+    "respectNote": "frightened, exhausted people, never comic"
+   },
+   {
+    "id": "firstDancer",
+    "kind": "human",
+    "description": "the woman who started it (unnamed on screen)",
+    "build": "adult",
+    "hat": "hood",
+    "outfit": {
+     "dress": "#2f8f83",
+     "jacket": "#d9a441",
+     "skin": "#e8b98f"
+    },
+    "respectNote": "distressed, not mocked"
+   },
+   {
+    "id": "scribe",
+    "kind": "human",
+    "description": "a city clerk",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#1f4a50",
+     "skin": "#f3d2b3"
+    }
+   },
+   {
+    "id": "mother",
+    "kind": "human",
+    "description": "famine family: mother, child, old man",
+    "build": "adult",
+    "hat": "hood",
+    "outfit": {
+     "dress": "#5a5a48",
+     "skin": "#e8b98f"
+    },
+    "respectNote": "dignified"
+   },
+   {
+    "id": "kneeler",
+    "kind": "human",
+    "description": "worshippers before St Vitus",
+    "build": "adult",
+    "hat": "hood",
+    "outfit": {
+     "dress": "#a8482a",
+     "skin": "#d9a27a"
+    }
+   }
+  ],
+  "subjects": [
+   {
+    "name": "crowd",
+    "place": "crowd",
+    "heightM": 1.7
+   },
+   {
+    "name": "heroes",
+    "place": "heroes",
+    "heightM": 1.7
+   },
+   {
+    "name": "woman",
+    "place": "woman",
+    "heightM": 1.7
+   },
+   {
+    "name": "joiners",
+    "place": "joiners",
+    "heightM": 1.7
+   },
+   {
+    "name": "doctor",
+    "place": "doctor",
+    "heightM": 1.7
+   },
+   {
+    "name": "stage",
+    "place": "stage",
+    "heightM": 1.7
+   },
+   {
+    "name": "collapse",
+    "place": "collapse",
+    "heightM": 1.7
+   },
+   {
+    "name": "chronicle",
+    "place": "chronicle",
+    "heightM": 1.7
+   },
+   {
+    "name": "records",
+    "place": "records",
+    "heightM": 1.7
+   },
+   {
+    "name": "family",
+    "place": "family",
+    "heightM": 1.7
+   },
+   {
+    "name": "statue",
+    "place": "statue",
+    "heightM": 1.7
+   },
+   {
+    "name": "ripple",
+    "place": "ripple",
+    "heightM": 1.7
+   },
+   {
+    "name": "row",
+    "place": "row",
+    "heightM": 1.7
+   },
+   {
+    "name": "bystander",
+    "place": "bystander",
+    "heightM": 1.7
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 4.5667,
+   "startFrame": 0,
+   "endFrame": 137,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "A crowd is dancing through Strasbourg and no one can stop"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "HOOK: frame 0 is a frantic close-up (sweat, panting, spinning); cut to stamping feet; cut to the whole square dancing"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "closeUp",
+      "params": {
+       "subject": "heroes",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "heroes",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "square-air",
+    "hook-hum",
+    "hook-stomps"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "HOOK",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 2,
+   "startSec": 4.5667,
+   "endSec": 7.2,
+   "startFrame": 137,
+   "endFrame": 216,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "July fifteen-eighteen"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'July, fifteen-eighteen': high wide over the square, half-timbered houses, the cathedral spire"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 137,
+      "preset": "closeUp",
+      "params": {
+       "subject": "crowd",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "crowd",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "year-tick"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'July, fifteen-eighteen'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 3,
+   "startSec": 7.2,
+   "endSec": 9.1667,
+   "startFrame": 216,
+   "endFrame": 275,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "What makes a city dance"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'What makes a city dance?': close on two frantic, frightened faces"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 216,
+      "preset": "closeUp",
+      "params": {
+       "subject": "heroes",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "heroes",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'What makes a city dance?'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 4,
+   "startSec": 9.1667,
+   "endSec": 13.0333,
+   "startFrame": 275,
+   "endFrame": 391,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "One woman started it dancing alone in the street for days"
+   },
+   "environment": {
+    "scene": "lane",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'One woman started it': the lone woman dancing frantically in a lane, husband and neighbours staring; cut to her stamping feet on 'for days'"
+   },
+   "characters": [
+    {
+     "id": "firstDancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 275,
+      "preset": "closeUp",
+      "params": {
+       "subject": "woman",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "woman",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered lane",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "lane-air",
+    "lone-steps"
+   ],
+   "musicDirection": {
+    "beat": "one",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'One woman started it'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 5,
+   "startSec": 13.0333,
+   "endSec": 15.3333,
+   "startFrame": 391,
+   "endFrame": 460,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "Within a week dozens joined her"
+   },
+   "environment": {
+    "scene": "lane",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Within a week, dozens joined her': people walk in from both ends and start dancing"
+   },
+   "characters": [
+    {
+     "id": "firstDancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 391,
+      "preset": "closeUp",
+      "params": {
+       "subject": "joiners",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "joiners",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered lane",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "joiners-steps"
+   ],
+   "musicDirection": {
+    "beat": "one",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'Within a week, dozens joined her'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 6,
+   "startSec": 15.3333,
+   "endSec": 16.9333,
+   "startFrame": 460,
+   "endFrame": 508,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "The doctors cure"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'The doctors' cure?': the physician in black gown before the town hall, councillors listening"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 460,
+      "preset": "closeUp",
+      "params": {
+       "subject": "doctor",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "doctor",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "cure-whoosh"
+   ],
+   "musicDirection": {
+    "beat": "cure",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'The doctors' cure?'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 7,
+   "startSec": 16.9333,
+   "endSec": 18.2,
+   "startFrame": 508,
+   "endFrame": 546,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "More dancing"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'More dancing.': low angle, the physician throws both arms up, dancers at the frame edges"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 508,
+      "preset": "closeUp",
+      "params": {
+       "subject": "doctor",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "doctor",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "cure-hit",
+    "square-air-2"
+   ],
+   "musicDirection": {
+    "beat": "cure",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'More dancing.'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 8,
+   "startSec": 18.2,
+   "endSec": 21.1333,
+   "startFrame": 546,
+   "endFrame": 634,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "The council built a stage and hired musicians"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'The council built a stage and hired musicians': dancers and musicians on the stage; cut to the drummer playing hard"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 546,
+      "preset": "closeUp",
+      "params": {
+       "subject": "stage",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "stage",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "stage-knock1",
+    "stage-knock2",
+    "stage-knock3",
+    "crowd-stomps"
+   ],
+   "musicDirection": {
+    "beat": "cure",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'The council built a stage and hired musicians'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 9,
+   "startSec": 21.1333,
+   "endSec": 23.1333,
+   "startFrame": 634,
+   "endFrame": 694,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "The crowd only grew"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'The crowd only grew': over the shoulder of a councillor in profile, the crowd beyond"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 634,
+      "preset": "closeUp",
+      "params": {
+       "subject": "crowd",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "crowd",
+   "lighting": "golden",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "cure",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'The crowd only grew'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 10,
+   "startSec": 23.1333,
+   "endSec": 25.2667,
+   "startFrame": 694,
+   "endFrame": 758,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "Did anyone dance to death"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Did anyone dance to death?': an exhausted dancer sinks to his knees, friends reach for him"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 694,
+      "preset": "closeUp",
+      "params": {
+       "subject": "collapse",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "collapse",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "dusk-low",
+    "dusk-air"
+   ],
+   "musicDirection": {
+    "beat": "death",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'Did anyone dance to death?'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 11,
+   "startSec": 25.2667,
+   "endSec": 28.2333,
+   "startFrame": 758,
+   "endFrame": 847,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "Later chronicles claim up to fifteen a day"
+   },
+   "environment": {
+    "scene": "archive",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Later chronicles claim up to fifteen a day': candlelit desk, the chronicle book: '15 a day?'"
+   },
+   "characters": [
+    {
+     "id": "scribe",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 758,
+      "preset": "closeUp",
+      "params": {
+       "subject": "chronicle",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "chronicle",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "book shelves",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "room",
+    "fifteen-tick"
+   ],
+   "musicDirection": {
+    "beat": "death",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'Later chronicles claim up to fifteen a day'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 12,
+   "startSec": 28.2333,
+   "endSec": 30.8,
+   "startFrame": 847,
+   "endFrame": 924,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "The citys own records mention none"
+   },
+   "environment": {
+    "scene": "archive",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'The city's own records mention none': glide to the city record book: 'deaths: none recorded'"
+   },
+   "characters": [
+    {
+     "id": "scribe",
+     "view": "front",
+     "mode": "stand",
+     "expression": "neutral"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 847,
+      "preset": "closeUp",
+      "params": {
+       "subject": "records",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "records",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "book shelves",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "none-tick"
+   ],
+   "musicDirection": {
+    "beat": "death",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'The city's own records mention none'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 13,
+   "startSec": 30.8,
+   "endSec": 32.4667,
+   "startFrame": 924,
+   "endFrame": 974,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "So why dance"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'So why dance?': the exhausted dancer; cut to his feet barely lifting"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 924,
+      "preset": "closeUp",
+      "params": {
+       "subject": "heroes",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "heroes",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "why-air"
+   ],
+   "musicDirection": {
+    "beat": "why",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'So why dance?'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 14,
+   "startSec": 32.4667,
+   "endSec": 35.7333,
+   "startFrame": 974,
+   "endFrame": 1072,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "Strasbourg had suffered years of famine and disease"
+   },
+   "environment": {
+    "scene": "field",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'years of famine and disease': a barren field, a thin family with empty bowls, crows, the city far away"
+   },
+   "characters": [
+    {
+     "id": "mother",
+     "view": "front",
+     "mode": "stand",
+     "expression": "pained"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 974,
+      "preset": "closeUp",
+      "params": {
+       "subject": "family",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "family",
+   "lighting": "golden",
+   "foreground": "cobbles / desk / floor",
+   "background": "walled city far away",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "field-wind",
+    "field-birds"
+   ],
+   "musicDirection": {
+    "beat": "why",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'years of famine and disease'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 15,
+   "startSec": 35.7333,
+   "endSec": 40.0667,
+   "startFrame": 1072,
+   "endFrame": 1202,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "And people feared Saint Vitus who could curse sinners to dance"
+   },
+   "environment": {
+    "scene": "chapel",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'people feared Saint Vitus': candlelit chapel, the saint's statue, frightened kneelers; cut to the statue on 'curse'"
+   },
+   "characters": [
+    {
+     "id": "kneeler",
+     "view": "front",
+     "mode": "stand",
+     "expression": "nervous"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1072,
+      "preset": "closeUp",
+      "params": {
+       "subject": "statue",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "statue",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "stained-glass window",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "chapel-tone",
+    "curse-boom"
+   ],
+   "musicDirection": {
+    "beat": "why",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'people feared Saint Vitus'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 16,
+   "startSec": 40.0667,
+   "endSec": 43.7333,
+   "startFrame": 1202,
+   "endFrame": 1312,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "The leading theory: mass psychogenic illness"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'mass psychogenic illness': high angle, a teal ripple spreads from one dancer; everyone it reaches starts dancing"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1202,
+      "preset": "closeUp",
+      "params": {
+       "subject": "ripple",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "ripple",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "ripple-air",
+    "ripple-notes",
+    "ripple-steps"
+   ],
+   "musicDirection": {
+    "beat": "theory",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'mass psychogenic illness'",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 17,
+   "startSec": 43.7333,
+   "endSec": 45.9333,
+   "startFrame": 1312,
+   "endFrame": 1378,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "Fear spreading body to body"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Fear, spreading body to body': low along a row of faces as the ripple passes"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1312,
+      "preset": "closeUp",
+      "params": {
+       "subject": "row",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "row",
+   "lighting": "dusk",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "row-notes"
+   ],
+   "musicDirection": {
+    "beat": "theory",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'Fear, spreading body to body'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 18,
+   "startSec": 45.9333,
+   "endSec": 47.6667,
+   "startFrame": 1378,
+   "endFrame": 1430,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "Would you have joined in"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Would you have joined in?': a bystander at the edge, foot tapping, looking at us"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1378,
+      "preset": "closeUp",
+      "params": {
+       "subject": "bystander",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "bystander",
+   "lighting": "golden",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "loop",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'Would you have joined in?'",
+   "visualImportance": "key",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 19,
+   "startSec": 47.6667,
+   "endSec": 52.0,
+   "startFrame": 1430,
+   "endFrame": 1560,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "Careful It only takes one dancer to start a whole crowd"
+   },
+   "environment": {
+    "scene": "square",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'It only takes one dancer to start a whole crowd': one dancer, the crowd catches it; cut back to the hook close-up (last frame = frame 0)"
+   },
+   "characters": [
+    {
+     "id": "dancer",
+     "view": "front",
+     "mode": "march",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1430,
+      "preset": "closeUp",
+      "params": {
+       "subject": "heroes",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "heroes",
+   "lighting": "day",
+   "foreground": "cobbles / desk / floor",
+   "background": "half-timbered houses, bunting, the cathedral spire",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "careful-tick",
+    "loop-stomps",
+    "loop-hum"
+   ],
+   "musicDirection": {
+    "beat": "loop",
+    "mood": "see section G",
+    "duck": true
+   },
+   "emotionalIntention": "'It only takes one dancer to start a whole crowd'",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  }
+ ],
+ "events": {
+  "flashAt": 1144,
+  "flashes": [
+   [
+    1144,
+    0.3
+   ]
+  ],
+  "hits": [
+   508,
+   1144
+  ],
+  "kicks": [
+   [
+    508,
+    0.6
+   ],
+   [
+    1144,
+    0.55
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "square-air",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 800
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "open summer square",
+    "span": [
+     0,
+     275
+    ]
+   },
+   {
+    "id": "hook-hum",
+    "at": 0,
+    "gen": "hum",
+    "args": {
+     "hz": 55.0,
+     "tone": 0.04,
+     "noise": 0.03
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "low uneasy bed under the hook",
+    "span": [
+     0,
+     275
+    ]
+   },
+   {
+    "id": "hook-stomps",
+    "at": 0,
+    "gen": "steps",
+    "args": {
+     "period": 0.23,
+     "pitch": 0.8,
+     "gain": 0.3,
+     "pan0": -0.35,
+     "pan_step": 0.7
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "many feet stamping on cobbles",
+    "span": [
+     0,
+     275
+    ]
+   },
+   {
+    "id": "year-tick",
+    "at": 161,
+    "gen": "glock",
+    "args": {
+     "midi": 86,
+     "level": 0.28
+    },
+    "segmentId": "N01",
+    "shotId": 2,
+    "intent": "tick on 'fifteen-eighteen'",
+    "post": [
+     [
+      "pan",
+      0.1
+     ]
+    ]
+   },
+   {
+    "id": "lane-air",
+    "at": 275,
+    "gen": "breeze",
+    "args": {
+     "level": 0.1,
+     "bright": 700
+    },
+    "segmentId": "N01",
+    "shotId": 4,
+    "intent": "a quiet lane",
+    "span": [
+     275,
+     460
+    ]
+   },
+   {
+    "id": "lone-steps",
+    "at": 275,
+    "gen": "steps",
+    "args": {
+     "period": 0.42,
+     "pitch": 1.05,
+     "gain": 0.26,
+     "pan0": -0.1,
+     "pan_step": 0.2
+    },
+    "segmentId": "N01",
+    "shotId": 4,
+    "intent": "one woman's feet, alone",
+    "span": [
+     275,
+     391
+    ]
+   },
+   {
+    "id": "joiners-steps",
+    "at": 391,
+    "gen": "steps",
+    "args": {
+     "period": 0.26,
+     "pitch": 0.9,
+     "gain": 0.3,
+     "pan0": -0.4,
+     "pan_step": 0.8
+    },
+    "segmentId": "N02",
+    "shotId": 5,
+    "intent": "more and more feet",
+    "span": [
+     391,
+     460
+    ]
+   },
+   {
+    "id": "cure-whoosh",
+    "at": 500,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.5,
+     "peak": 0.4,
+     "f_lo": 300,
+     "f_hi": 2200,
+     "width": 0.4,
+     "tail": 0.15
+    },
+    "segmentId": "N03",
+    "shotId": 6,
+    "intent": "into 'More dancing'",
+    "post": [
+     [
+      "gain",
+      0.4
+     ]
+    ]
+   },
+   {
+    "id": "cure-hit",
+    "at": 508,
+    "gen": "glock",
+    "args": {
+     "midi": 81,
+     "level": 0.3
+    },
+    "segmentId": "N03",
+    "shotId": 7,
+    "intent": "on 'More dancing'"
+   },
+   {
+    "id": "square-air-2",
+    "at": 508,
+    "gen": "breeze",
+    "args": {
+     "level": 0.12,
+     "bright": 800
+    },
+    "segmentId": "N03",
+    "shotId": 7,
+    "intent": "the square",
+    "span": [
+     508,
+     694
+    ]
+   },
+   {
+    "id": "stage-knock1",
+    "at": 568,
+    "gen": "boom",
+    "args": {
+     "dur": 0.3,
+     "f0": 140,
+     "big": 0.08
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "hammer on the stage planks"
+   },
+   {
+    "id": "stage-knock2",
+    "at": 584,
+    "gen": "boom",
+    "args": {
+     "dur": 0.3,
+     "f0": 150,
+     "big": 0.08
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "hammer"
+   },
+   {
+    "id": "stage-knock3",
+    "at": 600,
+    "gen": "boom",
+    "args": {
+     "dur": 0.3,
+     "f0": 140,
+     "big": 0.08
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "hammer"
+   },
+   {
+    "id": "crowd-stomps",
+    "at": 546,
+    "gen": "steps",
+    "args": {
+     "period": 0.22,
+     "pitch": 0.8,
+     "gain": 0.3,
+     "pan0": -0.4,
+     "pan_step": 0.8
+    },
+    "segmentId": "N03",
+    "shotId": 8,
+    "intent": "the crowd stamping",
+    "span": [
+     546,
+     694
+    ]
+   },
+   {
+    "id": "dusk-low",
+    "at": 694,
+    "gen": "rumble",
+    "args": {
+     "dur": 2.0,
+     "gain": 0.3,
+     "lo": 30,
+     "hi": 110,
+     "decay": 1.4
+    },
+    "segmentId": "N03",
+    "shotId": 10,
+    "intent": "the dancer sinks",
+    "post": [
+     [
+      "widen"
+     ]
+    ]
+   },
+   {
+    "id": "dusk-air",
+    "at": 694,
+    "gen": "breeze",
+    "args": {
+     "level": 0.1,
+     "bright": 400
+    },
+    "segmentId": "N03",
+    "shotId": 10,
+    "intent": "evening",
+    "span": [
+     694,
+     758
+    ]
+   },
+   {
+    "id": "room",
+    "at": 758,
+    "gen": "hum",
+    "args": {
+     "hz": 60.0,
+     "tone": 0.02,
+     "noise": 0.03
+    },
+    "segmentId": "N04",
+    "shotId": 11,
+    "intent": "the archive, candles",
+    "span": [
+     758,
+     924
+    ]
+   },
+   {
+    "id": "fifteen-tick",
+    "at": 799,
+    "gen": "glock",
+    "args": {
+     "midi": 84,
+     "level": 0.28
+    },
+    "segmentId": "N04",
+    "shotId": 11,
+    "intent": "on 'fifteen'"
+   },
+   {
+    "id": "none-tick",
+    "at": 896,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      79,
+      74
+     ],
+     "level": 0.26,
+     "spacing": 0.35,
+     "pan0": 0.1,
+     "pan_step": -0.2
+    },
+    "segmentId": "N04",
+    "shotId": 12,
+    "intent": "on 'none'"
+   },
+   {
+    "id": "why-air",
+    "at": 924,
+    "gen": "breeze",
+    "args": {
+     "level": 0.11,
+     "bright": 400
+    },
+    "segmentId": "N04",
+    "shotId": 13,
+    "intent": "dusk square",
+    "span": [
+     924,
+     974
+    ]
+   },
+   {
+    "id": "field-wind",
+    "at": 974,
+    "gen": "breeze",
+    "args": {
+     "level": 0.22,
+     "bright": 350
+    },
+    "segmentId": "N05",
+    "shotId": 14,
+    "intent": "dry wind over an empty field",
+    "span": [
+     974,
+     1072
+    ]
+   },
+   {
+    "id": "field-birds",
+    "at": 974,
+    "gen": "birds",
+    "args": {
+     "density": 0.1
+    },
+    "segmentId": "N05",
+    "shotId": 14,
+    "intent": "a few birds (crows drawn)",
+    "span": [
+     974,
+     1072
+    ],
+    "post": [
+     [
+      "gain",
+      0.35
+     ]
+    ]
+   },
+   {
+    "id": "chapel-tone",
+    "at": 1072,
+    "gen": "hum",
+    "args": {
+     "hz": 49.0,
+     "tone": 0.04,
+     "noise": 0.02
+    },
+    "segmentId": "N05",
+    "shotId": 15,
+    "intent": "stone chapel",
+    "span": [
+     1072,
+     1202
+    ]
+   },
+   {
+    "id": "curse-boom",
+    "at": 1144,
+    "gen": "boom",
+    "args": {
+     "dur": 2.0,
+     "f0": 40,
+     "big": 0.5
+    },
+    "segmentId": "N05",
+    "shotId": 15,
+    "intent": "on 'curse' (flash, candles flare)",
+    "post": [
+     [
+      "widen"
+     ]
+    ]
+   },
+   {
+    "id": "ripple-air",
+    "at": 1202,
+    "gen": "breeze",
+    "args": {
+     "level": 0.1,
+     "bright": 500
+    },
+    "segmentId": "N05",
+    "shotId": 16,
+    "intent": "dusk square",
+    "span": [
+     1202,
+     1430
+    ]
+   },
+   {
+    "id": "ripple-notes",
+    "at": 1214,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      69,
+      74,
+      77,
+      81,
+      86
+     ],
+     "level": 0.26,
+     "spacing": 0.38,
+     "pan0": -0.3,
+     "pan_step": 0.15
+    },
+    "segmentId": "N05",
+    "shotId": 16,
+    "intent": "the ripple spreads"
+   },
+   {
+    "id": "ripple-steps",
+    "at": 1240,
+    "gen": "steps",
+    "args": {
+     "period": 0.26,
+     "pitch": 0.85,
+     "gain": 0.26,
+     "pan0": -0.4,
+     "pan_step": 0.8
+    },
+    "segmentId": "N06",
+    "shotId": 16,
+    "intent": "feet catch the dance",
+    "span": [
+     1240,
+     1378
+    ]
+   },
+   {
+    "id": "row-notes",
+    "at": 1312,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      74,
+      77,
+      81
+     ],
+     "level": 0.24,
+     "spacing": 0.3,
+     "pan0": -0.4,
+     "pan_step": 0.4
+    },
+    "segmentId": "N06",
+    "shotId": 17,
+    "intent": "body to body"
+   },
+   {
+    "id": "careful-tick",
+    "at": 1430,
+    "gen": "glock",
+    "args": {
+     "midi": 79,
+     "level": 0.26
+    },
+    "segmentId": "N07",
+    "shotId": 19,
+    "intent": "on 'Careful'"
+   },
+   {
+    "id": "loop-stomps",
+    "at": 1452,
+    "gen": "steps",
+    "args": {
+     "period": 0.23,
+     "pitch": 0.8,
+     "gain": 0.3,
+     "pan0": -0.35,
+     "pan_step": 0.7
+    },
+    "segmentId": "N07",
+    "shotId": 19,
+    "intent": "the crowd catches it again: loops into the hook",
+    "span": [
+     1452,
+     1560
+    ]
+   },
+   {
+    "id": "loop-hum",
+    "at": 1452,
+    "gen": "hum",
+    "args": {
+     "hz": 55.0,
+     "tone": 0.04,
+     "noise": 0.03
+    },
+    "segmentId": "N07",
+    "shotId": 19,
+    "intent": "the hook bed returns",
+    "span": [
+     1452,
+     1560
+    ]
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      3
+     ],
+     "chord": "Dm",
+     "level": 0.9,
+     "mood": "tabor + fife, frantic"
+    },
+    {
+     "name": "one",
+     "shots": [
+      4,
+      5
+     ],
+     "chord": "Gm",
+     "level": 0.6,
+     "mood": "thin pulse"
+    },
+    {
+     "name": "cure",
+     "shots": [
+      6,
+      9
+     ],
+     "chord": "A",
+     "level": 1.0,
+     "mood": "full dance band"
+    },
+    {
+     "name": "death",
+     "shots": [
+      10,
+      12
+     ],
+     "chord": "Dm",
+     "level": 0.5,
+     "mood": "near silence"
+    },
+    {
+     "name": "why",
+     "shots": [
+      13,
+      15
+     ],
+     "chord": "Bb",
+     "level": 0.7,
+     "mood": "pad, candle hum"
+    },
+    {
+     "name": "theory",
+     "shots": [
+      16,
+      17
+     ],
+     "chord": "Gm",
+     "level": 0.95,
+     "mood": "rising glock"
+    },
+    {
+     "name": "loop",
+     "shots": [
+      18,
+      19
+     ],
+     "chord": "Dm",
+     "level": 0.9,
+     "mood": "the hook's drum"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.02,
+   "fade_out": 0.2
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 9,
+   "originality": 7,
+   "researchReliability": 8,
+   "rhythm": 8,
+   "hinglishNaturalness": 8,
+   "emotion": 7,
+   "retention": 8,
+   "visualStorytelling": 8,
+   "pacing": 8,
+   "productionFeasibility": 8,
+   "ending": 8
+  },
+  "weaknesses": [
+   {
+    "area": "facts",
+    "issue": "Numbers and deaths are disputed (Brant ~50 vs Imlin 400; 'up to 15 a day' only in later chronicles); the narration says 'dozens' and voices the toll only as a later claim, then the records.",
+    "severity": "low"
+   },
+   {
+    "area": "facts",
+    "issue": "'Frau Troffea' may be a later invention; she is not named in the narration.",
+    "severity": "low"
+   },
+   {
+    "area": "facts",
+    "issue": "Mass psychogenic illness is the leading theory, not settled; Bartholomew argues for a ritual reading. Said 'the leading theory'; alternatives in the pinned comment.",
+    "severity": "low"
+   },
+   {
+    "area": "production",
+    "issue": "The kit has no kneel pose: the collapse and the kneelers are cards sunk below the ground plane.",
+    "severity": "low"
+   },
+   {
+    "area": "structure",
+    "issue": "The resolution (music banned, the shrine at Saverne, red shoes, end in September) is cut for length and lives in the description.",
+    "severity": "medium"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "Draft 130 words ran 56.5 s on George; cut to 120 words ('The doctors' cure was the worst idea possible.' -> 'The doctors' cure?', shorter famine line, 'nobody' -> 'no one', 'is' dropped)",
+    "reason": "owner's 45-55 s total incl. 0.6 s intro + 1.5 s end card"
+   },
+   {
+    "round": 2,
+    "change": "Coordinator feedback on frames: no smiling dancers (strained/exhausted faces), bigger poses, no cut-off foreground figures, no hands over faces; midriffs covered (tunics)",
+    "reason": "plague, not party; period clothing"
+   },
+   {
+    "round": 3,
+    "change": "Lead review: frantic dance (fast bobbing, big leans, spins front/profile with running kicks, sweat drops), frame 0 = frantic close-up, new feet / drummer / over-the-shoulder-of-the-councillor shots, dancers on the stage, loop ends on the hook close-up",
+    "reason": "the draft read as a calm market day; too many identical wide frames"
+   }
+  ],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 51.4,
+   "wps": 2.6,
+   "lengthCv": 0.51,
+   "findings": 5
+  },
+  "editorNotes": "Pass. Rhythm PASS (2 MEDIUM: no long pause because tighten_pauses caps sentence gaps at 0.35 s; 'The' openers in S8-S9 kept for the 'The crowd only grew' punch). 0 unsupported statements; the disputed toll is voiced only as a claim and qualified. 'hinglishNaturalness' is used for English spoken naturalness."
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "a kneel/collapse pose and a back view for the kit people",
+   "need": "shot 10 (the collapse) and the chapel kneelers",
+   "shotIds": [
+    10,
+    15
+   ],
+   "suggestion": "card sunk below the ground plane as a workaround (used); a real kneel pose in people.ts later"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "In 1518, a City Couldn't Stop Dancing",
+   "The Dancing Plague of 1518",
+   "Their Cure for a Dancing Plague? More Dancing",
+   "Strasbourg, 1518: The Plague of Dancing",
+   "Did People Really Dance to Death in 1518?"
+  ],
+  "thumbnails": [
+   {
+    "concept": "three frantic dancers in a half-timbered square, arms flung up, wide eyes, the cathedral spire behind",
+    "text": "THE DANCING PLAGUE"
+   },
+   {
+    "concept": "a physician raising both arms beside a stage of musicians",
+    "text": "THE CURE? MORE DANCING"
+   },
+   {
+    "concept": "two open books: '15 a day?' vs 'Deaths: none'",
+    "text": "DANCED TO DEATH?"
+   }
+  ],
+  "description": "In July 1518, in Strasbourg, a woman stepped into the street and began to dance. She kept going for days. Within about a week more than thirty people had joined her, and the outbreak grew through the summer. The city's physicians blamed \"overheated blood\" and prescribed more dancing, so the council opened guild halls, set up stages in the horse market and the grain market, and paid musicians to keep the dancers going. It backfired: more people joined, and the council then banned public music and dancing and sent the worst-affected to the shrine of Saint Vitus at Saverne, in red shoes. By early September it was over.\n\nWhat is disputed: how many danced (the city clerk Sebastian Brant wrote of about fifty; a later chronicle says four hundred) and whether anyone died. Later chronicles claim up to fifteen deaths a day at the peak, but Strasbourg's own records from 1518 do not mention any deaths. The name \"Frau Troffea\" comes from later accounts.\n\nWhy? The leading explanation, from historian John Waller, is mass psychogenic illness: a population worn down by years of famine, disease and the highest grain prices in a generation, who believed Saint Vitus could curse sinners with dancing. Ergot poisoning is widely rejected; some scholars read it as a religious ritual instead.\n\nSources: Wikipedia, Dancing plague of 1518, for its cited sources (https://en.wikipedia.org/wiki/Dancing_plague_of_1518); The Public Domain Review, The Dancing Plague of 1518 (https://publicdomainreview.org/essay/the-dancing-plague-of-1518); ScienceBlog, contemporary records vs later chronicles (https://scienceblog.com/in-1518-somewhere-between-50-and-400-people-in-strasbourg-danced-for-days-and-later-chronicles-claimed-as-many-as-15-died-each-day-in-what-remains-one-of-historys-most-documented-outbreaks/); Paris Unlocked, fact or fiction? (https://www.parisunlocked.com/around-france/french-history/the-strasbourg-dancing-plague-of-1518-fact-or-fiction/); John Waller, A Time to Dance, a Time to Die (book).\n\n#DancingPlague #Strasbourg #History #WeirdHistory #MedievalHistory #Psychology #Shorts",
+  "hashtags": [
+   "#DancingPlague",
+   "#Strasbourg",
+   "#History",
+   "#WeirdHistory",
+   "#MedievalHistory",
+   "#Psychology",
+   "#Shorts"
+  ],
+  "pinnedComment": "Honest numbers: nobody counted. The city clerk wrote of about fifty dancers; a chronicle written later says four hundred. \"Up to fifteen deaths a day\" also comes from later chronicles; Strasbourg's own 1518 records don't mention any deaths. Mass psychogenic illness is the leading theory, not the only one (some historians see a religious ritual). Would you have joined in?"
+ }
+}
