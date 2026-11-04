@@ -1,0 +1,299 @@
+{
+ "version": 1,
+ "fps": 30,
+ "totalFrames": 1212,
+ "scenes": [
+  "sea"
+ ],
+ "words": "stories/survive-titanic/en/words.json",
+ "events": {
+  "flashAt": 272,
+  "flashes": [
+   [
+    272,
+    0.16
+   ]
+  ],
+  "hits": [
+   30,
+   150,
+   272,
+   748,
+   1000
+  ],
+  "kicks": [
+   [
+    30,
+    0.45
+   ],
+   [
+    150,
+    0.35
+   ],
+   [
+    272,
+    0.55
+   ],
+   [
+    748,
+    0.4
+   ],
+   [
+    1000,
+    0.35
+   ]
+  ]
+ },
+ "cameraSubjects": [
+  "you",
+  "sea",
+  "ship",
+  "boat",
+  "stern",
+  "hands",
+  "boat14",
+  "baker",
+  "pair"
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "a": 0,
+   "b": 90,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 0,
+     "fn": "S1a"
+    }
+   ],
+   "dof": [],
+   "note": "HOOK: frame 0 already intense: you (the mascot) gasping in black freezing water, breath fog, the lit stern standing up far behind"
+  },
+  {
+   "id": 2,
+   "a": 90,
+   "b": 205,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 90,
+     "fn": "S2a"
+    }
+   ],
+   "dof": [],
+   "note": "SPECTACLE: 'Two-twenty A.M. The sea's about minus two degrees': the stern standing huge, lights on, then the lights flicker out and it slides under; you small in the foreground"
+  },
+  {
+   "id": 3,
+   "a": 205,
+   "b": 344,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 205,
+     "fn": "S3a"
+    }
+   ],
+   "dof": [],
+   "note": "'Your body gasps by itself. Under a wave, that's deadly': close orbit on the gasp reflex; a wave washes over you (bubbles) at 272; the body timer appears"
+  },
+  {
+   "id": 4,
+   "a": 344,
+   "b": 400,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 344,
+     "fn": "S4a"
+    }
+   ],
+   "dof": [],
+   "note": "'Ten minutes, maybe less': low angle just over the water, wreckage in the foreground, your splashing weakens"
+  },
+  {
+   "id": 5,
+   "a": 400,
+   "b": 457,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 400,
+     "fn": "S5a"
+    }
+   ],
+   "dof": [],
+   "note": "'your arms stop working': close on your trembling hands gripping your life jacket; timer hits 10:00"
+  },
+  {
+   "id": 6,
+   "a": 457,
+   "b": 575,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 457,
+     "fn": "S6a"
+    }
+   ],
+   "dof": [],
+   "note": "'Would you jump early, or stay on the ship? Comment below': the lit ship mid-sinking, bow under, stern rising; you small in the foreground; the one choice pill"
+  },
+  {
+   "id": 7,
+   "a": 575,
+   "b": 678,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 575,
+     "fn": "S7a"
+    }
+   ],
+   "dof": [],
+   "note": "'Lifeboats float nearby, many half empty': a half-empty lifeboat rows away, you reach after it"
+  },
+  {
+   "id": 8,
+   "a": 678,
+   "b": 735,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 678,
+     "fn": "S8a"
+    }
+   ],
+   "dof": [],
+   "note": "'Only one comes back': Lifeboat 14 out of the mist, Lowe's lantern held high at the bow"
+  },
+  {
+   "id": 9,
+   "a": 735,
+   "b": 782,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 735,
+     "fn": "S9a"
+    }
+   ],
+   "dof": [],
+   "note": "'Lifeboat fourteen': high angle down on you among the wreckage, the lantern light falls on you; relief"
+  },
+  {
+   "id": 10,
+   "a": 782,
+   "b": 910,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 782,
+     "fn": "S10a"
+    }
+   ],
+   "dof": [],
+   "note": "'Yet chief baker Charles Joughin said he lasted about two hours': the portly baker floats calmly beside you, chatting"
+  },
+  {
+   "id": 11,
+   "a": 910,
+   "b": 1000,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 910,
+     "fn": "S11a"
+    }
+   ],
+   "dof": [],
+   "note": "'His secret? Legend says whisky': close on the baker raising a little flask (legend, not proven)"
+  },
+  {
+   "id": 12,
+   "a": 1000,
+   "b": 1070,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1000,
+     "fn": "S12a"
+    }
+   ],
+   "dof": [],
+   "note": "'Scientists doubt it helped': close on you, sceptical, shivering"
+  },
+  {
+   "id": 13,
+   "a": 1070,
+   "b": 1212,
+   "light": "night",
+   "scene": "sea",
+   "clock": {
+    "kind": "none"
+   },
+   "camera": [
+    {
+     "f": 1070,
+     "fn": "S13a"
+    },
+    {
+     "f": 1150,
+     "fn": "S13b",
+     "cut": true
+    }
+   ],
+   "dof": [],
+   "note": "'Episode two: Pompeii. Follow, so you don't miss it': you wave to camera, EP 2 tag; cut back to the hook on the hook clock (last frame = frame 0)"
+  }
+ ]
+}

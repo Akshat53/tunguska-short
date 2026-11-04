@@ -1,0 +1,432 @@
+[
+ {
+  "word": "The",
+  "start": 0,
+  "end": 0.16
+ },
+ {
+  "word": "Titanics",
+  "start": 0.36,
+  "end": 0.8
+ },
+ {
+  "word": "gone",
+  "start": 1,
+  "end": 1.44
+ },
+ {
+  "word": "Youre",
+  "start": 1.68,
+  "end": 1.84
+ },
+ {
+  "word": "in",
+  "start": 1.92,
+  "end": 2
+ },
+ {
+  "word": "the",
+  "start": 2.04,
+  "end": 2.08
+ },
+ {
+  "word": "water",
+  "start": 2.16,
+  "end": 2.64
+ },
+ {
+  "word": "Two-twenty",
+  "start": 2.99,
+  "end": 3.55
+ },
+ {
+  "word": "AM",
+  "start": 3.71,
+  "end": 4.19
+ },
+ {
+  "word": "The",
+  "start": 4.41,
+  "end": 4.57
+ },
+ {
+  "word": "seas",
+  "start": 4.65,
+  "end": 4.81
+ },
+ {
+  "word": "about",
+  "start": 4.89,
+  "end": 5.13
+ },
+ {
+  "word": "minus",
+  "start": 5.21,
+  "end": 5.53
+ },
+ {
+  "word": "two",
+  "start": 5.69,
+  "end": 5.77
+ },
+ {
+  "word": "degrees",
+  "start": 5.85,
+  "end": 6.49
+ },
+ {
+  "word": "Your",
+  "start": 6.84,
+  "end": 7.0
+ },
+ {
+  "word": "body",
+  "start": 7.08,
+  "end": 7.32
+ },
+ {
+  "word": "gasps",
+  "start": 7.48,
+  "end": 7.96
+ },
+ {
+  "word": "by",
+  "start": 8.04,
+  "end": 8.12
+ },
+ {
+  "word": "itself",
+  "start": 8.2,
+  "end": 8.84
+ },
+ {
+  "word": "Under",
+  "start": 9.19,
+  "end": 9.43
+ },
+ {
+  "word": "a",
+  "start": 9.47,
+  "end": 9.51
+ },
+ {
+  "word": "wave",
+  "start": 9.59,
+  "end": 10.23
+ },
+ {
+  "word": "thats",
+  "start": 10.31,
+  "end": 10.63
+ },
+ {
+  "word": "deadly",
+  "start": 10.75,
+  "end": 11.35
+ },
+ {
+  "word": "Ten",
+  "start": 11.59,
+  "end": 11.75
+ },
+ {
+  "word": "minutes",
+  "start": 11.83,
+  "end": 12.39
+ },
+ {
+  "word": "maybe",
+  "start": 12.47,
+  "end": 12.71
+ },
+ {
+  "word": "less",
+  "start": 12.79,
+  "end": 13.35
+ },
+ {
+  "word": "and",
+  "start": 13.39,
+  "end": 13.43
+ },
+ {
+  "word": "your",
+  "start": 13.51,
+  "end": 13.67
+ },
+ {
+  "word": "arms",
+  "start": 13.75,
+  "end": 14.07
+ },
+ {
+  "word": "stop",
+  "start": 14.19,
+  "end": 14.31
+ },
+ {
+  "word": "working",
+  "start": 14.39,
+  "end": 15.11
+ },
+ {
+  "word": "Would",
+  "start": 15.35,
+  "end": 15.51
+ },
+ {
+  "word": "you",
+  "start": 15.55,
+  "end": 15.59
+ },
+ {
+  "word": "jump",
+  "start": 15.67,
+  "end": 15.91
+ },
+ {
+  "word": "early",
+  "start": 15.99,
+  "end": 16.55
+ },
+ {
+  "word": "or",
+  "start": 16.59,
+  "end": 16.63
+ },
+ {
+  "word": "stay",
+  "start": 16.71,
+  "end": 16.95
+ },
+ {
+  "word": "on",
+  "start": 16.99,
+  "end": 17.03
+ },
+ {
+  "word": "the",
+  "start": 17.11,
+  "end": 17.19
+ },
+ {
+  "word": "ship",
+  "start": 17.27,
+  "end": 17.59
+ },
+ {
+  "word": "Comment",
+  "start": 17.94,
+  "end": 18.18
+ },
+ {
+  "word": "below",
+  "start": 18.26,
+  "end": 18.98
+ },
+ {
+  "word": "Lifeboats",
+  "start": 19.3,
+  "end": 19.86
+ },
+ {
+  "word": "float",
+  "start": 19.94,
+  "end": 20.18
+ },
+ {
+  "word": "nearby",
+  "start": 20.26,
+  "end": 21.06
+ },
+ {
+  "word": "many",
+  "start": 21.22,
+  "end": 21.46
+ },
+ {
+  "word": "half",
+  "start": 21.54,
+  "end": 21.78
+ },
+ {
+  "word": "empty",
+  "start": 21.86,
+  "end": 22.5
+ },
+ {
+  "word": "Only",
+  "start": 22.74,
+  "end": 22.98
+ },
+ {
+  "word": "one",
+  "start": 23.06,
+  "end": 23.3
+ },
+ {
+  "word": "comes",
+  "start": 23.38,
+  "end": 23.62
+ },
+ {
+  "word": "back:",
+  "start": 23.7,
+  "end": 24.42
+ },
+ {
+  "word": "Lifeboat",
+  "start": 24.5,
+  "end": 24.98
+ },
+ {
+  "word": "fourteen",
+  "start": 25.06,
+  "end": 25.94
+ },
+ {
+  "word": "Yet",
+  "start": 26.18,
+  "end": 26.42
+ },
+ {
+  "word": "chief",
+  "start": 26.5,
+  "end": 26.74
+ },
+ {
+  "word": "baker",
+  "start": 26.82,
+  "end": 27.14
+ },
+ {
+  "word": "Charles",
+  "start": 27.22,
+  "end": 27.54
+ },
+ {
+  "word": "Joughin",
+  "start": 27.62,
+  "end": 28.26
+ },
+ {
+  "word": "said",
+  "start": 28.34,
+  "end": 28.42
+ },
+ {
+  "word": "he",
+  "start": 28.5,
+  "end": 28.58
+ },
+ {
+  "word": "lasted",
+  "start": 28.66,
+  "end": 28.98
+ },
+ {
+  "word": "about",
+  "start": 29.18,
+  "end": 29.38
+ },
+ {
+  "word": "two",
+  "start": 29.46,
+  "end": 29.54
+ },
+ {
+  "word": "hours",
+  "start": 29.62,
+  "end": 30.1
+ },
+ {
+  "word": "His",
+  "start": 30.45,
+  "end": 30.69
+ },
+ {
+  "word": "secret",
+  "start": 30.93,
+  "end": 31.41
+ },
+ {
+  "word": "Legend",
+  "start": 31.65,
+  "end": 32.05
+ },
+ {
+  "word": "says",
+  "start": 32.13,
+  "end": 32.37
+ },
+ {
+  "word": "whisky",
+  "start": 32.53,
+  "end": 33.29
+ },
+ {
+  "word": "Scientists",
+  "start": 33.57,
+  "end": 34.21
+ },
+ {
+  "word": "doubt",
+  "start": 34.29,
+  "end": 34.61
+ },
+ {
+  "word": "it",
+  "start": 34.65,
+  "end": 34.69
+ },
+ {
+  "word": "helped",
+  "start": 34.77,
+  "end": 35.49
+ },
+ {
+  "word": "Episode",
+  "start": 35.81,
+  "end": 36.29
+ },
+ {
+  "word": "two:",
+  "start": 36.45,
+  "end": 37.09
+ },
+ {
+  "word": "Pompeii",
+  "start": 37.13,
+  "end": 37.81
+ },
+ {
+  "word": "Follow",
+  "start": 38.16,
+  "end": 38.72
+ },
+ {
+  "word": "so",
+  "start": 38.8,
+  "end": 38.88
+ },
+ {
+  "word": "you",
+  "start": 38.92,
+  "end": 38.96
+ },
+ {
+  "word": "dont",
+  "start": 39.04,
+  "end": 39.2
+ },
+ {
+  "word": "miss",
+  "start": 39.28,
+  "end": 39.44
+ },
+ {
+  "word": "it",
+  "start": 39.52,
+  "end": 39.92
+ }
+]

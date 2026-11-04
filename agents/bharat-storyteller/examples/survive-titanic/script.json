@@ -1,0 +1,2175 @@
+{
+ "$schema": "../../schemas/script-package.schema.json",
+ "schemaVersion": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "story": {
+  "slug": "survive-titanic",
+  "title": "Could YOU Survive the Titanic?",
+  "topic": "Could YOU Survive? Ep 1: in the North Atlantic at 2:20 AM, 15 April 1912, after the Titanic sank: water about -2 C, cold shock, ten minutes of useful arms, half-empty lifeboats, only Lifeboat 14 went back, chief baker Charles Joughin's two-hour survival and the whisky legend",
+  "category": "history",
+  "structure": "survival",
+  "angle": "Second person: YOU are in the water; survival science second by second, a choice question for the comments, a twist (the baker) and a series hook",
+  "centralQuestion": "How long would you last in -2 C water?",
+  "audience": "Global English Shorts viewers 18-35 (Inkfall, @inkfallshorts)",
+  "language": "english",
+  "durationSec": 40.4,
+  "totalFrames": 1212,
+  "coreEmotion": "dread turning to stubborn hope",
+  "takeaway": "Cold water kills fast: the first minute and the first ten minutes decide most of it",
+  "tone": "tense, urgent, second person; wry twist",
+  "sensitivity": "About 1,500 people died: no gore, no bodies; far swimmers are small, dignified silhouettes; the mascot carries the danger with expressions, never jokes about victims",
+  "researchMode": "web-verified",
+  "created": "2026-11-04"
+ },
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "RMS Titanic sank at about 02:20 ship's time on 15 April 1912.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C02",
+   "claim": "About 1,500 people died (estimates range roughly 1,490-1,517).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "approximate: 'about 1,500' (not in narration; description only)",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C03",
+   "claim": "Titanic carried 20 lifeboats (16 wooden, 4 collapsible) with room for about 1,178 people.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C04",
+   "claim": "About 705-712 people survived; Carpathia picked up the survivors (Wikipedia gives 710; other tallies 705-712).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "House Divided / Dickinson: survivors variously given 705-708",
+     "url": "https://housedivided.dickinson.edu/sites/2025teagle/?p=11674",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "academic"
+    }
+   ],
+   "qualification": "approximate range (description only)",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C05",
+   "claim": "Many lifeboats were launched partly empty: e.g. No. 7 left with about 27-28 people in a boat for 65; No. 2 with 25 of 40.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Smithsonian Magazine: Photos of the Titanic tragedy from 101 years ago",
+     "url": "https://www.smithsonianmag.com/history/photos-of-the-titanic-tragedy-from-101-years-ago-19446446/",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "news"
+    }
+   ],
+   "qualification": "narration says 'many half empty' (approximate, not all boats)",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C06",
+   "claim": "The sea temperature that night was about -2 C (28 F), below freezing for fresh water (sea water freezes lower).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Cruise Hive: How cold was the water when the Titanic sank?",
+     "url": "https://cruisehive.com/how-cold-was-the-water-when-the-titanic-sank/87766",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "other"
+    },
+    {
+     "title": "Encyclopedia Titanica forum: Temperature of water",
+     "url": "https://www.encyclopedia-titanica.org/community/threads/temperature-of-water.8284/post-80285",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "other"
+    }
+   ],
+   "qualification": "commonly reported figure (28 F); some estimates differ, so narration says 'about minus two degrees'",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C07",
+   "claim": "Sudden immersion in cold water triggers the cold-shock response: an involuntary gasp and hyperventilation in roughly the first minute; a gasp with the head under water can inhale water and drown.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Canadian Safe Boating Council: the 1-10-1 principle",
+     "url": "https://csbc.ca/1-10-1-principle/",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "other"
+    },
+    {
+     "title": "SIRIUSMEDx: The 1-10-1 had it right",
+     "url": "https://www.siriusmedx.com/en_CA/blog/instructor-s-blog-5/the-1-10-1-had-it-right-52",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "other"
+    }
+   ],
+   "qualification": "'by itself' = involuntary reflex",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C08",
+   "claim": "The 1-10-1 rule: about 1 minute of cold shock, about 10 minutes of meaningful movement before the muscles of the arms and legs fail, about 1 hour before unconsciousness from hypothermia; the timings vary and are shorter in colder water.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Canadian Safe Boating Council: the 1-10-1 principle",
+     "url": "https://csbc.ca/1-10-1-principle/",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "other"
+    },
+    {
+     "title": "SIRIUSMEDx: The 1-10-1 had it right",
+     "url": "https://www.siriusmedx.com/en_CA/blog/instructor-s-blog-5/the-1-10-1-had-it-right-52",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "other"
+    }
+   ],
+   "qualification": "memory aid, not a stopwatch: narration says 'Ten minutes, maybe less'",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C09",
+   "claim": "Lifeboat No. 14, under Fifth Officer Harold Lowe, is described as the only lifeboat to go back to search for survivors after the sinking; it pulled a few people from the water (about four, one of whom died).",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Titanic Lifeboat No. 14",
+     "url": "https://en.wikipedia.org/wiki/Titanic_Lifeboat_No._14",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "US Senate Inquiry: testimony of Harold Lowe",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq05Lowe02.php",
+     "read": "snippet",
+     "accessed": "2026-11-04",
+     "type": "primary-document"
+    }
+   ],
+   "qualification": "some accounts count Lifeboat 4 (picked up swimmers close by) as a second; narration: 'Only one comes back: Lifeboat fourteen' follows Wikipedia's wording",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C10",
+   "claim": "Charles Joughin, the ship's chief baker, testified that he was in the water for over two hours and survived, holding on to Collapsible B and later taken into another lifeboat.",
+   "category": "fact",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wikipedia: Charles Joughin",
+     "url": "https://en.wikipedia.org/wiki/Charles_Joughin",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Tim Maltin: Titanic Chief Baker Charles Joughin survived for several hours in the freezing water",
+     "url": "https://timmaltin.com/2019/05/07/joughin-baker-titanic/",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "other"
+    }
+   ],
+   "qualification": "his own account, uncorroborated; historians think his head and upper body stayed out of the water: narration says 'said he lasted about two hours'",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C11",
+   "claim": "Legend says whisky saved Joughin; in his testimony he spoke of a drink of liqueur; scientists say alcohol does not protect against cold water (it can speed heat loss).",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Charles Joughin",
+     "url": "https://en.wikipedia.org/wiki/Charles_Joughin",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Tim Maltin: Titanic Chief Baker Charles Joughin survived for several hours in the freezing water",
+     "url": "https://timmaltin.com/2019/05/07/joughin-baker-titanic/",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "other"
+    }
+   ],
+   "qualification": "framed as legend; 'Scientists doubt it helped'",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C12",
+   "claim": "The ship's lights failed shortly before the final plunge (about 2:18 AM), and the hull broke apart between the third and fourth funnels; the stern rose high before sinking.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "picture only (the stern lights flicker out in shot 1)",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C13",
+   "claim": "The night was calm, clear, cold and moonless, with a sky full of stars.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "picture only",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C14",
+   "claim": "Titanic's fourth (aft) funnel was a dummy used mainly for ventilation.",
+   "category": "fact",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Wikipedia: Sinking of the Titanic",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "encyclopedia"
+    }
+   ],
+   "qualification": "picture only (Blender model)",
+   "usableInScript": true,
+   "notes": ""
+  },
+  {
+   "id": "C15",
+   "claim": "'Joughin was drunk out of his mind and that is why he survived.'",
+   "category": "legend",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Tim Maltin: Titanic Chief Baker Charles Joughin survived for several hours in the freezing water",
+     "url": "https://timmaltin.com/2019/05/07/joughin-baker-titanic/",
+     "read": "page",
+     "accessed": "2026-11-04",
+     "type": "other"
+    }
+   ],
+   "qualification": "NOT USED: Maltin calls it a myth; Joughin said he was not drunk",
+   "usableInScript": false,
+   "notes": "",
+   "debunked": true
+  }
+ ],
+ "hooks": {
+  "options": [
+   {
+    "id": "H1",
+    "technique": "dramatic-situation",
+    "text": "The Titanic's gone. You're in the water.",
+    "score": 9,
+    "claimIds": [
+     "C01"
+    ],
+    "critique": "under 2 s to the stakes, aimed at the viewer; the picture shows it already in motion"
+   },
+   {
+    "id": "H2",
+    "technique": "surprising-fact",
+    "text": "You have about ten minutes before your arms stop working.",
+    "score": 8,
+    "claimIds": [
+     "C08"
+    ],
+    "critique": "strong, but the ship context arrives late"
+   },
+   {
+    "id": "H3",
+    "technique": "surprising-fact",
+    "text": "Minus two degrees. That's the water you just jumped into.",
+    "score": 7,
+    "claimIds": [
+     "C06"
+    ],
+    "critique": "abstract number first"
+   },
+   {
+    "id": "H4",
+    "technique": "contradiction",
+    "text": "The lifeboats were half empty, and you're still in the water.",
+    "score": 7,
+    "claimIds": [
+     "C05"
+    ],
+    "critique": "good anger, spends the twist early"
+   },
+   {
+    "id": "H5",
+    "technique": "question",
+    "text": "Could you survive the night the Titanic sank?",
+    "score": 6,
+    "claimIds": [],
+    "critique": "question opener; slower"
+   }
+  ],
+  "recommended": "H1",
+  "reason": "the fastest second-person stake, matches frame 0 (you gasping, the lit stern behind)"
+ },
+ "narration": {
+  "language": "english",
+  "voice": {
+   "engine": "elevenlabs",
+   "id": "JBFqnCBsd6RMkjVDRZzb",
+   "rate": "+0%"
+  },
+  "wps": 2.16,
+  "totalWords": 86,
+  "estimatedSpeechSec": 39.9,
+  "segments": [
+   {
+    "id": "N01",
+    "beat": "hook",
+    "startSec": 0,
+    "endSec": 2.99,
+    "startFrame": 0,
+    "endFrame": 90,
+    "text": "The Titanic's gone. You're in the water.",
+    "marked": "The Titanic's gone. You're in the water.",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "gone",
+     "water"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 9,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C01"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N02",
+    "beat": "context",
+    "startSec": 2.99,
+    "endSec": 6.84,
+    "startFrame": 90,
+    "endFrame": 205,
+    "text": "Two-twenty A.M. The sea's about minus two degrees.",
+    "marked": "Two-twenty A.M. The sea's about minus two degrees.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "minus two"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C01",
+     "C06"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N03",
+    "beat": "escalation",
+    "startSec": 6.84,
+    "endSec": 11.46,
+    "startFrame": 205,
+    "endFrame": 344,
+    "text": "Your body gasps by itself. Under a wave, that's deadly.",
+    "marked": "Your body gasps by itself. Under a wave, that's deadly.",
+    "voiceEmotion": "urgent",
+    "speed": 1.0,
+    "emphasis": [
+     "gasps",
+     "deadly"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C07"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N04",
+    "beat": "escalation",
+    "startSec": 11.46,
+    "endSec": 15.22,
+    "startFrame": 344,
+    "endFrame": 457,
+    "text": "Ten minutes, maybe less, and your arms stop working.",
+    "marked": "Ten minutes, maybe less, and your arms stop working.",
+    "voiceEmotion": "grave",
+    "speed": 1.0,
+    "emphasis": [
+     "Ten minutes",
+     "arms"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C08"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N05",
+    "beat": "escalation",
+    "startSec": 15.22,
+    "endSec": 19.17,
+    "startFrame": 457,
+    "endFrame": 575,
+    "text": "Would you jump early, or stay on the ship? Comment below.",
+    "marked": "Would you jump early, or stay on the ship? Comment below.",
+    "voiceEmotion": "urgent",
+    "speed": 1.0,
+    "emphasis": [
+     "jump early",
+     "stay"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N06",
+    "beat": "revelation",
+    "startSec": 19.17,
+    "endSec": 26.05,
+    "startFrame": 575,
+    "endFrame": 782,
+    "text": "Lifeboats float nearby, many half empty. Only one comes back: Lifeboat fourteen.",
+    "marked": "Lifeboats float nearby, many half empty. Only one comes back: Lifeboat fourteen.",
+    "voiceEmotion": "tense",
+    "speed": 1.0,
+    "emphasis": [
+     "half empty",
+     "fourteen"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C05",
+     "C09"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N07",
+    "beat": "revelation",
+    "startSec": 26.05,
+    "endSec": 30.32,
+    "startFrame": 782,
+    "endFrame": 910,
+    "text": "Yet chief baker Charles Joughin said he lasted about two hours.",
+    "marked": "Yet chief baker Charles Joughin said he lasted about two hours.",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "two hours"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 8,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C10"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N08",
+    "beat": "explanation",
+    "startSec": 30.32,
+    "endSec": 35.68,
+    "startFrame": 910,
+    "endFrame": 1070,
+    "text": "His secret? Legend says whisky. Scientists doubt it helped.",
+    "marked": "His secret? Legend says whisky. Scientists doubt it helped.",
+    "voiceEmotion": "wry",
+    "speed": 1.0,
+    "emphasis": [
+     "whisky",
+     "doubt"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 7,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [
+     "C11"
+    ],
+    "deliveryNote": ""
+   },
+   {
+    "id": "N09",
+    "beat": "ending",
+    "startSec": 35.68,
+    "endSec": 40.4,
+    "startFrame": 1070,
+    "endFrame": 1212,
+    "text": "Episode two: Pompeii. Follow, so you don't miss it.",
+    "marked": "Episode two: Pompeii. Follow, so you don't miss it.",
+    "voiceEmotion": "warm",
+    "speed": 1.0,
+    "emphasis": [
+     "Pompeii",
+     "Follow"
+    ],
+    "pauseAfterSec": 0.3,
+    "intensity": 6,
+    "musicMood": "see section G",
+    "ambient": "lapping water, cold wind",
+    "sfx": [],
+    "claimIds": [],
+    "deliveryNote": ""
+   }
+  ]
+ },
+ "world": {
+  "scenes": [
+   {
+    "id": "sea",
+    "kind": "new",
+    "basedOn": "none",
+    "description": "the North Atlantic at 2:20 AM: moonless starry sky + Milky Way, flat icy sea over an opaque abyss, mist, iceberg on the horizon, wreckage, far swimmers; the stern standing up, the tilting ship, lifeboats",
+    "components": [
+     "kit stage.ts card stage",
+     "kit mascot.ts (new, shared)",
+     "Blender props: titanic, titanic_stern (+ lights passes), lifeboat far/near, deckchair, debris, lifejacket, lantern",
+     "canvas art in src/videos/survive-titanic/art.ts"
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "id": "mascot",
+    "kind": "human",
+    "description": "the series mascot (you): sunflower raincoat hood down, teal scarf, cream backpack, cowlick, freckles; Ep 1 over 1912 third-class clothes + a cork life jacket",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#f6b924",
+     "pants": "#5a4c3e",
+     "skin": "#e2ad84"
+    },
+    "respectNote": "the viewer's stand-in; sells the danger, never mocks victims"
+   },
+   {
+    "id": "joughin",
+    "kind": "human",
+    "description": "Charles Joughin, chief baker: portly, white baker's jacket and cap, apron, moustache, cork life jacket",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#f4f2ea",
+     "pants": "#3a3a3e",
+     "skin": "#e8b98f"
+    },
+    "respectNote": "calm and cheerful as in his account; the whisky is framed as legend"
+   },
+   {
+    "id": "lowe",
+    "kind": "human",
+    "description": "Fifth Officer Harold Lowe: navy officer's coat, peaked cap, lantern",
+    "build": "adult",
+    "hat": "none",
+    "outfit": {
+     "jacket": "#1c2a3c",
+     "pants": "#1c2a3c",
+     "skin": "#e8b98f"
+    },
+    "respectNote": "the one boat that went back"
+   }
+  ],
+  "subjects": [
+   {
+    "name": "you",
+    "place": "you",
+    "heightM": 0.9
+   },
+   {
+    "name": "stern",
+    "place": "stern",
+    "heightM": 75
+   },
+   {
+    "name": "hands",
+    "place": "hands",
+    "heightM": 0.3
+   },
+   {
+    "name": "ship",
+    "place": "ship",
+    "heightM": 45
+   },
+   {
+    "name": "boat",
+    "place": "boat",
+    "heightM": 1.5
+   },
+   {
+    "name": "boat14",
+    "place": "boat14",
+    "heightM": 2.0
+   },
+   {
+    "name": "pair",
+    "place": "pair",
+    "heightM": 1.0
+   },
+   {
+    "name": "baker",
+    "place": "baker",
+    "heightM": 0.9
+   }
+  ]
+ },
+ "shots": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 3.0,
+   "startFrame": 0,
+   "endFrame": 90,
+   "narration": {
+    "segmentIds": [
+     "N01"
+    ],
+    "text": "The Titanics gone Youre in the water"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "HOOK: frame 0 already intense: you (the mascot) gasping in black freezing water, breath fog, the lit stern standing up far behind (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 0,
+      "preset": "closeUp",
+      "params": {
+       "subject": "you",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "you",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "HOOK: frame 0 already intense: you (the mascot) gasping in black freezing water,",
+   "effects": [],
+   "transition": {
+    "type": "open"
+   },
+   "soundEffects": [
+    "sea-bed",
+    "wind",
+    "cold-hum",
+    "gone",
+    "stern-rumble"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "hook, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "HOOK",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 2,
+   "startSec": 3.0,
+   "endSec": 6.83,
+   "startFrame": 90,
+   "endFrame": 205,
+   "narration": {
+    "segmentIds": [
+     "N02"
+    ],
+    "text": "Two-twenty AM The seas about minus two degrees"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "SPECTACLE: 'Two-twenty A.M. The sea's about minus two degrees': the stern standing huge, lights on, then the lights flicker out and it slides under; you small in the foreground (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 90,
+      "preset": "closeUp",
+      "params": {
+       "subject": "stern",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "stern",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "SPECTACLE: 'Two-twenty A.M. The sea's about minus two degrees': the stern standi",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "time",
+    "minus-two",
+    "lights-out",
+    "plunge"
+   ],
+   "musicDirection": {
+    "beat": "hook",
+    "mood": "hook, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "SPECTACLE",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 3,
+   "startSec": 6.83,
+   "endSec": 11.47,
+   "startFrame": 205,
+   "endFrame": 344,
+   "narration": {
+    "segmentIds": [
+     "N03"
+    ],
+    "text": "Your body gasps by itself Under a wave thats deadly"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Your body gasps by itself. Under a wave, that's deadly': close orbit on the gasp reflex; a wave washes over you (bubbles) at 272; the body timer appears (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 205,
+      "preset": "closeUp",
+      "params": {
+       "subject": "you",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "you",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Your body gasps by itself. Under a wave, that's deadly': close orbit on the gas",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "gasp-whoosh",
+    "wave-in",
+    "wave-hit",
+    "timer-tick"
+   ],
+   "musicDirection": {
+    "beat": "shock",
+    "mood": "shock, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'Your body gasps by itself. Under a wave, that's deadly'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 4,
+   "startSec": 11.47,
+   "endSec": 13.33,
+   "startFrame": 344,
+   "endFrame": 400,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "Ten minutes maybe less and"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Ten minutes, maybe less': low angle just over the water, wreckage in the foreground, your splashing weakens (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "low",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 344,
+      "preset": "closeUp",
+      "params": {
+       "subject": "you",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "you",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Ten minutes, maybe less': low angle just over the water, wreckage in the foregr",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "shock",
+    "mood": "shock, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'Ten minutes, maybe less'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 5,
+   "startSec": 13.33,
+   "endSec": 15.23,
+   "startFrame": 400,
+   "endFrame": 457,
+   "narration": {
+    "segmentIds": [
+     "N04"
+    ],
+    "text": "your arms stop working"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'your arms stop working': close on your trembling hands gripping your life jacket; timer hits 10:00 (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 400,
+      "preset": "closeUp",
+      "params": {
+       "subject": "hands",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "hands",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'your arms stop working': close on your trembling hands gripping your life jacke",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "arms-stop"
+   ],
+   "musicDirection": {
+    "beat": "shock",
+    "mood": "shock, Gm",
+    "duck": true
+   },
+   "emotionalIntention": "'your arms stop working'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 6,
+   "startSec": 15.23,
+   "endSec": 19.17,
+   "startFrame": 457,
+   "endFrame": 575,
+   "narration": {
+    "segmentIds": [
+     "N05"
+    ],
+    "text": "Would you jump early or stay on the ship Comment below"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Would you jump early, or stay on the ship? Comment below': the lit ship mid-sinking, bow under, stern rising; you small in the foreground; the one choice pill (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 457,
+      "preset": "closeUp",
+      "params": {
+       "subject": "ship",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "ship",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Would you jump early, or stay on the ship? Comment below': the lit ship mid-sin",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "choice",
+    "ship-groan"
+   ],
+   "musicDirection": {
+    "beat": "choice",
+    "mood": "choice, A",
+    "duck": true
+   },
+   "emotionalIntention": "'Would you jump early, or stay on the ship? Comment below'",
+   "visualImportance": "hero",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 7,
+   "startSec": 19.17,
+   "endSec": 22.6,
+   "startFrame": 575,
+   "endFrame": 678,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "Lifeboats float nearby many half empty"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Lifeboats float nearby, many half empty': a half-empty lifeboat rows away, you reach after it (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 575,
+      "preset": "closeUp",
+      "params": {
+       "subject": "boat",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "boat",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Lifeboats float nearby, many half empty': a half-empty lifeboat rows away, you ",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "boat-away"
+   ],
+   "musicDirection": {
+    "beat": "boats",
+    "mood": "boats, Bb",
+    "duck": true
+   },
+   "emotionalIntention": "'Lifeboats float nearby, many half empty'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 8,
+   "startSec": 22.6,
+   "endSec": 24.5,
+   "startFrame": 678,
+   "endFrame": 735,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "Only one comes back: Lifeboat"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Only one comes back': Lifeboat 14 out of the mist, Lowe's lantern held high at the bow (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 678,
+      "preset": "closeUp",
+      "params": {
+       "subject": "boat14",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "boat14",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Only one comes back': Lifeboat 14 out of the mist, Lowe's lantern held high at ",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [],
+   "musicDirection": {
+    "beat": "boats",
+    "mood": "boats, Bb",
+    "duck": true
+   },
+   "emotionalIntention": "'Only one comes back'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 9,
+   "startSec": 24.5,
+   "endSec": 26.07,
+   "startFrame": 735,
+   "endFrame": 782,
+   "narration": {
+    "segmentIds": [
+     "N06"
+    ],
+    "text": "fourteen"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Lifeboat fourteen': high angle down on you among the wreckage, the lantern light falls on you; relief (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "high",
+   "cameraMovement": {
+    "kind": "crane",
+    "keys": [
+     {
+      "f": 735,
+      "preset": "closeUp",
+      "params": {
+       "subject": "you",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "you",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Lifeboat fourteen': high angle down on you among the wreckage, the lantern ligh",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "hope"
+   ],
+   "musicDirection": {
+    "beat": "boats",
+    "mood": "boats, Bb",
+    "duck": true
+   },
+   "emotionalIntention": "'Lifeboat fourteen'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 10,
+   "startSec": 26.07,
+   "endSec": 30.33,
+   "startFrame": 782,
+   "endFrame": 910,
+   "narration": {
+    "segmentIds": [
+     "N07"
+    ],
+    "text": "Yet chief baker Charles Joughin said he lasted about two hours"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Yet chief baker Charles Joughin said he lasted about two hours': the portly baker floats calmly beside you, chatting (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "tracking",
+    "keys": [
+     {
+      "f": 782,
+      "preset": "closeUp",
+      "params": {
+       "subject": "pair",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "pair",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Yet chief baker Charles Joughin said he lasted about two hours': the portly bak",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "baker"
+   ],
+   "musicDirection": {
+    "beat": "baker",
+    "mood": "baker, F",
+    "duck": true
+   },
+   "emotionalIntention": "'Yet chief baker Charles Joughin said he lasted about two ho",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 11,
+   "startSec": 30.33,
+   "endSec": 33.33,
+   "startFrame": 910,
+   "endFrame": 1000,
+   "narration": {
+    "segmentIds": [
+     "N08"
+    ],
+    "text": "His secret Legend says whisky"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'His secret? Legend says whisky': close on the baker raising a little flask (legend, not proven) (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 910,
+      "preset": "closeUp",
+      "params": {
+       "subject": "baker",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "baker",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'His secret? Legend says whisky': close on the baker raising a little flask (leg",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "whisky"
+   ],
+   "musicDirection": {
+    "beat": "baker",
+    "mood": "baker, F",
+    "duck": true
+   },
+   "emotionalIntention": "'His secret? Legend says whisky'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 12,
+   "startSec": 33.33,
+   "endSec": 35.67,
+   "startFrame": 1000,
+   "endFrame": 1070,
+   "narration": {
+    "segmentIds": [
+     "N08"
+    ],
+    "text": "Scientists doubt it helped"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Scientists doubt it helped': close on you, sceptical, shivering (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "orbit",
+    "keys": [
+     {
+      "f": 1000,
+      "preset": "closeUp",
+      "params": {
+       "subject": "you",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "you",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Scientists doubt it helped': close on you, sceptical, shivering",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "doubt"
+   ],
+   "musicDirection": {
+    "beat": "baker",
+    "mood": "baker, F",
+    "duck": true
+   },
+   "emotionalIntention": "'Scientists doubt it helped'",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  },
+  {
+   "id": 13,
+   "startSec": 35.67,
+   "endSec": 40.4,
+   "startFrame": 1070,
+   "endFrame": 1212,
+   "narration": {
+    "segmentIds": [
+     "N09"
+    ],
+    "text": "Episode two: Pompeii Follow so you dont miss it"
+   },
+   "environment": {
+    "scene": "sea",
+    "clock": {
+     "kind": "none"
+    },
+    "description": "'Episode two: Pompeii. Follow, so you don't miss it': you wave to camera, EP 2 tag; cut back to the hook on the hook clock (last frame = frame 0) (NIGHT: the schema has no night value; film uses its own night light)"
+   },
+   "characters": [
+    {
+     "id": "mascot",
+     "view": "front",
+     "mode": "stand",
+     "expression": "shock"
+    }
+   ],
+   "actions": [],
+   "expressions": [],
+   "cameraAngle": "eye-level",
+   "cameraMovement": {
+    "kind": "push-in",
+    "keys": [
+     {
+      "f": 1070,
+      "preset": "closeUp",
+      "params": {
+       "subject": "you",
+       "fill": 0.5,
+       "push": 0.04
+      }
+     }
+    ]
+   },
+   "cameraTarget": "you",
+   "lighting": "dusk",
+   "foreground": "floating wreckage / mist",
+   "background": "'Episode two: Pompeii. Follow, so you don't miss it': you wave to camera, EP 2 t",
+   "effects": [],
+   "transition": {
+    "type": "cut"
+   },
+   "soundEffects": [
+    "ep2",
+    "loop-hum"
+   ],
+   "musicDirection": {
+    "beat": "loop",
+    "mood": "loop, Dm",
+    "duck": true
+   },
+   "emotionalIntention": "'Episode two",
+   "visualImportance": "support",
+   "futureDevelopmentIds": []
+  }
+ ],
+ "events": {
+  "flashAt": 272,
+  "flashes": [
+   [
+    272,
+    0.16
+   ]
+  ],
+  "hits": [
+   30,
+   150,
+   272,
+   748,
+   1000
+  ],
+  "kicks": [
+   [
+    30,
+    0.45
+   ],
+   [
+    150,
+    0.35
+   ],
+   [
+    272,
+    0.55
+   ],
+   [
+    748,
+    0.4
+   ],
+   [
+    1000,
+    0.35
+   ]
+  ]
+ },
+ "audio": {
+  "cues": [
+   {
+    "id": "sea-bed",
+    "at": 0,
+    "gen": "water",
+    "args": {
+     "close": 0.9
+    },
+    "span": [
+     0,
+     1212
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "lapping water around you, the whole film"
+   },
+   {
+    "id": "wind",
+    "at": 0,
+    "gen": "breeze",
+    "args": {
+     "level": 0.1,
+     "bright": 500
+    },
+    "span": [
+     0,
+     1212
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "cold night air"
+   },
+   {
+    "id": "cold-hum",
+    "at": 0,
+    "gen": "hum",
+    "args": {
+     "hz": 49.0,
+     "tone": 0.03,
+     "noise": 0.03
+    },
+    "span": [
+     0,
+     205
+    ],
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "dread bed under the hook"
+   },
+   {
+    "id": "gone",
+    "at": 30,
+    "gen": "boom",
+    "args": {
+     "dur": 1.6,
+     "f0": 38,
+     "big": 0.25
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "on 'gone'"
+   },
+   {
+    "id": "time",
+    "at": 90,
+    "gen": "glock",
+    "args": {
+     "midi": 86,
+     "level": 0.24
+    },
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "'Two-twenty A.M.'"
+   },
+   {
+    "id": "minus-two",
+    "at": 160,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      81,
+      77,
+      74
+     ],
+     "level": 0.2,
+     "spacing": 0.16,
+     "pan0": -0.2,
+     "pan_step": 0.2
+    },
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "falling 'minus two degrees'"
+   },
+   {
+    "id": "gasp-whoosh",
+    "at": 205,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.35,
+     "peak": 0.3,
+     "f_lo": 400,
+     "f_hi": 3000,
+     "width": 0.4,
+     "tail": 0.12
+    },
+    "segmentId": "N03",
+    "shotId": 3,
+    "intent": "the gasp"
+   },
+   {
+    "id": "wave-in",
+    "at": 258,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.6,
+     "peak": 0.45,
+     "f_lo": 200,
+     "f_hi": 1800,
+     "width": 0.6,
+     "tail": 0.25
+    },
+    "segmentId": "N03",
+    "shotId": 3,
+    "intent": "the wave rises"
+   },
+   {
+    "id": "wave-hit",
+    "at": 272,
+    "gen": "boom",
+    "args": {
+     "dur": 1.0,
+     "f0": 55,
+     "big": 0.2
+    },
+    "segmentId": "N03",
+    "shotId": 3,
+    "intent": "the wave hits"
+   },
+   {
+    "id": "timer-tick",
+    "at": 212,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88
+     ],
+     "level": 0.1,
+     "spacing": 0.5,
+     "pan0": 0.3,
+     "pan_step": 0.0
+    },
+    "segmentId": "N03",
+    "shotId": 3,
+    "intent": "the body timer ticking"
+   },
+   {
+    "id": "arms-stop",
+    "at": 428,
+    "gen": "glock",
+    "args": {
+     "midi": 74,
+     "level": 0.28
+    },
+    "segmentId": "N04",
+    "shotId": 5,
+    "intent": "on 'working' (10:00)"
+   },
+   {
+    "id": "choice",
+    "at": 463,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      74,
+      77,
+      81
+     ],
+     "level": 0.24,
+     "spacing": 0.12,
+     "pan0": -0.3,
+     "pan_step": 0.3
+    },
+    "segmentId": "N05",
+    "shotId": 6,
+    "intent": "the choice pill pops"
+   },
+   {
+    "id": "ship-groan",
+    "at": 470,
+    "gen": "rumble",
+    "args": {
+     "dur": 2.0,
+     "gain": 0.22,
+     "lo": 30,
+     "hi": 120,
+     "decay": 1.6
+    },
+    "segmentId": "N05",
+    "shotId": 6,
+    "intent": "the tilting ship"
+   },
+   {
+    "id": "boat-away",
+    "at": 580,
+    "gen": "whoosh",
+    "args": {
+     "dur": 0.5,
+     "peak": 0.2,
+     "f_lo": 200,
+     "f_hi": 1200,
+     "width": 0.5,
+     "tail": 0.2
+    },
+    "segmentId": "N06",
+    "shotId": 7,
+    "intent": "oars"
+   },
+   {
+    "id": "hope",
+    "at": 748,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      69,
+      74,
+      78,
+      81,
+      86
+     ],
+     "level": 0.24,
+     "spacing": 0.13,
+     "pan0": -0.3,
+     "pan_step": 0.15
+    },
+    "segmentId": "N06",
+    "shotId": 9,
+    "intent": "'Lifeboat fourteen': hope"
+   },
+   {
+    "id": "baker",
+    "at": 790,
+    "gen": "glock",
+    "args": {
+     "midi": 79,
+     "level": 0.24
+    },
+    "segmentId": "N07",
+    "shotId": 10,
+    "intent": "the baker appears"
+   },
+   {
+    "id": "whisky",
+    "at": 960,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      84,
+      81
+     ],
+     "level": 0.2,
+     "spacing": 0.22,
+     "pan0": 0.2,
+     "pan_step": -0.2
+    },
+    "segmentId": "N08",
+    "shotId": 11,
+    "intent": "'whisky' wink"
+   },
+   {
+    "id": "doubt",
+    "at": 1000,
+    "gen": "boom",
+    "args": {
+     "dur": 0.9,
+     "f0": 60,
+     "big": 0.12
+    },
+    "segmentId": "N08",
+    "shotId": 12,
+    "intent": "'Scientists doubt'"
+   },
+   {
+    "id": "ep2",
+    "at": 1072,
+    "gen": "notes",
+    "args": {
+     "midi": [
+      74,
+      78,
+      81,
+      86
+     ],
+     "level": 0.24,
+     "spacing": 0.14,
+     "pan0": -0.2,
+     "pan_step": 0.15
+    },
+    "segmentId": "N09",
+    "shotId": 13,
+    "intent": "'Episode two'"
+   },
+   {
+    "id": "loop-hum",
+    "at": 1150,
+    "gen": "hum",
+    "args": {
+     "hz": 49.0,
+     "tone": 0.03,
+     "noise": 0.03
+    },
+    "span": [
+     1150,
+     1212
+    ],
+    "segmentId": "N09",
+    "shotId": 13,
+    "intent": "the hook bed returns (seamless loop)"
+   },
+   {
+    "id": "stern-rumble",
+    "at": 60,
+    "gen": "rumble",
+    "args": {
+     "dur": 3.5,
+     "gain": 0.3,
+     "lo": 25,
+     "hi": 90,
+     "decay": 2.4
+    },
+    "segmentId": "N01",
+    "shotId": 1,
+    "intent": "the stern groaning, far off"
+   },
+   {
+    "id": "lights-out",
+    "at": 150,
+    "gen": "boom",
+    "args": {
+     "dur": 1.4,
+     "f0": 42,
+     "big": 0.22
+    },
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "the lights go out"
+   },
+   {
+    "id": "plunge",
+    "at": 165,
+    "gen": "rumble",
+    "args": {
+     "dur": 2.2,
+     "gain": 0.35,
+     "lo": 22,
+     "hi": 80,
+     "decay": 1.6
+    },
+    "segmentId": "N02",
+    "shotId": 2,
+    "intent": "the final plunge"
+   }
+  ],
+  "music": {
+   "beats": [
+    {
+     "name": "hook",
+     "shots": [
+      1,
+      2
+     ],
+     "chord": "Dm",
+     "level": 0.8,
+     "mood": "hook, Dm"
+    },
+    {
+     "name": "shock",
+     "shots": [
+      3,
+      5
+     ],
+     "chord": "Gm",
+     "level": 0.75,
+     "mood": "shock, Gm"
+    },
+    {
+     "name": "choice",
+     "shots": [
+      6,
+      6
+     ],
+     "chord": "A",
+     "level": 0.7,
+     "mood": "choice, A"
+    },
+    {
+     "name": "boats",
+     "shots": [
+      7,
+      9
+     ],
+     "chord": "Bb",
+     "level": 0.75,
+     "mood": "boats, Bb"
+    },
+    {
+     "name": "baker",
+     "shots": [
+      10,
+      12
+     ],
+     "chord": "F",
+     "level": 0.6,
+     "mood": "baker, F"
+    },
+    {
+     "name": "loop",
+     "shots": [
+      13,
+      13
+     ],
+     "chord": "Dm",
+     "level": 0.75,
+     "mood": "loop, Dm"
+    }
+   ]
+  },
+  "master": {
+   "fade_in": 0.02,
+   "fade_out": 0.2
+  }
+ },
+ "quality": {
+  "scores": {
+   "hook": 9,
+   "originality": 8,
+   "researchReliability": 8,
+   "rhythm": 7,
+   "hinglishNaturalness": 8,
+   "emotion": 8,
+   "retention": 8,
+   "visualStorytelling": 8,
+   "pacing": 8,
+   "productionFeasibility": 7,
+   "ending": 7
+  },
+  "weaknesses": [
+   {
+    "area": "facts",
+    "issue": "-2 C (28 F) is the commonly reported figure; some estimates differ: narration says 'about'.",
+    "severity": "low"
+   },
+   {
+    "area": "facts",
+    "issue": "'Only one comes back' follows Wikipedia (Lifeboat 14); some accounts also count Lifeboat 4 picking up swimmers nearby.",
+    "severity": "low"
+   },
+   {
+    "area": "facts",
+    "issue": "Joughin's two hours is his own uncorroborated testimony; framed as 'said he lasted'. Whisky framed as legend (he testified to liqueur).",
+    "severity": "low"
+   },
+   {
+    "area": "audio",
+    "issue": "Voice runs 39.9 s (86 words) because the ElevenLabs quota ran out before the planned 80-word take; total 41.9 s with the end card (target 35-40).",
+    "severity": "medium"
+   },
+   {
+    "area": "facts",
+    "issue": "Picture shows the stern lights on at 2:20; the lights actually failed about 2:18, so the stern's lights flicker out in shot 2.",
+    "severity": "low"
+   }
+  ],
+  "verdict": "pass",
+  "rounds": 3,
+  "revisionLog": [
+   {
+    "round": 1,
+    "change": "93 -> 86 words to shorten the take",
+    "reason": "length"
+   },
+   {
+    "round": 2,
+    "change": "whisky framed as legend; 'said he lasted'",
+    "reason": "fact check"
+   },
+   {
+    "round": 3,
+    "change": "lead review: big stern spectacle at 3-7 s, varied angles, ship mid-sinking under the pill, EP 2 tag",
+    "reason": "retention"
+   }
+  ],
+  "rhythm": {
+   "verdict": "PASS",
+   "durationSec": 39.9,
+   "wps": 2.16,
+   "lengthCv": 0.3,
+   "findings": 0
+  },
+  "editorNotes": "Second-person format; comment trigger at 15 s; twist at 26 s (before 30 s); loop to frame 0."
+ },
+ "futureDevelopment": [
+  {
+   "id": "F01",
+   "feature": "back views for kit people",
+   "need": "over-the-shoulder shots from inside a lifeboat",
+   "shotIds": [
+    9
+   ],
+   "suggestion": "high angle over the lifeboat used instead"
+  }
+ ],
+ "publishing": {
+  "titles": [
+   "Could YOU Survive the Titanic? #Shorts",
+   "You Have 10 Minutes in -2°C Water",
+   "The Titanic Just Sank. You're in the Water.",
+   "Why Only ONE Lifeboat Came Back",
+   "The Baker Who Survived 2 Hours in Ice Water"
+  ],
+  "thumbnails": [
+   {
+    "concept": "the mascot gasping in black water, the lit stern standing up behind",
+    "text": "COULD YOU SURVIVE THE TITANIC?"
+   },
+   {
+    "concept": "the body timer at 10:00 over the shivering mascot",
+    "text": "10 MINUTES"
+   },
+   {
+    "concept": "the baker in his cap floating calmly with a flask",
+    "text": "HE LASTED 2 HOURS"
+   }
+  ],
+  "description": "It's 2:20 AM on 15 April 1912. The Titanic has just gone under, and YOU are in the North Atlantic. The water is about −2 °C (28 °F).\n\nWhat happens to your body, second by second:\n• The first minute: cold shock. You gasp and hyperventilate without meaning to; a gasp under a wave can make you inhale water.\n• About 10 minutes (often less in water this cold): your arm and leg muscles stop working, so you can no longer swim or hold on well (the \"1-10-1\" rule: about 1 minute, 10 minutes, 1 hour; it is a memory aid, not a stopwatch).\n• Titanic carried 20 lifeboats with room for about 1,178 people, and many were launched partly empty (Lifeboat 7 left with about 28 people in a boat for 65). About 1,500 people died; about 705-712 survived.\n• Lifeboat 14, under Fifth Officer Harold Lowe, is described as the only boat that went back to search for survivors. It pulled a few people from the water.\n• The twist: chief baker Charles Joughin said he spent over two hours in the water and lived. Legend says whisky saved him; in his own testimony he spoke of a drink of liqueur, and scientists doubt alcohol helped (it makes you lose heat faster). Historians think he kept his head and upper body out of the water, with his life jacket.\n\nEpisode 2: Pompeii. Follow so you don't miss it.\n\nSources:\n- Wikipedia, Sinking of the Titanic (https://en.wikipedia.org/wiki/Sinking_of_the_Titanic)\n- Wikipedia, Titanic Lifeboat No. 14 (https://en.wikipedia.org/wiki/Titanic_Lifeboat_No._14)\n- Wikipedia, Charles Joughin (https://en.wikipedia.org/wiki/Charles_Joughin)\n- Tim Maltin, Titanic chief baker Charles Joughin (https://timmaltin.com/2019/05/07/joughin-baker-titanic/)\n- US Senate Inquiry, testimony of Harold Lowe (https://www.titanicinquiry.org/USInq/AmInq05Lowe02.php)\n- Canadian Safe Boating Council, the 1-10-1 principle (https://csbc.ca/1-10-1-principle/)\n- Smithsonian Magazine, Photos of the Titanic tragedy (https://www.smithsonianmag.com/history/photos-of-the-titanic-tragedy-from-101-years-ago-19446446/)\n\nAnimated reconstruction; the mascot is \"you\", not a real passenger.\n\n#Titanic #CouldYouSurvive #History #Shorts #SurvivalScience #RMSTitanic\n",
+  "hashtags": [
+   "#Titanic",
+   "#CouldYouSurvive",
+   "#History",
+   "#Shorts",
+   "#SurvivalScience"
+  ],
+  "pinnedComment": "Be honest 👇 Would you JUMP early into −2 °C water and swim for a half-empty lifeboat, or STAY on the ship as long as possible, like the baker who climbed to the stern and rode it down? Reply \"JUMP\" or \"STAY\" and tell us why.\n"
+ }
+}

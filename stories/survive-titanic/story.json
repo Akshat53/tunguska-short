@@ -1,0 +1,27 @@
+{
+  "slug": "survive-titanic",
+  "composition": "SurviveTitanicShort",
+  "series": "Could YOU Survive? (Inkfall global), Ep 1",
+  "title": "Could YOU Survive the Titanic?",
+  "channel": "global",
+  "languages": {
+    "en": {
+      "voice": "ElevenLabs George JBFqnCBsd6RMkjVDRZzb, eleven_v4, 0.6 / 0.75 (EL_LANG=en), then tighten_pauses -> 39.84 s (86 words). Not sped up. A shorter 80-word take (narration.v3-80w.txt in the agent example folder) could not be made: ElevenLabs quota exceeded. Picture is timed on words.json; do not regenerate.",
+      "rate": "",
+      "dir": "en",
+      "audio": "out/survive-titanic/audio/mix.wav"
+    }
+  },
+  "commands": {
+    "props": "SIZE=2400 bash blender/build.sh titanic titanic_lights titanic_stern titanic_stern_lights && SIZE=1800 bash blender/build.sh lifeboat deckchair debris lifejacket lantern && .venv/bin/python blender/crop_pair.py public/props/lifeboat_far.png public/props/lifeboat_near.png",
+    "voice": "rm -f stories/survive-titanic/en/voice.loose.* stories/survive-titanic/en/words.loose.json && EL_LANG=en node --env-file=.env.local scripts/make_voice_el.mjs stories/survive-titanic/en JBFqnCBsd6RMkjVDRZzb eleven_v4 0.6 0.75 && .venv/bin/python scripts/tighten_pauses.py stories/survive-titanic/en",
+    "audio": "bash audio/build_survive-titanic.sh",
+    "mascot_sheet": "COMP=MascotSheet GL=angle node scripts/stills.mjs out/survive-titanic/chk/ms 20 1",
+    "thumbnail": "COMP=SurviveTitanicShort GL=angle node scripts/stills.mjs out/survive-titanic/chk/th 14 1 '{\"post\":{\"dpr\":1},\"thumb\":true}' && cp out/survive-titanic/chk/th0014.jpg brand/src/survive-titanic-thumb-bg.jpg && bash scripts/export_brand.sh survive-titanic-thumb",
+    "draft": "COMP=SurviveTitanicShort GL=angle CONC=6 node scripts/render.mjs out/survive-titanic/picture-half.mp4 all 0.5 '{\"post\":{\"dpr\":1}}' && SIZE=540x960 NO_INTRO=1 AUDIO_OUT=out/survive-titanic/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/survive-titanic/picture-half.mp4 out/survive-titanic/survive-titanic-en-draft-half.mp4 0 1.5",
+    "picture": "COMP=SurviveTitanicShort GL=angle CONC=6 node scripts/render.mjs out/survive-titanic/picture.mp4 all 1 '{\"post\":{\"dpr\":1}}'",
+    "final": "NO_INTRO=1 AUDIO_OUT=out/survive-titanic/audio OUTRO_CARD=brand/endcard-global.png bash scripts/finish.sh out/survive-titanic/picture.mp4 out/survive-titanic/survive-titanic-en-final.mp4 0 1.5",
+    "qa": "bash scripts/qa.sh out/survive-titanic/survive-titanic-en-final.mp4 out/survive-titanic/qa-final && node --no-warnings scripts/qa-story-data.mjs --config scripts/qa.config.survive-titanic.json --out out/survive-titanic/qa-final/qa-story.json && .venv/bin/python scripts/visual_qa.py out/survive-titanic/survive-titanic-en-final.mp4 --story out/survive-titanic/qa-final/qa-story.json --audio-report out/survive-titanic/audio/audio_report.json --out out/survive-titanic/qa-final"
+  },
+  "note": "No intro card (frame 0 is the hook in motion), 1.5 s global end card. No captions. Overlays: series badge (always), one choice pill 'Jump early… or stay? ↓' at 463-572, body timer 212-457, 'NEXT · EP 2: POMPEII' tag 1150-1212 (src/videos/survive-titanic/story.ts). Loop: shot 13 cuts back to the hook camera on the hook clock at 1150, so the last picture frame matches frame 0. Upload text: out/upload/survive-titanic-title.txt, -description.txt, -pinned.txt. Thumbnail: brand/survive-titanic-thumb.png (API upload, not in the video)."
+}

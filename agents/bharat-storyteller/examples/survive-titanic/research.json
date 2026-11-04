@@ -1,0 +1,329 @@
+[
+ {
+  "id": "C01",
+  "claim": "RMS Titanic sank at about 02:20 ship's time on 15 April 1912.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C02",
+  "claim": "About 1,500 people died (estimates range roughly 1,490-1,517).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "approximate: 'about 1,500' (not in narration; description only)",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C03",
+  "claim": "Titanic carried 20 lifeboats (16 wooden, 4 collapsible) with room for about 1,178 people.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C04",
+  "claim": "About 705-712 people survived; Carpathia picked up the survivors (Wikipedia gives 710; other tallies 705-712).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "House Divided / Dickinson: survivors variously given 705-708",
+    "url": "https://housedivided.dickinson.edu/sites/2025teagle/?p=11674",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "academic"
+   }
+  ],
+  "qualification": "approximate range (description only)",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C05",
+  "claim": "Many lifeboats were launched partly empty: e.g. No. 7 left with about 27-28 people in a boat for 65; No. 2 with 25 of 40.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "Smithsonian Magazine: Photos of the Titanic tragedy from 101 years ago",
+    "url": "https://www.smithsonianmag.com/history/photos-of-the-titanic-tragedy-from-101-years-ago-19446446/",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "news"
+   }
+  ],
+  "qualification": "narration says 'many half empty' (approximate, not all boats)",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C06",
+  "claim": "The sea temperature that night was about -2 C (28 F), below freezing for fresh water (sea water freezes lower).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Cruise Hive: How cold was the water when the Titanic sank?",
+    "url": "https://cruisehive.com/how-cold-was-the-water-when-the-titanic-sank/87766",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "other"
+   },
+   {
+    "title": "Encyclopedia Titanica forum: Temperature of water",
+    "url": "https://www.encyclopedia-titanica.org/community/threads/temperature-of-water.8284/post-80285",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "other"
+   }
+  ],
+  "qualification": "commonly reported figure (28 F); some estimates differ, so narration says 'about minus two degrees'",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C07",
+  "claim": "Sudden immersion in cold water triggers the cold-shock response: an involuntary gasp and hyperventilation in roughly the first minute; a gasp with the head under water can inhale water and drown.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Canadian Safe Boating Council: the 1-10-1 principle",
+    "url": "https://csbc.ca/1-10-1-principle/",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "other"
+   },
+   {
+    "title": "SIRIUSMEDx: The 1-10-1 had it right",
+    "url": "https://www.siriusmedx.com/en_CA/blog/instructor-s-blog-5/the-1-10-1-had-it-right-52",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "other"
+   }
+  ],
+  "qualification": "'by itself' = involuntary reflex",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C08",
+  "claim": "The 1-10-1 rule: about 1 minute of cold shock, about 10 minutes of meaningful movement before the muscles of the arms and legs fail, about 1 hour before unconsciousness from hypothermia; the timings vary and are shorter in colder water.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Canadian Safe Boating Council: the 1-10-1 principle",
+    "url": "https://csbc.ca/1-10-1-principle/",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "other"
+   },
+   {
+    "title": "SIRIUSMEDx: The 1-10-1 had it right",
+    "url": "https://www.siriusmedx.com/en_CA/blog/instructor-s-blog-5/the-1-10-1-had-it-right-52",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "other"
+   }
+  ],
+  "qualification": "memory aid, not a stopwatch: narration says 'Ten minutes, maybe less'",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C09",
+  "claim": "Lifeboat No. 14, under Fifth Officer Harold Lowe, is described as the only lifeboat to go back to search for survivors after the sinking; it pulled a few people from the water (about four, one of whom died).",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Titanic Lifeboat No. 14",
+    "url": "https://en.wikipedia.org/wiki/Titanic_Lifeboat_No._14",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "US Senate Inquiry: testimony of Harold Lowe",
+    "url": "https://www.titanicinquiry.org/USInq/AmInq05Lowe02.php",
+    "read": "snippet",
+    "accessed": "2026-11-04",
+    "type": "primary-document"
+   }
+  ],
+  "qualification": "some accounts count Lifeboat 4 (picked up swimmers close by) as a second; narration: 'Only one comes back: Lifeboat fourteen' follows Wikipedia's wording",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C10",
+  "claim": "Charles Joughin, the ship's chief baker, testified that he was in the water for over two hours and survived, holding on to Collapsible B and later taken into another lifeboat.",
+  "category": "fact",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Wikipedia: Charles Joughin",
+    "url": "https://en.wikipedia.org/wiki/Charles_Joughin",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "Tim Maltin: Titanic Chief Baker Charles Joughin survived for several hours in the freezing water",
+    "url": "https://timmaltin.com/2019/05/07/joughin-baker-titanic/",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "other"
+   }
+  ],
+  "qualification": "his own account, uncorroborated; historians think his head and upper body stayed out of the water: narration says 'said he lasted about two hours'",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C11",
+  "claim": "Legend says whisky saved Joughin; in his testimony he spoke of a drink of liqueur; scientists say alcohol does not protect against cold water (it can speed heat loss).",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Charles Joughin",
+    "url": "https://en.wikipedia.org/wiki/Charles_Joughin",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   },
+   {
+    "title": "Tim Maltin: Titanic Chief Baker Charles Joughin survived for several hours in the freezing water",
+    "url": "https://timmaltin.com/2019/05/07/joughin-baker-titanic/",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "other"
+   }
+  ],
+  "qualification": "framed as legend; 'Scientists doubt it helped'",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C12",
+  "claim": "The ship's lights failed shortly before the final plunge (about 2:18 AM), and the hull broke apart between the third and fourth funnels; the stern rose high before sinking.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "picture only (the stern lights flicker out in shot 1)",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C13",
+  "claim": "The night was calm, clear, cold and moonless, with a sky full of stars.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "picture only",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C14",
+  "claim": "Titanic's fourth (aft) funnel was a dummy used mainly for ventilation.",
+  "category": "fact",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Wikipedia: Sinking of the Titanic",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "encyclopedia"
+   }
+  ],
+  "qualification": "picture only (Blender model)",
+  "usableInScript": true,
+  "notes": ""
+ },
+ {
+  "id": "C15",
+  "claim": "'Joughin was drunk out of his mind and that is why he survived.'",
+  "category": "legend",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Tim Maltin: Titanic Chief Baker Charles Joughin survived for several hours in the freezing water",
+    "url": "https://timmaltin.com/2019/05/07/joughin-baker-titanic/",
+    "read": "page",
+    "accessed": "2026-11-04",
+    "type": "other"
+   }
+  ],
+  "qualification": "NOT USED: Maltin calls it a myth; Joughin said he was not drunk",
+  "usableInScript": false,
+  "notes": "",
+  "debunked": true
+ }
+]

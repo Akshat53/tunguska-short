@@ -1,0 +1,519 @@
+{
+ "version": 1,
+ "seed": 1912,
+ "_doc": "Could YOU Survive? Ep 1 Titanic (English, Inkfall) sound design: frames are picture frames on stories/survive-titanic/en/words.json. Run audio/build_survive-titanic.sh. The hook bed returns at the end so the loop is seamless.",
+ "cues": [
+  {
+   "id": "sea-bed",
+   "at": 0,
+   "gen": "water",
+   "args": {
+    "close": 0.9
+   },
+   "post": [
+    [
+     "gain",
+     0.55
+    ]
+   ],
+   "note": "lapping water around you, the whole film",
+   "span": [
+    0,
+    1212
+   ]
+  },
+  {
+   "id": "wind",
+   "at": 0,
+   "gen": "breeze",
+   "args": {
+    "level": 0.1,
+    "bright": 500
+   },
+   "post": [],
+   "note": "cold night air",
+   "span": [
+    0,
+    1212
+   ]
+  },
+  {
+   "id": "cold-hum",
+   "at": 0,
+   "gen": "hum",
+   "args": {
+    "hz": 49.0,
+    "tone": 0.03,
+    "noise": 0.03
+   },
+   "post": [],
+   "note": "dread bed under the hook",
+   "span": [
+    0,
+    205
+   ]
+  },
+  {
+   "id": "gone",
+   "at": 30,
+   "gen": "boom",
+   "args": {
+    "dur": 1.6,
+    "f0": 38,
+    "big": 0.25
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "on 'gone'"
+  },
+  {
+   "id": "time",
+   "at": 90,
+   "gen": "glock",
+   "args": {
+    "midi": 86,
+    "level": 0.24
+   },
+   "post": [
+    [
+     "pan",
+     0.15
+    ]
+   ],
+   "note": "'Two-twenty A.M.'"
+  },
+  {
+   "id": "minus-two",
+   "at": 160,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     81,
+     77,
+     74
+    ],
+    "level": 0.2,
+    "spacing": 0.16,
+    "pan0": -0.2,
+    "pan_step": 0.2
+   },
+   "post": [],
+   "note": "falling 'minus two degrees'"
+  },
+  {
+   "id": "gasp-whoosh",
+   "at": 205,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.35,
+    "peak": 0.3,
+    "f_lo": 400,
+    "f_hi": 3000,
+    "width": 0.4,
+    "tail": 0.12
+   },
+   "post": [
+    [
+     "gain",
+     0.35
+    ]
+   ],
+   "note": "the gasp"
+  },
+  {
+   "id": "wave-in",
+   "at": 258,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.6,
+    "peak": 0.45,
+    "f_lo": 200,
+    "f_hi": 1800,
+    "width": 0.6,
+    "tail": 0.25
+   },
+   "post": [
+    [
+     "gain",
+     0.5
+    ]
+   ],
+   "note": "the wave rises"
+  },
+  {
+   "id": "wave-hit",
+   "at": 272,
+   "gen": "boom",
+   "args": {
+    "dur": 1.0,
+    "f0": 55,
+    "big": 0.2
+   },
+   "post": [],
+   "note": "the wave hits"
+  },
+  {
+   "id": "timer-tick",
+   "at": 212,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     88,
+     88,
+     88,
+     88,
+     88,
+     88,
+     88,
+     88,
+     88,
+     88
+    ],
+    "level": 0.1,
+    "spacing": 0.5,
+    "pan0": 0.3,
+    "pan_step": 0.0
+   },
+   "post": [],
+   "note": "the body timer ticking"
+  },
+  {
+   "id": "arms-stop",
+   "at": 428,
+   "gen": "glock",
+   "args": {
+    "midi": 74,
+    "level": 0.28
+   },
+   "post": [],
+   "note": "on 'working' (10:00)"
+  },
+  {
+   "id": "choice",
+   "at": 463,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     74,
+     77,
+     81
+    ],
+    "level": 0.24,
+    "spacing": 0.12,
+    "pan0": -0.3,
+    "pan_step": 0.3
+   },
+   "post": [],
+   "note": "the choice pill pops"
+  },
+  {
+   "id": "ship-groan",
+   "at": 470,
+   "gen": "rumble",
+   "args": {
+    "dur": 2.0,
+    "gain": 0.22,
+    "lo": 30,
+    "hi": 120,
+    "decay": 1.6
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "the tilting ship"
+  },
+  {
+   "id": "boat-away",
+   "at": 580,
+   "gen": "whoosh",
+   "args": {
+    "dur": 0.5,
+    "peak": 0.2,
+    "f_lo": 200,
+    "f_hi": 1200,
+    "width": 0.5,
+    "tail": 0.2
+   },
+   "post": [
+    [
+     "gain",
+     0.3
+    ]
+   ],
+   "note": "oars"
+  },
+  {
+   "id": "hope",
+   "at": 748,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     69,
+     74,
+     78,
+     81,
+     86
+    ],
+    "level": 0.24,
+    "spacing": 0.13,
+    "pan0": -0.3,
+    "pan_step": 0.15
+   },
+   "post": [],
+   "note": "'Lifeboat fourteen': hope"
+  },
+  {
+   "id": "baker",
+   "at": 790,
+   "gen": "glock",
+   "args": {
+    "midi": 79,
+    "level": 0.24
+   },
+   "post": [
+    [
+     "pan",
+     0.2
+    ]
+   ],
+   "note": "the baker appears"
+  },
+  {
+   "id": "whisky",
+   "at": 960,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     84,
+     81
+    ],
+    "level": 0.2,
+    "spacing": 0.22,
+    "pan0": 0.2,
+    "pan_step": -0.2
+   },
+   "post": [],
+   "note": "'whisky' wink"
+  },
+  {
+   "id": "doubt",
+   "at": 1000,
+   "gen": "boom",
+   "args": {
+    "dur": 0.9,
+    "f0": 60,
+    "big": 0.12
+   },
+   "post": [],
+   "note": "'Scientists doubt'"
+  },
+  {
+   "id": "ep2",
+   "at": 1072,
+   "gen": "notes",
+   "args": {
+    "midi": [
+     74,
+     78,
+     81,
+     86
+    ],
+    "level": 0.24,
+    "spacing": 0.14,
+    "pan0": -0.2,
+    "pan_step": 0.15
+   },
+   "post": [],
+   "note": "'Episode two'"
+  },
+  {
+   "id": "loop-hum",
+   "at": 1150,
+   "gen": "hum",
+   "args": {
+    "hz": 49.0,
+    "tone": 0.03,
+    "noise": 0.03
+   },
+   "post": [],
+   "note": "the hook bed returns (seamless loop)",
+   "span": [
+    1150,
+    1212
+   ]
+  },
+  {
+   "id": "stern-rumble",
+   "at": 60,
+   "gen": "rumble",
+   "args": {
+    "dur": 3.5,
+    "gain": 0.3,
+    "lo": 25,
+    "hi": 90,
+    "decay": 2.4
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "the stern groaning, far off"
+  },
+  {
+   "id": "lights-out",
+   "at": 150,
+   "gen": "boom",
+   "args": {
+    "dur": 1.4,
+    "f0": 42,
+    "big": 0.22
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "the lights go out"
+  },
+  {
+   "id": "plunge",
+   "at": 165,
+   "gen": "rumble",
+   "args": {
+    "dur": 2.2,
+    "gain": 0.35,
+    "lo": 22,
+    "hi": 80,
+    "decay": 1.6
+   },
+   "post": [
+    [
+     "widen"
+    ]
+   ],
+   "note": "the final plunge"
+  }
+ ],
+ "music": {
+  "chords": {
+   "Dm": [
+    50,
+    57,
+    62,
+    65,
+    69
+   ],
+   "F": [
+    53,
+    57,
+    60,
+    65,
+    69
+   ],
+   "Gm": [
+    55,
+    58,
+    62,
+    67,
+    70
+   ],
+   "A": [
+    57,
+    61,
+    64,
+    69,
+    73
+   ],
+   "Bb": [
+    58,
+    62,
+    65,
+    70,
+    74
+   ],
+   "C": [
+    48,
+    55,
+    60,
+    64,
+    67
+   ]
+  },
+  "bass": {
+   "Dm": 38,
+   "F": 41,
+   "Gm": 43,
+   "A": 45,
+   "Bb": 46,
+   "C": 36
+  },
+  "arp_step": 0.25,
+  "arp_level": 0.5,
+  "beats": [
+   {
+    "name": "hook",
+    "shots": [
+     1,
+     2
+    ],
+    "chord": "Dm",
+    "level": 0.8
+   },
+   {
+    "name": "shock",
+    "shots": [
+     3,
+     5
+    ],
+    "chord": "Gm",
+    "level": 0.75
+   },
+   {
+    "name": "choice",
+    "shots": [
+     6,
+     6
+    ],
+    "chord": "A",
+    "level": 0.7
+   },
+   {
+    "name": "boats",
+    "shots": [
+     7,
+     9
+    ],
+    "chord": "Bb",
+    "level": 0.75
+   },
+   {
+    "name": "baker",
+    "shots": [
+     10,
+     12
+    ],
+    "chord": "F",
+    "level": 0.6
+   },
+   {
+    "name": "loop",
+    "shots": [
+     13,
+     13
+    ],
+    "chord": "Dm",
+    "level": 0.75
+   }
+  ]
+ },
+ "master": {
+  "fade_in": 0.02,
+  "fade_out": 0.2
+ }
+}

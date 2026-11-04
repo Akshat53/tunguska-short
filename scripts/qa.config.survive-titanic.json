@@ -1,0 +1,146 @@
+{
+ "_doc": "Visual QA config for Could YOU Survive? Ep 1 Titanic (English, Inkfall). Frames are STORY frames (= picture frames; identity warp). No-card layout (NO_INTRO=1): picture from frame 0, then the 1.5 s global end card. See docs/VISUAL_QA.md.",
+ "story": "src/videos/survive-titanic/story.ts",
+ "storyboard": "src/videos/survive-titanic/storyboard.json",
+ "warp": "src/videos/survive-titanic/warp.json",
+ "width": 1080,
+ "height": 1920,
+ "bookends": {
+  "intro": 0,
+  "outro": 45
+ },
+ "bookendWhiteFadeIn": 0,
+ "dofEnabledInRender": false,
+ "minClearance": 0.3,
+ "plannedPad": 2,
+ "subjectGeometry": {
+  "you": {
+   "below": 0.1,
+   "above": 0.45,
+   "halfWidth": 0.45
+  },
+  "sea": {
+   "below": 0.3,
+   "above": 1.0,
+   "halfWidth": 6
+  },
+  "ship": {
+   "below": 18,
+   "above": 24,
+   "halfWidth": 60
+  },
+  "boat": {
+   "below": 0.6,
+   "above": 1.2,
+   "halfWidth": 4
+  },
+  "boat14": {
+   "below": 0.9,
+   "above": 1.5,
+   "halfWidth": 4
+  },
+  "baker": {
+   "below": 0.1,
+   "above": 0.5,
+   "halfWidth": 0.45
+  },
+  "pair": {
+   "below": 0.6,
+   "above": 0.6,
+   "halfWidth": 1.2
+  },
+  "stern": {
+   "below": 30,
+   "above": 45,
+   "halfWidth": 45
+  },
+  "hands": {
+   "below": 0.2,
+   "above": 0.2,
+   "halfWidth": 0.35
+  }
+ },
+ "shots": {
+  "1": {
+   "subjects": [
+    "you"
+   ],
+   "fill": null
+  },
+  "2": {
+   "subjects": [
+    "stern"
+   ],
+   "fill": null
+  },
+  "3": {
+   "subjects": [
+    "you"
+   ],
+   "fill": null
+  },
+  "4": {
+   "subjects": [
+    "you"
+   ],
+   "fill": null
+  },
+  "5": {
+   "subjects": [
+    "hands"
+   ],
+   "fill": null
+  },
+  "6": {
+   "subjects": [
+    "ship"
+   ],
+   "fill": null
+  },
+  "7": {
+   "subjects": [
+    "boat"
+   ],
+   "fill": null
+  },
+  "8": {
+   "subjects": [
+    "boat14"
+   ],
+   "fill": null
+  },
+  "9": {
+   "subjects": [
+    "you"
+   ],
+   "fill": null
+  },
+  "10": {
+   "subjects": [
+    "pair"
+   ],
+   "fill": null
+  },
+  "11": {
+   "subjects": [
+    "baker"
+   ],
+   "fill": null
+  },
+  "12": {
+   "subjects": [
+    "you"
+   ],
+   "fill": null
+  },
+  "13": {
+   "subjects": [
+    "you"
+   ],
+   "fill": null
+  }
+ },
+ "audioSync": {
+  "noAudioExpected": []
+ }
+}

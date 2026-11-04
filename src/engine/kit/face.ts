@@ -69,6 +69,9 @@ export type FaceOpts = {
   expr?: Expr; turn?: number; blink?: number; look?: [number, number]; talk?: { open: number; round: number };
   skin: string; brows: string; lashes?: boolean; age?: number; blush?: boolean; light?: number;
   tears?: number; t?: number;              // tears 0..1: streaks down both cheeks + drops (t = seconds, drives the drops)
+  eyeScale?: number;                       // opt-in (mascot.ts): bigger eyes; default 1 = unchanged
+  noMouth?: boolean;                       // opt-in (mascot.ts): the caller draws its own mouth
+  noNose?: boolean;                        // opt-in (mascot.ts): the caller draws its own nose
 };
 /** draws the features on an already-drawn head. (cx, cy) = head centre, W/H = head size. */
 export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, o: FaceOpts) => {
@@ -87,7 +90,7 @@ export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, 
     p.g.beginPath(); p.g.ellipse(bx, by, 11 * u, 7 * u, 0, 0, TAU); p.g.fill();
   }
   // ---- eyes ----
-  const er = 10.5 * u, eh = 12.5 * u;
+  const es = o.eyeScale ?? 1, er = 10.5 * u * es, eh = 12.5 * u * es;
   const eyes: { x: number; k: number; side: number }[] = [];
   if (prof) eyes.push({ x: cx + sgn * 0.3 * W, k: 0.62, side: sgn });
   else for (const side of [-1, 1]) {
@@ -109,7 +112,7 @@ export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, 
       p.g.fillStyle = "#ffffff"; p.g.fillRect(e.x - rx, ey - ry, 2 * rx, 2 * ry);
       // iris + pupil + catch-lights
       const ix = e.x + (look[0] + (prof ? sgn * 0.35 : turn * 0.25)) * rx * 0.55, iy = ey + look[1] * ry * 0.4 + 0.08 * ry;
-      const ir = 7.8 * u * Math.min(1, e.k + 0.25);
+      const ir = 7.8 * u * es * Math.min(1, e.k + 0.25);
       p.g.fillStyle = p.rad(ix, iy, ir, [[0, "#6b4426"], [0.55, "#4a2c18"], [1, "#24140c"]]);
       p.g.beginPath(); p.g.ellipse(ix, iy, ir * Math.min(1, e.k + 0.1), ir, 0, 0, TAU); p.g.fill();
       p.dot(ix, iy, ir * 0.48, "#120a06");
@@ -169,7 +172,7 @@ export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, 
   }
   // ---- nose ----
   const nyy = cy + 0.22 * H;
-  if (prof) {
+  if (o.noNose) { /* caller draws the nose */ } else if (prof) {
     // nose is part of the head contour (people.ts); add the nostril tick
     p.stroke([[cx + sgn * 0.47 * W, nyy + 1 * u], [cx + sgn * 0.43 * W, nyy + 2.5 * u]], 2.2 * u);
   } else {
@@ -180,6 +183,7 @@ export const drawFace = (p: KPen, cx: number, cy: number, W: number, H: number, 
     else p.stroke(ellPts(nx, nyy - 1 * u, 5 * u, 3.4 * u, 20, 160, 0, 8), 2.4 * u);
   }
   // ---- mouth ----
+  if (o.noMouth) { void noise1; void rot2; return; }
   const M = F.mouth, open = Math.max(M.open, talk.open), round = Math.max(M.round ?? 0, talk.round * (talk.open > 0.1 ? 1 : 0));
   const mx = prof ? cx + sgn * 0.33 * W : fx + turn * 0.04 * W, my = cy + 0.34 * H;
   const mw = 12.5 * u * M.width * (1 - 0.3 * at) * (1 - 0.45 * round), c = M.curve * 5 * u;

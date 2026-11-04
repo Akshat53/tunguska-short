@@ -1,0 +1,36 @@
+RHYTHM REPORT — verdict PASS
+duration 33.1 s (estimate) | 86 words | 2.6 words/s (speech-only 2.6) | 17 sentences
+sentence length: mean 5.06 std 2.58 CV 0.51 (healthy 0.35-0.9) min 2 max 11
+histogram: 1-3:######6  4-6:########8  7-10:##2  11-15:#1  16-20:0  21+:0
+pauses: 0 totalling 0.0 s, mean 0 s; longest run without a pause 33.1 s
+ellipses 0 | questions 2 (unanswered: none) | density mean 0.47 max 3
+hook (first 3 s): "The Titanic's gone. You're in the water. Two-twenty" -> 7/10 (first sentence 3 words (good); concrete name/number)
+intensity per 5 s: ▄▄▃▄▄▄▄  [5.4, 4.5, 3.5, 5.0, 5.5, 5.5, 5.2]  peak S13 at 26.5 s
+script mix: Devanagari 0 | Roman 86 | numeric 0 | Roman share 100%
+
+sentences:
+  S1     0.0s   3w  int  6.5  The Titanic's gone.
+  S2     1.1s   4w  int  4.5  You're in the water.
+  S3     2.7s   2w  int  6.0  Two-twenty A.M.
+  S4     3.5s   6w  int  4.5  The sea's about minus two degrees.
+  S5     5.8s   5w  int  4.5  Your body gasps by itself.
+  S6     7.7s   5w  int  4.5  Under a wave, that's deadly.
+  S7     9.6s   9w  int  3.0  Ten minutes, maybe less, and your arms stop working.
+  S8    13.1s   9w  int  4.0  Would you jump early, or stay on the ship?
+  S9    16.5s   2w  int  5.5  Comment below.
+  S10   17.3s   6w  int  4.5  Lifeboats float nearby, many half empty.
+  S11   19.6s   6w  int  6.0  Only one comes back: Lifeboat fourteen.
+  S12   21.9s  11w  int  5.0  Yet chief baker Charles Joughin said he lasted about two hours.
+  S13   26.1s   2w  int  6.5  His secret?
+  S14   26.9s   3w  int  5.5  Legend says whisky.
+  S15   28.1s   4w  int  4.5  Scientists doubt it helped.
+  S16   29.6s   3w  int  6.0  Episode two: Pompeii.
+  S17   30.8s   6w  int  4.5  Follow, so you don't miss it.
+
+FINDINGS + REWRITE SUGGESTIONS:
+  [MEDIUM] NO_BEAT              S1,S2,S3,S4,S5,S6,S7,S8…: 33 s of continuous speech without a pause (0.0-33.1 s)
+           -> add [pause 0.3] after S1 (the strongest line in the stretch) or a blank-line beat break.
+  [MEDIUM] DENSE                S12: S12 packs 3 new names/numbers (Charles Joughin, Joughin, Charles)
+           -> give each number its own beat, round or drop the least important one, or move a name to the visual.
+  [LOW   ] REPEATED_STRUCTURE   S4,S5,S6: S4-S6 have the same length band and ending
+           -> change one: add a question, a contrast (लेकिन/पर), or a longer descriptive line.
